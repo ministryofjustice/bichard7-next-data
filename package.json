@@ -1,0 +1,43 @@
+{
+  "name": "bichard7-next-data",
+  "version": "1.0.0",
+  "description": "The data for Bichard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ministryofjustice/bichard7-next-data.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ministryofjustice/bichard7-next-data/issues"
+  },
+  "homepage": "https://github.com/ministryofjustice/bichard7-next-data#readme",
+  "dependencies": {
+    "eslint-config-airbnb-typescript": "^16.1.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-jest": "^26.1.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.5.1",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.9.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.4"
+  },
+  "lint-staged": {
+    "*.{js,ts}": "eslint --cache --fix"
+  }
+}
