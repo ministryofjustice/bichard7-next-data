@@ -12,6 +12,11 @@
     "noUnusedParameters": true,
     "resolveJsonModule": true,
     "strictNullChecks": true,
-    "strictPropertyInitialization": false
-  }
+    "strictPropertyInitialization": false,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "node_modules/@types/puppeteer/index.d.ts"
+  ]
 }
