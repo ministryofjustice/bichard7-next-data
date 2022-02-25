@@ -2,18 +2,18 @@ import * as XLSX from "ts-xlsx"
 import { OffenceCode } from "../types/OffenceCode"
 
 export type CjsOffenceCode = {
-  "CJS Offence Code": string,
-  "Offence Title": string,
-  "Offence Category Code": string,
-  "Custodial Indicator": string,
+  "CJS Offence Code": string
+  "Offence Title": string
+  "Offence Category Code": string
+  "Custodial Indicator": string
   "Recordable On PNC Indicator": string
 }
 
-export async function convertOds(data: Buffer): Promise<OffenceCode[]> {
+export default (data: Buffer): OffenceCode[] => {
   const workbook = XLSX.read(data)
 
   if (workbook.SheetNames.length !== 1) {
-    throw new Error("Unexpected number of sheets in workbook")
+    throw new Error(`Unexpected number of sheets [${workbook.SheetNames.length}] in workbook`)
   }
 
   const worksheet = workbook.Sheets[workbook.SheetNames[0]]

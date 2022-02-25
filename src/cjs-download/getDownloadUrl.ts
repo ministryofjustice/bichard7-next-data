@@ -6,7 +6,13 @@ const downloadLinkRegex = /https:\/\/.*cjs-offence-index.*ods/
 export default (): Promise<string> => axios({
   url: dataStandardsUrl,
   method: "GET",
-  responseType: "text",
+  responseType: "text"
 })
   .then((response) => response.data)
-  .then((xhtml) => downloadLinkRegex.exec(xhtml)![0])
+  .then((xhtml) => {
+    const regexResult = downloadLinkRegex.exec(xhtml)
+    if (regexResult && regexResult[0]) {
+      return regexResult[0]
+    }
+    throw new Error("Could not find download URL")
+  })
