@@ -33,7 +33,6 @@
     "eslint-config-prettier": "^8.4.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jest": "^26.1.1",
-    "eslint-plugin-prettier": "^4.0.0",
     "fast-xml-parser": "^4.0.3",
     "husky": "^7.0.4",
     "jest": "^27.5.1",
@@ -49,5 +48,8 @@
   },
   "lint-staged": {
     "*.{js,ts}": "eslint --cache --fix"
+  },
+  "devDependencies": {
+    "eslint-plugin-prettier": "^4.0.0"
   }
 }
