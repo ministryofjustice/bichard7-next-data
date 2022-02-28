@@ -1,9 +1,10 @@
+import config from "./config"
 import googleSheets from "./sheetsApi"
 
 export default async () => {
-  const sheets = googleSheets()
+  const sheets = googleSheets(config)
   const spreadsheetId = "1JJh0eZjW8fUOA-_RwMGT9xZlXs6FQFkGgZKUshxr8jU"
-  const valuesRange = "Requested changes from form!C:L"
+  const valuesRange = "offenceCodeData" // Named range from the sheet
 
   const res = await sheets.spreadsheets.values.get({ spreadsheetId, range: valuesRange })
   return res.data

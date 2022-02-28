@@ -1,12 +1,9 @@
 import { google } from "googleapis"
+import type { RequestedChangesConfig } from "./config"
 
-export default function googleSheets() {
-  const credentialsPath = process.env.GOOGLE_APPLICATION_CREDENTIALS
-  if (!credentialsPath) {
-    throw new Error("The $GOOGLE_APPLICATION_CREDENTIALS environment variable must be set")
-  }
+export default function googleSheets(config: RequestedChangesConfig) {
   // eslint-disable-next-line global-require, import/no-dynamic-require
-  const credentials = require(credentialsPath)
+  const credentials = require(config.credentialsFile)
 
   const auth = new google.auth.JWT({
     email: credentials.client_email,
