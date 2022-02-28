@@ -1,4 +1,5 @@
 import { google, sheets_v4 as sheetsApi } from "googleapis"
+import * as fs from "fs"
 import type { RequestedChangesConfig } from "./config"
 
 export type OffenceCodeRow = {
@@ -8,6 +9,7 @@ export type OffenceCodeRow = {
   scope: string
   category: string
   startDate: string
+  endDate?: string
   title: string
   legislation: string
 }
@@ -20,8 +22,14 @@ export default class SheetsClient {
   constructor(options: RequestedChangesConfig) {
     this.config = options
 
-    // eslint-disable-next-line global-require, import/no-dynamic-require
-    const credentials = require(this.config.credentialsFile)
+    const credentials = JSON.parse(fs.readFileSync(this.config.credentialsFile).toString())
+    const requiredProperties = ["client_email", "private_key"]
+    requiredProperties.forEach((requiredProperty) => {
+      if (!credentials[requiredProperty]) {
+        throw Error(`Credentials file must specify ${requiredProperty}`)
+      }
+    })
+
     const auth = new google.auth.JWT({
       email: credentials.client_email,
       key: credentials.private_key,
@@ -47,8 +55,9 @@ export default class SheetsClient {
         scope: row[3],
         category: row[4],
         startDate: row[5],
-        title: row[6],
-        legislation: row[7]
+        endDate: row[6] ? row[6] : undefined,
+        title: row[7],
+        legislation: row[8]
       }
     })
   }

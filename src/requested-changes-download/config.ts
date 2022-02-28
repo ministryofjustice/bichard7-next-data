@@ -5,7 +5,7 @@ export type RequestedChangesConfig = {
 }
 
 if (!process.env.GOOGLE_API_CREDENTIALS) {
-  throw new Error("GOOGLE_API_CREDENTIALS environment variable is not set")
+  throw Error("GOOGLE_API_CREDENTIALS environment variable is not set")
 }
 
 const config: RequestedChangesConfig = {
