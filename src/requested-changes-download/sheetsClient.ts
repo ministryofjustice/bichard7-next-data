@@ -1,0 +1,55 @@
+import { google, sheets_v4 as sheetsApi } from "googleapis"
+import type { RequestedChangesConfig } from "./config"
+
+export type OffenceCodeRow = {
+  recordableOnPnc: string
+  requestFrom: string
+  cjsCode: string
+  scope: string
+  category: string
+  startDate: string
+  title: string
+  legislation: string
+}
+
+export default class SheetsClient {
+  config: RequestedChangesConfig
+
+  sheetsClient: sheetsApi.Sheets
+
+  constructor(options: RequestedChangesConfig) {
+    this.config = options
+
+    // eslint-disable-next-line global-require, import/no-dynamic-require
+    const credentials = require(this.config.credentialsFile)
+    const auth = new google.auth.JWT({
+      email: credentials.client_email,
+      key: credentials.private_key,
+      scopes: ["https://www.googleapis.com/auth/spreadsheets.readonly"]
+    })
+    this.sheetsClient = google.sheets({ version: "v4", auth })
+  }
+
+  async retrieveOffenceCodeRows(): Promise<OffenceCodeRow[]> {
+    const rowsRaw = await this.sheetsClient.spreadsheets.values
+      .get({ spreadsheetId: this.config.spreadsheetId, range: this.config.valuesRange })
+      .then((res) => res.data)
+
+    if (!rowsRaw.values) {
+      throw Error("Failed to retrieve offence code data from the Google Sheets API")
+    }
+
+    return rowsRaw.values!.map((row) => {
+      return <OffenceCodeRow>{
+        recordableOnPnc: row[0],
+        requestFrom: row[1],
+        cjsCode: row[2],
+        scope: row[3],
+        category: row[4],
+        startDate: row[5],
+        title: row[6],
+        legislation: row[7]
+      }
+    })
+  }
+}
