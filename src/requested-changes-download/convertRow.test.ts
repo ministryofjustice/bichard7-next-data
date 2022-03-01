@@ -29,4 +29,20 @@ describe("convertRow", () => {
       resultHalfLifeHours: null
     })
   })
+
+  it("Should reject long offence categories", () => {
+    const row = <OffenceCodeRow>{
+      recordableOnPnc: "Yes",
+      requestFrom: "London",
+      cjsCode: "BC12345",
+      scope: "National",
+      category: "LONGCATEGORY",
+      startDate: "01/03/2022",
+      endDate: undefined,
+      title: "Wearing a silly hat",
+      legislation: "Wearing a hat that is excessively silly in violation of the Silly Hat Order 2022"
+    }
+
+    expect(() => convertRow(row)).toThrowError(/^Invalid offence category/)
+  })
 })
