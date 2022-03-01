@@ -37,6 +37,7 @@
     "googleapis": "^95.0.0",
     "husky": "^7.0.4",
     "jest": "^27.5.1",
+    "jest-extended": "^2.0.0",
     "jsonlint-mod": "^1.7.6",
     "lint-staged": "^12.3.4",
     "lodash": "^4.17.21",
