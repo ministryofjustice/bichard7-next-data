@@ -6,14 +6,10 @@ describe("convertRow", () => {
   it("Should parse an offence code out of a well-formed row", () => {
     const row = <OffenceCodeRow>{
       recordableOnPnc: "Yes",
-      requestFrom: "London",
       cjsCode: "BC12345",
-      scope: "National",
       category: "CE",
-      startDate: "17/02/2022",
-      endDate: undefined,
       title: "Wearing a silly hat",
-      legislation: "Wearing a hat that is excessively silly in violation of the Silly Hat Order 2022"
+      submitted: new Date()
     }
 
     const offenceCode = convertRow(row)
@@ -33,14 +29,9 @@ describe("convertRow", () => {
   it("Should reject long offence categories", () => {
     const row = <OffenceCodeRow>{
       recordableOnPnc: "Yes",
-      requestFrom: "London",
       cjsCode: "BC12345",
-      scope: "National",
       category: "LONGCATEGORY",
-      startDate: "01/03/2022",
-      endDate: undefined,
-      title: "Wearing a silly hat",
-      legislation: "Wearing a hat that is excessively silly in violation of the Silly Hat Order 2022"
+      title: "Wearing a silly hat"
     }
 
     expect(() => convertRow(row)).toThrowError(/^Invalid offence category/)

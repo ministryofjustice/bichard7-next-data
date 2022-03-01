@@ -3,15 +3,11 @@ import * as fs from "fs"
 import type { RequestedChangesConfig } from "./config"
 
 export type OffenceCodeRow = {
-  recordableOnPnc: string
-  requestFrom: string
   cjsCode: string
-  scope: string
+  recordableOnPnc: string
   category: string
-  startDate: string
-  endDate?: string
   title: string
-  legislation: string
+  submitted: Date
 }
 
 export default class SheetsClient {
@@ -39,25 +35,23 @@ export default class SheetsClient {
   }
 
   async retrieveOffenceCodeRows(): Promise<OffenceCodeRow[]> {
-    const rowsRaw = await this.sheetsClient.spreadsheets.values
+    const rows = await this.sheetsClient.spreadsheets.values
       .get({ spreadsheetId: this.config.spreadsheetId, range: this.config.valuesRange })
       .then((res) => res.data)
 
-    if (!rowsRaw.values) {
+    if (rows.values) {
+      console.log(`Retrieved ${rows.values.length} rows of offence data from spreadsheet ${this.config.spreadsheetId}`)
+    } else {
       throw Error("Failed to retrieve offence code data from the Google Sheets API")
     }
 
-    return rowsRaw.values!.map((row) => {
+    return rows.values!.map((row) => {
       return <OffenceCodeRow>{
-        recordableOnPnc: row[0],
-        requestFrom: row[1],
         cjsCode: row[2],
-        scope: row[3],
+        recordableOnPnc: row[3],
         category: row[4],
-        startDate: row[5],
-        endDate: row[6] ? row[6] : undefined,
-        title: row[7],
-        legislation: row[8]
+        title: row[5],
+        submitted: new Date(row[0])
       }
     })
   }

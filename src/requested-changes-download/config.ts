@@ -10,7 +10,7 @@ if (!process.env.GOOGLE_API_CREDENTIALS) {
 
 const config: RequestedChangesConfig = {
   credentialsFile: process.env.GOOGLE_API_CREDENTIALS,
-  spreadsheetId: process.env.SPREADSHEET_ID || "1JJh0eZjW8fUOA-_RwMGT9xZlXs6FQFkGgZKUshxr8jU",
+  spreadsheetId: process.env.SPREADSHEET_ID || "1FjhX66V4RcoeRddmSxNx6mJJrywISrI3hUAP1IvGLkI",
   valuesRange: process.env.VALUES_RANGE || "offenceCodeData"
 }
 
