@@ -74,7 +74,7 @@ describe("mergeRequests", () => {
         submitted: new Date("2022/02/28 15:53:15")
       },
       {
-        cjsCode: "BC12345",
+        cjsCode: "BC34567",
         recordableOnPnc: "N",
         category: "EF",
         title: "Having a conversation in a cinema",
@@ -92,6 +92,6 @@ describe("mergeRequests", () => {
     const mergedRequests = mergeRequests(requests)
 
     expect(mergedRequests).toHaveLength(3)
-    expect(mergedRequests).toContain([requests[1], requests[2], requests[3]])
+    expect(mergedRequests).toIncludeSameMembers([requests[1], requests[2], requests[3]])
   })
 })

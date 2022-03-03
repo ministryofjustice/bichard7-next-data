@@ -12,7 +12,7 @@ export default (offenceCodes: OffenceCodeRow[]): OffenceCodeRow[] => {
     ],
     ["desc"]
   )
-  return lodash.sortedUniqBy(sorted, (code) => {
+  return lodash.uniqBy(sorted, (code) => {
     return code.cjsCode
   })
 }
