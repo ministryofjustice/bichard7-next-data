@@ -1,5 +1,6 @@
 import { google, sheets_v4 as sheetsApi } from "googleapis"
 import * as fs from "fs"
+import type { JWT } from "google-auth-library"
 import type { RequestedChangesConfig } from "./config"
 
 export type OffenceCodeRow = {
@@ -10,6 +11,28 @@ export type OffenceCodeRow = {
   submitted: Date
 }
 
+function JWTFromCredentialsFile(fileName: string): JWT {
+  console.log(`Authenticating to google API with credentials from file ${fileName}`)
+  const credentials = JSON.parse(fs.readFileSync(fileName).toString())
+  const requiredProperties = ["client_email", "private_key"]
+  requiredProperties.forEach((requiredProperty) => {
+    if (!credentials[requiredProperty]) {
+      throw Error(`Credentials file must specify ${requiredProperty}`)
+    }
+  })
+
+  return new google.auth.JWT({
+    email: credentials.client_email,
+    key: credentials.private_key,
+    scopes: ["https://www.googleapis.com/auth/spreadsheets.readonly"]
+  })
+}
+
+function JWTFromApiKey(apiKey: string): JWT {
+  console.log(`Authenticating to google API with API key ${apiKey}`)
+  return google.auth.fromAPIKey(apiKey)
+}
+
 export default class SheetsClient {
   config: RequestedChangesConfig
 
@@ -18,19 +41,10 @@ export default class SheetsClient {
   constructor(options: RequestedChangesConfig) {
     this.config = options
 
-    const credentials = JSON.parse(fs.readFileSync(this.config.credentialsFile).toString())
-    const requiredProperties = ["client_email", "private_key"]
-    requiredProperties.forEach((requiredProperty) => {
-      if (!credentials[requiredProperty]) {
-        throw Error(`Credentials file must specify ${requiredProperty}`)
-      }
-    })
+    const auth = this.config.credentialsFile
+      ? JWTFromCredentialsFile(this.config.credentialsFile)
+      : JWTFromApiKey(this.config.apiKey!)
 
-    const auth = new google.auth.JWT({
-      email: credentials.client_email,
-      key: credentials.private_key,
-      scopes: ["https://www.googleapis.com/auth/spreadsheets.readonly"]
-    })
     this.sheetsClient = google.sheets({ version: "v4", auth })
   }
 

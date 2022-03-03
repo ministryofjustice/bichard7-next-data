@@ -34,6 +34,7 @@
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jest": "^26.1.1",
     "fast-xml-parser": "^4.0.3",
+    "google-auth-library": "^7.14.0",
     "googleapis": "^95.0.0",
     "husky": "^7.0.4",
     "jest": "^27.5.1",
