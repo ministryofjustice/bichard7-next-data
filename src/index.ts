@@ -4,8 +4,7 @@ import requestedChangesDownload from "./requested-changes-download"
 
 const main = async () => {
   await pnldDownload()
-  const res = await requestedChangesDownload()
-  console.log(res)
+  await requestedChangesDownload()
 }
 
 main()
