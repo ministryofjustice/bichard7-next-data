@@ -51,9 +51,7 @@ export default class SheetsClient {
       .get({ spreadsheetId: this.config.spreadsheetId, range: this.config.valuesRange })
       .then((res) => res.data.values ?? [])
 
-    if (rows) {
-      console.log(`Retrieved ${rows.length} rows of offence data from spreadsheet ${this.config.spreadsheetId}`)
-    } else {
+    if (!rows) {
       throw Error("Failed to retrieve offence code data from the Google Sheets API")
     }
 
