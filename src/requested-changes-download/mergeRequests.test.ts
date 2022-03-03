@@ -33,7 +33,7 @@ describe("mergeRequests", () => {
     expect(mergedRequests).toIncludeSameMembers(requests)
   })
 
-  it("Should prioritise newer requests with the same offence code", () => {
+  it("Should deduplicate two requests for the same code, preferring the newer update", () => {
     const requests = <OffenceCodeRow[]>[
       {
         cjsCode: "BC12345",
@@ -53,7 +53,45 @@ describe("mergeRequests", () => {
 
     const mergedRequests = mergeRequests(requests)
 
-    expect(mergedRequests).toBeArrayOfSize(1)
+    expect(mergedRequests).toHaveLength(1)
     expect(mergedRequests).toContain(requests[1])
+  })
+
+  it("Should deduplicate requests for the same code in a long list of requests", () => {
+    const requests = <OffenceCodeRow[]>[
+      {
+        cjsCode: "BC12345",
+        recordableOnPnc: "N",
+        category: "CE",
+        title: "Wearing a silly hat",
+        submitted: new Date("2022/02/24 15:17:37")
+      },
+      {
+        cjsCode: "BC23456",
+        recordableOnPnc: "Y",
+        category: "CI",
+        title: "Putting pineapple on pizza",
+        submitted: new Date("2022/02/28 15:53:15")
+      },
+      {
+        cjsCode: "BC12345",
+        recordableOnPnc: "N",
+        category: "EF",
+        title: "Having a conversation in a cinema",
+        submitted: new Date("2022/02/28 17:42:57")
+      },
+      {
+        cjsCode: "BC12345",
+        recordableOnPnc: "Y",
+        category: "CS",
+        title: "Wearing a VERY silly hat",
+        submitted: new Date("2022/03/03 10:05:46")
+      }
+    ]
+
+    const mergedRequests = mergeRequests(requests)
+
+    expect(mergedRequests).toHaveLength(3)
+    expect(mergedRequests).toContain([requests[1], requests[2], requests[3]])
   })
 })

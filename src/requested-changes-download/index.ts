@@ -1,10 +1,12 @@
 import config from "./config"
-import SheetsClient from "./sheetsClient"
 import convertRow from "./convertRow"
+import mergeRequests from "./mergeRequests"
+import SheetsClient from "./sheetsClient"
 
 export default async () => {
-  const rows = await new SheetsClient(config).retrieveOffenceCodeRows()
-  const offenceCodes = rows.map(convertRow)
+  const allRows = await new SheetsClient(config).retrieveOffenceCodeRows()
+  const deduplicatedRows = mergeRequests(allRows)
+  const offenceCodes = deduplicatedRows.map(convertRow)
 
   return offenceCodes
 }

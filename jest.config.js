@@ -5,5 +5,6 @@ module.exports = {
   modulePathIgnorePatterns: ["node_modules", "build"],
   moduleNameMapper: {
     "src/(.*)": "<rootDir>/src/$1"
-  }
+  },
+  setupFilesAfterEnv: ["jest-extended/all"]
 }
