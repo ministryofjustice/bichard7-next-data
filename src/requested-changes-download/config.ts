@@ -6,7 +6,7 @@ export type RequestedChangesConfig = {
 }
 
 const config: RequestedChangesConfig = {
-  spreadsheetId: process.env.SPREADSHEET_ID || "1FjhX66V4RcoeRddmSxNx6mJJrywISrI3hUAP1IvGLkI",
+  spreadsheetId: process.env.SPREADSHEET_ID || "1cmfnRg6Hjt5nKWkhhzDfEs3bX6EI0kxc7RI1iL_Zr48",
   valuesRange: process.env.VALUES_RANGE || "offenceCodeData"
 }
 
