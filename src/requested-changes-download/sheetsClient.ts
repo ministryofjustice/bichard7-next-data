@@ -12,7 +12,6 @@ export type OffenceCodeRow = {
 }
 
 function JWTFromCredentialsFile(fileName: string): JWT {
-  console.log(`Authenticating to google API with credentials from file ${fileName}`)
   const credentials = JSON.parse(fs.readFileSync(fileName).toString())
   const requiredProperties = ["client_email", "private_key"]
   requiredProperties.forEach((requiredProperty) => {
@@ -29,7 +28,6 @@ function JWTFromCredentialsFile(fileName: string): JWT {
 }
 
 function JWTFromApiKey(apiKey: string): JWT {
-  console.log(`Authenticating to google API with API key ${apiKey}`)
   return google.auth.fromAPIKey(apiKey)
 }
 
@@ -51,15 +49,15 @@ export default class SheetsClient {
   async retrieveOffenceCodeRows(): Promise<OffenceCodeRow[]> {
     const rows = await this.sheetsClient.spreadsheets.values
       .get({ spreadsheetId: this.config.spreadsheetId, range: this.config.valuesRange })
-      .then((res) => res.data)
+      .then((res) => res.data.values ?? [])
 
-    if (rows.values) {
-      console.log(`Retrieved ${rows.values.length} rows of offence data from spreadsheet ${this.config.spreadsheetId}`)
+    if (rows) {
+      console.log(`Retrieved ${rows.length} rows of offence data from spreadsheet ${this.config.spreadsheetId}`)
     } else {
       throw Error("Failed to retrieve offence code data from the Google Sheets API")
     }
 
-    return rows.values!.map((row) => {
+    return rows.map((row) => {
       return <OffenceCodeRow>{
         cjsCode: row[2],
         recordableOnPnc: row[3],
