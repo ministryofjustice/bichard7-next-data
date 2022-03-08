@@ -1,4 +1,4 @@
-import * as XLSX from "ts-xlsx"
+import * as XLSX from "xlsx"
 import { OffenceCode } from "../types/OffenceCode"
 import cjsCodeFilter from "../lib/cjsCodeFilter"
 
@@ -8,8 +8,8 @@ export type PncOffenceCode = {
   F: string
 }
 
-export default (fileName: string): OffenceCode[] => {
-  const workbook = XLSX.readFile(fileName)
+export default (fileContents: Buffer): OffenceCode[] => {
+  const workbook = XLSX.read(fileContents)
 
   if (workbook.SheetNames.length !== 1) {
     throw new Error(`Unexpected number of sheets [${workbook.SheetNames.length}] in workbook`)

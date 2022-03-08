@@ -1,2 +1,2 @@
-export default (cjsCode: string): boolean =>
-  cjsCode != null && cjsCode.length > 3 && cjsCode.length < 9
+export default (cjsCode: string | null): boolean =>
+  cjsCode != null && cjsCode.trim().length > 3 && cjsCode.trim().length < 9

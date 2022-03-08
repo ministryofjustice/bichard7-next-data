@@ -1,4 +1,4 @@
-import * as XLSX from "ts-xlsx"
+import * as XLSX from "xlsx"
 import { OffenceCode } from "../types/OffenceCode"
 
 export type CjsOffenceCode = {
