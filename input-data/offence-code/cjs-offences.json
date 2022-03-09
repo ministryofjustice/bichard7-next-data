@@ -961,7 +961,7 @@
   {
     "cjsCode": "AE71001",
     "offenceCategory": "CS",
-    "offenceTitle": "Employer fail to comply with an attachment of earnings order",
+    "offenceTitle": "Employer    fail to comply with an attachment of earnings order",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -5028,49 +5028,49 @@
   {
     "cjsCode": "AS03006",
     "offenceCategory": "CS",
-    "offenceTitle": "Sale of aerosol paint container to a person under sixteen - A-s.B. Act 2003",
+    "offenceTitle": "Sale of aerosol paint    container to a person under sixteen - A-s.B. Act 2003",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "AS03007",
     "offenceCategory": "CS",
-    "offenceTitle": "Failure to take action in accordance with a remedial notice - A-s.B. Act 2003",
+    "offenceTitle": "Failure to take action in    accordance with a remedial notice - A-s.B. Act 2003",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "AS03008",
     "offenceCategory": "CS",
-    "offenceTitle": "Continue to fail to comply with a remedial notice - A-s.B. Act 2003",
+    "offenceTitle": "Continue to fail to comply with a    remedial notice - A-s.B. Act 2003",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "AS03009",
     "offenceCategory": "CS",
-    "offenceTitle": "Continue to fail to comply with a remedial notice after conviction - A-s.B. Act 2003",
+    "offenceTitle": "Continue to fail to comply with a    remedial notice after conviction - A-s.B. Act 2003",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "AS03010",
     "offenceCategory": "CS",
-    "offenceTitle": "Wilful obstruction of a person exercising section 77 powers - A-s.B. Act 2003",
+    "offenceTitle": "Wilful obstruction of a person    exercising section 77 powers - A-s.B. Act 2003",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "AS03012",
     "offenceCategory": "CS",
-    "offenceTitle": "Obstruct person exercising power of entry for purpose of a complaint re high hedges - A-s.B. Act 2003",
+    "offenceTitle": "Obstruct person exercising power    of entry for purpose of a complaint re high hedges - A-s.B. Act 2003",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "AS03013",
     "offenceCategory": "CS",
-    "offenceTitle": "Obstruct a person exercising a power of entry for the purpose of a remedial notice re high hedges - A-s.B. Act 2003",
+    "offenceTitle": "Obstruct a person exercising a    power of entry for the purpose of a remedial notice re high hedges - A-s.B. Act 2003",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -5434,84 +5434,84 @@
   {
     "cjsCode": "AT01001",
     "offenceCategory": "CE",
-    "offenceTitle": "Contravene direction re disclosure - terrorism",
+    "offenceTitle": "Contravene    direction re disclosure - terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "AT01002",
     "offenceCategory": "CI",
-    "offenceTitle": "Knowingly cause a nuclear weapon explosion - terrorism",
+    "offenceTitle": "Knowingly    cause a nuclear weapon explosion - terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "AT01003",
     "offenceCategory": "CI",
-    "offenceTitle": "Develop / produce a nuclear weapon - terrorism",
+    "offenceTitle": "Develop /    produce a nuclear weapon - terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "AT01004",
     "offenceCategory": "CI",
-    "offenceTitle": "Possess a nuclear weapon - terrorism",
+    "offenceTitle": "Possess a    nuclear weapon - terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "AT01005",
     "offenceCategory": "CI",
-    "offenceTitle": "Take part in nuclear weapon transfer - terrorism",
+    "offenceTitle": "Take part    in nuclear weapon transfer - terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "AT01006",
     "offenceCategory": "CI",
-    "offenceTitle": "Threaten use of a nuclear weapon - terrorism",
+    "offenceTitle": "Threaten    use of a nuclear weapon - terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "AT01007",
     "offenceCategory": "CI",
-    "offenceTitle": "Aid / abet non UK person to do act outside UK - terrorism",
+    "offenceTitle": "Aid /    abet non UK person to do act outside UK - terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "AT01008",
     "offenceCategory": "CI",
-    "offenceTitle": "Incite a non UK person to do act outside UK - terrorism",
+    "offenceTitle": "Incite a    non UK person to do act outside UK - terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "AT01009",
     "offenceCategory": "CE",
-    "offenceTitle": "Obstruct officer - power of entry - terrorism",
+    "offenceTitle": "Obstruct    officer - power of entry - terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "AT01010",
     "offenceCategory": "CE",
-    "offenceTitle": "Fail to comply with request re entry / search - terrorism",
+    "offenceTitle": "Fail to comply    with request re entry / search - terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "AT01011",
     "offenceCategory": "CE",
-    "offenceTitle": "False statement - section 47 / 50 authority - terrorism",
+    "offenceTitle": "False    statement - section 47 / 50 authority - terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "AT01012",
     "offenceCategory": "CE",
-    "offenceTitle": "Occupier fail to comply with direction / duty - terrorism",
+    "offenceTitle": "Occupier    fail to comply with direction / duty - terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -5525,35 +5525,35 @@
   {
     "cjsCode": "AT01016",
     "offenceCategory": "CE",
-    "offenceTitle": "Prejudice security of nuclear site - terrorism",
+    "offenceTitle": "Prejudice    security of nuclear site - terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "AT01017",
     "offenceCategory": "CE",
-    "offenceTitle": "Contravene prohibition - uranium enrichment - terrorism",
+    "offenceTitle": "Contravene    prohibition - uranium enrichment - terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "AT01018",
     "offenceCategory": "CE",
-    "offenceTitle": "Use noxious substance - serious violence - terrorism",
+    "offenceTitle": "Use    noxious substance - serious violence - terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "AT01019",
     "offenceCategory": "CE",
-    "offenceTitle": "Use noxious substance - serious damage - terrorism",
+    "offenceTitle": "Use    noxious substance - serious damage - terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "AT01020",
     "offenceCategory": "CE",
-    "offenceTitle": "Commit act endangering life / health - terrorism",
+    "offenceTitle": "Commit    act endangering life / health - terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -5574,21 +5574,21 @@
   {
     "cjsCode": "AT01024",
     "offenceCategory": "CE",
-    "offenceTitle": "Send noxious substance - hoax - terrorism",
+    "offenceTitle": "Send    noxious substance - hoax - terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "AT01025",
     "offenceCategory": "CE",
-    "offenceTitle": "Communicate information regarding noxious substance - hoax - terrorism",
+    "offenceTitle": "Communicate    information regarding noxious substance - hoax - terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "AT01034",
     "offenceCategory": "CE",
-    "offenceTitle": "Threaten use of noxious substance - terrorism",
+    "offenceTitle": "Threaten    use of noxious substance - terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -6001,7 +6001,7 @@
   {
     "cjsCode": "AV82036",
     "offenceCategory": "CS",
-    "offenceTitle": "False statement to air navigation authority for issue of identity pass - aviation",
+    "offenceTitle": "False    statement to air navigation authority for issue of identity pass - aviation",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -6015,14 +6015,14 @@
   {
     "cjsCode": "AV82038",
     "offenceCategory": "CS",
-    "offenceTitle": "False statement for issue of identity pass for access to restricted area - aviation",
+    "offenceTitle": "False statement for issue of identity pass for access to restricted area -    aviation",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "AV82039",
     "offenceCategory": "CS",
-    "offenceTitle": "False statement to agent / employee of airport manager re identity pass application",
+    "offenceTitle": "False statement to agent / employee of airport manager re    identity pass application",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -6036,7 +6036,7 @@
   {
     "cjsCode": "AV82041",
     "offenceCategory": "CS",
-    "offenceTitle": "False statement in application to United Kingdom operator of aircraft for identity pass",
+    "offenceTitle": "False statement in application to United Kingdom operator of aircraft for identity    pass",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -6071,7 +6071,7 @@
   {
     "cjsCode": "AV82046",
     "offenceCategory": "CS",
-    "offenceTitle": "False statement to United Kingdom aircraft operator to retain identity pass - aviation",
+    "offenceTitle": "False statement to United Kingdom aircraft operator to retain identity pass -    aviation",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -6785,7 +6785,7 @@
   {
     "cjsCode": "AW06040",
     "offenceCategory": "CS",
-    "offenceTitle": "Breach of disqualification  s.1 Protection of Animals (Amendment) Act 1954 as preserved by s.66 the 2006 Act",
+    "offenceTitle": "Breach of disqualification s.1 Protection of Animals (Amendment) Act 1954 as preserved by s.66 the 2006 Act",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -6995,7 +6995,7 @@
   {
     "cjsCode": "AW14001",
     "offenceCategory": "CS",
-    "offenceTitle": "Contravene licence condition  reg. 22 Animal Welfare (Breeding of Dogs) (Wales) Regulations 2014",
+    "offenceTitle": "Contravene licence condition reg. 22 Animal Welfare (Breeding of Dogs) (Wales) Regulations 2014",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -7814,7 +7814,7 @@
   {
     "cjsCode": "BA76002",
     "offenceCategory": "CS",
-    "offenceTitle": "Fail to answer to court / police bail as soon as practicable",
+    "offenceTitle": "Fail to answer to court / police bail as    soon as practicable",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -9116,7 +9116,7 @@
   {
     "cjsCode": "BL19011",
     "offenceCategory": "CS",
-    "offenceTitle": "Navigating a vessel of greater than 4 horse power or 3 kilowatts when under 16 years of age on Lake Windermere",
+    "offenceTitle": "Navigating a vessel of greater than 4 horse power or 3 kilowatts when under 16 years of age on Lake Windermere  ",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -9263,7 +9263,7 @@
   {
     "cjsCode": "BL19034",
     "offenceCategory": "CS",
-    "offenceTitle": "Fail to wear drivers badge  City of Liverpool Hackney Carriage Byelaws 2018",
+    "offenceTitle": "Fail to wear drivers badge City of Liverpool Hackney Carriage Byelaws 2018",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -9424,7 +9424,7 @@
   {
     "cjsCode": "BL20012",
     "offenceCategory": "CS",
-    "offenceTitle": "Permit dog to foul on land  London Borough of Wandsworth Dog Byelaws Housing Land",
+    "offenceTitle": "Permit dog to foul on land London Borough of Wandsworth Dog Byelaws Housing Land",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -9529,7 +9529,7 @@
   {
     "cjsCode": "BL20027",
     "offenceCategory": "CS",
-    "offenceTitle": "Master cause or permit vessel to proceed at a speed of more than 10 knots  Langstone Harbour Byelaws",
+    "offenceTitle": "Master cause or permit vessel to proceed at a speed of more than 10 knots Langstone Harbour Byelaws",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -9669,7 +9669,7 @@
   {
     "cjsCode": "BL21013",
     "offenceCategory": "CM",
-    "offenceTitle": "Driver fail to comply with military / traffic signs  HM Naval Base Portsmouth",
+    "offenceTitle": "Driver fail to comply with military / traffic signs HM Naval Base Portsmouth",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -10018,14 +10018,14 @@
   {
     "cjsCode": "CA03005",
     "offenceCategory": "CS",
-    "offenceTitle": "Send by public communication network an offensive / indecent / obscene / menacing message / matter",
+    "offenceTitle": "Send by    public communication network an offensive / indecent / obscene / menacing message /    matter",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "CA03006",
     "offenceCategory": "CS",
-    "offenceTitle": "Cause to be sent by public communication network an offensive / indecent / obscene / menacing message / matter",
+    "offenceTitle": "Cause to    be sent by public communication network an offensive / indecent / obscene / menacing    message / matter",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -10067,28 +10067,28 @@
   {
     "cjsCode": "CA03011",
     "offenceCategory": "CS",
-    "offenceTitle": "Possess a television set with intent to install / use without a licence",
+    "offenceTitle": "Possess a    television set with intent to install / use without a licence",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "CA03012",
     "offenceCategory": "CS",
-    "offenceTitle": "Possess / control TV set with intent another use install without a licence",
+    "offenceTitle": "Possess /    control TV set with intent another use install without a licence",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "CA03013",
     "offenceCategory": "CS",
-    "offenceTitle": "Obstruct person executing search warrant for TV receiver",
+    "offenceTitle": "Obstruct    person executing search warrant for TV receiver",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "CA03014",
     "offenceCategory": "CS",
-    "offenceTitle": "Fail / refuse give assistance to person executing Communications Act search warrant",
+    "offenceTitle": "Fail    / refuse give assistance to person executing Communications Act search warrant",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -12601,7 +12601,7 @@
   {
     "cjsCode": "CE79158",
     "offenceCategory": "CE",
-    "offenceTitle": "Fraudulently evade any duty / prohibition / restriction / provision",
+    "offenceTitle": "Fraudulently evade    any duty / prohibition / restriction / provision",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -14792,7 +14792,7 @@
   {
     "cjsCode": "CJ01001",
     "offenceCategory": "CS",
-    "offenceTitle": "Contravene police direction preventing harassment at home",
+    "offenceTitle": "Contravene    police direction preventing harassment at home",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -18684,14 +18684,14 @@
   {
     "cjsCode": "CP88003",
     "offenceCategory": "CS",
-    "offenceTitle": "Possess an article which infringed copyright",
+    "offenceTitle": "Possess    an article which infringed copyright",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "CP88005",
     "offenceCategory": "CS",
-    "offenceTitle": "Offer / expose article infringing copyright",
+    "offenceTitle": "Offer /    expose article infringing copyright",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -18705,28 +18705,28 @@
   {
     "cjsCode": "CP88009",
     "offenceCategory": "CS",
-    "offenceTitle": "Make article designed to make copies of copyright work",
+    "offenceTitle": "Make    article designed to make copies of copyright work",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "CP88010",
     "offenceCategory": "CS",
-    "offenceTitle": "Possess article for making copies of copyright work",
+    "offenceTitle": "Possess    article for making copies of copyright work",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "CP88011",
     "offenceCategory": "CS",
-    "offenceTitle": "Cause public performance infringing copyright",
+    "offenceTitle": "Cause    public performance infringing copyright",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "CP88012",
     "offenceCategory": "CS",
-    "offenceTitle": "Play recording / show film infringing copyright",
+    "offenceTitle": "Play    recording / show film infringing copyright",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -18880,21 +18880,21 @@
   {
     "cjsCode": "CP88048",
     "offenceCategory": "CE",
-    "offenceTitle": "Make for sale or hire an article infringing copyright",
+    "offenceTitle": "Make    for sale or hire an article infringing copyright",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "CP88049",
     "offenceCategory": "CE",
-    "offenceTitle": "Import article into the United Kingdom which infringed copyright",
+    "offenceTitle": "Import    article into the United Kingdom which infringed copyright",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "CP88050",
     "offenceCategory": "CE",
-    "offenceTitle": "Distribute article infringing copyright",
+    "offenceTitle": "Distribute    article infringing copyright",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -18908,7 +18908,7 @@
   {
     "cjsCode": "CP88051",
     "offenceCategory": "CE",
-    "offenceTitle": "Distribute article infringing copyright to prejudice",
+    "offenceTitle": "Distribute    article infringing copyright to prejudice",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -23576,7 +23576,7 @@
   {
     "cjsCode": "CW96005",
     "offenceCategory": "CE",
-    "offenceTitle": "False / misleading statement in response to section 4 or 6 or 7 notice - chemical weapon",
+    "offenceTitle": "False / misleading    statement in response to section 4 or 6 or 7 notice - chemical weapon",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -23674,35 +23674,35 @@
   {
     "cjsCode": "CW96023",
     "offenceCategory": "CI",
-    "offenceTitle": "Use a chemical weapon",
+    "offenceTitle": "Use a chemical    weapon",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "CW96024",
     "offenceCategory": "CI",
-    "offenceTitle": "Develop / produce a chemical weapon",
+    "offenceTitle": "Develop / produce    a chemical weapon",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "CW96025",
     "offenceCategory": "CI",
-    "offenceTitle": "Possess a chemical weapon",
+    "offenceTitle": "Possess a chemical    weapon",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "CW96026",
     "offenceCategory": "CI",
-    "offenceTitle": "Participate in transfer of a chemical weapon",
+    "offenceTitle": "Participate in    transfer of a chemical weapon",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "CW96027",
     "offenceCategory": "CI",
-    "offenceTitle": "Engaged in military preparations intending to use a chemical weapon",
+    "offenceTitle": "Engaged in    military preparations intending to use a chemical weapon",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -23737,56 +23737,56 @@
   {
     "cjsCode": "CW96032",
     "offenceCategory": "CI",
-    "offenceTitle": "Construct premises with intent to use them for the production of a chemical weapon",
+    "offenceTitle": "Construct premises    with intent to use them for the production of a chemical weapon",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "CW96033",
     "offenceCategory": "CI",
-    "offenceTitle": "Alter premises in circumstances where intention to use them for the production of a chemical weapon",
+    "offenceTitle": "Alter premises in    circumstances where intention to use them for the production of a chemical weapon",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "CW96034",
     "offenceCategory": "CI",
-    "offenceTitle": "Install / construct equipment with intent to use to produce a chemical weapon",
+    "offenceTitle": "Install /    construct equipment with intent to use to produce a chemical weapon",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "CW96035",
     "offenceCategory": "CI",
-    "offenceTitle": "Alter equipment in circumstances with intention to use them for the production of a chemical weapon",
+    "offenceTitle": "Alter equipment in    circumstances with intention to use them for the production of a chemical weapon",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "CW96036",
     "offenceCategory": "CI",
-    "offenceTitle": "Permit construction of premises with intent to use them for the production of a chemical weapon",
+    "offenceTitle": "Permit    construction of premises with intent to use them for the production of a chemical weapon",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "CW96037",
     "offenceCategory": "CI",
-    "offenceTitle": "Permit alteration of premises with intent to use them for the production of a chemical weapon",
+    "offenceTitle": "Permit alteration    of premises with intent to use them for the production of a chemical weapon",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "CW96038",
     "offenceCategory": "CI",
-    "offenceTitle": "Permit installation / construction of equipment on land with intent to use for production of a chemical weapon",
+    "offenceTitle": "Permit    installation / construction of equipment on land with intent to use for production of a    chemical weapon",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "CW96039",
     "offenceCategory": "CI",
-    "offenceTitle": "Permit alteration of equipment on land with intent to use for production of a chemical weapon",
+    "offenceTitle": "Permit alteration    of equipment on land with intent to use for production of a chemical weapon",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -24101,7 +24101,7 @@
   {
     "cjsCode": "DC03001",
     "offenceCategory": "CE",
-    "offenceTitle": "Dealing in tainted cultural objects",
+    "offenceTitle": "Dealing    in tainted cultural objects",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -24402,7 +24402,7 @@
   {
     "cjsCode": "DF37001",
     "offenceCategory": "CS",
-    "offenceTitle": "Import / bring or promising to import / bring to Great Britain any live fish / eggs of fish",
+    "offenceTitle": "Import / bring or promising to import / bring to Great Britain any live fish / eggs of fish  ",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -24521,14 +24521,14 @@
   {
     "cjsCode": "DH87002",
     "offenceCategory": "CM",
-    "offenceTitle": "Failing to return drivers record book on leaving employment ( domestic )",
+    "offenceTitle": "Failing to return drivers record book on leaving employment ( domestic    )",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "DH87003",
     "offenceCategory": "CM",
-    "offenceTitle": "Employer failing to enter details before issue of drivers record book",
+    "offenceTitle": "Employer    failing to enter details before issue of drivers record book",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -24598,7 +24598,7 @@
   {
     "cjsCode": "DH87013",
     "offenceCategory": "CM",
-    "offenceTitle": "Goods vehicle driver fail to return record book",
+    "offenceTitle": "Goods    vehicle driver fail to return record book",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -25711,7 +25711,7 @@
   {
     "cjsCode": "DV04001",
     "offenceCategory": "CI",
-    "offenceTitle": "Cause / allow the death of a child / vulnerable adult",
+    "offenceTitle": "Cause / allow the death of a    child / vulnerable adult",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -28679,21 +28679,21 @@
   {
     "cjsCode": "EP99002",
     "offenceCategory": "CS",
-    "offenceTitle": "Cause use of lead shot for purpose of shooting with shot gun",
+    "offenceTitle": "Cause use of lead    shot for purpose of shooting with shot gun",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "EP99003",
     "offenceCategory": "CS",
-    "offenceTitle": "Permit use of lead shot for purpose of shooting with shot gun",
+    "offenceTitle": "Permit use of lead    shot for purpose of shooting with shot gun",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "EP99004",
     "offenceCategory": "CS",
-    "offenceTitle": "Intentionally obstruct authorised person - lead shot regulations",
+    "offenceTitle": "Intentionally    obstruct authorised person - lead shot regulations",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -29897,7 +29897,7 @@
   {
     "cjsCode": "EX83009",
     "offenceCategory": "CI",
-    "offenceTitle": "Make explosive substance for unlawful purpose",
+    "offenceTitle": "Make explosive    substance for unlawful purpose",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -29939,7 +29939,7 @@
   {
     "cjsCode": "EX83027",
     "offenceCategory": "CI",
-    "offenceTitle": "Do an act with intent to cause an explosion likely to endanger life / injure property",
+    "offenceTitle": "Do an act with intent to cause an explosion    likely to endanger life / injure property",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -29953,7 +29953,7 @@
   {
     "cjsCode": "EX83029",
     "offenceCategory": "CI",
-    "offenceTitle": "Possess / control explosive with intent to endanger life / injure property",
+    "offenceTitle": "Possess / control explosive with intent to endanger    life / injure property",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -29967,7 +29967,7 @@
   {
     "cjsCode": "EX83030",
     "offenceCategory": "CI",
-    "offenceTitle": "Make an explosive substance with intent to endanger life / injure property",
+    "offenceTitle": "Make an explosive substance with intent to endanger    life / injure property",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -30562,14 +30562,14 @@
   {
     "cjsCode": "FB89014",
     "offenceCategory": "CS",
-    "offenceTitle": "Football - fail to comply with requirement re application for a banning order",
+    "offenceTitle": "Football - fail to    comply with requirement re application for a banning order",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "FB89015",
     "offenceCategory": "CS",
-    "offenceTitle": "Football spectator using false document for exemption",
+    "offenceTitle": "Football spectator    using false document for exemption",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -33369,7 +33369,7 @@
   {
     "cjsCode": "FI68501",
     "offenceCategory": "VP",
-    "offenceTitle": "Application for destruction or disposal of firearm or ammunition seized by a constable  s.52(4) Firearms Act 1968",
+    "offenceTitle": "Application for destruction or disposal of firearm or ammunition seized by a constable s.52(4) Firearms Act 1968",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -33467,7 +33467,7 @@
   {
     "cjsCode": "FO91003",
     "offenceCategory": "CS",
-    "offenceTitle": "Indecent / racial chanting at a designated football match - Football (Offences) Act 1991",
+    "offenceTitle": "Indecent / racial chanting at a designated football match - Football    (Offences) Act 1991",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -33880,7 +33880,7 @@
   {
     "cjsCode": "FS04010",
     "offenceCategory": "CS",
-    "offenceTitle": "Cause a false alarm of fire to be given",
+    "offenceTitle": "Cause a    false alarm of fire to be given",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -34377,7 +34377,7 @@
   {
     "cjsCode": "FW03002",
     "offenceCategory": "CS",
-    "offenceTitle": "Knowingly make false / reckless statement under requirement of Firework Regulations 2004",
+    "offenceTitle": "Knowingly make    false / reckless statement under requirement of Firework Regulations 2004",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -34531,7 +34531,7 @@
   {
     "cjsCode": "GA04001",
     "offenceCategory": "CE",
-    "offenceTitle": "Act as an unlicensed gangmaster",
+    "offenceTitle": "Act as an unlicensed    gangmaster",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -34545,21 +34545,21 @@
   {
     "cjsCode": "GA04002",
     "offenceCategory": "CE",
-    "offenceTitle": "Possess / control false document re acting as a gangmaster",
+    "offenceTitle": "Possess / control false    document re acting as a gangmaster",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "GA04003",
     "offenceCategory": "CE",
-    "offenceTitle": "Possess / control an improperly obtained document re acting as a gangmaster",
+    "offenceTitle": "Possess / control an    improperly obtained document re acting as a gangmaster",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "GA04004",
     "offenceCategory": "CE",
-    "offenceTitle": "Possess / control a relevant document belonging to another re acting as a gangmaster",
+    "offenceTitle": "Possess / control a relevant    document belonging to another re acting as a gangmaster",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -34587,7 +34587,7 @@
   {
     "cjsCode": "GA04008",
     "offenceCategory": "CS",
-    "offenceTitle": "Make false statement to an enforcement / compliance officer - Gangmasters Act",
+    "offenceTitle": "Make false statement to an    enforcement / compliance officer - Gangmasters Act",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -37177,7 +37177,7 @@
   {
     "cjsCode": "GS86010",
     "offenceCategory": "CS",
-    "offenceTitle": "Supply gas through an unstamped meter",
+    "offenceTitle": "Supply gas through an unstamped   meter",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -37674,14 +37674,14 @@
   {
     "cjsCode": "GV95029",
     "offenceCategory": "CM",
-    "offenceTitle": "Goods vehicle - prevent issue / variation of an operators licence by a false statement",
+    "offenceTitle": "Goods vehicle - prevent issue / variation of an operators licence by a false    statement",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "GV95030",
     "offenceCategory": "CM",
-    "offenceTitle": "Goods vehicle - procure the imposition of a condition on operators licence by making false statement",
+    "offenceTitle": "Goods vehicle - procure the imposition of a condition on operators licence by    making false statement",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -37786,7 +37786,7 @@
   {
     "cjsCode": "HA04001",
     "offenceCategory": "CS",
-    "offenceTitle": "Hunting a wild mammal with dogs - Hunting Act 2004",
+    "offenceTitle": "Hunting a wild mammal with    dogs - Hunting Act 2004",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -37800,56 +37800,56 @@
   {
     "cjsCode": "HA04003",
     "offenceCategory": "CS",
-    "offenceTitle": "Knowingly permit dog to be used for hunting a wild mammal - Hunting Act 2004",
+    "offenceTitle": "Knowingly permit dog to be    used for hunting a wild mammal - Hunting Act 2004",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "HA04004",
     "offenceCategory": "CS",
-    "offenceTitle": "Participate in a hare coursing event",
+    "offenceTitle": "Participate in a hare    coursing event",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "HA04005",
     "offenceCategory": "CS",
-    "offenceTitle": "Attend a hare coursing event - Hunting Act 2004",
+    "offenceTitle": "Attend a hare coursing event    - Hunting Act 2004",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "HA04006",
     "offenceCategory": "CS",
-    "offenceTitle": "Knowingly facilitate a hare coursing event - Hunting Act 2004",
+    "offenceTitle": "Knowingly facilitate a hare    coursing event - Hunting Act 2004",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "HA04007",
     "offenceCategory": "CS",
-    "offenceTitle": "Permit land to be used for the purposes of a hare coursing event - Hunting Act 2004",
+    "offenceTitle": "Permit land to be used for    the purposes of a hare coursing event - Hunting Act 2004",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "HA04008",
     "offenceCategory": "CS",
-    "offenceTitle": "Enter dog in a hare coursing event - Hunting Act 2004",
+    "offenceTitle": "Enter dog in a hare coursing    event - Hunting Act 2004",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "HA04009",
     "offenceCategory": "CS",
-    "offenceTitle": "Permit dog to be entered in hare coursing event - Hunting Act 2004",
+    "offenceTitle": "Permit dog to be entered in    hare coursing event - Hunting Act 2004",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "HA04010",
     "offenceCategory": "CS",
-    "offenceTitle": "Control / handle dog in the course of / for the purposes of a hare coursing event - Hunting Act 2004",
+    "offenceTitle": "Control / handle dog in the    course of / for the purposes of a hare coursing event - Hunting Act 2004",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -40278,7 +40278,7 @@
   {
     "cjsCode": "HO16002",
     "offenceCategory": "CS",
-    "offenceTitle": "Breach of banning order  Housing and Planning Act 2016",
+    "offenceTitle": "Breach of banning order Housing and Planning Act 2016",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -42763,7 +42763,7 @@
   {
     "cjsCode": "IA99017",
     "offenceCategory": "CS",
-    "offenceTitle": "Asylum seeker delay / obstruct official - immigration",
+    "offenceTitle": "Asylum seeker    delay / obstruct official - immigration",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -42805,14 +42805,14 @@
   {
     "cjsCode": "IA99024",
     "offenceCategory": "CS",
-    "offenceTitle": "Assault on a detainee  custody officer - immigration",
+    "offenceTitle": "Assault on a    detainee  custody officer - immigration",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "IA99026",
     "offenceCategory": "CS",
-    "offenceTitle": "Resisting a detainee  custody officer - immigration",
+    "offenceTitle": "Resisting a    detainee  custody officer - immigration",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -43498,7 +43498,7 @@
   {
     "cjsCode": "IM71095",
     "offenceCategory": "CS",
-    "offenceTitle": "Owner / agent of ship / aircraft fail to arrange removal of person from United Kingdom",
+    "offenceTitle": "Owner / agent of ship / aircraft fail to arrange removal of person from United    Kingdom",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -47061,35 +47061,35 @@
   {
     "cjsCode": "LG03027",
     "offenceCategory": "CS",
-    "offenceTitle": "Personal licence holder fail to produce licence to constable / authorised person - Licensing",
+    "offenceTitle": "Personal licence    holder fail to produce licence to constable / authorised person - Licensing",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "LG03028",
     "offenceCategory": "CS",
-    "offenceTitle": "Carry on unauthorised licensable activity - Licensing",
+    "offenceTitle": "Carry on    unauthorised licensable activity - Licensing",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "LG03028A",
     "offenceCategory": "CS",
-    "offenceTitle": "Attempt to carry on an unauthorised licensable activity - Licensing",
+    "offenceTitle": "Attempt to carry    on an unauthorised licensable activity - Licensing",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "LG03029",
     "offenceCategory": "CS",
-    "offenceTitle": "Knowingly allowed an unauthorised licensable activity to be carried on - Licensing",
+    "offenceTitle": "Knowingly allowed    an unauthorised licensable activity to be carried on - Licensing",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "LG03030",
     "offenceCategory": "CS",
-    "offenceTitle": "Expose alcohol for unauthorised sale by retail - Licensing",
+    "offenceTitle": "Expose alcohol for    unauthorised sale by retail - Licensing",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -47404,7 +47404,7 @@
   {
     "cjsCode": "LG03068",
     "offenceCategory": "CS",
-    "offenceTitle": "Person supply on behalf of a club alcohol to order of club member to person under 18 - Licensing",
+    "offenceTitle": "Person supply on    behalf of a club alcohol to order of club member to person under 18 - Licensing",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -47474,14 +47474,14 @@
   {
     "cjsCode": "LG03082",
     "offenceCategory": "CS",
-    "offenceTitle": "Club member make arrangement whereby alcohol supplied to a person under 18 - Licensing",
+    "offenceTitle": "Club member make    arrangement whereby alcohol supplied to a person under 18 - Licensing",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "LG03082A",
     "offenceCategory": "CS",
-    "offenceTitle": "Club member attempt to make arrangement whereby alcohol supplied to a person aged under 18 years - Licensing",
+    "offenceTitle": "Club member    attempt to make arrangement whereby alcohol supplied to a person aged under 18 years -    Licensing",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -47495,14 +47495,14 @@
   {
     "cjsCode": "LG03084",
     "offenceCategory": "CS",
-    "offenceTitle": "Supply alcohol by act / default to / to order of club member for consumption by person under 18 - Licensing",
+    "offenceTitle": "Supply alcohol by    act / default to / to order of club member for consumption by person under 18 - Licensing",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "LG03084A",
     "offenceCategory": "CS",
-    "offenceTitle": "Attempt supply alcohol by act / default to / to order of club member for consumption by under 18 - Licensing",
+    "offenceTitle": "Attempt supply    alcohol by act / default to / to order of club member for consumption by under 18 -    Licensing",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -47523,7 +47523,7 @@
   {
     "cjsCode": "LG03087",
     "offenceCategory": "CS",
-    "offenceTitle": "Allow consumption of alcohol on club premises by under 18 - Licensing",
+    "offenceTitle": "Allow consumption    of alcohol on club premises by under 18 - Licensing",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -47537,7 +47537,7 @@
   {
     "cjsCode": "LG03089",
     "offenceCategory": "CS",
-    "offenceTitle": "Worker knowingly deliver on club premises alcohol to under 18 - Licensing",
+    "offenceTitle": "Worker knowingly    deliver on club premises alcohol to under 18 - Licensing",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -47551,14 +47551,14 @@
   {
     "cjsCode": "LG03091",
     "offenceCategory": "CS",
-    "offenceTitle": "Worker knowingly allow delivery by another on club premises alcohol to under 18 - Licensing",
+    "offenceTitle": "Worker knowingly    allow delivery by another on club premises alcohol to under 18 - Licensing",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "LG03092",
     "offenceCategory": "CS",
-    "offenceTitle": "Club member / officer knowingly allow delivery by another of alcohol to under 18 - Licensing",
+    "offenceTitle": "Club member /    officer knowingly allow delivery by another of alcohol to under 18 - Licensing",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -47684,7 +47684,7 @@
   {
     "cjsCode": "LG03109",
     "offenceCategory": "CS",
-    "offenceTitle": "Permit premises to be open in contravention of a magistrates closure order - Licensing",
+    "offenceTitle": "Permit premises to    be open in contravention of a magistrates closure order - Licensing",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -47705,7 +47705,7 @@
   {
     "cjsCode": "LG03112",
     "offenceCategory": "CS",
-    "offenceTitle": "Make a false statement in application for conversion of a club certificate - Licensing",
+    "offenceTitle": "Make a false    statement in application for conversion of a club certificate - Licensing",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -48720,14 +48720,14 @@
   {
     "cjsCode": "LM82040",
     "offenceCategory": "CS",
-    "offenceTitle": "Engaged in street trading in a prohibited street",
+    "offenceTitle": "Engaged    in street trading in a prohibited street",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "LM82041",
     "offenceCategory": "CS",
-    "offenceTitle": "Engaged in street trading in a licence / consent street",
+    "offenceTitle": "Engaged    in street trading in a licence / consent street",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -48748,14 +48748,14 @@
   {
     "cjsCode": "LM82044",
     "offenceCategory": "CS",
-    "offenceTitle": "Contravene a condition imposed on street trading in a licence / consent street",
+    "offenceTitle": "Contravene    a condition imposed on street trading in a licence / consent street",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "LM82045",
     "offenceCategory": "CS",
-    "offenceTitle": "False statement in connection with application for street trading licence / consent",
+    "offenceTitle": "False    statement in connection with application for street trading licence / consent",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -50134,14 +50134,14 @@
   {
     "cjsCode": "MC80721",
     "offenceCategory": "EF",
-    "offenceTitle": "Transfer of fines from Scotland  see file",
+    "offenceTitle": "Transfer of fines from Scotland see file",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "MC80722",
     "offenceCategory": "EF",
-    "offenceTitle": "Transfer of fines from Northern Ireland  see file",
+    "offenceTitle": "Transfer of fines from Northern Ireland see file",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -50932,7 +50932,7 @@
   {
     "cjsCode": "MD71133C",
     "offenceCategory": "CI",
-    "offenceTitle": "Conspire to supply a class A controlled drug - ecstasy",
+    "offenceTitle": "Conspire to supply a class    A controlled drug - ecstasy",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -51912,7 +51912,7 @@
   {
     "cjsCode": "MD71475",
     "offenceCategory": "CE",
-    "offenceTitle": "Permit use of premises for supply of hydroxy-n-butyric acid ( ghb  )",
+    "offenceTitle": "Permit use of premises for supply of hydroxy-n-butyric     acid ( ghb  )",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -55656,21 +55656,21 @@
   {
     "cjsCode": "MT02002",
     "offenceCategory": "CE",
-    "offenceTitle": "Mobile phones - custody / control of equipment to re-programme",
+    "offenceTitle": "Mobile    phones - custody / control of equipment to re-programme",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "MT02003",
     "offenceCategory": "CE",
-    "offenceTitle": "Mobile phones - supply of equipment to re-programme",
+    "offenceTitle": "Mobile    phones - supply of equipment to re-programme",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "MT02004",
     "offenceCategory": "CE",
-    "offenceTitle": "Mobile phones - offer to supply equipment to re-programme",
+    "offenceTitle": "Mobile    phones - offer to supply equipment to re-programme",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -56489,14 +56489,14 @@
   {
     "cjsCode": "NI02009",
     "offenceCategory": "CS",
-    "offenceTitle": "Person returns to UK and requests travel and accommodation arrangements - immigration",
+    "offenceTitle": "Person returns to UK and requests travel and accommodation arrangements    - immigration",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "NI02010",
     "offenceCategory": "CS",
-    "offenceTitle": "Person failing to mention previous request - requests travel and accommodation arrangements - immigration",
+    "offenceTitle": "Person failing to mention previous request - requests travel and    accommodation arrangements - immigration",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -57203,7 +57203,7 @@
   {
     "cjsCode": "OF61016A",
     "offenceCategory": "CI",
-    "offenceTitle": "Section 18 - attempt wounding with intent",
+    "offenceTitle": "Section 18 - attempt    wounding with intent",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -57231,7 +57231,7 @@
   {
     "cjsCode": "OF61017C",
     "offenceCategory": "CI",
-    "offenceTitle": "Conspire to cause grievous bodily harm with intent",
+    "offenceTitle": "Conspire to cause grievous bodily harm with    intent",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -57245,7 +57245,7 @@
   {
     "cjsCode": "OF61019",
     "offenceCategory": "CI",
-    "offenceTitle": "Section 18 - cause grievous bodily harm with intent to resist / prevent arrest",
+    "offenceTitle": "Section 18 - cause    grievous bodily harm with intent to resist / prevent arrest",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -57518,7 +57518,7 @@
   {
     "cjsCode": "OF61112",
     "offenceCategory": "CI",
-    "offenceTitle": "Procure instrument / thing to cause miscarriage",
+    "offenceTitle": "Procure    instrument / thing to cause miscarriage",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -60507,7 +60507,7 @@
   {
     "cjsCode": "PC02529",
     "offenceCategory": "VP",
-    "offenceTitle": "Application for continuation of account freezing order pending appeal  section 303Z15 Proceeds of Crime Act 2002",
+    "offenceTitle": "Application for continuation of account freezing order pending appeal section 303Z15 Proceeds of Crime Act 2002",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -62061,7 +62061,7 @@
   {
     "cjsCode": "PJ11010",
     "offenceCategory": "CE",
-    "offenceTitle": "Knowingly / wilfully make a false oral declaration / answer not on oath when required by statute",
+    "offenceTitle": "Knowingly / wilfully make a false oral declaration / answer not on oath when    required by statute",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -62250,7 +62250,7 @@
   {
     "cjsCode": "PK78008",
     "offenceCategory": "CE",
-    "offenceTitle": "Make indecent photograph / pseudo-photograph of a child",
+    "offenceTitle": "Make indecent photograph / pseudo-photograph of a    child",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -62271,28 +62271,28 @@
   {
     "cjsCode": "PL02023",
     "offenceCategory": "CS",
-    "offenceTitle": "Fail to give name and address to an accredited person - relevant offence - Police Reform",
+    "offenceTitle": "Fail to give name and address to an    accredited person - relevant offence - Police Reform",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "PL02032",
     "offenceCategory": "CS",
-    "offenceTitle": "Contravene an accredited person's requirement to surrender liquor - Police Reform",
+    "offenceTitle": "Contravene an accredited person's    requirement to surrender liquor - Police Reform",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "PL02033",
     "offenceCategory": "CS",
-    "offenceTitle": "Fail to surrender intoxicating liquor to an accredited person - Police Reform",
+    "offenceTitle": "Fail to surrender intoxicating liquor to an    accredited person - Police Reform",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "PL02034",
     "offenceCategory": "CM",
-    "offenceTitle": "Fail to stop a vehicle as directed by an accredited person while escorting load - Police Reform",
+    "offenceTitle": "Fail to stop a vehicle as directed by an accredited    person while escorting load - Police Reform",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -62306,7 +62306,7 @@
   {
     "cjsCode": "PL02036",
     "offenceCategory": "CM",
-    "offenceTitle": "Pedestrian fail to stop when directed by an accredited person while escorting load - Police Reform Act",
+    "offenceTitle": "Pedestrian fail to stop when directed by an accredited    person while escorting load - Police Reform Act",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -62572,7 +62572,7 @@
   {
     "cjsCode": "PL96004",
     "offenceCategory": "CS",
-    "offenceTitle": "Obstruct / resist a person assisting a constable in execution of duty",
+    "offenceTitle": "Obstruct / resist a    person assisting a constable in execution of duty",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -63139,21 +63139,21 @@
   {
     "cjsCode": "PP00006",
     "offenceCategory": "CS",
-    "offenceTitle": "Political party - fail to deliver account pre-period end",
+    "offenceTitle": "Political    party - fail to deliver account pre-period end",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "PP00007",
     "offenceCategory": "CE",
-    "offenceTitle": "Political party - fail to provide information re donation / donor to party",
+    "offenceTitle": "Political    party - fail to provide information re donation / donor to party",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "PP00008",
     "offenceCategory": "CE",
-    "offenceTitle": "Political party - agent fail provide information re donor to party",
+    "offenceTitle": "Political    party - agent fail provide information re donor to party",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -63244,7 +63244,7 @@
   {
     "cjsCode": "PP00021",
     "offenceCategory": "CE",
-    "offenceTitle": "Political parties - non individual donor fail to report multiple small donations",
+    "offenceTitle": "Political    parties - non individual donor fail to report multiple small donations",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -63713,21 +63713,21 @@
   {
     "cjsCode": "PS00012",
     "offenceCategory": "CE",
-    "offenceTitle": "Postal service - send obscene / indecent article",
+    "offenceTitle": "Postal    service - send obscene / indecent article",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "PS00013",
     "offenceCategory": "CE",
-    "offenceTitle": "Postal service - send record of obscene / indecent picture / book / card etc",
+    "offenceTitle": "Postal    service - send record of obscene / indecent picture / book / card etc",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "PS00014",
     "offenceCategory": "CE",
-    "offenceTitle": "Postal services - send packet with indecent / obscene cover",
+    "offenceTitle": "Postal    services - send packet with indecent / obscene cover",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -63832,14 +63832,14 @@
   {
     "cjsCode": "PS01004",
     "offenceCategory": "CE",
-    "offenceTitle": "Hold self out as approved provider of service - Private Security Industry Act 2001",
+    "offenceTitle": "Hold self    out as approved provider of service - Private Security Industry Act 2001",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "PS01005",
     "offenceCategory": "CE",
-    "offenceTitle": "Service provider hold self out as approved in terms not approved - Private Security Industry Act 2001",
+    "offenceTitle": "Service provider    hold self out as approved in terms not approved - Private Security Industry Act 2001",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -64525,7 +64525,7 @@
   {
     "cjsCode": "PT00007",
     "offenceCategory": "CS",
-    "offenceTitle": "Leave a vehicle in contravention of a prohibition - terrorism",
+    "offenceTitle": "Leave a vehicle in    contravention of a prohibition - terrorism",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -64539,14 +64539,14 @@
   {
     "cjsCode": "PT00009",
     "offenceCategory": "CS",
-    "offenceTitle": "Fail to leave a cordoned  area immediately - terrorism",
+    "offenceTitle": "Fail to    leave a cordoned  area immediately - terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "PT00010",
     "offenceCategory": "CS",
-    "offenceTitle": "Fail to leave premises wholly / partly adjacent to a cordoned  area - terrorism",
+    "offenceTitle": "Fail to    leave premises wholly / partly adjacent to a cordoned  area - terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -64560,7 +64560,7 @@
   {
     "cjsCode": "PT00012",
     "offenceCategory": "CS",
-    "offenceTitle": "Fail to comply with order controlling access to a cordoned  area - terrorism",
+    "offenceTitle": "Fail to    comply with order controlling access to a cordoned  area - terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -64658,14 +64658,14 @@
   {
     "cjsCode": "PT00031",
     "offenceCategory": "CI",
-    "offenceTitle": "Direct a terrorist organisation - terrorism",
+    "offenceTitle": "Direct a    terrorist organisation - terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "PT00032",
     "offenceCategory": "CI",
-    "offenceTitle": "Outside UK - incite another to commit an act of terrorism",
+    "offenceTitle": "Outside    UK - incite another to commit an act of terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -64686,7 +64686,7 @@
   {
     "cjsCode": "PT00036",
     "offenceCategory": "CE",
-    "offenceTitle": "Make a disclosure prejudicial to an investigation - terrorism",
+    "offenceTitle": "Make    a disclosure prejudicial to an investigation - terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -64735,14 +64735,14 @@
   {
     "cjsCode": "PT00046",
     "offenceCategory": "CI",
-    "offenceTitle": "Outside United Kingdom - commit an act of terrorism",
+    "offenceTitle": "Outside    United Kingdom - commit an act of terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "PT00047",
     "offenceCategory": "CI",
-    "offenceTitle": "Outside United Kingdom commit an act for the purpose of terrorism",
+    "offenceTitle": "Outside    United Kingdom commit an act for the purpose of terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -64840,21 +64840,21 @@
   {
     "cjsCode": "PT00064",
     "offenceCategory": "CE",
-    "offenceTitle": "Record information useful to persons engaged in terrorism",
+    "offenceTitle": "Record    information useful to persons engaged in terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "PT00065",
     "offenceCategory": "CE",
-    "offenceTitle": "Possess a record containing information useful to terrorism",
+    "offenceTitle": "Possess a    record containing information useful to terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "PT00066",
     "offenceCategory": "CE",
-    "offenceTitle": "Possess a document containing information useful to terrorism",
+    "offenceTitle": "Possess a    document containing information useful to terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -64910,14 +64910,14 @@
   {
     "cjsCode": "PT00075",
     "offenceCategory": "CE",
-    "offenceTitle": "Arrange a meeting to support proscribed organisation - terrorism",
+    "offenceTitle": "Arrange a meeting to support proscribed organisation -    terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "PT00076",
     "offenceCategory": "CE",
-    "offenceTitle": "Address meeting to encourage support for a proscribed organisation - terrorism",
+    "offenceTitle": "Address meeting to encourage support for a    proscribed organisation - terrorism",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -66184,7 +66184,7 @@
   {
     "cjsCode": "PZ71001",
     "offenceCategory": "CS",
-    "offenceTitle": "Act as a pedlar without a pedlars certificate",
+    "offenceTitle": "Act as a pedlar   without a pedlars   certificate",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -66730,7 +66730,7 @@
   {
     "cjsCode": "RC86120",
     "offenceCategory": "CM",
-    "offenceTitle": "Use a vehicle - rear projection exceeding 3.05 metres - conditions not complied with",
+    "offenceTitle": "Use a vehicle - rear projection exceeding 3.05 metres - conditions not complied    with",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -66758,7 +66758,7 @@
   {
     "cjsCode": "RC86126",
     "offenceCategory": "CM",
-    "offenceTitle": "Speeding - use low platform trailer exceeding 40 miles per hour",
+    "offenceTitle": "Speeding    - use low platform trailer exceeding 40 miles per hour",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -67185,7 +67185,7 @@
   {
     "cjsCode": "RC86327",
     "offenceCategory": "CM",
-    "offenceTitle": "Vehicle defect - cause the use of a passenger vehicle fitted with tyres with insufficient tread",
+    "offenceTitle": "Vehicle defect - cause the use of a passenger    vehicle fitted with tyres with insufficient tread",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -67199,7 +67199,7 @@
   {
     "cjsCode": "RC86329",
     "offenceCategory": "CM",
-    "offenceTitle": "Vehicle defect - cause use of light trailer - tyres with insufficient tread",
+    "offenceTitle": "Vehicle defect - cause use of light trailer - tyres    with insufficient tread",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -67227,14 +67227,14 @@
   {
     "cjsCode": "RC86338",
     "offenceCategory": "CM",
-    "offenceTitle": "Cause use of a goods vehicle without mirrors - maximum gross weight exceeding 3500 kg",
+    "offenceTitle": "Cause use of a goods vehicle without mirrors - maximum gross weight exceeding 3500    kg",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RC86339",
     "offenceCategory": "CM",
-    "offenceTitle": "Cause use of a goods vehicle without mirrors - maximum gross weight exceeding 12000 kg",
+    "offenceTitle": "Cause use of a goods vehicle without mirrors - maximum gross weight exceeding 12000    kg",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -67248,7 +67248,7 @@
   {
     "cjsCode": "RC86341",
     "offenceCategory": "CM",
-    "offenceTitle": "Cause use of a motor vehicle windscreen wipers not fitted",
+    "offenceTitle": "Cause use of a motor vehicle windscreen   wipers not fitted",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -67556,14 +67556,14 @@
   {
     "cjsCode": "RC86398",
     "offenceCategory": "CM",
-    "offenceTitle": "Cause use of a vehicle carrying a racing boat - front projection not clearly visible",
+    "offenceTitle": "Cause use of a vehicle carrying a racing boat - front projection not clearly    visible",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RC86399",
     "offenceCategory": "CM",
-    "offenceTitle": "Cause use of a vehicle carrying a racing boat - rear projection not clearly visible",
+    "offenceTitle": "Cause use of a vehicle carrying a racing boat - rear projection not clearly    visible",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -67591,7 +67591,7 @@
   {
     "cjsCode": "RC86403",
     "offenceCategory": "CM",
-    "offenceTitle": "Use a motor vehicle / trailer with tyre with any of the ply / cord exposed",
+    "offenceTitle": "Use a motor    vehicle / trailer with tyre with any of the ply / cord exposed",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -67605,7 +67605,7 @@
   {
     "cjsCode": "RC86406",
     "offenceCategory": "CM",
-    "offenceTitle": "Cause use of a vehicle with a front projection of load / apparatus exceeding 2 metres",
+    "offenceTitle": "Cause use of a vehicle with a front projection of load / apparatus exceeding 2    metres",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -67633,7 +67633,7 @@
   {
     "cjsCode": "RC86416",
     "offenceCategory": "CM",
-    "offenceTitle": "Cause use of a vehicle - rear projection between 1 and 2 metres not clearly visible",
+    "offenceTitle": "Cause use of a vehicle - rear projection between 1 and 2 metres not clearly    visible",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -67647,14 +67647,14 @@
   {
     "cjsCode": "RC86419",
     "offenceCategory": "CM",
-    "offenceTitle": "Cause use of a vehicle - rear projection between 2 and 3.05 metres not clearly visible",
+    "offenceTitle": "Cause use of a vehicle - rear projection between 2 and 3.05 metres not clearly    visible",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RC86420",
     "offenceCategory": "CM",
-    "offenceTitle": "Cause use of a vehicle - rear projection exceeding 3.05 metres - conditions not complied with",
+    "offenceTitle": "Cause use of a vehicle - rear projection exceeding 3.05 metres - conditions not    complied with",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -67696,7 +67696,7 @@
   {
     "cjsCode": "RC86427",
     "offenceCategory": "CM",
-    "offenceTitle": "Speeding - cause use of restricted speed vehicle exceeding 50 miles per hour",
+    "offenceTitle": "Speeding - cause use of restricted speed    vehicle exceeding 50 miles per hour",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -67773,7 +67773,7 @@
   {
     "cjsCode": "RC86497",
     "offenceCategory": "CM",
-    "offenceTitle": "Excess weight - cause use of vehicle and trailer exceeding maximum train weight - not articulated",
+    "offenceTitle": "Excess weight - cause use of vehicle and trailer exceeding maximum train weight -    not articulated",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -68088,7 +68088,7 @@
   {
     "cjsCode": "RC86570",
     "offenceCategory": "CM",
-    "offenceTitle": "Cause use of a motor cycle with an exhaust system marked not for road use",
+    "offenceTitle": "Cause use of a motor    cycle with an exhaust system marked not for road use",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -68130,7 +68130,7 @@
   {
     "cjsCode": "RC86629",
     "offenceCategory": "CM",
-    "offenceTitle": "Permit use of light trailer - tyres with insufficient tread",
+    "offenceTitle": "Permit use of light trailer - tyres with    insufficient tread",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -68165,7 +68165,7 @@
   {
     "cjsCode": "RC86638",
     "offenceCategory": "CM",
-    "offenceTitle": "Permit use of a goods vehicle without mirrors maximum gross weight exceeding 3500 kg",
+    "offenceTitle": "Permit use of a goods vehicle without mirrors maximum gross weight exceeding 3500    kg",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -68186,14 +68186,14 @@
   {
     "cjsCode": "RC86641",
     "offenceCategory": "CM",
-    "offenceTitle": "Permit use of a motor vehicle windscreen wipers not fitted",
+    "offenceTitle": "Permit use of a motor vehicle windscreen   wipers not fitted",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RC86642",
     "offenceCategory": "CM",
-    "offenceTitle": "Permit use of a motor vehicle windscreen washers not fitted",
+    "offenceTitle": "Permit use of a motor vehicle windscreen    washers not fitted",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -68214,7 +68214,7 @@
   {
     "cjsCode": "RC86647",
     "offenceCategory": "CM",
-    "offenceTitle": "Permit use motor vehicle - speedometer not maintained in good working order",
+    "offenceTitle": "Permit use motor vehicle - speedometer not maintained in good working    order",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -68403,14 +68403,14 @@
   {
     "cjsCode": "RC86698",
     "offenceCategory": "CM",
-    "offenceTitle": "Permit use of a vehicle carrying a racing boat - front projection not clearly visible",
+    "offenceTitle": "Permit use of a vehicle carrying a racing boat - front projection not clearly    visible",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RC86699",
     "offenceCategory": "CM",
-    "offenceTitle": "Permit use of a vehicle carrying a racing boat - rear projection not clearly visible",
+    "offenceTitle": "Permit use of a vehicle carrying a racing boat - rear projection not clearly    visible",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -68424,7 +68424,7 @@
   {
     "cjsCode": "RC86706",
     "offenceCategory": "CM",
-    "offenceTitle": "Permit use of a vehicle with a front projection of load / apparatus exceeding 2 metres",
+    "offenceTitle": "Permit use of a vehicle with a front projection of load / apparatus exceeding 2    metres",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -68452,7 +68452,7 @@
   {
     "cjsCode": "RC86716",
     "offenceCategory": "CM",
-    "offenceTitle": "Permit use of a vehicle - rear projection between 1 and 2 metres not clearly visible",
+    "offenceTitle": "Permit use of a vehicle - rear projection between 1 and 2 metres not clearly    visible",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -68466,14 +68466,14 @@
   {
     "cjsCode": "RC86719",
     "offenceCategory": "CM",
-    "offenceTitle": "Permit use of a vehicle - rear projection between 2 and 3.05 metres not clearly visible",
+    "offenceTitle": "Permit use of a vehicle - rear projection between 2 and 3.05 metres not clearly    visible",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RC86720",
     "offenceCategory": "CM",
-    "offenceTitle": "Permit use of a vehicle - rear projection exceeding 3.05 metres - conditions not complied with",
+    "offenceTitle": "Permit use of a vehicle - rear projection exceeding 3.05 metres - conditions not    complied with",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -68487,7 +68487,7 @@
   {
     "cjsCode": "RC86724",
     "offenceCategory": "CM",
-    "offenceTitle": "Excess weight - permit use of locomotive / motor tractor / bus unladen  weight not marked",
+    "offenceTitle": "Excess weight - permit use of locomotive / motor tractor / bus unladen  weight not    marked",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -68508,14 +68508,14 @@
   {
     "cjsCode": "RC86727",
     "offenceCategory": "CM",
-    "offenceTitle": "Permit use of restricted speed vehicle exceeding 50 miles per hour",
+    "offenceTitle": "Permit use of restricted speed vehicle    exceeding 50 miles per hour",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RC86729",
     "offenceCategory": "CM",
-    "offenceTitle": "Permit use of unbraked trailer gross weight not marked",
+    "offenceTitle": "Permit use of unbraked    trailer gross weight not marked",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -68585,7 +68585,7 @@
   {
     "cjsCode": "RC86799",
     "offenceCategory": "CM",
-    "offenceTitle": "Excess weight - permit use of an articulated vehicle exceeding maximum laden weight",
+    "offenceTitle": "Excess weight - permit use of an articulated vehicle exceeding maximum laden    weight",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -68816,7 +68816,7 @@
   {
     "cjsCode": "RC86870",
     "offenceCategory": "CM",
-    "offenceTitle": "Permit use of a motor cycle with an exhaust system marked not for road use",
+    "offenceTitle": "Permit use of a motor    cycle with an exhaust system marked not for road use",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -70923,7 +70923,7 @@
   {
     "cjsCode": "RL05001",
     "offenceCategory": "CS",
-    "offenceTitle": "Fail to join queue / rear of queue on the railway - bye-law",
+    "offenceTitle": "Fail to join queue / rear of queue on the          railway - bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -70951,119 +70951,119 @@
   {
     "cjsCode": "RL05005",
     "offenceCategory": "CS",
-    "offenceTitle": "Possess intoxicants on a train service - bye-law",
+    "offenceTitle": "Possess intoxicants on a train service -          bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RL05006",
     "offenceCategory": "CS",
-    "offenceTitle": "Enter / remain on railway while unfit / improper condition / soiled - bye-law",
+    "offenceTitle": "Enter / remain on railway while unfit /          improper condition / soiled - bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RL05007",
     "offenceCategory": "CS",
-    "offenceTitle": "Unacceptable behaviour on the railway - bye-law",
+    "offenceTitle": "Unacceptable behaviour on the railway -          bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RL05008",
     "offenceCategory": "CS",
-    "offenceTitle": "Sing / play instrument without permission - railway bye-law",
+    "offenceTitle": "Sing / play instrument without permission -          railway bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RL05009",
     "offenceCategory": "CS",
-    "offenceTitle": "Display etc item without permission - railway bye-law",
+    "offenceTitle": "Display etc item without permission - railway          bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RL05010",
     "offenceCategory": "CS",
-    "offenceTitle": "Sell / offer etc for sale items without permission - railway bye-law",
+    "offenceTitle": "Sell / offer etc for sale items without          permission - railway bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RL05011",
     "offenceCategory": "CS",
-    "offenceTitle": "Tout for / solicit money / reward without permission - railway bye-law",
+    "offenceTitle": "Tout for / solicit money / reward without          permission - railway bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RL05012",
     "offenceCategory": "CS",
-    "offenceTitle": "Fail to hand over your written permission for inspection - railway bye-law",
+    "offenceTitle": "Fail to hand over your written permission for          inspection - railway bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RL05013",
     "offenceCategory": "CS",
-    "offenceTitle": "Engage in unlawful gambling on the railway - bye-law",
+    "offenceTitle": "Engage in unlawful gambling on the railway -          bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RL05014",
     "offenceCategory": "CS",
-    "offenceTitle": "Enter / leave by emergency exit - railway bye-law",
+    "offenceTitle": "Enter / leave by emergency exit - railway          bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RL05015",
     "offenceCategory": "CS",
-    "offenceTitle": "Walk etc on escalator in wrong direction - railway bye-law",
+    "offenceTitle": "Walk etc on escalator in wrong direction -          railway bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RL05016",
     "offenceCategory": "CS",
-    "offenceTitle": "Access / exit by unofficial route - railway bye-law",
+    "offenceTitle": "Access / exit by unofficial route - railway          bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RL05017",
     "offenceCategory": "CS",
-    "offenceTitle": "Open barrier / gate without authority - railway bye-law",
+    "offenceTitle": "Open barrier / gate without authority -          railway bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RL05018",
     "offenceCategory": "CS",
-    "offenceTitle": "Leave by entrance / enter by exit - railway bye-law",
+    "offenceTitle": "Leave by entrance / enter by exit - railway          bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RL05019",
     "offenceCategory": "CS",
-    "offenceTitle": "Stop escalator / lift without authority - railway bye-law",
+    "offenceTitle": "Stop escalator / lift without authority -          railway bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RL05020",
     "offenceCategory": "CS",
-    "offenceTitle": "Enter etc train as passengers leaving - railway bye-law",
+    "offenceTitle": "Enter etc train as passengers leaving -          railway bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RL05021",
     "offenceCategory": "CS",
-    "offenceTitle": "In / on train etc not in public use - railway bye-law",
+    "offenceTitle": "In / on train etc not in public use - railway          bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -71084,21 +71084,21 @@
   {
     "cjsCode": "RL05024",
     "offenceCategory": "CS",
-    "offenceTitle": "Enter / leave train whilst automatic doors were closing - railway bye-law",
+    "offenceTitle": "Enter / leave train whilst automatic doors          were closing - railway bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RL05025",
     "offenceCategory": "CS",
-    "offenceTitle": "Interfere with equipment / automatic doors - railway bye-law",
+    "offenceTitle": "Interfere with equipment / automatic doors -          railway bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RL05026",
     "offenceCategory": "CS",
-    "offenceTitle": "Throw / drop etc object capable of injuring / damaging person / property on railway - bye-law",
+    "offenceTitle": "Throw / drop etc object capable of injuring /          damaging person / property on railway - bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -71119,7 +71119,7 @@
   {
     "cjsCode": "RL05029",
     "offenceCategory": "CS",
-    "offenceTitle": "Disobey instructions during emergency - railway bye-law",
+    "offenceTitle": "Disobey instructions during emergency -          railway bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -71147,7 +71147,7 @@
   {
     "cjsCode": "RL05033",
     "offenceCategory": "CS",
-    "offenceTitle": "Fail to comply with traffic sign - railway bye-law",
+    "offenceTitle": "Fail to comply with traffic sign - railway          bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -71175,7 +71175,7 @@
   {
     "cjsCode": "RL05037",
     "offenceCategory": "CS",
-    "offenceTitle": "Enter pedestrian only area other than on foot without authority - railway bye-law",
+    "offenceTitle": "Enter pedestrian only area other than on foot          without authority - railway bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -71217,7 +71217,7 @@
   {
     "cjsCode": "RL05045",
     "offenceCategory": "CS",
-    "offenceTitle": "Board a train in non compulsory ticket area without a valid ticket - railway bye-law",
+    "offenceTitle": "Board a train in non compulsory ticket area          without a valid ticket - railway bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -71231,21 +71231,21 @@
   {
     "cjsCode": "RL05047",
     "offenceCategory": "CS",
-    "offenceTitle": "Occupy a reserved seat without valid ticket - railway bye-law",
+    "offenceTitle": "Occupy a reserved seat without valid ticket -          railway bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RL05048",
     "offenceCategory": "CS",
-    "offenceTitle": "Alter ticket with intent to defraud - railway bye-law",
+    "offenceTitle": "Alter ticket with intent to defraud - railway          bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RL05049",
     "offenceCategory": "CS",
-    "offenceTitle": "Use altered ticket with intent to defraud - railway bye-law",
+    "offenceTitle": "Use altered ticket with intent to defraud -          railway bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -71259,14 +71259,14 @@
   {
     "cjsCode": "RL05051",
     "offenceCategory": "CS",
-    "offenceTitle": "Transfer / receive unused / partly used ticket - railway bye-law",
+    "offenceTitle": "Transfer / receive unused / partly used          ticket - railway bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RL05052",
     "offenceCategory": "CS",
-    "offenceTitle": "Use ticket from unauthorised person / machine - railway bye-law",
+    "offenceTitle": "Use ticket from unauthorised person / machine          - railway bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -71280,14 +71280,14 @@
   {
     "cjsCode": "RL05054",
     "offenceCategory": "CS",
-    "offenceTitle": "Buy incorrect fare ticket intended for use by another - railway bye-law",
+    "offenceTitle": "Buy incorrect fare ticket intended for use by          another - railway bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RL05055",
     "offenceCategory": "CS",
-    "offenceTitle": "Transfer incorrect fare ticket to another - railway bye-law",
+    "offenceTitle": "Transfer incorrect fare ticket to another -          railway bye-law",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -71308,7 +71308,7 @@
   {
     "cjsCode": "RL40001",
     "offenceCategory": "CS",
-    "offenceTitle": "Obstruct a railway officer / agent / employee",
+    "offenceTitle": "Obstruct a railway officer / agent /    employee",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -71322,7 +71322,7 @@
   {
     "cjsCode": "RL40003",
     "offenceCategory": "CS",
-    "offenceTitle": "Aid / assist the obstruction of a railway employee / officer",
+    "offenceTitle": "Aid / assist the obstruction of a railway employee /    officer",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -71336,7 +71336,7 @@
   {
     "cjsCode": "RL45002",
     "offenceCategory": "CS",
-    "offenceTitle": "Refuse to quit railway carriage at destination",
+    "offenceTitle": "Refuse to quit railway carriage at    destination",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -72218,7 +72218,7 @@
   {
     "cjsCode": "RP00006",
     "offenceCategory": "CE",
-    "offenceTitle": "Disclose details of section 49 notice - RIPA",
+    "offenceTitle": "Disclose    details of section 49 notice - RIPA",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -72393,7 +72393,7 @@
   {
     "cjsCode": "RP83052",
     "offenceCategory": "CS",
-    "offenceTitle": "Unauthorised local connection declaration under section 15 - elections",
+    "offenceTitle": "Unauthorised    local connection declaration under section 15 - elections",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -72407,14 +72407,14 @@
   {
     "cjsCode": "RP83054",
     "offenceCategory": "CS",
-    "offenceTitle": "Unauthorised declaration of local connection - false statement - elections",
+    "offenceTitle": "Unauthorised    declaration of local connection - false statement - elections",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RP83055",
     "offenceCategory": "CS",
-    "offenceTitle": "Unauthorised service declaration under section 7B - elections",
+    "offenceTitle": "Unauthorised    service declaration under section 7B - elections",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -72470,14 +72470,14 @@
   {
     "cjsCode": "RP83063",
     "offenceCategory": "CS",
-    "offenceTitle": "Publish prohibited statement of an exit poll - elections",
+    "offenceTitle": "Publish    prohibited statement of an exit poll - elections",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RP83064",
     "offenceCategory": "CS",
-    "offenceTitle": "Publish prohibited forecast of election result - elections",
+    "offenceTitle": "Publish prohibited    forecast of election result - elections",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -74150,7 +74150,7 @@
   {
     "cjsCode": "RR84120",
     "offenceCategory": "CE",
-    "offenceTitle": "Use parking certificate / I.D. / device with intent to deceive",
+    "offenceTitle": "Use    parking certificate / I.D. / device with intent to deceive",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -74185,14 +74185,14 @@
   {
     "cjsCode": "RR84125",
     "offenceCategory": "CS",
-    "offenceTitle": "Make false statement to procure issue / grant parking certificate / identification / device",
+    "offenceTitle": "Make false    statement to procure issue / grant parking certificate / identification / device",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RR84126",
     "offenceCategory": "CE",
-    "offenceTitle": "Make / possess parking certificate / ID / device with intent to deceive",
+    "offenceTitle": "Make /    possess parking certificate / ID / device with intent to deceive",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -74710,7 +74710,7 @@
   {
     "cjsCode": "RR84229",
     "offenceCategory": "CM",
-    "offenceTitle": "Caused or permitted vehicle to be used in excess of gross weight limit  local traffic order outside Greater London ",
+    "offenceTitle": "Caused or permitted vehicle to be used in excess of gross weight limit local traffic order outside Greater London ",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -74997,7 +74997,7 @@
   {
     "cjsCode": "RT03010",
     "offenceCategory": "CS",
-    "offenceTitle": "Obstruct / fail to cooperate with inquiry - transport safety",
+    "offenceTitle": "Obstruct / fail to    cooperate with inquiry - transport safety",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -75025,42 +75025,42 @@
   {
     "cjsCode": "RT03014",
     "offenceCategory": "CE",
-    "offenceTitle": "Off duty seaman - alcohol in breath / blood / urine over prescribed limit - transport safety",
+    "offenceTitle": "Off duty    seaman - alcohol in breath / blood / urine over prescribed limit - transport safety",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RT03017",
     "offenceCategory": "CE",
-    "offenceTitle": "Perform aviation function while impaired by drink / drugs - transport safety",
+    "offenceTitle": "Perform    aviation function while impaired by drink / drugs - transport safety",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RT03018",
     "offenceCategory": "CE",
-    "offenceTitle": "Carried out an activity ancillary to an aviation function while impaired by drink / drugs - transport safety",
+    "offenceTitle": "Carried    out an activity ancillary to an aviation function while impaired by drink / drugs -    transport safety",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RT03019",
     "offenceCategory": "CE",
-    "offenceTitle": "Perform aviation function when alcohol in breath / blood / urine over prescribed limit - transport safety",
+    "offenceTitle": "Perform    aviation function when alcohol in breath / blood / urine over prescribed limit - transport    safety",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RT03020",
     "offenceCategory": "CE",
-    "offenceTitle": "Perform ancillary activity to aviation function - alcohol in breath / blood / urine over prescribed limit",
+    "offenceTitle": "Perform ancillary    activity to aviation function - alcohol in breath / blood / urine over prescribed limit",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RT03021",
     "offenceCategory": "CE",
-    "offenceTitle": "Fail to co -operate with the provision of a specimen of breath - preliminary test - maritime offence",
+    "offenceTitle": "Fail to    co    -operate with the provision of a specimen of breath - preliminary test - maritime    offence",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -76362,7 +76362,7 @@
   {
     "cjsCode": "RT88223",
     "offenceCategory": "CM",
-    "offenceTitle": "Road accident - fail to report and produce insurance - mechanically propelled vehicle",
+    "offenceTitle": "Road accident - fail to report and produce insurance - mechanically propelled    vehicle",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -77328,14 +77328,14 @@
   {
     "cjsCode": "RT88475",
     "offenceCategory": "CM",
-    "offenceTitle": "Cause a person under 21 to drive large goods vehicle / passenger carrying vehicle in breach of condition",
+    "offenceTitle": "Cause a person under 21 to drive large goods vehicle / passenger carrying vehicle    in breach of condition",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RT88476",
     "offenceCategory": "CM",
-    "offenceTitle": "Permit a person under 21 to drive large goods vehicle / passenger carrying vehicle in breach of licence conditions",
+    "offenceTitle": "Permit a person under 21 to drive large goods vehicle / passenger carrying vehicle    in breach of licence conditions",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -77377,14 +77377,14 @@
   {
     "cjsCode": "RT88498",
     "offenceCategory": "CE",
-    "offenceTitle": "Make a false statement to obtain insurance",
+    "offenceTitle": "Make a false statement to    obtain insurance",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RT88499",
     "offenceCategory": "CE",
-    "offenceTitle": "Withhold information to obtain motor insurance",
+    "offenceTitle": "Withhold information to    obtain motor insurance",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -77398,14 +77398,14 @@
   {
     "cjsCode": "RT88501",
     "offenceCategory": "CI",
-    "offenceTitle": "Cause death by due care while over prescribed limit",
+    "offenceTitle": "Cause    death by due care while over prescribed limit",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RT88502",
     "offenceCategory": "CI",
-    "offenceTitle": "Cause death by due care and fail to provide specimen",
+    "offenceTitle": "Cause    death by due care and fail to provide specimen",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -77615,14 +77615,14 @@
   {
     "cjsCode": "RT88540",
     "offenceCategory": "VP",
-    "offenceTitle": "Application to review conduct of test  section 90 Road Traffic Act 1988",
+    "offenceTitle": "Application to review conduct of test section 90 Road Traffic Act 1988",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RT88541",
     "offenceCategory": "VP",
-    "offenceTitle": "Appeal against decision of traffic commissioner  section 119 Road Traffic Act 1988",
+    "offenceTitle": "Appeal against decision of traffic commissioner section 119 Road Traffic Act 1988",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -77853,7 +77853,7 @@
   {
     "cjsCode": "RT88704",
     "offenceCategory": "CM",
-    "offenceTitle": "Driver fail to produce insurance certificate - accident - public place",
+    "offenceTitle": "Driver fail to produce insurance certificate - accident    - public place",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -78133,35 +78133,35 @@
   {
     "cjsCode": "RT89004",
     "offenceCategory": "CM",
-    "offenceTitle": "Fail to comply with condition of operators licence - driver information system",
+    "offenceTitle": "Fail to comply with condition of operators licence - driver information    system",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RV02002",
     "offenceCategory": "CM",
-    "offenceTitle": "Fail to produce registration book / document for inspection",
+    "offenceTitle": "Fail to    produce registration book / document for inspection",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RV02003",
     "offenceCategory": "CM",
-    "offenceTitle": "Vehicle - fail to notify alteration to particulars in registration document",
+    "offenceTitle": "Vehicle -    fail to notify alteration to particulars in registration document",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RV02004",
     "offenceCategory": "CS",
-    "offenceTitle": "Vehicle - fail to notify of export / destruction",
+    "offenceTitle": "Vehicle -    fail to notify of export / destruction",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RV02005",
     "offenceCategory": "CS",
-    "offenceTitle": "Vehicle - fail to notify Secretary of State of change to registered keeper name / address",
+    "offenceTitle": "Vehicle -    fail to notify Secretary of State of change to registered keeper name / address",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -78196,28 +78196,28 @@
   {
     "cjsCode": "RV02016",
     "offenceCategory": "CS",
-    "offenceTitle": "Vehicle - fail to return trade plates to Secretary of State",
+    "offenceTitle": "Vehicle - fail to    return trade plates to Secretary of State",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RV02023",
     "offenceCategory": "CS",
-    "offenceTitle": "Vehicle - fail to notify expiry of vehicle / nil licence",
+    "offenceTitle": "Vehicle -    fail to notify expiry of vehicle / nil licence",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RV02024",
     "offenceCategory": "CS",
-    "offenceTitle": "Vehicle - keep an unlicensed vehicle and fail to inform Secretary of State",
+    "offenceTitle": "Vehicle - keep an    unlicensed vehicle and fail to inform Secretary of State",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RV02025",
     "offenceCategory": "CS",
-    "offenceTitle": "Vehicle - new keeper of unlicensed vehicle fail to inform Secretary of State",
+    "offenceTitle": "Vehicle -    new keeper of unlicensed vehicle fail to inform Secretary of State",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -78231,14 +78231,14 @@
   {
     "cjsCode": "RV02033",
     "offenceCategory": "CS",
-    "offenceTitle": "Vehicle - trade licence holder permit display of thing mistaken for trade plate",
+    "offenceTitle": "Vehicle -    trade licence holder permit display of thing mistaken for trade plate",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RV02036",
     "offenceCategory": "CS",
-    "offenceTitle": "Vehicle - trade licence holder fail to show registration mark on trade plate",
+    "offenceTitle": "Vehicle -    trade licence holder fail to show registration mark on trade plate",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -78252,14 +78252,14 @@
   {
     "cjsCode": "RV02043",
     "offenceCategory": "CS",
-    "offenceTitle": "Vehicle - trade licence holder permit mutilation / defacing / addition to plate",
+    "offenceTitle": "Vehicle -    trade licence holder permit mutilation / defacing / addition to plate",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RV02044",
     "offenceCategory": "CS",
-    "offenceTitle": "Vehicle - trade licence holder mutilate / deface / add to / alter trade plate",
+    "offenceTitle": "Vehicle -    trade licence holder mutilate / deface / add to / alter trade plate",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -78455,7 +78455,7 @@
   {
     "cjsCode": "RV86001",
     "offenceCategory": "CM",
-    "offenceTitle": "Use goods vehicle max gross weight of 3500kgs  tyre manufacture date of more than 10 years old",
+    "offenceTitle": "Use goods vehicle max gross weight of 3500kgs tyre manufacture date of more than 10 years old",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -78497,56 +78497,56 @@
   {
     "cjsCode": "RV86007",
     "offenceCategory": "CM",
-    "offenceTitle": "Use goods vehicle max gross weight of 3500kgs  re-treaded tyre - manufacture date of more than 10 years old",
+    "offenceTitle": "Use goods vehicle max gross weight of 3500kgs re-treaded tyre - manufacture date of more than 10 years old",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RV86008",
     "offenceCategory": "CM",
-    "offenceTitle": "Use minibus  re-treaded tyre - manufacture date of more than 10 years old",
+    "offenceTitle": "Use minibus re-treaded tyre - manufacture date of more than 10 years old",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RV86009",
     "offenceCategory": "CM",
-    "offenceTitle": "Use bus  re-treaded tyre - manufacture date of more than 10 years old",
+    "offenceTitle": "Use bus re-treaded tyre - manufacture date of more than 10 years old",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RV86010",
     "offenceCategory": "CM",
-    "offenceTitle": "Use goods vehicle max gross weight of 3500kgs  re-treaded tyre - without week of manufacturing marking",
+    "offenceTitle": "Use goods vehicle max gross weight of 3500kgs re-treaded tyre - without week of manufacturing marking",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RV86011",
     "offenceCategory": "CM",
-    "offenceTitle": "Use minibus  re-treaded tyre - without week of manufacturing marking",
+    "offenceTitle": "Use minibus re-treaded tyre - without week of manufacturing marking",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RV86012",
     "offenceCategory": "CM",
-    "offenceTitle": "Use bus  re-treaded tyre - without week of manufacturing marking",
+    "offenceTitle": "Use bus re-treaded tyre - without week of manufacturing marking",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RV86013",
     "offenceCategory": "CM",
-    "offenceTitle": "Use goods vehicle max gross weight of 3500kgs  illegible date marked on re-treaded tyre sidewall",
+    "offenceTitle": "Use goods vehicle max gross weight of 3500kgs illegible date marked on re-treaded tyre sidewall",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "RV86014",
     "offenceCategory": "CM",
-    "offenceTitle": "Use bus / minibus  illegible date marked on re-treaded tyre sidewall",
+    "offenceTitle": "Use bus / minibus illegible date marked on re-treaded tyre sidewall",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -82207,21 +82207,21 @@
   {
     "cjsCode": "SO74007",
     "offenceCategory": "CS",
-    "offenceTitle": "Disqualified solicitor failing to disclose he / she was struck off / suspended",
+    "offenceTitle": "Disqualified    solicitor failing to disclose he / she was struck off / suspended",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SO74008",
     "offenceCategory": "CS",
-    "offenceTitle": "Disqualified solicitor fail to disclose struck off / suspended",
+    "offenceTitle": "Disqualified    solicitor fail to disclose struck off / suspended",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SO74009",
     "offenceCategory": "CS",
-    "offenceTitle": "Former employee of solicitor fail to disclose order under s.43(2)",
+    "offenceTitle": "Former employee of    solicitor fail to disclose order under s.43(2)",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -82515,7 +82515,7 @@
   {
     "cjsCode": "SP85028",
     "offenceCategory": "CS",
-    "offenceTitle": "Sporting event - possess prohibited substance when trying to enter designated sports ground",
+    "offenceTitle": "Sporting event - possess prohibited substance when trying to enter designated    sports ground",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -84307,7 +84307,7 @@
   {
     "cjsCode": "SX03001A",
     "offenceCategory": "CI",
-    "offenceTitle": "Attempt to rape a girl aged 13 / 14 / 15 years of age - SOA 2003",
+    "offenceTitle": "Attempt to rape a girl    aged 13 / 14 / 15 years of age - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -84328,14 +84328,14 @@
   {
     "cjsCode": "SX03002",
     "offenceCategory": "CI",
-    "offenceTitle": "Rape a woman 16 years of age or over - SOA 2003",
+    "offenceTitle": "Rape a woman 16 years of    age or over - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03002A",
     "offenceCategory": "CI",
-    "offenceTitle": "Attempt to rape a woman 16 or over - SOA 2003",
+    "offenceTitle": "Attempt to rape a woman    16 or over - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -84356,14 +84356,14 @@
   {
     "cjsCode": "SX03003",
     "offenceCategory": "CI",
-    "offenceTitle": "Rape a boy aged 13 / 14 / 15 years of age - SOA 2003",
+    "offenceTitle": "Rape a boy aged 13 / 14 /    15 years of age - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03003A",
     "offenceCategory": "CI",
-    "offenceTitle": "Attempt to rape a boy aged 13 / 14 / 15 - SOA 2003",
+    "offenceTitle": "Attempt to rape a boy    aged 13 / 14 / 15 - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -84384,7 +84384,7 @@
   {
     "cjsCode": "SX03004A",
     "offenceCategory": "CI",
-    "offenceTitle": "Attempt to rape a man aged 16 or over - SOA 2003",
+    "offenceTitle": "Attempt to rape a man    aged 16 or over - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -84398,7 +84398,7 @@
   {
     "cjsCode": "SX03005",
     "offenceCategory": "CI",
-    "offenceTitle": "Assault a female 13 and over by penetration with part of body / a thing - SOA 2003",
+    "offenceTitle": "Assault a female 13 and over by    penetration with part of body / a thing - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -84426,7 +84426,7 @@
   {
     "cjsCode": "SX03006",
     "offenceCategory": "CI",
-    "offenceTitle": "Assault a male 13 or over by penetration with part of body / a thing - SOA 2003",
+    "offenceTitle": "Assault a male 13 or over    by penetration with part of body / a thing - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -84496,7 +84496,7 @@
   {
     "cjsCode": "SX03009",
     "offenceCategory": "CE",
-    "offenceTitle": "Cause a female 13 or over to engage in a non penetrative sexual activity - SOA 2003",
+    "offenceTitle": "Cause a    female 13 or over to engage in a non penetrative sexual activity - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -84517,7 +84517,7 @@
   {
     "cjsCode": "SX03010",
     "offenceCategory": "CE",
-    "offenceTitle": "Cause a male 13 or over to engage in a non penetrative sexual activity - SOA 2003",
+    "offenceTitle": "Cause a male    13 or over to engage in a non penetrative sexual activity - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -84538,7 +84538,7 @@
   {
     "cjsCode": "SX03011",
     "offenceCategory": "CI",
-    "offenceTitle": "Cause a female 13 or over to engage in a penetrative sexual activity - SOA 2003",
+    "offenceTitle": "Cause a    female 13 or over to engage in a penetrative sexual activity - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -84559,7 +84559,7 @@
   {
     "cjsCode": "SX03012",
     "offenceCategory": "CI",
-    "offenceTitle": "Cause a male 13 or over to engage in a penetrative sexual activity - SOA 2003",
+    "offenceTitle": "Cause a male    13 or over to engage in a penetrative sexual activity - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -84587,7 +84587,7 @@
   {
     "cjsCode": "SX03013A",
     "offenceCategory": "CI",
-    "offenceTitle": "Attempt rape of a girl under 13 - SOA 2003",
+    "offenceTitle": "Attempt rape of a girl    under 13 - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -84608,14 +84608,14 @@
   {
     "cjsCode": "SX03014",
     "offenceCategory": "CI",
-    "offenceTitle": "Rape of a boy under 13 - SOA 2003",
+    "offenceTitle": "Rape of a boy under 13 -    SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03014A",
     "offenceCategory": "CI",
-    "offenceTitle": "Attempt rape of a boy under the age of 13 - SOA 2003",
+    "offenceTitle": "Attempt rape of a boy    under the age of 13 - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -84636,7 +84636,7 @@
   {
     "cjsCode": "SX03015",
     "offenceCategory": "CI",
-    "offenceTitle": "Assault a girl under 13 by penetration with a part of your body / a thing - SOA 2003",
+    "offenceTitle": "Assault a girl under 13    by penetration with a part of your body / a thing - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -84706,7 +84706,7 @@
   {
     "cjsCode": "SX03018",
     "offenceCategory": "CE",
-    "offenceTitle": "Assault a boy under 13 by touching - SOA 2003",
+    "offenceTitle": "Assault a boy under 13 by    touching - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -84755,7 +84755,7 @@
   {
     "cjsCode": "SX03020",
     "offenceCategory": "CE",
-    "offenceTitle": "Offender of any age cause / incite a boy under 13 to engage in sexual activity - no penetration - SOA 2003",
+    "offenceTitle": "Offender of any age cause    / incite a boy under 13 to engage in sexual activity - no penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -84797,7 +84797,7 @@
   {
     "cjsCode": "SX03022",
     "offenceCategory": "CI",
-    "offenceTitle": "Offender of any age cause / incite a boy under 13 to engage in sexual activity - penetration - SOA 2003",
+    "offenceTitle": "Offender of any age cause    / incite a boy under 13 to engage in sexual activity - penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -84818,7 +84818,7 @@
   {
     "cjsCode": "SX03023",
     "offenceCategory": "CI",
-    "offenceTitle": "Offender 18 or over engage in penetrative sexual activity with girl under 13 - SOA 2003",
+    "offenceTitle": "Offender 18    or over engage in penetrative sexual activity with girl under 13 - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -84846,7 +84846,7 @@
   {
     "cjsCode": "SX03024",
     "offenceCategory": "CI",
-    "offenceTitle": "Offender 18 or over engage in penetrative sexual activity with boy under 13 - SOA 2003",
+    "offenceTitle": "Offender 18    or over engage in penetrative sexual activity with boy under 13 - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -84867,7 +84867,7 @@
   {
     "cjsCode": "SX03025",
     "offenceCategory": "CI",
-    "offenceTitle": "Offender 18 or over engage in penetrative sexual activity with a girl 13 to 15 - SOA 2003",
+    "offenceTitle": "Offender 18    or over engage in penetrative sexual activity with a girl 13 to 15 - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -84888,7 +84888,7 @@
   {
     "cjsCode": "SX03026",
     "offenceCategory": "CI",
-    "offenceTitle": "Offender 18 or over engage in penetrative sexual activity with a boy 13 to 15 - SOA 2003",
+    "offenceTitle": "Offender 18    or over engage in penetrative sexual activity with a boy 13 to 15 - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -85028,7 +85028,7 @@
   {
     "cjsCode": "SX03033",
     "offenceCategory": "CE",
-    "offenceTitle": "Offender 18 or over cause a child under 13 to watch / look at an image of sexual activity - SOA 2003",
+    "offenceTitle": "Offender 18    or over cause a child under 13 to watch / look at an image of sexual activity - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -85133,7 +85133,7 @@
   {
     "cjsCode": "SX03040",
     "offenceCategory": "CE",
-    "offenceTitle": "Offender under 18 cause / incite a boy under 13 to engage in sexual activity - penetration - SOA 2003",
+    "offenceTitle": "Offender under 18 cause /    incite a boy under 13 to engage in sexual activity - penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -85147,7 +85147,7 @@
   {
     "cjsCode": "SX03041",
     "offenceCategory": "CE",
-    "offenceTitle": "Offender under 18 cause / incite a girl 13 to 15 to engage in sexual activity - penetration - SOA 2003",
+    "offenceTitle": "Offender under 18 cause /    incite a girl 13 to 15 to engage in sexual activity - penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -85161,7 +85161,7 @@
   {
     "cjsCode": "SX03042",
     "offenceCategory": "CE",
-    "offenceTitle": "Offender under 18 cause / incite a boy 13 to 15 to engage in sexual activity- penetration - SOA 2003",
+    "offenceTitle": "Offender under 18 cause / incite a    boy 13 to 15 to engage in sexual activity- penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -85217,7 +85217,7 @@
   {
     "cjsCode": "SX03047",
     "offenceCategory": "CE",
-    "offenceTitle": "Arrange / facilitate the commission of a child sex offence - SOA 2003",
+    "offenceTitle": "Arrange / facilitate the    commission of a child sex offence - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -85238,14 +85238,14 @@
   {
     "cjsCode": "SX03050",
     "offenceCategory": "CE",
-    "offenceTitle": "Adult abuse position of trust - sexual activity with a girl U.13 - not s. 21 premises - SOA 2003",
+    "offenceTitle": "Adult abuse position of    trust - sexual activity with a girl U.13 - not s. 21 premises - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03051",
     "offenceCategory": "CE",
-    "offenceTitle": "Adult abuse of position of trust - sexual activity with a boy U.13 - not s. 21 premises - SOA 2003",
+    "offenceTitle": "Adult abuse of position    of trust - sexual activity with a boy U.13 - not s. 21 premises - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -85259,21 +85259,21 @@
   {
     "cjsCode": "SX03053",
     "offenceCategory": "CE",
-    "offenceTitle": "Adult abuse of position of trust - sexual activity with a boy 13-17 - not s.21 premises - SOA 2003",
+    "offenceTitle": "Adult abuse of position    of trust - sexual activity with a boy 13-17 - not s.21 premises - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03054",
     "offenceCategory": "CE",
-    "offenceTitle": "Adult in position of trust - cause / incite sexual activity with girl U.13 - not s.21 premises - SOA 2003",
+    "offenceTitle": "Adult in position of    trust - cause / incite sexual activity with girl U.13 - not s.21 premises - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03055",
     "offenceCategory": "CE",
-    "offenceTitle": "Adult abuse position of trust - cause / incite sexual activity with a boy under 13 - not s.21 premises - SOA 2003",
+    "offenceTitle": "Adult abuse position of    trust - cause / incite sexual activity with a boy under 13 - not s.21 premises - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -85294,7 +85294,7 @@
   {
     "cjsCode": "SX03058",
     "offenceCategory": "CE",
-    "offenceTitle": "Adult abuse of position of trust - sexual activity in presence of a child under 13 - not s.21 premises - SOA 2003",
+    "offenceTitle": "Adult abuse of position    of trust - sexual activity in presence of a child under 13 - not s.21 premises - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -85308,14 +85308,14 @@
   {
     "cjsCode": "SX03060",
     "offenceCategory": "CE",
-    "offenceTitle": "Adult abuse of position of trust - cause child under 13 to watch a sexual act - not s.21 premises - SOA 2003",
+    "offenceTitle": "Adult abuse of position    of trust - cause child under 13 to watch a sexual act - not s.21 premises - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03061",
     "offenceCategory": "CE",
-    "offenceTitle": "Adult abuse position of trust - cause a child 13 to 17 to watch a sexual act - not s.21 premises - SOA 2003",
+    "offenceTitle": "Adult abuse position of    trust - cause a child 13 to 17 to watch a sexual act - not s.21 premises - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -85434,7 +85434,7 @@
   {
     "cjsCode": "SX03070",
     "offenceCategory": "CE",
-    "offenceTitle": "Offender under 18 incite sexual activity with a girl under 13 family member - no penetration - SOA 2003",
+    "offenceTitle": "Offender under 18 incite    sexual activity with a girl under 13 family member - no penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -85448,126 +85448,126 @@
   {
     "cjsCode": "SX03072",
     "offenceCategory": "CI",
-    "offenceTitle": "Adult incite sexual activity with a girl under 13 family member - penetration - SOA 2003",
+    "offenceTitle": "Adult incite sexual    activity with a girl under 13 family member - penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03073",
     "offenceCategory": "CI",
-    "offenceTitle": "Adult incite sexual activity with a boy under 13 family member - penetration - SOA 2003",
+    "offenceTitle": "Adult incite sexual    activity with a boy under 13 family member - penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03074",
     "offenceCategory": "CE",
-    "offenceTitle": "Offender under 18 incite sexual activity with a family member - victim girl 13 to 17 - no penetration - SOA 2003",
+    "offenceTitle": "Offender under 18 incite    sexual activity with a family member - victim girl 13 to 17 - no penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03075",
     "offenceCategory": "CE",
-    "offenceTitle": "Offender under 18 incite sexual activity with a family member - victim boy 13 to 17 - no penetration - SOA 2003",
+    "offenceTitle": "Offender under 18 incite    sexual activity with a family member - victim boy 13 to 17 - no penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03076",
     "offenceCategory": "CI",
-    "offenceTitle": "Adult incite sexual activity with a family member - victim girl 13 to 17 - penetration - SOA 2003",
+    "offenceTitle": "Adult incite sexual    activity with a family member - victim girl 13 to 17 - penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03077",
     "offenceCategory": "CI",
-    "offenceTitle": "Adult incite sexual activity with a family member - victim boy 13 to 17 - penetration - SOA 2003",
+    "offenceTitle": "Adult incite sexual    activity with a family member - victim boy 13 to 17 - penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03078",
     "offenceCategory": "CE",
-    "offenceTitle": "Sexual activity with a mentally disordered female - no penetration - SOA 2003",
+    "offenceTitle": "Sexual activity with a    mentally disordered female - no penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03079",
     "offenceCategory": "CE",
-    "offenceTitle": "Sexual activity with a mentally disordered male - no penetration - SOA 2003",
+    "offenceTitle": "Sexual activity with a    mentally disordered male - no penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03080",
     "offenceCategory": "CI",
-    "offenceTitle": "Sexual activity with a mentally disordered female - penetration - SOA 2003",
+    "offenceTitle": "Sexual activity with a    mentally disordered female - penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03081",
     "offenceCategory": "CI",
-    "offenceTitle": "Sexual activity with a mentally disordered male - penetration - SOA 2003",
+    "offenceTitle": "Sexual activity with a mentally    disordered male - penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03082",
     "offenceCategory": "CE",
-    "offenceTitle": "Cause / incite sexual activity with a mentally disordered female - no penetration - SOA 2003",
+    "offenceTitle": "Cause / incite sexual    activity with a mentally disordered female - no penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03083",
     "offenceCategory": "CE",
-    "offenceTitle": "Cause / incite sexual activity with a mentally disordered male - no penetration - SOA 2003",
+    "offenceTitle": "Cause / incite sexual    activity with a mentally disordered male - no penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03084",
     "offenceCategory": "CI",
-    "offenceTitle": "Cause / incite sexual activity with a mentally disordered female - penetration - SOA 2003",
+    "offenceTitle": "Cause / incite sexual    activity with a mentally disordered female - penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03085",
     "offenceCategory": "CI",
-    "offenceTitle": "Cause / incite sexual activity with a mentally disordered male - penetration - SOA 2003",
+    "offenceTitle": "Cause / incite sexual    activity with a mentally disordered male - penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03086",
     "offenceCategory": "CE",
-    "offenceTitle": "Engage in sexual activity in presence of a mentally disordered person - SOA 2003",
+    "offenceTitle": "Engage in sexual activity    in presence of a mentally disordered person - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03087",
     "offenceCategory": "CE",
-    "offenceTitle": "Cause a mentally disordered person to watch a sex act - SOA 2003",
+    "offenceTitle": "Cause a mentally    disordered person to watch a sex act - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03088",
     "offenceCategory": "CE",
-    "offenceTitle": "Sexual activity with mentally disordered person by inducement / threat / deception - no penetration - SOA 2003",
+    "offenceTitle": "Sexual activity with    mentally disordered person by inducement / threat / deception - no penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03089",
     "offenceCategory": "CI",
-    "offenceTitle": "Sexual activity with mentally disordered person by inducement / threat / deception - penetration - SOA 2003",
+    "offenceTitle": "Sexual activity with    mentally disordered person by inducement / threat / deception - penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -85588,84 +85588,84 @@
   {
     "cjsCode": "SX03092",
     "offenceCategory": "CE",
-    "offenceTitle": "Sexual activity in presence of mentally disordered person agreed / procured by inducement etc - SOA 2003",
+    "offenceTitle": "Sexual activity in presence of    mentally disordered person agreed / procured by inducement etc - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03093",
     "offenceCategory": "CE",
-    "offenceTitle": "Cause mentally disordered person to watch a sexual act by inducement etc - SOA 2003",
+    "offenceTitle": "Cause mentally disordered person    to watch a sexual act by inducement etc - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03094",
     "offenceCategory": "CE",
-    "offenceTitle": "Care worker engage in sexual activity with mentally disordered female - no penetration - SOA 2003",
+    "offenceTitle": "Care worker engage in sexual    activity with mentally disordered female - no penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03095",
     "offenceCategory": "CE",
-    "offenceTitle": "Care worker engage in sexual activity with mentally disordered male - no penetration - SOA 2003",
+    "offenceTitle": "Care worker engage in sexual    activity with mentally disordered male - no penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03096",
     "offenceCategory": "CI",
-    "offenceTitle": "Care worker engage in sexual activity with mentally disordered female - penetration - SOA 2003",
+    "offenceTitle": "Care worker engage in sexual    activity with mentally disordered female - penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03097",
     "offenceCategory": "CI",
-    "offenceTitle": "Care worker engage in sexual activity with mentally disordered male - penetration - SOA 2003",
+    "offenceTitle": "Care worker engage in sexual    activity with mentally disordered male - penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03098",
     "offenceCategory": "CE",
-    "offenceTitle": "Care worker cause / incite sexual activity with mentally disordered person - no penetration - SOA 2003",
+    "offenceTitle": "Care worker cause / incite sexual    activity with mentally disordered person - no penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03099",
     "offenceCategory": "CI",
-    "offenceTitle": "Care worker cause / incite sexual activity with mental disordered person - penetration - SOA 2003",
+    "offenceTitle": "Care worker cause / incite sexual    activity with mental disordered person - penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03102",
     "offenceCategory": "CE",
-    "offenceTitle": "Paying for the sexual services of a girl under 13 - no penetration - SOA 2003",
+    "offenceTitle": "Paying for the sexual services of    a girl under 13 - no penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03103",
     "offenceCategory": "CE",
-    "offenceTitle": "Paying for the sexual services of a boy under 13 - no penetration - SOA 2003",
+    "offenceTitle": "Paying for the sexual services of    a boy under 13 - no penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03104",
     "offenceCategory": "CI",
-    "offenceTitle": "Paying for the sexual services of a girl under 13 - penetration - SOA 2003",
+    "offenceTitle": "Paying for the sexual    services of a girl under 13 - penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03105",
     "offenceCategory": "CI",
-    "offenceTitle": "Paying for the sexual services of a boy under 13 - penetration - SOA 2003",
+    "offenceTitle": "Paying for the sexual services of    a boy under 13 - penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -85686,14 +85686,14 @@
   {
     "cjsCode": "SX03107",
     "offenceCategory": "CE",
-    "offenceTitle": "Paying for the sexual services of a boy 13 to 15 - no penetration - SOA 2003",
+    "offenceTitle": "Paying for the sexual    services of a boy 13 to 15 - no penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03108",
     "offenceCategory": "CI",
-    "offenceTitle": "Paying for the sexual services of a boy 13 to 15 - penetration - SOA 2003",
+    "offenceTitle": "Paying for the sexual    services of a boy 13 to 15 - penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -85714,7 +85714,7 @@
   {
     "cjsCode": "SX03110",
     "offenceCategory": "CE",
-    "offenceTitle": "Paying for the sexual services of a girl aged 16 / 17 - SOA 2003",
+    "offenceTitle": "Paying for the sexual services of    a girl aged 16 / 17 - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -85728,21 +85728,21 @@
   {
     "cjsCode": "SX03111",
     "offenceCategory": "CE",
-    "offenceTitle": "Paying for the sexual services of a boy aged 16 / 17 - SOA 2003",
+    "offenceTitle": "Paying for the sexual    services of a boy aged 16 / 17 - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03118",
     "offenceCategory": "CE",
-    "offenceTitle": "Cause / incite prostitution for gain - SOA 2003",
+    "offenceTitle": "Cause / incite    prostitution for gain - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03119",
     "offenceCategory": "CE",
-    "offenceTitle": "Control prostitution for gain - SOA 2003",
+    "offenceTitle": "Control prostitution for    gain - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -85763,28 +85763,28 @@
   {
     "cjsCode": "SX03124",
     "offenceCategory": "CE",
-    "offenceTitle": "Commit an offence with the intention of committing a relevant sexual offence - SOA 2003",
+    "offenceTitle": "Commit an offence with    the intention of committing a relevant sexual offence - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03125",
     "offenceCategory": "CE",
-    "offenceTitle": "Knowingly / recklessly trespassed on premises with intent to commit a relevant sexual offence - SOA 2003",
+    "offenceTitle": "Knowingly / recklessly    trespassed on premises with intent to commit a relevant sexual offence - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03126",
     "offenceCategory": "CE",
-    "offenceTitle": "Offender 16 or over sexual activity with an adult relative over 18 - penetration - SOA 2003",
+    "offenceTitle": "Offender 16 or over    sexual activity with an adult relative over 18 - penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03127",
     "offenceCategory": "CE",
-    "offenceTitle": "Offender 16 or over consenting to sexual activity by an adult relative over 18 - penetration - SOA 2003",
+    "offenceTitle": "Offender 16 or over consenting to    sexual activity by an adult relative over 18 - penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -85812,28 +85812,28 @@
   {
     "cjsCode": "SX03130",
     "offenceCategory": "CE",
-    "offenceTitle": "Voyeurism - operating equipment to observe - SOA 2003",
+    "offenceTitle": "Voyeurism   - operating    equipment to observe - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03131",
     "offenceCategory": "CE",
-    "offenceTitle": "Voyeurism - recording a private act - SOA 2003",
+    "offenceTitle": "Voyeurism    - recording a    private act - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03132",
     "offenceCategory": "CE",
-    "offenceTitle": "Voyeurism - install equipment / construct / adapt a structure - SOA 2003",
+    "offenceTitle": "Voyeurism   - install    equipment / construct / adapt a structure - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03133",
     "offenceCategory": "CE",
-    "offenceTitle": "Cause / allow sexual penetration per vagina / anus of a female person by a living animal - SOA 2003",
+    "offenceTitle": "Cause / allow    sexual penetration per vagina / anus of a female person by a living animal - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -85847,35 +85847,35 @@
   {
     "cjsCode": "SX03134",
     "offenceCategory": "CE",
-    "offenceTitle": "Sexual penetration per vagina / anus by a person with a living animal - SOA 2003",
+    "offenceTitle": "Sexual penetration per    vagina / anus by a person with a living animal - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03136",
     "offenceCategory": "CE",
-    "offenceTitle": "Cause / allow sexual penetration per anus of a person by a living animal - SOA 2003",
+    "offenceTitle": "Cause / allow sexual    penetration per anus of a person by a living animal - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03137",
     "offenceCategory": "CE",
-    "offenceTitle": "Sexual penetration of a corpse - SOA 2003",
+    "offenceTitle": "Sexual penetration of a    corpse - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03156",
     "offenceCategory": "CE",
-    "offenceTitle": "Offender 18 or over engage in non penetrative sexual activity with girl under 13 - SOA 2003",
+    "offenceTitle": "Offender 18    or over engage in non penetrative sexual activity with girl under 13 - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03157",
     "offenceCategory": "CE",
-    "offenceTitle": "Offender 18 or over engage in non penetrative sexual activity with boy under 13 - SOA 2003",
+    "offenceTitle": "Offender 18    or over engage in non penetrative sexual activity with boy under 13 - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -85889,7 +85889,7 @@
   {
     "cjsCode": "SX03158",
     "offenceCategory": "CE",
-    "offenceTitle": "Offender 18 or over engage in non penetrative sexual activity with girl 13 to 15 - SOA 2003",
+    "offenceTitle": "Offender 18    or over engage in non penetrative sexual activity with girl 13 to 15 - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -85903,14 +85903,14 @@
   {
     "cjsCode": "SX03159",
     "offenceCategory": "CE",
-    "offenceTitle": "Offender 18 or over engage in non penetrative sexual activity with boy 13 to 15 - SOA 2003",
+    "offenceTitle": "Offender 18    or over engage in non penetrative sexual activity with boy 13 to 15 - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03160",
     "offenceCategory": "CE",
-    "offenceTitle": "Offender 18 or over cause / incite a girl under 13 to engage in sexual activity - no penetration - SOA 2003",
+    "offenceTitle": "Offender 18 or over cause    / incite a girl under 13 to engage in sexual activity - no penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -85931,7 +85931,7 @@
   {
     "cjsCode": "SX03162",
     "offenceCategory": "CE",
-    "offenceTitle": "Offender 18 or over cause / incite a girl 13 to 15 to engage in sexual activity - no penetration - SOA 2003",
+    "offenceTitle": "Offender 18 or over cause    / incite a girl 13 to 15 to engage in sexual activity - no penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -85945,7 +85945,7 @@
   {
     "cjsCode": "SX03163",
     "offenceCategory": "CE",
-    "offenceTitle": "Offender 18 or over cause / incite a boy 13 to 15 to engage in sexual activity - no penetration - SOA 2003",
+    "offenceTitle": "Offender 18 or over cause    / incite a boy 13 to 15 to engage in sexual activity - no penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -85987,14 +85987,14 @@
   {
     "cjsCode": "SX03168",
     "offenceCategory": "CE",
-    "offenceTitle": "Offender under 18 cause / incite a girl under 13 to engage in sexual activity - no penetration - SOA 2003",
+    "offenceTitle": "Offender under 18 cause /    incite a girl under 13 to engage in sexual activity - no penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03169",
     "offenceCategory": "CE",
-    "offenceTitle": "Offender under 18 cause / incite a boy under 13 to engage in sexual activity - no penetration - SOA 2003",
+    "offenceTitle": "Offender under 18 cause /    incite a boy under 13 to engage in sexual activity - no penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -86015,7 +86015,7 @@
   {
     "cjsCode": "SX03171",
     "offenceCategory": "CE",
-    "offenceTitle": "Offender under 18 cause / incite a boy 13 to 15 to engage in sexual activity - no penetration - SOA 2003",
+    "offenceTitle": "Offender under 18 cause /    incite a boy 13 to 15 to engage in sexual activity - no penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -86078,7 +86078,7 @@
   {
     "cjsCode": "SX03176",
     "offenceCategory": "CE",
-    "offenceTitle": "Adult incite sexual activity with a girl under 13 family member - no penetration - SOA 2003",
+    "offenceTitle": "Adult incite sexual    activity with a girl under 13 family member - no penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -86099,14 +86099,14 @@
   {
     "cjsCode": "SX03179",
     "offenceCategory": "CE",
-    "offenceTitle": "Adult incite sexual activity with a family member - victim boy 13 to 17 - no penetration - SOA 2003",
+    "offenceTitle": "Adult incite sexual    activity with a family member - victim boy 13 to 17 - no penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03180",
     "offenceCategory": "CS",
-    "offenceTitle": "Sexual activity in a public lavatory - SOA 2003",
+    "offenceTitle": "Sexual activity in a public    lavatory - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -86176,7 +86176,7 @@
   {
     "cjsCode": "SX03186",
     "offenceCategory": "CE",
-    "offenceTitle": "Offender under 18 incite sexual activity with a boy under 13 family member - penetration - SOA 2003",
+    "offenceTitle": "Offender under 18 incite    sexual activity with a boy under 13 family member - penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -86190,35 +86190,35 @@
   {
     "cjsCode": "SX03188",
     "offenceCategory": "CE",
-    "offenceTitle": "Offender under 18 incite sexual activity with a boy 13 -17 family member - penetration - SOA 2003",
+    "offenceTitle": "Offender under 18 incite    sexual activity with a boy 13 -17 family member - penetration - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03189",
     "offenceCategory": "CE",
-    "offenceTitle": "Adult abuse position of trust - sexual activity with a girl U.13 cared for in s.21 premises - SOA 2003",
+    "offenceTitle": "Adult abuse position of    trust - sexual activity with a girl U.13 cared for in s.21 premises - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03190",
     "offenceCategory": "CE",
-    "offenceTitle": "Adult abuse position of trust - sexual activity with a boy U.13 cared for in s.21 premises - SOA 2003",
+    "offenceTitle": "Adult abuse position of    trust - sexual activity with a boy U.13 cared for in s.21 premises - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03191",
     "offenceCategory": "CE",
-    "offenceTitle": "Adult abuse of position of trust - sexual activity with a girl 13-17 cared for in s.21 premises - SOA 2003",
+    "offenceTitle": "Adult abuse of position    of trust - sexual activity with a girl 13-17 cared for in s.21 premises - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03192",
     "offenceCategory": "CE",
-    "offenceTitle": "Adult abuse of position of trust - sexual activity with a boy 13-17 cared for in s.21 premises - SOA 2003",
+    "offenceTitle": "Adult abuse of position of trust -    sexual activity with a boy 13-17 cared for in s.21 premises - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -86239,14 +86239,14 @@
   {
     "cjsCode": "SX03195",
     "offenceCategory": "CE",
-    "offenceTitle": "Adult abuse of position of trust - cause / incite sexual activity with girl 13 - 17 s.21 premises - SOA 2003",
+    "offenceTitle": "Adult abuse of position    of trust - cause / incite sexual activity with girl 13 - 17 s.21 premises - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "SX03196",
     "offenceCategory": "CE",
-    "offenceTitle": "Adult abuse of position of trust - cause / incite sexual activity with boy 13 - 17 s.21 premises - SOA 2003",
+    "offenceTitle": "Adult abuse of position of trust -    cause / incite sexual activity with boy 13 - 17 s.21 premises - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -86267,7 +86267,7 @@
   {
     "cjsCode": "SX03199",
     "offenceCategory": "CE",
-    "offenceTitle": "Adult abuse of position of trust - cause child U.13 cared for in s.21 premises to watch a sexual act - SOA 2003",
+    "offenceTitle": "Adult abuse of position    of trust - cause child U.13 cared for in s.21 premises to watch a sexual act - SOA 2003",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -87660,7 +87660,7 @@
   {
     "cjsCode": "TH68002A",
     "offenceCategory": "CE",
-    "offenceTitle": "Attempt theft in dwelling other than automatic machine or meter",
+    "offenceTitle": "Attempt theft in dwelling other than automatic    machine or meter",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -87814,14 +87814,14 @@
   {
     "cjsCode": "TH68015",
     "offenceCategory": "CE",
-    "offenceTitle": "Theft of conveyance other than motor vehicle or pedal cycle",
+    "offenceTitle": "Theft of conveyance other than motor    vehicle or pedal cycle",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "TH68015A",
     "offenceCategory": "CE",
-    "offenceTitle": "Attempt theft of conveyance other than motor vehicle / pedal cycle",
+    "offenceTitle": "Attempt theft of conveyance other than    motor vehicle / pedal cycle",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -87863,7 +87863,7 @@
   {
     "cjsCode": "TH68020A",
     "offenceCategory": "CE",
-    "offenceTitle": "Attempt theft - other - including by theft ' finding '",
+    "offenceTitle": "Attempt theft - other - including by theft    ' finding '",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -87912,14 +87912,14 @@
   {
     "cjsCode": "TH68026A",
     "offenceCategory": "CE",
-    "offenceTitle": "Attempt burglary dwelling with intent to steal",
+    "offenceTitle": "Attempt burglary dwelling with intent to    steal",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "TH68026C",
     "offenceCategory": "CI",
-    "offenceTitle": "Conspire to commit a burglary dwelling with intent to steal",
+    "offenceTitle": "Conspire to commit a burglary dwelling with    intent to steal",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -87933,7 +87933,7 @@
   {
     "cjsCode": "TH68027A",
     "offenceCategory": "CE",
-    "offenceTitle": "Attempt burglary other than dwelling with intent to steal",
+    "offenceTitle": "Attempt burglary other than dwelling with intent to    steal",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -87989,7 +87989,7 @@
   {
     "cjsCode": "TH68029C",
     "offenceCategory": "CI",
-    "offenceTitle": "Conspire to commit a burglary other than a dwelling with intent to inflict gbh",
+    "offenceTitle": "Conspire to commit a burglary other than a    dwelling with intent to inflict gbh",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -88031,7 +88031,7 @@
   {
     "cjsCode": "TH68033C",
     "offenceCategory": "CI",
-    "offenceTitle": "Conspire to commit a burglary other than a dwelling with intent to damage",
+    "offenceTitle": "Conspire to commit a burglary other than a dwelling    with intent to damage",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -88178,7 +88178,7 @@
   {
     "cjsCode": "TH68054",
     "offenceCategory": "CS",
-    "offenceTitle": "Carried in / on a motor vehicle taken without the owners consent",
+    "offenceTitle": "Carried in / on a motor vehicle taken    without the owners consent",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -88857,21 +88857,21 @@
   {
     "cjsCode": "TM94006",
     "offenceCategory": "CE",
-    "offenceTitle": "Offer / expose for sale goods bearing a false trade mark",
+    "offenceTitle": "Offer /    expose for sale goods bearing a false trade mark",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "TM94008",
     "offenceCategory": "CE",
-    "offenceTitle": "Offer / expose for hire goods bearing a false trade mark",
+    "offenceTitle": "Offer /    expose for hire goods bearing a false trade mark",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "TM94009",
     "offenceCategory": "CE",
-    "offenceTitle": "Distribute goods bearing false trade mark",
+    "offenceTitle": "Distribute    goods bearing false trade mark",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -88885,7 +88885,7 @@
   {
     "cjsCode": "TM94010",
     "offenceCategory": "CE",
-    "offenceTitle": "Possess goods with a false trade mark for sale / hire",
+    "offenceTitle": "Possess    goods with a false trade mark for sale / hire",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -88899,35 +88899,35 @@
   {
     "cjsCode": "TM94011",
     "offenceCategory": "CE",
-    "offenceTitle": "Apply material bearing a false trade mark",
+    "offenceTitle": "Apply    material bearing a false trade mark",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "TM94012",
     "offenceCategory": "CE",
-    "offenceTitle": "Use material bearing a false trade mark",
+    "offenceTitle": "Use    material bearing a false trade mark",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "TM94013",
     "offenceCategory": "CE",
-    "offenceTitle": "Possess / control material bearing a false trade mark",
+    "offenceTitle": "Possess /    control material bearing a false trade mark",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "TM94014",
     "offenceCategory": "CE",
-    "offenceTitle": "Make an article for making copies of a trade mark",
+    "offenceTitle": "Make an    article for making copies of a trade mark",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "TM94015",
     "offenceCategory": "CE",
-    "offenceTitle": "Possess an article for making copies of a trade mark",
+    "offenceTitle": "Possess    an article for making copies of a trade mark",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -89389,7 +89389,7 @@
   {
     "cjsCode": "TP13007",
     "offenceCategory": "CS",
-    "offenceTitle": "Timber Products  being an operator, fail to comply with a notice of remedial actions",
+    "offenceTitle": "Timber Products being an operator, fail to comply with a notice of remedial actions",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -90999,7 +90999,7 @@
   {
     "cjsCode": "TR68107",
     "offenceCategory": "CM",
-    "offenceTitle": "Drivers hours - cause driver to exceed 4.5 hours driving without a break - EC",
+    "offenceTitle": "Drivers hours - cause driver to    exceed 4.5 hours driving without a break - EC",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -91055,7 +91055,7 @@
   {
     "cjsCode": "TR68156",
     "offenceCategory": "CM",
-    "offenceTitle": "Drivers hours - cause driver to fail to take minimum weekly rest period",
+    "offenceTitle": "Drivers hours - cause driver to fail to    take minimum weekly rest period",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -91139,7 +91139,7 @@
   {
     "cjsCode": "TR68187",
     "offenceCategory": "CM",
-    "offenceTitle": "Drivers hours - permit driver to exceed 4.5 hours driving without a break - EC",
+    "offenceTitle": "Drivers hours - permit driver to exceed 4.5 hours    driving without a break - EC",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -91174,7 +91174,7 @@
   {
     "cjsCode": "TR68203",
     "offenceCategory": "CM",
-    "offenceTitle": "Tachograph  - permit improper function / use",
+    "offenceTitle": "Tachograph  - permit improper    function / use",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -91384,7 +91384,7 @@
   {
     "cjsCode": "TR68234",
     "offenceCategory": "CM",
-    "offenceTitle": "Drivers hours - permit driver to fail to take minimum daily rest in 24 hour period",
+    "offenceTitle": "Drivers    hours - permit driver to fail to take minimum daily rest in 24 hour period",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -91398,7 +91398,7 @@
   {
     "cjsCode": "TR68236",
     "offenceCategory": "CM",
-    "offenceTitle": "Drivers hours - permit driver to fail to take minimum weekly rest period",
+    "offenceTitle": "Drivers hours - permit driver to fail to take minimum    weekly rest period",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -91720,7 +91720,7 @@
   {
     "cjsCode": "TR68403",
     "offenceCategory": "CM",
-    "offenceTitle": "Drivers hours - permit fail to comply - driving prohibition",
+    "offenceTitle": "Drivers    hours - permit fail to comply - driving prohibition",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -93680,7 +93680,7 @@
   {
     "cjsCode": "VA94001",
     "offenceCategory": "CE",
-    "offenceTitle": "VAT - knowingly concerned in fraudulent evasion",
+    "offenceTitle": "VAT -    knowingly concerned in fraudulent evasion",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -93722,7 +93722,7 @@
   {
     "cjsCode": "VA94006",
     "offenceCategory": "CS",
-    "offenceTitle": "VAT - supply goods / services without giving a security when required",
+    "offenceTitle": "VAT -    supply goods / services without giving a security when required",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -93743,7 +93743,7 @@
   {
     "cjsCode": "VC01008",
     "offenceCategory": "CS",
-    "offenceTitle": "Application by registration plate supplier in contravention to prohibition",
+    "offenceTitle": "Application by registration plate supplier in contravention to    prohibition",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -93813,7 +93813,7 @@
   {
     "cjsCode": "VC01023",
     "offenceCategory": "CS",
-    "offenceTitle": "Registration plate supplier fail to notify of register changes within 28 days",
+    "offenceTitle": "Registration plate supplier fail to notify of register changes within    28 days",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -94422,14 +94422,14 @@
   {
     "cjsCode": "VE94123",
     "offenceCategory": "CS",
-    "offenceTitle": "Taken off road fail to comply with notice - renewal of vehicle excise licence",
+    "offenceTitle": "Taken off    road fail to comply with notice - renewal of vehicle excise licence",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "VE94124",
     "offenceCategory": "CS",
-    "offenceTitle": "Off road - keeping unlicensed vehicle not comply with notice requesting details of ownership / disposal",
+    "offenceTitle": "Off road    - keeping unlicensed vehicle not comply with notice requesting details of ownership /    disposal",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -96438,7 +96438,7 @@
   {
     "cjsCode": "WC81023",
     "offenceCategory": "CS",
-    "offenceTitle": "Disturb young of a Schedule 1 wild bird",
+    "offenceTitle": "Disturb    young of a Schedule 1 wild bird",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -96774,7 +96774,7 @@
   {
     "cjsCode": "WC81177",
     "offenceCategory": "CS",
-    "offenceTitle": "Disturb the nesting site of a Schedule 1 wild bird",
+    "offenceTitle": "Disturb    the nesting site of a Schedule 1 wild bird",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },

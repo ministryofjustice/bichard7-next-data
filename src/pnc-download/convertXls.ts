@@ -2,6 +2,8 @@ import * as XLSX from "xlsx"
 import { OffenceCode } from "../types/OffenceCode"
 import cjsCodeFilter from "../lib/cjsCodeFilter"
 
+const multipleSpacesRegex = /\s\s+/g
+
 export type PncOffenceCode = {
   B: string
   C: string
@@ -20,10 +22,13 @@ export default (fileContents: Buffer): OffenceCode[] => {
 
   return jsonWorksheet
     .map((offenceCode) => ({
-      cjsCode: offenceCode["B"],
-      offenceTitle: offenceCode["C"],
-      recordableOnPnc: offenceCode["F"],
+      cjsCode: offenceCode.B,
+      offenceTitle: offenceCode.C
+        ? offenceCode.C.replace(multipleSpacesRegex, " ").trim()
+        : undefined,
+      recordableOnPnc: offenceCode.F,
       resultHalfLifeHours: null
     }))
+    .filter((offenceCode) => offenceCode.offenceTitle != null)
     .filter((offenceCode) => cjsCodeFilter(offenceCode.cjsCode))
 }
