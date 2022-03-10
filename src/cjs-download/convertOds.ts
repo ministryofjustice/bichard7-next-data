@@ -1,4 +1,5 @@
 import * as XLSX from "xlsx"
+import consistentWhitespace from "../lib/consistentWhitespace"
 import { OffenceCode } from "../types/OffenceCode"
 
 export type CjsOffenceCode = {
@@ -20,7 +21,7 @@ export default (data: Buffer): OffenceCode[] => {
   const jsonWorksheet: CjsOffenceCode[] = XLSX.utils.sheet_to_json(worksheet)
   return jsonWorksheet.map((offenceCode) => ({
     cjsCode: offenceCode["CJS Offence Code"],
-    offenceTitle: offenceCode["Offence Title"],
+    offenceTitle: consistentWhitespace(offenceCode["Offence Title"]),
     recordableOnPnc: offenceCode["Recordable On PNC Indicator"],
     offenceCategory: offenceCode["Offence Category Code"],
     resultHalfLifeHours: null

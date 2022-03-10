@@ -1,9 +1,9 @@
-import * as fs from "fs"
+import fs from "fs"
 import downloadPncFile from "./downloadPncFile"
 import convertXls from "./convertXls"
 import consistentSort from "../lib/consistentSort"
 
-async function download(bucketName: string, bucketKey: string, outputFile: string) {
+const download = async (bucketName: string, bucketKey: string, outputFile: string) => {
   const fileContents = await downloadPncFile(bucketName, bucketKey)
   const offenceCodes = convertXls(fileContents)
   const data = consistentSort(offenceCodes)
