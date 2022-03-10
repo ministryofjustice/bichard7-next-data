@@ -7,7 +7,9 @@ import SheetsClient from "./sheetsClient"
 
 export default async () => {
   const allRows = await new SheetsClient(config).retrieveOffenceCodeRows()
-  console.log(`Retrieved ${allRows.length} rows of offence code data from spreadsheet ${config.spreadsheetId}`)
+  console.log(
+    `Retrieved ${allRows.length} rows of offence code data from spreadsheet ${config.spreadsheetId}`
+  )
   const deduplicatedRows = mergeRequests(allRows)
   console.log(`Deduplicated update requests into ${deduplicatedRows.length} updates`)
   const offenceCodes = deduplicatedRows.map(convertRow)
