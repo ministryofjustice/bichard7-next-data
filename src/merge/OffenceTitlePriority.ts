@@ -41,20 +41,20 @@ export default class OffenceTitlePriority {
     if (this.civilLibraOffenceCodes.find(matchCjsCode)) {
       return this.currentOffenceCodes.find(matchCjsCode)?.offenceTitle
     }
-    if (this.nrcOffenceCodes.find(matchCjsCode)) {
-      return this.nrcOffenceCodes.find(matchCjsCode)?.offenceTitle
+    if (this.nrcOffenceCodes.find(matchCjsCode)?.offenceTitle) {
+      return this.nrcOffenceCodes.find(matchCjsCode)!.offenceTitle as string
     }
-    if (this.localOffenceCodes.find(matchCjsCode)) {
-      return this.localOffenceCodes.find(matchCjsCode)?.offenceTitle
+    if (this.localOffenceCodes.find(matchCjsCode)?.offenceTitle) {
+      return this.localOffenceCodes.find(matchCjsCode)!.offenceTitle as string
     }
-    if (this.pnldOffenceCodes.find(matchCjsCode)) {
-      return this.pnldOffenceCodes.find(matchCjsCode)?.offenceTitle
+    if (this.pnldOffenceCodes.find(matchCjsCode)?.offenceTitle) {
+      return this.pnldOffenceCodes.find(matchCjsCode)!.offenceTitle as string
     }
-    if (this.cjsOffenceCodes.find(matchCjsCode)) {
-      return this.cjsOffenceCodes.find(matchCjsCode)?.offenceTitle
+    if (this.cjsOffenceCodes.find(matchCjsCode)?.offenceTitle) {
+      return this.cjsOffenceCodes.find(matchCjsCode)!.offenceTitle as string
     }
-    if (this.pncOffenceCodes.find(matchCjsCode)) {
-      return this.pncOffenceCodes.find(matchCjsCode)?.offenceTitle
+    if (this.pncOffenceCodes.find(matchCjsCode)?.offenceTitle) {
+      return this.pncOffenceCodes.find(matchCjsCode)!.offenceTitle as string
     }
     return defaultTitle
   }

@@ -26,21 +26,21 @@ export default class HomeOfficeClassifictionPriority {
     this.pnldOffenceCodes = pnldOffenceCodes
   }
 
-  getHighestPriority(cjsCode: string): string | undefined {
+  getHighestPriority(cjsCode: string): string {
     const defaultValue = "000/00"
     const matchCjsCode = getMatchCjsCodeFunction(cjsCode)
 
     if (this.civilLibraOffenceCodes.find(matchCjsCode)) {
-      return this.currentOffenceCodes.find(matchCjsCode)?.homeOfficeClassification
+      return this.currentOffenceCodes.find(matchCjsCode)!.homeOfficeClassification as string
     }
-    if (this.nrcOffenceCodes.find(matchCjsCode)) {
-      return this.nrcOffenceCodes.find(matchCjsCode)?.homeOfficeClassification
+    if (this.nrcOffenceCodes.find(matchCjsCode)?.homeOfficeClassification) {
+      return this.nrcOffenceCodes.find(matchCjsCode)!.homeOfficeClassification as string
     }
-    if (this.localOffenceCodes.find(matchCjsCode)) {
-      return this.localOffenceCodes.find(matchCjsCode)?.homeOfficeClassification
+    if (this.localOffenceCodes.find(matchCjsCode)?.homeOfficeClassification) {
+      return this.localOffenceCodes.find(matchCjsCode)!.homeOfficeClassification as string
     }
-    if (this.pnldOffenceCodes.find(matchCjsCode)) {
-      return this.pnldOffenceCodes.find(matchCjsCode)?.homeOfficeClassification
+    if (this.pnldOffenceCodes.find(matchCjsCode)?.homeOfficeClassification) {
+      return this.pnldOffenceCodes.find(matchCjsCode)!.homeOfficeClassification as string
     }
     return defaultValue
   }

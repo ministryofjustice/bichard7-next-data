@@ -34,7 +34,7 @@ export default class OffenceCategoryPriority {
     this.pncOffenceCodes = pncOffenceCodes
   }
 
-  getHighestPriority(cjsCode: string): string | undefined {
+  getHighestPriority(cjsCode: string): string {
     const defaultCategory = "CE"
     const matchCjsCode = getMatchCjsCodeFunction(cjsCode)
 
@@ -42,19 +42,19 @@ export default class OffenceCategoryPriority {
       return "B7"
     }
     if (this.civilLibraOffenceCodes.find(matchCjsCode)) {
-      return this.currentOffenceCodes.find(matchCjsCode)?.offenceCategory
+      return this.currentOffenceCodes.find(matchCjsCode)!.offenceCategory as string
     }
-    if (this.nrcOffenceCodes.find(matchCjsCode)) {
-      return this.nrcOffenceCodes.find(matchCjsCode)?.offenceCategory
+    if (this.nrcOffenceCodes.find(matchCjsCode)?.offenceCategory) {
+      return this.nrcOffenceCodes.find(matchCjsCode)!.offenceCategory as string
     }
-    if (this.localOffenceCodes.find(matchCjsCode)) {
-      return this.localOffenceCodes.find(matchCjsCode)?.offenceCategory
+    if (this.localOffenceCodes.find(matchCjsCode)?.offenceCategory) {
+      return this.localOffenceCodes.find(matchCjsCode)!.offenceCategory as string
     }
-    if (this.pnldOffenceCodes.find(matchCjsCode)) {
-      return this.pnldOffenceCodes.find(matchCjsCode)?.offenceCategory
+    if (this.pnldOffenceCodes.find(matchCjsCode)?.offenceCategory) {
+      return this.pnldOffenceCodes.find(matchCjsCode)!.offenceCategory as string
     }
-    if (this.pncOffenceCodes.find(matchCjsCode)) {
-      return this.pncOffenceCodes.find(matchCjsCode)?.offenceCategory
+    if (this.pncOffenceCodes.find(matchCjsCode)?.offenceCategory) {
+      return this.pncOffenceCodes.find(matchCjsCode)!.offenceCategory as string
     }
     return defaultCategory
   }

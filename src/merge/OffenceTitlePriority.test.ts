@@ -1,3 +1,4 @@
+import getMatchCjsCodeFunction from "./getMatchCjsCodeFunction"
 import OffenceTitlePriority from "./OffenceTitlePriority"
 
 const testCjsCode = "ABC123"
@@ -18,6 +19,9 @@ describe("OffenceTitlePriority", () => {
       []
     )
 
+    expect(
+      currentOffenceCodes.find(getMatchCjsCodeFunction(testCjsCode))?.offenceTitle
+    ).toBeTruthy()
     expect(priority.getHighestPriority(testCjsCode)).toEqual(testTitle)
   })
 

@@ -26,21 +26,21 @@ export default class NotifiableToHOPriority {
     this.pnldOffenceCodes = pnldOffenceCodes
   }
 
-  getHighestPriority(cjsCode: string): string | undefined {
+  getHighestPriority(cjsCode: string): string {
     const defaultValue = "N"
     const matchCjsCode = getMatchCjsCodeFunction(cjsCode)
 
     if (this.civilLibraOffenceCodes.find(matchCjsCode)) {
-      return this.currentOffenceCodes.find(matchCjsCode)?.notifiableToHo
+      return this.currentOffenceCodes.find(matchCjsCode)!.notifiableToHo as string
     }
-    if (this.nrcOffenceCodes.find(matchCjsCode)) {
-      return this.nrcOffenceCodes.find(matchCjsCode)?.notifiableToHo
+    if (this.nrcOffenceCodes.find(matchCjsCode)?.notifiableToHo) {
+      return this.nrcOffenceCodes.find(matchCjsCode)!.notifiableToHo as string
     }
-    if (this.localOffenceCodes.find(matchCjsCode)) {
-      return this.localOffenceCodes.find(matchCjsCode)?.notifiableToHo
+    if (this.localOffenceCodes.find(matchCjsCode)?.notifiableToHo) {
+      return this.localOffenceCodes.find(matchCjsCode)!.notifiableToHo as string
     }
-    if (this.pnldOffenceCodes.find(matchCjsCode)) {
-      return this.pnldOffenceCodes.find(matchCjsCode)?.notifiableToHo
+    if (this.pnldOffenceCodes.find(matchCjsCode)?.notifiableToHo) {
+      return this.pnldOffenceCodes.find(matchCjsCode)!.notifiableToHo as string
     }
     return defaultValue
   }
