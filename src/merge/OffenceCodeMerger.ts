@@ -1,4 +1,5 @@
 import { OffenceCode } from "../types/OffenceCode"
+import getMatchCjsCodeFunction from "./getMatchCjsCodeFunction"
 import HomeOfficeClassifictionPriority from "./HomeOfficeClassificationPriority"
 import NotifiableToHOPriority from "./NotifiableToHOPriority"
 import OffenceCategoryPriority from "./OffenceCategoryPriority"
@@ -9,6 +10,8 @@ export default class OffenceCodeMerger {
   currentOffenceCodes: OffenceCode[]
 
   unsupportedOffenceCodes: string[]
+
+  legacyOverrides: OffenceCode[]
 
   homeOfficeClassification: HomeOfficeClassifictionPriority
 
@@ -23,6 +26,7 @@ export default class OffenceCodeMerger {
   constructor(
     currentOffenceCodes: OffenceCode[],
     unsupportedOffenceCodes: string[],
+    legacyOverrides: OffenceCode[],
     homeOfficeClassification: HomeOfficeClassifictionPriority,
     notifiableToHo: NotifiableToHOPriority,
     offenceCategory: OffenceCategoryPriority,
@@ -31,6 +35,7 @@ export default class OffenceCodeMerger {
   ) {
     this.currentOffenceCodes = currentOffenceCodes
     this.unsupportedOffenceCodes = unsupportedOffenceCodes
+    this.legacyOverrides = legacyOverrides
     this.homeOfficeClassification = homeOfficeClassification
     this.notifiableToHo = notifiableToHo
     this.offenceCategory = offenceCategory
@@ -41,8 +46,11 @@ export default class OffenceCodeMerger {
   merge(): OffenceCode[] {
     const mergedOffenceCodes: OffenceCode[] = []
     this.currentOffenceCodes.forEach((oc) => {
+      const matchCjsCode = getMatchCjsCodeFunction(oc.cjsCode)
       if (this.unsupportedOffenceCodes.indexOf(oc.cjsCode.trim()) > -1) {
         mergedOffenceCodes.push(oc)
+      } else if (this.legacyOverrides.find(matchCjsCode)) {
+        mergedOffenceCodes.push(this.legacyOverrides.find(matchCjsCode) as OffenceCode)
       } else {
         mergedOffenceCodes.push({
           cjsCode: oc.cjsCode,

@@ -18,6 +18,9 @@ describe("OffenceCodeMerger", () => {
     const unsupportedCodes = JSON.parse(
       fs.readFileSync("input-data/offence-code/unsupported-codes.json").toString()
     )
+    const legacyOverrides = JSON.parse(
+      fs.readFileSync("input-data/offence-code/legacy-dataset-overrides.json").toString()
+    )
     const civilLibraOffenceCodes = JSON.parse(
       fs.readFileSync("input-data/offence-code/civil-libra-codes.json").toString()
     )
@@ -87,6 +90,7 @@ describe("OffenceCodeMerger", () => {
     const merger = new OffenceCodeMerger(
       currentOffenceCodes,
       unsupportedCodes,
+      legacyOverrides,
       homeOfficeClassification,
       notifiableToHo,
       offenceCategory,
