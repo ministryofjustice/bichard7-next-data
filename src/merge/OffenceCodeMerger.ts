@@ -1,39 +1,62 @@
 import { OffenceCode } from "../types/OffenceCode"
+import HomeOfficeClassifictionPriority from "./HomeOfficeClassificationPriority"
+import NotifiableToHOPriority from "./NotifiableToHOPriority"
+import OffenceCategoryPriority from "./OffenceCategoryPriority"
+import OffenceTitlePriority from "./OffenceTitlePriority"
+import RecordableOnPncPriority from "./RecordableOnPncPriority"
 
 export default class OffenceCodeMerger {
   currentOffenceCodes: OffenceCode[]
 
-  offenceCodeB7CategoryOverrides: string[]
+  unsupportedOffenceCodes: string[]
 
-  civilLibraOffenceCodes: OffenceCode[]
+  homeOfficeClassification: HomeOfficeClassifictionPriority
 
-  nrcOffenceCodes: OffenceCode[]
+  notifiableToHo: NotifiableToHOPriority
 
-  localOffenceCodes: OffenceCode[]
+  offenceCategory: OffenceCategoryPriority
 
-  pnldOffenceCodes: OffenceCode[]
+  offenceTitle: OffenceTitlePriority
 
-  cjsOffenceCodes: OffenceCode[]
-
-  pncOffenceCodes: OffenceCode[]
+  recordableOnPnc: RecordableOnPncPriority
 
   constructor(
     currentOffenceCodes: OffenceCode[],
-    offenceCodeB7CategoryOverrides: string[],
-    civilLibraOffenceCodes: OffenceCode[],
-    nrcOffenceCodes: OffenceCode[],
-    localOffenceCodes: OffenceCode[],
-    pnldOffenceCodes: OffenceCode[],
-    cjsOffenceCodes: OffenceCode[],
-    pncOffenceCodes: OffenceCode[]
+    unsupportedOffenceCodes: string[],
+    homeOfficeClassification: HomeOfficeClassifictionPriority,
+    notifiableToHo: NotifiableToHOPriority,
+    offenceCategory: OffenceCategoryPriority,
+    offenceTitle: OffenceTitlePriority,
+    recordableOnPnc: RecordableOnPncPriority
   ) {
-    this.offenceCodeB7CategoryOverrides = offenceCodeB7CategoryOverrides
-    this.civilLibraOffenceCodes = civilLibraOffenceCodes
     this.currentOffenceCodes = currentOffenceCodes
-    this.nrcOffenceCodes = nrcOffenceCodes
-    this.localOffenceCodes = localOffenceCodes
-    this.pnldOffenceCodes = pncOffenceCodes
-    this.cjsOffenceCodes = cjsOffenceCodes
-    this.pncOffenceCodes = pncOffenceCodes
+    this.unsupportedOffenceCodes = unsupportedOffenceCodes
+    this.homeOfficeClassification = homeOfficeClassification
+    this.notifiableToHo = notifiableToHo
+    this.offenceCategory = offenceCategory
+    this.offenceTitle = offenceTitle
+    this.recordableOnPnc = recordableOnPnc
+  }
+
+  merge(): OffenceCode[] {
+    const mergedOffenceCodes: OffenceCode[] = []
+    this.currentOffenceCodes.forEach((oc) => {
+      if (this.unsupportedOffenceCodes.indexOf(oc.cjsCode.trim()) > -1) {
+        mergedOffenceCodes.push(oc)
+      } else {
+        mergedOffenceCodes.push({
+          cjsCode: oc.cjsCode,
+          description: oc.cjsCode,
+          homeOfficeClassification: this.homeOfficeClassification.getHighestPriority(oc.cjsCode),
+          notifiableToHo: this.notifiableToHo.getHighestPriority(oc.cjsCode),
+          offenceCategory: this.offenceCategory.getHighestPriority(oc.cjsCode),
+          offenceTitle: this.offenceTitle.getHighestPriority(oc.cjsCode),
+          recordableOnPnc: this.recordableOnPnc.getHighestPriority(oc.cjsCode),
+          resultHalfLifeHours: null
+        })
+      }
+    })
+
+    return mergedOffenceCodes
   }
 }

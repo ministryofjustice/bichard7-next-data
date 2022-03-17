@@ -1,3 +1,4 @@
 import { OffenceCode } from "../types/OffenceCode"
 
-export default (cjsCodeToMatch: string) => (oc: OffenceCode) => oc.cjsCode === cjsCodeToMatch
+export default (cjsCodeToMatch: string) => (oc: OffenceCode) =>
+  oc.cjsCode.trim() === cjsCodeToMatch.trim()
