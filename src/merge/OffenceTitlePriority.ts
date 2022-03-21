@@ -1,5 +1,6 @@
 import { OffenceCode } from "../types/OffenceCode"
 import getMatchCjsCodeFunction from "./getMatchCjsCodeFunction"
+import consistentWhitespace from "../lib/consistentWhitespace"
 
 export default class OffenceTitlePriority {
   currentOffenceCodes: OffenceCode[]
@@ -38,24 +39,21 @@ export default class OffenceTitlePriority {
     const defaultTitle = ""
     const matchCjsCode = getMatchCjsCodeFunction(cjsCode)
 
+    let title: string | undefined = defaultTitle
+
     if (this.civilLibraOffenceCodes.find(matchCjsCode)) {
-      return this.currentOffenceCodes.find(matchCjsCode)?.offenceTitle
+      title = this.currentOffenceCodes.find(matchCjsCode)?.offenceTitle
+    } else if (this.nrcOffenceCodes.find(matchCjsCode)?.offenceTitle) {
+      title = this.nrcOffenceCodes.find(matchCjsCode)!.offenceTitle as string
+    } else if (this.localOffenceCodes.find(matchCjsCode)?.offenceTitle) {
+      title = this.localOffenceCodes.find(matchCjsCode)!.offenceTitle as string
+    } else if (this.pnldOffenceCodes.find(matchCjsCode)?.offenceTitle) {
+      title = this.pnldOffenceCodes.find(matchCjsCode)!.offenceTitle as string
+    } else if (this.cjsOffenceCodes.find(matchCjsCode)?.offenceTitle) {
+      title = this.cjsOffenceCodes.find(matchCjsCode)!.offenceTitle as string
+    } else if (this.pncOffenceCodes.find(matchCjsCode)?.offenceTitle) {
+      title = this.pncOffenceCodes.find(matchCjsCode)!.offenceTitle as string
     }
-    if (this.nrcOffenceCodes.find(matchCjsCode)?.offenceTitle) {
-      return this.nrcOffenceCodes.find(matchCjsCode)!.offenceTitle as string
-    }
-    if (this.localOffenceCodes.find(matchCjsCode)?.offenceTitle) {
-      return this.localOffenceCodes.find(matchCjsCode)!.offenceTitle as string
-    }
-    if (this.pnldOffenceCodes.find(matchCjsCode)?.offenceTitle) {
-      return this.pnldOffenceCodes.find(matchCjsCode)!.offenceTitle as string
-    }
-    if (this.cjsOffenceCodes.find(matchCjsCode)?.offenceTitle) {
-      return this.cjsOffenceCodes.find(matchCjsCode)!.offenceTitle as string
-    }
-    if (this.pncOffenceCodes.find(matchCjsCode)?.offenceTitle) {
-      return this.pncOffenceCodes.find(matchCjsCode)!.offenceTitle as string
-    }
-    return defaultTitle
+    return consistentWhitespace(title)
   }
 }
