@@ -1,5 +1,4 @@
 import fs from "fs"
-import { OffenceCode } from "../types/OffenceCode"
 import HomeOfficeClassifictionPriority from "./HomeOfficeClassificationPriority"
 import NotifiableToHOPriority from "./NotifiableToHOPriority"
 import OffenceCategoryPriority from "./OffenceCategoryPriority"
@@ -39,9 +38,11 @@ describe("OffenceCodeMerger", () => {
     const pncOffenceCodes = pncAcpoOffenceCodes.concat(pncCCJSOffenceCodes)
     console.log(`PNC Offence COdes Size = ${pncOffenceCodes.length}`)
     const pnldOffenceCodes = JSON.parse(
-      fs.readFileSync("input-data/offence-code/pnld-offences.json").toString()
+      fs.readFileSync("input-data/offence-code/legacy-pnld-codes.json").toString()
     )
-    const nrcOffenceCodes: OffenceCode[] = []
+    const nrcOffenceCodes = JSON.parse(
+      fs.readFileSync("input-data/offence-code/legacy-nrc.json").toString()
+    )
     const homeOfficeClassification = new HomeOfficeClassifictionPriority(
       currentOffenceCodes,
       civilLibraOffenceCodes,

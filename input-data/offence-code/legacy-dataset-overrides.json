@@ -205,7 +205,7 @@
     "homeOfficeClassification": "000/00",
     "notifiableToHo": "N",
     "offenceCategory": "CE",
-    "offenceTitle": "Own/possess cage in marine waters used for fish farming &amp; fails to report waters infected in writing to minister",
+    "offenceTitle": "Own/possess cage in marine waters used for fish farming & fails to report waters infected in writing to minister",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -295,7 +295,7 @@
     "homeOfficeClassification": "000/00",
     "notifiableToHo": "N",
     "offenceCategory": "CE",
-    "offenceTitle": "Aid &amp; abet using copy of false instrument",
+    "offenceTitle": "Aid & abet using copy of false instrument",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -375,7 +375,7 @@
     "homeOfficeClassification": "000/00",
     "notifiableToHo": "N",
     "offenceCategory": "CE",
-    "offenceTitle": "Contravene requirements of notice under s.8(2)(a) re inspection, seizure &amp; detention of suspected feed",
+    "offenceTitle": "Contravene requirements of notice under s.8(2)(a) re inspection, seizure & detention of suspected feed",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -655,7 +655,7 @@
     "homeOfficeClassification": "000/00",
     "notifiableToHo": "N",
     "offenceCategory": "CE",
-    "offenceTitle": "Registered second-hand dealer fail to record name &amp; address of purchaser for sale over &#163;100",
+    "offenceTitle": "Registered second-hand dealer fail to record name & address of purchaser for sale over &#163;100",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -665,7 +665,7 @@
     "homeOfficeClassification": "000/00",
     "notifiableToHo": "N",
     "offenceCategory": "CE",
-    "offenceTitle": "Seller of goods to registered second-hand dealer giving false name &amp; address",
+    "offenceTitle": "Seller of goods to registered second-hand dealer giving false name & address",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -675,7 +675,7 @@
     "homeOfficeClassification": "000/00",
     "notifiableToHo": "N",
     "offenceCategory": "CE",
-    "offenceTitle": "Aid &amp; abet wounding with intent to do grievous bodily harm",
+    "offenceTitle": "Aid & abet wounding with intent to do grievous bodily harm",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -1145,7 +1145,7 @@
     "homeOfficeClassification": "000/00",
     "notifiableToHo": "N",
     "offenceCategory": "CE",
-    "offenceTitle": "Person failing to comply with regulations under this section. (Naval &amp; Marine)",
+    "offenceTitle": "Person failing to comply with regulations under this section. (Naval & Marine)",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -1155,7 +1155,7 @@
     "homeOfficeClassification": "000/00",
     "notifiableToHo": "N",
     "offenceCategory": "CE",
-    "offenceTitle": "Failing to attend an appeal tribunal when required to do so by rules under section 93. (Naval &amp; Marine)",
+    "offenceTitle": "Failing to attend an appeal tribunal when required to do so by rules under section 93. (Naval & Marine)",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -1398,5 +1398,795 @@
     "offenceTitle": "FAIL TO COMPLY WITH REG 7 NOTICE OF WORK REQUIRED IN RELATION TO THE STORAGE OF SILAGE/SLURRY/FUEL OIL",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AS14520",
+    "offenceCategory": "VP",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Application for a sexual harm prevention order||",
+    "resultHalfLifeHours": null,
+    "description": "AS14520"
+  },
+  {
+    "cjsCode": "AS14521",
+    "offenceCategory": "VP",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Application for a sexual harm prevention order (with interim order)||",
+    "resultHalfLifeHours": null,
+    "description": "AS14521"
+  },
+  {
+    "cjsCode": "AS14522",
+    "offenceCategory": "VP",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Application for an interim sexual harm prevention order||",
+    "resultHalfLifeHours": null,
+    "description": "AS14522"
+  },
+  {
+    "cjsCode": "AS14523",
+    "offenceCategory": "VP",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Application to vary a sexual harm prevention order||",
+    "resultHalfLifeHours": null,
+    "description": "AS14523"
+  },
+  {
+    "cjsCode": "AS14524",
+    "offenceCategory": "VP",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Application to renew a sexual harm prevention order||",
+    "resultHalfLifeHours": null,
+    "description": "AS14524"
+  },
+  {
+    "cjsCode": "AS14525",
+    "offenceCategory": "VP",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Application to discharge a sexual harm prevention order||",
+    "resultHalfLifeHours": null,
+    "description": "AS14525"
+  },
+  {
+    "cjsCode": "AS14526",
+    "offenceCategory": "VP",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Application for a sexual risk order||",
+    "resultHalfLifeHours": null,
+    "description": "AS14526"
+  },
+  {
+    "cjsCode": "AS14527",
+    "offenceCategory": "VP",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Application for a sexual risk order (with interim order)||",
+    "resultHalfLifeHours": null,
+    "description": "AS14527"
+  },
+  {
+    "cjsCode": "AS14528",
+    "offenceCategory": "VP",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Application for an interim sexual risk order||",
+    "resultHalfLifeHours": null,
+    "description": "AS14528"
+  },
+  {
+    "cjsCode": "CD98517",
+    "offenceCategory": "VP",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Complaint vary interim anti-social behaviour order ||",
+    "resultHalfLifeHours": null,
+    "description": "CD98517"
+  },
+  {
+    "cjsCode": "CD98518",
+    "offenceCategory": "VP",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Application to renew an interim anti-social behaviour order||",
+    "resultHalfLifeHours": null,
+    "description": "CD98518"
+  },
+  {
+    "cjsCode": "CD98519",
+    "offenceCategory": "VP",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Complaint discharge interim anti-social behaviour order||",
+    "resultHalfLifeHours": null,
+    "description": "CD98519"
+  },
+  {
+    "cjsCode": "CD98524",
+    "offenceCategory": "VP",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Complaint to discharge an individual support order||",
+    "resultHalfLifeHours": null,
+    "description": "CD98524"
+  },
+  {
+    "cjsCode": "CD98525",
+    "offenceCategory": "B7",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Consideration of making Anti-social behaviour order on conviction (after sentence)||",
+    "resultHalfLifeHours": null,
+    "description": "CD98525"
+  },
+  {
+    "cjsCode": "CD98527",
+    "offenceCategory": "VP",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Application to vary anti-social behaviour order made in criminal proceedings||",
+    "resultHalfLifeHours": null,
+    "description": "CD98527"
+  },
+  {
+    "cjsCode": "CD98528",
+    "offenceCategory": "VP",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Application to discharge anti-social behaviour order made in criminal proceedings||",
+    "resultHalfLifeHours": null,
+    "description": "CD98528"
+  },
+  {
+    "cjsCode": "CD98529",
+    "offenceCategory": "B7",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Consideration of making a drinking banning order on conviction (after sentence)||",
+    "resultHalfLifeHours": null,
+    "description": "CD98529"
+  },
+  {
+    "cjsCode": "CI91501",
+    "offenceCategory": "VP",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Application vary supervision and treatment order||",
+    "resultHalfLifeHours": null,
+    "description": "CI91501"
+  },
+  {
+    "cjsCode": "CI91502",
+    "offenceCategory": "VP",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Application revoke supervision & treatment order||",
+    "resultHalfLifeHours": null,
+    "description": "CI91502"
+  },
+  {
+    "cjsCode": "CJ03502",
+    "offenceCategory": "B7",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Application to remove licence conditions from intermittent custody order||",
+    "resultHalfLifeHours": null,
+    "description": "CJ03502"
+  },
+  {
+    "cjsCode": "CJ03505",
+    "offenceCategory": "B7",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Application to alter pattern of temporary release on intermittent custody order||",
+    "resultHalfLifeHours": null,
+    "description": "CJ03505"
+  },
+  {
+    "cjsCode": "CJ88501",
+    "offenceCategory": "B7",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Application to receive video recording in evidence||",
+    "resultHalfLifeHours": null,
+    "description": "CJ88501"
+  },
+  {
+    "cjsCode": "CP96503",
+    "offenceCategory": "B7",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Application - Prosecution - Non-disclosure - Secondary disclosure [s.7(5)]||",
+    "resultHalfLifeHours": null,
+    "description": "CP96503"
+  },
+  {
+    "cjsCode": "CP96505",
+    "offenceCategory": "B7",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Application - Prosecution - Non-Disclosure - Continuing duty [s.9(8)]||",
+    "resultHalfLifeHours": null,
+    "description": "CP96505"
+  },
+  {
+    "cjsCode": "CS91502",
+    "offenceCategory": "VP",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Complaints for child support liability orders (multiple class)||",
+    "resultHalfLifeHours": null,
+    "description": "CS91502"
+  },
+  {
+    "cjsCode": "CT20080",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Fail to possess testing package on arrival in Wales - coronavirus",
+    "resultHalfLifeHours": null,
+    "description": "CT20080"
+  },
+  {
+    "cjsCode": "EP90501",
+    "offenceCategory": "VP",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Appeal against a litter clearing notice||",
+    "resultHalfLifeHours": null,
+    "description": "EP90501"
+  },
+  {
+    "cjsCode": "HI21083",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Private provider of day 2 test, fail to comply with provider requirements - England",
+    "resultHalfLifeHours": null,
+    "description": "HI21083"
+  },
+  {
+    "cjsCode": "HI21084",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Private provider of day 8 test, fail to comply with provider requirements - England",
+    "resultHalfLifeHours": null,
+    "description": "HI21084"
+  },
+  {
+    "cjsCode": "HI21085",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Private provider of day 2 / 8 tests, fail to comply with test reference and notification requirements - England",
+    "resultHalfLifeHours": null,
+    "description": "HI21085"
+  },
+  {
+    "cjsCode": "HI21086",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Provider of optional test, fail to comply with provider requirements - England",
+    "resultHalfLifeHours": null,
+    "description": "HI21086"
+  },
+  {
+    "cjsCode": "HI21087",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Provider of optional test, fail to comply with test reference & notification requirements - England",
+    "resultHalfLifeHours": null,
+    "description": "HI21087"
+  },
+  {
+    "cjsCode": "HI21089",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Person carrying out element of single end-to-end testing for day 8 test, fail to comply with testing requirements",
+    "resultHalfLifeHours": null,
+    "description": "HI21089"
+  },
+  {
+    "cjsCode": "HI21090",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Person carrying out element of single end-to-end testing for optional test, fail to comply with testing requirements",
+    "resultHalfLifeHours": null,
+    "description": "HI21090"
+  },
+  {
+    "cjsCode": "HI21091",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Wilfully obstruct a person carrying out functions under reg 18A / 18B - Travel and Op Liability Regs",
+    "resultHalfLifeHours": null,
+    "description": "HI21091"
+  },
+  {
+    "cjsCode": "HI21092",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Fail to provide information regarding persons residing at self-isolation accommodation - category 3",
+    "resultHalfLifeHours": null,
+    "description": "HI21092"
+  },
+  {
+    "cjsCode": "HI21093",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Fail to self-isolate following notification from Secretary of State - category 3",
+    "resultHalfLifeHours": null,
+    "description": "HI21093"
+  },
+  {
+    "cjsCode": "HI21094",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Fail to ensure child self-isolates with P in designated accomodation - category 3",
+    "resultHalfLifeHours": null,
+    "description": "HI21094"
+  },
+  {
+    "cjsCode": "HI21095",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Employer knowingly allow employee to attend any place when self-isolating - category 3",
+    "resultHalfLifeHours": null,
+    "description": "HI21095"
+  },
+  {
+    "cjsCode": "HI21096",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Fail to ensure provide information regarding child to Secretary of State - category 3",
+    "resultHalfLifeHours": null,
+    "description": "HI21096"
+  },
+  {
+    "cjsCode": "HI21098",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Operator fail to ensure passenger possesses evidence of vaccination eligibility criteria - Channel Tunnel",
+    "resultHalfLifeHours": null,
+    "description": "HI21098"
+  },
+  {
+    "cjsCode": "HI21099",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Operator fail to ensure passenger possesses evidence of vaccination eligibility criteria - English port",
+    "resultHalfLifeHours": null,
+    "description": "HI21099"
+  },
+  {
+    "cjsCode": "HI21100",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Private provider of day 2 / 8 tests, fail to comply with test reference and notification requirements - England",
+    "resultHalfLifeHours": null,
+    "description": "HI21100"
+  },
+  {
+    "cjsCode": "HI21101",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Person carrying out element of single end-to-end testing for day 2 test, fail to comply with testing requirements",
+    "resultHalfLifeHours": null,
+    "description": "HI21101"
+  },
+  {
+    "cjsCode": "HI21102",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Person carrying out element of single end-to-end testing for day 8 test, fail to comply with testing requirements",
+    "resultHalfLifeHours": null,
+    "description": "HI21102"
+  },
+  {
+    "cjsCode": "HI21103",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Eligible traveller fail to possess booking for day 2 test",
+    "resultHalfLifeHours": null,
+    "description": "HI21103"
+  },
+  {
+    "cjsCode": "HI21104",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Eligible traveller fail to make booking for day 2 test on arrival in England",
+    "resultHalfLifeHours": null,
+    "description": "HI21104"
+  },
+  {
+    "cjsCode": "HI21105",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Fail to make booking for day 2 test for eligible unaccompanied child on arrival in England",
+    "resultHalfLifeHours": null,
+    "description": "HI21105"
+  },
+  {
+    "cjsCode": "HI21106",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Eligible traveller fail to provide evidence of booking for day 2 test at request of immigration officer / constable",
+    "resultHalfLifeHours": null,
+    "description": "HI21106"
+  },
+  {
+    "cjsCode": "HI21107",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Eligible traveller fail to undertake day 2 test",
+    "resultHalfLifeHours": null,
+    "description": "HI21107"
+  },
+  {
+    "cjsCode": "HI21108",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Fail to ensure eligible child undertook day 2 test",
+    "resultHalfLifeHours": null,
+    "description": "HI21108"
+  },
+  {
+    "cjsCode": "HI21109",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Eligible traveller fail to undertake day 2 test test after reasonable excuse no longer pertains",
+    "resultHalfLifeHours": null,
+    "description": "HI21109"
+  },
+  {
+    "cjsCode": "HI21110",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Eligible traveller fail to possess booking for day 2 test for child",
+    "resultHalfLifeHours": null,
+    "description": "HI21110"
+  },
+  {
+    "cjsCode": "HI21111",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Eligible traveller fail to make booking for day 2 test for child on arrival in England",
+    "resultHalfLifeHours": null,
+    "description": "HI21111"
+  },
+  {
+    "cjsCode": "HI21112",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Private provider of day 2 lateral flow test, fail to comply with test reference and notification requirements - England",
+    "resultHalfLifeHours": null,
+    "description": "HI21112"
+  },
+  {
+    "cjsCode": "HI21113",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Person carrying out element of end-to-end testing for day 2 lateral flow test, fail to comply with testing requirements",
+    "resultHalfLifeHours": null,
+    "description": "HI21113"
+  },
+  {
+    "cjsCode": "HI21114",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Eligible traveller fail to undertake confirmatory test after positive lateral flow test",
+    "resultHalfLifeHours": null,
+    "description": "HI21114"
+  },
+  {
+    "cjsCode": "HI21115",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Fail to ensure eligible child traveller undertook confirmatory test after positive lateral flow test",
+    "resultHalfLifeHours": null,
+    "description": "HI21115"
+  },
+  {
+    "cjsCode": "HV19014",
+    "offenceCategory": "CM",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "Y",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Drive HCV on relevant class of road in Kent during traffic restriction period",
+    "resultHalfLifeHours": null,
+    "description": "HV19014"
+  },
+  {
+    "cjsCode": "LG03503",
+    "offenceCategory": "VP",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Application to consider a closure order||",
+    "resultHalfLifeHours": null,
+    "description": "LG03503"
+  },
+  {
+    "cjsCode": "MC80510",
+    "offenceCategory": "EM",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Show Cause Notice For Enforce.Maintenance Payments||",
+    "resultHalfLifeHours": null,
+    "description": "MC80510"
+  },
+  {
+    "cjsCode": "MC80900",
+    "offenceCategory": "EM",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Complaint for enforcement of maintenance payments||",
+    "resultHalfLifeHours": null,
+    "description": "MC80900"
+  },
+  {
+    "cjsCode": "MC80903",
+    "offenceCategory": "EM",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Summons for enforcement of maintenance payments||",
+    "resultHalfLifeHours": null,
+    "description": "MC80903"
+  },
+  {
+    "cjsCode": "MC80904",
+    "offenceCategory": "EM",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Warrant for enforcement of maintenance payments||",
+    "resultHalfLifeHours": null,
+    "description": "MC80904"
+  },
+  {
+    "cjsCode": "MC80953",
+    "offenceCategory": "EX",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Summons for enforcement of maintenance payments (Foreign Account)||",
+    "resultHalfLifeHours": null,
+    "description": "MC80953"
+  },
+  {
+    "cjsCode": "MC80954",
+    "offenceCategory": "EX",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Warrant for enforcement of maintenance payments (Foreign Account)||",
+    "resultHalfLifeHours": null,
+    "description": "MC80954"
+  },
+  {
+    "cjsCode": "MG49020",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Fail to attend premises in compliance with a notice",
+    "resultHalfLifeHours": null,
+    "description": "MG49020"
+  },
+  {
+    "cjsCode": "MO58505",
+    "offenceCategory": "EM",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Application for review of Suspended Sentence - Maintenance Order||",
+    "resultHalfLifeHours": null,
+    "description": "MO58505"
+  },
+  {
+    "cjsCode": "MO58506",
+    "offenceCategory": "EM",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Application for release from prison||",
+    "resultHalfLifeHours": null,
+    "description": "MO58506"
+  },
+  {
+    "cjsCode": "MO58512",
+    "offenceCategory": "EX",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Show cause notice for enforcement of maintenance payments (Foreign Account)||",
+    "resultHalfLifeHours": null,
+    "description": "MO58512"
+  },
+  {
+    "cjsCode": "NR89503",
+    "offenceCategory": "VP",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Appeal against distress - non-domestic rating||",
+    "resultHalfLifeHours": null,
+    "description": "NR89503"
+  },
+  {
+    "cjsCode": "NV57501",
+    "offenceCategory": "VP",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Arrested for being absent without leave/deserter from navy||",
+    "resultHalfLifeHours": null,
+    "description": "NV57501"
+  },
+  {
+    "cjsCode": "PC00641",
+    "offenceCategory": "B7",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Application to vary drug abstinence order||",
+    "resultHalfLifeHours": null,
+    "description": "PC00641"
+  },
+  {
+    "cjsCode": "PC00642",
+    "offenceCategory": "B7",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Application to revoke drug abstinence order||",
+    "resultHalfLifeHours": null,
+    "description": "PC00642"
+  },
+  {
+    "cjsCode": "PR97502",
+    "offenceCategory": "VP",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Complaint for order - police property act||",
+    "resultHalfLifeHours": null,
+    "description": "PR97502"
+  },
+  {
+    "cjsCode": "RE20120",
+    "offenceCategory": "CS",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Possess false / misleading evidence of vaccination / coronavirus test results",
+    "resultHalfLifeHours": null,
+    "description": "RE20120"
+  },
+  {
+    "cjsCode": "SO05501",
+    "offenceCategory": "VP",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Application to vary a financial reporting order||",
+    "resultHalfLifeHours": null,
+    "description": "SO05501"
+  },
+  {
+    "cjsCode": "SO05502",
+    "offenceCategory": "VP",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Application to revoke a financial reporting order||",
+    "resultHalfLifeHours": null,
+    "description": "SO05502"
+  },
+  {
+    "cjsCode": "SX03503",
+    "offenceCategory": "VP",
+    "recordableOnPnc": "N",
+    "notifiableToHo": "N",
+    "homeOfficeClassification": "000/00",
+    "offenceTitle": "Application to renew a parental direction||",
+    "resultHalfLifeHours": null,
+    "description": "SX03503"
   }
 ]
