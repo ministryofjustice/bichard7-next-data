@@ -18,6 +18,8 @@ module.exports = {
     "import/extensions": "off",
     "import/no-unresolved": "off",
     "no-plusplus": [2, { allowForLoopAfterthoughts: true }],
+    "no-empty-function": "off",
+    "no-useless-constructor": "off",
     "prettier/prettier": "error"
   }
 }
