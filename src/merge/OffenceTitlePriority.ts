@@ -3,37 +3,16 @@ import getMatchCjsCodeFunction from "./getMatchCjsCodeFunction"
 import consistentWhitespace from "../lib/consistentWhitespace"
 
 export default class OffenceTitlePriority {
-  currentOffenceCodes: OffenceCode[]
-
-  civilLibraOffenceCodes: OffenceCode[]
-
-  nrcOffenceCodes: OffenceCode[]
-
-  localOffenceCodes: OffenceCode[]
-
-  pnldOffenceCodes: OffenceCode[]
-
-  cjsOffenceCodes: OffenceCode[]
-
-  pncOffenceCodes: OffenceCode[]
-
+  /* eslint-disable no-unused-vars */
   constructor(
-    currentOffenceCodes: OffenceCode[],
-    civilLibraOffenceCodes: OffenceCode[],
-    nrcOffenceCodes: OffenceCode[],
-    localOffenceCodes: OffenceCode[],
-    pnldOffenceCodes: OffenceCode[],
-    cjsOffenceCodes: OffenceCode[],
-    pncOffenceCodes: OffenceCode[]
-  ) {
-    this.civilLibraOffenceCodes = civilLibraOffenceCodes
-    this.currentOffenceCodes = currentOffenceCodes
-    this.nrcOffenceCodes = nrcOffenceCodes
-    this.localOffenceCodes = localOffenceCodes
-    this.pnldOffenceCodes = pnldOffenceCodes
-    this.cjsOffenceCodes = cjsOffenceCodes
-    this.pncOffenceCodes = pncOffenceCodes
-  }
+    private currentOffenceCodes: OffenceCode[],
+    private civilLibraOffenceCodes: OffenceCode[],
+    private nrcOffenceCodes: OffenceCode[],
+    private localOffenceCodes: OffenceCode[],
+    private pnldOffenceCodes: OffenceCode[],
+    private cjsOffenceCodes: OffenceCode[],
+    private pncOffenceCodes: OffenceCode[]
+  ) {}
 
   getHighestPriority(cjsCode: string): string | undefined {
     const defaultTitle = ""

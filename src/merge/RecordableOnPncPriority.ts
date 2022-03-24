@@ -2,33 +2,15 @@ import { OffenceCode } from "../types/OffenceCode"
 import getMatchCjsCodeFunction from "./getMatchCjsCodeFunction"
 
 export default class RecordableOnPncPriority {
-  currentOffenceCodes: OffenceCode[]
-
-  civilLibraOffenceCodes: OffenceCode[]
-
-  nrcOffenceCodes: OffenceCode[]
-
-  localOffenceCodes: OffenceCode[]
-
-  pnldOffenceCodes: OffenceCode[]
-
-  pncOffenceCodes: OffenceCode[]
-
+  /* eslint-disable no-unused-vars */
   constructor(
-    currentOffenceCodes: OffenceCode[],
-    civilLibraOffenceCodes: OffenceCode[],
-    nrcOffenceCodes: OffenceCode[],
-    localOffenceCodes: OffenceCode[],
-    pnldOffenceCodes: OffenceCode[],
-    pncOffenceCodes: OffenceCode[]
-  ) {
-    this.civilLibraOffenceCodes = civilLibraOffenceCodes
-    this.currentOffenceCodes = currentOffenceCodes
-    this.nrcOffenceCodes = nrcOffenceCodes
-    this.localOffenceCodes = localOffenceCodes
-    this.pnldOffenceCodes = pnldOffenceCodes
-    this.pncOffenceCodes = pncOffenceCodes
-  }
+    private currentOffenceCodes: OffenceCode[],
+    private civilLibraOffenceCodes: OffenceCode[],
+    private nrcOffenceCodes: OffenceCode[],
+    private localOffenceCodes: OffenceCode[],
+    private pnldOffenceCodes: OffenceCode[],
+    private pncOffenceCodes: OffenceCode[]
+  ) {}
 
   getHighestPriority(cjsCode: string): string {
     const yes = "Y"

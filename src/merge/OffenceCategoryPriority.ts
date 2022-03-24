@@ -2,37 +2,16 @@ import { OffenceCode } from "../types/OffenceCode"
 import getMatchCjsCodeFunction from "./getMatchCjsCodeFunction"
 
 export default class OffenceCategoryPriority {
-  currentOffenceCodes: OffenceCode[]
-
-  offenceCodeB7CategoryOverrides: string[]
-
-  civilLibraOffenceCodes: OffenceCode[]
-
-  nrcOffenceCodes: OffenceCode[]
-
-  localOffenceCodes: OffenceCode[]
-
-  pnldOffenceCodes: OffenceCode[]
-
-  pncOffenceCodes: OffenceCode[]
-
+  /* eslint-disable no-unused-vars */
   constructor(
-    currentOffenceCodes: OffenceCode[],
-    offenceCodeB7CategoryOverrides: string[],
-    civilLibraOffenceCodes: OffenceCode[],
-    nrcOffenceCodes: OffenceCode[],
-    localOffenceCodes: OffenceCode[],
-    pnldOffenceCodes: OffenceCode[],
-    pncOffenceCodes: OffenceCode[]
-  ) {
-    this.offenceCodeB7CategoryOverrides = offenceCodeB7CategoryOverrides
-    this.civilLibraOffenceCodes = civilLibraOffenceCodes
-    this.currentOffenceCodes = currentOffenceCodes
-    this.nrcOffenceCodes = nrcOffenceCodes
-    this.localOffenceCodes = localOffenceCodes
-    this.pnldOffenceCodes = pnldOffenceCodes
-    this.pncOffenceCodes = pncOffenceCodes
-  }
+    private currentOffenceCodes: OffenceCode[],
+    private offenceCodeB7CategoryOverrides: string[],
+    private civilLibraOffenceCodes: OffenceCode[],
+    private nrcOffenceCodes: OffenceCode[],
+    private localOffenceCodes: OffenceCode[],
+    private pnldOffenceCodes: OffenceCode[],
+    private pncOffenceCodes: OffenceCode[]
+  ) {}
 
   getHighestPriority(cjsCode: string): string {
     const defaultCategory = "CE"

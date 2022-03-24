@@ -2,29 +2,14 @@ import { OffenceCode } from "../types/OffenceCode"
 import getMatchCjsCodeFunction from "./getMatchCjsCodeFunction"
 
 export default class NotifiableToHOPriority {
-  currentOffenceCodes: OffenceCode[]
-
-  civilLibraOffenceCodes: OffenceCode[]
-
-  nrcOffenceCodes: OffenceCode[]
-
-  localOffenceCodes: OffenceCode[]
-
-  pnldOffenceCodes: OffenceCode[]
-
+  /* eslint-disable no-unused-vars */
   constructor(
-    currentOffenceCodes: OffenceCode[],
-    civilLibraOffenceCodes: OffenceCode[],
-    nrcOffenceCodes: OffenceCode[],
-    localOffenceCodes: OffenceCode[],
-    pnldOffenceCodes: OffenceCode[]
-  ) {
-    this.civilLibraOffenceCodes = civilLibraOffenceCodes
-    this.currentOffenceCodes = currentOffenceCodes
-    this.nrcOffenceCodes = nrcOffenceCodes
-    this.localOffenceCodes = localOffenceCodes
-    this.pnldOffenceCodes = pnldOffenceCodes
-  }
+    private currentOffenceCodes: OffenceCode[],
+    private civilLibraOffenceCodes: OffenceCode[],
+    private nrcOffenceCodes: OffenceCode[],
+    private localOffenceCodes: OffenceCode[],
+    private pnldOffenceCodes: OffenceCode[]
+  ) {}
 
   getHighestPriority(cjsCode: string): string {
     const defaultValue = "N"
