@@ -29,8 +29,7 @@
   },
   "release": {
     "branches": [
-      "main",
-      "publish-npm-package"
+      "main"
     ]
   },
   "publishConfig": {
