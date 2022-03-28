@@ -15,12 +15,15 @@ jobs:
           fetch-depth: 0
       - name: Setup Node.js
         uses: actions/setup-node@v2
+        working-directory: output-data
         with:
           node-version: '16.13.1'
           registry-url: 'https://npm.pkg.github.com'
       - name: Install dependencies
+        working-directory: output-data
         run: npm ci
       - name: Release
+        working-directory: output-data
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}

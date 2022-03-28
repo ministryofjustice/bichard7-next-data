@@ -58,14 +58,5 @@
   },
   "devDependencies": {
     "eslint-plugin-prettier": "^4.0.0"
-  },
-  "release": {
-    "branches": [
-      "main",
-      "publish-npm-package"
-    ]
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   }
 }
