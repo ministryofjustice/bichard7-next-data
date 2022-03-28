@@ -1,6 +1,6 @@
 /* eslint-disable no-await-in-loop */
-import puppeteer from "puppeteer"
 import * as fs from "fs"
+import puppeteer from "puppeteer"
 import { PnldConfig } from "./config"
 
 export type PnldFile = {
@@ -67,7 +67,9 @@ export default class PnldFileDownloader {
     await this.page.waitForSelector("button#next")
     await this.page.type("#logonIdentifier", this.options.username)
     await this.page.type("#password", this.options.password)
-    return Promise.all([this.page.click("button#next"), this.page.waitForNavigation()]).then(() => {})
+    return Promise.all([this.page.click("button#next"), this.page.waitForNavigation()]).then(
+      () => {}
+    )
   }
 
   async waitForZipCount(zipCount: number, timeout: number): Promise<void> {
@@ -99,10 +101,10 @@ export default class PnldFileDownloader {
   async getFileLinks(): Promise<PnldFile[]> {
     const links: PnldFile[] = []
     await this.page.goto(this.options.downloadUrl)
-    // The links are in a 4 x 4 table with the date in the 1st column and the link in the second
+    // The links are in a 4 column table with the date in the 1st column and the link in the second
     const columnCount = 4
-    const rowCount = 4
     const tds = await this.page.$$(".table-responsive table tbody td")
+    const rowCount = tds.length / columnCount
     for (let i = 0; i < rowCount * columnCount; i += columnCount) {
       const date = await tds[i].evaluate((node) => (node as any).innerText)
       const link = await tds[i + 1].$("a")

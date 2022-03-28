@@ -1,11 +1,11 @@
 /* eslint-disable no-await-in-loop, no-restricted-syntax */
+import { exec } from "child_process"
 import * as fs from "fs"
 import * as util from "util"
-import { exec } from "child_process"
-import { PnldFile } from "./PnldFileDownloader"
 import { OffenceCode } from "../types/OffenceCode"
 import { PromiseResult } from "../types/Result"
 import convertXml from "./convertXml"
+import { PnldFile } from "./PnldFileDownloader"
 
 const execPromise = util.promisify(exec)
 
@@ -22,7 +22,7 @@ const unzipFile = async (file: PnldFile, outDir: string): PromiseResult<void> =>
     await fs.promises.rm(outDir, { recursive: true })
   }
   await fs.promises.mkdir(outDir)
-  await execPromise(`unzip ${file.fileName} -d ${outDir}`)
+  await execPromise(`unzip -q ${file.fileName} -d ${outDir}`)
 }
 
 const getAllFiles = async (startDir: string): Promise<string[]> => {
@@ -52,9 +52,14 @@ const processZip = async (file: PnldFile, output: OffenceCodeMap): Promise<void>
   const xmlFiles = await getAllFiles(outDir)
   for (const xmlFile of xmlFiles) {
     const xmlData = await fs.promises.readFile(xmlFile)
-    const record = await convertXml(xmlData.toString())
-    // eslint-disable-next-line no-param-reassign
-    output[record.cjsCode] = record
+    try {
+      const record = await convertXml(xmlData.toString())
+      // eslint-disable-next-line no-param-reassign
+      output[record.cjsCode] = record
+    } catch (e) {
+      console.error("Error processing: ", xmlFile)
+      throw e
+    }
   }
 }
 

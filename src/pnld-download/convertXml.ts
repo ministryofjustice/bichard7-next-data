@@ -37,13 +37,13 @@ export default async (xmlData: string): Promise<OffenceCode> => {
   const doc = parsedObj.documents.document
 
   return {
-    cjsCode: doc.codes.cjsoffencecode,
-    description: doc.codes.cjsoffencecode,
-    offenceTitle: doc.english.title,
-    recordableOnPnc: doc.codes.recordableonpncindicator.code,
-    notifiableToHo: doc.codes.notifiabletoho.code,
-    homeOfficeClassification: doc.codes.hoclassification,
-    offenceCategory: doc.libra.cjsoffencecategory.code,
+    cjsCode: doc.codes?.cjsoffencecode,
+    description: doc.codes?.cjsoffencecode,
+    offenceTitle: doc.english?.title,
+    recordableOnPnc: doc.codes?.recordableonpncindicator?.code,
+    notifiableToHo: doc.codes?.notifiabletoho?.code,
+    homeOfficeClassification: doc.codes?.hoclassification,
+    offenceCategory: doc.libra.cjsoffencecategory?.code,
     resultHalfLifeHours: null
   }
 }
