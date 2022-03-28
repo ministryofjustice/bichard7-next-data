@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
-import pnldDownload from "./pnld-download"
 import cjsDownload from "./cjs-download"
 import pncDownload from "./pnc-download"
+import pnldDownload from "./pnld-download"
 import requestedChangesDownload from "./requested-changes-download"
 
 const main = async () => {
