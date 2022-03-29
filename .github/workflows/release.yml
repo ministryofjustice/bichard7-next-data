@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - BICAWS-1878-publish-npm-package
 jobs:
   release:
     name: Release
@@ -20,6 +21,9 @@ jobs:
       - name: Install dependencies
         working-directory: output-data
         run: npm ci
+      - name: Build
+        working-directory: output-data
+        run: npm run build
       - name: Release
         working-directory: output-data
         env:
