@@ -9,6 +9,7 @@ import RecordableOnPncPriority from "./RecordableOnPncPriority"
 export default class OffenceCodeMerger {
   /* eslint-disable no-unused-vars */
   constructor(
+    private offenceCodeKeys: string[],
     private currentOffenceCodes: OffenceCode[],
     private unsupportedOffenceCodes: string[],
     private legacyOverrides: OffenceCode[],
@@ -20,22 +21,23 @@ export default class OffenceCodeMerger {
   ) {}
 
   merge(): OffenceCode[] {
-    return this.currentOffenceCodes.map((oc) => {
-      const matchCjsCode = getMatchCjsCodeFunction(oc.cjsCode)
-      if (this.unsupportedOffenceCodes.indexOf(oc.cjsCode.trim()) > -1) {
-        return oc
+    return this.offenceCodeKeys.map((cjsCode) => {
+      const matchCjsCode = getMatchCjsCodeFunction(cjsCode)
+      const currentDefault = this.currentOffenceCodes.find(matchCjsCode)
+      if (this.unsupportedOffenceCodes.includes(cjsCode.trim()) && currentDefault) {
+        return currentDefault
       }
       if (this.legacyOverrides.find(matchCjsCode)) {
         return this.legacyOverrides.find(matchCjsCode) as OffenceCode
       }
       return {
-        cjsCode: oc.cjsCode,
-        description: oc.cjsCode,
-        homeOfficeClassification: this.homeOfficeClassification.getHighestPriority(oc.cjsCode),
-        notifiableToHo: this.notifiableToHo.getHighestPriority(oc.cjsCode),
-        offenceCategory: this.offenceCategory.getHighestPriority(oc.cjsCode),
-        offenceTitle: this.offenceTitle.getHighestPriority(oc.cjsCode),
-        recordableOnPnc: this.recordableOnPnc.getHighestPriority(oc.cjsCode),
+        cjsCode,
+        description: cjsCode,
+        homeOfficeClassification: this.homeOfficeClassification.getHighestPriority(cjsCode),
+        notifiableToHo: this.notifiableToHo.getHighestPriority(cjsCode),
+        offenceCategory: this.offenceCategory.getHighestPriority(cjsCode),
+        offenceTitle: this.offenceTitle.getHighestPriority(cjsCode),
+        recordableOnPnc: this.recordableOnPnc.getHighestPriority(cjsCode),
         resultHalfLifeHours: null
       }
     })

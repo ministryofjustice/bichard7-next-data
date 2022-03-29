@@ -9,7 +9,8 @@
     "lint:fix": "eslint --fix .",
     "prepare": "husky install",
     "build": "tsc --noEmit -p tsconfig.json",
-    "fetch": "ts-node src/index.ts"
+    "download-external-data": "ts-node src/download-external-data.ts",
+    "merge-offence-data": "ts-node src/merge-offence-data.ts"
   },
   "repository": {
     "type": "git",
