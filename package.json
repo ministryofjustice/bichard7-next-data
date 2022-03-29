@@ -9,6 +9,7 @@
     "lint:fix": "eslint --fix .",
     "prepare": "husky install",
     "build": "tsc --noEmit -p tsconfig.json",
+    "update-deps": "ncu -u --deep && npm install",
     "download-external-data": "ts-node src/download-external-data.ts",
     "merge-offence-data": "ts-node src/merge-offence-data.ts"
   },
@@ -45,6 +46,7 @@
     "jsonlint-mod": "^1.7.6",
     "lint-staged": "^12.3.4",
     "lodash": "^4.17.21",
+    "npm-check-updates": "^12.5.4",
     "prettier": "^2.5.1",
     "puppeteer": "^13.3.2",
     "sort-json-keys": "^1.0.3",
