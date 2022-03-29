@@ -21,7 +21,7 @@ export default (data: Buffer): OffenceCode[] => {
   const jsonWorksheet: CjsOffenceCode[] = XLSX.utils.sheet_to_json(worksheet)
   return jsonWorksheet.map((offenceCode) => ({
     cjsCode: offenceCode["CJS Offence Code"],
-    offenceTitle: consistentWhitespace(offenceCode["Offence Title"]).replace("&amp;", "&"),
+    offenceTitle: consistentWhitespace(offenceCode["Offence Title"])?.replace("&amp;", "&"),
     recordableOnPnc: offenceCode["Recordable On PNC Indicator"],
     offenceCategory: offenceCode["Offence Category Code"],
     resultHalfLifeHours: null

@@ -21,5 +21,6 @@ module.exports = {
     "no-empty-function": "off",
     "no-useless-constructor": "off",
     "prettier/prettier": "error"
-  }
+  },
+  ignorePatterns: ["output-data/dist/*"]
 }

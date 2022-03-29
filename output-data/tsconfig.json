@@ -18,7 +18,6 @@
     "outDir": "dist"
   },
   "include": [
-    "src/**/*.ts",
-    "node_modules/@types/puppeteer/index.d.ts"
+    "./*.ts", "index.js",
   ]
 }

@@ -1,4 +1,6 @@
 /* eslint-disable no-console */
+/* eslint-disable import/no-relative-packages */
+
 import fs from "fs"
 import offenceCodeB7CategoryOverrides from "../input-data/offence-code/b7-overrides.json"
 import civilLibraOffenceCodes from "../input-data/offence-code/civil-libra-codes.json"
@@ -10,7 +12,7 @@ import pncAcpoOffenceCodes from "../input-data/offence-code/pnc-acpo-cjs-offence
 import pncCcjsOffenceCodes from "../input-data/offence-code/pnc-ccjs-cjs-offences.json"
 import pnldOffenceCodes from "../input-data/offence-code/pnld-offences.json"
 import unsupportedOffenceCodes from "../input-data/offence-code/unsupported-codes.json"
-import currentOffenceCodes from "../output-data/offence-code.json"
+import currentOffenceCodes from "../output-data/data/offence-code.json"
 import consistentSort from "./lib/consistentSort"
 import HomeOfficeClassifictionPriority from "./merge/HomeOfficeClassificationPriority"
 import NotifiableToHOPriority from "./merge/NotifiableToHOPriority"
@@ -106,7 +108,10 @@ const main = async () => {
   )
   const mergedData = merger.merge()
   const sortedData = consistentSort(mergedData)
-  await fs.promises.writeFile("output-data/offence-code.json", JSON.stringify(sortedData, null, 2))
+  await fs.promises.writeFile(
+    "output-data/data/offence-code.json",
+    JSON.stringify(sortedData, null, 2)
+  )
 }
 
 main()
