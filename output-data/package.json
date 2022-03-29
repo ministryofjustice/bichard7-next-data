@@ -29,8 +29,7 @@
   },
   "release": {
     "branches": [
-      "main",
-      "BICAWS-1878-publish-npm-package"
+      "main"
     ]
   },
   "publishConfig": {
