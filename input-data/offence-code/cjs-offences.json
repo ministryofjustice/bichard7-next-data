@@ -4179,20 +4179,6 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "AN16425",
-    "offenceCategory": "CS",
-    "offenceTitle": "Owner cause or permit unmanned unregistered aircraft to be flown",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "AN16425",
-    "offenceCategory": "CS",
-    "offenceTitle": "Owner cause or permit unmanned unregistered aircraft to be flown",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "AN16426",
     "offenceCategory": "CS",
     "offenceTitle": "UAS operator cause or permit unmanned aircraft to be flown by under age remote pilot",
@@ -4389,6 +4375,48 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "AN16454",
+    "offenceCategory": "CS",
+    "offenceTitle": "Remote pilot of unmanned aircraft fail to comply with safety checks",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AN16455",
+    "offenceCategory": "CS",
+    "offenceTitle": "Remote pilot of unmanned aircraft fail to comply with MTOM check",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AN16456",
+    "offenceCategory": "CS",
+    "offenceTitle": "Remote pilot of unmanned aircraft fail to comply with fitness to fly",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AN16457",
+    "offenceCategory": "CS",
+    "offenceTitle": "Remote pilot of unmanned aircraft fail to keep unmanned flight in sight",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AN16459",
+    "offenceCategory": "CS",
+    "offenceTitle": "Remote pilot of unmanned aircraft fail to comply re: geographical zones",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AN16460",
+    "offenceCategory": "CS",
+    "offenceTitle": "Remote pilot of unmanned aircraft fail to comply re: flights close to emergency zones (open category)",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "AN16461",
     "offenceCategory": "CS",
     "offenceTitle": "Pilot in command of aircraft taxi on apron or manoeuvring area without permission of person in charge of aerodrome",
@@ -4399,6 +4427,20 @@
     "cjsCode": "AN16464",
     "offenceCategory": "CS",
     "offenceTitle": "Owner cause or permit unmanned unregistered aircraft to be flown",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AN16465",
+    "offenceCategory": "CS",
+    "offenceTitle": "Remote pilot of unmanned aircraft fail to comply re: flights close to emergency zones (specific category)",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AN16466",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with notification requirements relating to en-route obstacles",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -7098,6 +7140,13 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "BA10001C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspire to offer / promise / give financial / other advantage to induce improper performance of a relevant function",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "BA10002",
     "offenceCategory": "CE",
     "offenceTitle": "Offer / promise / give a financial / other advantage as reward for improper performance of relevant function / activity",
@@ -7105,9 +7154,23 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "BA10002C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspire to offer / promise / give a financial / other advantage as reward for improper performance of relevant function",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "BA10003",
     "offenceCategory": "CE",
     "offenceTitle": "Offer / promise / give financial / other advantage knowing acceptance was improper performance of function / activity",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "BA10003C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspire to offer/promise/give financial/other advantage knowing acceptance was improper performance function/activity",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -8120,769 +8183,6 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "BI04001",
-    "offenceCategory": "CS",
-    "offenceTitle": "Place an aircraft other than in allocated position - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04002",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to secure aircraft against movement / unauthorised entry whilst not in a hangar - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04003",
-    "offenceCategory": "CS",
-    "offenceTitle": "Tamper / interfere / misuse / operate emergency stop switch etc - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04004",
-    "offenceCategory": "CS",
-    "offenceTitle": "Tamper / misuse telephone equipment - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04005",
-    "offenceCategory": "CS",
-    "offenceTitle": "Smoke where prohibited by notice - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04006",
-    "offenceCategory": "CS",
-    "offenceTitle": "Smoke in a non-designated area - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04007",
-    "offenceCategory": "CS",
-    "offenceTitle": "Smoke in a restricted area in the open air - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04008",
-    "offenceCategory": "CS",
-    "offenceTitle": "Operate / use a radio transmitter / thing capable of causing electrical interference - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04009",
-    "offenceCategory": "CS",
-    "offenceTitle": "Knowingly give a false bomb / fire / other alarm - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04010",
-    "offenceCategory": "CS",
-    "offenceTitle": "Leave baggage / other item / items unattended - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04011",
-    "offenceCategory": "CS",
-    "offenceTitle": "Allow a vehicle / animal / thing to be on airport when forbidden - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04012",
-    "offenceCategory": "CS",
-    "offenceTitle": "Allow a vehicle / animal / thing to return within 24 hours - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04013",
-    "offenceCategory": "CS",
-    "offenceTitle": "Remain on Airport after request to leave by a constable / airport official - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04014",
-    "offenceCategory": "CS",
-    "offenceTitle": "Return to airport within twenty four hours of a request to leave - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04015",
-    "offenceCategory": "CS",
-    "offenceTitle": "Enter Airport having been prohibited from doing so in writing by the Airport Company - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04016",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to keep an animal under control / permit an animal to foul a footpath / building - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04017",
-    "offenceCategory": "CS",
-    "offenceTitle": "Drunk / under the influence of drugs / intoxicants in restricted area at Airport - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04018",
-    "offenceCategory": "CS",
-    "offenceTitle": "Organise / take part in demonstration / public assembly likely interfere / obstruct - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04019",
-    "offenceCategory": "CS",
-    "offenceTitle": "Display a flag / banner / emblem likely to cause a breach of the peace - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04020",
-    "offenceCategory": "CS",
-    "offenceTitle": "Obstruct / interfere with proper use of or a person in the execution of duty - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04021",
-    "offenceCategory": "CS",
-    "offenceTitle": "Obstruct / behave annoyingly - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04022",
-    "offenceCategory": "CS",
-    "offenceTitle": "Leave an uncovered refuse container in a restricted area - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04023",
-    "offenceCategory": "CS",
-    "offenceTitle": "Drop / leave / throw / deposit litter / waste - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04024",
-    "offenceCategory": "CS",
-    "offenceTitle": "Remove a baggage trolley - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04025",
-    "offenceCategory": "CS",
-    "offenceTitle": "Loiter / frequent / remain on Airport without reasonable cause - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04026",
-    "offenceCategory": "CS",
-    "offenceTitle": "Obstruct an emergency exit - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04027",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to evacuate / remain in building / place - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04028",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail / neglect / refuse to comply with indication / PC / airport official / notice - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04029",
-    "offenceCategory": "CS",
-    "offenceTitle": "Board aircraft without authority - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04030",
-    "offenceCategory": "CS",
-    "offenceTitle": "Tamper with aircraft - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04031",
-    "offenceCategory": "CS",
-    "offenceTitle": "Tamper with equipment - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04032",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to report damage - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04033",
-    "offenceCategory": "CS",
-    "offenceTitle": "Spitting - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04034",
-    "offenceCategory": "CS",
-    "offenceTitle": "Drive vehicle / plant without airside driving permit - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04035",
-    "offenceCategory": "CS",
-    "offenceTitle": "Cause / permit an unauthorised private hire vehicle to enter airport - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04036",
-    "offenceCategory": "CS",
-    "offenceTitle": "Run an aircraft engine in a hangar / unauthorised area at airport - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04037",
-    "offenceCategory": "CS",
-    "offenceTitle": "Clean / service / maintain an aircraft / vehicle / equipment in a prohibited area - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04038",
-    "offenceCategory": "CS",
-    "offenceTitle": "Cause / permit fire - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04039",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fill / discharge liquid fuel from unapproved place - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04040",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to comply with an access notice - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04041",
-    "offenceCategory": "CS",
-    "offenceTitle": "Climb a wall / fence / barrier / railing / post - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04042",
-    "offenceCategory": "CS",
-    "offenceTitle": "Sing / shout / play musical instrument / portable music machine causing annoyance - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04043",
-    "offenceCategory": "CS",
-    "offenceTitle": "Erect / use apparatus for sound / speech / images for commercial purposes - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04044",
-    "offenceCategory": "CS",
-    "offenceTitle": "Graze animals - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04045",
-    "offenceCategory": "CS",
-    "offenceTitle": "Place building / equipment / vehicle / container w/i 3 metres of boundary fence - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04046",
-    "offenceCategory": "CS",
-    "offenceTitle": "Enter / leave through unauthorised gate / entrance / exit - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04047",
-    "offenceCategory": "CS",
-    "offenceTitle": "Enter part of airport where public are not admitted - Birmingham International Airport- Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04048",
-    "offenceCategory": "CS",
-    "offenceTitle": "Enter with a public service vehicle when not hired as a whole - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04049",
-    "offenceCategory": "CS",
-    "offenceTitle": "Drive a vehicle airside - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04050",
-    "offenceCategory": "CS",
-    "offenceTitle": "Enter / remain where entry not available by public - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04051",
-    "offenceCategory": "CS",
-    "offenceTitle": "Enter aircraft manoeuvring area without permission - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04052",
-    "offenceCategory": "CS",
-    "offenceTitle": "Sell / distribute / offer for sale items or offer / perform services for reward - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04053",
-    "offenceCategory": "CS",
-    "offenceTitle": "Offer vehicle for hire / perform service for supply / hire of vehicle- Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04054",
-    "offenceCategory": "CS",
-    "offenceTitle": "Post / display / distribute sign / notice / advertisement / circular / matter - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04055",
-    "offenceCategory": "CS",
-    "offenceTitle": "Beg / solicit funds / contributions - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04056",
-    "offenceCategory": "CS",
-    "offenceTitle": "Engage in / agree to engage in bookmaking / gaming or pay / receive / settle bets - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04057",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to wear a pass - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04058",
-    "offenceCategory": "CS",
-    "offenceTitle": "Remove / displace / deface / alter structure / building / property - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04059",
-    "offenceCategory": "CS",
-    "offenceTitle": "Drive a vehicle dangerously - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04060",
-    "offenceCategory": "CS",
-    "offenceTitle": "Drive a vehicle without due care and attention / reasonable consideration - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04061",
-    "offenceCategory": "CS",
-    "offenceTitle": "Cause / permit a vehicle to cause an obstruction / wait where likely to cause danger - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04062",
-    "offenceCategory": "CS",
-    "offenceTitle": "Drive a vehicle whilst drunk / under influence of drink / drugs - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04063",
-    "offenceCategory": "CS",
-    "offenceTitle": "Drive vehicle in excess of the speed limit - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04064",
-    "offenceCategory": "CS",
-    "offenceTitle": "Use / cause / permit use of vehicle likely to cause danger / nuisance - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04065",
-    "offenceCategory": "CS",
-    "offenceTitle": "Leave / park / cause a vehicle to wait in excess of the permitted waiting period - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04066",
-    "offenceCategory": "CS",
-    "offenceTitle": "Leave a vehicle unattended and fail to set the handbrake - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04067",
-    "offenceCategory": "CS",
-    "offenceTitle": "Use / cause / permit vehicle to be used when safety locking devices not in order - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04068",
-    "offenceCategory": "CS",
-    "offenceTitle": "Use / cause / permit vehicle use fuel / exhaust system likely cause danger / nuisance - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04069",
-    "offenceCategory": "CS",
-    "offenceTitle": "Use / cause / permit a vehicle to be used when weight distribution was dangerous - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04070",
-    "offenceCategory": "CS",
-    "offenceTitle": "Use / cause / permit a vehicle to be used with an insecure load - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04071",
-    "offenceCategory": "CS",
-    "offenceTitle": "Cause / permit a vehicle / equipment / person to enter an unauthorised area - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04072",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to stop - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04073",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to comply with a traffic direction - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04074",
-    "offenceCategory": "CS",
-    "offenceTitle": "Park in place where parking not provided for - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04075",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to remove vehicle - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04076",
-    "offenceCategory": "CS",
-    "offenceTitle": "Drive / operate / place vehicle elsewhere than where provided for - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04077",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to comply with a lighting requirement when driving / leaving a vehicle - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04078",
-    "offenceCategory": "CS",
-    "offenceTitle": "Leave cargo / baggage or park a vehicle / equipment other than in a place provided - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04079",
-    "offenceCategory": "CS",
-    "offenceTitle": "Leave a vehicle unattended when its engine was running / with ignition keys - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04080",
-    "offenceCategory": "CS",
-    "offenceTitle": "Tamper / interfere with / misuse a lift - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04081",
-    "offenceCategory": "CS",
-    "offenceTitle": "Enter vehicle / trolley / equipment / apparatus etc / tamper brake / mechanism - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04082",
-    "offenceCategory": "CS",
-    "offenceTitle": "Cause / permit a taxi to ply for hire / load passengers without authority - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04083",
-    "offenceCategory": "CS",
-    "offenceTitle": "Cause / permit vehicle other than a taxi to stand on authorised standing - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04084",
-    "offenceCategory": "CS",
-    "offenceTitle": "Cause / permit vehicle other than a taxi to stand on authorised standing - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04085",
-    "offenceCategory": "CS",
-    "offenceTitle": "Allow disabled taxi to be left on authorised standing longer than necessary - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04086",
-    "offenceCategory": "CS",
-    "offenceTitle": "Obstruct for purpose of plying for hire with taxi / obtaining fares - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04087",
-    "offenceCategory": "CS",
-    "offenceTitle": "Wash down / clean taxi on an authorised standing - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04088",
-    "offenceCategory": "CS",
-    "offenceTitle": "Drive more than one taxi onto airport - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04089",
-    "offenceCategory": "CS",
-    "offenceTitle": "Leave a taxi on authorised standing when not willing to hire immediately - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04090",
-    "offenceCategory": "CS",
-    "offenceTitle": "Taxi driver fail to display / produce badge - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04091",
-    "offenceCategory": "CS",
-    "offenceTitle": "Drive taxi onto authorised standing without driving through taxi feeder park - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04092",
-    "offenceCategory": "CS",
-    "offenceTitle": "Leave / park taxi on taxi feeder park when unwilling to be despatched immediately - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04093",
-    "offenceCategory": "CS",
-    "offenceTitle": "Taxi driver occupying taxi feeder park fail to ensure good order / orderly movement - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04094",
-    "offenceCategory": "CS",
-    "offenceTitle": "Leave taxi feeder park and proceed to authorised standing immediately when required - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04095",
-    "offenceCategory": "CS",
-    "offenceTitle": "Taxi driver fail to move forward at authorised standing - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04096",
-    "offenceCategory": "CS",
-    "offenceTitle": "Taxi driver fail to convey / assist in loading luggage- Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04097",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to enter / leave terminus through barrier - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04098",
-    "offenceCategory": "CS",
-    "offenceTitle": "Obstruct passengers whilst entering a people movement system car - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04099",
-    "offenceCategory": "CS",
-    "offenceTitle": "Enter people movement system car when full - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04100",
-    "offenceCategory": "CS",
-    "offenceTitle": "Mount part of people movement system car not provided for carriage of persons - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04101",
-    "offenceCategory": "CS",
-    "offenceTitle": "Operate / move / work / tamper with appliance / device without emergency - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04102",
-    "offenceCategory": "CS",
-    "offenceTitle": "Use people movement system car / walkway / guardrail improperly- Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04103",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to state correct name / address / purpose- Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04104",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to stop after vehicular accident - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04105",
-    "offenceCategory": "CS",
-    "offenceTitle": "Aircraft commander / tug driver fail to stop after aircraft accident - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04106",
-    "offenceCategory": "CS",
-    "offenceTitle": "Driver of a vehicle fail to stop after involving an aircraft - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04107",
-    "offenceCategory": "CS",
-    "offenceTitle": "Driver of vehicle fail to produce insurance / permit / competence to drive on request - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04108",
-    "offenceCategory": "CS",
-    "offenceTitle": "Keeper / person with info fail give identity of driver of vehicle in restricted zone - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BI04109",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to hand in property found - Birmingham International Airport",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "BK87037",
     "offenceCategory": "CE",
     "offenceTitle": "Providing false or misleading information to Bank's investigators",
@@ -9674,6 +8974,83 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "BL21014",
+    "offenceCategory": "CS",
+    "offenceTitle": "Master of vessel navigated whilst unfit through drink or drugs - Windermere Navigation Byelaws 2008",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "BL21015",
+    "offenceCategory": "CS",
+    "offenceTitle": "Proprietor / driver of hackney carriage tampered / permitted taximeter etc. to be tampered with Borough of Rossendale",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "BL21016",
+    "offenceCategory": "CS",
+    "offenceTitle": "Navigator of boat cause / suffer vessel to exceed 4 nautical miles per hour through the water Bournemouth BC byelaws",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "BL21017",
+    "offenceCategory": "CS",
+    "offenceTitle": "Navigator of pleasure boat cause / permit vessel to exceed 8 nautical mph Maldon DC Byelaws",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "BL21018",
+    "offenceCategory": "CS",
+    "offenceTitle": "Hinder or obstruct Navigation Officer in the execution of their powers and duties on Norfolk and Suffolk Broads",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "BL21019",
+    "offenceCategory": "CS",
+    "offenceTitle": "Master of vessel embark / disembark passengers in Cardiff Harbour without consent of Harbour Master",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "BL21020",
+    "offenceCategory": "CS",
+    "offenceTitle": "Allowed a houseboat to enter Cardiff Harbour without the prior written consent of the Harbour Master",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "BL21021",
+    "offenceCategory": "CS",
+    "offenceTitle": "Cause or permit vessel to proceed at a speed greater than 6 knots Port of Tyne Byelaws 1987",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "BL21022",
+    "offenceCategory": "CS",
+    "offenceTitle": "Make false statement etc. in order to obtain entry to the prohibited area / building / premises in the prohibited area",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "BL22001",
+    "offenceCategory": "CS",
+    "offenceTitle": "Master of vessel failed to obey directions of authorised officer byelaw 21.1 Windermere Navigation Byelaws 2008",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "BL22002",
+    "offenceCategory": "CS",
+    "offenceTitle": "Engage by way of trade etc. in Cardiff Harbour without written prior consent of Harbour Master",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "BN81001",
     "offenceCategory": "CS",
     "offenceTitle": "Make false statement to obtain British nationality",
@@ -9726,12 +9103,6 @@
     "cjsCode": "BP08006",
     "offenceCategory": "CS",
     "offenceTitle": "Purport to act as an officer of an enforcement agency",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "BP19001",
-    "offenceTitle": "Master of vessel on the Thames fail to conform with directions of the Environment Agency",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -9977,6 +9348,13 @@
     "cjsCode": "BU84501",
     "offenceCategory": "VP",
     "offenceTitle": "Application for an order in respect of a dangerous building or structure",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "BU84502",
+    "offenceCategory": "VP",
+    "offenceTitle": "Appeal against notice requiring works section 102 of the Building Act 1984",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -11864,30 +11242,37 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "CD79001",
-    "offenceCategory": "CE",
-    "offenceTitle": "With intent acquire relieved goods for own use / a purpose contrary to a condition upon which relief was granted",
-    "recordableOnPnc": "Y",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CD79006",
+    "cjsCode": "CD79009",
     "offenceCategory": "CE",
     "offenceTitle": "Acquire relieved goods for use by another contrary to a condition upon which relief was granted",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "CD79007",
+    "cjsCode": "CD79010",
     "offenceCategory": "CE",
     "offenceTitle": "Cause relieved goods to be used by another for a purpose contrary to a condition upon which relief was granted",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "CD79008",
+    "cjsCode": "CD79011",
     "offenceCategory": "CE",
     "offenceTitle": "Permit relieved goods to be used by another for a purpose contrary to a condition upon which relief was granted",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CD79012",
+    "offenceCategory": "CE",
+    "offenceTitle": "Dispose of relieved goods to be used by another for a purpose contrary to a condition upon which relief was granted",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CD79013",
+    "offenceCategory": "CE",
+    "offenceTitle": "With intent acquire relieved goods for own use / a purpose contrary to a condition upon which relief was granted",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -12286,28 +11671,28 @@
   {
     "cjsCode": "CE79034",
     "offenceCategory": "CE",
-    "offenceTitle": "Improperly import a controlled drug of Class A to which a prohibition / restriction applies into the United Kingdom",
+    "offenceTitle": "Import a controlled drug of Class A to which a prohibition applies",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "CE79035",
     "offenceCategory": "CE",
-    "offenceTitle": "Improperly import a controlled drug of Class B to which a prohibition / restriction applies into the United Kingdom",
+    "offenceTitle": "Import a controlled drug of Class B to which a prohibition applies",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "CE79036",
     "offenceCategory": "CE",
-    "offenceTitle": "Improperly import a controlled drug of Class C to which a prohibition / restriction applies into the United Kingdom",
+    "offenceTitle": "Import a controlled drug of Class C to which a prohibition applies",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "CE79037",
     "offenceCategory": "CE",
-    "offenceTitle": "Improperly import goods to which a prohibition / restriction applies for the time being",
+    "offenceTitle": "Import goods other than a controlled drug to which a prohibition / restriction applies for the time being",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -12368,13 +11753,6 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "CE79048",
-    "offenceCategory": "CE",
-    "offenceTitle": "Load dutiable / restricted goods into an aircraft without authorisation and with fraudulent intent",
-    "recordableOnPnc": "Y",
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "CE79049",
     "offenceCategory": "CE",
     "offenceTitle": "Fraudulently evade the agricultural levy chargeable on goods being exported",
@@ -12396,13 +11774,6 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "CE79057",
-    "offenceCategory": "CE",
-    "offenceTitle": "Separate goods in home use after denaturing where those goods not cleared / subject of duty",
-    "recordableOnPnc": "Y",
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "CE79058",
     "offenceCategory": "CE",
     "offenceTitle": "Make a false claim for a drawback / allowance / remission payment with intent to fraud",
@@ -12413,13 +11784,6 @@
     "cjsCode": "CE79059",
     "offenceCategory": "CE",
     "offenceTitle": "Attempt to false a claim for a drawback / allowance / remission payment with intent to fraud",
-    "recordableOnPnc": "Y",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CE79060",
-    "offenceCategory": "CI",
-    "offenceTitle": "Fire upon a vessel / aircraft / vehicle in the service of HM while it was engaged in the prevention of smuggling",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -12557,13 +11921,6 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "CE79151",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to declare goods obtained in the United Kingdom",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "CE79152",
     "offenceCategory": "CE",
     "offenceTitle": "Improper importation of goods with intent to defraud Her Majesty of duty",
@@ -12595,27 +11952,6 @@
     "cjsCode": "CE79157",
     "offenceCategory": "CE",
     "offenceTitle": "Import a class C drug with intent to evade a prohibition / restriction",
-    "recordableOnPnc": "Y",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CE79158",
-    "offenceCategory": "CE",
-    "offenceTitle": "Fraudulently evade any duty / prohibition / restriction / provision",
-    "recordableOnPnc": "Y",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CE79158C",
-    "offenceCategory": "CI",
-    "offenceTitle": "Conspire to fraudulently evade any duty / prohibition / restriction / provision",
-    "recordableOnPnc": "Y",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CE79159",
-    "offenceCategory": "CE",
-    "offenceTitle": "Attempt to fraudulently evade duty / prohibition / restriction / provision",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -13320,20 +12656,6 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "CE79269",
-    "offenceCategory": "CS",
-    "offenceTitle": "Unload in the United Kingdom goods shipped / carried as stores for use on a flight / voyage",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CE79270",
-    "offenceCategory": "CS",
-    "offenceTitle": "Deficiency discovered in store of a ship / aircraft returning to the United Kingdom",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "CE79271",
     "offenceCategory": "CS",
     "offenceTitle": "Fail to comply with direction to give information / furnish documentation in relation to export goods",
@@ -13365,41 +12687,6 @@
     "cjsCode": "CE79276",
     "offenceCategory": "CS",
     "offenceTitle": "Master of a ship departing from port fail to bring to at a boarding station when required",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CE79277",
-    "offenceCategory": "CS",
-    "offenceTitle": "Master of ship / commander of aircraft depart without valid clearance",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CE79278",
-    "offenceCategory": "CE",
-    "offenceTitle": "Fraudulently load an aircraft before customs clearance made",
-    "recordableOnPnc": "Y",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CE79279",
-    "offenceCategory": "CS",
-    "offenceTitle": "Master of ship / commander of aircraft fail to comply with demand for return of clearance",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CE79280",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to comply with regulation regulating the loading and making waterborne of export goods / passengers",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CE79281",
-    "offenceCategory": "CS",
-    "offenceTitle": "Master of ship / commander of aircraft unload goods for export within the United Kingdom",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -13446,13 +12733,6 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "CE79288",
-    "offenceCategory": "CS",
-    "offenceTitle": "Master of ship upon which coastwise goods loaded / unloaded contrary to a condition / restriction",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "CE79289",
     "offenceCategory": "CS",
     "offenceTitle": "Master of coasting ship depart from port without correct account having been delivered",
@@ -13481,27 +12761,6 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "CE79293",
-    "offenceCategory": "CS",
-    "offenceTitle": "Master of a coasting ship where goods taken on board / removed at sea / outside UK",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CE79294",
-    "offenceCategory": "CS",
-    "offenceTitle": "Master of a coasting ship touched at a place outside UK / deviate from voyage",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CE79295",
-    "offenceCategory": "CS",
-    "offenceTitle": "Master of a coasting ship fail to report the ship touching at a place outside the UK",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "CE79296",
     "offenceCategory": "CS",
     "offenceTitle": "Shipper carry goods in a coasting ship contrary to a prohibition / restriction",
@@ -13519,13 +12778,6 @@
     "cjsCode": "CE79298",
     "offenceCategory": "CS",
     "offenceTitle": "Fail to furnish information required under s.77 relating to imported / exported goods",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CE79299",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to satisfy the Commissioners regarding goods reaching destination not in entry",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -13554,13 +12806,6 @@
     "cjsCode": "CE79303",
     "offenceCategory": "CS",
     "offenceTitle": "Remove / tamper with a seal / lock / mark used to identify goods under Community requirements",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CE79304",
-    "offenceCategory": "CS",
-    "offenceTitle": "Interfere with a ship / aircraft / vehicle / buoy / anchor / chain / rope / mark used by the Commissioners",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -13614,13 +12859,6 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "CE79312",
-    "offenceCategory": "CS",
-    "offenceTitle": "Make a incorrect claim for a drawback / allowance / remission / rebate / repayment",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "CE79313",
     "offenceCategory": "CS",
     "offenceTitle": "Fail to deliver a thing detained / seized as liable to forfeiture at Customs and Excise Office",
@@ -13631,13 +12869,6 @@
     "cjsCode": "CE79314",
     "offenceCategory": "CS",
     "offenceTitle": "Fail to dispose of condemned / forfeited goods as directed by the Commissioners",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CE79315",
-    "offenceCategory": "CS",
-    "offenceTitle": "Owner / master / commander of a small ship / aircraft / hovercraft connected to goods liable to forfeiture",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -13659,13 +12890,6 @@
     "cjsCode": "CE79318",
     "offenceCategory": "CS",
     "offenceTitle": "Destroy / damage a lock / fitting / key / label / seal affixed under s.158",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CE79319",
-    "offenceCategory": "CS",
-    "offenceTitle": "Refuse to stop a vehicle / vessel when required under s. 163 and permit it to be searched",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -13812,7 +13036,7 @@
   {
     "cjsCode": "CE79340C",
     "offenceCategory": "CI",
-    "offenceTitle": "Conspire to import khat with intent to evade a prohibition / restriction",
+    "offenceTitle": "Conspire to import khat with intent to evade a prohibition",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -13840,7 +13064,7 @@
   {
     "cjsCode": "CE79343",
     "offenceCategory": "CE",
-    "offenceTitle": "Import khat a Class C drug to which a prohibition / restriction applies into the United Kingdom",
+    "offenceTitle": "Import khat a Class C drug to which a prohibition applies",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -13911,6 +13135,139 @@
     "cjsCode": "CE79353",
     "offenceCategory": "CE",
     "offenceTitle": "Knowingly concerned in fraudulent evasion of prohibition / restriction on prohibited weapon / ammunition",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CE79353C",
+    "offenceCategory": "CE",
+    "offenceTitle": "Conspire to be knowingly concerned in fraudulent evasion of prohibition / restriction on prohibited weapon / ammunition",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CE79356",
+    "offenceCategory": "CS",
+    "offenceTitle": "Unload in the UK goods shipped / carried as stores for use on a flight / voyage / journey",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CE79357",
+    "offenceCategory": "CS",
+    "offenceTitle": "Deficiency discovered in store of a ship / aircraft / railway vehicle returning to the UK",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CE79358",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fraudulently load a vehicle before customs clearance made",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CE79379",
+    "offenceCategory": "CS",
+    "offenceTitle": "Vehicle operator of a vehicle depart without valid clearance",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CE79380",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with regulation regulating the loading and making waterborne of export goods / passengers",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CE79381",
+    "offenceCategory": "CS",
+    "offenceTitle": "Vehicle operator unload goods for export within United Kingdom",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CE79382",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to satisfy the Commissioners regarding goods reaching destination not in declaration",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CE79383",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to declare goods obtained in the United Kingdom",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CE79384",
+    "offenceCategory": "CS",
+    "offenceTitle": "Interfere with a vehicle / buoy / anchor / chain / rope / mark used by the Commissioners",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CE79385",
+    "offenceCategory": "CE",
+    "offenceTitle": "Separate goods in home use after denaturing where those goods not cleared / subject of duty",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CE79386",
+    "offenceCategory": "CE",
+    "offenceTitle": "Load dutiable / restricted goods into a vehicle without authorisation and with fraudulent intent",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CE79387",
+    "offenceCategory": "CS",
+    "offenceTitle": "Make a incorrect claim for a drawback / allowance / remission / rebate / repayment",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CE79388",
+    "offenceCategory": "CS",
+    "offenceTitle": "Owner / vehicle operator of small ship / railway vehicle / aircraft / hovercraft connected to goods liable to forfeiture",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CE79389",
+    "offenceCategory": "CS",
+    "offenceTitle": "Refuse to stop a vehicle when required under s. 163 and permit it to be searched",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CE79390",
+    "offenceCategory": "CE",
+    "offenceTitle": "Attempt to fraudulently evade duty / prohibition / restriction / provision",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CE79391",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fraudulently evade any duty / prohibition / restriction / provision",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CE79391C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspire to fraudulently evade any duty / prohibition / restriction / provision",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CE79392",
+    "offenceCategory": "CI",
+    "offenceTitle": "Fire upon a vehicle in the service of HM while it was engaged in the prevention of smuggling",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -15119,6 +14476,13 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "CJ03532",
+    "offenceCategory": "CR",
+    "offenceTitle": "Compensation / financial penalty etc. payable following a conditional caution",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "CJ03801",
     "offenceCategory": "CR",
     "offenceTitle": "Appeal against a refusal by a magistrates court to vary his/her bail conditions",
@@ -15675,34 +15039,6 @@
     "cjsCode": "CJ15013",
     "offenceCategory": "CE",
     "offenceTitle": "Disclose / threaten to disclose private sexual photographs and films with intent to cause distress",
-    "recordableOnPnc": "Y",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CJ17001",
-    "offenceCategory": "CS",
-    "offenceTitle": "Financial institution fail to comply with customer information order",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CJ17002",
-    "offenceCategory": "CE",
-    "offenceTitle": "Financial institution makes or recklessly makes a false or misleading statement",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CJ17003",
-    "offenceCategory": "CE",
-    "offenceTitle": "Unlawful disclosure by financial institution of information regarding a request or order",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CJ17004",
-    "offenceCategory": "CE",
-    "offenceTitle": "Employee of financial institution makes unlawful disclosure of information regarding request or order",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -16344,48 +15680,6 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "CJ93001",
-    "offenceCategory": "CE",
-    "offenceTitle": "Insider dealer acquiring securities on a regulated market",
-    "recordableOnPnc": "Y",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CJ93001C",
-    "offenceCategory": "CI",
-    "offenceTitle": "Insider dealer conspire to acquire price affected securities on the regulated market",
-    "recordableOnPnc": "Y",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CJ93002",
-    "offenceCategory": "CE",
-    "offenceTitle": "Insider dealer disposing of securities on a regulated market",
-    "recordableOnPnc": "Y",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CJ93002C",
-    "offenceCategory": "CI",
-    "offenceTitle": "Insider dealer conspire to dispose of price affected securities on the regulated market",
-    "recordableOnPnc": "Y",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CJ93003",
-    "offenceCategory": "CE",
-    "offenceTitle": "Insider dealer relying on a professional intermediary on a regulated market",
-    "recordableOnPnc": "Y",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CJ93003C",
-    "offenceCategory": "CI",
-    "offenceTitle": "Insider dealer conspire to deal in price affected shares on the regulated market relying on professional intermediary",
-    "recordableOnPnc": "Y",
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "CJ93004",
     "offenceCategory": "CE",
     "offenceTitle": "Insider dealer acting as a professional intermediary",
@@ -16393,35 +15687,84 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "CJ93004C",
+    "cjsCode": "CJ93007",
+    "offenceCategory": "CE",
+    "offenceTitle": "Insider dealer acquiring securities on a regulated market",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CJ93007C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Insider dealer conspire to acquire price affected securities on the regulated market",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CJ93008",
+    "offenceCategory": "CE",
+    "offenceTitle": "Insider dealer disposing of securities on a regulated market",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CJ93008C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Insider dealer conspire to dispose of price affected securities on the regulated market",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CJ93009",
+    "offenceCategory": "CE",
+    "offenceTitle": "Insider dealer relying on a professional intermediary on a regulated market",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CJ93009C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Insider dealer conspire to deal in price affected shares on the regulated market relying on professional intermediary",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CJ93010",
+    "offenceCategory": "CE",
+    "offenceTitle": "Insider dealer acting as a professional intermediary",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CJ93010C",
     "offenceCategory": "CI",
     "offenceTitle": "Insider dealer conspire to deal in price-affected shares on regulated market by acting as professional intermediary",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "CJ93005",
+    "cjsCode": "CJ93011",
     "offenceCategory": "CE",
     "offenceTitle": "Insider dealer encouraging dealing in securities",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "CJ93005C",
+    "cjsCode": "CJ93011C",
     "offenceCategory": "CI",
     "offenceTitle": "Insider dealer conspire using info to encourage another to deal in price affected securities on the regulated market",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "CJ93006",
+    "cjsCode": "CJ93012",
     "offenceCategory": "CE",
     "offenceTitle": "Insider dealer disclosing information",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "CJ93006C",
+    "cjsCode": "CJ93012C",
     "offenceCategory": "CI",
     "offenceTitle": "Insider dealer conspire to improperly disclose information obtained",
     "recordableOnPnc": "Y",
@@ -17863,48 +17206,6 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "CO20002",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to comply with direction to go to place for screening and assessment for coronavirus in England",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CO20003",
-    "offenceCategory": "CS",
-    "offenceTitle": "Responsible person fail to secure compliance of child with directions re: coronavirus screening and testing in England",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CO20004",
-    "offenceCategory": "CS",
-    "offenceTitle": "Responsible person for child fail to provide information/assistance re: coronavirus screening/testing in England",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CO20005",
-    "offenceCategory": "CS",
-    "offenceTitle": "Absconds / attempts to abscond whilst being removed to or kept at a place of coronavirus assessment in England",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CO20006",
-    "offenceCategory": "CS",
-    "offenceTitle": "Provide false / misleading information in response to a requirement re coronavirus screening/assessment in England",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CO20007",
-    "offenceCategory": "CS",
-    "offenceTitle": "Obstruct person exercising / attempting to exercise power re: coronavirus screening/assessment in England",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "CO20008",
     "offenceCategory": "CS",
     "offenceTitle": "Fail to comply with direction to go to place for screening and assessment for coronavirus in Wales",
@@ -17947,20 +17248,6 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "CO20014",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to comply with direction re events / gatherings in England in order to control coronavirus",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CO20015",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to comply with direction to close or restrict entry to premises in England to control coronavirus transmission",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "CO20016",
     "offenceCategory": "CS",
     "offenceTitle": "Fail to comply with direction on events / gatherings in Wales",
@@ -17971,20 +17258,6 @@
     "cjsCode": "CO20017",
     "offenceCategory": "CS",
     "offenceTitle": "Fail to comply with direction to close or restrict entry to premises in Wales to control coronavirus",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CO20018",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to comply with direction of public health officer when at coronavirus screening and assessment venue in England",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CO20019",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to comply with direction having been screened and assessed for coronavirus in England",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -18104,6 +17377,13 @@
     "cjsCode": "COML017",
     "offenceCategory": "CI",
     "offenceTitle": "False imprisonment",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "COML017B",
+    "offenceCategory": "CI",
+    "offenceTitle": "Aid, abet, counsel or procure false imprisonment",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -18356,6 +17636,13 @@
     "cjsCode": "COML062",
     "offenceCategory": "CE",
     "offenceTitle": "Act of outraging public decency - common law",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "COML062A",
+    "offenceCategory": "CE",
+    "offenceTitle": "Attempt act of outraging public decency - common law",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -19399,48 +18686,6 @@
     "cjsCode": "CR15005",
     "offenceCategory": "CS",
     "offenceTitle": "Purport to act as officer of an enforcer under Part 3 / 4 of Schedule 5 to the Consumer Rights Act 2015",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CR20007",
-    "offenceCategory": "CS",
-    "offenceTitle": "Contravene direction by local authority in relation to specified premises - Coronavirus - England",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CR20008",
-    "offenceCategory": "CS",
-    "offenceTitle": "Contravene direction by local authority regarding holding of event - Coronavirus - England",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CR20009",
-    "offenceCategory": "CS",
-    "offenceTitle": "Owner / occupier fail to take reasonable steps to restrict access in accordance with direction - Coronavirus - England",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CR20010",
-    "offenceCategory": "CS",
-    "offenceTitle": "Obstruct person carrying out function under Coronavirus No 3 Regulations - England",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CR20011",
-    "offenceCategory": "CS",
-    "offenceTitle": "Contravene direction / fail to comply with instruction / prohibition notice under Coronavirus No 3 regulations - England",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CR20012",
-    "offenceCategory": "CS",
-    "offenceTitle": "Enter / remain in public outdoor place contrary to direction without reasonable excuse - Coronavirus - England",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -20797,8 +20042,9 @@
   },
   {
     "cjsCode": "CS06192",
-    "offenceCategory": "Y",
-    "offenceTitle": "Describe / hold / indicate self as registered auditor when name not on register of auditorsof the Companies Act 2006.\"",
+    "offenceCategory": "CS",
+    "offenceTitle": "Describe / hold / indicate self as registered auditor when name not on register of auditors",
+    "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
@@ -21169,97 +20415,6 @@
     "cjsCode": "CS10503",
     "offenceCategory": "VP",
     "offenceTitle": "Breach a Domestic Violence Protection Notice",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CS20003",
-    "offenceCategory": "CS",
-    "offenceTitle": "Employer knowingly allow self-isolating worker to attend any place for employment purpose",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CS20012",
-    "offenceCategory": "CS",
-    "offenceTitle": "Agent fail to supply information in notification to principles - isolation",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CS20018",
-    "offenceCategory": "CS",
-    "offenceTitle": "Obstruct person carrying out a function under self-isolation regulations",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CS20019",
-    "offenceCategory": "CS",
-    "offenceTitle": "Contravene requirement given by relevant person under self-isolation regulations",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CS20020",
-    "offenceCategory": "CS",
-    "offenceTitle": "Following positive coronavirus test fail to comply with self isolation requirements",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CS20021",
-    "offenceCategory": "CS",
-    "offenceTitle": "Following positive coronavirus test permit child to leave / be outside of place where self-isolating",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CS20022",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to comply with self isolation requirements following close contact to person with coronavirus",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CS20024",
-    "offenceCategory": "CS",
-    "offenceTitle": "Worker fail to notify employer of requirement to self-isolate",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CS20025",
-    "offenceCategory": "CS",
-    "offenceTitle": "Agency worker fail to notify employer of requirement to self-isolate",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CS20026",
-    "offenceCategory": "CS",
-    "offenceTitle": "Agent / principal / agency worker employer fail to supply information in notification - isolation",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CS20027",
-    "offenceCategory": "CS",
-    "offenceTitle": "Person come into contact with other person / group during period of self-isolation",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CS20028",
-    "offenceCategory": "CS",
-    "offenceTitle": "Provide false information regarding close contacts to relevant person",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CS20029",
-    "offenceCategory": "CS",
-    "offenceTitle": "Provide false information to specified person in relation to self-isolation requirement",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -21737,272 +20892,6 @@
     "offenceCategory": "CS",
     "offenceTitle": "Border security - wilfully obstruct / seek to frustrate search / examination by Schedule 3 - hostile activity",
     "recordableOnPnc": "Y",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20003",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to provide updated passenger information when information changes in Wales",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20009",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to notify Secretary of State of alternative isolation premises in Wales",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20012",
-    "offenceCategory": "CS",
-    "offenceTitle": "Intentionally obstruct person carrying out information or notification function",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20026",
-    "offenceCategory": "CS",
-    "offenceTitle": "Contravene direction of constable enforcing isolation requirement",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20027",
-    "offenceCategory": "CS",
-    "offenceTitle": "Obstruct person carrying out function under regulations 7(2), 7(3), 8(3) and 11",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20028",
-    "offenceCategory": "CS",
-    "offenceTitle": "Person arriving in Wales from outside the UK, fail to travel directly to place of isolation",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20029",
-    "offenceCategory": "CS",
-    "offenceTitle": "During self-isolation period after travelling outside UK, leave / be outside of isolation place",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20030",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to isolate on arrival in Wales from UK after having been in non-exempt country or territory",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20031",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to take reasonable measures to ensure child complies with regulation requirements",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20035",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to give evidence to immigration officer of passenger information provided in advance",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20036",
-    "offenceCategory": "CS",
-    "offenceTitle": "Arrived in Wales from outside UK, fail to provide address where isolating",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20037",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to notify isolation address on arrival in Wales from UK having been in non-exempt country or territory",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20038",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to provide passenger information on arrival into Wales",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20040",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to possess valid notification of negative coronavirus test result on arrival in Wales",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20041",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to possess valid notification of negative coronavirus test result for child on arrival in Wales",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20042",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to present valid notification of negative coronavirus test result when requested by immigration officer - Wales",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20057",
-    "offenceCategory": "CS",
-    "offenceTitle": "Enter Wales after being in country / territory listed in Schedule 3A",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20058",
-    "offenceCategory": "CS",
-    "offenceTitle": "Provide false or misleading information to the Secretary of State regarding travel history - Sch 3A",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20059",
-    "offenceCategory": "CS",
-    "offenceTitle": "Provide false or misleading information to the Secretary of State under the regulations",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20061",
-    "offenceCategory": "CS",
-    "offenceTitle": "Road haulage worker fail to undertake replacement test after reasonable excuse no longer pertains",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20062",
-    "offenceCategory": "CS",
-    "offenceTitle": "Road haulage worker fail to isolate after not undertaking workforce test",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20063",
-    "offenceCategory": "CS",
-    "offenceTitle": "Road haulage worker fail to comply with isolation requirements after positive workplace test",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20064",
-    "offenceCategory": "CS",
-    "offenceTitle": "Employer fail to undertake reasonable steps to facilitate workforce tests - Wales",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20065",
-    "offenceCategory": "CS",
-    "offenceTitle": "Road haulage worker fail to undertake workforce test after inconclusive test result",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20066",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to possess testing package on arrival in Wales - coronavirus",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20067",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to undertake test on arrival in Wales - coronavirus",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20068",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to isolate on failure to take tests after arrival in Wales from non-exempt country / territory - coronavirus",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20069",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to isolate on failure to take tests after arrival in Wales from exempt country / territory - coronavirus",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20070",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to obtain testing package on arrival in Wales - coronavirus",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20071",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to provide evidence of testing package after arrival in Wales - coronavirus",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20072",
-    "offenceCategory": "CS",
-    "offenceTitle": "Road haulage worker / regulation 2A traveller fail to undertake day 2 coronavirus test after arrival in Wales",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20073",
-    "offenceCategory": "CS",
-    "offenceTitle": "Road haulage worker fail to undertake day 2 / 5 / 8 coronavirus test after arrival in Wales",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20074",
-    "offenceCategory": "CS",
-    "offenceTitle": "Relevant person at sports event / regulation 2A traveller fail to undertake day 2 test after arrival in Wales",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20075",
-    "offenceCategory": "CS",
-    "offenceTitle": "Relevant person at sports event fail to undertake day 2 / 8 coronavirus test after arrival in Wales",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20076",
-    "offenceCategory": "CS",
-    "offenceTitle": "Person organising event fail to undertake reasonable steps to facilitate events tests - Wales",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20077",
-    "offenceCategory": "CS",
-    "offenceTitle": "Relevant person at sports event fail to undertake replacement test after reasonable excuse no longer pertains",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20078",
-    "offenceCategory": "CS",
-    "offenceTitle": "Relevant person at event fail to isolate on failure to take tests after arrival in Wales from non-exempt area",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CT20079",
-    "offenceCategory": "CS",
-    "offenceTitle": "Relevant person at event fail to isolate on failure to take tests after arrival in Wales from exempt area",
-    "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
@@ -23560,6 +22449,118 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "CW22001",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to submit passenger information before arrival in Wales",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CW22002",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to provide evidence to immigration officer that passenger information provided",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CW22003",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to posssess negative test result on arrival in Wales",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CW22004",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to produce notification of negative test result to immigration officer after arrival in Wales",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CW22005",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to possess booking for day 2 test on arrival in Wales",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CW22006",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to undertake day 2 test after arrival in Wales",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CW22007",
+    "offenceCategory": "CS",
+    "offenceTitle": "Road haulage worker fail to undertake workforce test before end of day 2 / 5 / 8 - Wales",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CW22008",
+    "offenceCategory": "CS",
+    "offenceTitle": "Employer fail to undertake reasonable steps to facilitate workforce tests - Wales",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CW22009",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to arrange / undertake replacement test after inconclusive result - Wales",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CW22010",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to arrange / undertake replacement workforce test after inconclusive result - Wales",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CW22011",
+    "offenceCategory": "CS",
+    "offenceTitle": "Provide false / misleading passenger information - Wales",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CW22012",
+    "offenceCategory": "CS",
+    "offenceTitle": "Obstruct person exercising functions under the Health Protection (Coronavirus, International Travel) (Wales) Regs 2022",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CW22013",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to obtain day 2 test after arrival in Wales",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CW22014",
+    "offenceCategory": "CS",
+    "offenceTitle": "Test provider fail to provide test reference number - Wales",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CW22015",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to undertake replacement test where reasonable excuse no longer applies Wales",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CW22016",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to provide evidence of arrangement of day 2 test on request",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "CW96002",
     "offenceCategory": "CE",
     "offenceTitle": "Relinquished possession of object subject of section 4 notice before specified date - chemical weapon",
@@ -24891,7 +23892,7 @@
   },
   {
     "cjsCode": "DP78501",
-    "offenceCategory": "FO",
+    "offenceCategory": "EF",
     "offenceTitle": "Application for maintenance order - Grounds",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
@@ -26104,6 +25105,13 @@
     "cjsCode": "EA73008",
     "offenceCategory": "CS",
     "offenceTitle": "Allow / make / cause false entry in a record / document required by Employment Agencies Act 1973 / regulations",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EA87001",
+    "offenceCategory": "CS",
+    "offenceTitle": "Hawk, sell, offer etc. anything for sale without consent of council / breach condition of councils consent",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -27767,6 +26775,13 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "EN95501",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application for a restriction order section 109D of the Environment Act 1995",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "EO03001",
     "offenceCategory": "CE",
     "offenceTitle": "Make a misleading application for a licence under Export of Objects of Cultural Interest (Control) Order 2003",
@@ -28051,13 +27066,6 @@
     "offenceCategory": "CE",
     "offenceTitle": "Treat/keep/dispose of without a licence controlled non-special waste in/on land",
     "recordableOnPnc": "Y",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "EP90023",
-    "offenceCategory": "CE",
-    "offenceTitle": "Handle / control / transfer controlled waste without taking reasonable measures - Environmental Protection Act 1990.",
-    "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
@@ -28635,6 +27643,13 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "EP90140",
+    "offenceCategory": "CE",
+    "offenceTitle": "Handle / control / transfer controlled waste without taking reasonable measures - Environmental Protection Act 1990.",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "EP90502",
     "offenceCategory": "VP",
     "offenceTitle": "Appeal relating to the distribution of free printed matter",
@@ -28926,6 +27941,69 @@
     "offenceCategory": "CE",
     "offenceTitle": "Fail to comply with stop notice within time limit specified",
     "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "ES18024",
+    "offenceCategory": "CE",
+    "offenceTitle": "Display specimen of species listed in Annex B to Council Regulation (EC) No 338/97 to the public for commercial purposes",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "ES18025",
+    "offenceCategory": "CE",
+    "offenceTitle": "Keep specimen of species listed in Annex B to Council Regulation (EC) No 338/97 for sale",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "ES18026",
+    "offenceCategory": "CE",
+    "offenceTitle": "Offer specimen of species listed in Annex B to Council Regulation (EC) No 338/97 for sale",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "ES18027",
+    "offenceCategory": "CE",
+    "offenceTitle": "Offer to purchase specimen of species listed in Annex B to Council Regulation (EC) No 338/97",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "ES18028",
+    "offenceCategory": "CE",
+    "offenceTitle": "Purchase specimen of species listed in Annex B to Council Regulation (EC) No 338/97",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "ES18029",
+    "offenceCategory": "CE",
+    "offenceTitle": "Sell specimen of species listed in Annex B to Council Regulation (EC) No 338/97",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "ES18030",
+    "offenceCategory": "CE",
+    "offenceTitle": "Transport specimen of species listed in Annex B to Council Regulation (EC) No 338/97 for sale",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "ES18031",
+    "offenceCategory": "CE",
+    "offenceTitle": "Use specimen of species listed in Annex B to Council Regulation (EC) No 338/97 for commercial gain",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "ES18032",
+    "offenceCategory": "CE",
+    "offenceTitle": "Acquire specimen of species listed in Annex B to Council Regulation (EC) No 338/97 for commercial purposes",
+    "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
@@ -30994,6 +30072,20 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "FC82004",
+    "offenceCategory": "CS",
+    "offenceTitle": "Dug up / removed / cut / injured tree / removed soil etc. in or on lands of the appropriate forestry authority",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "FC82005",
+    "offenceCategory": "CS",
+    "offenceTitle": "Operated a metal detector in or on the lands of the appropriate forestry authority",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "FD10001",
     "offenceCategory": "CS",
     "offenceTitle": "Fail to remove faeces from land to which the Fouling of Land by Dogs (Darlington) Order 2010 applies",
@@ -31624,28 +30716,28 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "FI12001",
+    "cjsCode": "FI12005",
     "offenceCategory": "CE",
     "offenceTitle": "Make false / misleading statement to induce person to enter agreement / exercise rights conferred by investment",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "FI12002",
+    "cjsCode": "FI12006",
     "offenceCategory": "CE",
     "offenceTitle": "Create false / misleading impression as to market in / price / value of relevant investments",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "FI12003",
+    "cjsCode": "FI12007",
     "offenceCategory": "CE",
     "offenceTitle": "Make a false / misleading statement for use for the purpose of setting a relevant benchmark",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "FI12004",
+    "cjsCode": "FI12008",
     "offenceCategory": "CE",
     "offenceTitle": "Create false / misleading impression as to price / value of investment / interest rate for transaction",
     "recordableOnPnc": "Y",
@@ -31788,6 +30880,13 @@
     "cjsCode": "FI68011",
     "offenceCategory": "CE",
     "offenceTitle": "Acquire ammunition for a firearm without a certificate",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "FI68011C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspiracy to acquire ammunition for a firearm without a certificate",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -33101,6 +32200,13 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "FI68414C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspiracy to purchase/acquire pump action/self load rifle",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "FI68417",
     "offenceCategory": "CI",
     "offenceTitle": "Possess self loading / pump action smooth-bore gun",
@@ -33118,6 +32224,13 @@
     "cjsCode": "FI68418",
     "offenceCategory": "CI",
     "offenceTitle": "Purchase self loading/pump action smooth-bore gun",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "FI68418C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspiracy to purchase/acquire self loading/pump action smooth-bore gun",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -33153,6 +32266,13 @@
     "cjsCode": "FI68422A",
     "offenceCategory": "CI",
     "offenceTitle": "Attempt to purchase a handgun - prohibited weapon",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "FI68422C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspiracy to purchase/acquire a handgun - prohibited weapon",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -38869,9 +37989,9 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "HE20501",
+    "cjsCode": "HD47501",
     "offenceCategory": "VP",
-    "offenceTitle": "Appeal against direction restricting access to a specified outdoor public place etc. in England",
+    "offenceTitle": "Complaint to recover costs of removal of unserviceable vessel from harbour and / or sale of said vessel",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -38988,13 +38108,6 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "HI21005",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to provide evidence of advance travel information provided at request of immigration officer",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "HI21006",
     "offenceCategory": "CS",
     "offenceTitle": "Fail to complete Passenger Locator Form when passenger information becomes available or changes",
@@ -39005,41 +38118,6 @@
     "cjsCode": "HI21007",
     "offenceCategory": "CS",
     "offenceTitle": "Fail to provide passenger information on Passenger Locator Form for a child at Channel Tunnel shuttle terminal area",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "HI21008",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to possess valid notification of negative coronavirus test result on arrival from outside common travel area",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "HI21009",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to possess valid notification of negative coronavirus test result - Channel Tunnel terminal area",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "HI21010",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to possess valid notification of negative coronavirus test result for child",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "HI21011",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to produce valid notification of negative coronavirus test when requested to do so by an immigration officer",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "HI21012",
-    "offenceCategory": "CS",
-    "offenceTitle": "Immigration offender fail to provide notification of / undertake qualifying test",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -39065,13 +38143,6 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "HI21022",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to undertake day 2 workforce test by end of second day of arrival in England",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "HI21023",
     "offenceCategory": "CS",
     "offenceTitle": "Fail to undertake workforce test when reasonable excuse no longer pertains",
@@ -39082,90 +38153,6 @@
     "cjsCode": "HI21024",
     "offenceCategory": "CS",
     "offenceTitle": "Recurring work traveller fail to comply with testing requirements",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "HI21025",
-    "offenceCategory": "CS",
-    "offenceTitle": "After arrival in England, fail to undertake day 2 test before departing to offshore installation",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "HI21026",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to undertake workforce test when results for day 2 test outstanding when depart to offshore installation",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "HI21027",
-    "offenceCategory": "CS",
-    "offenceTitle": "After positive workforce test, fail to isolate until results of day 2 test received",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "HI21028",
-    "offenceCategory": "CS",
-    "offenceTitle": "After positive day 2 test, fail to isolate until end of 10th day after test undertaken",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "HI21029",
-    "offenceCategory": "CS",
-    "offenceTitle": "Worker on offshore installation fail to comply with workforce testing requirements",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "HI21030",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to isolate / undertake day 2 test, following positive workforce test",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "HI21031",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to isolate following positive workforce and day 2 test",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "HI21032",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to undertake day 8 test when returning to England from offshore installation",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "HI21033",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to self-isolate following positive day 8 test",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "HI21034",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to self-isolate on arrival from category 2 or 3 country / territory",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "HI21035",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to travel directly to place of isolation on arrival from category 2 country / territory",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "HI21036",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to ensure child arriving from category 2 country / territory self-isolates",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -39261,20 +38248,6 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "HI21052",
-    "offenceCategory": "CS",
-    "offenceTitle": "Operator fail to ensure passenger arriving at port / immigration control possessed notification of negative test",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "HI21053",
-    "offenceCategory": "CS",
-    "offenceTitle": "Operator fail to ensure no passenger from category 3 country / territory arrives at non-designated port",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "HI21054",
     "offenceCategory": "CS",
     "offenceTitle": "Operator fail to keep record of steps taken to provide information to passengers arriving at port in England",
@@ -39345,23 +38318,9 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "HI21064",
-    "offenceCategory": "CS",
-    "offenceTitle": "Airport operator cause / permit non-category 3 passengers to arrive at category 3 designated terminal",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "HI21065",
     "offenceCategory": "CS",
     "offenceTitle": "Fail to possess testing package on arrival in England",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "HI21066",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to possess testing package for accompanied child on arrival in England",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -39373,23 +38332,9 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "HI21068",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to obtain testing package for unaccompanied child on arrival in England",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "HI21069",
     "offenceCategory": "CS",
     "offenceTitle": "Fail to undertake tests in accordance with testing package",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "HI21070",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to ensure child undertook tests in accordance with testing package",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -39408,58 +38353,198 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "HI21074",
-    "offenceCategory": "CS",
-    "offenceTitle": "Operator fail to implement and maintain process and systems to ensure compliance with regulation 17A(1)",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "HI21075",
-    "offenceCategory": "CS",
-    "offenceTitle": "Operator fail to comply with request for records by authorised person",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "HI21076",
-    "offenceCategory": "CS",
-    "offenceTitle": "Operator fail to maintain records and information of steps taken to comply with regulation 17A(4)",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "HI21077",
-    "offenceCategory": "CS",
-    "offenceTitle": "Operator fail to ensure passenger arriving at port / immigration control had completed Passenger Locator Form",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "HI21078",
-    "offenceCategory": "CS",
-    "offenceTitle": "Operator fail to ensure passenger possesses evidence of vaccination eligibility criteria - Channel Tunnel",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "HI21079",
-    "offenceCategory": "CS",
-    "offenceTitle": "Operator fail to ensure passenger possesses evidence of vaccination eligibility criteria - English port",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "HI21081",
-    "offenceCategory": "CS",
-    "offenceTitle": "Child fail to possess booking for responsible adult for self-isolation under managed package - Category 3",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "HI21082",
     "offenceCategory": "CS",
     "offenceTitle": "Nominated responsible adult fail to reside with child at place of self-isolation - Category 3",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21090",
+    "offenceCategory": "CS",
+    "offenceTitle": "Person carrying out element of single end-to-end testing for optional test, fail to comply with testing requirements",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21091",
+    "offenceCategory": "CS",
+    "offenceTitle": "Wilfully obstruct a person carrying out functions under reg 18A / 18B - Travel and Op Liability Regs",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21092",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to provide information regarding persons residing at self-isolation accommodation - category 3",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21093",
+    "offenceCategory": "CS",
+    "offenceTitle": "Relevant person fail to self-isolate following notification from Secretary of State - category 3",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21094",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to ensure relevant child self-isolates with P in designated accomodation - category 3",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21095",
+    "offenceCategory": "CS",
+    "offenceTitle": "Employer knowingly allow employee to attend any place when self-isolating - category 3",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21096",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to ensure provide information regarding child to Secretary of State - category 3",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21097",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to ensure child possesses booking for responsible adult for self-isolation under managed package - Category 3",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21116",
+    "offenceCategory": "CS",
+    "offenceTitle": "Airport operator cause / permit non-category 3 passengers to arrive at category 3 designated terminal",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21117",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to obtain testing package for unaccompanied child on arrival in England",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21118",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to possess testing package for accompanied child on arrival in England",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21119",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to ensure child undertook tests in accordance with testing package",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21120",
+    "offenceCategory": "CS",
+    "offenceTitle": "Contravene direction to return child to place of self-isolation - travel",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21128",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to possess valid notification of negative coronavirus test result on arrival from outside common travel area",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21129",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to possess valid notification of negative coronavirus test result - Channel Tunnel terminal area",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21132",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to produce valid notification of negative coronavirus test when requested to do so by an immigration officer",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21133",
+    "offenceCategory": "CS",
+    "offenceTitle": "Immigration offender fail to provide notification of / undertake qualifying test",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21135",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to provide evidence of advance travel information provided at request of immigration officer",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21136",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to undertake day 2 workforce test by end of second day of arrival in England",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21137",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to self-isolate on arrival from category 3 country / territory",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21139",
+    "offenceCategory": "CS",
+    "offenceTitle": "Operator fail to implement and maintain processes and systems to ensure passenger compliance with these regulations",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21140",
+    "offenceCategory": "CS",
+    "offenceTitle": "Operator fail to retain records and information to show compliance with regulation 15A(1)",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21141",
+    "offenceCategory": "CS",
+    "offenceTitle": "Operator fail to comply with a request to provide records and information within specified period",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21142",
+    "offenceCategory": "CS",
+    "offenceTitle": "Person carrying out element of single end-to-end testing for day 8 test, fail to comply with testing requirements",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21143",
+    "offenceCategory": "CS",
+    "offenceTitle": "Traveller fail to self-isolate following positive coronavirus test fail to notify relevant person of household members",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21144",
+    "offenceCategory": "CS",
+    "offenceTitle": "Knowingly provide false information pursuant to notification requirement of isolation",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21145",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to travel directly to place of isolation when required to do so under regulation 9",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -40138,7 +39223,7 @@
   {
     "cjsCode": "HO04501",
     "offenceCategory": "VP",
-    "offenceTitle": "Application for court to order occupier / owner to allow action to be taken on premises - s.35 Housing Act 2004",
+    "offenceTitle": "Application for court to order occupier / owner to allow action to be taken on premises s.35 Housing Act 2004",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -41606,58 +40691,156 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "HV19003",
+    "cjsCode": "HV19014",
     "offenceCategory": "CM",
     "offenceTitle": "Drive HCV on relevant class of road in Kent during traffic restriction period",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "HV19004",
+    "cjsCode": "HV19015",
     "offenceCategory": "CM",
-    "offenceTitle": "Drive HCV during traffic restriction period otherwise than in the nearside lane in relevant class of road",
+    "offenceTitle": "Drive HCV during traffic restriction period otherwise than in the nearside lane of M2/M20 motorway",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "HV19007",
+    "cjsCode": "HV19016",
     "offenceCategory": "CM",
-    "offenceTitle": "Drive HCV on M20 without M26 permit / permission / direction when M26 in use by other traffic",
+    "offenceTitle": "Drive HCV on M2 motorway on during traffic restriction period",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "HV19008",
+    "cjsCode": "HV19017",
     "offenceCategory": "CM",
-    "offenceTitle": "Drive HCV vehicle on M20 / M2 motorway without valid Kent Access Permit",
+    "offenceTitle": "Drive HCV on M20 without permission / direction",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "HV19009",
-    "offenceCategory": "CM",
-    "offenceTitle": "Drive HCV vehicle M20 motorway during traffic restriction period without permit / permission",
+    "cjsCode": "HV21001",
+    "offenceCategory": "CS",
+    "offenceTitle": "Responsible person fail to take reasonable measures to ensure no persons admitted to venue - coronavirus",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "HV19011",
-    "offenceCategory": "CM",
-    "offenceTitle": "Drive HCV on relevant class of road in Kent during traffic restriction period",
+    "cjsCode": "HV21002",
+    "offenceCategory": "CS",
+    "offenceTitle": "Responsible person fail to take reasonable measures to ensure no persons present in Category A venue - coronavirus",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "HV19012",
-    "offenceCategory": "CM",
-    "offenceTitle": "Drive HCV vehicle on M20 / M2 motorway without complying with SARS-CoV-2 requirement",
+    "cjsCode": "HV21003",
+    "offenceCategory": "CS",
+    "offenceTitle": "Responsible person fail to take reasonable measures regarding event capacity in venue - coronavirus",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "HV19013",
-    "offenceCategory": "CM",
-    "offenceTitle": "Drive HCV on M20 without permission / direction when carriageway in use by other traffic",
+    "cjsCode": "HV21004",
+    "offenceCategory": "CS",
+    "offenceTitle": "Responsible person fail to take reasonable measures regarding event capacity in venue - coronavirus",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HV21005",
+    "offenceCategory": "CS",
+    "offenceTitle": "Responsible person fail to produce statement of obligations for venue / event - coronavirus",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HV21006",
+    "offenceCategory": "CS",
+    "offenceTitle": "Responsible person for Category A venue fail to keep records - coronavirus",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HV21007",
+    "offenceCategory": "CS",
+    "offenceTitle": "Responsible person for Category B / C / D event fail to keep records - coronavirus",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HV21008",
+    "offenceCategory": "CS",
+    "offenceTitle": "Responsible person fail to protect identity of persons in records under reg 5(2) / (3) - coronavirus",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HV21009",
+    "offenceCategory": "CS",
+    "offenceTitle": "Responsible person fail to produce and keep up to date statement relating to cat B / C / D event - coronavirus",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HV21010",
+    "offenceCategory": "CS",
+    "offenceTitle": "Responsible person fail to retain statement relating to venue / event - coronavirus",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HV21011",
+    "offenceCategory": "CS",
+    "offenceTitle": "Responsible person fail to retain records relating to venue / event - coronavirus",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HV21012",
+    "offenceCategory": "CS",
+    "offenceTitle": "Responsible person fail to produce records / statement relating to venue / event - coronavirus",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HV21013",
+    "offenceCategory": "CS",
+    "offenceTitle": "Make / adapt / supply / offer to supply false evidence of COVID status to another person",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HV21014",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with Local Authority notice to produce records / statement - coronavirus",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HV21015",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with Local Authority inspection - coronavirus",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HV21016",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with Coronavirus Improvement Notice",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HV21017",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with Coronavirus Immediate Restriction Notice",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HV21018",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with Coronavirus Restriction Notice",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -45799,6 +44982,13 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "LA03501",
+    "offenceCategory": "VP",
+    "offenceTitle": "Appeal against a removal notice - London Local Authorities and Transport for London Act 2003",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "LA05001",
     "offenceCategory": "CS",
     "offenceTitle": "Tamper with an aircraft / anything likely to interfere with safe running / security of an aircraft at Luton Airport",
@@ -48077,6 +47267,20 @@
     "cjsCode": "LG92001",
     "offenceCategory": "CS",
     "offenceTitle": "Member of Local Authority / council manager fail to disclose unpaid community charge",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "LH14001",
+    "offenceCategory": "CS",
+    "offenceTitle": "Navigate a vessel at a speed exceeding 6 knots through the water - Lymington Harbour",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "LH14002",
+    "offenceCategory": "CS",
+    "offenceTitle": "Navigate / manoeuvre vessel in manner causing wash to be generated etc - Lymington Harbour",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -51105,6 +50309,13 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "MD71170C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspired together with others to be concerned in supply of cocaine",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "MD71171",
     "offenceCategory": "CE",
     "offenceTitle": "Concerned in supply of heroin",
@@ -51485,7 +50696,7 @@
   {
     "cjsCode": "MD71245",
     "offenceCategory": "CE",
-    "offenceTitle": "Possess with intent to supply a controlled drug of Class B - Other",
+    "offenceTitle": "Possess with intent to supply a controlled drug of Class B - other",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -52239,9 +51450,23 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "MD71532C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspire to supply a controlled drug of Class B - cannabis",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "MD71533",
     "offenceCategory": "CE",
     "offenceTitle": "Concerned in the supply of a controlled drug of Class B - cannabis",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MD71533C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspire together with others to be concerned in the supply of a controlled drug of Class B - cannabis",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -53060,42 +52285,42 @@
   {
     "cjsCode": "MF97001",
     "offenceCategory": "CE",
-    "offenceTitle": "Contravene regulation 5 of the Merchant Shipping & Fishing Vessels (Health & Safety at Work) Regulations 1997",
+    "offenceTitle": "Contravene regulation 5 of the Merchant Shipping & Fishing Vessels (Health &amp; Safety at Work) Regulations 1997",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "MF97002",
     "offenceCategory": "CS",
-    "offenceTitle": "Contravene regulation 14 of the Merchant Shipping & Fishing Vessels Health & Safety at Work Regs 1997",
+    "offenceTitle": "Contravene regulation 14 of the Merchant Shipping & Fishing Vessels Health &amp; Safety at Work Regs 1997",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "MF97003",
     "offenceCategory": "CS",
-    "offenceTitle": "Contravene reg 6 / 7 / 16 / 17 / 20 or 21 Merchant Shipping & Fishing Vessels Health & Safety at Work Regs 1997",
+    "offenceTitle": "Contravene reg 6 / 7 / 16 / 17 / 20 or 21 Merchant Shipping & Fishing Vessels Health &amp; Safety at Work Regs 1997",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "MF97004",
     "offenceCategory": "CS",
-    "offenceTitle": "Contravene reg 8 / 9 / 11 / 12 / 13 / 22 / 23 Merchant Ship & Fishing Vessels Health & Safety at Work Regs 97",
+    "offenceTitle": "Contravene reg 8 / 9 / 11 / 12 / 13 / 22 / 23 Merchant Ship & Fishing Vessels Health &amp; Safety at Work Regs 97",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "MF97005",
     "offenceCategory": "CS",
-    "offenceTitle": "Contravene reg 15 or 19 Merchant Shipping & Fishing Vessels (Health & Safety at Work) Regulations 1997",
+    "offenceTitle": "Contravene reg 15 or 19 Merchant Shipping & Fishing Vessels (Health &amp; Safety at Work) Regulations 1997",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "MF97006",
     "offenceCategory": "CS",
-    "offenceTitle": "Master of ship / vessel contravene reg 19 Merchant Shipping & Fishing Vessels (Health & Safety at Work) Reg 97",
+    "offenceTitle": "Master of ship / vessel contravene reg 19 Merchant Shipping & Fishing Vessels (Health &amp; Safety at Work) Reg 97",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -53121,13 +52346,6 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "MG49005",
-    "offenceCategory": "CI",
-    "offenceTitle": "Solemnize a marriage in an unauthorised church / building",
-    "recordableOnPnc": "Y",
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "MG49006",
     "offenceCategory": "CI",
     "offenceTitle": "Solemnize a marriage in registered building in the absence of a district registrar",
@@ -53142,44 +52360,9 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "MG49008",
-    "offenceCategory": "CI",
-    "offenceTitle": "Solemnize a marriage before the expiry of the waiting period in relation to the notice of marriage",
-    "recordableOnPnc": "Y",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "MG49009",
-    "offenceCategory": "CI",
-    "offenceTitle": "Solemnize a marriage after the expiration of the applicable period",
-    "recordableOnPnc": "Y",
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "MG49010",
     "offenceCategory": "CI",
     "offenceTitle": "Solemnize marriage on premises that are not approved",
-    "recordableOnPnc": "Y",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "MG49011",
-    "offenceCategory": "CI",
-    "offenceTitle": "Superintendent registrar issue certificate for marriage before 28 days after marriage entered in notice book",
-    "recordableOnPnc": "Y",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "MG49012",
-    "offenceCategory": "CI",
-    "offenceTitle": "Superintendent registrar issue marriage certificate after the expiration of the applicable period",
-    "recordableOnPnc": "Y",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "MG49013",
-    "offenceCategory": "CI",
-    "offenceTitle": "Superintendent registrar issue a forbidden marriage certificate",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -53215,6 +52398,55 @@
     "cjsCode": "MG49019",
     "offenceCategory": "CI",
     "offenceTitle": "Solemnize marriage under Superintendent Registrar's certificate on approved premises in absence of district registrar",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MG49020",
+    "offenceCategory": "CS",
+    "offenceTitle": "Registrar register a void marriage",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MG49021",
+    "offenceCategory": "CI",
+    "offenceTitle": "Solemnize a marriage before the expiry of the waiting period in relation to the notice of marriage",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MG49022",
+    "offenceCategory": "CI",
+    "offenceTitle": "Solemnize a marriage after the expiration of the applicable period",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MG49023",
+    "offenceCategory": "CI",
+    "offenceTitle": "Superintendent registrar issue certificate for marriage when conditions in section 31(3) were not met",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MG49024",
+    "offenceCategory": "CI",
+    "offenceTitle": "Superintendent registrar issue marriage schedule after the expiration of the applicable period",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MG49025",
+    "offenceCategory": "CI",
+    "offenceTitle": "Superintendent registrar issue a forbidden marriage schedule",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MG49026",
+    "offenceCategory": "CI",
+    "offenceTitle": "Solemnize a marriage in an unauthorised church / building",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -53549,8 +52781,9 @@
   },
   {
     "cjsCode": "MH13001",
+    "offenceCategory": "CE",
     "offenceTitle": "Owner / agent of a protected site knowingly or recklessly provided information or made a representation which was false",
-    "recordableOnPnc": "N",
+    "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
@@ -54970,35 +54203,35 @@
   {
     "cjsCode": "MS20001",
     "offenceCategory": "CE",
-    "offenceTitle": "Proceed / attempt to proceed on a voyage / excursion without carrying on board approved plan",
+    "offenceTitle": "Owner/master of ship fail to have on board a plan for cooperation with search and rescue services",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "MS20002",
     "offenceCategory": "CE",
-    "offenceTitle": "Proceed / attempt to proceed on voyage without complying with standards of navigation systems / equipment",
+    "offenceTitle": "Owner/master of ship not complying with requirements for navigational systems and equipment and voyage data recorder",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "MS20003",
     "offenceCategory": "CE",
-    "offenceTitle": "Proceed / attempt to proceed on voyage without complying with reqs for shipborne navigation systems",
+    "offenceTitle": "Owner/master of ship not complying with carriage reqs for shipborne navigation systems and equipment",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "MS20004",
     "offenceCategory": "CE",
-    "offenceTitle": "Owner / Master of ship fail to ensure compliance with voyage data recorders",
+    "offenceTitle": "Owner/master of ship fail to ensure compliance with requirement to have a voyage data recorder fitted",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "MS20005",
     "offenceCategory": "CE",
-    "offenceTitle": "Owner of ship contravene operational limitations requirements for passenger ship",
+    "offenceTitle": "Owner/master of ship contravene operational limitations requirements",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -55040,35 +54273,35 @@
   {
     "cjsCode": "MS20011",
     "offenceCategory": "CE",
-    "offenceTitle": "Contravene distress message obligation and procedure requirements for ships",
+    "offenceTitle": "Misuse of a distress signal for ships",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "MS20012",
     "offenceCategory": "CE",
-    "offenceTitle": "Master / person directed to undertake tasks fail to comply with reg 24 / 25 / 26",
+    "offenceTitle": "Master / person directed to undertake tasks fail to comply with reg 24 in use of heading or track control systems",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "MS20013",
     "offenceCategory": "CE",
-    "offenceTitle": "Proceed / attempt to proceed on voyage / excursion without complying with navigation bridge visibility requirements",
+    "offenceTitle": "Owner/Master of ship with electrical or electronic equipment affecting navigational systems or equipment",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "MS20014",
     "offenceCategory": "CE",
-    "offenceTitle": "Proceed / attempt to proceed on voyage / excursion without conducting annual performance tests",
+    "offenceTitle": "Owner/Master of vessel not subjecting VDR to annual test or retaining certificate of compliance on board",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "MS20015",
     "offenceCategory": "CE",
-    "offenceTitle": "Proceed / attempt to proceed on voyage / excursion without maintenance of systems",
+    "offenceTitle": "Owner/Master of ship fail to comply with requirements for long range identification and tracking",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -55089,14 +54322,14 @@
   {
     "cjsCode": "MS20018",
     "offenceCategory": "CE",
-    "offenceTitle": "Fail to ensure compliance with effective crew performance with safety matters",
+    "offenceTitle": "Fail to ensure compliance with effective crew performance in safety matters by establishment/use of working languages",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "MS20019",
     "offenceCategory": "CS",
-    "offenceTitle": "Fail to ensure compliance with regs 21 / 22 / 26 / 27 / 29 Chapter V Safety of Life at Sea",
+    "offenceTitle": "Owner/master of ship fail to ensure compliance with reg 21 Chapter V Safety of Life at Sea",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -55105,6 +54338,48 @@
     "offenceCategory": "CE",
     "offenceTitle": "Contravene distress message obligation and procedure requirements for ships",
     "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MS20021",
+    "offenceCategory": "CE",
+    "offenceTitle": "Master / person directed to undertake tasks fail to comply with regulation on operation of ships steering gear",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MS20022",
+    "offenceCategory": "CE",
+    "offenceTitle": "Master / person directed to undertake tasks fail to comply with reg 26 relating to drills for ship steering gear",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MS20023",
+    "offenceCategory": "CS",
+    "offenceTitle": "Owner/master of ship fail to ensure compliance with reg 22 Chapter V Safety of Life at Sea",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MS20024",
+    "offenceCategory": "CS",
+    "offenceTitle": "Owner/master of ship fail to ensure compliance with reg 26 Chapter V Safety of Life at Sea",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MS20025",
+    "offenceCategory": "CS",
+    "offenceTitle": "Owner/master of ship fail to ensure compliance with reg 27 Chapter V Safety of Life at Sea",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MS20026",
+    "offenceCategory": "CS",
+    "offenceTitle": "Owner/master of ship fail to ensure compliance with reg 29 Chapter V Safety of Life at Sea",
+    "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
@@ -55608,6 +54883,13 @@
     "cjsCode": "MS95073",
     "offenceCategory": "CE",
     "offenceTitle": "Contravene requirement imposed by an improvement notice",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MS95076",
+    "offenceCategory": "CS",
+    "offenceTitle": "Obstruct, impede or molest crew in the navigation or management of the ship, or otherwise in the execution of their duty",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -57166,6 +56448,13 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "OF09501",
+    "offenceCategory": "VP",
+    "offenceTitle": "Appeal against decision of competent authority in respect of establishment subject to approval",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "OF61003",
     "offenceCategory": "CI",
     "offenceTitle": "Solicit to commit murder - Offences Against the Person Act 1861",
@@ -57316,6 +56605,13 @@
     "cjsCode": "OF61060",
     "offenceCategory": "CI",
     "offenceTitle": "Administer poison with intent to endanger life / inflict grievous bodily harm",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "OF61060C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspire to administer poison with intent to endanger life / inflict grievous bodily harm",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -59623,13 +58919,6 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "PA15197",
-    "offenceCategory": "CS",
-    "offenceTitle": "Distributor affix marking to category F1/F2/F3 firework impairing visibility, legibility and meaning of UK marking",
-    "recordableOnPnc": "Y",
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "PA15198",
     "offenceCategory": "CE",
     "offenceTitle": "Distributor affix UK marking to a pyrotechnic article (not F1/F2/F3 firework) in improper circumstances",
@@ -60193,6 +59482,13 @@
     "cjsCode": "PC02006",
     "offenceCategory": "CE",
     "offenceTitle": "Enter into / concerned in acquisition / retention / use or control criminal property",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PC02006A",
+    "offenceCategory": "CI",
+    "offenceTitle": "Attempt to enter into / be concerned in the acquisition / retention / use or control of criminal property",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -61555,6 +60851,13 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "PH84003",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with restriction or requirement imposed under Part 2A of the Public Health (Control of Disease) Act 1984",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "PH90001",
     "offenceCategory": "CS",
     "offenceTitle": "Contravening hazardous substances control",
@@ -62080,13 +61383,6 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "PJ11013",
-    "offenceCategory": "CE",
-    "offenceTitle": "Knowingly/wilfully make a false oath/declaration to procure marriage/certificate/licence",
-    "recordableOnPnc": "Y",
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "PJ11014",
     "offenceCategory": "CE",
     "offenceTitle": "Knowingly/wilfully make a false statement for purpose of an entry in a marriage register",
@@ -62097,13 +61393,6 @@
     "cjsCode": "PJ11015",
     "offenceCategory": "CE",
     "offenceTitle": "Knowingly/wilfully cause to be made a false statement for purpose of an entry in a marriage register",
-    "recordableOnPnc": "Y",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "PJ11016",
-    "offenceCategory": "CE",
-    "offenceTitle": "Prevent the issue of a certificate/licence to marry by false representation",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -62171,6 +61460,20 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "PJ11026",
+    "offenceCategory": "CE",
+    "offenceTitle": "Knowingly / wilfully make a false oath / declaration to procure marriage / certificate / licence / document / schedule",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PJ11027",
+    "offenceCategory": "CE",
+    "offenceTitle": "Prevent the issue of a certificate / licence / schedule to marry by false representation",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "PK72002",
     "offenceCategory": "CS",
     "offenceTitle": "Refuse to give name / address to a parks / police constable",
@@ -62188,6 +61491,13 @@
     "cjsCode": "PK78001",
     "offenceCategory": "CE",
     "offenceTitle": "Take an indecent photograph / pseudo-photograph of a child",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PK78001A",
+    "offenceCategory": "CE",
+    "offenceTitle": "Attempt to take an indecent photograph / pseudo-photograph of a child",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -65083,6 +64393,13 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "PU86003C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspire to commit affray",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "PU86004",
     "offenceCategory": "CS",
     "offenceTitle": "Use threatening / abusive / insulting words / behaviour with intent to cause fear of / provoke unlawful violence",
@@ -66035,20 +65352,6 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "PW21001",
-    "offenceCategory": "CS",
-    "offenceTitle": "Operator fail to ensure passenger arriving in Wales possesses notification of negative test result",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "PW21002",
-    "offenceCategory": "CS",
-    "offenceTitle": "Operator fail to ensure passenger arriving in Wales possesses notification of post arrival test arrangements",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "PW21003",
     "offenceCategory": "CS",
     "offenceTitle": "Operator fail to ensure person from Schedule 3A country / territory did not arrive at port in Wales",
@@ -66056,23 +65359,23 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "PW21004",
+    "cjsCode": "PW21008",
     "offenceCategory": "CS",
-    "offenceTitle": "Operator fail to ensure passenger arriving in Wales possesses notification of COVID-19 vaccination eligibility criteria",
+    "offenceTitle": "Operator fail to implement and maintain processes and systems relating to passengers arriving in Wales",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "PW21005",
+    "cjsCode": "PW21009",
     "offenceCategory": "CS",
-    "offenceTitle": "Operator fail to implement processes regarding passenger possession of notification of vaccination eligibility criteria",
+    "offenceTitle": "Operator fail to retain records relating to passengers arriving in Wales on international passenger services",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "PW21006",
+    "cjsCode": "PW21010",
     "offenceCategory": "CS",
-    "offenceTitle": "Operator fail to ensure passengers possess evidence of exemption",
+    "offenceTitle": "Operator fail to comply with request from authorised person for copies of records / information",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -69689,13 +68992,6 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "RE20003",
-    "offenceCategory": "CS",
-    "offenceTitle": "Gather in private dwelling in Alert Level 4 area of Wales with more than 15 people",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "RE20008",
     "offenceCategory": "CS",
     "offenceTitle": "Fail to close restaurant / cafe / bar and cease to carry on business in Alert Level 4 area of Wales",
@@ -69794,13 +69090,6 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "RE20028",
-    "offenceCategory": "CS",
-    "offenceTitle": "Involved in organising a relevant unlicensed music event with more than thirty persons in Wales",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "RE20029",
     "offenceCategory": "CS",
     "offenceTitle": "Operator of public transport service in Wales fail to provide information regarding face coverings to passengers",
@@ -69892,37 +69181,9 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "RE20093",
-    "offenceCategory": "CS",
-    "offenceTitle": "Gather in private dwelling in Alert Level 3 area of Wales with more than 15 people",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "RE20094",
-    "offenceCategory": "CS",
-    "offenceTitle": "Participate in gathering in private dwelling with other household in Alert Level 2 area of Wales - Coronavirus",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "RE20095",
-    "offenceCategory": "CS",
-    "offenceTitle": "Participate in gathering of more than 6 people in public place in Alert Level 2 area of Wales - Coronavirus",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "RE20096",
     "offenceCategory": "CS",
     "offenceTitle": "Participate in gathering in holiday / travel accommodation in Alert Level 2 area in Wales - Coronavirus",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "RE20097",
-    "offenceCategory": "CS",
-    "offenceTitle": "Participate in gathering in private dwelling more than 15 people in Alert Level 2 area in Wales - Coronavirus",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -69948,13 +69209,6 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "RE20109",
-    "offenceCategory": "CS",
-    "offenceTitle": "Organise prohibited event in Alert Level 2 area of Wales - Coronavirus",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "RE20110",
     "offenceCategory": "CS",
     "offenceTitle": "Organise prohibited event in Alert Level 3 area of Wales - Coronavirus",
@@ -69965,34 +69219,6 @@
     "cjsCode": "RE20111",
     "offenceCategory": "CS",
     "offenceTitle": "Organise prohibited event in Alert Level 4 area of Wales - Coronavirus",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "RE20112",
-    "offenceCategory": "CS",
-    "offenceTitle": "Participate in gathering in private dwelling more than 6 people in Alert Level 1 area of Wales - Coronavirus",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "RE20113",
-    "offenceCategory": "CS",
-    "offenceTitle": "Participate in gathering in private dwelling more than 15 people in Alert Level 1 area in Wales - Coronavirus",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "RE20114",
-    "offenceCategory": "CS",
-    "offenceTitle": "Participate in gathering in holiday / travel accommodation over 6 people in Alert Level 1 area of Wales - Coronavirus",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "RE20115",
-    "offenceCategory": "CS",
-    "offenceTitle": "Participate in indoor gathering of more than 6 people in public place in Alert Level 1 area of Wales - Coronavirus",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -70018,9 +69244,58 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "RE20119",
+    "cjsCode": "RE20120",
     "offenceCategory": "CS",
-    "offenceTitle": "Fail to wear a face covering within indoor public area of premises not serving food / drink in Wales",
+    "offenceTitle": "Possess false / misleading evidence of vaccination / coronavirus test results",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RE20123",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to work from home where where reasonably practicable to do so",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RE20128",
+    "offenceCategory": "CS",
+    "offenceTitle": "Participate in indoor gathering of more than 6 people in public place in Alert Level 1 area of Wales - Coronavirus",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RE20129",
+    "offenceCategory": "CS",
+    "offenceTitle": "Involved in organising a relevant unlicensed music event with more than fifty persons in Wales",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RE20130",
+    "offenceCategory": "CS",
+    "offenceTitle": "Participate in indoor gathering of more than 30 people in dwelling holiday / travel accommodation in Wales - Coronavirus",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RE20132",
+    "offenceCategory": "CS",
+    "offenceTitle": "Participate in gathering of more than six people in regulated premises in Alert Level 2 area of Wales - Coronavirus",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RE20135",
+    "offenceCategory": "CS",
+    "offenceTitle": "Organise prohibited event in Alert Level 2 area of Wales - Coronavirus",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RE20136",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to wear a face covering within indoor premises - Wales",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -73364,6 +72639,13 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "RP83193",
+    "offenceCategory": "CE",
+    "offenceTitle": "Corrupt practice of making a false statement in a document in a Police and Crime Commissioner election",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "RP83501",
     "offenceCategory": "CO",
     "offenceTitle": "Application to extend the time limit to commence prosecution",
@@ -74774,6 +74056,13 @@
     "cjsCode": "RR84704",
     "offenceCategory": "CM",
     "offenceTitle": "Pedestrian fail comply with permanent road closure on designated footpath - local traffic order outside Greater London",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RR84705",
+    "offenceCategory": "CM",
+    "offenceTitle": "Speeding - exceed 40 mph on restricted road - manned equipment",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -77375,13 +76664,6 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "RT88498",
-    "offenceCategory": "CE",
-    "offenceTitle": "Make a false statement to obtain insurance",
-    "recordableOnPnc": "Y",
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "RT88499",
     "offenceCategory": "CE",
     "offenceTitle": "Withhold information to obtain motor insurance",
@@ -78551,6 +77833,55 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "RV86015",
+    "offenceCategory": "CM",
+    "offenceTitle": "Use aerodynamic device / equipment on vehicle / vehicle combination",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RV86016",
+    "offenceCategory": "CM",
+    "offenceTitle": "Cause / permit use of aerodynamic device / equipment on vehicle / vehicle combination",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RV86017",
+    "offenceCategory": "CM",
+    "offenceTitle": "Use vehicle / vehicle combination with elongated cab",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RV86018",
+    "offenceCategory": "CM",
+    "offenceTitle": "Cause/permit use of a vehicle / vehicle combination with elongated cab",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RV86019",
+    "offenceCategory": "CM",
+    "offenceTitle": "Use a handheld mobile phone / device while driving a motor vehicle on a road - endorsable offence",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RV86020",
+    "offenceCategory": "CM",
+    "offenceTitle": "Cause use of a hand-held mobile phone/ device while driving a motor vehicle on a road - endorseable offence",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RV86021",
+    "offenceCategory": "CM",
+    "offenceTitle": "Permit use of a handheld mobile phone / device while driving a motor vehicle on a road - endorsable offence",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "RV98001",
     "offenceCategory": "CM",
     "offenceTitle": "Exceed maximum permitted weight of a rigid vehicle: axle spacing (No MOT or Manufacturer's Plate)",
@@ -78757,13 +78088,6 @@
     "cjsCode": "RW94001",
     "offenceCategory": "CS",
     "offenceTitle": "Fail to pay at the time and in response to an authorised officer gave a false name and / or address",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "S904006",
-    "offenceCategory": "CE",
-    "offenceTitle": "Fail without reasonable excuse to comply with an enforcement order",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -80569,7 +79893,7 @@
   {
     "cjsCode": "SE20538",
     "offenceCategory": "CB",
-    "offenceTitle": "Off during currency of detention & training order",
+    "offenceTitle": "Offence during currency of Detention and Training Order",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -82146,6 +81470,13 @@
     "offenceCategory": "CE",
     "offenceTitle": "Intimidate person connected with animal research organisation - SOCA 2005",
     "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SO22001",
+    "offenceCategory": "CE",
+    "offenceTitle": "Undertake fishing operations in contravention of article 3, paragraph 1",
+    "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
   {
@@ -84466,6 +83797,13 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "SX03007B",
+    "offenceCategory": "CE",
+    "offenceTitle": "Aid, abet, sexual assault on a female",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "SX03007C",
     "offenceCategory": "CI",
     "offenceTitle": "Conspire to sexually assault a female aged 13 or over - no penetration",
@@ -84648,6 +83986,13 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "SX03015B",
+    "offenceCategory": "CI",
+    "offenceTitle": "Aid / abet / counsel / procure assault of girl under 13 by penetration with a part of your body / a thing - SOA 2003",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "SX03015C",
     "offenceCategory": "CI",
     "offenceTitle": "Conspire to sexually assault a girl aged under 13 - penetration",
@@ -84665,6 +84010,13 @@
     "cjsCode": "SX03016A",
     "offenceCategory": "CI",
     "offenceTitle": "Attempt to sexually assault a boy under 13 - penetration",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SX03016B",
+    "offenceCategory": "CI",
+    "offenceTitle": "Aid / abet / counsel / procure assault of boy under 13 years of age by penetration with a part of your body / a thing",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -85852,6 +85204,13 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "SX03134C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspiracy to commit sexual penetration per vagina / anus by a person with a living animal - SOA 2003",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "SX03136",
     "offenceCategory": "CE",
     "offenceTitle": "Cause / allow sexual penetration per anus of a person by a living animal - SOA 2003",
@@ -86524,6 +85883,13 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "SX03234A",
+    "offenceCategory": "CE",
+    "offenceTitle": "Attempt to record image under clothing to observe another without consent",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "SX03501",
     "offenceCategory": "VP",
     "offenceTitle": "Application for a parental direction",
@@ -86862,7 +86228,7 @@
   {
     "cjsCode": "SX03550",
     "offenceCategory": "VP",
-    "offenceTitle": "Application to dischargea Sexual Risk Order",
+    "offenceTitle": "Application to discharge a Sexual Risk Order",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -87553,6 +86919,20 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "TC90501",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application for a planning enforcement order",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "TC90502",
+    "offenceCategory": "VP",
+    "offenceTitle": "Appeal against a section 215 notice in England Town and Country Planning Act 1990",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "TD68008",
     "offenceCategory": "CS",
     "offenceTitle": "Obstruct authorised officer",
@@ -88207,6 +87587,13 @@
     "cjsCode": "TH68058",
     "offenceCategory": "CE",
     "offenceTitle": "Abstract / use without authority electricity",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "TH68058C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspire to abstract / use without authority electricity",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -89928,7 +89315,14 @@
   {
     "cjsCode": "TP47063",
     "offenceCategory": "CS",
-    "offenceTitle": "Driver of a Hackney Carriage obstruct/hinder another driver on the taxi stand",
+    "offenceTitle": "Driver of Hackney Carriage obstruct / hinder other driver / carriage",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "TP47064",
+    "offenceCategory": "CS",
+    "offenceTitle": "Proprietor neglect to have delivered / retain licence of driver",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -93286,13 +92680,6 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "TW20006",
-    "offenceCategory": "CS",
-    "offenceTitle": "Operator of international passenger service fail to ensure person managing booking / check in provides information",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "TW20007",
     "offenceCategory": "CS",
     "offenceTitle": "Operator of international passenger service fail to ensure passenger provided with statement - coronavirus",
@@ -93300,16 +92687,9 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "TW20008",
+    "cjsCode": "TW20011",
     "offenceCategory": "CS",
-    "offenceTitle": "Operator of international passenger service fail to provide information 48 hours before departure",
-    "recordableOnPnc": "N",
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "TW20009",
-    "offenceCategory": "CS",
-    "offenceTitle": "Operator of international passenger service fail to provide information before booking / check in - coronavirus",
+    "offenceTitle": "Operator of international passenger service fail to ensure passenger at port in Wales provided with information",
     "recordableOnPnc": "N",
     "resultHalfLifeHours": null
   },
@@ -93713,17 +93093,17 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "VA94005",
-    "offenceCategory": "CS",
-    "offenceTitle": "VAT - acquired goods / services on which VAT evaded",
-    "recordableOnPnc": "Y",
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "VA94006",
     "offenceCategory": "CS",
     "offenceTitle": "VAT - supply goods / services without giving a security when required",
     "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "VA94007",
+    "offenceCategory": "CS",
+    "offenceTitle": "VAT - acquired goods / services on which VAT evaded",
+    "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
@@ -95155,9 +94535,58 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "WA06014",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with Article 7(1) (EC) No 1/2005",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "WA07001",
     "offenceCategory": "CS",
     "offenceTitle": "Person responsible for farmed animals failed to take reasonable steps to ensure conditions complied with Regulations",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "WA07003",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to ensure farmed animals in Wales requiring frequent human attention were inspected daily",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "WA07004",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to ensure inspection at sufficient intervals of farmed animals in Wales not requiring frequent human attention",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "WA07007",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to care appropriately for ill or injured farmed animals in Wales without delay",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "WA07008",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to isolate sick or injured farmed animals in suitable accommodation",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "WA07023",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to feed wholesome diet to farmed animals",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "WA07026",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to ensure farmed animals have access to suitable fresh water supply",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -95438,6 +94867,34 @@
     "cjsCode": "WA07169",
     "offenceCategory": "CS",
     "offenceTitle": "Cause / permit fail to retain record of conventionally reared meat chickens in each house - Wales",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "WA07170",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to inspect housed calves twice daily to check state of well-being",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "WA07171",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to inspect calves kept outside daily to check state of well-being",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "WA07172",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to clean / disinfect housing / stall / pen / equipment used for calves",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "WA07173",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to provide calves with appropriate bedding",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
@@ -98368,6 +97825,20 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "WF07006",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to ensure farmed animals in England requiring frequent human attention were inspected daily",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "WF07007",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to ensure inspection at sufficient intervals of farmed animals in England not requiring frequent human attention",
+    "recordableOnPnc": "N",
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "WF07009",
     "offenceCategory": "CS",
     "offenceTitle": "Fail to care appropriately for ill or injured farmed animals without delay",
@@ -98392,6 +97863,13 @@
     "cjsCode": "WF07022",
     "offenceCategory": "CS",
     "offenceTitle": "Fail to feed wholesome diet to farmed animals",
+    "recordableOnPnc": "Y",
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "WF07029",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to ensure farmed animals in England have access to suitable fresh water supply",
     "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
