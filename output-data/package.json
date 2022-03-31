@@ -29,10 +29,8 @@
   },
   "release": {
     "branches": [
-      "main"
+      "main",
+      "publish-package-to-npm-registry"
     ]
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   }
 }
