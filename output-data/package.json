@@ -32,5 +32,8 @@
       "main",
       "publish-package-to-npm-registry"
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
