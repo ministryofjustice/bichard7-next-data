@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - main
-      - publish-package-to-npm-registry
 jobs:
   release:
     name: Release
