@@ -4,9 +4,28 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.ministryofjustice.bichard7</groupId>
     <artifactId>bichard7-next-data</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
+    <name>bichard7-next-data</name>
+    <description>The data for bichard</description>
+    <url>https://github.com/ministryofjustice/bichard7-next-data</url>
+
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>MadeTech Bichard7 Team</name>
+            <email>moj-bichard7@madetech.com</email>
+            <organization>MadeTech</organization>
+            <organizationUrl>https://www.madetech.com/</organizationUrl>
+        </developer>
+    </developers>
 
     <properties>
         <project.scm.id>github</project.scm.id>
@@ -28,6 +47,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/ministryofjustice/bichard7-next-data.git</developerConnection>
+        <url>https://github.com/ministryofjustice/bichard7-next-data</url>
     </scm>
 
     <distributionManagement>
@@ -48,6 +68,46 @@
             </resource>
         </resources>
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <version>2.2.1</version>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <goals>
+                            <goal>jar-no-fork</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>2.9.1</version>
+                <executions>
+                    <execution>
+                        <id>attach-javadocs</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <!--plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <version>1.5</version>
+                <executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>sign</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin-->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>properties-maven-plugin</artifactId>
