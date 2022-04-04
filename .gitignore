@@ -4,3 +4,6 @@ node_modules
 tmp
 dist
 target
+.idea
+release.properties
+
