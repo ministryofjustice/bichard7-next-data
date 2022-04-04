@@ -14,7 +14,7 @@ public class GenerateReleaseProperties {
         final Version version = objectMapper.readValue(new File("./package.json"), Version.class);
         System.out.println("Release Version is [" + version.getValue() + "]");
 
-        FileUtils.writeStringToFile(new File("release.properties"), "releaseVersion=" + version.getValue(), Charset.defaultCharset(), false);
+        FileUtils.writeStringToFile(new File("version.properties"), "newVersion=" + version.getValue(), Charset.defaultCharset(), false);
     }
 }
 

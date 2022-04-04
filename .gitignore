@@ -5,5 +5,5 @@ tmp
 dist
 target
 .idea
-release.properties
+version.properties
 
