@@ -1,7 +1,8 @@
+/* eslint-disable no-console */
 import fs from "fs"
-import downloadPncFile from "./downloadPncFile"
-import convertXls from "./convertXls"
 import consistentSort from "../lib/consistentSort"
+import convertXls from "./convertXls"
+import downloadPncFile from "./downloadPncFile"
 
 const download = async (bucketName: string, bucketKey: string, outputFile: string) => {
   const fileContents = await downloadPncFile(bucketName, bucketKey)
@@ -11,7 +12,9 @@ const download = async (bucketName: string, bucketKey: string, outputFile: strin
 }
 
 export default async () => {
+  console.log("Downloading PNC data")
   const bucketName = "bichard-7-si2-standing-data"
-  download(bucketName, "pnc-acpo.xlsx", "input-data/offence-code/pnc-acpo-cjs-offences.json")
-  download(bucketName, "pnc-ccjs.xlsx", "input-data/offence-code/pnc-ccjs-cjs-offences.json")
+  await download(bucketName, "pnc-acpo.xlsx", "input-data/offence-code/pnc-acpo-cjs-offences.json")
+  await download(bucketName, "pnc-ccjs.xlsx", "input-data/offence-code/pnc-ccjs-cjs-offences.json")
+  console.log("PNC data successfully downloaded")
 }

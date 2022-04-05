@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import * as fs from "fs"
 import consistentSort from "../lib/consistentSort"
 import convertOds from "./convertOds"
@@ -5,6 +6,7 @@ import downloadCjsFile from "./downloadCjsFile"
 import getDownloadUrl from "./getDownloadUrl"
 
 export default async () => {
+  console.log("Downloading CJS data")
   const downloadLocation = await getDownloadUrl()
   const fileContents = await downloadCjsFile(downloadLocation)
   const offenceCodes = convertOds(fileContents)
@@ -13,4 +15,5 @@ export default async () => {
     "input-data/offence-code/cjs-offences.json",
     JSON.stringify(data, null, 2)
   )
+  console.log("CJS data successfully downloaded")
 }
