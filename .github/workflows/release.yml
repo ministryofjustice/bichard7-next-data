@@ -2,7 +2,7 @@ name: Release
 on:
   push:
     branches:
-      - main
+      - adding-maven-deploy-to-github-action
 jobs:
   release:
     name: Release
