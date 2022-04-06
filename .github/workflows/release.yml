@@ -15,16 +15,25 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '16.13.1'
-      - name: Install dependencies
+          node-version: "16.13.1"
+      - name: Install Java and Maven
+        uses: actions/setup-java@v1
+        with:
+          java-version: 17
+      - name: Install NPM packages
         working-directory: output-data
         run: npm ci
       - name: Build
         working-directory: output-data
         run: npm run build
-      - name: Release
+      - name: Release NPM Package
         working-directory: output-data
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
+      - name: Release Maven Package
+        env:
+          USERNAME: ${{ secrets.SONATYPE_USERNAME }}
+          PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
+        run: mvn clean compile exec:java compile versions:set deploy
