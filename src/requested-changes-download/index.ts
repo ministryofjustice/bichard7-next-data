@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import * as fs from "fs"
 import consistentSort from "../lib/consistentSort"
 import config from "./config"
@@ -6,6 +7,7 @@ import mergeRequests from "./mergeRequests"
 import SheetsClient from "./sheetsClient"
 
 export default async () => {
+  console.log("Downloading requested changes")
   const allRows = await new SheetsClient(config).retrieveOffenceCodeRows()
   console.log(
     `Retrieved ${allRows.length} rows of offence code data from spreadsheet ${config.spreadsheetId}`
@@ -18,4 +20,5 @@ export default async () => {
   const fileName = "input-data/offence-code/requested-changes.json"
   await fs.promises.writeFile(fileName, JSON.stringify(data, null, 2))
   console.log(`Requested changes offence code data written to ${fileName}`)
+  console.log("Requested changes successfully downloaded")
 }
