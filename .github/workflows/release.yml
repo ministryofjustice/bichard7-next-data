@@ -39,6 +39,6 @@ jobs:
           gpg --list-secret-keys --keyid-format LONG
       - name: Release Maven Package
         env:
-          USERNAME: ${{ secrets.SONATYPE_USERNAME }}
-          PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
+          MAVEN_USERNAME: ${{ secrets.SONATYPE_USERNAME }}
+          MAVEN_PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
         run: mvn clean compile exec:java -P generate-version-properties && mvn deploy -P deploy
