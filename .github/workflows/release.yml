@@ -44,4 +44,4 @@ jobs:
         env:
           MAVEN_USERNAME: ${{ secrets.SONATYPE_USERNAME }}
           MAVEN_PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
-        run: mvn clean compile exec:java -P generate-version-properties && mvn deploy -P deploy
+        run: mvn clean compile exec:java -P generate-version-properties && mvn versions:set deploy -P deploy
