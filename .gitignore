@@ -3,3 +3,7 @@ node_modules
 .eslintcache
 tmp
 dist
+target
+.idea
+version.properties
+

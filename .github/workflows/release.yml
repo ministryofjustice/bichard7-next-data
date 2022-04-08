@@ -15,16 +15,33 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '16.13.1'
-      - name: Install dependencies
+          node-version: "16.13.1"
+      - name: Install Java and Maven
+        uses: actions/setup-java@v1
+        with:
+          java-version: 17
+          server-id: ossrh
+          server-username: MAVEN_USERNAME
+          server-password: MAVEN_PASSWORD
+      - name: Install NPM packages
         working-directory: output-data
         run: npm ci
       - name: Build
         working-directory: output-data
         run: npm run build
-      - name: Release
+      - name: Release NPM Package
         working-directory: output-data
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
+      - id: install-secret-key
+        name: Install gpg secret key
+        run: |
+          cat <(echo -e "${{ secrets.OSSRH_GPG_SECRET_KEY }}") | gpg --batch --import
+          gpg --list-secret-keys --keyid-format LONG
+      - name: Release Maven Package
+        env:
+          MAVEN_USERNAME: ${{ secrets.SONATYPE_USERNAME }}
+          MAVEN_PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
+        run: mvn compile exec:java && mvn compile versions:set deploy -P load-properties
