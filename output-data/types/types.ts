@@ -27,7 +27,7 @@ type CrestDisposal = {
   hoQualifiers: string
   hoResultCode: string
   id: string
-  needsMapping: string
+  needsMapping: boolean
   numberInResult: string
   numberInResultType: string
   qData: string
@@ -60,16 +60,16 @@ type ModeOfTrialReason = {
 type Number = CjsCodeAndDescription
 type OffenceCategory = CjsCodeAndDescription
 
-type OffenceCode = {
-  cjsCode: string
-  description: string
-  homeOfficeClassification: string
-  notifiableToHo: string
-  offenceCategory: string
-  offenceTitle: string
-  recordableOnPnc: string
-  resultHalfLifeHours?: string | null
-}
+// type OffenceCode = {
+//   cjsCode: string
+//   description: string
+//   homeOfficeClassification: string
+//   notifiableToHo: boolean
+//   offenceCategory: string
+//   offenceTitle: string
+//   recordableOnPnc: boolean
+//   resultHalfLifeHours?: string | null
+// }
 
 type OffenceInitiation = CjsCodeAndDescription
 
@@ -112,7 +112,7 @@ type ResultClass = CjsCodeAndDescription
 type ResultCode = {
   cjsCode: string
   description: string
-  recordableOnPnc: string
+  recordableOnPnc: string // should be boolean
   resultCodeQualifiers: string
   resultHalfLifeHours: string
   type: string
@@ -140,7 +140,6 @@ export {
   ModeOfTrialReason,
   Number,
   OffenceCategory,
-  OffenceCode,
   OffenceInitiation,
   OrganisationUnit,
   PleaStatus,

@@ -12,7 +12,6 @@ import {
   ModeOfTrialReason,
   Number,
   OffenceCategory,
-  OffenceCode,
   OffenceInitiation,
   OrganisationUnit,
   PleaStatus,
@@ -30,6 +29,8 @@ import {
   Verdict,
   YesNo
 } from "./types/types"
+
+import { OffenceCode } from "../src/types/OffenceCode"
 
 import actualOffenceDateData from "./data/actual-offence-date.json"
 import alcoholLevelMethodData from "./data/alcohol-level-method.json"
@@ -62,12 +63,17 @@ import vehicleCodeData from "./data/vehicle-code.json"
 import verdictData from "./data/verdict.json"
 import yesNoData from "./data/yes-no.json"
 
+const mapCrestDisposalData = (data: any) => {
+  console.log(data)
+  return []
+}
+
 const actualOffenceDate: ActualOffenceDate[] = actualOffenceDateData
 const alcoholLevelMethod: AlcoholLevelMethod[] = alcoholLevelMethodData
 const amount: Amount[] = amountData
 const country: Country[] = countryData
 const courtType: CourtType[] = courtTypeData
-const crestDisposal: CrestDisposal[] = crestDisposalData
+const crestDisposal: CrestDisposal[] = mapCrestDisposalData(crestDisposalData)
 const defendantPresentAtHearing: DefendantPresentAtHearing[] = defendantPresentAtHearingData
 const durationType: DurationType[] = durationTypeData
 const durationUnit: DurationUnit[] = durationUnitData

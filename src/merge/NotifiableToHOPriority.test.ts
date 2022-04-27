@@ -1,7 +1,7 @@
 import NotifiableToHOPriority from "./NotifiableToHOPriority"
 
 const testCjsCode = "ABC123"
-const testNotifiableToHo = "Y"
+const testNotifiableToHo = true
 
 describe("NotifiableToHOPriority", () => {
   it("should prioritise civil/libra overrides first", () => {
@@ -46,6 +46,6 @@ describe("NotifiableToHOPriority", () => {
   it("should return default value if not found", () => {
     const priority = new NotifiableToHOPriority([], [], [], [], [])
 
-    expect(priority.getHighestPriority(testCjsCode)).toEqual("N")
+    expect(priority.getHighestPriority(testCjsCode)).toEqual(false)
   })
 })
