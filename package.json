@@ -58,5 +58,12 @@
   },
   "devDependencies": {
     "eslint-plugin-prettier": "^4.0.0"
+  },
+  "release": {
+    "plugins": [
+      ["@semantic-release/exec", {
+        "publishCmd": "./maven-release.sh"
+      }]
+    ]
   }
 }
