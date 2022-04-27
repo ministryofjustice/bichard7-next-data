@@ -61,6 +61,9 @@
   },
   "release": {
     "plugins": [
+      ["@semantic-release/git", {
+        "message": "Release version ${nextRelease.version}"
+      }],
       ["@semantic-release/exec", {
         "publishCmd": "./maven-release.sh"
       }]
