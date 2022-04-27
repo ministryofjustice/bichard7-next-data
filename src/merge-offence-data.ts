@@ -3,16 +3,16 @@
 
 import fs from "fs"
 import offenceCodeB7CategoryOverrides from "../input-data/offence-code/b7-overrides.json"
-import civilLibraOffenceCodes from "../input-data/offence-code/civil-libra-codes.json"
-import cjsOffenceCodes from "../input-data/offence-code/cjs-offences.json"
-import legacyOverrides from "../input-data/offence-code/legacy-dataset-overrides.json"
-import nrcOffenceCodes from "../input-data/offence-code/legacy-nrc.json"
-import localOffenceCodes from "../input-data/offence-code/local-offences.json"
+import civilLibraOffenceCodesData from "../input-data/offence-code/civil-libra-codes.json"
+import cjsOffenceCodesData from "../input-data/offence-code/cjs-offences.json"
+import legacyOverridesData from "../input-data/offence-code/legacy-dataset-overrides.json"
+import nrcOffenceCodesData from "../input-data/offence-code/legacy-nrc.json"
+import localOffenceCodesData from "../input-data/offence-code/local-offences.json"
 import pncAcpoOffenceCodes from "../input-data/offence-code/pnc-acpo-cjs-offences.json"
 import pncCcjsOffenceCodes from "../input-data/offence-code/pnc-ccjs-cjs-offences.json"
-import pnldOffenceCodes from "../input-data/offence-code/pnld-offences.json"
+import pnldOffenceCodesData from "../input-data/offence-code/pnld-offences.json"
 import unsupportedOffenceCodes from "../input-data/offence-code/unsupported-codes.json"
-import currentOffenceCodes from "../output-data/data/offence-code.json"
+import currentOffenceCodesData from "../output-data/data/offence-code.json"
 import consistentSort from "./lib/consistentSort"
 import HomeOfficeClassifictionPriority from "./merge/HomeOfficeClassificationPriority"
 import NotifiableToHOPriority from "./merge/NotifiableToHOPriority"
@@ -22,7 +22,71 @@ import OffenceTitlePriority from "./merge/OffenceTitlePriority"
 import RecordableOnPncPriority from "./merge/RecordableOnPncPriority"
 import { OffenceCode } from "./types/OffenceCode"
 
-const pncOffenceCodes: OffenceCode[] = pncAcpoOffenceCodes.concat(pncCcjsOffenceCodes)
+type rawOffenceCode = {
+  cjsCode: string
+  description?: string
+  homeOfficeClassification?: string | null
+  notifiableToHo?: string | null | boolean
+  recordCreated?: number[]
+  source?: string
+  offenceCategory?: string
+  offenceTitle?: string
+  recordableOnPnc?: string | boolean
+  resultHalfLifeHours?: string | null
+}
+
+const mapRecordsAsOffenceCode = (records: rawOffenceCode[]): OffenceCode[] => {
+  return records.map(
+    (record) =>
+      ({
+        cjsCode: record.cjsCode,
+        description: record.description,
+        homeOfficeClassification: record.homeOfficeClassification,
+        notifiableToHo:
+          record.notifiableToHo === "Y" ||
+          record.notifiableToHo === "y" ||
+          record.notifiableToHo === true,
+        recordCreated: record.recordCreated,
+        source: record.source,
+        offenceCategory: record.offenceCategory,
+        offenceTitle: record.offenceTitle,
+        recordableOnPnc:
+          record.recordableOnPnc === "Y" ||
+          record.recordableOnPnc === "y" ||
+          record.recordableOnPnc === true,
+        resultHalfLifeHours: record.source
+      } as OffenceCode)
+  )
+}
+
+const pncOffenceCodes: OffenceCode[] = mapRecordsAsOffenceCode(
+  pncAcpoOffenceCodes.concat(pncCcjsOffenceCodes)
+)
+
+const civilLibraOffenceCodes: OffenceCode[] = mapRecordsAsOffenceCode(
+  civilLibraOffenceCodesData as rawOffenceCode[]
+)
+
+const currentOffenceCodes: OffenceCode[] = mapRecordsAsOffenceCode(
+  currentOffenceCodesData as rawOffenceCode[]
+)
+const nrcOffenceCodes: OffenceCode[] = mapRecordsAsOffenceCode(
+  nrcOffenceCodesData as rawOffenceCode[]
+)
+const localOffenceCodes: OffenceCode[] = mapRecordsAsOffenceCode(
+  localOffenceCodesData as rawOffenceCode[]
+)
+const pnldOffenceCodes: OffenceCode[] = mapRecordsAsOffenceCode(
+  pnldOffenceCodesData as rawOffenceCode[]
+)
+
+const cjsOffenceCodes: OffenceCode[] = mapRecordsAsOffenceCode(
+  cjsOffenceCodesData as rawOffenceCode[]
+)
+
+const legacyOverrides: OffenceCode[] = mapRecordsAsOffenceCode(
+  legacyOverridesData as rawOffenceCode[]
+)
 
 const main = async () => {
   const hoClassification = new HomeOfficeClassifictionPriority(
