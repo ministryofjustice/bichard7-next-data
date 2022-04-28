@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - jamie/BICAWS-1801-update-b7-standing-data-prs
     paths:
       - 'output-data/**'
       - '.github/workflows/**'
