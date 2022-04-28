@@ -1,14 +1,14 @@
 import type { OffenceCodeRow } from "./sheetsClient"
 import type { OffenceCode } from "../types/OffenceCode"
 
-function formResponseToBooleanishString(formResponse: string): string | undefined {
+function formResponseToBooleanishString(formResponse: string): boolean | undefined {
   switch (formResponse.toLowerCase()) {
     case "y":
     case "yes":
-      return "Y"
+      return true
     case "n":
     case "no":
-      return "N"
+      return false
     default:
       return undefined
   }

@@ -1,6 +1,7 @@
 import * as XLSX from "xlsx"
 import { OffenceCode } from "../types/OffenceCode"
 import cjsCodeFilter from "../lib/cjsCodeFilter"
+import valueToBoolean from "../lib/valueToBoolean"
 import consistentWhitespace from "../lib/consistentWhitespace"
 
 export type PncOffenceCode = {
@@ -23,7 +24,7 @@ export default (fileContents: Buffer): OffenceCode[] => {
     .map((offenceCode) => ({
       cjsCode: offenceCode.B,
       offenceTitle: consistentWhitespace(offenceCode.C),
-      recordableOnPnc: offenceCode.F,
+      recordableOnPnc: valueToBoolean(offenceCode.F),
       resultHalfLifeHours: null
     }))
     .filter((offenceCode) => offenceCode.offenceTitle != null)
