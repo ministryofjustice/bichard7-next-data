@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - main
-      - jamie/BICAWS-1801-update-b7-standing-data-prs
     paths:
       - 'output-data/**'
       - '.github/workflows/**'
@@ -94,7 +93,7 @@ jobs:
         with:
           java-version: 17
       - name: Update standing data maven package
-        run: gradle classes --no-daemon --parallel --update-locks *:bichard7-next-data
+        run: docker-compose run app gradle classes --no-daemon --parallel -g gradle-home --update-locks *:bichard7-next-data
       - name: Create pull request
         id: cpr
         uses: peter-evans/create-pull-request@v4
