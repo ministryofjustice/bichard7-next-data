@@ -65,6 +65,7 @@ jobs:
         with:
           branch: auto/update-standing-data
           delete-branch: true
+          token: ${{ secrets.GH_ACCESS_TOKEN }}
           committer: GitHub <noreply@github.com>
           author: GitHub <noreply@github.com>
           commit-message: Update standing data
@@ -101,6 +102,7 @@ jobs:
         with:
           branch: auto/update-standing-data
           delete-branch: true
+          token: ${{ secrets.GH_ACCESS_TOKEN }}
           committer: GitHub <noreply@github.com>
           author: GitHub <noreply@github.com>
           commit-message: Update standing data
