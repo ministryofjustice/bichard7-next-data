@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
       - name: Setup Node.js
@@ -52,10 +52,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out core repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: ministryofjustice/bichard7-next-core
-          fetch-depth: 0
           token: ${{ secrets.GH_ACCESS_TOKEN }}
       - name: Update standing data npm package
         run: npm install @moj-bichard7-developers/bichard7-next-data@latest
@@ -85,10 +84,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: ministryofjustice/bichard7-next
-          fetch-depth: 0
           token: ${{ secrets.GH_ACCESS_TOKEN }}
       - name: Install Java
         uses: actions/setup-java@v1
