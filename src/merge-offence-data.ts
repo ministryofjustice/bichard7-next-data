@@ -14,6 +14,7 @@ import pnldOffenceCodesData from "../input-data/offence-code/pnld-offences.json"
 import unsupportedOffenceCodes from "../input-data/offence-code/unsupported-codes.json"
 import currentOffenceCodesData from "../output-data/data/offence-code.json"
 import consistentSort from "./lib/consistentSort"
+import valueToBoolean from "./lib/valueToBoolean"
 import HomeOfficeClassifictionPriority from "./merge/HomeOfficeClassificationPriority"
 import NotifiableToHOPriority from "./merge/NotifiableToHOPriority"
 import OffenceCategoryPriority from "./merge/OffenceCategoryPriority"
@@ -42,18 +43,12 @@ const mapRecordsAsOffenceCode = (records: rawOffenceCode[]): OffenceCode[] => {
         cjsCode: record.cjsCode,
         description: record.description,
         homeOfficeClassification: record.homeOfficeClassification,
-        notifiableToHo:
-          record.notifiableToHo === "Y" ||
-          record.notifiableToHo === "y" ||
-          record.notifiableToHo === true,
+        notifiableToHo: valueToBoolean(record.notifiableToHo),
         recordCreated: record.recordCreated,
         source: record.source,
         offenceCategory: record.offenceCategory,
         offenceTitle: record.offenceTitle,
-        recordableOnPnc:
-          record.recordableOnPnc === "Y" ||
-          record.recordableOnPnc === "y" ||
-          record.recordableOnPnc === true,
+        recordableOnPnc: valueToBoolean(record.recordableOnPnc),
         resultHalfLifeHours: record.source
       } as OffenceCode)
   )

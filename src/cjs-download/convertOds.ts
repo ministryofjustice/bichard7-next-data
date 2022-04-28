@@ -1,6 +1,7 @@
 import * as XLSX from "xlsx"
 import consistentWhitespace from "../lib/consistentWhitespace"
 import { OffenceCode } from "../types/OffenceCode"
+import valueToBoolean from "../lib/valueToBoolean"
 
 export type CjsOffenceCode = {
   "CJS Offence Code": string
@@ -22,7 +23,7 @@ export default (data: Buffer): OffenceCode[] => {
   return jsonWorksheet.map((offenceCode) => ({
     cjsCode: offenceCode["CJS Offence Code"],
     offenceTitle: consistentWhitespace(offenceCode["Offence Title"])?.replace("&amp;", "&"),
-    recordableOnPnc: offenceCode["Recordable On PNC Indicator"],
+    recordableOnPnc: valueToBoolean(offenceCode["Recordable On PNC Indicator"]),
     offenceCategory: offenceCode["Offence Category Code"],
     resultHalfLifeHours: null
   }))

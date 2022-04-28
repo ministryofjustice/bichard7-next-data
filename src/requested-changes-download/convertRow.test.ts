@@ -21,7 +21,7 @@ describe("convertRow", () => {
       notifiableToHo: undefined,
       offenceCategory: "CE",
       offenceTitle: "Wearing a silly hat",
-      recordableOnPnc: "Y",
+      recordableOnPnc: true,
       resultHalfLifeHours: null
     })
   })
