@@ -31,6 +31,8 @@ import {
   YesNo
 } from "./types/types"
 
+import mapCrestDisposalData from "./src/map-data/mapCrestDisposalData"
+
 import actualOffenceDateData from "./data/actual-offence-date.json"
 import alcoholLevelMethodData from "./data/alcohol-level-method.json"
 import amountData from "./data/amount.json"
@@ -67,7 +69,7 @@ const alcoholLevelMethod: AlcoholLevelMethod[] = alcoholLevelMethodData
 const amount: Amount[] = amountData
 const country: Country[] = countryData
 const courtType: CourtType[] = courtTypeData
-const crestDisposal: CrestDisposal[] = crestDisposalData
+const crestDisposal: CrestDisposal[] = mapCrestDisposalData(crestDisposalData)
 const defendantPresentAtHearing: DefendantPresentAtHearing[] = defendantPresentAtHearingData
 const durationType: DurationType[] = durationTypeData
 const durationUnit: DurationUnit[] = durationUnitData

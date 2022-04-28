@@ -23,11 +23,11 @@ type CrestDisposal = {
   duration: string
   durationType: string
   durationUnit: string
-  exception: string
+  exception: boolean
   hoQualifiers: string
   hoResultCode: string
   id: string
-  needsMapping: string
+  needsMapping: boolean
   numberInResult: string
   numberInResultType: string
   qData: string
