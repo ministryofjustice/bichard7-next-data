@@ -64,10 +64,10 @@ type OffenceCode = {
   cjsCode: string
   description: string
   homeOfficeClassification: string
-  notifiableToHo: string
+  notifiableToHo: boolean
   offenceCategory: string
   offenceTitle: string
-  recordableOnPnc: string
+  recordableOnPnc: boolean
   resultHalfLifeHours?: string | null
 }
 

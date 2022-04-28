@@ -32,6 +32,7 @@ import {
 } from "./types/types"
 
 import mapCrestDisposalData from "./src/map-data/mapCrestDisposalData"
+import mapOffenceCodeData from "./src/map-data/mapOffenceCodeData"
 
 import actualOffenceDateData from "./data/actual-offence-date.json"
 import alcoholLevelMethodData from "./data/alcohol-level-method.json"
@@ -77,7 +78,7 @@ const gender: Gender[] = genderData
 const modeOfTrialReason: ModeOfTrialReason[] = modeOfTrialReasonData
 const number: Number[] = numberData
 const offenceCategory: OffenceCategory[] = offenceCategoryData
-const offenceCode: OffenceCode[] = offenceCodeData
+const offenceCode: OffenceCode[] = mapOffenceCodeData(offenceCodeData)
 const offenceInitiation: OffenceInitiation[] = offenceInitiationData
 const organisationUnit: OrganisationUnit[] = organisationUnitData
 const pleaStatus: PleaStatus[] = pleaStatusData
