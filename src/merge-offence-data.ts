@@ -14,74 +14,33 @@ import pnldOffenceCodesData from "../input-data/offence-code/pnld-offences.json"
 import unsupportedOffenceCodes from "../input-data/offence-code/unsupported-codes.json"
 import currentOffenceCodesData from "../output-data/data/offence-code.json"
 import consistentSort from "./lib/consistentSort"
-import valueToBoolean from "./lib/valueToBoolean"
 import HomeOfficeClassifictionPriority from "./merge/HomeOfficeClassificationPriority"
 import NotifiableToHOPriority from "./merge/NotifiableToHOPriority"
 import OffenceCategoryPriority from "./merge/OffenceCategoryPriority"
 import OffenceCodeMerger from "./merge/OffenceCodeMerger"
 import OffenceTitlePriority from "./merge/OffenceTitlePriority"
 import RecordableOnPncPriority from "./merge/RecordableOnPncPriority"
+import mapOffenceCodeData from "./map-data/mapOffenceCodeData"
 import { OffenceCode } from "./types/OffenceCode"
 
-type rawOffenceCode = {
-  cjsCode: string
-  description?: string
-  homeOfficeClassification?: string | null
-  notifiableToHo?: string | null | boolean
-  recordCreated?: number[]
-  source?: string
-  offenceCategory?: string
-  offenceTitle?: string
-  recordableOnPnc?: string | boolean
-  resultHalfLifeHours?: string | null
-}
-
-const mapRecordsAsOffenceCode = (records: rawOffenceCode[]): OffenceCode[] => {
-  return records.map(
-    (record) =>
-      ({
-        cjsCode: record.cjsCode,
-        description: record.description,
-        homeOfficeClassification: record.homeOfficeClassification,
-        notifiableToHo: valueToBoolean(record.notifiableToHo),
-        recordCreated: record.recordCreated,
-        source: record.source,
-        offenceCategory: record.offenceCategory,
-        offenceTitle: record.offenceTitle,
-        recordableOnPnc: valueToBoolean(record.recordableOnPnc),
-        resultHalfLifeHours: record.source
-      } as OffenceCode)
-  )
-}
-
-const pncOffenceCodes: OffenceCode[] = mapRecordsAsOffenceCode(
+const pncOffenceCodes: OffenceCode[] = mapOffenceCodeData(
   pncAcpoOffenceCodes.concat(pncCcjsOffenceCodes)
 )
 
-const civilLibraOffenceCodes: OffenceCode[] = mapRecordsAsOffenceCode(
-  civilLibraOffenceCodesData as rawOffenceCode[]
+const civilLibraOffenceCodes: OffenceCode[] = mapOffenceCodeData(
+  civilLibraOffenceCodesData as OffenceCode[]
 )
 
-const currentOffenceCodes: OffenceCode[] = mapRecordsAsOffenceCode(
-  currentOffenceCodesData as rawOffenceCode[]
+const currentOffenceCodes: OffenceCode[] = mapOffenceCodeData(
+  currentOffenceCodesData as OffenceCode[]
 )
-const nrcOffenceCodes: OffenceCode[] = mapRecordsAsOffenceCode(
-  nrcOffenceCodesData as rawOffenceCode[]
-)
-const localOffenceCodes: OffenceCode[] = mapRecordsAsOffenceCode(
-  localOffenceCodesData as rawOffenceCode[]
-)
-const pnldOffenceCodes: OffenceCode[] = mapRecordsAsOffenceCode(
-  pnldOffenceCodesData as rawOffenceCode[]
-)
+const nrcOffenceCodes: OffenceCode[] = mapOffenceCodeData(nrcOffenceCodesData as OffenceCode[])
+const localOffenceCodes: OffenceCode[] = mapOffenceCodeData(localOffenceCodesData as OffenceCode[])
+const pnldOffenceCodes: OffenceCode[] = mapOffenceCodeData(pnldOffenceCodesData as OffenceCode[])
 
-const cjsOffenceCodes: OffenceCode[] = mapRecordsAsOffenceCode(
-  cjsOffenceCodesData as rawOffenceCode[]
-)
+const cjsOffenceCodes: OffenceCode[] = mapOffenceCodeData(cjsOffenceCodesData as OffenceCode[])
 
-const legacyOverrides: OffenceCode[] = mapRecordsAsOffenceCode(
-  legacyOverridesData as rawOffenceCode[]
-)
+const legacyOverrides: OffenceCode[] = mapOffenceCodeData(legacyOverridesData as OffenceCode[])
 
 const main = async () => {
   const hoClassification = new HomeOfficeClassifictionPriority(

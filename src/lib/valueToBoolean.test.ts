@@ -1,11 +1,11 @@
 import valueToBoolean from "./valueToBoolean"
 
 describe("valueToBoolean", () => {
-  test.each(["Y", "y", true])("it converts true values to true", (value) => {
+  test.each(["Y", "y", true, "Rec"])("it converts true values to true", (value) => {
     expect(valueToBoolean(value)).toBe(true)
   })
 
-  test.each(["n", "N", false])("it converts false values to false", (value) => {
+  test.each(["n", "N", false, "NR"])("it converts false values to false", (value) => {
     expect(valueToBoolean(value)).toBe(false)
   })
 
