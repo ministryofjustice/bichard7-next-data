@@ -14,30 +14,6 @@ type AlcoholLevelMethod = {
 
 type Country = CjsCodeAndDescription
 type CourtType = CjsCodeAndDescription
-
-type CrestDisposal = {
-  amountInResult: string
-  amountInResultType: string
-  dateInResult: string
-  disposalCode: string
-  duration: string
-  durationType: string
-  durationUnit: string
-  exception: string
-  hoQualifiers: string
-  hoResultCode: string
-  id: string
-  needsMapping: string
-  numberInResult: string
-  numberInResultType: string
-  qData: string
-  qDilSeqNo: string
-  rData: string
-  rDilSeqNo: string
-  template: string
-  timeInResult: string
-}
-
 type DefendantPresentAtHearing = CjsCodeAndDescription
 type DurationType = CjsCodeAndDescription
 
@@ -120,7 +96,6 @@ export {
   Amount,
   Country,
   CourtType,
-  CrestDisposal,
   DefendantPresentAtHearing,
   DurationType,
   DurationUnit,
