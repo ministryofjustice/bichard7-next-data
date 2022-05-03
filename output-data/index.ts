@@ -4,7 +4,6 @@ import {
   Amount,
   Country,
   CourtType,
-  CrestDisposal,
   DefendantPresentAtHearing,
   DurationType,
   DurationUnit,
@@ -31,6 +30,7 @@ import {
 } from "./types/types"
 
 import { OffenceCode } from "../src/types/OffenceCode"
+import { CrestDisposal } from "../src/types/CrestDisposal"
 
 import actualOffenceDateData from "./data/actual-offence-date.json"
 import alcoholLevelMethodData from "./data/alcohol-level-method.json"
