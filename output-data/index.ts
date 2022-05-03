@@ -19,7 +19,6 @@ import {
   Qualifier,
   RemandStatus,
   ResultClass,
-  ResultCode,
   ResultQualifierCode,
   Summons,
   TargetCourtType,
@@ -31,6 +30,7 @@ import {
 
 import { OffenceCode } from "../src/types/OffenceCode"
 import { CrestDisposal } from "../src/types/CrestDisposal"
+import { ResultCode } from "../src/types/ResultCode"
 
 import actualOffenceDateData from "./data/actual-offence-date.json"
 import alcoholLevelMethodData from "./data/alcohol-level-method.json"

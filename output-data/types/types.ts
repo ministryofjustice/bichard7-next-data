@@ -72,16 +72,6 @@ type PncDisposal = {
 type Qualifier = CjsCodeAndDescription
 type RemandStatus = PleaStatus
 type ResultClass = CjsCodeAndDescription
-
-type ResultCode = {
-  cjsCode: string
-  description: string
-  recordableOnPnc: string // should be boolean
-  resultCodeQualifiers: string
-  resultHalfLifeHours: string
-  type: string
-}
-
 type ResultQualifierCode = CjsCodeAndDescription
 type Summons = CjsCodeAndDescription
 type TargetCourtType = CjsCodeAndDescription
@@ -111,7 +101,6 @@ export {
   Qualifier,
   RemandStatus,
   ResultClass,
-  ResultCode,
   ResultQualifierCode,
   Summons,
   TargetCourtType,
