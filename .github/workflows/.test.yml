@@ -4,8 +4,8 @@ on:
   push:
 
 jobs:
-  test_package:
-    name: Test output-data package
+  test:
+    name: Run tests
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
