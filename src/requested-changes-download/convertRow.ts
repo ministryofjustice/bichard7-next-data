@@ -1,18 +1,6 @@
 import type { OffenceCodeRow } from "./sheetsClient"
 import type { OffenceCode } from "../types/OffenceCode"
-
-function formResponseToBooleanishString(formResponse: string): boolean | undefined {
-  switch (formResponse.toLowerCase()) {
-    case "y":
-    case "yes":
-      return true
-    case "n":
-    case "no":
-      return false
-    default:
-      return undefined
-  }
-}
+import valueToBoolean from "../lib/valueToBoolean"
 
 function validateOffenceCategory(category: string) {
   if (!category.match(/^[A-Z]{2}$/)) {
@@ -28,7 +16,7 @@ function convertRow(row: OffenceCodeRow): OffenceCode {
     description: row.cjsCode,
     offenceCategory: row.category,
     offenceTitle: row.title,
-    recordableOnPnc: formResponseToBooleanishString(row.recordableOnPnc),
+    recordableOnPnc: valueToBoolean(row.recordableOnPnc),
     resultHalfLifeHours: null
   }
 }
