@@ -34,12 +34,11 @@ const civilLibraOffenceCodes: OffenceCode[] = mapOffenceCodeData(
 const currentOffenceCodes: OffenceCode[] = mapOffenceCodeData(
   currentOffenceCodesData as OffenceCode[]
 )
+
 const nrcOffenceCodes: OffenceCode[] = mapOffenceCodeData(nrcOffenceCodesData as OffenceCode[])
 const localOffenceCodes: OffenceCode[] = mapOffenceCodeData(localOffenceCodesData as OffenceCode[])
 const pnldOffenceCodes: OffenceCode[] = mapOffenceCodeData(pnldOffenceCodesData as OffenceCode[])
-
 const cjsOffenceCodes: OffenceCode[] = mapOffenceCodeData(cjsOffenceCodesData as OffenceCode[])
-
 const legacyOverrides: OffenceCode[] = mapOffenceCodeData(legacyOverridesData as OffenceCode[])
 
 const main = async () => {
