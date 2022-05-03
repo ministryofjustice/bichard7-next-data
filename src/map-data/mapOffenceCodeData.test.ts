@@ -23,8 +23,8 @@ describe("mapOffenceCodeData", () => {
   })
 
   it("it maps falsy strings into native boolean types", () => {
-    offenceCodeRecord.recordableOnPnc = "n"
-    offenceCodeRecord.notifiableToHo = " "
+    offenceCodeRecord.recordableOnPnc = "NR"
+    offenceCodeRecord.notifiableToHo = "n"
     const result = mapOffenceCodeData([offenceCodeRecord])
 
     expect(Object.keys(result[0]).length).toBe(8)
