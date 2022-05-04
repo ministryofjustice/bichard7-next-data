@@ -14,6 +14,30 @@ type AlcoholLevelMethod = {
 
 type Country = CjsCodeAndDescription
 type CourtType = CjsCodeAndDescription
+
+type CrestDisposal = {
+  amountInResult: string
+  amountInResultType: string
+  dateInResult: string
+  disposalCode: string
+  duration: string
+  durationType: string
+  durationUnit: string
+  exception?: boolean
+  hoQualifiers: string
+  hoResultCode: string
+  id: string
+  needsMapping: boolean
+  numberInResult: string
+  numberInResultType: string
+  qData: string
+  qDilSeqNo: string
+  rData: string
+  rDilSeqNo: string
+  template: string
+  timeInResult: string
+}
+
 type DefendantPresentAtHearing = CjsCodeAndDescription
 type DurationType = CjsCodeAndDescription
 
@@ -35,6 +59,18 @@ type ModeOfTrialReason = {
 
 type Number = CjsCodeAndDescription
 type OffenceCategory = CjsCodeAndDescription
+
+type OffenceCode = {
+  cjsCode: string
+  description: string
+  homeOfficeClassification: string
+  notifiableToHo?: boolean
+  offenceCategory: string
+  offenceTitle: string
+  recordableOnPnc?: boolean
+  resultHalfLifeHours?: string | null
+}
+
 type OffenceInitiation = CjsCodeAndDescription
 
 type OrganisationUnit = {
@@ -72,6 +108,16 @@ type PncDisposal = {
 type Qualifier = CjsCodeAndDescription
 type RemandStatus = PleaStatus
 type ResultClass = CjsCodeAndDescription
+
+type ResultCode = {
+  cjsCode: string
+  description: string
+  recordableOnPnc?: boolean
+  resultCodeQualifiers: string
+  resultHalfLifeHours: string
+  type: string
+}
+
 type ResultQualifierCode = CjsCodeAndDescription
 type Summons = CjsCodeAndDescription
 type TargetCourtType = CjsCodeAndDescription
@@ -86,6 +132,7 @@ export {
   Amount,
   Country,
   CourtType,
+  CrestDisposal,
   DefendantPresentAtHearing,
   DurationType,
   DurationUnit,
@@ -93,6 +140,7 @@ export {
   ModeOfTrialReason,
   Number,
   OffenceCategory,
+  OffenceCode,
   OffenceInitiation,
   OrganisationUnit,
   PleaStatus,
@@ -101,6 +149,7 @@ export {
   Qualifier,
   RemandStatus,
   ResultClass,
+  ResultCode,
   ResultQualifierCode,
   Summons,
   TargetCourtType,
