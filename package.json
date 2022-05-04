@@ -57,16 +57,26 @@
     "*.{js,ts}": "eslint --cache --fix"
   },
   "devDependencies": {
-    "eslint-plugin-prettier": "^4.0.0"
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "semantic-release": "^19.0.2"
   },
   "release": {
+    "branches": ["main"],
     "plugins": [
-      ["@semantic-release/git", {
-        "message": "Release version ${nextRelease.version}"
-      }],
-      ["@semantic-release/exec", {
-        "publishCmd": "./maven-release.sh"
-      }]
+      [
+        "@semantic-release/git",
+        {
+          "message": "Release version ${nextRelease.version}"
+        }
+      ],
+      [
+        "@semantic-release/exec",
+        {
+          "publishCmd": "./maven-release.sh"
+        }
+      ]
     ]
   }
 }
