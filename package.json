@@ -63,6 +63,7 @@
     "semantic-release": "^19.0.2"
   },
   "release": {
+    "branches": ["main"],
     "plugins": [
       [
         "@semantic-release/git",
