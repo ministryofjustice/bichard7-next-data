@@ -1,3 +1,5 @@
+import type TriggerCode from "./TriggerCode"
+
 type CjsCodeAndDescription = {
   cjsCode: string
   description: string
@@ -126,6 +128,15 @@ type VehicleCode = CjsCodeAndDescription
 type Verdict = PleaStatus
 type YesNo = CjsCodeAndDescription
 
+type TriggerDefinition = {
+  code: TriggerCode
+  description: string
+}
+
+type ExcludedTriggerConfig = {
+  [key: string]: TriggerCode[]
+}
+
 export {
   ActualOffenceDate,
   AlcoholLevelMethod,
@@ -136,6 +147,7 @@ export {
   DefendantPresentAtHearing,
   DurationType,
   DurationUnit,
+  ExcludedTriggerConfig,
   Gender,
   ModeOfTrialReason,
   Number,
@@ -153,6 +165,8 @@ export {
   ResultQualifierCode,
   Summons,
   TargetCourtType,
+  TriggerCode,
+  TriggerDefinition,
   TypeOfHearing,
   VehicleCode,
   Verdict,

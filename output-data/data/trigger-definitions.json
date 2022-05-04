@@ -1,0 +1,138 @@
+[
+    {
+        "code": "TRPR0001",
+        "description": "Driver Disqualification - Update DD screen."
+    },
+    {
+        "code": "TRPR0002",
+        "description": "Warrant issued - Update Wanted/Missing"
+    },
+    {
+        "code": "TRPR0003",
+        "description": "Order Issues - Update Wanted/Missing, check and amend Disposal"
+    },
+    {
+        "code": "TRPR0004",
+        "description": "Convicted of Sexual Offence or Sexual Order made - Update Markers and Register(s) as appropriate"
+    },
+    {
+        "code": "TRPR0005",
+        "description": "Defendant remanded in custody - update custody history"
+    },
+    {
+        "code": "TRPR0006",
+        "description": "Defendant imprisoned - update custody history"
+    },
+    {
+        "code": "TRPR0007",
+        "description": "Defendant dead - update death marker"
+    },
+    {
+        "code": "TRPR0008",
+        "description": "Defendant has breached bail - Update breach of bail marker"
+    },
+    {
+        "code": "TRPR0010",
+        "description": "Bail conditions imposed/varied/cancelled - update remand screen"
+    },
+    {
+        "code": "TRPR0012",
+        "description": "Warrant not executed/Withdrawn - update Wanted/Missing screen"
+    },
+    {
+        "code": "TRPR0014",
+        "description": "Too many offences - manual update"
+    },
+    {
+        "code": "TRPR0015",
+        "description": "Personal details changed"
+    },
+    {
+        "code": "TRPR0016",
+        "description": "Forfeiture order made - update records as appropriate"
+    },
+    {
+        "code": "TRPR0017",
+        "description": "Adjourned Sine Die - update case details"
+    },
+    {
+        "code": "TRPR0018",
+        "description": "Update offence date(s) on PNC"
+    },
+    {
+        "code": "TRPR0019",
+        "description": "Remanded in custody with bail direction"
+    },
+    {
+        "code": "TRPR0020",
+        "description": "Update original case with conviction and sentence details"
+    },
+    {
+        "code": "TRPR0021",
+        "description": "Disqualification or Revocation Order made (not motoring)"
+    },
+    {
+        "code": "TRPR0022",
+        "description": "Extradition ordered or Proceedings pending"
+    },
+    {
+        "code": "TRPR0023",
+        "description": "Domestic Violence Case"
+    },
+    {
+        "code": "TRPR0024",
+        "description": "Vulnerable or Intimidated victim/witness"
+    },
+    {
+        "code": "TRPR0025",
+        "description": "Original case has been re-opened/stat dec made - check new sentence details"
+    },
+    {
+        "code": "TRPR0026",
+        "description": "Driving disqualification suspended"
+    },
+    {
+        "code": "TRPR0027",
+        "description": "Out of Area case"
+    },
+    {
+        "code": "TRPR0028",
+        "description": "Trigger only case reallocated from another force"
+    },
+    {
+        "code": "TRPR0029",
+        "description": "Civil proceedings granted or Order made - update records as appropriate"
+    },
+    {
+        "code": "TRPR0030",
+        "description": "Pre-charge bail application"
+    },
+    {
+        "code": "TRPS0002",
+        "description": "Confirm address on PNC"
+    },
+    {
+        "code": "TRPS0003",
+        "description": "Disposal text was truncated - revise on PNC if wanted"
+    },
+    {
+        "code": "TRPS0004",
+        "description": "Split Adjournment - manual split required"
+    },
+    {
+        "code": "TRPS0008",
+        "description": "Enter details of curfew order"
+    },
+    {
+        "code": "TRPS0010",
+        "description": "Offence added to the PNC - Update MO Screen/Offence Location/Update 3042"
+    },
+    {
+        "code": "TRPS0011",
+        "description": "Offence added at court - add to PNC"
+    },
+    {
+        "code": "TRPS0013",
+        "description": "Offences taken into consideration - add to offence"
+    }
+]

@@ -20,7 +20,11 @@ module.exports = {
     "no-plusplus": [2, { allowForLoopAfterthoughts: true }],
     "no-empty-function": "off",
     "no-useless-constructor": "off",
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "no-shadow": "off",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-shadow": ["error", { ignoreTypeValueShadow: true }]
   },
   ignorePatterns: ["output-data/dist/*"]
 }

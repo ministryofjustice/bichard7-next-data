@@ -1,36 +1,3 @@
-import {
-  ActualOffenceDate,
-  AlcoholLevelMethod,
-  Amount,
-  Country,
-  CourtType,
-  CrestDisposal,
-  DefendantPresentAtHearing,
-  DurationType,
-  DurationUnit,
-  Gender,
-  ModeOfTrialReason,
-  Number,
-  OffenceCategory,
-  OffenceCode,
-  OffenceInitiation,
-  OrganisationUnit,
-  PleaStatus,
-  PncCourtMapping,
-  PncDisposal,
-  Qualifier,
-  RemandStatus,
-  ResultClass,
-  ResultCode,
-  ResultQualifierCode,
-  Summons,
-  TargetCourtType,
-  TypeOfHearing,
-  VehicleCode,
-  Verdict,
-  YesNo
-} from "./types/types"
-
 import actualOffenceDateData from "./data/actual-offence-date.json"
 import alcoholLevelMethodData from "./data/alcohol-level-method.json"
 import amountData from "./data/amount.json"
@@ -40,6 +7,7 @@ import crestDisposalData from "./data/crest-disposal.json"
 import defendantPresentAtHearingData from "./data/defendant-present-at-hearing.json"
 import durationTypeData from "./data/duration-type.json"
 import durationUnitData from "./data/duration-unit.json"
+import excudedTriggerConfigData from "./data/excluded-trigger-config.json"
 import genderData from "./data/gender.json"
 import modeOfTrialReasonData from "./data/mode-of-trial-reason.json"
 import numberData from "./data/number.json"
@@ -57,10 +25,45 @@ import resultCodeData from "./data/result-code.json"
 import resultQualifierCodeData from "./data/result-qualifier-code.json"
 import summonsData from "./data/summons.json"
 import targetCourtTypeData from "./data/target-court-type.json"
+import triggerDefinitionData from "./data/trigger-definitions.json"
 import typeOfHearingData from "./data/type-of-hearing.json"
 import vehicleCodeData from "./data/vehicle-code.json"
 import verdictData from "./data/verdict.json"
 import yesNoData from "./data/yes-no.json"
+import {
+  ActualOffenceDate,
+  AlcoholLevelMethod,
+  Amount,
+  Country,
+  CourtType,
+  CrestDisposal,
+  DefendantPresentAtHearing,
+  DurationType,
+  DurationUnit,
+  ExcludedTriggerConfig,
+  Gender,
+  ModeOfTrialReason,
+  Number,
+  OffenceCategory,
+  OffenceCode,
+  OffenceInitiation,
+  OrganisationUnit,
+  PleaStatus,
+  PncCourtMapping,
+  PncDisposal,
+  Qualifier,
+  RemandStatus,
+  ResultClass,
+  ResultCode,
+  ResultQualifierCode,
+  Summons,
+  TargetCourtType,
+  TriggerDefinition,
+  TypeOfHearing,
+  VehicleCode,
+  Verdict,
+  YesNo
+} from "./types/types"
 
 const actualOffenceDate: ActualOffenceDate[] = actualOffenceDateData
 const alcoholLevelMethod: AlcoholLevelMethod[] = alcoholLevelMethodData
@@ -71,6 +74,7 @@ const crestDisposal: CrestDisposal[] = crestDisposalData
 const defendantPresentAtHearing: DefendantPresentAtHearing[] = defendantPresentAtHearingData
 const durationType: DurationType[] = durationTypeData
 const durationUnit: DurationUnit[] = durationUnitData
+const excludedTriggerConfig = excudedTriggerConfigData as ExcludedTriggerConfig
 const gender: Gender[] = genderData
 const modeOfTrialReason: ModeOfTrialReason[] = modeOfTrialReasonData
 const number: Number[] = numberData
@@ -88,6 +92,7 @@ const resultCode: ResultCode[] = resultCodeData
 const resultQualifierCode: ResultQualifierCode[] = resultQualifierCodeData
 const summons: Summons[] = summonsData
 const targetCourtType: TargetCourtType[] = targetCourtTypeData
+const triggerDefinitions = triggerDefinitionData as TriggerDefinition[]
 const typeOfHearing: TypeOfHearing[] = typeOfHearingData
 const vehicleCode: VehicleCode[] = vehicleCodeData
 const verdict: Verdict[] = verdictData
@@ -103,6 +108,7 @@ export default {
   defendantPresentAtHearing,
   durationType,
   durationUnit,
+  excludedTriggerConfig,
   gender,
   modeOfTrialReason,
   number,
@@ -120,6 +126,7 @@ export default {
   resultQualifierCode,
   summons,
   targetCourtType,
+  triggerDefinitions,
   typeOfHearing,
   vehicleCode,
   verdict,
