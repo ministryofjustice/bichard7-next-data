@@ -20,6 +20,10 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: "16.13.1"
+      - name: Install top level NPM packages
+        run: npm ci
+      - name: Generate triggers.properties files
+        run: npm run generate-trigger-config
       - name: Install NPM packages
         working-directory: output-data
         run: npm ci
