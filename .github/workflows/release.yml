@@ -3,30 +3,59 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'output-data/**'
-      - '.github/workflows/**'
+      - jamie/BICAWS-1801-always-release-on-main-branch
 
 jobs:
-  release-packages:
-    name: Release NPM and Maven packages
+  release-npm-package:
+    name: Release NPM package
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
+
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
           node-version: "16.13.1"
-      - name: Install top level NPM packages
+
+      - name: Install top-level NPM dependencies
         run: npm ci
+
       - name: Generate triggers.properties files
         run: npm run generate-trigger-config
-      - name: Install NPM packages
-        working-directory: output-data
+
+      - name: Install output package NPM dependencies
         run: npm ci
+        working-directory: output-data
+
+      - name: Bump output package version
+        run: npm version patch
+        working-directory: output-data
+
+      - name: Commit output package version bump
+        run: |
+          git config user.name "GitHub"
+          git config user.email "noreply@github.com"
+          git add output-data/package*.json
+          git commit -m "Bump package version"
+          git push origin `git branch --show-current`
+
+      # - name: Publish output package
+      #   run: npm publish
+      #   working-directory: output-data
+
+  release-maven-package:
+    name: Release Maven package
+    needs: release-npm-package
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
       - name: Setup Java and Maven
         uses: actions/setup-java@v1
         with:
@@ -34,25 +63,18 @@ jobs:
           server-id: ossrh
           server-username: MAVEN_USERNAME
           server-password: MAVEN_PASSWORD
+
       - name: Install gpg secret key
         run: |
           cat <(echo -e "${{ secrets.OSSRH_GPG_SECRET_KEY }}") | gpg --batch --import
           gpg --list-secret-keys --keyid-format LONG
-      - name: Build standing data
-        working-directory: output-data
-        run: npm run build
-      - name: Release NPM and Maven Packages
-        working-directory: output-data
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          MAVEN_USERNAME: ${{ secrets.SONATYPE_USERNAME }}
-          MAVEN_PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
-        run: npx semantic-release
+
+      # - name: Publish maven package
+      #   run: mvn compile exec:java && mvn compile versions:set deploy -P load-properties
 
   update-core-repo:
-    needs: release-packages
     name: Update NPM package in core repo
+    needs: release-npm-package
     runs-on: ubuntu-latest
     steps:
       - name: Check out core repo
@@ -83,8 +105,8 @@ jobs:
           echo "${{ steps.cpr.outputs.pull-request-url }}"
 
   update-b7-repo:
-    needs: release-packages
     name: Update maven package in bichard7-next repo
+    needs: release-maven-package
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
