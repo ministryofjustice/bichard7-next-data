@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - main
-      - jamie/BICAWS-1801-always-release-on-main-branch
 
 jobs:
   bump-package-version:
@@ -61,9 +60,9 @@ jobs:
       - name: Echo package version
         run: grep version output-data/package.json
 
-      # - name: Publish output package
-      #   run: npm publish
-      #   working-directory: output-data
+      - name: Publish output package
+        run: npm publish
+        working-directory: output-data
 
   release-maven-package:
     name: Release Maven package
@@ -91,8 +90,8 @@ jobs:
           cat <(echo -e "${{ secrets.OSSRH_GPG_SECRET_KEY }}") | gpg --batch --import
           gpg --list-secret-keys --keyid-format LONG
 
-      # - name: Publish maven package
-      #   run: mvn compile exec:java && mvn compile versions:set deploy -P load-properties
+      - name: Publish maven package
+        run: mvn -q compile exec:java && mvn -q compile versions:set deploy -P load-properties
 
   update-core-repo:
     name: Update NPM package in core repo
