@@ -1,6 +1,7 @@
 {
   "name": "bichard7-next-data",
-  "version": "1.0.2",
+  "//": "This is NOT the version of the published package! See output-data/package.json instead!",
+  "version": "1.0.0",
   "description": "The data for Bichard",
   "main": "index.js",
   "scripts": {

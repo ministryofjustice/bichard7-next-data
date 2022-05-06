@@ -4,7 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.ministryofjustice.bichard7</groupId>
     <artifactId>bichard7-next-data</artifactId>
-    <version>1.0.2</version>
+    <!--
+        This version number should NOT be changed!
+
+        The version number used when publishing the maven artefact is dynamically read from
+        output-data/package.json and written to `version.properties` - where it is then read by
+        maven.
+    -->
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>bichard7-next-data</name>
