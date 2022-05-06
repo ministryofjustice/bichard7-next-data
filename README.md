@@ -18,22 +18,15 @@ In order to make differences between versions of data easy to read, the data sho
 
 ## Publishing
 
-### Node Package
+The data contained within the `output-data` folder is automatically published as both an [NPM package](https://www.npmjs.com/package/@moj-bichard7-developers/bichard7-next-data) and a [Maven artefact](https://repo1.maven.org/maven2/io/github/ministryofjustice/bichard7/bichard7-next-data/) by the [Release GitHub Actions workflow](https://github.com/ministryofjustice/bichard7-next-data/actions/workflows/release.yml) in this repository.
 
-The output-data lib is published as an NPM package to [GitHub packages](https://github.com/features/packages) using a [GitHub Actions](https://github.com/features/actions) workflow `.github/workflows/release.yml`.
+Whenever commits are pushed to the `main` branch:
+- The patch version number in `output-data/package.json` is incremented and committed
+- The npm package is built and published
+- Maven reads the version number in `output-data/package.json`, and uses that to build and publish a Maven artefact
+- A PR is generated in the [bichard7-next-core]() repository to update the npm standing data dependency to the latest version
+- A PR is generated in the [bichard7-next]() repository to update the gradle standing data dependency to the latest version
 
-Versioning and publishing is automated using [semantic-release](https://github.com/semantic-release/semantic-release). The following commit convention convention triggers releases:
+This means that every time new commits are added to `main`, new Maven and npm packages will automatically be published.
 
-| Commit message                                                                                                                                                                                   | Release type                                                                                                    |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
-| `fix(pencil): stop graphite breaking when too much pressure applied`                                                                                                                             | ~~Patch~~ Fix Release                                                                                           |
-| `feat(pencil): add 'graphiteWidth' option`                                                                                                                                                       | ~~Minor~~ Feature Release                                                                                       |
-| `perf(pencil): remove graphiteWidth option`<br><br>`BREAKING CHANGE: The graphiteWidth option has been removed.`<br>`The default graphite width of 10mm is always used for performance reasons.` | ~~Major~~ Breaking Release <br /> (Note that the `BREAKING CHANGE: ` token must be in the footer of the commit) |
-
-### Maven Package
-
-The output-data lib is also published as a Maven artefact to [Sonatype](https://s01.oss.sonatype.org).
-
-The following command reads the version from `package.json` updates the POM and deploys the artefacy
-
-`mvn compile exec:java && mvn compile versions:set deploy -P load-properties`
+If breaking changes are introduced to `main`, it's advisable to manually bump the major version release number as part of those changes. This follows [Semantic Versioning](https://semver.org/) principles.
