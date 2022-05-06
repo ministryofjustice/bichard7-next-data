@@ -37,6 +37,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          # We need to specify the branch name, so that we get the updated package.json
+          # If we don't specify this, the default is to fetch the commit that triggered
+          # the workflow (which won't include the updated package.json)
+          ref: ${{ github.ref_name }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
@@ -67,6 +72,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          # We need to specify the branch name, so that we get the updated package.json
+          # If we don't specify this, the default is to fetch the commit that triggered
+          # the workflow (which won't include the updated package.json)
+          ref: ${{ github.ref_name }}
 
       - name: Setup Java and Maven
         uses: actions/setup-java@v1
