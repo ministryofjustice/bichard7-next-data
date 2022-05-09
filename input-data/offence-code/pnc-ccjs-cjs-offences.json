@@ -17624,7 +17624,7 @@
   {
     "cjsCode": "CJS-CODE",
     "offenceTitle": "OFFENCE DESCRIPTION",
-    "recordableOnPnc": "RECORDABLE",
+    "recordableOnPnc": "Y",
     "resultHalfLifeHours": null
   },
   {
