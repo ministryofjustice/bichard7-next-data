@@ -36,7 +36,7 @@ describe("mapCrestDisposalData", () => {
 
   it("it maps falsy strings into native boolean types", () => {
     crestDisposalRecord.needsMapping = "n"
-    crestDisposalRecord.exception = " no"
+    crestDisposalRecord.exception = " n"
     const result = mapCrestDisposalData([crestDisposalRecord])
 
     expect(Object.keys(result[0]).length).toBe(20)

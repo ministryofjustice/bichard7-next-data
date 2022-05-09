@@ -1,18 +1,15 @@
 import valueToBoolean from "./valueToBoolean"
 
 describe("valueToBoolean", () => {
-  test.each(["Y", "y", true, "R", "Rec", "Yes", "yes", " yes ", "    Y"])(
-    "it converts true values to true",
-    (value) => {
-      expect(valueToBoolean(value)).toBe(true)
-    }
-  )
+  test.each(["Y", "y", true, " y "])("it converts true values to true", (value) => {
+    expect(valueToBoolean(value)).toBe(true)
+  })
 
-  test.each(["n", "N", false, "NR", "MR", " NO "])("it converts false values to false", (value) => {
+  test.each(["n", "N", false, "N "])("it converts false values to false", (value) => {
     expect(valueToBoolean(value)).toBe(false)
   })
 
-  test.each([undefined, null, "null"])(
+  test.each([undefined, null, "null", ""])(
     "it converts undefined or null values to undefined",
     (value) => {
       expect(valueToBoolean(value)).toBe(undefined)
