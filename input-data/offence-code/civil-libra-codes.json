@@ -6,7 +6,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint for Attachment of Earnings Order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -16,7 +16,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint for Attachment of Earnings Order by debtor",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -26,7 +26,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint to vary attachment of earnings order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -36,7 +36,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint to discharge attachment of earnings order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -46,7 +46,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint for temporary increase in Protected Earnings Rate - AEO",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -56,7 +56,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint to reduce normal deduction rate - AEO",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -66,7 +66,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to set aside a civil case",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -76,7 +76,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for a parenting order following exclusion from school",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -86,7 +86,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application parenting order following criminal conduct or anti-social behaviour",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -96,7 +96,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint for a parenting order following behaviour not warranting exclusion from school",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -106,7 +106,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint by Local Authority for a parenting order following anti-social behaviour",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -116,7 +116,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint by a registered social landlord for a parenting order following anti-social behaviour",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -126,7 +126,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for an anti-social behaviour injunction",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -136,7 +136,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary an anti-social behaviour injunction",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -146,7 +146,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to discharge an anti-social behaviour injunction",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -156,7 +156,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Breach of an anti-social behaviour injunction",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -166,7 +166,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to amend an anti-social behaviour injunction supervision order (operative period)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -176,7 +176,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to amend an anti-social behaviour injunction supervision order (change of residence)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -186,7 +186,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to revoke an anti-social behaviour injunction supervision order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -196,7 +196,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to remove a requirement from an anti-social behaviour injunction supervision order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -206,7 +206,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Failed to comply with an anti-social behaviour injunction supervision order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -216,7 +216,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to revoke an anti-social behaviour injunction detention order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -226,7 +226,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Proceedings to consider a criminal behaviour order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -236,7 +236,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary a criminal behaviour order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -246,7 +246,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to discharge a criminal behaviour order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -256,7 +256,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for a closure order (nuisance or disorder)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -266,7 +266,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to extend a closure order (nuisance or disorder)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -276,7 +276,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to discharge a closure order (nuisance or disorder)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -286,7 +286,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for an access order in relation to a premises subject to a closure order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -296,7 +296,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for an order of reimbursement in relation to a closure order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -306,7 +306,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for compensation relating to premises the subject of a closure order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -316,7 +316,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for a sexual harm prevention order||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -326,7 +326,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for a sexual harm prevention order (with interim order)||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -336,7 +336,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for an interim sexual harm prevention order||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -346,7 +346,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary a sexual harm prevention order||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -356,7 +356,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to renew a sexual harm prevention order||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -366,7 +366,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to discharge a sexual harm prevention order||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -376,7 +376,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for a sexual risk order||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -386,7 +386,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for a sexual risk order (with interim order)||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -396,7 +396,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for an interim sexual risk order||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -406,7 +406,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Appeal against a community protection notice",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -416,7 +416,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Appeal against the value specified in a remedial action notice in respect of a community protection notice",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -426,7 +426,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to forfeit seized terrorist cash",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -436,7 +436,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for the continued detention of a seized listed asset",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -446,7 +446,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to forfeit a seized listed asset (ATCSA)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -456,7 +456,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for an account freezing order (ATCSA)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -466,7 +466,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary or set aside freezing order (ATCSA)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -476,7 +476,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to set aside forfeiture of monies from a frozen account (ATCSA)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -486,7 +486,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for a forfeiture order for monies held in a frozen account (ATCSA)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -496,7 +496,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for compensation order (ATCSA)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -506,7 +506,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for release of seized listed asset (ATCSA)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -516,7 +516,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application in relation to animal(s) taken under Animal Welfare Act 2006",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -526,7 +526,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to forfeit a security",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -536,7 +536,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CR",
     "offenceTitle": "Application for bail pending appeal",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -546,7 +546,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CR",
     "offenceTitle": "Application for bail following committal/sending/transfer in custody to appear at Crown Court",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -556,7 +556,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CR",
     "offenceTitle": "Appeal against grant of bail by a magistrates' court",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -566,7 +566,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for an order in respect of a dangerous building or structure",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -576,7 +576,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CR",
     "offenceTitle": "Appeal against conviction on indictment to the Court of Appeal",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -586,7 +586,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CR",
     "offenceTitle": "Appeal against sentence on indictment to the Court of Appeal",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -596,7 +596,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to revoke committal order (contempt)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -606,7 +606,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint for anti-social behaviour order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -616,7 +616,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint to vary anti-social behaviour order made in civil proceedings",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -626,7 +626,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint to discharge anti-social behaviour order made in civil proceedings",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -636,7 +636,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary parenting order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -646,7 +646,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to discharge parenting order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -656,7 +656,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint vary interim anti-social behaviour order ||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -666,7 +666,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to renew an interim anti-social behaviour order||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -676,7 +676,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint discharge interim anti-social behaviour order||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -686,7 +686,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint vary an individual support order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -696,7 +696,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint to discharge an individual support order||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -706,7 +706,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint for an individual support order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -716,7 +716,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary anti-social behaviour order made in criminal proceedings||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -726,7 +726,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to discharge anti-social behaviour order made in criminal proceedings||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -736,7 +736,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for condemnation of goods liable to forfeit",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -746,7 +746,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Appeal against recognition of foreign driving disqualification",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -756,7 +756,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint for community infrastructure levy liability order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -766,7 +766,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint for community infrastructure levy liability order (multiple cases)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -776,7 +776,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application vary supervision and treatment order||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -786,7 +786,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application revoke supervision & treatment order||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -796,7 +796,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application closure order for unlicensed premises",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -806,7 +806,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to discharge a closure order - unlicensed premises",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -816,7 +816,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CB",
     "offenceTitle": "Failing to comply with the community requirements of a suspended sentence order",
-    "recordableOnPnc": "N",
+    "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
   {
@@ -826,7 +826,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CB",
     "offenceTitle": "Commission of a further offence during the operational period of a suspended sentence order",
-    "recordableOnPnc": "Y",
+    "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
@@ -836,7 +836,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CB",
     "offenceTitle": "Conviction of an offence while a community order is in force",
-    "recordableOnPnc": "Y",
+    "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
@@ -846,7 +846,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to revoke a community order without re-sentencing",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -856,7 +856,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CB",
     "offenceTitle": "Original offence suspended sentence activated",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -866,7 +866,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to amend a supervision default order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -876,7 +876,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to revoke a supervision default order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -886,7 +886,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for permission to change address whilst subject to a community order or a suspended sentence",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -896,7 +896,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CR",
     "offenceTitle": "Appeal against a refusal by a magistrates court to vary his/her bail conditions",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -906,7 +906,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EF",
     "offenceTitle": "Application to register fine imposed in EU State",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -916,7 +916,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EF",
     "offenceTitle": "Offence in EU State (see file)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -926,7 +926,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint for Violent Offender Order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -936,7 +936,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint to vary Violent Offender Order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -946,7 +946,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint to discharge Violent Offender Order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -956,7 +956,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for an interim violent offender order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -966,7 +966,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to revoke a youth rehabilitation order without re-sentencing",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -976,7 +976,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CB",
     "offenceTitle": "Conviction of an offence while a youth rehabilitation order is in force",
-    "recordableOnPnc": "N",
+    "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
   {
@@ -986,7 +986,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CB",
     "offenceTitle": "Failing to comply with the requirements of a youth rehabilitation order with fostering",
-    "recordableOnPnc": "N",
+    "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
   {
@@ -996,7 +996,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to revoke a youth rehabilitation order with fostering without re-sentencing",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1006,7 +1006,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CB",
     "offenceTitle": "Conviction of an offence while a youth rehabilitation order with fostering is in force",
-    "recordableOnPnc": "N",
+    "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
   {
@@ -1016,7 +1016,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CB",
     "offenceTitle": "Failing to comply with the requirements of a youth rehabilitation order with intensive supervision and surveillance",
-    "recordableOnPnc": "Y",
+    "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
@@ -1026,7 +1026,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to revoke a youth rehabilitation order with intensive supervision and surveillance without re-sentencing",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1036,7 +1036,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CB",
     "offenceTitle": "Conviction of an offence while a youth rehabilitation order with intensive supervision and surveillance is in force",
-    "recordableOnPnc": "Y",
+    "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
@@ -1046,7 +1046,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to recognise a european protection order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1056,7 +1056,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint removal of vehicles/property from land",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1066,7 +1066,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Unlawful use or disclosure of material supplied for a criminal trial",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1076,7 +1076,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CR",
     "offenceTitle": "Application to vacate Crown Court trial",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1086,7 +1086,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for a domestic violence protection order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1096,7 +1096,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint for child support liability order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1106,7 +1106,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaints for child support liability orders (multiple class)||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1116,7 +1116,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Appeal against a parentage determination by Secretary of State",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1126,7 +1126,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Appeal against a deduction from earnings order (Child Support Act)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1136,7 +1136,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint for committal to prison or for an order for driving disqualification for unpaid child support",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1146,7 +1146,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary / revoke driving disqualification order (child support)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1156,7 +1156,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EF",
     "offenceTitle": "Appeal against decision to vary/not to vary payment terms when not in default",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1166,7 +1166,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EF",
     "offenceTitle": "Appeal against decision to make attachment of earnings or benefit deductions or not to do so",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1176,7 +1176,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EF",
     "offenceTitle": "Appeal against decision to vary/not to vary reserve terms when not in default",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1186,7 +1186,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EF",
     "offenceTitle": "Appeal against further steps notice",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1196,7 +1196,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EF",
     "offenceTitle": "Referral by fines officer to court",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1206,7 +1206,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EF",
     "offenceTitle": "Fine Increase Applied",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1216,7 +1216,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EF",
     "offenceTitle": "Application for the sale of a clamped vehicle",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1226,7 +1226,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for order for continued detention of seized travel documents",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1236,7 +1236,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint for council tax liability order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1246,7 +1246,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaints for Council Tax Liability Order (Multiple Cases)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1256,7 +1256,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to quash a liability order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1266,7 +1266,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint for Business improvement District Rate",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1276,7 +1276,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaints for Business improvement District Rate (Multiple Cases)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1286,7 +1286,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to substitute person in charge of exempted dog",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1296,7 +1296,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for destruction of a dog otherwise than on a conviction",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1306,7 +1306,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to extend the requisite period for destruction of a dog",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1316,7 +1316,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Dangerous dog complaint",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1326,7 +1326,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for a creditor to take an enforcement step during a moratorium period",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1336,7 +1336,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Appeal against a litter clearing notice||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1346,7 +1346,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Appeal relating to the distribution of free printed matter",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1356,7 +1356,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for the release of seized printed matter",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1366,7 +1366,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint for an order to abate or prohibit a statutory nuisance",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1376,7 +1376,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Appeal against an abatement notice",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1386,7 +1386,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary a football banning order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1396,7 +1396,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to terminate a football banning order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1406,7 +1406,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Information for a football banning order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1416,7 +1416,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Appeal against refusal of exemption by Football Banning Orders Authority",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1426,7 +1426,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary/discharge a female genital mutilation protection order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1436,7 +1436,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Arrested for Breach of Family Law Order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1446,7 +1446,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for an emergency prohibition order in respect of a food business",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1456,7 +1456,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Appeal against a decision under the Gambling Act 2005",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1466,7 +1466,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Appeal against administrative decision",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1476,7 +1476,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for stopping up/diversion of highway",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1486,7 +1486,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for an order to remove an obstruction of the highway",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1496,7 +1496,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary an order to remove an obstruction of the highway",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1506,7 +1506,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for an illegal working compliance order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1516,7 +1516,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to extend an illegal working compliance order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1526,7 +1526,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary/discharge the provision of an illegal working compliance order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1536,7 +1536,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for vehicle clamping order (legal aid contribution)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1546,7 +1546,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for vehicle sale order (legal aid contribution)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1556,7 +1556,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CO",
     "offenceTitle": "Appeal against determination of the Director of Legal Aid Casework - Crown Court",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1566,7 +1566,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint for land drainage rating liability order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1576,7 +1576,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint for land drainage rates liability order - multiple cases",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1586,7 +1586,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Appeal against distress - land drainage rating",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1596,7 +1596,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Committal application - land drainage rates",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1606,7 +1606,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to prevent sale of alcohol on trains",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1616,7 +1616,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to close premises in area experiencing disorder",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1626,7 +1626,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to consider a closure order||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1636,7 +1636,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Appeal against a decision of the licensing authority relating to a premises licence",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1646,7 +1646,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Appeal against a decision of the licensing authority relating to club premises certificates",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1656,7 +1656,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Appeal against a decision of the licensing authority relating to a temporary event notice",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1666,7 +1666,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Appeal against a decision of the licensing authority relating to a personal licence",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1676,7 +1676,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Appeal against a decision of the licensing authority following a closure order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1686,7 +1686,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Appeal against conditions attached to a hackney carriage licence",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1696,7 +1696,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Appeal against refusal to grant a hackney carriage driver's licence",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1706,7 +1706,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Appeal against decision to suspend/revoke/refuse to renew a hackney carriage/private hire vehicle licence",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1716,7 +1716,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Appeal against decision to suspend/revoke/refuse to renew a hackney carriage/private hire driver's licence",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1726,7 +1726,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Appeal against decision to suspend/revoke/refuse to renew a private hire vehicle operator's licence",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1736,7 +1736,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Appeal against refusal to grant a private hire licence",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1746,7 +1746,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint for a civil order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1756,7 +1756,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CB",
     "offenceTitle": "Fail to comply with court order for bind over",
-    "recordableOnPnc": "Y",
+    "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
@@ -1766,7 +1766,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EM",
     "offenceTitle": "Show Cause Notice For Enforce.Maintenance Payments||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1776,7 +1776,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint to forfeit recognisance",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1786,7 +1786,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint to forfeit surety",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1796,7 +1796,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint by surety to discharge recognisance",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1806,7 +1806,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary/dispense with requirements for sureties",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1816,7 +1816,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for bind over - Keep peace/good behaviour",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1826,7 +1826,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint for committal to prison for non payment of civil debt",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1836,7 +1836,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for a disclosure order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1846,7 +1846,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CR",
     "offenceTitle": "Appearance to make statutory declaration (SJP case)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1856,7 +1856,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Breach of a requirement to surrender a passport - child maintenance",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1866,7 +1866,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Failure to comply with court order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1876,7 +1876,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EF",
     "offenceTitle": "Fix a hearing date for means enquiry",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1886,7 +1886,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EF",
     "offenceTitle": "Summons For Enforcement Of Payment",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1896,7 +1896,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EF",
     "offenceTitle": "Non-payment of fine",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1906,7 +1906,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EF",
     "offenceTitle": "Show cause notice for enforcement of payment",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1916,7 +1916,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EF",
     "offenceTitle": "Advised to attend - insufficient goods to distrain",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1926,7 +1926,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EF",
     "offenceTitle": "Enforcement review hearing",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1936,7 +1936,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EF",
     "offenceTitle": "Non-payment of confiscation order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1946,7 +1946,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EF",
     "offenceTitle": "Transfer of fines from Northern Ireland see file",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1956,7 +1956,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CR",
     "offenceTitle": "Appeal against conviction and sentence by a Magistrates' Court to the Crown Court",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1966,7 +1966,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CR",
     "offenceTitle": "Appeal against conviction by a Magistrates' Court to the Crown Court",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1976,7 +1976,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CR",
     "offenceTitle": "Appeal against sentence by a Magistrates' Court to the Crown Court",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1986,7 +1986,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EM",
     "offenceTitle": "Complaint for enforcement of maintenance payments||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -1996,7 +1996,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EM",
     "offenceTitle": "Summons for enforcement of maintenance payments||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2006,7 +2006,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EM",
     "offenceTitle": "Warrant for enforcement of maintenance payments||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2016,7 +2016,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EM",
     "offenceTitle": "Application to vary terms of suspended committal - maintenance",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2026,7 +2026,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EM",
     "offenceTitle": "Application to withdraw commitment warrant - maintenance",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2036,7 +2036,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EM",
     "offenceTitle": "Advised to attend - insufficient goods to distrain - maintenance",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2046,7 +2046,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EM",
     "offenceTitle": "Application for further time to pay - maintenance fixed sum",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2056,7 +2056,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EM",
     "offenceTitle": "Summons for enforcement of payment - maintenance fixed sum",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2066,7 +2066,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EM",
     "offenceTitle": "Warrant for enforcement of payment - maintenance fixed sum",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2076,7 +2076,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EM",
     "offenceTitle": "Application to vary suspended committal - maintenance fixed sum",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2086,7 +2086,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EM",
     "offenceTitle": "Application to withdraw commitment warrant - maintenance fixed sum",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2096,7 +2096,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EM",
     "offenceTitle": "Advised to attend - insufficient goods to distrain - maintenance fixed sum",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2106,7 +2106,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for enforcement of family order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2116,7 +2116,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for committal to prison for breach of Family Order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2126,7 +2126,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EX",
     "offenceTitle": "Complaint for enforcement of Maintenance Arrears (Foreign Account)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2136,7 +2136,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EX",
     "offenceTitle": "Summons for enforcement of maintenance payments (Foreign Account)||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2146,7 +2146,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EX",
     "offenceTitle": "Warrant for enforcement of maintenance payments (Foreign Account)||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2156,7 +2156,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EX",
     "offenceTitle": "Application to vary terms of Suspended Committal - Maintenance (Foreign Account)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2166,7 +2166,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EX",
     "offenceTitle": "Application to withdraw Commitment Warrant - Maintenance (Foreign Account)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2176,7 +2176,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EX",
     "offenceTitle": "Advised to attend - insufficient goods to distrain - maintenance (Foreign account)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2186,7 +2186,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EM",
     "offenceTitle": "Application for review of Suspended Sentence - Maintenance Order||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2196,7 +2196,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EM",
     "offenceTitle": "Application for release from prison||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2206,7 +2206,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EM",
     "offenceTitle": "Show cause notice for enforcement of payment - maintenance fixed sum",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2216,7 +2216,7 @@
     "notifiableToHo": null,
     "offenceCategory": "EX",
     "offenceTitle": "Show cause notice for enforcement of maintenance payments (Foreign Account)||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2226,7 +2226,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for a slavery and trafficking prevention order (foreign court finding)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2236,7 +2236,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary, discharge, renew a slavery and trafficking prevention order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2246,7 +2246,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for a slavery and trafficking risk order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2256,7 +2256,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary, discharge, renew a slavery and trafficking risk order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2266,7 +2266,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint for non-domestic rating liability order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2276,7 +2276,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint for Non-domestic rates Liability Order - Multiple cases",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2286,7 +2286,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Appeal against distress - non-domestic rating||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2296,7 +2296,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Committal application - non-domestic rates",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2306,7 +2306,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Arrested for being absent without leave/deserter from navy||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2316,7 +2316,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for forfeiture of obscene articles",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2326,7 +2326,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Reference for revocation of referral order to youth offender panel where compliance is impractical",
-    "recordableOnPnc": "N",
+    "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
   {
@@ -2336,7 +2336,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Reference for revocation of referral order to youth offender panel in interests of justice without re-sentencing",
-    "recordableOnPnc": "N",
+    "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
   {
@@ -2346,7 +2346,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CR",
     "offenceTitle": "Reference to court by Youth Offender Panel - Final meeting",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2356,7 +2356,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CB",
     "offenceTitle": "Fail to comply with attendance centre order",
-    "recordableOnPnc": "Y",
+    "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
@@ -2366,7 +2366,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CB",
     "offenceTitle": "Fail to comply with reparation order",
-    "recordableOnPnc": "Y",
+    "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
@@ -2376,7 +2376,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CB",
     "offenceTitle": "Commission of further offence whilst subject to a Conditional Discharge",
-    "recordableOnPnc": "N",
+    "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
   {
@@ -2386,7 +2386,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CB",
     "offenceTitle": "Commission of Further Offence Before Serving Sentence in Full",
-    "recordableOnPnc": "Y",
+    "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
@@ -2396,7 +2396,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CB",
     "offenceTitle": "Fail to comply with drug abstinence order||",
-    "recordableOnPnc": "Y",
+    "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
@@ -2406,7 +2406,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CB",
     "offenceTitle": "Fail to comply with pre-sentence drug testing order",
-    "recordableOnPnc": "Y",
+    "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
@@ -2416,7 +2416,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CB",
     "offenceTitle": "Fail to comply the supervision requirements of a detention and training order",
-    "recordableOnPnc": "Y",
+    "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
@@ -2426,7 +2426,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CB",
     "offenceTitle": "Off during currency of detention & training order",
-    "recordableOnPnc": "Y",
+    "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
@@ -2436,7 +2436,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Compensation review",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2446,7 +2446,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary/revoke Order for Parent/Guardian to pay fine",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2456,7 +2456,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for continued detention of seized cash",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2466,7 +2466,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for further order for continued detention of seized cash",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2476,7 +2476,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for forfeiture of seized cash",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2486,7 +2486,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to release seized cash",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2496,7 +2496,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to release seized cash to a victim or other owner",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2506,7 +2506,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for compensation in respect of seized cash",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2516,7 +2516,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for the further detention of seized property",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2526,7 +2526,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary an order for further detention of seized property",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2536,7 +2536,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to discharge an order for further detention of seized property",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2546,7 +2546,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for an account freezing order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2556,7 +2556,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary or set aside an account freezing order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2566,7 +2566,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to set aside forfeiture of monies from a frozen account",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2576,7 +2576,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for a forfeiture order for monies held in a frozen account",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2586,7 +2586,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for compensation following the making of an account freezing order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2596,7 +2596,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for further detention of seized property",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2606,7 +2606,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to forfeit seized listed asset (POCA)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2616,7 +2616,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for continuation of account freezing order pending appeal section 303Z15 Proceeds of Crime Act 2002",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2626,7 +2626,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for a gang injunction",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2636,7 +2636,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary a gang injunction",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2646,7 +2646,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to discharge a gang injunction",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2656,7 +2656,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Review of gang injunction",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2666,7 +2666,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Breach of gang injunction",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2676,7 +2676,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to amend gang injunction supervision order (operative period)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2686,7 +2686,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to amend gang injunction supervision order (change of residence)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2696,7 +2696,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to revoke a gang injunction supervision order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2706,7 +2706,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to remove a requirement from a gang injunction supervision order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2716,7 +2716,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Failed to comply with gang injunction supervision order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2726,7 +2726,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to revoke a gang injunction detention order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2736,7 +2736,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Forfeiture proceedings for indecent photographs of children",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2746,7 +2746,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CR",
     "offenceTitle": "Application for costs for unnecessary/improper act/omission (subsequent to hearing)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2756,7 +2756,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CR",
     "offenceTitle": "Application for a wasted costs order (subsequent to hearing)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2766,7 +2766,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CR",
     "offenceTitle": "Prosecution appeal against the decision of a magistrates' court refusing to extend a custody time limit",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2776,7 +2776,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CR",
     "offenceTitle": "Accused's appeal against the decision of a magistrates court to extend a custody time limit",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2786,7 +2786,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for order - police property act",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2796,7 +2796,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint for order - police property act||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2806,7 +2806,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Appeal against a decision of the security industry authority",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2816,7 +2816,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for a psychoactive substances prohibition order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2826,7 +2826,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for a psychoactive substances premises order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2836,7 +2836,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary/discharge an order under the psychoactive substances act 2016",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2846,7 +2846,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Appeal against refusal issue course completion cert",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2856,7 +2856,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for course organiser to issue certificate",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2866,7 +2866,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for removal of disqualification",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2876,7 +2876,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Appeal against decision sec state-driving licence",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2886,7 +2886,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for continued detention of seized drug cutting agent",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2896,7 +2896,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for forfeiture of a seized drug cutting agent",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2906,7 +2906,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for compensation for loss caused by retention of a seized substance",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2916,7 +2916,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary a financial reporting order||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2926,7 +2926,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to revoke a financial reporting order||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2936,7 +2936,7 @@
     "notifiableToHo": null,
     "offenceCategory": "CB",
     "offenceTitle": "Failing to comply with the requirements of an engagement and support order",
-    "recordableOnPnc": "Y",
+    "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
@@ -2946,7 +2946,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for a parental direction",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2956,7 +2956,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary a parental direction",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2966,7 +2966,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to renew a parental direction||",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2976,7 +2976,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to discharge a parental direction",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2986,7 +2986,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for a notification order and an interim order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -2996,7 +2996,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for an interim notification order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3006,7 +3006,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary an interim notification order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3016,7 +3016,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to renew an Interim Notification Order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3026,7 +3026,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to discharge an Interim Notification Order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3036,7 +3036,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for a sexual offences prevention order and an interim order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3046,7 +3046,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary a sexual offences prevention order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3056,7 +3056,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to renew a sexual offences prevention order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3066,7 +3066,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to discharge a sexual offences prevention order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3076,7 +3076,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for an Interim Sexual Offences Prevention Order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3086,7 +3086,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary an interim sexual offences prevention order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3096,7 +3096,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to renew an interim sexual offences prevention order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3106,7 +3106,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to discharge an interim sexual offences prevention order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3116,7 +3116,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for a foreign travel order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3126,7 +3126,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary a foreign travel order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3136,7 +3136,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to renew a foreign travel order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3146,7 +3146,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to discharge a foreign travel order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3156,7 +3156,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for a risk of sexual harm order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3166,7 +3166,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary a risk of sexual harm order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3176,7 +3176,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to renew a risk of sexual harm order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3186,7 +3186,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to discharge a risk of sexual harm order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3196,7 +3196,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for an Interim Risk of Sexual Harm Order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3206,7 +3206,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary an interim risk of sexual harm order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3216,7 +3216,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to renew an interim risk of sexual harm order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3226,7 +3226,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to discharge an interim risk of sexual harm order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3236,7 +3236,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for a notification order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3246,7 +3246,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for a sexual offences prevention order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3256,7 +3256,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for a risk of sexual harm order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3266,7 +3266,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for a closure order for premises used for activities re prostitution, pornography or child sex offences",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3276,7 +3276,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to extend closure order, premises used for activities re prostitution, pornography or child sex offences",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3286,7 +3286,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to discharge a closure order re premises used for prostitution, pornography or child sex offences",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3296,7 +3296,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for access to premises subject to closure order (prostitution, pornography or child sex offences)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3306,7 +3306,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to reimburse costs re premises subject to a closure order (prostitution, pornography or child sex offences)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3316,7 +3316,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for compensation where a closure order has been made (prostitution, pornography or child sex offences)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3326,7 +3326,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Appeal against review of indefinite notification requirements",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3336,7 +3336,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for a sexual harm prevention order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3346,7 +3346,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for a sexual harm prevention order (with interim order)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3356,7 +3356,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for an interim sexual harm prevention order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3366,7 +3366,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary a sexual harm prevention order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3376,7 +3376,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to renew a sexual harm prevention order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3386,7 +3386,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to discharge a sexual harm prevention order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3396,7 +3396,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for a sexual risk order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3406,7 +3406,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for a sexual risk order (with interim order)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3416,7 +3416,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for an interim sexual risk order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3426,7 +3426,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary a Sexual Risk Order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3436,7 +3436,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint for non-payment of Income tax (specify costs)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3446,7 +3446,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Complaint for non-payment of Income tax (including costs)",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3456,7 +3456,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application by constable to condemn terrorist publications as forfeited",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3466,7 +3466,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for a foreign travel restriction order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3476,7 +3476,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary a foreign travel restriction order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3486,7 +3486,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to renew a foreign travel restriction order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3496,7 +3496,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to discharge a foreign travel restriction order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3506,7 +3506,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application for drinking banning order",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3516,7 +3516,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary a drinking banning order made on application",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3526,7 +3526,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to discharge a drinking banning order made on application",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3536,7 +3536,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary a drinking banning order made on conviction",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   },
   {
@@ -3546,7 +3546,7 @@
     "notifiableToHo": null,
     "offenceCategory": "VP",
     "offenceTitle": "Application to discharge a drinking banning order made on conviction",
-    "recordableOnPnc": "",
+    "recordableOnPnc": null,
     "resultHalfLifeHours": null
   }
 ]
