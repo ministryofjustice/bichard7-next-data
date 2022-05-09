@@ -19,7 +19,7 @@ describe("mapResultCodeData", () => {
   })
 
   it("it maps falsy strings into native boolean types", () => {
-    resultCodeRecord.recordableOnPnc = "no"
+    resultCodeRecord.recordableOnPnc = "n"
     const result = mapResultCodeData([resultCodeRecord])
 
     expect(Object.keys(result[0]).length).toBe(6)

@@ -5,7 +5,7 @@ import type { OffenceCode } from "../types/OffenceCode"
 describe("convertRow", () => {
   it("Should parse an offence code out of a well-formed row", () => {
     const row = <OffenceCodeRow>{
-      recordableOnPnc: "Yes",
+      recordableOnPnc: "Y",
       cjsCode: "BC12345",
       category: "CE",
       title: "Wearing a silly hat",
@@ -28,7 +28,7 @@ describe("convertRow", () => {
 
   it("Should reject long offence categories", () => {
     const row = <OffenceCodeRow>{
-      recordableOnPnc: "Yes",
+      recordableOnPnc: "Y",
       cjsCode: "BC12345",
       category: "LONGCATEGORY",
       title: "Wearing a silly hat"

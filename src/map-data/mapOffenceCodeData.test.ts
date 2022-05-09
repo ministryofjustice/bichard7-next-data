@@ -23,7 +23,7 @@ describe("mapOffenceCodeData", () => {
   })
 
   it("it maps falsy strings into native boolean types", () => {
-    offenceCodeRecord.recordableOnPnc = "NR"
+    offenceCodeRecord.recordableOnPnc = "N"
     offenceCodeRecord.notifiableToHo = "n"
     const result = mapOffenceCodeData([offenceCodeRecord])
 

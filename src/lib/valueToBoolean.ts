@@ -5,10 +5,10 @@ export default (value?: string | boolean | null): boolean | undefined => {
 
   const trimmedValue = typeof value === "string" ? value.trim().toLowerCase() : value
 
-  if (["y", true, "r", "rec", "yes"].includes(trimmedValue)) {
+  if (["y", true].includes(trimmedValue)) {
     return true
   }
-  if (["n", "no", false, "nr", "mr"].includes(trimmedValue)) {
+  if (["n", false].includes(trimmedValue)) {
     return false
   }
   return undefined
