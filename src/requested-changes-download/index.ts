@@ -5,6 +5,20 @@ import config from "./config"
 import convertRow from "./convertRow"
 import mergeRequests from "./mergeRequests"
 import SheetsClient from "./sheetsClient"
+import mapOffenceCodeData from "../map-data/mapOffenceCodeData"
+
+type OffenceCodeRecords = {
+  cjsCode: string
+  description?: string
+  homeOfficeClassification?: string | null
+  notifiableToHo?: string
+  recordCreated?: number[]
+  source?: string
+  offenceCategory?: string
+  offenceTitle?: string
+  recordableOnPnc?: string
+  resultHalfLifeHours?: string | null
+}
 
 export default async () => {
   console.log("Downloading requested changes")
@@ -16,7 +30,8 @@ export default async () => {
   console.log(`Deduplicated update requests into ${deduplicatedRows.length} updates`)
   const offenceCodes = deduplicatedRows.map(convertRow)
   console.log("Converted update requests into offence codes")
-  const data = consistentSort(offenceCodes)
+  const data = mapOffenceCodeData(consistentSort(offenceCodes) as OffenceCodeRecords[])
+
   const fileName = "input-data/offence-code/requested-changes.json"
   await fs.promises.writeFile(fileName, JSON.stringify(data, null, 2))
   console.log(`Requested changes offence code data written to ${fileName}`)
