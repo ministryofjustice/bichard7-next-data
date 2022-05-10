@@ -25,11 +25,11 @@ type CrestDisposal = {
   duration: string
   durationType: string
   durationUnit: string
-  exception?: boolean
+  exception?: string
   hoQualifiers: string
   hoResultCode: string
   id: string
-  needsMapping: boolean
+  needsMapping: string
   numberInResult: string
   numberInResultType: string
   qData: string
@@ -114,7 +114,7 @@ type ResultClass = CjsCodeAndDescription
 type ResultCode = {
   cjsCode: string
   description: string
-  recordableOnPnc?: boolean
+  recordableOnPnc?: string
   resultCodeQualifiers: string
   resultHalfLifeHours: string
   type: string

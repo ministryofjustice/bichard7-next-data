@@ -12,7 +12,6 @@
     "build": "tsc --noEmit -p tsconfig.json",
     "download-external-data": "ts-node src/download-external-data.ts",
     "merge-offence-data": "ts-node src/merge-offence-data.ts",
-    "use-native-types": "ts-node src/use-native-types.ts",
     "generate-trigger-config": "ts-node src/generate-trigger-properties/generate.ts"
   },
   "repository": {
