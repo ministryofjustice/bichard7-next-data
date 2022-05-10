@@ -11,7 +11,7 @@
         output-data/package.json and written to `version.properties` - where it is then read by
         maven.
     -->
-    <version>1.0.0</version>
+    <version>2.0.3</version>
     <packaging>jar</packaging>
 
     <name>bichard7-next-data</name>

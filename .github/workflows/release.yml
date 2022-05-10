@@ -105,7 +105,7 @@ jobs:
           gpg --list-secret-keys --keyid-format LONG
 
       - name: Publish maven package
-        run: mvn -q compile exec:java && mvn -q compile versions:set deploy -X -P load-properties
+        run: mvn compile exec:java && mvn compile versions:set deploy -P load-properties
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MAVEN_USERNAME: ${{ secrets.SONATYPE_USERNAME }}
