@@ -107,6 +107,7 @@ jobs:
       - name: Publish maven package
         run: mvn -q compile exec:java && mvn -q compile versions:set deploy -P load-properties
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MAVEN_USERNAME: ${{ secrets.SONATYPE_USERNAME }}
           MAVEN_PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
 
