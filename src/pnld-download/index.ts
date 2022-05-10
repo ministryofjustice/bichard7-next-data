@@ -4,20 +4,6 @@ import consistentSort from "../lib/consistentSort"
 import config from "./config"
 import PnldFileDownloader from "./PnldFileDownloader"
 import processPnldFiles from "./processPnldFiles"
-import mapOffenceCodeData from "../map-data/mapOffenceCodeData"
-
-type OffenceCodeRecords = {
-  cjsCode: string
-  description?: string
-  homeOfficeClassification?: string | null
-  notifiableToHo?: string
-  recordCreated?: number[]
-  source?: string
-  offenceCategory?: string
-  offenceTitle?: string
-  recordableOnPnc?: string
-  resultHalfLifeHours?: string | null
-}
 
 export default async () => {
   for (let i = 0; i < 5; i++) {
@@ -26,7 +12,7 @@ export default async () => {
       const downloader = new PnldFileDownloader(config)
       const files = await downloader.download()
       const records = await processPnldFiles(files)
-      const data = mapOffenceCodeData(consistentSort(records) as OffenceCodeRecords[])
+      const data = consistentSort(records)
       await fs.promises.writeFile(
         "input-data/offence-code/pnld-offences.json",
         JSON.stringify(data, null, 2)
