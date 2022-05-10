@@ -65,6 +65,7 @@ jobs:
         run: npm publish
         working-directory: output-data
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
   release-maven-package:
