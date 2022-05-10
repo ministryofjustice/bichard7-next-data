@@ -1,10 +1,9 @@
 name: Update standing data
 
 on:
-  schedule:
-    - cron: '0 8 * * *'
-  workflow_dispatch:
-
+  push:
+    branches:
+      - "Fix-offence-code-data-source"
 jobs:
   update_standing_data:
     name: Update standing data
