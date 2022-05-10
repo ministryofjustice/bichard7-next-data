@@ -64,6 +64,8 @@ jobs:
       - name: Publish output package
         run: npm publish
         working-directory: output-data
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
   release-maven-package:
     name: Release Maven package
@@ -104,6 +106,9 @@ jobs:
 
       - name: Publish maven package
         run: mvn -q compile exec:java && mvn -q compile versions:set deploy -P load-properties
+        env:
+          MAVEN_USERNAME: ${{ secrets.SONATYPE_USERNAME }}
+          MAVEN_PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
 
   update-core-repo:
     name: Update NPM package in core repo
