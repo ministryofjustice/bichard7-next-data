@@ -2,13 +2,13 @@
 import * as fs from "fs"
 import consistentSort from "../lib/consistentSort"
 import convertOds from "./convertOds"
-import downloadCjsFile from "./downloadCjsFile"
+import downloadFile from "../shared/downloadFile"
 import getDownloadUrl from "./getDownloadUrl"
 
 export default async () => {
   console.log("Downloading CJS data")
   const downloadLocation = await getDownloadUrl()
-  const fileContents = await downloadCjsFile(downloadLocation)
+  const fileContents = await downloadFile(downloadLocation)
   const offenceCodes = convertOds(fileContents)
   const data = consistentSort(offenceCodes)
   await fs.promises.writeFile(
