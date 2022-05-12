@@ -1,9 +1,8 @@
-import generateOrganisationUnitJSON from "./generateOrganisationUnitJSON"
 import fs from "fs"
+import generateOrganisationUnitObjects from "./generateOrganisationUnitObjects"
 import { OrganisationUnit } from "../types/OrganisationUnit"
 
-
-describe("GenerateOrganisationUnitJSON", () => {
+describe("GenerateOrganisationUnit", () => {
   it("should generate JSON output from the XLS content", () => {
     const fileContents = fs.readFileSync("./test-data/input/test-ou-codes.xlsx")
     const expectedContent: OrganisationUnit[] = [
@@ -15,6 +14,7 @@ describe("GenerateOrganisationUnitJSON", () => {
         topLevelName: "Magistrates' Courts",
         secondLevelName: "South Wales",
         thirdLevelName: "Aberdare",
+        bottomLevelName: undefined,
         startDate: new Date("2004-01-01"),
         endDate: new Date("2014-11-30")
       },
@@ -26,6 +26,7 @@ describe("GenerateOrganisationUnitJSON", () => {
         topLevelName: "Magistrates' Courts",
         secondLevelName: "South Wales",
         thirdLevelName: "Aberdare (County Court, Cwmbach Road)",
+        bottomLevelName: undefined,
         startDate: new Date("2007-11-12"),
         endDate: new Date("2011-07-31")
       },
@@ -37,11 +38,12 @@ describe("GenerateOrganisationUnitJSON", () => {
         topLevelName: "Magistrates' Courts",
         secondLevelName: "South Wales",
         thirdLevelName: "Aberdare Youth Court",
+        bottomLevelName: undefined,
         startDate: new Date("2006-03-28"),
         endDate: new Date("2008-07-07")
       }
     ]
 
-    expect(generateOrganisationUnitJSON(fileContents)).toEqual(expectedContent)
+    expect(generateOrganisationUnitObjects(fileContents)).toEqual(expectedContent)
   })
 })
