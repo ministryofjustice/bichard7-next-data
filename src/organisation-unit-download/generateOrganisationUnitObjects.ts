@@ -14,20 +14,20 @@ export type OrganisationUnitData = {
   J: Date
 }
 
-const GenerateOrganisationUnitJSON = (fileContents: Buffer): OrganisationUnit[] => {
-  const workbook = XLSX.read(fileContents, {
-    // type: 'binary',
-    cellDates: true,
-    cellNF: false,
-    cellText: false
-  })
-  
-  const valueToDate = (_value: any): Date => {
-    return new Date()
+const generateOrganisationUnitObjects = (fileContents: Buffer): OrganisationUnit[] => {
+  const workbook = XLSX.read(fileContents)
+
+  const valueToDate = (value: any): Date | undefined => {
+    if (typeof value === "string") {
+      return new Date(value)
+    }
+    if (typeof value === "number") {
+      return new Date((value - (25567 + 2)) * 86400 * 1000)
+    }
+    throw Error("Unknown date type")
   }
-  
+
   const worksheet = workbook.Sheets[workbook.SheetNames[1]]
-  console.log(worksheet)
   const jsonWorksheet: OrganisationUnitData[] = XLSX.utils.sheet_to_json(worksheet, { header: "A" })
   jsonWorksheet.shift()
   const result = jsonWorksheet.map((record) => {
@@ -39,11 +39,12 @@ const GenerateOrganisationUnitJSON = (fileContents: Buffer): OrganisationUnit[] 
       topLevelName: record.E,
       secondLevelName: record.F,
       thirdLevelName: record.G,
-      startDate: new Date(valueToDate(record.H)),
-      endDate: new Date(valueToDate(record.I))
+      bottomLevelName: record.H,
+      startDate: valueToDate(record.I),
+      endDate: valueToDate(record.J)
     }
   })
   return result
 }
 
-export default GenerateOrganisationUnitJSON
+export default generateOrganisationUnitObjects
