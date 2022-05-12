@@ -1,5 +1,6 @@
 import * as XLSX from "xlsx"
 import { OrganisationUnit } from "../types/OrganisationUnit"
+import dateToISOString from "./dateToISOString"
 
 export type OrganisationUnitData = {
   A: string
@@ -10,23 +11,8 @@ export type OrganisationUnitData = {
   F: string
   G: string
   H: string
-  I: Date
-  J: Date
-}
-
-const valueToDate = (value: any): Date | undefined => {
-  let result: Date | undefined
-
-  if (typeof value === "string") {
-    result = new Date(value)
-  } else if (typeof value === "number") {
-    result = new Date((value - (25567 + 2)) * 86400 * 1000)
-  }
-
-  if (result instanceof Date && Number.isNaN(result.getTime())) {
-    return undefined
-  }
-  return result
+  I: string
+  J: string
 }
 
 const emptyRow = (row: OrganisationUnit): Boolean => {
@@ -64,8 +50,8 @@ const generateOrganisationUnitObjects = (fileContents: Buffer): OrganisationUnit
         secondLevelName: record.F,
         thirdLevelName: record.G,
         bottomLevelName: record.H,
-        startDate: valueToDate(record.I),
-        endDate: valueToDate(record.J)
+        startDate: dateToISOString(record.I),
+        endDate: dateToISOString(record.J)
       }
     })
     .filter((record) => !emptyRow(record))

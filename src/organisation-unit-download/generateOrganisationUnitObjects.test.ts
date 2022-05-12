@@ -15,8 +15,8 @@ describe("GenerateOrganisationUnit", () => {
         secondLevelName: "South Wales",
         thirdLevelName: "Aberdare",
         bottomLevelName: undefined,
-        startDate: new Date("2004-01-01"),
-        endDate: new Date("2014-11-30")
+        startDate: new Date("2004-01-01").toISOString(),
+        endDate: new Date("2014-11-30").toISOString()
       },
       {
         topLevelCode: "B",
@@ -27,8 +27,8 @@ describe("GenerateOrganisationUnit", () => {
         secondLevelName: "South Wales",
         thirdLevelName: "Aberdare (County Court, Cwmbach Road)",
         bottomLevelName: undefined,
-        startDate: new Date("2007-11-12"),
-        endDate: new Date("2011-07-31")
+        startDate: new Date("2007-11-12").toISOString(),
+        endDate: new Date("2011-07-31").toISOString()
       },
       {
         topLevelCode: "B",
@@ -39,11 +39,10 @@ describe("GenerateOrganisationUnit", () => {
         secondLevelName: "South Wales",
         thirdLevelName: "Aberdare Youth Court",
         bottomLevelName: undefined,
-        startDate: new Date("2006-03-28"),
-        endDate: new Date("2008-07-07")
+        startDate: new Date("2006-03-28").toISOString(),
+        endDate: new Date("2008-07-07").toISOString()
       }
     ]
-
     expect(generateOrganisationUnitObjects(fileContents)).toEqual(expectedContent)
   })
 
