@@ -46,4 +46,11 @@ describe("GenerateOrganisationUnit", () => {
 
     expect(generateOrganisationUnitObjects(fileContents)).toEqual(expectedContent)
   })
+
+  it("should not include empty rows", () => {
+    const fileContentsWithEmptyRows = fs.readFileSync(
+      "./test-data/input/cjs-courts-bc-ou-codes-v32.xls.xlsx"
+    )
+    expect(generateOrganisationUnitObjects(fileContentsWithEmptyRows)).toHaveLength(1190)
+  })
 })
