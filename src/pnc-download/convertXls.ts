@@ -16,7 +16,7 @@ export default (fileContents: Buffer): OffenceCode[] => {
   if (workbook.SheetNames.length !== 1) {
     throw new Error(`Unexpected number of sheets [${workbook.SheetNames.length}] in workbook`)
   }
-
+ 
   const worksheet = workbook.Sheets[workbook.SheetNames[0]]
   const jsonWorksheet: PncOffenceCode[] = XLSX.utils.sheet_to_json(worksheet, { header: "A" })
 
