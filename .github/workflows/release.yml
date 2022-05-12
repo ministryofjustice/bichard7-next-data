@@ -1,37 +1,37 @@
 name: Release
-on:
-  push:
-    branches:
-      - main
+on: workflow_dispatch
+  # push:
+  #   branches:
+  #     - main
 
 jobs:
-  bump-package-version:
-    name: Bump NPM package version
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+  # bump-package-version:
+  #   name: Bump NPM package version
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Checkout
+  #       uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: "16.13.1"
+  #     - name: Setup Node.js
+  #       uses: actions/setup-node@v2
+  #       with:
+  #         node-version: "16.13.1"
 
-      - name: Bump output package version
-        run: npm version patch
-        working-directory: output-data
+  #     - name: Bump output package version
+  #       run: npm version patch
+  #       working-directory: output-data
 
-      - name: Commit output package version bump
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add output-data/package*.json
-          git commit -m "Bump package version"
-          git push
+  #     - name: Commit output package version bump
+  #       run: |
+  #         git config user.name github-actions
+  #         git config user.email github-actions@github.com
+  #         git add output-data/package*.json
+  #         git commit -m "Bump package version"
+  #         git push
 
   release-npm-package:
     name: Release NPM package
-    needs: bump-package-version
+    needs: release-maven-package
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -69,7 +69,7 @@ jobs:
 
   release-maven-package:
     name: Release Maven package
-    needs: bump-package-version
+    # needs: bump-package-version
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
