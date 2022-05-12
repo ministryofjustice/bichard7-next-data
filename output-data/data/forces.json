@@ -1,0 +1,206 @@
+[
+  {
+    "code": "01",
+    "name": "London Metropolitan Police"
+  },
+  {
+    "code": "02",
+    "name": "London Metropolitan Police"
+  },
+  {
+    "code": "03",
+    "name": "Cumbria"
+  },
+  {
+    "code": "04",
+    "name": "Lancashire Constabulary"
+  },
+  {
+    "code": "05",
+    "name": "Merseyside Police"
+  },
+  {
+    "code": "06",
+    "name": "Greater Manchester Police"
+  },
+  {
+    "code": "07",
+    "name": "Cheshire"
+  },
+  {
+    "code": "10",
+    "name": "Northumbria"
+  },
+  {
+    "code": "11",
+    "name": "Durham"
+  },
+  {
+    "code": "12",
+    "name": "North Yorkshire Police"
+  },
+  {
+    "code": "13",
+    "name": "West Yorkshire Police"
+  },
+  {
+    "code": "14",
+    "name": "South Yorkshire"
+  },
+  {
+    "code": "16",
+    "name": "Humberside Police"
+  },
+  {
+    "code": "17",
+    "name": "Cleveland Police"
+  },
+  {
+    "code": "20",
+    "name": "West Midlands"
+  },
+  {
+    "code": "21",
+    "name": "Staffordshire"
+  },
+  {
+    "code": "22",
+    "name": "West Mercia Constabulary"
+  },
+  {
+    "code": "23",
+    "name": "Warwickshire Police"
+  },
+  {
+    "code": "30",
+    "name": "Derbyshire Police P1250372"
+  },
+  {
+    "code": "31",
+    "name": "Nottinghamshire"
+  },
+  {
+    "code": "32",
+    "name": "Lincolnshire"
+  },
+  {
+    "code": "33",
+    "name": "Leicestershire"
+  },
+  {
+    "code": "34",
+    "name": "Northamptonshire"
+  },
+  {
+    "code": "35",
+    "name": "Cambridgeshire Constabulary"
+  },
+  {
+    "code": "36",
+    "name": "Norfolk"
+  },
+  {
+    "code": "37",
+    "name": "Suffolk Constabulary"
+  },
+  {
+    "code": "40",
+    "name": "Bedfordshire"
+  },
+  {
+    "code": "41",
+    "name": "Hertfordshire"
+  },
+  {
+    "code": "42",
+    "name": "Essex"
+  },
+  {
+    "code": "43",
+    "name": "Thames Valley Police"
+  },
+  {
+    "code": "44",
+    "name": "Hampshire Constabulary"
+  },
+  {
+    "code": "45",
+    "name": "Surrey Police"
+  },
+  {
+    "code": "46",
+    "name": "Kent Police"
+  },
+  {
+    "code": "47",
+    "name": "Sussex Police"
+  },
+  {
+    "code": "50",
+    "name": "Devon & Cornwall Constabulary"
+  },
+  {
+    "code": "52",
+    "name": "Avon & Somerset Police"
+  },
+  {
+    "code": "53",
+    "name": "Gloucestershire Police"
+  },
+  {
+    "code": "54",
+    "name": "Wiltshire Police"
+  },
+  {
+    "code": "55",
+    "name": "Dorset Police"
+  },
+  {
+    "code": "60",
+    "name": "North Wales"
+  },
+  {
+    "code": "61",
+    "name": "Gwent"
+  },
+  {
+    "code": "62",
+    "name": "South Wales"
+  },
+  {
+    "code": "63",
+    "name": "Dyfed Powys Police"
+  },
+  {
+    "code": "93",
+    "name": "BTP global include"
+  },
+  {
+    "code": "24",
+    "name": "MOD Police force global include"
+  },
+  {
+    "code": "15",
+    "name": "HM Forces and other global include"
+  },
+  {
+    "code": "73",
+    "name": "HMCS global include"
+  },
+  {
+    "code": "88",
+    "name": "HMRC force global include : P1331753 +PR2, +PR10, +PR12, +PR19"
+  },
+  {
+    "code": "89",
+    "name": "UK Central Authority for Exchange of Criminal Records global include"
+  },
+  {
+    "code": "91",
+    "name": "National Crime Agency"
+  },
+  {
+    "code": "B01DU",
+    "name": "City of London Police Service"
+  }
+]

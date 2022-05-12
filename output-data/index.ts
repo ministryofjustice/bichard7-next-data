@@ -8,6 +8,7 @@ import defendantPresentAtHearingData from "./data/defendant-present-at-hearing.j
 import durationTypeData from "./data/duration-type.json"
 import durationUnitData from "./data/duration-unit.json"
 import excudedTriggerConfigData from "./data/excluded-trigger-config.json"
+import forcesData from "./data/forces.json"
 import genderData from "./data/gender.json"
 import modeOfTrialReasonData from "./data/mode-of-trial-reason.json"
 import numberData from "./data/number.json"
@@ -41,6 +42,7 @@ import {
   DurationType,
   DurationUnit,
   ExcludedTriggerConfig,
+  Force,
   Gender,
   ModeOfTrialReason,
   Number,
@@ -65,38 +67,39 @@ import {
   YesNo
 } from "./types/types"
 
-const actualOffenceDate: ActualOffenceDate[] = actualOffenceDateData
-const alcoholLevelMethod: AlcoholLevelMethod[] = alcoholLevelMethodData
-const amount: Amount[] = amountData
-const country: Country[] = countryData
-const courtType: CourtType[] = courtTypeData
-const crestDisposal: CrestDisposal[] = crestDisposalData
-const defendantPresentAtHearing: DefendantPresentAtHearing[] = defendantPresentAtHearingData
-const durationType: DurationType[] = durationTypeData
-const durationUnit: DurationUnit[] = durationUnitData
-const excludedTriggerConfig = excudedTriggerConfigData as ExcludedTriggerConfig
-const gender: Gender[] = genderData
-const modeOfTrialReason: ModeOfTrialReason[] = modeOfTrialReasonData
-const number: Number[] = numberData
-const offenceCategory: OffenceCategory[] = offenceCategoryData
-const offenceCode: OffenceCode[] = offenceCodeData
-const offenceInitiation: OffenceInitiation[] = offenceInitiationData
-const organisationUnit: OrganisationUnit[] = organisationUnitData
-const pleaStatus: PleaStatus[] = pleaStatusData
-const pncCourtMapping: PncCourtMapping[] = pncCourtMappingData
-const pncDisposal: PncDisposal[] = pncDisposalData
-const qualifier: Qualifier[] = qualifierData
-const remandStatus: RemandStatus[] = remandStatusData
-const resultClass: ResultClass[] = resultClassData
-const resultCode: ResultCode[] = resultCodeData
-const resultQualifierCode: ResultQualifierCode[] = resultQualifierCodeData
-const summons: Summons[] = summonsData
-const targetCourtType: TargetCourtType[] = targetCourtTypeData
-const triggerDefinitions = triggerDefinitionData as TriggerDefinition[]
-const typeOfHearing: TypeOfHearing[] = typeOfHearingData
-const vehicleCode: VehicleCode[] = vehicleCodeData
-const verdict: Verdict[] = verdictData
-const yesNo: YesNo[] = yesNoData
+export const actualOffenceDate: ActualOffenceDate[] = actualOffenceDateData
+export const alcoholLevelMethod: AlcoholLevelMethod[] = alcoholLevelMethodData
+export const amount: Amount[] = amountData
+export const country: Country[] = countryData
+export const courtType: CourtType[] = courtTypeData
+export const crestDisposal: CrestDisposal[] = crestDisposalData
+export const defendantPresentAtHearing: DefendantPresentAtHearing[] = defendantPresentAtHearingData
+export const durationType: DurationType[] = durationTypeData
+export const durationUnit: DurationUnit[] = durationUnitData
+export const excludedTriggerConfig = excudedTriggerConfigData as ExcludedTriggerConfig
+export const forces = forcesData as Force[]
+export const gender: Gender[] = genderData
+export const modeOfTrialReason: ModeOfTrialReason[] = modeOfTrialReasonData
+export const number: Number[] = numberData
+export const offenceCategory: OffenceCategory[] = offenceCategoryData
+export const offenceCode: OffenceCode[] = offenceCodeData
+export const offenceInitiation: OffenceInitiation[] = offenceInitiationData
+export const organisationUnit: OrganisationUnit[] = organisationUnitData
+export const pleaStatus: PleaStatus[] = pleaStatusData
+export const pncCourtMapping: PncCourtMapping[] = pncCourtMappingData
+export const pncDisposal: PncDisposal[] = pncDisposalData
+export const qualifier: Qualifier[] = qualifierData
+export const remandStatus: RemandStatus[] = remandStatusData
+export const resultClass: ResultClass[] = resultClassData
+export const resultCode: ResultCode[] = resultCodeData
+export const resultQualifierCode: ResultQualifierCode[] = resultQualifierCodeData
+export const summons: Summons[] = summonsData
+export const targetCourtType: TargetCourtType[] = targetCourtTypeData
+export const triggerDefinitions = triggerDefinitionData as TriggerDefinition[]
+export const typeOfHearing: TypeOfHearing[] = typeOfHearingData
+export const vehicleCode: VehicleCode[] = vehicleCodeData
+export const verdict: Verdict[] = verdictData
+export const yesNo: YesNo[] = yesNoData
 
 export default {
   actualOffenceDate,

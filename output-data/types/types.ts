@@ -1,23 +1,23 @@
 import type TriggerCode from "./TriggerCode"
 
-type CjsCodeAndDescription = {
+export type CjsCodeAndDescription = {
   cjsCode: string
   description: string
 }
 
-type ActualOffenceDate = CjsCodeAndDescription
-type Amount = CjsCodeAndDescription
+export type ActualOffenceDate = CjsCodeAndDescription
+export type Amount = CjsCodeAndDescription
 
-type AlcoholLevelMethod = {
+export type AlcoholLevelMethod = {
   cjsCode: string
   description: string
   spiCode: string
 }
 
-type Country = CjsCodeAndDescription
-type CourtType = CjsCodeAndDescription
+export type Country = CjsCodeAndDescription
+export type CourtType = CjsCodeAndDescription
 
-type CrestDisposal = {
+export type CrestDisposal = {
   amountInResult: string
   amountInResultType: string
   dateInResult: string
@@ -40,10 +40,10 @@ type CrestDisposal = {
   timeInResult: string
 }
 
-type DefendantPresentAtHearing = CjsCodeAndDescription
-type DurationType = CjsCodeAndDescription
+export type DefendantPresentAtHearing = CjsCodeAndDescription
+export type DurationType = CjsCodeAndDescription
 
-type DurationUnit = {
+export type DurationUnit = {
   cjsCode: string
   description: string
   pncCode: string
@@ -51,18 +51,18 @@ type DurationUnit = {
   xhibitCode: string
 }
 
-type Gender = DurationUnit
+export type Gender = DurationUnit
 
-type ModeOfTrialReason = {
+export type ModeOfTrialReason = {
   cjsCode: string
   description: string
   spiCode: string
 }
 
-type Number = CjsCodeAndDescription
-type OffenceCategory = CjsCodeAndDescription
+export type Number = CjsCodeAndDescription
+export type OffenceCategory = CjsCodeAndDescription
 
-type OffenceCode = {
+export type OffenceCode = {
   cjsCode: string
   description: string
   homeOfficeClassification: string
@@ -73,9 +73,9 @@ type OffenceCode = {
   resultHalfLifeHours?: string | null
 }
 
-type OffenceInitiation = CjsCodeAndDescription
+export type OffenceInitiation = CjsCodeAndDescription
 
-type OrganisationUnit = {
+export type OrganisationUnit = {
   bottomLevelCode: string
   bottomLevelName: string
   secondLevelCode: string
@@ -87,31 +87,31 @@ type OrganisationUnit = {
   topLevelName: string
 }
 
-type PleaStatus = {
+export type PleaStatus = {
   cjsCode: string
   description: string
   pncCode: string
   spiCode: string
 }
 
-type PncCourtMapping = {
+export type PncCourtMapping = {
   cjsCode: string
   description: string
   pncCode: string
 }
 
-type PncDisposal = {
+export type PncDisposal = {
   cjsCode: string
   description: string
   pncAdjudication: string
   pncNonAdjudication: string
 }
 
-type Qualifier = CjsCodeAndDescription
-type RemandStatus = PleaStatus
-type ResultClass = CjsCodeAndDescription
+export type Qualifier = CjsCodeAndDescription
+export type RemandStatus = PleaStatus
+export type ResultClass = CjsCodeAndDescription
 
-type ResultCode = {
+export type ResultCode = {
   cjsCode: string
   description: string
   recordableOnPnc?: string
@@ -120,55 +120,24 @@ type ResultCode = {
   type: string
 }
 
-type ResultQualifierCode = CjsCodeAndDescription
-type Summons = CjsCodeAndDescription
-type TargetCourtType = CjsCodeAndDescription
-type TypeOfHearing = CjsCodeAndDescription
-type VehicleCode = CjsCodeAndDescription
-type Verdict = PleaStatus
-type YesNo = CjsCodeAndDescription
+export type ResultQualifierCode = CjsCodeAndDescription
+export type Summons = CjsCodeAndDescription
+export type TargetCourtType = CjsCodeAndDescription
+export type TypeOfHearing = CjsCodeAndDescription
+export type VehicleCode = CjsCodeAndDescription
+export type Verdict = PleaStatus
+export type YesNo = CjsCodeAndDescription
 
-type TriggerDefinition = {
+export type TriggerDefinition = {
   code: TriggerCode
   description: string
 }
 
-type ExcludedTriggerConfig = {
+export type ExcludedTriggerConfig = {
   [key: string]: TriggerCode[]
 }
 
-export {
-  ActualOffenceDate,
-  AlcoholLevelMethod,
-  Amount,
-  Country,
-  CourtType,
-  CrestDisposal,
-  DefendantPresentAtHearing,
-  DurationType,
-  DurationUnit,
-  ExcludedTriggerConfig,
-  Gender,
-  ModeOfTrialReason,
-  Number,
-  OffenceCategory,
-  OffenceCode,
-  OffenceInitiation,
-  OrganisationUnit,
-  PleaStatus,
-  PncCourtMapping,
-  PncDisposal,
-  Qualifier,
-  RemandStatus,
-  ResultClass,
-  ResultCode,
-  ResultQualifierCode,
-  Summons,
-  TargetCourtType,
-  TriggerCode,
-  TriggerDefinition,
-  TypeOfHearing,
-  VehicleCode,
-  Verdict,
-  YesNo
+export type Force = {
+  code: string
+  name: string
 }
