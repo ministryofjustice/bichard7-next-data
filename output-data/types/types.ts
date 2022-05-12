@@ -1,5 +1,7 @@
 import type TriggerCode from "./TriggerCode"
 
+export type { default as TriggerCode } from "./TriggerCode"
+
 export type CjsCodeAndDescription = {
   cjsCode: string
   description: string
