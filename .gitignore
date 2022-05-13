@@ -6,4 +6,4 @@ dist
 target
 .idea
 version.properties
-output-data/data/*triggers.properties
+output-data/data/triggers.properties
