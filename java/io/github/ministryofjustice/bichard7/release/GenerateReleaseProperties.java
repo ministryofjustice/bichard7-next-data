@@ -16,5 +16,6 @@ public class GenerateReleaseProperties {
         System.out.println("Release Version is [" + version.getValue() + "]");
 
         FileUtils.writeStringToFile(new File("version.properties"), "newVersion=" + version.getValue(), Charset.defaultCharset(), false);
+        System.out.println("Version [" + version.getValue() + "] successfully written to version.properties");
     }
 }
