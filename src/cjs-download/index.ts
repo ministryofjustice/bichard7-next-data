@@ -2,7 +2,7 @@
 import * as fs from "fs"
 import consistentSort from "../lib/consistentSort"
 import convertOds from "./convertOds"
-import downloadFile from "../shared/downloadFile"
+import downloadFile from "../lib/downloadFile"
 import getDownloadUrl from "./getDownloadUrl"
 
 export default async () => {
