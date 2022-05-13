@@ -78,14 +78,13 @@ export type OffenceCode = {
 export type OffenceInitiation = CjsCodeAndDescription
 
 export type OrganisationUnit = {
-  bottomLevelCode: string
-  bottomLevelName: string
-  secondLevelCode: string
-  secondLevelName: string
-  thirdLevelCode: string
-  thirdLevelName: string
-  thirdLevelPsaCode: string
-  topLevelCode: string
+  bottomLevelCode: string | number
+  bottomLevelName?: string
+  secondLevelCode: string | number
+  secondLevelName?: string
+  thirdLevelCode: string | number
+  thirdLevelName?: string
+  topLevelCode: string | number
   topLevelName: string
 }
 
