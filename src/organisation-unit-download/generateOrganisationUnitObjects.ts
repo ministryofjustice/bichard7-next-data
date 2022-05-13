@@ -1,8 +1,6 @@
 import * as XLSX from "xlsx"
-import organisationUnitDownload from "."
 import { OrganisationUnit } from "../types/OrganisationUnit"
 import isActiveOrganisationUnit from "./isActiveOrganisationUnit"
-import valueToDate from "./valueToDate"
 
 export type OrganisationUnitData = {
   A: string
@@ -17,18 +15,17 @@ export type OrganisationUnitData = {
   J: string
 }
 
-const emptyRow = (row: any): Boolean => {
+const emptyRow = (row: OrganisationUnit | undefined): Boolean => {
   return (
-    row.topLevelCode === undefined &&
-    row.bottomLevelCode === undefined &&
-    row.secondLevelCode === undefined &&
-    row.thirdLevelCode === undefined &&
-    row.topLevelName === undefined &&
-    row.bottomLevelName === undefined &&
-    row.secondLevelName === undefined &&
-    row.thirdLevelName === undefined &&
-    row.startDate === undefined &&
-    row.endDate === undefined
+    row === undefined ||
+    (row.topLevelCode === undefined &&
+      row.bottomLevelCode === undefined &&
+      row.secondLevelCode === undefined &&
+      row.thirdLevelCode === undefined &&
+      row.topLevelName === undefined &&
+      row.bottomLevelName === undefined &&
+      row.secondLevelName === undefined &&
+      row.thirdLevelName === undefined)
   )
 }
 
@@ -41,10 +38,10 @@ const generateOrganisationUnitObjects = (fileContents: Buffer): OrganisationUnit
   })
   jsonWorksheet.shift()
 
-  const resovled = jsonWorksheet
+  return jsonWorksheet
     .map((record) => {
-      if (isActiveOrganisationUnit(valueToDate(record.I), valueToDate(record.J)) {
-         return {
+      if (isActiveOrganisationUnit(record.I, record.J)) {
+        return {
           topLevelCode: record.A,
           secondLevelCode: record.B,
           thirdLevelCode: record.C,
@@ -53,21 +50,11 @@ const generateOrganisationUnitObjects = (fileContents: Buffer): OrganisationUnit
           secondLevelName: record.F,
           thirdLevelName: record.G,
           bottomLevelName: record.H
-        } 
-      } else {
-        return {
-          topLevelCode: undefined,
-          secondLevelCode: undefined,
-          thirdLevelCode: undefined,
-          bottomLevelCode: undefined,
-          topLevelName: undefined,
-          secondLevelName: undefined,
-          thirdLevelName: undefined,
-          bottomLevelName: undefined
-        }  
+        }
       }
-    }).filter((record) => !emptyRow(record))
-  return resovled
+      return undefined
+    })
+    .filter((record) => !emptyRow(record)) as OrganisationUnit[]
 }
 
 export default generateOrganisationUnitObjects
