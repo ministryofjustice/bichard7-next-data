@@ -7,6 +7,4 @@ export type OrganisationUnit = {
   thirdLevelName: string
   topLevelCode: string
   topLevelName: string
-  startDate?: string
-  endDate?: string
 }
