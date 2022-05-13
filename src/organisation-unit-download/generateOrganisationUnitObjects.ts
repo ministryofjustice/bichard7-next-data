@@ -42,10 +42,10 @@ const generateOrganisationUnitObjects = (fileContents: Buffer): OrganisationUnit
     .map((record) => {
       if (isActiveOrganisationUnit(record.I, record.J)) {
         return {
-          topLevelCode: record.A,
-          secondLevelCode: record.B,
-          thirdLevelCode: record.C,
-          bottomLevelCode: record.D,
+          topLevelCode: String(record.A),
+          secondLevelCode: String(record.B),
+          thirdLevelCode: String(record.C),
+          bottomLevelCode: String(record.D),
           topLevelName: record.E,
           secondLevelName: record.F,
           thirdLevelName: record.G,
