@@ -1,6 +1,8 @@
 import * as XLSX from "xlsx"
+import organisationUnitDownload from "."
 import { OrganisationUnit } from "../types/OrganisationUnit"
-import dateToISOString from "./dateToISOString"
+import isActiveOrganisationUnit from "./isActiveOrganisationUnit"
+import valueToDate from "./valueToDate"
 
 export type OrganisationUnitData = {
   A: string
@@ -15,7 +17,7 @@ export type OrganisationUnitData = {
   J: string
 }
 
-const emptyRow = (row: OrganisationUnit): Boolean => {
+const emptyRow = (row: any): Boolean => {
   return (
     row.topLevelCode === undefined &&
     row.bottomLevelCode === undefined &&
@@ -39,22 +41,33 @@ const generateOrganisationUnitObjects = (fileContents: Buffer): OrganisationUnit
   })
   jsonWorksheet.shift()
 
-  return jsonWorksheet
+  const resovled = jsonWorksheet
     .map((record) => {
-      return {
-        topLevelCode: record.A,
-        secondLevelCode: record.B,
-        thirdLevelCode: record.C,
-        bottomLevelCode: record.D,
-        topLevelName: record.E,
-        secondLevelName: record.F,
-        thirdLevelName: record.G,
-        bottomLevelName: record.H,
-        startDate: dateToISOString(record.I),
-        endDate: dateToISOString(record.J)
+      if (isActiveOrganisationUnit(valueToDate(record.I), valueToDate(record.J)) {
+         return {
+          topLevelCode: record.A,
+          secondLevelCode: record.B,
+          thirdLevelCode: record.C,
+          bottomLevelCode: record.D,
+          topLevelName: record.E,
+          secondLevelName: record.F,
+          thirdLevelName: record.G,
+          bottomLevelName: record.H
+        } 
+      } else {
+        return {
+          topLevelCode: undefined,
+          secondLevelCode: undefined,
+          thirdLevelCode: undefined,
+          bottomLevelCode: undefined,
+          topLevelName: undefined,
+          secondLevelName: undefined,
+          thirdLevelName: undefined,
+          bottomLevelName: undefined
+        }  
       }
-    })
-    .filter((record) => !emptyRow(record))
+    }).filter((record) => !emptyRow(record))
+  return resovled
 }
 
 export default generateOrganisationUnitObjects

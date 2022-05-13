@@ -52,4 +52,9 @@ describe("GenerateOrganisationUnit", () => {
     )
     expect(generateOrganisationUnitObjects(fileContentsWithEmptyRows)).toHaveLength(1190)
   })
+
+  it.only("should filter records by start and end date", () => {
+    const fileContents = fs.readFileSync("./test-data/input/test-ou-codes.xlsx")
+    expect(generateOrganisationUnitObjects(fileContents)).toEqual([])
+  })
 })
