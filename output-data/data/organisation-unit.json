@@ -1071,7 +1071,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 10,
+    "secondLevelCode": "10",
     "secondLevelName": "Northumbria",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -1106,7 +1106,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 10,
+    "secondLevelCode": "10",
     "secondLevelName": "Northumbria",
     "thirdLevelCode": "JL",
     "thirdLevelName": "Newcastle",
@@ -1178,7 +1178,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 11,
+    "secondLevelCode": "11",
     "secondLevelName": "Durham, County",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -1240,7 +1240,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 12,
+    "secondLevelCode": "12",
     "secondLevelName": "North Yorkshire",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -1329,7 +1329,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 13,
+    "secondLevelCode": "13",
     "secondLevelName": "West Yorkshire",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -1355,7 +1355,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 13,
+    "secondLevelCode": "13",
     "secondLevelName": "West Yorkshire",
     "thirdLevelCode": "CH",
     "thirdLevelName": "Cloth Hall Court",
@@ -1418,7 +1418,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 14,
+    "secondLevelCode": "14",
     "secondLevelName": "South Yorkshire",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -1489,7 +1489,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 16,
+    "secondLevelCode": "16",
     "secondLevelName": "Humberside",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -1569,7 +1569,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 17,
+    "secondLevelCode": "17",
     "secondLevelName": "Cleveland",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -1595,7 +1595,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 20,
+    "secondLevelCode": "20",
     "secondLevelName": "West Midlands",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -1657,7 +1657,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 20,
+    "secondLevelCode": "20",
     "secondLevelName": "West Midlands",
     "thirdLevelCode": "MH",
     "thirdLevelName": "Birmingham Maple House",
@@ -1693,7 +1693,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 20,
+    "secondLevelCode": "20",
     "secondLevelName": "West Midlands",
     "thirdLevelCode": "RT",
     "thirdLevelName": "Birmingham Repertory Theatre and Library",
@@ -1738,7 +1738,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 20,
+    "secondLevelCode": "20",
     "secondLevelName": "West Midlands",
     "thirdLevelCode": "WP",
     "thirdLevelName": "Wolverhampton Park Hall Hotel",
@@ -1747,7 +1747,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 21,
+    "secondLevelCode": "21",
     "secondLevelName": "Staffordshire",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -1791,7 +1791,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 21,
+    "secondLevelCode": "21",
     "secondLevelName": "Staffordshire",
     "thirdLevelCode": "XA",
     "thirdLevelName": "AIT Stoke-on-Trent",
@@ -1800,7 +1800,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 22,
+    "secondLevelCode": "22",
     "secondLevelName": "West Mercia",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -1871,7 +1871,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 22,
+    "secondLevelCode": "22",
     "secondLevelName": "West Mercia",
     "thirdLevelCode": "SW",
     "thirdLevelName": "Shrewsbury",
@@ -1898,7 +1898,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 23,
+    "secondLevelCode": "23",
     "secondLevelName": "Warwickshire",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -1924,7 +1924,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 23,
+    "secondLevelCode": "23",
     "secondLevelName": "Warwickshire",
     "thirdLevelCode": "WH",
     "thirdLevelName": "Warwick Hotel (M40 J15)",
@@ -1942,7 +1942,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 30,
+    "secondLevelCode": "30",
     "secondLevelName": "Derbyshire",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -2004,7 +2004,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 31,
+    "secondLevelCode": "31",
     "secondLevelName": "Nottinghamshire",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -2030,7 +2030,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 31,
+    "secondLevelCode": "31",
     "secondLevelName": "Nottinghamshire",
     "thirdLevelCode": "MS",
     "thirdLevelName": "Mercure Nottingham Sherwood Hotel",
@@ -2057,7 +2057,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 32,
+    "secondLevelCode": "32",
     "secondLevelName": "Lincolnshire",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -2128,7 +2128,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 33,
+    "secondLevelCode": "33",
     "secondLevelName": "Leicestershire",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -2154,7 +2154,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 33,
+    "secondLevelCode": "33",
     "secondLevelName": "Leicestershire",
     "thirdLevelCode": "LB",
     "thirdLevelName": "Loughborough",
@@ -2172,7 +2172,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 34,
+    "secondLevelCode": "34",
     "secondLevelName": "Northamptonshire",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -2216,7 +2216,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 35,
+    "secondLevelCode": "35",
     "secondLevelName": "Cambridgeshire",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -2287,7 +2287,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 36,
+    "secondLevelCode": "36",
     "secondLevelName": "Norfolk",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -2349,7 +2349,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 37,
+    "secondLevelCode": "37",
     "secondLevelName": "Suffolk",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -2411,7 +2411,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 40,
+    "secondLevelCode": "40",
     "secondLevelName": "Bedfordshire",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -2464,7 +2464,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 41,
+    "secondLevelCode": "41",
     "secondLevelName": "Hertfordshire",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -2526,7 +2526,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 41,
+    "secondLevelCode": "41",
     "secondLevelName": "Hertfordshire",
     "thirdLevelCode": "US",
     "thirdLevelName": "Hatfield Magistrates’ Court",
@@ -2535,7 +2535,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 42,
+    "secondLevelCode": "42",
     "secondLevelName": "Essex",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -2570,7 +2570,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 42,
+    "secondLevelCode": "42",
     "secondLevelName": "Essex",
     "thirdLevelCode": "CM",
     "thirdLevelName": "Chelmsford",
@@ -2579,7 +2579,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 42,
+    "secondLevelCode": "42",
     "secondLevelName": "Essex",
     "thirdLevelCode": "CO",
     "thirdLevelName": "Colchester",
@@ -2633,7 +2633,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 43,
+    "secondLevelCode": "43",
     "secondLevelName": "Thames Valley",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -2650,7 +2650,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 43,
+    "secondLevelCode": "43",
     "secondLevelName": "Thames Valley",
     "thirdLevelCode": "AM",
     "thirdLevelName": "Amersham",
@@ -2785,7 +2785,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 44,
+    "secondLevelCode": "44",
     "secondLevelName": "Hampshire",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -2892,7 +2892,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 44,
+    "secondLevelCode": "44",
     "secondLevelName": "Hampshire",
     "thirdLevelCode": "WZ",
     "thirdLevelName": "Winchester Combined Court Centre",
@@ -2901,7 +2901,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 45,
+    "secondLevelCode": "45",
     "secondLevelName": "Surrey",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -2927,7 +2927,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 46,
+    "secondLevelCode": "46",
     "secondLevelName": "Kent",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -3016,7 +3016,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 46,
+    "secondLevelCode": "46",
     "secondLevelName": "Kent",
     "thirdLevelCode": "MC",
     "thirdLevelName": "Mercure Maidstone (Great Danes Hotel)",
@@ -3052,7 +3052,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 47,
+    "secondLevelCode": "47",
     "secondLevelName": "Sussex",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -3159,7 +3159,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 50,
+    "secondLevelCode": "50",
     "secondLevelName": "Devon and Cornwall",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -3329,7 +3329,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 52,
+    "secondLevelCode": "52",
     "secondLevelName": "Avon and Somerset",
     "thirdLevelCode": "QA",
     "thirdLevelName": "Bristol Civil Justice Centre",
@@ -3383,7 +3383,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 53,
+    "secondLevelCode": "53",
     "secondLevelName": "Gloucestershire",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -3490,7 +3490,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 55,
+    "secondLevelCode": "55",
     "secondLevelName": "Dorset",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -3552,7 +3552,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 60,
+    "secondLevelCode": "60",
     "secondLevelName": "North Wales",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -3605,7 +3605,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 61,
+    "secondLevelCode": "61",
     "secondLevelName": "Gwent",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -3622,7 +3622,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 61,
+    "secondLevelCode": "61",
     "secondLevelName": "Gwent",
     "thirdLevelCode": "NP",
     "thirdLevelName": "Newport",
@@ -3640,7 +3640,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 62,
+    "secondLevelCode": "62",
     "secondLevelName": "South Wales",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -3738,7 +3738,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 62,
+    "secondLevelCode": "62",
     "secondLevelName": "South Wales",
     "thirdLevelCode": "SC",
     "thirdLevelName": "Swansea (Council Chambers)",
@@ -3792,7 +3792,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 63,
+    "secondLevelCode": "63",
     "secondLevelName": "Dyfed-Powys",
     "thirdLevelCode": "00",
     "topLevelCode": "B",
@@ -3827,7 +3827,7 @@
   },
   {
     "bottomLevelCode": "00",
-    "secondLevelCode": 63,
+    "secondLevelCode": "63",
     "secondLevelName": "Dyfed-Powys",
     "thirdLevelCode": "LW",
     "thirdLevelName": "Llandrindod Wells Justice Centre",
@@ -3872,7 +3872,7 @@
   },
   {
     "bottomLevelCode": "00 ",
-    "secondLevelCode": 52,
+    "secondLevelCode": "52",
     "secondLevelName": "Avon and Somerset",
     "thirdLevelCode": "00 ",
     "topLevelCode": "B",
@@ -3880,7 +3880,7 @@
   },
   {
     "bottomLevelCode": "00 ",
-    "secondLevelCode": 52,
+    "secondLevelCode": "52",
     "secondLevelName": "Avon and Somerset",
     "thirdLevelCode": "SH",
     "thirdLevelName": "Shire Hall ((County Court, Taunton)",
@@ -3889,7 +3889,7 @@
   },
   {
     "bottomLevelCode": "00 ",
-    "secondLevelCode": 52,
+    "secondLevelCode": "52",
     "secondLevelName": "Avon and Somerset",
     "thirdLevelCode": "TC",
     "thirdLevelName": "Shire Hall ((County Court, Taunton)",
