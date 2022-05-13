@@ -1,13 +1,14 @@
 /* eslint-disable no-console */
 import * as fs from "fs"
+import getDownloadUrl from "../cjs-download/getDownloadUrl"
 import consistentSort from "../lib/consistentSort"
 import downloadFile from "../lib/downloadFile"
 import generateOrganisationUnitJSON from "./generateOrganisationUnitObjects"
 
 export default async () => {
   console.log("Downloading Organisation Unit data")
-  const downloadURL =
-    "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1030752/cjs-courts-bc-ou-codes-v32.xls.xlsx"
+  const downloadLinkRegex = /(https:\/\/.*cjs-courts-bc-ou-codes.*.xls.xlsx)"/i
+  const downloadURL = await getDownloadUrl(downloadLinkRegex)
   const fileContents = await downloadFile(downloadURL)
   const jsonFile = generateOrganisationUnitJSON(fileContents)
   const data = consistentSort(jsonFile)
