@@ -5,15 +5,8 @@ import type { ExcludedTriggerConfig, TriggerCode } from "../../output-data/types
 
 const typedTriggerConfig = <ExcludedTriggerConfig>triggerConfig
 
-const generateForceConfig = (
-  force: string,
-  triggers: TriggerCode[],
-  test: boolean = false
-): string => {
+const generateForceConfig = (force: string, triggers: TriggerCode[]): string => {
   const includeRule: string[] = [`trigger.rule.${force}=include`]
-  if (force === "01" && test) {
-    return includeRule[0]
-  }
   return includeRule
     .concat(triggers.map((trigger) => `trigger.rule.${force}.${trigger}=exclude`))
     .join("\n")
@@ -24,8 +17,4 @@ const forces: string[] = Object.keys(typedTriggerConfig).sort()
 fs.writeFileSync(
   "./output-data/data/triggers.properties",
   forces.map((force) => generateForceConfig(force, typedTriggerConfig[force])).join("\n\n")
-)
-fs.writeFileSync(
-  "./output-data/data/test.triggers.properties",
-  forces.map((force) => generateForceConfig(force, typedTriggerConfig[force], true)).join("\n\n")
 )
