@@ -7,4 +7,5 @@ export type OrganisationUnit = {
   thirdLevelName: string
   topLevelCode: string
   topLevelName: string
+  thirdLevelPsaCode: string
 }

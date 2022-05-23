@@ -21,7 +21,8 @@ describe("GenerateOrganisationUnit", () => {
         topLevelName: "Magistrates' Courts",
         secondLevelName: "South Wales",
         thirdLevelName: "Aberdare",
-        bottomLevelName: undefined
+        bottomLevelName: undefined,
+        thirdLevelPsaCode: ""
       },
       {
         topLevelCode: "B",
@@ -31,7 +32,8 @@ describe("GenerateOrganisationUnit", () => {
         topLevelName: "Magistrates' Courts",
         secondLevelName: "South Wales",
         thirdLevelName: "Aberdare (County Court, Cwmbach Road)",
-        bottomLevelName: undefined
+        bottomLevelName: undefined,
+        thirdLevelPsaCode: ""
       },
       {
         topLevelCode: "B",
@@ -41,7 +43,8 @@ describe("GenerateOrganisationUnit", () => {
         topLevelName: "Magistrates' Courts",
         secondLevelName: "South Wales",
         thirdLevelName: "Aberdare Youth Court",
-        bottomLevelName: undefined
+        bottomLevelName: undefined,
+        thirdLevelPsaCode: ""
       }
     ]
     expect(generateOrganisationUnitObjects(fileContents)).toEqual(expectedContent)

@@ -49,7 +49,8 @@ const generateOrganisationUnitObjects = (fileContents: Buffer): OrganisationUnit
           topLevelName: record.E,
           secondLevelName: record.F,
           thirdLevelName: record.G,
-          bottomLevelName: record.H
+          bottomLevelName: record.H,
+          thirdLevelPsaCode: ""
         }
       }
       return undefined
