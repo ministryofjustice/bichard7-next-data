@@ -26,9 +26,9 @@ const backFillThirdLevelPsaCode = (
   })
 
   if (matchNotFoundForRecords.length > 0) {
-    console.log("Cannot backfill thirdLevelPsaCode for records:", matchNotFoundForRecords)
-
-    throw new Error("Missing thirdLevelPsaCode for record(s)")
+    throw new Error(
+      `Missing thirdLevelPsaCode for record(s): ${JSON.stringify(matchNotFoundForRecords, null, 2)}`
+    )
   }
 
   return newData
