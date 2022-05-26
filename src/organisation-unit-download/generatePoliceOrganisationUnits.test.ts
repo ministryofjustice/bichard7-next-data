@@ -13,7 +13,7 @@ describe("GeneratePoliceUnits", () => {
 
     expect(policeData[0]).toEqual({
       topLevelName: "Police Service",
-      secondLevelName: "London Metropolitan Police",
+      secondLevelName: "Metropolitan Police Service",
       thirdLevelName: "PNC SPECIALIST ENQUIRIES (FORMERLY-PNC- POLICY AND PLANNING)",
       bottomLevelName: "",
       topLevelCode: "",
@@ -25,7 +25,7 @@ describe("GeneratePoliceUnits", () => {
 
     expect(policeData[1]).toEqual({
       topLevelName: "Police Service",
-      secondLevelName: "London Metropolitan Police",
+      secondLevelName: "Metropolitan Police Service",
       thirdLevelName: "BELGRAVIA SOUTH WESTMINSTER.OCU",
       bottomLevelName: "",
       topLevelCode: "",
@@ -37,7 +37,7 @@ describe("GeneratePoliceUnits", () => {
 
     expect(policeData[2]).toEqual({
       topLevelName: "Police Service",
-      secondLevelName: "London Metropolitan Police",
+      secondLevelName: "Metropolitan Police Service",
       thirdLevelName: "DIRECTORATE PROFESSIONAL STANDARD (DPS) PROSECUTION",
       bottomLevelName: "",
       topLevelCode: "",
@@ -49,7 +49,7 @@ describe("GeneratePoliceUnits", () => {
 
     expect(policeData[3]).toEqual({
       topLevelName: "Police Service",
-      secondLevelName: "London Metropolitan Police",
+      secondLevelName: "Metropolitan Police Service",
       thirdLevelName: "BELGRAVIA POLICE STATION PART OF CITY OF WESTMINSTER BOROUGH",
       bottomLevelName: "",
       topLevelCode: "",
