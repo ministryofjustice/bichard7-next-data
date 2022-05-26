@@ -1,6 +1,6 @@
 import fs from "fs"
 import MockDate from "mockdate"
-import generateOrganisationUnitObjects from "./generateOrganisationUnitObjects"
+import generateOrganisationUnitObjects from "./generateCourtOrganisationUnits"
 import { OrganisationUnit } from "../types/OrganisationUnit"
 
 afterEach(() => {
