@@ -1,5 +1,9 @@
 [
   {
+    "code": "00",
+    "name": "Athena Forces"
+  },
+  {
     "code": "01",
     "name": "London Metropolitan Police"
   },
@@ -28,6 +32,10 @@
     "name": "Cheshire"
   },
   {
+    "code": "08",
+    "name": "HMIC"
+  },
+  {
     "code": "10",
     "name": "Northumbria"
   },
@@ -48,12 +56,20 @@
     "name": "South Yorkshire"
   },
   {
+    "code": "15",
+    "name": "HM Forces and other global include"
+  },
+  {
     "code": "16",
     "name": "Humberside Police"
   },
   {
     "code": "17",
     "name": "Cleveland Police"
+  },
+  {
+    "code": "18",
+    "name": "Reserved"
   },
   {
     "code": "20",
@@ -70,6 +86,22 @@
   {
     "code": "23",
     "name": "Warwickshire Police"
+  },
+  {
+    "code": "24",
+    "name": "MOD Police force global include"
+  },
+  {
+    "code": "25",
+    "name": "NPIA / PNC"
+  },
+  {
+    "code": "26",
+    "name": "NPIA / PNC"
+  },
+  {
+    "code": "27",
+    "name": "NPIA / PNC"
   },
   {
     "code": "30",
@@ -104,6 +136,10 @@
     "name": "Suffolk Constabulary"
   },
   {
+    "code": "39",
+    "name": "NPIA / PNC"
+  },
+  {
     "code": "40",
     "name": "Bedfordshire"
   },
@@ -136,6 +172,10 @@
     "name": "Sussex Police"
   },
   {
+    "code": "48",
+    "name": "City of London Police"
+  },
+  {
     "code": "50",
     "name": "Devon & Cornwall Constabulary"
   },
@@ -156,6 +196,18 @@
     "name": "Dorset Police"
   },
   {
+    "code": "56",
+    "name": "Guernsey Police"
+  },
+  {
+    "code": "57",
+    "name": "States of Jersey Police"
+  },
+  {
+    "code": "59",
+    "name": "Civil Nuclear Constabulary"
+  },
+  {
     "code": "60",
     "name": "North Wales"
   },
@@ -172,20 +224,64 @@
     "name": "Dyfed Powys Police"
   },
   {
-    "code": "93",
-    "name": "BTP global include"
+    "code": "64",
+    "name": "New Scotland Yard"
   },
   {
-    "code": "24",
-    "name": "MOD Police force global include"
+    "code": "65",
+    "name": "New Scotland Yard"
   },
   {
-    "code": "15",
-    "name": "HM Forces and other global include"
+    "code": "66",
+    "name": "National Identification Service (Met)"
+  },
+  {
+    "code": "67",
+    "name": "Serious Organised Crime Agency"
+  },
+  {
+    "code": "70",
+    "name": "Dumfries & Galloway Police"
   },
   {
     "code": "73",
     "name": "HMCS global include"
+  },
+  {
+    "code": "74",
+    "name": "Strathclyde Police"
+  },
+  {
+    "code": "76",
+    "name": "Lothian & Borders Police"
+  },
+  {
+    "code": "78",
+    "name": "Fife Constabulary"
+  },
+  {
+    "code": "80",
+    "name": "Tayside Police"
+  },
+  {
+    "code": "82",
+    "name": "Grampian Police"
+  },
+  {
+    "code": "83",
+    "name": "Scottish Police College"
+  },
+  {
+    "code": "84",
+    "name": "Central Scotland Police"
+  },
+  {
+    "code": "86",
+    "name": "Reserved"
+  },
+  {
+    "code": "87",
+    "name": "Northern Constabulary"
   },
   {
     "code": "88",
@@ -196,8 +292,44 @@
     "name": "UK Central Authority for Exchange of Criminal Records global include"
   },
   {
+    "code": "90",
+    "name": "Scottish Crime & Drug Enforcement Agency"
+  },
+  {
     "code": "91",
     "name": "National Crime Agency"
+  },
+  {
+    "code": "92",
+    "name": "Reserved (for HDC BUREAU)"
+  },
+  {
+    "code": "93",
+    "name": "BTP global include"
+  },
+  {
+    "code": "94",
+    "name": "Reserved (for DVLA)"
+  },
+  {
+    "code": "95",
+    "name": "MPS Specialist Operations (Fingerprints)"
+  },
+  {
+    "code": "96",
+    "name": "Scottish Police Services Authority"
+  },
+  {
+    "code": "97",
+    "name": "Isle of Man Constabulary"
+  },
+  {
+    "code": "98",
+    "name": "Police Service of Northern Ireland"
+  },
+  {
+    "code": "99",
+    "name": "Reserved (for PHOENIX BRC DATA)"
   },
   {
     "code": "B01DU",
