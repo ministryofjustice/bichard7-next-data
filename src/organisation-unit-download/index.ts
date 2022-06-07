@@ -9,6 +9,7 @@ import generateCourtOrganisationUnits from "./generateCourtOrganisationUnits"
 import backFillThirdLevelPsaCode from "./backFillThirdLevelPsaCode"
 import { OrganisationUnit } from "../types/OrganisationUnit"
 import policeOrganisationUnitData from "../../input-data/organisation-unit/police-forces.json"
+import zeroCodes from "../../input-data/organisation-unit/zero-codes.json"
 
 export default async () => {
   console.log("Downloading Organisation Unit data")
@@ -21,7 +22,8 @@ export default async () => {
     existingOrganisationUnitData as OrganisationUnit[]
   )
   const allOrganisationUnitData = courtOrganisationUnitDataWithPsaCode.concat(
-    policeOrganisationUnitData
+    policeOrganisationUnitData,
+    zeroCodes
   )
   const data = consistentSort(allOrganisationUnitData)
   await fs.promises.writeFile(
