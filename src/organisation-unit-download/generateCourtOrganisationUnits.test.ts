@@ -21,7 +21,7 @@ describe("GenerateOrganisationUnit", () => {
         topLevelName: "Magistrates' Courts",
         secondLevelName: "South Wales",
         thirdLevelName: "Aberdare",
-        bottomLevelName: undefined,
+        bottomLevelName: "",
         thirdLevelPsaCode: ""
       },
       {
@@ -32,7 +32,7 @@ describe("GenerateOrganisationUnit", () => {
         topLevelName: "Magistrates' Courts",
         secondLevelName: "South Wales",
         thirdLevelName: "Aberdare (County Court, Cwmbach Road)",
-        bottomLevelName: undefined,
+        bottomLevelName: "",
         thirdLevelPsaCode: ""
       },
       {
@@ -43,7 +43,7 @@ describe("GenerateOrganisationUnit", () => {
         topLevelName: "Magistrates' Courts",
         secondLevelName: "South Wales",
         thirdLevelName: "Aberdare Youth Court",
-        bottomLevelName: undefined,
+        bottomLevelName: "",
         thirdLevelPsaCode: ""
       }
     ]
