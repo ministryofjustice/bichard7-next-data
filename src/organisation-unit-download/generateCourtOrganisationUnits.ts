@@ -46,10 +46,10 @@ const generateOrganisationUnitObjects = (fileContents: Buffer): OrganisationUnit
           secondLevelCode: String(record.B).trim(),
           thirdLevelCode: String(record.C).trim(),
           bottomLevelCode: String(record.D).trim(),
-          topLevelName: record.E?.trim(),
-          secondLevelName: record.F?.trim(),
-          thirdLevelName: record.G?.trim(),
-          bottomLevelName: record.H?.trim(),
+          topLevelName: record.E?.trim() ?? "",
+          secondLevelName: record.F?.trim() ?? "",
+          thirdLevelName: record.G?.trim() ?? "",
+          bottomLevelName: record.H?.trim() ?? "",
           thirdLevelPsaCode: ""
         }
       }
