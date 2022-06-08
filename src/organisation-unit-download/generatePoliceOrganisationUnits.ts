@@ -34,13 +34,16 @@ const generatePoliceOrganisationUnits = (
   return jsonWorksheet
     .slice(4)
     .map((record) => {
+      const thirdLevelCodeFromFile = record.A?.trim().substring(2, 4)
+      const thirdLevelCode = thirdLevelCodeFromFile === "" ? "00" : thirdLevelCodeFromFile
+
       return {
         topLevelName: "Police Service",
         secondLevelName:
           forces.find((f) => f.code === record.A?.trim().substring(0, 2))?.name ?? "",
         thirdLevelName: record.C?.trim().replace(/\s+/g, " "),
         secondLevelCode: record.A?.trim().substring(0, 2),
-        thirdLevelCode: record.A?.trim().substring(2, 4),
+        thirdLevelCode,
         topLevelCode: "",
         bottomLevelCode: "00",
         bottomLevelName: "",

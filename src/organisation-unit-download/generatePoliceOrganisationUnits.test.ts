@@ -18,7 +18,7 @@ describe("GeneratePoliceUnits", () => {
       bottomLevelName: "",
       topLevelCode: "",
       secondLevelCode: "01",
-      thirdLevelCode: "",
+      thirdLevelCode: "00",
       bottomLevelCode: "00",
       thirdLevelPsaCode: ""
     } as OrganisationUnit)
