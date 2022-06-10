@@ -1,6 +1,5 @@
 import * as XLSX from "xlsx"
 import { OrganisationUnit } from "../types/OrganisationUnit"
-import isActiveOrganisationUnit from "./isActiveOrganisationUnit"
 
 export type OrganisationUnitData = {
   A: string
@@ -40,20 +39,17 @@ const generateOrganisationUnitObjects = (fileContents: Buffer): OrganisationUnit
 
   return jsonWorksheet
     .map((record) => {
-      if (isActiveOrganisationUnit(record.I, record.J)) {
-        return {
-          topLevelCode: String(record.A).trim(),
-          secondLevelCode: String(record.B).trim(),
-          thirdLevelCode: String(record.C).trim(),
-          bottomLevelCode: String(record.D).trim(),
-          topLevelName: record.E?.trim() ?? "",
-          secondLevelName: record.F?.trim() ?? "",
-          thirdLevelName: record.G?.trim() ?? "",
-          bottomLevelName: record.H?.trim() ?? "",
-          thirdLevelPsaCode: ""
-        }
+      return {
+        topLevelCode: String(record.A).trim(),
+        secondLevelCode: String(record.B).trim(),
+        thirdLevelCode: String(record.C).trim(),
+        bottomLevelCode: String(record.D).trim(),
+        topLevelName: record.E?.trim() ?? "",
+        secondLevelName: record.F?.trim() ?? "",
+        thirdLevelName: record.G?.trim() ?? "",
+        bottomLevelName: record.H?.trim() ?? "",
+        thirdLevelPsaCode: ""
       }
-      return undefined
     })
     .filter((record) => !emptyRow(record)) as OrganisationUnit[]
 }
