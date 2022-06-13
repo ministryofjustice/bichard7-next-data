@@ -22,7 +22,8 @@ jobs:
           node-version: "16.13.1"
 
       - name: Bump output package version
-        run: npm version patch
+        id: bump
+        run: echo "::set-output name=version::$(npm version patch)"
         working-directory: output-data
 
       - name: Commit output package version bump
@@ -31,7 +32,8 @@ jobs:
           git config user.email ${{ env.GITHUB_EMAIL }}
           git add output-data/package*.json
           git commit -m "Bump package version"
-          git push
+          git tag ${{ steps.bump.outputs.version }}
+          git push --follow-tags
 
   release-npm-package:
     name: Release NPM package
