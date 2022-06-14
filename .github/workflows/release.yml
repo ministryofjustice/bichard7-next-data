@@ -12,6 +12,8 @@ jobs:
   bump-package-version:
     name: Bump NPM package version
     runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.bump.outputs.version }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -124,7 +126,9 @@ jobs:
 
   update-core-repo:
     name: Update NPM package in core repo
-    needs: release-npm-package
+    needs:
+      - bump-package-version
+      - release-npm-package
     runs-on: ubuntu-latest
     steps:
       - name: Check out core repo
@@ -159,7 +163,9 @@ jobs:
 
   update-b7-repo:
     name: Update maven package in bichard7-next repo
-    needs: release-maven-package
+    needs:
+      - bump-package-version
+      - release-maven-package
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -168,10 +174,11 @@ jobs:
           repository: ministryofjustice/bichard7-next
           token: ${{ secrets.GH_ACCESS_TOKEN }}
 
-      - name: Update standing data maven package
+      - name: Update standing data gradle dependency
         run: |
-          docker-compose run app \
-            gradle classes --no-daemon --parallel -g gradle-home --update-locks *:bichard7-next-data
+          sed -i -r "s/name: 'bichard7-next-data', version: '[0-9]+\.[0-9]+\.[0-9]+'$/name: 'bichard7-next-data', version: '$VERSION'/g" bichard-backend/build.gradle
+        env:
+          VERSION: ${{ needs.bump-package-version.outputs.version }}
 
       - name: Create pull request
         id: cpr
