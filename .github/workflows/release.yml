@@ -146,7 +146,9 @@ jobs:
           token: ${{ secrets.GH_ACCESS_TOKEN }}
 
       - name: Update standing data npm package
-        run: npm install @moj-bichard7-developers/bichard7-next-data@latest
+        run: npm install @moj-bichard7-developers/bichard7-next-data@${VERSION}
+        env:
+          VERSION: ${{ needs.bump-package-version.outputs.version }}
 
       - name: Create pull request
         id: cpr
