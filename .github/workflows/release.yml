@@ -10,7 +10,7 @@ env:
 
 jobs:
   bump-package-version:
-    name: Bump NPM package version
+    name: Bump package version
     runs-on: ubuntu-latest
     outputs:
       version: ${{ steps.bump.outputs.version }}
@@ -31,11 +31,16 @@ jobs:
       - name: Check new version
         run: echo "${{ steps.bump.outputs.version }}"
 
+      - name: Update pom.xml with new version number
+        run: envsubst '$PACKAGE_JSON_VERSION' < pom.template.xml > pom.xml
+        env:
+          PACKAGE_JSON_VERSION: ${{ steps.bump.outputs.version }}
+
       - name: Commit output package version bump
         run: |
           git config user.name ${{ env.GITHUB_USERNAME }}
           git config user.email ${{ env.GITHUB_EMAIL }}
-          git add output-data/package*.json
+          git add output-data/package*.json pom.xml
           git commit -m "Bump package version"
           git tag v${{ steps.bump.outputs.version }}
           git push --follow-tags
