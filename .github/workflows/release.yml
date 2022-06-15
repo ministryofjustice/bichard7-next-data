@@ -120,11 +120,8 @@ jobs:
           cat <(echo -e "${{ secrets.OSSRH_GPG_SECRET_KEY }}") | gpg --batch --import
           gpg --list-secret-keys --keyid-format LONG
 
-      - name: Generate version.properties
-        run: mvn -q compile exec:java
-
-      - name: Update pom version
-        run: mvn compile versions:set -P load-properties
+      - name: Package the data with maven
+        run: mvn package --no-transfer-progress
 
       - name: Publish maven package
         run: mvn deploy
