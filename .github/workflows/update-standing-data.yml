@@ -34,6 +34,9 @@ jobs:
       - name: Merge offence code data files
         run: npm run merge-offence-data
 
+      - name: Download Organisation Unit data
+        run: npm run download-organisation-unit-data
+
       - name: Create pull request
         id: cpr
         uses: peter-evans/create-pull-request@v3
