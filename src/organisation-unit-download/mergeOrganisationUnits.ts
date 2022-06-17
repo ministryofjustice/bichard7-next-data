@@ -8,28 +8,30 @@ const mergeOrganisationUnits = (
   existingData: OrganisationUnit[]
 ): OrganisationUnit[] => {
   newData.forEach((record) => {
-    const oldRecord = existingData.find(
+    const existingRecord = existingData.find(
       (oldR) =>
         matchingValues(oldR.topLevelCode, record.topLevelCode) &&
         matchingValues(oldR.secondLevelCode, record.secondLevelCode) &&
         matchingValues(oldR.thirdLevelCode, record.thirdLevelCode) &&
         matchingValues(oldR.bottomLevelCode, record.bottomLevelCode)
     )
-    if (oldRecord) {
+    if (existingRecord) {
       // eslint-disable-next-line no-param-reassign
-      oldRecord.topLevelName = record.topLevelName ? record.topLevelName : oldRecord.topLevelName
-      oldRecord.secondLevelName = record.secondLevelName
+      existingRecord.topLevelName = record.topLevelName
+        ? record.topLevelName
+        : existingRecord.topLevelName
+      existingRecord.secondLevelName = record.secondLevelName
         ? record.secondLevelName
-        : oldRecord.secondLevelName
-      oldRecord.thirdLevelName = record.thirdLevelName
+        : existingRecord.secondLevelName
+      existingRecord.thirdLevelName = record.thirdLevelName
         ? record.thirdLevelName
-        : oldRecord.thirdLevelName
-      oldRecord.bottomLevelName = record.bottomLevelName
+        : existingRecord.thirdLevelName
+      existingRecord.bottomLevelName = record.bottomLevelName
         ? record.bottomLevelName
-        : oldRecord.bottomLevelName
-      oldRecord.thirdLevelPsaCode = record.thirdLevelPsaCode
+        : existingRecord.bottomLevelName
+      existingRecord.thirdLevelPsaCode = record.thirdLevelPsaCode
         ? record.thirdLevelPsaCode
-        : oldRecord.thirdLevelPsaCode
+        : existingRecord.thirdLevelPsaCode
     } else {
       existingData.push(record)
     }
