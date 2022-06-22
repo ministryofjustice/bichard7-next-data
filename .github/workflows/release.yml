@@ -1,37 +1,53 @@
 name: Release
-on: workflow_dispatch
-  # push:
-  #   branches:
-  #     - main
+on:
+  push:
+    branches:
+      - main
+
+env:
+  GITHUB_USERNAME: "bichard7"
+  GITHUB_EMAIL: "bichard7@users.noreply.github.com"
 
 jobs:
-  # bump-package-version:
-  #   name: Bump NPM package version
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - name: Checkout
-  #       uses: actions/checkout@v3
+  bump-package-version:
+    name: Bump package version
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.bump.outputs.version }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
 
-  #     - name: Setup Node.js
-  #       uses: actions/setup-node@v2
-  #       with:
-  #         node-version: "16.13.1"
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "16.13.1"
 
-  #     - name: Bump output package version
-  #       run: npm version patch
-  #       working-directory: output-data
+      - name: Bump output package version (and capture it)
+        id: bump
+        run: echo "::set-output name=version::$(npm version patch | tr -d 'v')"
+        working-directory: output-data
 
-  #     - name: Commit output package version bump
-  #       run: |
-  #         git config user.name github-actions
-  #         git config user.email github-actions@github.com
-  #         git add output-data/package*.json
-  #         git commit -m "Bump package version"
-  #         git push
+      - name: Check new version
+        run: echo "${{ steps.bump.outputs.version }}"
+
+      - name: Update pom.xml with new version number
+        run: envsubst '$PACKAGE_JSON_VERSION' < pom.template.xml > pom.xml
+        env:
+          PACKAGE_JSON_VERSION: ${{ steps.bump.outputs.version }}
+
+      - name: Commit output package version bump
+        run: |
+          git config user.name ${{ env.GITHUB_USERNAME }}
+          git config user.email ${{ env.GITHUB_EMAIL }}
+          git add output-data/package*.json pom.xml
+          git commit -m "Bump package version"
+          git tag v${{ steps.bump.outputs.version }}
+          git push --follow-tags
 
   release-npm-package:
     name: Release NPM package
-    needs: release-maven-package
+    needs: bump-package-version
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -69,7 +85,7 @@ jobs:
 
   release-maven-package:
     name: Release Maven package
-    # needs: bump-package-version
+    needs: bump-package-version
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -104,41 +120,8 @@ jobs:
           cat <(echo -e "${{ secrets.OSSRH_GPG_SECRET_KEY }}") | gpg --batch --import
           gpg --list-secret-keys --keyid-format LONG
 
-      - name: Generate version.properties
-        run: mvn -q compile exec:java
-        env:
-          MAVEN_USERNAME: ${{ secrets.SONATYPE_USERNAME }}
-          MAVEN_PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
-
-      - name: Check current directory
-        run: pwd
-        env:
-          MAVEN_USERNAME: ${{ secrets.SONATYPE_USERNAME }}
-          MAVEN_PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
-
-      - name: Output version.properties
-        run: cat version.properties
-        env:
-          MAVEN_USERNAME: ${{ secrets.SONATYPE_USERNAME }}
-          MAVEN_PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
-
-      - name: Update pom version
-        run: mvn compile versions:set -P load-properties
-        env:
-          MAVEN_USERNAME: ${{ secrets.SONATYPE_USERNAME }}
-          MAVEN_PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
-      
-      - name: Check git status
-        run: git status
-        env:
-          MAVEN_USERNAME: ${{ secrets.SONATYPE_USERNAME }}
-          MAVEN_PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
-      
-      - name: Output the POM
-        run: cat pom.xml
-        env:
-          MAVEN_USERNAME: ${{ secrets.SONATYPE_USERNAME }}
-          MAVEN_PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
+      - name: Package the data with maven
+        run: mvn package --no-transfer-progress
 
       - name: Publish maven package
         run: mvn deploy
@@ -148,7 +131,9 @@ jobs:
 
   update-core-repo:
     name: Update NPM package in core repo
-    needs: release-npm-package
+    needs:
+      - bump-package-version
+      - release-npm-package
     runs-on: ubuntu-latest
     steps:
       - name: Check out core repo
@@ -158,7 +143,9 @@ jobs:
           token: ${{ secrets.GH_ACCESS_TOKEN }}
 
       - name: Update standing data npm package
-        run: npm install @moj-bichard7-developers/bichard7-next-data@latest
+        run: npm install @moj-bichard7-developers/bichard7-next-data@${VERSION}
+        env:
+          VERSION: ${{ needs.bump-package-version.outputs.version }}
 
       - name: Create pull request
         id: cpr
@@ -167,23 +154,25 @@ jobs:
           branch: auto/update-standing-data
           delete-branch: true
           token: ${{ secrets.GH_ACCESS_TOKEN }}
-          committer: GitHub <noreply@github.com>
-          author: GitHub <noreply@github.com>
-          commit-message: Update standing data
+          committer: ${{ env.GITHUB_USERNAME }} <${{ env.GITHUB_EMAIL }}>
+          author: ${{ env.GITHUB_USERNAME }} <${{ env.GITHUB_EMAIL }}>
+          commit-message: Update standing data dependency
           title: Update standing data
           body: >
             Automated standing data update generated by the
             [Release](https://github.com/ministryofjustice/bichard7-next-data/actions/workflows/release.yml)
             workflow.
 
-      - name: Check PR information
+      - name: PR information
         run: |
           echo "PR #${{ steps.cpr.outputs.pull-request-number }}"
           echo "${{ steps.cpr.outputs.pull-request-url }}"
 
   update-b7-repo:
     name: Update maven package in bichard7-next repo
-    needs: release-maven-package
+    needs:
+      - bump-package-version
+      - release-maven-package
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -192,8 +181,11 @@ jobs:
           repository: ministryofjustice/bichard7-next
           token: ${{ secrets.GH_ACCESS_TOKEN }}
 
-      - name: Update standing data maven package
-        run: docker-compose run app gradle classes --no-daemon --parallel -g gradle-home --update-locks *:bichard7-next-data
+      - name: Update standing data gradle dependency
+        run: |
+          sed -i -r "s/name: 'bichard7-next-data', version: '[0-9]+\.[0-9]+\.[0-9]+'$/name: 'bichard7-next-data', version: '$VERSION'/g" bichard-backend/build.gradle
+        env:
+          VERSION: ${{ needs.bump-package-version.outputs.version }}
 
       - name: Create pull request
         id: cpr
@@ -202,8 +194,8 @@ jobs:
           branch: auto/update-standing-data
           delete-branch: true
           token: ${{ secrets.GH_ACCESS_TOKEN }}
-          committer: GitHub <noreply@github.com>
-          author: GitHub <noreply@github.com>
+          committer: ${{ env.GITHUB_USERNAME }} <${{ env.GITHUB_EMAIL }}>
+          author: ${{ env.GITHUB_USERNAME }} <${{ env.GITHUB_EMAIL }}>
           commit-message: Update standing data
           title: Update standing data
           body: >
@@ -211,7 +203,7 @@ jobs:
             [Release](https://github.com/ministryofjustice/bichard7-next-data/actions/workflows/release.yml)
             workflow.
 
-      - name: Check PR information
+      - name: PR information
         run: |
           echo "PR #${{ steps.cpr.outputs.pull-request-number }}"
           echo "${{ steps.cpr.outputs.pull-request-url }}"
