@@ -17,6 +17,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GH_ACCESS_TOKEN }}
+          persist-credentials: true
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
@@ -41,9 +44,11 @@ jobs:
           git config user.name ${{ env.GITHUB_USERNAME }}
           git config user.email ${{ env.GITHUB_EMAIL }}
           git add output-data/package*.json pom.xml
-          git commit -m "Bump package version"
+          git commit -m "Bump package version [skip actions]"
           git tag v${{ steps.bump.outputs.version }}
-          git push --follow-tags
+
+      - name: Push new commit and tag
+        run: git push --follow-tags
 
   release-npm-package:
     name: Release NPM package
