@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import fs from "fs"
 import forces from "../output-data/data/forces.json"
 import consistentSort from "./lib/consistentSort"

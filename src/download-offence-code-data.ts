@@ -10,5 +10,4 @@ const main = async () => {
   await requestedChangesDownload()
 }
 
-// eslint-disable-next no-console
 main().then(() => console.log("All data downloaded"))

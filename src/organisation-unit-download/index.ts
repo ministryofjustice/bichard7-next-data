@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import * as fs from "fs"
 import policeOrganisationUnitData from "../../input-data/organisation-unit/police-forces.json"
 import existingOrganisationUnitData from "../../output-data/data/organisation-unit.json"

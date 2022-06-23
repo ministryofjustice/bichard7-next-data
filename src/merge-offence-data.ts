@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import fs from "fs"
 import offenceCodeB7CategoryOverrides from "../input-data/offence-code/b7-overrides.json"
 import civilLibraOffenceCodes from "../input-data/offence-code/civil-libra-codes.json"
