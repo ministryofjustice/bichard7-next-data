@@ -10,7 +10,7 @@
     "lint:fix": "eslint --fix .",
     "prepare": "husky install",
     "build": "tsc --noEmit -p tsconfig.json",
-    "download-external-data": "ts-node src/download-external-data.ts",
+    "download-offence-code-data": "ts-node src/download-offence-code-data.ts",
     "download-organisation-unit-data": "ts-node src/download-organisation-unit-data.ts",
     "merge-offence-data": "ts-node src/merge-offence-data.ts",
     "generate-trigger-config": "ts-node src/generate-trigger-properties/generate.ts"
