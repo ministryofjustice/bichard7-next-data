@@ -24,7 +24,6 @@ module.exports = {
     "no-empty-function": "off",
     "no-plusplus": [2, { allowForLoopAfterthoughts: true }],
     "no-shadow": "off",
-    "no-unused-vars": "off",
     "no-useless-constructor": "off",
     "prettier/prettier": "error"
   },

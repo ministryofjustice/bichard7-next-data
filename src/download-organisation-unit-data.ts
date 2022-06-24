@@ -8,7 +8,6 @@ const spreadsheetData = fs.readFileSync(
   "input-data/organisation-unit/INC275907.UT400J.FSCODES.xlsx"
 )
 
-/* eslint-disable @typescript-eslint/no-unused-vars */
 const reGeneratePoliceOrganisationUnits = async () => {
   const policeOrgUnits = generatePoliceOrganisationUnits(spreadsheetData, forces)
   const sortedData = consistentSort(policeOrgUnits)
