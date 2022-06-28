@@ -1,0 +1,118 @@
+version: 2.1
+
+commands:
+  checkout_bichard_repo:
+    description: Check out the bichard7-next repo
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - 43:12:ce:d2:03:6f:b4:8e:a5:c8:8e:f2:85:89:fc:7c
+      - run:
+          name: Remove all SSH keys
+          command: ssh-add -D
+      - run:
+          name: Add bichard7-next deploy key
+          command: ssh-add ~/.ssh/id_rsa_4312ced2036fb48ea5c88ef28589fc7c
+      - run: rm -rf ~/bichard7-next
+      - run:
+          name: Clone bichard7-next
+          command: git clone --depth 1 git@github.com:ministryofjustice/bichard7-next.git ~/bichard7-next
+
+  fetch_docker_image:
+    parameters:
+      image:
+        type: string
+    steps:
+      - run:
+          name: Fetch the <<parameters.image>> image
+          working_directory: ~/bichard7-next
+          command: bash scripts/fetch_docker_image.sh <<parameters.image>>
+
+  fetch_docker_images:
+    description: Fetch all of the required docker images from ECR
+    steps:
+      - fetch_docker_image:
+          image: beanconnect
+      - fetch_docker_image:
+          image: e2etests
+      - fetch_docker_image:
+          image: nginx-auth-proxy
+      - fetch_docker_image:
+          image: pncemulator
+      - fetch_docker_image:
+          image: user-service
+
+  run_beanconnect_and_wait:
+    steps:
+      - run:
+          name: Run BeanConnect and PNC emulator docker services
+          command: make run-beanconnect
+      - run:
+          name: Wait for Bichard
+          command: bash ./scripts/wait_for_bichard.sh
+      - run:
+          name: Try to run BeanConnect and PNC emulator docker services again
+          command: make run-beanconnect && bash ./scripts/wait_for_bichard.sh
+          when: on_fail
+
+  build_bichard:
+    steps:
+      - checkout_bichard_repo
+      - run:
+          name: Build Bichard application
+          working_directory: ~/bichard7-next
+          command: make build-ci
+
+jobs:
+  run_bichard_unit_tests:
+    machine:
+      image: ubuntu-2004:202104-01
+      docker_layer_caching: true
+    steps:
+      - checkout_bichard_repo
+      - build_bichard
+      - run:
+          name: Run Bichard unit tests
+          working_directory: ~/bichard7-next
+          command: make test
+
+  run_e2e_tests:
+    machine:
+      image: ubuntu-2004:202104-01
+      docker_layer_caching: true
+    working_directory: ~
+    steps:
+      - checkout_bichard_repo
+      - fetch_docker_images
+      - build_bichard
+      - run:
+          name: Run full stack (excluding beanconnect and PNC emulator)
+          working_directory: ~/bichard7-next
+          command: make run-all -j 4
+      - run:
+          name: Run beanconnect and PNC emulator
+          working_directory: ~/bichard7-next
+          command: make run-beanconnect
+      - run:
+          name: Wait for Bichard
+          working_directory: ~/bichard7-next
+          command: bash ./scripts/wait_for_bichard.sh
+      - run:
+          name: Try to run beanconnect and PNC emulator again
+          command: make run-beanconnect && bash ./scripts/wait_for_bichard.sh
+          when: on_fail
+      - run:
+          name: Run end-to-end tests
+          working_directory: ~/bichard7-next
+          command: bash -c ". ./scripts/e2e-tests/e2e-tests-env.sh && docker-compose run e2e-tests"
+          environment:
+            STACK_TYPE: next
+            WORKSPACE: local-next
+            AUTH_TYPE: user-service
+
+workflows:
+  version: 2
+  test:
+    jobs:
+      - run_bichard_unit_tests
+      - run_e2e_tests
