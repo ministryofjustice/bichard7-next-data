@@ -1,6 +1,13 @@
 version: 2.1
 
 commands:
+  build_data_jar:
+    description: Package the standing data into a jar file
+    steps:
+      - run:
+          name: Package data with maven
+          command: mvn package --no-transfer-progress
+
   checkout_bichard_repo:
     description: Check out the bichard7-next repo
     steps:
@@ -13,10 +20,24 @@ commands:
       - run:
           name: Add bichard7-next deploy key
           command: ssh-add ~/.ssh/id_rsa_4312ced2036fb48ea5c88ef28589fc7c
-      - run: rm -rf ~/bichard7-next
       - run:
           name: Clone bichard7-next
           command: git clone --depth 1 git@github.com:ministryofjustice/bichard7-next.git ~/bichard7-next
+
+  build_bichard:
+    description: Build the Bichard application and copy in the latest standing data
+    steps:
+      - run:
+          name: Build Bichard application
+          working_directory: ~/bichard7-next
+          command: make build-ci
+      - run:
+          name: Copy the standing data jar into the built bichard ear file
+          command: |
+            cd $(mktemp -d)
+            mkdir lib
+            cp $(find ~/project/target -type f -name '*.jar' -and ! -name '*sources.jar') ./lib
+            jar uf ~/bichard7-next/build/libs/bichard7-next.ear lib/*
 
   fetch_docker_image:
     parameters:
@@ -55,20 +76,14 @@ commands:
           command: make run-beanconnect && bash ./scripts/wait_for_bichard.sh
           when: on_fail
 
-  build_bichard:
-    steps:
-      - checkout_bichard_repo
-      - run:
-          name: Build Bichard application
-          working_directory: ~/bichard7-next
-          command: make build-ci
-
 jobs:
   run_bichard_unit_tests:
     machine:
       image: ubuntu-2004:202104-01
       docker_layer_caching: true
     steps:
+      - checkout
+      - build_data_jar
       - checkout_bichard_repo
       - build_bichard
       - run:
@@ -82,13 +97,15 @@ jobs:
       docker_layer_caching: true
     working_directory: ~
     steps:
+      - checkout
+      - build_data_jar
       - checkout_bichard_repo
       - fetch_docker_images
       - build_bichard
       - run:
           name: Run full stack (excluding beanconnect and PNC emulator)
           working_directory: ~/bichard7-next
-          command: make run-all -j 4
+          command: make run-all-no-bc -j 4
       - run:
           name: Run beanconnect and PNC emulator
           working_directory: ~/bichard7-next
