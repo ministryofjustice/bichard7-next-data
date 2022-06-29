@@ -76,6 +76,25 @@ commands:
           command: make run-beanconnect && bash ./scripts/wait_for_bichard.sh
           when: on_fail
 
+  run_e2e_test_chunk:
+    steps:
+      - run:
+          name: Pipe logs to the test container
+          command: bash ./.circleci/scripts/pipe_logs.sh liberty-next &> /tmp/logpipe.txt
+          background: true
+      - run:
+          name: Run end-to-end tests
+          working_directory: ~/bichard7-next
+          command: make e2e-tests-record-chunk
+          environment:
+            TOTAL_CHUNKS: $CIRCLE_NODE_TOTAL
+            CHUNK_NUMBER: $CIRCLE_NODE_INDEX
+            STACK_TYPE: next
+            BICHARD_REDIRECT_URL: https://172.17.0.1:9443/bichard-ui/Authenticate
+            WORKSPACE: local-next
+            RECORD: true
+            AUTH_TYPE: bichard-jwt
+
 jobs:
   run_bichard_unit_tests:
     machine:
@@ -96,12 +115,13 @@ jobs:
       image: ubuntu-2004:202104-01
       docker_layer_caching: true
     working_directory: ~
+    parallelism: 4
     steps:
       - checkout
       - build_data_jar
       - checkout_bichard_repo
-      - fetch_docker_images
       - build_bichard
+      - fetch_docker_images
       - run:
           name: Run full stack (excluding beanconnect and PNC emulator)
           working_directory: ~/bichard7-next
@@ -116,16 +136,10 @@ jobs:
           command: bash ./scripts/wait_for_bichard.sh
       - run:
           name: Try to run beanconnect and PNC emulator again
+          working_directory: ~/bichard7-next
           command: make run-beanconnect && bash ./scripts/wait_for_bichard.sh
           when: on_fail
-      - run:
-          name: Run end-to-end tests
-          working_directory: ~/bichard7-next
-          command: bash -c ". ./scripts/e2e-tests/e2e-tests-env.sh && docker-compose run e2e-tests"
-          environment:
-            STACK_TYPE: next
-            WORKSPACE: local-next
-            AUTH_TYPE: user-service
+      - run_e2e_test_chunk
 
 workflows:
   version: 2
