@@ -1,9 +1,8 @@
 /* eslint-disable no-console */
-/* eslint-disable import/no-relative-packages */
 import fs from "fs"
-import organisationUnitDownload from "./organisation-unit-download"
 import forces from "../output-data/data/forces.json"
 import consistentSort from "./lib/consistentSort"
+import organisationUnitDownload from "./organisation-unit-download"
 import generatePoliceOrganisationUnits from "./organisation-unit-download/generatePoliceOrganisationUnits"
 
 const spreadsheetData = fs.readFileSync(

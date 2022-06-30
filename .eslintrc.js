@@ -16,6 +16,7 @@ module.exports = {
     quotes: [2, "double", { avoidEscape: true }],
     "comma-dangle": "off",
     "import/extensions": "off",
+    "import/no-relative-packages": "off",
     "import/no-unresolved": "off",
     "no-plusplus": [2, { allowForLoopAfterthoughts: true }],
     "no-empty-function": "off",
