@@ -95,6 +95,27 @@ commands:
             RECORD: true
             AUTH_TYPE: bichard-jwt
 
+  save_e2e_artifacts:
+    steps:
+      - run:
+          name: Copy the artifacts from the image
+          when: always
+          command: docker cp $(docker ps -a -q --filter "name=e2e-tests" --filter "status=exited"):/src/screenshots ./screenshots
+      - run:
+          name: Compress the artifacts for easier downloading
+          when: always
+          command: for file in ./screenshots/*; do tar -czf ${file}.tar.gz $file; done
+      - run:
+          name: Create the saved_artifacts directory
+          when: always
+          command: mkdir ./saved_artifacts
+      - run:
+          name: Move the gzipped files across
+          when: always
+          command: mv ./screenshots/*.tar.gz ./saved_artifacts/
+      - store_artifacts:
+          path: /home/circleci/project/saved_artifacts
+
 jobs:
   run_bichard_unit_tests:
     machine:
@@ -140,6 +161,7 @@ jobs:
           command: make run-beanconnect && bash ./scripts/wait_for_bichard.sh
           when: on_fail
       - run_e2e_test_chunk
+      - save_e2e_artifacts
 
 workflows:
   version: 2
