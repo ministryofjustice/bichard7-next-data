@@ -28,16 +28,18 @@ commands:
     description: Build the Bichard application and copy in the latest standing data
     steps:
       - run:
+          name: Copy data JAR into place
+          command: |
+            cp $(find ~/project/target -type f -name '*.jar' -and ! -name '*sources.jar') ~/bichard7-next/jars/bichard7-next-data.jar
+      - run:
+          name: Replace gradle data dependency with reference to local JAR
+          working_directory: ~/bichard7-next
+          command: |
+            sed -i -r "s|^.*name: 'bichard7-next-data'.*$|    implementation files('../jars/bichard7-next-data.jar')|" bichard-backend/build.gradle
+      - run:
           name: Build Bichard application
           working_directory: ~/bichard7-next
           command: make build-ci
-      - run:
-          name: Copy the standing data jar into the built bichard ear file
-          command: |
-            cd $(mktemp -d)
-            mkdir lib
-            cp $(find ~/project/target -type f -name '*.jar' -and ! -name '*sources.jar') ./lib
-            jar uf ~/bichard7-next/build/libs/bichard7-next.ear lib/*
 
   fetch_docker_image:
     parameters:
