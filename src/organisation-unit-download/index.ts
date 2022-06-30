@@ -1,12 +1,10 @@
-/* eslint-disable no-console */
-/* eslint-disable import/no-relative-packages */
 import * as fs from "fs"
+import policeOrganisationUnitData from "../../input-data/organisation-unit/police-forces.json"
 import existingOrganisationUnitData from "../../output-data/data/organisation-unit.json"
 import getDownloadUrl from "../cjs-download/getDownloadUrl"
 import consistentSort from "../lib/consistentSort"
 import downloadFile from "../lib/downloadFile"
 import generateCourtOrganisationUnits from "./generateCourtOrganisationUnits"
-import policeOrganisationUnitData from "../../input-data/organisation-unit/police-forces.json"
 import mergeOrganisationUnits from "./mergeOrganisationUnits"
 
 export default async () => {

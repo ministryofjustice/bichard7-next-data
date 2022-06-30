@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import fs from "fs"
 import consistentSort from "../lib/consistentSort"
 import convertXls from "./convertXls"

@@ -1,4 +1,3 @@
-/* eslint-disable import/no-relative-packages */
 import fs from "fs"
 import triggerConfig from "../../output-data/data/excluded-trigger-config.json"
 import type { ExcludedTriggerConfig, TriggerCode } from "../../output-data/types/types"

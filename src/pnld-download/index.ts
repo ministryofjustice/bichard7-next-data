@@ -1,4 +1,4 @@
-/* eslint-disable no-await-in-loop, no-console */
+/* eslint-disable no-await-in-loop */
 import * as fs from "fs"
 import consistentSort from "../lib/consistentSort"
 import config from "./config"

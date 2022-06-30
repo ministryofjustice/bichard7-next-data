@@ -1,5 +1,3 @@
-/* eslint-disable no-console */
-/* eslint-disable import/no-relative-packages */
 import fs from "fs"
 import forces from "../output-data/data/forces.json"
 import consistentSort from "./lib/consistentSort"

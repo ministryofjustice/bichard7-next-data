@@ -1,8 +1,7 @@
-/* eslint-disable import/no-relative-packages */
 import fs from "fs"
+import forces from "../../output-data/data/forces.json"
 import { OrganisationUnit } from "../../output-data/types/types"
 import generatePoliceOrganisationUnits from "./generatePoliceOrganisationUnits"
-import forces from "../../output-data/data/forces.json"
 
 describe("GeneratePoliceUnits", () => {
   it("should not include empty rows", () => {

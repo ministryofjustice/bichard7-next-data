@@ -1,0 +1,173 @@
+version: 2.1
+
+commands:
+  build_data_jar:
+    description: Package the standing data into a jar file
+    steps:
+      - run:
+          name: Package data with maven
+          command: mvn package --no-transfer-progress
+
+  checkout_bichard_repo:
+    description: Check out the bichard7-next repo
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - 43:12:ce:d2:03:6f:b4:8e:a5:c8:8e:f2:85:89:fc:7c
+      - run:
+          name: Remove all SSH keys
+          command: ssh-add -D
+      - run:
+          name: Add bichard7-next deploy key
+          command: ssh-add ~/.ssh/id_rsa_4312ced2036fb48ea5c88ef28589fc7c
+      - run:
+          name: Clone bichard7-next
+          command: git clone --depth 1 git@github.com:ministryofjustice/bichard7-next.git ~/bichard7-next
+
+  build_bichard:
+    description: Build the Bichard application and copy in the latest standing data
+    steps:
+      - run:
+          name: Copy data JAR into place
+          command: |
+            cp $(find ~/project/target -type f -name '*.jar' -and ! -name '*sources.jar') ~/bichard7-next/jars/bichard7-next-data.jar
+      - run:
+          name: Replace gradle data dependency with reference to local JAR
+          working_directory: ~/bichard7-next
+          command: |
+            sed -i -r "s|^.*name: 'bichard7-next-data'.*$|    implementation files('../jars/bichard7-next-data.jar')|" bichard-backend/build.gradle
+      - run:
+          name: Build Bichard application
+          working_directory: ~/bichard7-next
+          command: make build-ci
+
+  fetch_docker_image:
+    parameters:
+      image:
+        type: string
+    steps:
+      - run:
+          name: Fetch the <<parameters.image>> image
+          working_directory: ~/bichard7-next
+          command: bash scripts/fetch_docker_image.sh <<parameters.image>>
+
+  fetch_docker_images:
+    description: Fetch all of the required docker images from ECR
+    steps:
+      - fetch_docker_image:
+          image: beanconnect
+      - fetch_docker_image:
+          image: e2etests
+      - fetch_docker_image:
+          image: nginx-auth-proxy
+      - fetch_docker_image:
+          image: pncemulator
+      - fetch_docker_image:
+          image: user-service
+
+  run_beanconnect_and_wait:
+    steps:
+      - run:
+          name: Run BeanConnect and PNC emulator docker services
+          command: make run-beanconnect
+      - run:
+          name: Wait for Bichard
+          command: bash ./scripts/wait_for_bichard.sh
+      - run:
+          name: Try to run BeanConnect and PNC emulator docker services again
+          command: make run-beanconnect && bash ./scripts/wait_for_bichard.sh
+          when: on_fail
+
+  run_e2e_test_chunk:
+    steps:
+      - run:
+          name: Pipe logs to the test container
+          command: bash ./.circleci/scripts/pipe_logs.sh liberty-next &> /tmp/logpipe.txt
+          background: true
+      - run:
+          name: Run end-to-end tests
+          working_directory: ~/bichard7-next
+          command: make e2e-tests-record-chunk
+          environment:
+            TOTAL_CHUNKS: $CIRCLE_NODE_TOTAL
+            CHUNK_NUMBER: $CIRCLE_NODE_INDEX
+            STACK_TYPE: next
+            BICHARD_REDIRECT_URL: https://172.17.0.1:9443/bichard-ui/Authenticate
+            WORKSPACE: local-next
+            RECORD: true
+            AUTH_TYPE: bichard-jwt
+
+  save_e2e_artifacts:
+    steps:
+      - run:
+          name: Copy the artifacts from the image
+          when: always
+          command: docker cp $(docker ps -a -q --filter "name=e2e-tests" --filter "status=exited"):/src/screenshots ./screenshots
+      - run:
+          name: Compress the artifacts for easier downloading
+          when: always
+          command: for file in ./screenshots/*; do tar -czf ${file}.tar.gz $file; done
+      - run:
+          name: Create the saved_artifacts directory
+          when: always
+          command: mkdir ./saved_artifacts
+      - run:
+          name: Move the gzipped files across
+          when: always
+          command: mv ./screenshots/*.tar.gz ./saved_artifacts/
+      - store_artifacts:
+          path: /home/circleci/project/saved_artifacts
+
+jobs:
+  run_bichard_unit_tests:
+    machine:
+      image: ubuntu-2004:202104-01
+      docker_layer_caching: true
+    steps:
+      - checkout
+      - build_data_jar
+      - checkout_bichard_repo
+      - build_bichard
+      - run:
+          name: Run Bichard unit tests
+          working_directory: ~/bichard7-next
+          command: make test
+
+  run_e2e_tests:
+    machine:
+      image: ubuntu-2004:202104-01
+      docker_layer_caching: true
+    working_directory: ~
+    parallelism: 4
+    steps:
+      - checkout
+      - build_data_jar
+      - checkout_bichard_repo
+      - build_bichard
+      - fetch_docker_images
+      - run:
+          name: Run full stack (excluding beanconnect and PNC emulator)
+          working_directory: ~/bichard7-next
+          command: make run-all-no-bc -j 4
+      - run:
+          name: Run beanconnect and PNC emulator
+          working_directory: ~/bichard7-next
+          command: make run-beanconnect
+      - run:
+          name: Wait for Bichard
+          working_directory: ~/bichard7-next
+          command: bash ./scripts/wait_for_bichard.sh
+      - run:
+          name: Try to run beanconnect and PNC emulator again
+          working_directory: ~/bichard7-next
+          command: make run-beanconnect && bash ./scripts/wait_for_bichard.sh
+          when: on_fail
+      - run_e2e_test_chunk
+      - save_e2e_artifacts
+
+workflows:
+  version: 2
+  test:
+    jobs:
+      - run_bichard_unit_tests
+      - run_e2e_tests
