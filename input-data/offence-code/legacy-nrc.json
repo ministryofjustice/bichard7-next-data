@@ -2368,54 +2368,6 @@
     "endDate": null
   },
   {
-    "cjsCode": "RE59024",
-    "source": "NRC",
-    "recordCreated": [
-      2021,
-      7,
-      13
-    ],
-    "offenceCategory": "CS",
-    "recordableOnPnc": true,
-    "notifiableToHo": null,
-    "homeOfficeClassification": null,
-    "offenceTitle": "Manufacture / sell / hire or offer / expose / possess for the purpose of sale / hire a flick / gravity knife",
-    "startDate": null,
-    "endDate": null
-  },
-  {
-    "cjsCode": "RE59025",
-    "source": "NRC",
-    "recordCreated": [
-      2021,
-      7,
-      13
-    ],
-    "offenceCategory": "CS",
-    "recordableOnPnc": true,
-    "notifiableToHo": null,
-    "homeOfficeClassification": null,
-    "offenceTitle": "Possess a flick knife or gravity knife",
-    "startDate": null,
-    "endDate": null
-  },
-  {
-    "cjsCode": "CJ88153",
-    "source": "NRC",
-    "recordCreated": [
-      2021,
-      7,
-      13
-    ],
-    "offenceCategory": "CS",
-    "recordableOnPnc": true,
-    "notifiableToHo": null,
-    "homeOfficeClassification": null,
-    "offenceTitle": "Possess an offensive weapon in private",
-    "startDate": null,
-    "endDate": null
-  },
-  {
     "cjsCode": "OW19502",
     "source": "NRC",
     "recordCreated": [
@@ -4736,22 +4688,6 @@
     "endDate": null
   },
   {
-    "cjsCode": "FS13009B",
-    "source": "NRC",
-    "recordCreated": [
-      2020,
-      3,
-      12
-    ],
-    "offenceCategory": "CE",
-    "recordableOnPnc": true,
-    "notifiableToHo": null,
-    "homeOfficeClassification": null,
-    "offenceTitle": "Aid abet counsel or procure contravention/failure to comply with EU provision concerning food safety and hygiene",
-    "startDate": null,
-    "endDate": null
-  },
-  {
     "cjsCode": "AI04008C",
     "source": "NRC",
     "recordCreated": [
@@ -6688,22 +6624,6 @@
     "endDate": null
   },
   {
-    "cjsCode": "BL19036",
-    "source": "NRC",
-    "recordCreated": [
-      2019,
-      10,
-      30
-    ],
-    "offenceCategory": "CS",
-    "recordableOnPnc": false,
-    "notifiableToHo": null,
-    "homeOfficeClassification": null,
-    "offenceTitle": "Person in open space carry out activity which is prohibited by notice",
-    "startDate": null,
-    "endDate": null
-  },
-  {
     "cjsCode": "AW14001",
     "source": "NRC",
     "recordCreated": [
@@ -8572,22 +8492,6 @@
     "notifiableToHo": null,
     "homeOfficeClassification": null,
     "offenceTitle": "Fail to return library book within 14 days of borrowing it",
-    "startDate": null,
-    "endDate": null
-  },
-  {
-    "cjsCode": "GA18001",
-    "source": "NRC",
-    "recordCreated": [
-      2019,
-      2,
-      19
-    ],
-    "offenceCategory": "CE",
-    "recordableOnPnc": true,
-    "notifiableToHo": null,
-    "homeOfficeClassification": null,
-    "offenceTitle": "Contravene Article 10 of EU Regulation 2016/426 and Regulation 7 of the Gas Appliances (Enforcement) and Miscellaneous Amendments Regulations 2018",
     "startDate": null,
     "endDate": null
   },
@@ -11104,22 +11008,6 @@
     "endDate": null
   },
   {
-    "cjsCode": "EA10019",
-    "source": "NRC",
-    "recordCreated": [
-      2018,
-      2,
-      1
-    ],
-    "offenceCategory": "CS",
-    "recordableOnPnc": false,
-    "notifiableToHo": null,
-    "homeOfficeClassification": null,
-    "offenceTitle": "Private hire vehicle driver failed or refused to carry out booking for vehicle for disabled person accompanied by assistance dog",
-    "startDate": null,
-    "endDate": null
-  },
-  {
     "cjsCode": "32CP001",
     "source": "NRC",
     "recordCreated": [
@@ -11328,22 +11216,6 @@
     "endDate": null
   },
   {
-    "cjsCode": "EP16012",
-    "source": "NRC",
-    "recordCreated": [
-      2018,
-      2,
-      28
-    ],
-    "offenceCategory": "CE",
-    "recordableOnPnc": true,
-    "notifiableToHo": null,
-    "homeOfficeClassification": null,
-    "offenceTitle": "Fail to comply with or contravene Environmental Permit condition",
-    "startDate": null,
-    "endDate": null
-  },
-  {
     "cjsCode": "FS90036",
     "source": "NRC",
     "recordCreated": [
@@ -11372,22 +11244,6 @@
     "notifiableToHo": null,
     "homeOfficeClassification": null,
     "offenceTitle": "Possess or supply tobacco product in breach of packaging regulations",
-    "startDate": null,
-    "endDate": null
-  },
-  {
-    "cjsCode": "CS06231",
-    "source": "NRC",
-    "recordCreated": [
-      2018,
-      1,
-      11
-    ],
-    "offenceCategory": "CS",
-    "recordableOnPnc": true,
-    "notifiableToHo": null,
-    "homeOfficeClassification": null,
-    "offenceTitle": "Failure to return a confirmation statement",
     "startDate": null,
     "endDate": null
   },
@@ -12092,38 +11948,6 @@
     "notifiableToHo": null,
     "homeOfficeClassification": null,
     "offenceTitle": "Fail to comply with the Cornwall Sea Fisheries District Lobster, Crawfish and Crab Fishing Permit",
-    "startDate": null,
-    "endDate": null
-  },
-  {
-    "cjsCode": "EP16002",
-    "source": "NRC",
-    "recordCreated": [
-      2017,
-      10,
-      4
-    ],
-    "offenceCategory": "CE",
-    "recordableOnPnc": true,
-    "notifiableToHo": null,
-    "homeOfficeClassification": null,
-    "offenceTitle": "Fail to comply with Environmental Permitting Notice",
-    "startDate": null,
-    "endDate": null
-  },
-  {
-    "cjsCode": "PH97011",
-    "source": "NRC",
-    "recordCreated": [
-      2017,
-      10,
-      4
-    ],
-    "offenceCategory": "CE",
-    "recordableOnPnc": true,
-    "notifiableToHo": null,
-    "homeOfficeClassification": null,
-    "offenceTitle": "Stalking involving serious alarm/distress",
     "startDate": null,
     "endDate": null
   },
@@ -13136,38 +12960,6 @@
     "endDate": null
   },
   {
-    "cjsCode": "SX03224",
-    "source": "NRC",
-    "recordCreated": [
-      2017,
-      7,
-      3
-    ],
-    "offenceCategory": "Contrary to section 15A(1) and (3) of the Sexual Offences Act 2003",
-    "recordableOnPnc": true,
-    "notifiableToHo": null,
-    "homeOfficeClassification": null,
-    "offenceTitle": "",
-    "startDate": null,
-    "endDate": null
-  },
-  {
-    "cjsCode": "SX03224",
-    "source": "NRC",
-    "recordCreated": [
-      2017,
-      7,
-      4
-    ],
-    "offenceCategory": "Contrary to section 15A(1) and (3) of the Sexual Offences Act 2003",
-    "recordableOnPnc": true,
-    "notifiableToHo": null,
-    "homeOfficeClassification": null,
-    "offenceTitle": "",
-    "startDate": null,
-    "endDate": null
-  },
-  {
     "cjsCode": "01LL014",
     "source": "NRC",
     "recordCreated": [
@@ -13216,38 +13008,6 @@
     "endDate": null
   },
   {
-    "cjsCode": "FI68444C",
-    "source": "NRC",
-    "recordCreated": [
-      2017,
-      7,
-      5
-    ],
-    "offenceCategory": "Contrary to Section 1(1) of the Criminal Law Act 1977",
-    "recordableOnPnc": true,
-    "notifiableToHo": null,
-    "homeOfficeClassification": null,
-    "offenceTitle": "",
-    "startDate": null,
-    "endDate": null
-  },
-  {
-    "cjsCode": "SX03224A",
-    "source": "NRC",
-    "recordCreated": [
-      2017,
-      7,
-      6
-    ],
-    "offenceCategory": "Contrary to Section 1(1) of the Criminal Attempts Act 1981",
-    "recordableOnPnc": true,
-    "notifiableToHo": null,
-    "homeOfficeClassification": null,
-    "offenceTitle": "",
-    "startDate": null,
-    "endDate": null
-  },
-  {
     "cjsCode": "61EP002",
     "source": "NRC",
     "recordCreated": [
@@ -13256,54 +13016,6 @@
       6
     ],
     "offenceCategory": "Contrary to Regulation 38(1)(a) and 39 of the Environmental Permitting (England and Wales) Regulations 2016",
-    "recordableOnPnc": true,
-    "notifiableToHo": null,
-    "homeOfficeClassification": null,
-    "offenceTitle": "",
-    "startDate": null,
-    "endDate": null
-  },
-  {
-    "cjsCode": "SX03224",
-    "source": "NRC",
-    "recordCreated": [
-      2017,
-      7,
-      7
-    ],
-    "offenceCategory": "Contrary to section 15A(1) and (3) of the Sexual Offences Act 2004",
-    "recordableOnPnc": true,
-    "notifiableToHo": null,
-    "homeOfficeClassification": null,
-    "offenceTitle": "[1] at [2] [3]",
-    "startDate": null,
-    "endDate": null
-  },
-  {
-    "cjsCode": "SX03224",
-    "source": "NRC",
-    "recordCreated": [
-      2017,
-      7,
-      10
-    ],
-    "offenceCategory": "Contrary to section 15A(1) and (3) of the Sexual Offences Act 2004",
-    "recordableOnPnc": true,
-    "notifiableToHo": null,
-    "homeOfficeClassification": null,
-    "offenceTitle": "",
-    "startDate": null,
-    "endDate": null
-  },
-  {
-    "cjsCode": "SX03224",
-    "source": "NRC",
-    "recordCreated": [
-      2017,
-      7,
-      10
-    ],
-    "offenceCategory": "Contrary to section 15A(1) and (3) of the Sexual Offences Act 2004",
     "recordableOnPnc": true,
     "notifiableToHo": null,
     "homeOfficeClassification": null,
@@ -13321,22 +13033,6 @@
     ],
     "offenceCategory": "Contrary to Section 27(4) Powers of Criminal Courts (Sentencing) Act 2000",
     "recordableOnPnc": false,
-    "notifiableToHo": null,
-    "homeOfficeClassification": null,
-    "offenceTitle": "",
-    "startDate": null,
-    "endDate": null
-  },
-  {
-    "cjsCode": "FI68390C",
-    "source": "NRC",
-    "recordCreated": [
-      2017,
-      7,
-      13
-    ],
-    "offenceCategory": "Contrary to Section 1(1) of the Criminal Law Act 1977",
-    "recordableOnPnc": true,
     "notifiableToHo": null,
     "homeOfficeClassification": null,
     "offenceTitle": "",
@@ -13368,38 +13064,6 @@
       13
     ],
     "offenceCategory": "Contrary to regulation 12(1) and 38(1) of the environmental permitting ( England and wales) regulations 2016",
-    "recordableOnPnc": true,
-    "notifiableToHo": null,
-    "homeOfficeClassification": null,
-    "offenceTitle": "",
-    "startDate": null,
-    "endDate": null
-  },
-  {
-    "cjsCode": "SX03224",
-    "source": "NRC",
-    "recordCreated": [
-      2017,
-      7,
-      18
-    ],
-    "offenceCategory": "Contrary to section 15A(1) and (3) of the Sexual Offences Act 2004",
-    "recordableOnPnc": true,
-    "notifiableToHo": null,
-    "homeOfficeClassification": null,
-    "offenceTitle": "",
-    "startDate": null,
-    "endDate": null
-  },
-  {
-    "cjsCode": "SX03224",
-    "source": "NRC",
-    "recordCreated": [
-      2017,
-      7,
-      19
-    ],
-    "offenceCategory": "Contrary to section 15A(1) and (3) of the Sexual Offences Act 2005",
     "recordableOnPnc": true,
     "notifiableToHo": null,
     "homeOfficeClassification": null,
@@ -13496,22 +13160,6 @@
       24
     ],
     "offenceCategory": "Contrary to section 4(1) and (4) of the Protection from Harassment Act 1997",
-    "recordableOnPnc": true,
-    "notifiableToHo": null,
-    "homeOfficeClassification": null,
-    "offenceTitle": "",
-    "startDate": null,
-    "endDate": null
-  },
-  {
-    "cjsCode": "SX03224A",
-    "source": "NRC",
-    "recordCreated": [
-      2017,
-      7,
-      26
-    ],
-    "offenceCategory": "Contrary to section 1(1) of the Criminal Attempts Act 1981",
     "recordableOnPnc": true,
     "notifiableToHo": null,
     "homeOfficeClassification": null,
@@ -13664,22 +13312,6 @@
     "endDate": null
   },
   {
-    "cjsCode": "SX03224",
-    "source": "NRC",
-    "recordCreated": [
-      2017,
-      6,
-      13
-    ],
-    "offenceCategory": "Contrary to section 15A(1) and (3) of the Sexual Offences Act 2003",
-    "recordableOnPnc": true,
-    "notifiableToHo": null,
-    "homeOfficeClassification": null,
-    "offenceTitle": "",
-    "startDate": null,
-    "endDate": null
-  },
-  {
     "cjsCode": "22WK001",
     "source": "NRC",
     "recordCreated": [
@@ -13692,38 +13324,6 @@
     "notifiableToHo": null,
     "homeOfficeClassification": null,
     "offenceTitle": "",
-    "startDate": null,
-    "endDate": null
-  },
-  {
-    "cjsCode": "SX03224",
-    "source": "NRC",
-    "recordCreated": [
-      2017,
-      6,
-      13
-    ],
-    "offenceCategory": "Contrary to section 15A(1) and (3) of the Sexual Offences Act 2003",
-    "recordableOnPnc": true,
-    "notifiableToHo": null,
-    "homeOfficeClassification": null,
-    "offenceTitle": "",
-    "startDate": null,
-    "endDate": null
-  },
-  {
-    "cjsCode": "SX03224A",
-    "source": "NRC",
-    "recordCreated": [
-      2017,
-      6,
-      15
-    ],
-    "offenceCategory": "Contrary to section 15A(1) and (3) of the Sexual Offences Act 2003",
-    "recordableOnPnc": true,
-    "notifiableToHo": null,
-    "homeOfficeClassification": null,
-    "offenceTitle": "[1] at [2] [3]",
     "startDate": null,
     "endDate": null
   },
@@ -13849,22 +13449,6 @@
     ],
     "offenceCategory": "Contrary to Section 1(1) of the Criminal Attempts Act 1981",
     "recordableOnPnc": false,
-    "notifiableToHo": null,
-    "homeOfficeClassification": null,
-    "offenceTitle": "",
-    "startDate": null,
-    "endDate": null
-  },
-  {
-    "cjsCode": "MS15003C",
-    "source": "NRC",
-    "recordCreated": [
-      2017,
-      6,
-      28
-    ],
-    "offenceCategory": "Contrary to section 1(1) of the Criminal Law Act 1978",
-    "recordableOnPnc": true,
     "notifiableToHo": null,
     "homeOfficeClassification": null,
     "offenceTitle": "",
@@ -14828,22 +14412,6 @@
     "endDate": null
   },
   {
-    "cjsCode": "TR68278",
-    "source": "NRC",
-    "recordCreated": [
-      2017,
-      2,
-      15
-    ],
-    "offenceCategory": "Contrary to section 97(1)(a) of the Transport Act 1968",
-    "recordableOnPnc": false,
-    "notifiableToHo": null,
-    "homeOfficeClassification": null,
-    "offenceTitle": "",
-    "startDate": null,
-    "endDate": null
-  },
-  {
     "cjsCode": "40CI001",
     "source": "NRC",
     "recordCreated": [
@@ -15196,22 +14764,6 @@
     "endDate": null
   },
   {
-    "cjsCode": "FI68444C",
-    "source": "NRC",
-    "recordCreated": [
-      2016,
-      12,
-      12
-    ],
-    "offenceCategory": "Contrary to Section 1(1) of the Criminal Law Act 1977",
-    "recordableOnPnc": true,
-    "notifiableToHo": null,
-    "homeOfficeClassification": null,
-    "offenceTitle": "",
-    "startDate": null,
-    "endDate": null
-  },
-  {
     "cjsCode": "01HH002",
     "source": "NRC",
     "recordCreated": [
@@ -15272,22 +14824,6 @@
     "notifiableToHo": null,
     "homeOfficeClassification": null,
     "offenceTitle": "",
-    "startDate": null,
-    "endDate": null
-  },
-  {
-    "cjsCode": "WS10004",
-    "source": "NRC",
-    "recordCreated": [
-      2016,
-      12,
-      29
-    ],
-    "offenceCategory": "Contrary to Regulation 7 and 10(1) Water Resources (Control of Pollution)(Silage, Slurry and Agricultural Fuel Oil)(Wales) Regulations 2010",
-    "recordableOnPnc": false,
-    "notifiableToHo": null,
-    "homeOfficeClassification": null,
-    "offenceTitle": "[1] at [2] [3]",
     "startDate": null,
     "endDate": null
   },
