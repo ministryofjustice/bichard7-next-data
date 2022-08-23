@@ -1,6 +1,6 @@
 {
   "name": "@moj-bichard7-developers/bichard7-next-data",
-  "version": "2.0.23",
+  "version": "2.0.24",
   "description": "The standing data for Bichard",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
