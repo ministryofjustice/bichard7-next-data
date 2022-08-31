@@ -158,10 +158,8 @@ jobs:
           working_directory: ~/bichard7-next
           command: bash ./scripts/wait_for_bichard.sh
       - run:
-          name: Try to run beanconnect and PNC emulator again
-          working_directory: ~/bichard7-next
-          command: make run-beanconnect && bash ./scripts/wait_for_bichard.sh
-          when: on_fail
+          name: Wait 30 seconds for beanconnect to start
+          command: sleep 30
       - run_e2e_test_chunk
       - save_e2e_artifacts
 
