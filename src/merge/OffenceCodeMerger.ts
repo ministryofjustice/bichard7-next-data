@@ -10,8 +10,6 @@ export default class OffenceCodeMerger {
   /* eslint-disable no-unused-vars */
   constructor(
     private offenceCodeKeys: string[],
-    private currentOffenceCodes: OffenceCode[],
-    private unsupportedOffenceCodes: string[],
     private legacyOverrides: OffenceCode[],
     private homeOfficeClassification: HomeOfficeClassifictionPriority,
     private notifiableToHo: NotifiableToHOPriority,
@@ -23,10 +21,6 @@ export default class OffenceCodeMerger {
   merge(): OffenceCode[] {
     return this.offenceCodeKeys.map((cjsCode) => {
       const matchCjsCode = getMatchCjsCodeFunction(cjsCode)
-      const currentDefault = this.currentOffenceCodes.find(matchCjsCode)
-      if (this.unsupportedOffenceCodes.includes(cjsCode.trim()) && currentDefault) {
-        return currentDefault
-      }
       if (this.legacyOverrides.find(matchCjsCode)) {
         return this.legacyOverrides.find(matchCjsCode) as OffenceCode
       }

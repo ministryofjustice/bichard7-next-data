@@ -8,7 +8,6 @@ import localOffenceCodes from "../input-data/offence-code/local-offences.json"
 import pncAcpoOffenceCodes from "../input-data/offence-code/pnc-acpo-cjs-offences.json"
 import pncCcjsOffenceCodes from "../input-data/offence-code/pnc-ccjs-cjs-offences.json"
 import pnldOffenceCodes from "../input-data/offence-code/pnld-offences.json"
-import unsupportedOffenceCodes from "../input-data/offence-code/unsupported-codes.json"
 import currentOffenceCodes from "../output-data/data/offence-code.json"
 import consistentSort from "./lib/consistentSort"
 import HomeOfficeClassifictionPriority from "./merge/HomeOfficeClassificationPriority"
@@ -94,8 +93,6 @@ const main = async () => {
 
   const merger = new OffenceCodeMerger(
     offenceCodeKeys,
-    currentOffenceCodes as OffenceCode[],
-    unsupportedOffenceCodes as string[],
     legacyOverrides as OffenceCode[],
     hoClassification,
     notifiableToHo as NotifiableToHOPriority,
