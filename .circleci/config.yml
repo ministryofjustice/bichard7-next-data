@@ -123,6 +123,7 @@ jobs:
     machine:
       image: ubuntu-2004:2022.07.1
       docker_layer_caching: false
+    resource_class: xlarge
     steps:
       - checkout
       - build_data_jar
@@ -137,6 +138,7 @@ jobs:
     machine:
       image: ubuntu-2004:2022.07.1
       docker_layer_caching: false
+    resource_class: xlarge
     working_directory: ~
     parallelism: 4
     steps:
