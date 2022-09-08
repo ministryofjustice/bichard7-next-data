@@ -121,8 +121,8 @@ commands:
 jobs:
   run_bichard_unit_tests:
     machine:
-      image: ubuntu-2004:202104-01
-      docker_layer_caching: true
+      image: ubuntu-2004:2022.07.1
+      docker_layer_caching: false
     steps:
       - checkout
       - build_data_jar
@@ -135,8 +135,8 @@ jobs:
 
   run_e2e_tests:
     machine:
-      image: ubuntu-2004:202104-01
-      docker_layer_caching: true
+      image: ubuntu-2004:2022.07.1
+      docker_layer_caching: false
     working_directory: ~
     parallelism: 4
     steps:
