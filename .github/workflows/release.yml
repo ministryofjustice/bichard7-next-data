@@ -191,7 +191,7 @@ jobs:
 
       - name: Update standing data gradle dependency
         run: |
-          sed -i -r "s/name: 'bichard7-next-data', version: '[0-9]+\.[0-9]+\.[0-9]+'$/name: 'bichard7-next-data', version: '$VERSION'/g" bichard-backend/build.gradle
+          sed -i -r "s/bichardDataVersion = \"[0-9]+\.[0-9]+\.[0-9]+\"$/bichardDataVersion = \"$VERSION\"/g" build.gradle
         env:
           VERSION: ${{ needs.bump-package-version.outputs.version }}
 
