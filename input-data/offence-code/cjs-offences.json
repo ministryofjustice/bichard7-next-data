@@ -1,5 +1,10 @@
 [
   {
+    "cjsCode": " status=\"Success\"",
+    "offenceTitle": "",
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "AB06001",
     "offenceCategory": "CS",
     "offenceTitle": "Obstruct person acting in execution of the regulations",
