@@ -39,11 +39,14 @@ commands:
     parameters:
       image:
         type: string
+      hash:
+        type: string
+        default: ""
     steps:
       - run:
           name: Fetch the <<parameters.image>> image
           working_directory: ~/bichard7-next
-          command: bash scripts/fetch_docker_image.sh <<parameters.image>>
+          command: bash scripts/fetch_docker_image.sh <<parameters.image>> <<parameters.image>> <<parameters.hash>>
 
   fetch_docker_images:
     description: Fetch all of the required docker images from ECR
@@ -52,6 +55,7 @@ commands:
           image: beanconnect
       - fetch_docker_image:
           image: e2etests
+          hash: sha256:43c5b50926be2cfb5da6cc47075ef2b4caea5c768a1d383d36f3de6e2ecebac3
       - fetch_docker_image:
           image: nginx-auth-proxy
       - fetch_docker_image:
