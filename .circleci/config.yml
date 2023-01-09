@@ -13,13 +13,7 @@ commands:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - 43:12:ce:d2:03:6f:b4:8e:a5:c8:8e:f2:85:89:fc:7c
-      - run:
-          name: Remove all SSH keys
-          command: ssh-add -D
-      - run:
-          name: Add bichard7-next deploy key
-          command: ssh-add ~/.ssh/id_rsa_4312ced2036fb48ea5c88ef28589fc7c
+            - 34:9c:fd:c3:53:22:35:9e:07:60:6b:55:85:97:0d:18
       - run:
           name: Clone bichard7-next
           command: git clone --depth 1 git@github.com:ministryofjustice/bichard7-next.git ~/bichard7-next
