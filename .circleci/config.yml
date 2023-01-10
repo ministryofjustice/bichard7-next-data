@@ -16,7 +16,11 @@ commands:
             - 34:9c:fd:c3:53:22:35:9e:07:60:6b:55:85:97:0d:18
       - run:
           name: Clone bichard7-next
-          command: git clone --depth 1 git@github.com:ministryofjustice/bichard7-next.git ~/bichard7-next
+          command: git clone git@github.com:ministryofjustice/bichard7-next.git ~/bichard7-next
+      - run:
+          name: Checkout previously working commit
+          working_directory: ~/bichard7-next
+          command: git checkout 59e653eadc69b2359c2c7463005b821f7faff514
 
   build_bichard:
     description: Build the Bichard application and copy in the latest standing data
