@@ -57,6 +57,7 @@ commands:
     steps:
       - fetch_docker_image:
           image: beanconnect
+          hash: sha256:1c3e16e00258915eef86d8b35f8bcbde67dd9859e0b199170815a920a349fd41
       - fetch_docker_image:
           image: e2etests
           hash: sha256:43c5b50926be2cfb5da6cc47075ef2b4caea5c768a1d383d36f3de6e2ecebac3
@@ -65,8 +66,10 @@ commands:
           hash: sha256:851a5146ff85057110c87c0f39e9c8728d2384b86c725822dd1d63b77d48acbe
       - fetch_docker_image:
           image: pncemulator
+          hash: sha256:6a9fe30814f66015429794461e5a3050cf0b44030b12d832bca2c2f25b5543a0
       - fetch_docker_image:
           image: user-service
+          hash: sha256:d0a81470fa3d81e6af0cb63d2b2196a746e60ecbe52f40faced1d2e8ea9836ba
 
   run_beanconnect_and_wait:
     steps:
