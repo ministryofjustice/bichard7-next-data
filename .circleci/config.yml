@@ -58,6 +58,7 @@ commands:
           hash: sha256:43c5b50926be2cfb5da6cc47075ef2b4caea5c768a1d383d36f3de6e2ecebac3
       - fetch_docker_image:
           image: nginx-auth-proxy
+          hash: sha256:851a5146ff85057110c87c0f39e9c8728d2384b86c725822dd1d63b77d48acbe
       - fetch_docker_image:
           image: pncemulator
       - fetch_docker_image:
