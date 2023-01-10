@@ -55,7 +55,7 @@ commands:
           image: beanconnect
       - fetch_docker_image:
           image: e2etests
-          hash: sha256:54015ab91819942c203c9d7f6f243b6e8485b3e0430671a54a09848c12adc8ac
+          hash: sha256:a9f5adccbbf9bcb1711c29cad79cf952da0ea94d0ae2ceefa7d545511e3e9dad
       - fetch_docker_image:
           image: nginx-auth-proxy
       - fetch_docker_image:
