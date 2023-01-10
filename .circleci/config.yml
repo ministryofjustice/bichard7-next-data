@@ -18,9 +18,17 @@ commands:
           name: Clone bichard7-next
           command: git clone git@github.com:ministryofjustice/bichard7-next.git ~/bichard7-next
       - run:
+          name: Copy updated docker image fetch script
+          working_directory: ~/bichard7-next
+          command: cp scripts/fetch_docker_image.sh scripts/fetch_docker_image.sh.bak
+      - run:
           name: Checkout previously working commit
           working_directory: ~/bichard7-next
           command: git checkout 59e653eadc69b2359c2c7463005b821f7faff514
+      - run:
+          name: Move updated docker image fetch script back
+          working_directory: ~/bichard7-next
+          command: mv scripts/fetch_docker_image.sh.bak scripts/fetch_docker_image.sh
 
   build_bichard:
     description: Build the Bichard application and copy in the latest standing data
