@@ -13,7 +13,8 @@
     "download-offence-code-data": "ts-node src/download-offence-code-data.ts",
     "download-organisation-unit-data": "ts-node src/download-organisation-unit-data.ts",
     "merge-offence-data": "ts-node src/merge-offence-data.ts",
-    "generate-trigger-config": "ts-node src/generate-trigger-properties/generate.ts"
+    "generate-trigger-config": "ts-node src/generate-trigger-properties/generate.ts",
+    "update-deps": "ncu -u && npm install"
   },
   "repository": {
     "type": "git",
@@ -47,8 +48,9 @@
     "jest-extended": "^2.0.0",
     "jsonlint-mod": "^1.7.6",
     "lint-staged": "^12.3.4",
-    "mockdate": "^3.0.5",
     "lodash": "^4.17.21",
+    "mockdate": "^3.0.5",
+    "npm-check-updates": "^16.6.3",
     "prettier": "^2.5.1",
     "puppeteer": "^13.3.2",
     "sort-json-keys": "^1.0.3",
