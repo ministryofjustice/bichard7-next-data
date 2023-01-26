@@ -1,18 +1,18 @@
 /* eslint-disable no-await-in-loop */
 import * as fs from "fs"
-import puppeteer from "puppeteer"
+import puppeteer, { ElementHandle, Browser, Page } from "puppeteer"
 import { PnldConfig } from "./config"
 
 export type PnldFile = {
   date: Date
-  link?: puppeteer.ElementHandle | null
+  link?: ElementHandle | null
   fileName?: string
 }
 
 export default class PnldFileDownloader {
-  browser: puppeteer.Browser
+  browser: Browser
 
-  page: puppeteer.Page
+  page: Page
 
   tmpDir: string
 
@@ -89,7 +89,7 @@ export default class PnldFileDownloader {
     }
   }
 
-  async downloadFile(link: puppeteer.ElementHandle): Promise<string> {
+  async downloadFile(link: ElementHandle): Promise<string> {
     const before = await fs.promises.readdir(this.tmpDir)
     await link.click()
     await this.waitForZipCount(before.length + 1, 60)
