@@ -1,16 +1,12 @@
-/* eslint-disable func-names */
-// import axios from "axios"
-import * as https from "https"
 import { v4 as uuidv4 } from "uuid"
+
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0"
 
 const axios = require("axios")
 
-const agent = new https.Agent({
-  rejectUnauthorized: false
-})
 const myUuid = uuidv4()
 
-const header = {
+const config = {
   Accept: "application/json",
   "Content-Type": "application/json"
 }
@@ -36,44 +32,13 @@ const body = {
     }
   }
 }
-const standingDateURl =
+
+const url =
   "https://crime-reference-data-api.staging.service.justice.gov.uk/cld_StandingDataReferenceService/service/sdrs/sdrs/sdrsApi"
 
-async function doPostRequest() {
-  const res = await axios({
-    method: "Post",
-    url: standingDateURl,
-    body,
-    httpsAgent: agent,
-    headers: header
-  })
-
-  const data = res
-  console.log(data)
-}
-
-doPostRequest()
-
-// Axios post request
-
-// const postTask = () => {
-//   return axios
-//     .post(standingDateURl, {
-//       httpsAgent,
-//       header,
-//       body
-//     })
-//     .then(function (response) {
-//       console.log("response", response.data)
-//     })
-//     .catch((error) => console.log("error", error))
-// }
-// Generate UUID
-// Capturing the data in JSON format
-// const { data } = await axios.post("/user", document.querySelector("#my-form"), {
-//   headers: {
-//     "Content-Type": "application/json"
-//   }
-// })
-
-// postTask()
+const response = axios
+  .post(url, body, config)
+  .then((res: any) =>
+    console.log(res.data.MessageBody.GatewayOperationType.MOJOffenceResponse.MOJOffence)
+  )
+console.log(response)
