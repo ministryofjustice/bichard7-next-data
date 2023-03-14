@@ -5,11 +5,16 @@ import { v4 as uuidv4 } from "uuid"
 
 const axios = require("axios")
 
-const httpsAgent = new https.Agent({
+const agent = new https.Agent({
   rejectUnauthorized: false
 })
-
 const myUuid = uuidv4()
+
+const header = {
+  Accept: "application/json",
+  "Content-Type": "application/json"
+}
+
 const body = {
   MessageHeader: {
     MessageID: {
@@ -35,19 +40,21 @@ const standingDateURl =
   "https://crime-reference-data-api.staging.service.justice.gov.uk/cld_StandingDataReferenceService/service/sdrs/sdrs/sdrsApi"
 
 async function doPostRequest() {
-  const res = await axios.post(standingDateURl, { httpsAgent }, body)
+  const res = await axios({
+    method: "Post",
+    url: standingDateURl,
+    body,
+    httpsAgent: agent,
+    headers: header
+  })
 
   const data = res
   console.log(data)
 }
 
 doPostRequest()
-// Axios post request
 
-// const header = {
-//   Accept: "application/json",
-//   "Content-Type": "application/json"
-// }
+// Axios post request
 
 // const postTask = () => {
 //   return axios
