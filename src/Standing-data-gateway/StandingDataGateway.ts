@@ -1,15 +1,9 @@
 import { v4 as uuidv4 } from "uuid"
-
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0"
+import https from "https"
 
 const axios = require("axios")
 
 const myUuid = uuidv4()
-
-const config = {
-  Accept: "application/json",
-  "Content-Type": "application/json"
-}
 
 const body = {
   MessageHeader: {
@@ -38,10 +32,19 @@ const url =
 
 const getCjsData = () => {
   axios
-    .post(url, body, config)
-    .then((res: any) =>
-      console.log(res.data.MessageBody.GatewayOperationType.MOJOffenceResponse.MOJOffence)
-    )
+    .post(url, body, {
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json"
+      },
+      httpsAgent: new https.Agent({
+        rejectUnauthorized: false
+      })
+    })
+    .then((res: any) => {
+      const data = res.data.MessageBody.GatewayOperationType.MOJOffenceResponse.MOJOffence
+      return console.log(data)
+    })
 }
 
 getCjsData()
