@@ -36,9 +36,12 @@ const body = {
 const url =
   "https://crime-reference-data-api.staging.service.justice.gov.uk/cld_StandingDataReferenceService/service/sdrs/sdrs/sdrsApi"
 
-const response = axios
-  .post(url, body, config)
-  .then((res: any) =>
-    console.log(res.data.MessageBody.GatewayOperationType.MOJOffenceResponse.MOJOffence)
-  )
-console.log(response)
+const getCjsData = () => {
+  axios
+    .post(url, body, config)
+    .then((res: any) =>
+      console.log(res.data.MessageBody.GatewayOperationType.MOJOffenceResponse.MOJOffence)
+    )
+}
+
+getCjsData()
