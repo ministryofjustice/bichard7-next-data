@@ -1,5 +1,6 @@
 import { v4 as uuidv4 } from "uuid"
 import https from "https"
+// import { MojOffence } from "../types/StandingDataAPIResult"
 
 const axios = require("axios")
 
@@ -29,6 +30,19 @@ const body = {
 
 const url =
   "https://crime-reference-data-api.staging.service.justice.gov.uk/cld_StandingDataReferenceService/service/sdrs/sdrs/sdrsApi"
+// map through each line.
+const transform = (apiResponse: any): MojOffence => {
+  return {
+    // TODO - figure out
+    apiResponse.map((response) => ({
+      cjsCode: response.Code,
+      offenceCategory: response.OffenceType,
+      offenceTitle: response.OffenceWording,
+      recordableOnPnc: response.Recordable
+
+    }))
+  }
+}
 
 const getCjsData = () => {
   axios
@@ -41,9 +55,10 @@ const getCjsData = () => {
         rejectUnauthorized: false
       })
     })
-    .then((res: any) => {
-      const data = res.data.MessageBody.GatewayOperationType.MOJOffenceResponse.MOJOffence
-      return console.log(data)
+    .then((result: any) => {
+      const data = result.data.MessageBody.GatewayOperationType.MOJOffenceResponse.MOJOffence
+      console.log(data[0].code)
+      // return transform(data)
     })
 }
 
