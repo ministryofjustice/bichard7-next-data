@@ -32,16 +32,16 @@ const url =
   "https://crime-reference-data-api.staging.service.justice.gov.uk/cld_StandingDataReferenceService/service/sdrs/sdrs/sdrsApi"
 
 const transform = (apiResponse: any) => {
-  apiResponse.map((o: any) => {
-    const offence = {
+  const listOfOffences = apiResponse.map((o: any) => {
+    return {
       cjsCode: o.code,
       offenceCategory: o.OffenceType,
       offenceTitle: o.OffenceWording,
       recordableOnPnc: o.Recordable,
       resultHalfLifeHours: null
     }
-    return offence
   })
+  return listOfOffences
 }
 
 const getCjsData = () => {
