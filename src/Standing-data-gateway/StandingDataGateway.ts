@@ -1,35 +1,8 @@
 import https from "https"
-import { v4 as uuidv4 } from "uuid"
+import { apiUrl, mojOffenceBody } from "./apiConfig"
 // import { MojOffence } from "../types/StandingDataAPIResult"
 
 const axios = require("axios")
-
-const myUuid = uuidv4()
-
-const body = {
-  MessageHeader: {
-    MessageID: {
-      UUID: myUuid,
-      RelatesTo: ""
-    },
-    TimeStamp: "2023-03-014T00:00:00Z",
-    MessageType: "GetMojOffence",
-    From: "CONSUMER_APPLICATION",
-    To: "SDRS_AZURE"
-  },
-  MessageBody: {
-    GatewayOperationType: {
-      GetMojOffenceRequest: {
-        CJSCode: "",
-        AllOffences: "ALL",
-        ChangedDate: ""
-      }
-    }
-  }
-}
-
-const url =
-  "https://crime-reference-data-api.staging.service.justice.gov.uk/cld_StandingDataReferenceService/service/sdrs/sdrs/sdrsApi"
 
 const transform = (apiResponse: any) => {
   const listOfOffences = apiResponse.map((o: any) => {
@@ -46,7 +19,7 @@ const transform = (apiResponse: any) => {
 
 const getCjsData = () => {
   axios
-    .post(url, body, {
+    .post(apiUrl, mojOffenceBody, {
       headers: {
         Accept: "application/json",
         "Content-Type": "application/json"
