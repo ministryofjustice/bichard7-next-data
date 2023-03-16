@@ -2,20 +2,6 @@ import https from "https"
 import axios from "axios"
 import { apiUrl, mojOffenceBody } from "./apiConfig"
 
-const transform = (apiResponse: any) => {
-  const listOfOffences = apiResponse.map((o: any) => {
-    return {
-      cjsCode: o.code,
-      offenceCategory: o.OffenceType,
-      offenceTitle: o.OffenceWording,
-      recordableOnPnc: o.Recordable,
-      resultHalfLifeHours: null
-    }
-  })
-  console.log(listOfOffences)
-  return listOfOffences
-}
-
 const getCjsData = () => {
   axios
     .post(apiUrl, mojOffenceBody, {
@@ -29,7 +15,17 @@ const getCjsData = () => {
     })
     .then((result) => {
       const data = result.data.MessageBody.GatewayOperationType.MOJOffenceResponse.MOJOffence
-      return transform(data)
+      const listOfOffences = data.map((o: any) => {
+        return {
+          cjsCode: o.code,
+          offenceCategory: o.OffenceType,
+          offenceTitle: o.OffenceWording,
+          recordableOnPnc: o.Recordable,
+          resultHalfLifeHours: null
+        }
+      })
+      console.log(listOfOffences)
+      return listOfOffences
     })
 }
 
