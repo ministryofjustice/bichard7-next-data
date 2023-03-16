@@ -1,8 +1,6 @@
 import https from "https"
+import axios from "axios"
 import { apiUrl, mojOffenceBody } from "./apiConfig"
-// import { MojOffence } from "../types/StandingDataAPIResult"
-
-const axios = require("axios")
 
 const transform = (apiResponse: any) => {
   const listOfOffences = apiResponse.map((o: any) => {
@@ -14,6 +12,7 @@ const transform = (apiResponse: any) => {
       resultHalfLifeHours: null
     }
   })
+  console.log(listOfOffences)
   return listOfOffences
 }
 
@@ -28,7 +27,7 @@ const getCjsData = () => {
         rejectUnauthorized: false
       })
     })
-    .then((result: any) => {
+    .then((result) => {
       const data = result.data.MessageBody.GatewayOperationType.MOJOffenceResponse.MOJOffence
       return transform(data)
     })
