@@ -1,6 +1,8 @@
 import https from "https"
 import axios from "axios"
 import { apiUrl, mojOffenceBody } from "./apiConfig"
+import { ApiResult, MojOffence } from "../types/StandingDataAPIResult"
+import { apiResultSchema } from "../schemas/standingDataAPIResult"
 
 const getCjsData = () => {
   axios
@@ -15,18 +17,12 @@ const getCjsData = () => {
     })
     .then((result) => {
       const data = result.data.MessageBody.GatewayOperationType.MOJOffenceResponse.MOJOffence
-      const listOfOffences = data.map((o: any) => {
-        return {
-          cjsCode: o.code,
-          offenceCategory: o.OffenceType,
-          offenceTitle: o.OffenceWording,
-          recordableOnPnc: o.Recordable,
-          resultHalfLifeHours: null
-        }
+      const listOfOffences = data.map((o: ApiResult): MojOffence => {
+        const offences = apiResultSchema.parse(o)
+        return offences
       })
       console.log(listOfOffences)
       return listOfOffences
     })
 }
-
 getCjsData()

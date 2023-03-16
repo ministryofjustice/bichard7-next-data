@@ -1,10 +1,15 @@
 import { z } from "zod"
 
-const mojOffenceSchema = z.object({
-  cjsCode: z.string(),
-  offenceCategory: z.string().optional(),
-  offenceTitle: z.string().optional(),
-  recordableOnPnc: z.boolean().optional()
+export const apiResultSchema = z.object({
+  code: z.string(),
+  OffenceType: z.string().optional(),
+  OffenceWording: z.string().optional()
+  // Recordable: z.boolean().optional()
 })
 
-export default mojOffenceSchema
+export const mojOffenceSchema = z.object({
+  code: z.string(),
+  OffenceType: z.string().optional(),
+  OffenceWording: z.string().optional()
+  // Recordable: z.boolean().optional()
+})
