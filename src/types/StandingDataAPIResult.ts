@@ -1,5 +1,8 @@
 import type { z } from "zod"
-import type { apiOffenceSchema, apiResultSchema } from "../../src/schemas/standingDataAPIResult"
+import type {
+  apiOffenceSchema,
+  getMojOffenceApiResultSchema
+} from "../../src/schemas/standingDataAPIResult"
 
 export type ApiOffence = z.infer<typeof apiOffenceSchema>
-export type ApiResult = z.infer<typeof apiResultSchema>
+export type MojOffenceApiResult = z.infer<typeof getMojOffenceApiResultSchema>

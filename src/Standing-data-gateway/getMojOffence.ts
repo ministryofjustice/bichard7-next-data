@@ -2,7 +2,7 @@ import https from "https"
 import axios from "axios"
 import { devApiUrl, mojOffenceBody } from "./apiConfig"
 import { ApiOffence } from "../types/StandingDataAPIResult"
-import { apiResultSchema } from "../schemas/standingDataAPIResult"
+import { getMojOffenceApiResultSchema } from "../schemas/standingDataAPIResult"
 
 // TODO- figure out when to write files
 // const fileCreatedNotification = () => console.log("file created")
@@ -22,7 +22,7 @@ const getDevCjsData = (): Promise<ApiOffence[] | Error> => {
       })
     })
     .then((result) => {
-      const parsedApiResult = apiResultSchema.parse(result.data)
+      const parsedApiResult = getMojOffenceApiResultSchema.parse(result.data)
       return parsedApiResult.MessageBody.GatewayOperationType.MOJOffenceResponse.MOJOffence
     })
     .catch((error) => error)
