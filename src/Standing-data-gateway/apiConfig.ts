@@ -29,3 +29,48 @@ export const mojOffenceBody = {
     }
   }
 }
+
+export const applicationRequestBody = {
+  MessageHeader: {
+    MessageID: {
+      UUID: myUuid,
+      RelatesTo: ""
+    },
+    TimeStamp: new Date(),
+    MessageType: "GetApplications",
+    From: "CONSUMER_APPLICATION",
+    To: "SDRS_AZURE"
+  },
+  MessageBody: {
+    GatewayOperationType: {
+      GetApplicationRequest: {
+        CJSCode: "",
+        AllOffences: "ALL",
+        ChangedDate: ""
+      }
+    }
+  }
+}
+
+export const offenceBody = {
+  MessageHeader: {
+    MessageID: {
+      UUID: myUuid,
+      RelatesTo: ""
+    },
+    TimeStamp: new Date(),
+    MessageType: "GetOffence",
+    From: "CONSUMER_APPLICATION",
+    To: "SDRS_AZURE"
+  },
+  MessageBody: {
+    GatewayOperationType: {
+      GetOffenceRequest: {
+        CJSCode: null,
+        AlphaChar: "B",
+        AllOffences: "ALL",
+        ChangedDate: null
+      }
+    }
+  }
+}
