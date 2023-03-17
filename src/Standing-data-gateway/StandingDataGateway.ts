@@ -5,7 +5,7 @@ import { apiUrl, mojOffenceBody } from "./apiConfig"
 import { ApiResult, MojOffence } from "../types/StandingDataAPIResult"
 import { apiResultSchema } from "../schemas/standingDataAPIResult"
 
-const fakefunction = () => console.log("file created")
+const fileCreatedNotification = () => console.log("file created")
 const getCjsData = () => {
   axios
     .post(apiUrl, mojOffenceBody, {
@@ -28,7 +28,7 @@ const getCjsData = () => {
         return offences
       })
       const filewriter = () => {
-        fs.writeFile("cjscode.json", JSON.stringify(listOfOffences), null, fakefunction)
+        fs.writeFile("cjscode.json", JSON.stringify(listOfOffences), null, fileCreatedNotification)
       }
       filewriter()
       return listOfOffences
