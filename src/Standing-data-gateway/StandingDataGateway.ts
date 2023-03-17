@@ -2,13 +2,16 @@ import https from "https"
 import axios from "axios"
 import * as fs from "fs"
 import { devApiUrl, mojOffenceBody } from "./apiConfig"
-import { ApiResult, MojOffence } from "../types/StandingDataAPIResult"
+import { ApiOffence } from "../types/StandingDataAPIResult"
 import { apiResultSchema } from "../schemas/standingDataAPIResult"
 
 const fileCreatedNotification = () => console.log("file created")
+const filewriter = (data: any) => {
+  fs.writeFile("devcjscode.json", JSON.stringify(data, null, 2), null, fileCreatedNotification)
+}
 
-const getDevCjsData = () => {
-  axios
+const getDevCjsData = (): Promise<ApiOffence[]> => {
+  return axios
     .post(devApiUrl, mojOffenceBody, {
       headers: {
         Accept: "application/json",
@@ -19,23 +22,13 @@ const getDevCjsData = () => {
       })
     })
     .then((result) => {
-      const offenceData = result.data.MessageBody.GatewayOperationType.MOJOffenceResponse.MOJOffence
-      const listOfOffences = offenceData.map((offence: ApiResult): MojOffence => {
-        const parsedOffence = apiResultSchema.parse(offence)
-        return parsedOffence
-      })
-      const filewriter = () => {
-        fs.writeFile(
-          "devcjscode.json",
-          JSON.stringify(listOfOffences),
-          null,
-          fileCreatedNotification
-        )
-      }
-      filewriter()
-      return listOfOffences
+      const parsedApiResult = apiResultSchema.parse(result.data)
+      const offences =
+        parsedApiResult.MessageBody.GatewayOperationType.MOJOffenceResponse.MOJOffence
+      filewriter(offences)
+      return result
     })
-    .catch((error) => console.log(error))
+    .catch((error) => error)
 }
 
 getDevCjsData()
