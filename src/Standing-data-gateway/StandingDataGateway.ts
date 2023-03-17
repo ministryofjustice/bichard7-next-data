@@ -1,38 +1,41 @@
 import https from "https"
 import axios from "axios"
 import * as fs from "fs"
-import { apiUrl, mojOffenceBody } from "./apiConfig"
+import { devApiUrl, mojOffenceBody } from "./apiConfig"
 import { ApiResult, MojOffence } from "../types/StandingDataAPIResult"
 import { apiResultSchema } from "../schemas/standingDataAPIResult"
 
 const fileCreatedNotification = () => console.log("file created")
-const getCjsData = () => {
+
+const getDevCjsData = () => {
   axios
-    .post(apiUrl, mojOffenceBody, {
+    .post(devApiUrl, mojOffenceBody, {
       headers: {
         Accept: "application/json",
         "Content-Type": "application/json"
-      },
-      auth: {
-        username: "pss",
-        password: "TreeCupMouse"
       },
       httpsAgent: new https.Agent({
         rejectUnauthorized: false
       })
     })
     .then((result) => {
-      const data = result.data.MessageBody.GatewayOperationType.MOJOffenceResponse.MOJOffence
-      const listOfOffences = data.map((o: ApiResult): MojOffence => {
-        const offences = apiResultSchema.parse(o)
-        return offences
+      const offenceData = result.data.MessageBody.GatewayOperationType.MOJOffenceResponse.MOJOffence
+      const listOfOffences = offenceData.map((offence: ApiResult): MojOffence => {
+        const parsedOffence = apiResultSchema.parse(offence)
+        return parsedOffence
       })
       const filewriter = () => {
-        fs.writeFile("cjscode.json", JSON.stringify(listOfOffences), null, fileCreatedNotification)
+        fs.writeFile(
+          "devcjscode.json",
+          JSON.stringify(listOfOffences),
+          null,
+          fileCreatedNotification
+        )
       }
       filewriter()
       return listOfOffences
     })
     .catch((error) => console.log(error))
 }
-getCjsData()
+
+getDevCjsData()
