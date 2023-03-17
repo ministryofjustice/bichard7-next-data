@@ -14,12 +14,13 @@ export const apiOffenceSchema = z.object({
   Recordable: z.preprocess(castToBool, z.boolean())
 })
 
-export const apiResultSchema = z.object({
+export const getMojOffenceApiResultSchema = z.object({
   MessageBody: z.object({
     GatewayOperationType: z.object({
-      GetOffenceResponse: z.object({
-        Offence: z.array(apiOffenceSchema)
+      MOJOffenceResponse: z.object({
+        MOJOffence: z.array(apiOffenceSchema)
       })
     })
   })
 })
+// TODO- add schemas for getOffence and getApplication API responses
