@@ -14,7 +14,7 @@ export const mojOffenceBody = {
       UUID: myUuid,
       RelatesTo: ""
     },
-    TimeStamp: "2023-03-014T00:00:00Z",
+    TimeStamp: new Date(),
     MessageType: "GetMojOffence",
     From: "CONSUMER_APPLICATION",
     To: "SDRS_AZURE"
