@@ -55,7 +55,7 @@ export default class PnldFileDownloader {
     await fs.promises.mkdir(this.tmpDir, { recursive: true })
     if (this.page) {
       // eslint-disable-next-line no-underscore-dangle
-      await (this.page as any)._client.send("Page.setDownloadBehavior", {
+      await (this.page as any)._client().send("Page.setDownloadBehavior", {
         behavior: "allow",
         downloadPath: this.tmpDir
       })
