@@ -17,7 +17,7 @@ export const apiMojOffenceSchema = z.object({
 export const apiOffenceSchema = z.object({
   code: z.string(),
   OffenceType: z.string().optional(),
-  OffenceWording: z.string().optional()
+  CjsTitle: z.string().optional()
 })
 
 export const getMojOffenceApiResultSchema = z.object({
