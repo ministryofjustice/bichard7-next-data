@@ -7,18 +7,34 @@ const castToBool = (input: unknown): boolean => {
   return false
 }
 
-export const apiOffenceSchema = z.object({
+export const apiMojOffenceSchema = z.object({
   code: z.string(),
   OffenceType: z.string().optional(),
   OffenceWording: z.string().optional(),
   Recordable: z.preprocess(castToBool, z.boolean())
 })
 
+export const apiOffenceSchema = z.object({
+  code: z.string(),
+  OffenceType: z.string().optional(),
+  OffenceWording: z.string().optional()
+})
+
 export const getMojOffenceApiResultSchema = z.object({
   MessageBody: z.object({
     GatewayOperationType: z.object({
       MOJOffenceResponse: z.object({
-        MOJOffence: z.array(apiOffenceSchema)
+        MOJOffence: z.array(apiMojOffenceSchema)
+      })
+    })
+  })
+})
+
+export const getOffenceApiResultSchema = z.object({
+  MessageBody: z.object({
+    GatewayOperationType: z.object({
+      GetOffenceResponse: z.object({
+        Offence: z.array(apiOffenceSchema)
       })
     })
   })

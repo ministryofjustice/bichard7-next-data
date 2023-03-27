@@ -67,7 +67,7 @@ export const offenceBody = {
     GatewayOperationType: {
       GetOffenceRequest: {
         CJSCode: null,
-        AlphaChar: "B",
+        AlphaChar: "A",
         AllOffences: "ALL",
         ChangedDate: null
       }
