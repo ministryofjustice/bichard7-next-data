@@ -52,24 +52,26 @@ export const applicationRequestBody = {
   }
 }
 
-export const offenceBody = {
-  MessageHeader: {
-    MessageID: {
-      UUID: myUuid,
-      RelatesTo: ""
+export const offenceBody = (alphaChar: string) => {
+  return {
+    MessageHeader: {
+      MessageID: {
+        UUID: myUuid,
+        RelatesTo: ""
+      },
+      TimeStamp: new Date(),
+      MessageType: "GetOffence",
+      From: "CONSUMER_APPLICATION",
+      To: "SDRS_AZURE"
     },
-    TimeStamp: new Date(),
-    MessageType: "GetOffence",
-    From: "CONSUMER_APPLICATION",
-    To: "SDRS_AZURE"
-  },
-  MessageBody: {
-    GatewayOperationType: {
-      GetOffenceRequest: {
-        CJSCode: null,
-        AlphaChar: "A",
-        AllOffences: "ALL",
-        ChangedDate: null
+    MessageBody: {
+      GatewayOperationType: {
+        GetOffenceRequest: {
+          CJSCode: null,
+          AlphaChar: alphaChar,
+          AllOffences: "ALL",
+          ChangedDate: null
+        }
       }
     }
   }

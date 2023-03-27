@@ -15,11 +15,12 @@ import { getOffenceApiResultSchema } from "../schemas/standingDataAPIResult"
 // TODO- go through missing json data.
 const fileCreatedNotification = () => console.log("file created")
 const filewriter = (data: any) => {
-  fs.writeFile("offencecode.json", JSON.stringify(data, null, 2), null, fileCreatedNotification)
+  fs.appendFile("offencecode.json", JSON.stringify(data), fileCreatedNotification)
 }
-const getOffence = (): Promise<ApiOffence[] | Error> => {
+const getOffence = (alphaChar: string): Promise<ApiOffence[] | Error> => {
+  console.log(`running getOffence() with "${alphaChar}"`)
   return axios
-    .post(devApiUrl, offenceBody, {
+    .post(devApiUrl, offenceBody(alphaChar), {
       headers: {
         Accept: "application/json",
         "Content-Type": "application/json"
@@ -37,4 +38,5 @@ const getOffence = (): Promise<ApiOffence[] | Error> => {
     .catch((error) => error)
 }
 
-getOffence()
+const listofChar = [..."ABCDEFGHIJKLMNOPQRSTUVXYZ"]
+listofChar.map((char) => getOffence(char))
