@@ -11,6 +11,7 @@
     "prepare": "husky install",
     "build": "tsc --noEmit -p tsconfig.json",
     "download-offence-code-data": "ts-node src/download-offence-code-data.ts",
+    "download-standing-data": "ts-node src/download-standing-data-api.ts",
     "download-organisation-unit-data": "ts-node src/download-organisation-unit-data.ts",
     "merge-offence-data": "ts-node src/merge-offence-data.ts",
     "generate-trigger-config": "ts-node src/generate-trigger-properties/generate.ts",
