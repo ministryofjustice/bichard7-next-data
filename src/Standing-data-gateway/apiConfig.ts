@@ -1,7 +1,5 @@
 import { v4 as uuidv4 } from "uuid"
 
-const myUuid = uuidv4()
-
 export const liveApiUrl =
   "https://pss.clouddev.online/cld_StandingDataReferenceService/service/sdrs/sdrs/sdrsApi"
 
@@ -11,7 +9,7 @@ export const devApiUrl =
 export const mojOffenceBody = {
   MessageHeader: {
     MessageID: {
-      UUID: myUuid,
+      UUID: uuidv4(),
       RelatesTo: ""
     },
     TimeStamp: new Date(),
@@ -33,7 +31,7 @@ export const mojOffenceBody = {
 export const applicationRequestBody = {
   MessageHeader: {
     MessageID: {
-      UUID: myUuid,
+      UUID: uuidv4(),
       RelatesTo: ""
     },
     TimeStamp: new Date(),
@@ -56,7 +54,7 @@ export const offenceBody = (alphaChar: string) => {
   return {
     MessageHeader: {
       MessageID: {
-        UUID: myUuid,
+        UUID: uuidv4(),
         RelatesTo: ""
       },
       TimeStamp: new Date(),
