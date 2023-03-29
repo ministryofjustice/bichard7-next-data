@@ -6,18 +6,17 @@ import getOffence from "./getOffence"
 export default async () => {
   console.log("Calling Standing Data API")
 
-  const listofChar = [..."ABCDEFGHI"]
-  const promisedTasks = listofChar.map((char) => getOffence(char))
-  const apiResponses = await promisedTasks
+  const subListOfAlphaChar = [..."ABCDEFGHI"]
+  const promisedTasks = subListOfAlphaChar.map((char) => getOffence(char))
+  const apiResponses = await Promise.all(promisedTasks)
 
   // handle error
-  apiResponses.map(async (apiResponse) => {
-    const offenceCodes = convertApiResponse(await apiResponse)
-    const data = consistentSort(offenceCodes)
-
-    await fs.promises.appendFile(
-      "input-data/offence-code/standing-data-offences.json",
-      JSON.stringify(data, null, 2)
-    )
+  const offenceCodes = apiResponses.map((apiResponse) => {
+    return convertApiResponse(apiResponse)
   })
+  const data = consistentSort(offenceCodes)
+  await fs.promises.appendFile(
+    "input-data/offence-code/standing-data-offences.json",
+    JSON.stringify(data, null, 2)
+  )
 }
