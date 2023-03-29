@@ -3,24 +3,21 @@ import consistentSort from "../lib/consistentSort"
 import convertApiResponse from "./convertApiResponse"
 import getOffence from "./getOffence"
 
-// const listofChar = [..."ABCDEFGHIJKLMNOPQR"]
-
 export default async () => {
   console.log("Calling Standing Data API")
-  //   get the API response == "fileContents"
-  const apiResponse = await getOffence("N")
+
+  const listofChar = [..."ABCDEFGHI"]
+  const promisedTasks = listofChar.map((char) => getOffence(char))
+  const apiResponses = await promisedTasks
+
   // handle error
-  console.log("Retrieved API response")
-  const offenceCodes = convertApiResponse(apiResponse)
+  apiResponses.map(async (apiResponse) => {
+    const offenceCodes = convertApiResponse(await apiResponse)
+    const data = consistentSort(offenceCodes)
 
-  const data = consistentSort(offenceCodes)
-  await fs.promises.writeFile(
-    "input-data/offence-code/standing-data-offences.json",
-    JSON.stringify(data, null, 2)
-  )
-
-  //  covertODS- map API response keys to align with input-data keys. == "offenceCodes"
-  // consistent sort
-  // write to file
-  console.log("Standing Data API successfully downloaded")
+    await fs.promises.appendFile(
+      "input-data/offence-code/standing-data-offences.json",
+      JSON.stringify(data, null, 2)
+    )
+  })
 }
