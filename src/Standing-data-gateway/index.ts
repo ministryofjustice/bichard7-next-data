@@ -19,7 +19,6 @@ export default async () => {
   const apiResponses3 = await Promise.all(promisedTasks3)
 
   const allApiResponses = [apiResponses, apiResponses2, apiResponses3].flat()
-  console.log(allApiResponses.length)
 
   const offenceCodes = allApiResponses.map((responses) => convertApiResponse(responses))
   const data = consistentSort(offenceCodes.flat())
@@ -27,4 +26,6 @@ export default async () => {
     "input-data/offence-code/standing-data-offences.json",
     JSON.stringify(data, null, 2)
   )
+
+  console.log("Standing Data API data successfully retrieved")
 }
