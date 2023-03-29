@@ -4,11 +4,10 @@ import { offenceBody, devApiUrl } from "./apiConfig"
 import { ApiOffence } from "../types/StandingDataAPIResult"
 import { getOffenceApiResultSchema } from "../schemas/standingDataAPIResult"
 
-// TODO- create a file that replicates the `download-offence-code-data`
-// create a map function that calls over every single letter in the AlphaChar param
-// TODO - ensure consistent sort is used so that you can diff between revisions of files
-// TODO - create new file in input-data folder to have `standing-data-api.json` file with all offence codes
 // TODO- go through missing json data.
+// TODO -  diff between revisions of files
+
+// TODO - create new file in input-data folder to have `standing-data-api.json` file with all offence codes
 
 const getOffence = async (alphaChar: string): Promise<ApiOffence[] | Error> => {
   console.log(`running getOffence() with "${alphaChar}"`)
