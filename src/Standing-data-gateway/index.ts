@@ -29,3 +29,20 @@ export default async () => {
 
   console.log("Standing Data API data successfully retrieved")
 }
+
+/*
+Email David:
+- recordable on PNC
+- error response when requesting q
+- which requests are availale on prod url?
+- inconsistencies with given schemas, no option to return all codes, you need to defined optional alphaChar to work.
+
+
+Steps to refactor download file:
+- start array of letters
+- divide array into chunks
+- map chunks to call function
+- reduce into 1
+- convert into desired format
+
+*/
