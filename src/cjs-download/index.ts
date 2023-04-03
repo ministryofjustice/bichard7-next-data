@@ -6,7 +6,6 @@ import getDownloadUrl from "./getDownloadUrl"
 
 export default async () => {
   console.log("Downloading CJS data")
-  // Call StandingDataGateway
   const downloadLinkRegex = /(https:\/\/.*cjs.*offence.*index.*ods)"/i
   const downloadLocation = await getDownloadUrl(downloadLinkRegex)
   const fileContents = await downloadFile(downloadLocation)

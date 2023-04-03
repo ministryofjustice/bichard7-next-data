@@ -39,4 +39,4 @@ export const getOffenceApiResultSchema = z.object({
     })
   })
 })
-// TODO- add schemas for getOffence and getApplication API responses
+// TODO- add schemas for getApplication API responses
