@@ -15,6 +15,9 @@ jobs:
       PNLD_PASSWORD: ${{ secrets.PNLD_PASSWORD }}
       PNLD_USERNAME: ${{ secrets.PNLD_USERNAME }}
       GOOGLE_API_KEY: ${{ secrets.SHEETSAPIKEY }}
+      SD_USERNAME: ${{ secrets.SD_USERNAME }}
+      SD_PASSWORD: ${{ secrets.SD_PASSWORD }}
+      SD_END_POINT: ${{ secrets.SD_END_POINT }}
       HEADLESS: "true"
     steps:
       - name: Checkout repository
