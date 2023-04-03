@@ -16,7 +16,6 @@ export default async () => {
     allApiResponses.push(await Promise.all(promisedTasks))
   }
 
-  console.log(allApiResponses)
   const offenceCodes = allApiResponses.flat().map(convertApiResponse)
   const data = consistentSort(offenceCodes.flat())
   await fs.promises.writeFile(
