@@ -1,21 +1,51 @@
 import axios from "axios"
 import https from "https"
+import { v4 as uuidv4 } from "uuid"
 import { getOffenceApiResultSchema } from "../schemas/standingDataAPIResult"
 import { ApiOffence } from "../types/StandingDataAPIResult"
-import { devApiUrl, offenceBody } from "./apiConfig"
+import config from "./config"
 
 const getOffence = async (alphaChar: string): Promise<ApiOffence[] | Error> => {
   console.log(`running getOffence() with "${alphaChar}"`)
   return axios
-    .post(devApiUrl, offenceBody(alphaChar), {
-      headers: {
-        Accept: "application/json",
-        "Content-Type": "application/json"
+    .post(
+      config.endPoint,
+      {
+        MessageHeader: {
+          MessageID: {
+            UUID: uuidv4(),
+            RelatesTo: ""
+          },
+          TimeStamp: new Date(),
+          MessageType: "GetOffence",
+          From: "CONSUMER_APPLICATION",
+          To: "SDRS_AZURE"
+        },
+        MessageBody: {
+          GatewayOperationType: {
+            GetOffenceRequest: {
+              CJSCode: null,
+              AlphaChar: alphaChar,
+              AllOffences: "ALL",
+              ChangedDate: null
+            }
+          }
+        }
       },
-      httpsAgent: new https.Agent({
-        rejectUnauthorized: false
-      })
-    })
+      {
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json"
+        },
+        auth: {
+          username: config.username,
+          password: config.password
+        },
+        httpsAgent: new https.Agent({
+          rejectUnauthorized: false
+        })
+      }
+    )
     .then((result) => {
       const parsedApiResult = getOffenceApiResultSchema.parse(result.data)
       console.log(result.data.MessageBody.GatewayOperationType.GetOffenceResponse.Offence)
@@ -28,6 +58,5 @@ const getOffence = async (alphaChar: string): Promise<ApiOffence[] | Error> => {
       return error
     })
 }
-getOffence("A")
 
 export default getOffence
