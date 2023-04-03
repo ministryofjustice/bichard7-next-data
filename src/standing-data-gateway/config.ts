@@ -23,9 +23,3 @@ const config: StandingDataApiConfig = {
 }
 
 export default config
-
-// export const liveApiUrl =
-//   "https://pss.clouddev.online/cld_StandingDataReferenceService/service/sdrs/sdrs/sdrsApi"
-
-// export const devApiUrl =
-//   "https://crime-reference-data-api.staging.service.justice.gov.uk/cld_StandingDataReferenceService/service/sdrs/sdrs/sdrsApi"
