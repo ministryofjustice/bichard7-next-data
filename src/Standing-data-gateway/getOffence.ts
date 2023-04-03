@@ -1,8 +1,8 @@
-import https from "https"
 import axios from "axios"
-import { offenceBody, devApiUrl } from "./apiConfig"
-import { ApiOffence } from "../types/StandingDataAPIResult"
+import https from "https"
 import { getOffenceApiResultSchema } from "../schemas/standingDataAPIResult"
+import { ApiOffence } from "../types/StandingDataAPIResult"
+import { devApiUrl, offenceBody } from "./apiConfig"
 
 // TODO- go through missing json data.
 // clarify where recordable on PNC data. Look at the merger file.
