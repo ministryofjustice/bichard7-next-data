@@ -6,7 +6,6 @@ import { ApiOffence } from "../types/StandingDataAPIResult"
 import config from "./config"
 
 const getOffence = async (alphaChar: string): Promise<ApiOffence[] | Error> => {
-  console.log(`running getOffence() with "${alphaChar}"`)
   return axios
     .post(
       config.endPoint,
