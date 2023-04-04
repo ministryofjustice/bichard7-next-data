@@ -48,7 +48,6 @@ const getOffence = async (alphaChar: string): Promise<ApiOffence[] | Error> => {
     .then((result) => {
       const parsedApiResult = getOffenceApiResultSchema.parse(result.data)
       const newResult = parsedApiResult.MessageBody.GatewayOperationType.GetOffenceResponse.Offence
-      console.log(`success with ${alphaChar}`)
       return newResult
     })
     .catch((error) => {
