@@ -15,6 +15,9 @@ jobs:
       PNLD_PASSWORD: ${{ secrets.PNLD_PASSWORD }}
       PNLD_USERNAME: ${{ secrets.PNLD_USERNAME }}
       GOOGLE_API_KEY: ${{ secrets.SHEETSAPIKEY }}
+      SD_USERNAME: ${{ secrets.SD_USERNAME }}
+      SD_PASSWORD: ${{ secrets.SD_PASSWORD }}
+      SD_END_POINT: ${{ secrets.SD_END_POINT }}
       HEADLESS: "true"
     steps:
       - name: Checkout repository
@@ -29,13 +32,13 @@ jobs:
         run: npm install
 
       - name: Download data files
-        run: npm run download-offence-code-data
+        run: npm run download-offence-code-data && npm run download-standing-data
 
       - name: Merge offence code data files
         run: npm run merge-offence-data
 
       - name: Download Organisation Unit data
-        run: npm run download-organisation-unit-data
+        run: npm run download-organisation-unit-data 
 
       - name: Report Status
         if: always()
