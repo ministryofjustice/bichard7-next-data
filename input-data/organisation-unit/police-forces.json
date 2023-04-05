@@ -55466,6 +55466,17 @@
     "bottomLevelName": "",
     "secondLevelCode": "67",
     "secondLevelName": "Serious Organised Crime Agency",
+    "thirdLevelCode": "EX",
+    "thirdLevelName": "NCA EXTRADITION",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "67",
+    "secondLevelName": "Serious Organised Crime Agency",
     "thirdLevelCode": "FI",
     "thirdLevelName": "FOOTBALL UNIT (DEFUNCT)",
     "thirdLevelPsaCode": "",
@@ -55523,6 +55534,17 @@
     "secondLevelName": "Serious Organised Crime Agency",
     "thirdLevelCode": "MD",
     "thirdLevelName": "NCA (SPARE)",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "67",
+    "secondLevelName": "Serious Organised Crime Agency",
+    "thirdLevelCode": "NC",
+    "thirdLevelName": "NCA EXTRADITION",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"

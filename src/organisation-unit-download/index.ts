@@ -9,7 +9,7 @@ import mergeOrganisationUnits from "./mergeOrganisationUnits"
 
 export default async () => {
   console.log("Downloading Organisation Unit data")
-  const downloadLinkRegex = /(https:\/\/.*cjs-courts-bc-ou-codes.*.xls.xlsx)"/i
+  const downloadLinkRegex = /(https:\/\/.*cjs-courts-bc-ou-codes.*\.xlsx?)"/i
   const downloadURL = await getDownloadUrl(downloadLinkRegex)
   const fileContents = await downloadFile(downloadURL)
   const courtOrganisationUnitData = generateCourtOrganisationUnits(fileContents)
