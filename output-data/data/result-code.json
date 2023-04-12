@@ -4128,6 +4128,14 @@
     "type": "F"
   },
   {
+    "cjsCode": "3324",
+    "description": "Serious Violence Reduction Order",
+    "recordableOnPnc": "",
+    "resultCodeQualifiers": "",
+    "resultHalfLifeHours": "24",
+    "type": "F"
+  },
+  {
     "cjsCode": "3501",
     "description": "Dealt with for Original Offence",
     "recordableOnPnc": "",
