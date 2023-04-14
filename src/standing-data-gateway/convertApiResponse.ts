@@ -6,7 +6,7 @@ export default (apiResponse: ApiOffence[] | Error): OffenceCode[] => {
     throw new Error("apiResponse resulted in Error output")
   }
   return apiResponse.map((offenceCode) => ({
-    cjsCode: offenceCode.code,
+    cjsCode: offenceCode.Code,
     offenceTitle: offenceCode.CjsTitle,
     offenceCategory: offenceCode.OffenceType,
     resultHalfLifeHours: null
