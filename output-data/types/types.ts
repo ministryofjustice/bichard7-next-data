@@ -1,4 +1,5 @@
 import type TriggerCode from "./TriggerCode"
+import type ExceptionCode from "./ExceptionCode"
 
 export type { default as TriggerCode } from "./TriggerCode"
 
@@ -133,6 +134,19 @@ export type YesNo = CjsCodeAndDescription
 export type TriggerDefinition = {
   code: TriggerCode
   description: string
+  shortDescription: string
+  pncScreenToUpdate?: string
+  cjsResultCode?: string
+}
+
+export type ExceptionDefinition = {
+  code: ExceptionCode
+  description: string
+  shortDescription: string
+  cause: string
+  correctingThisError: string
+  avoidingThisError: string
+  details?: Omit<ExceptionDefinition, "details" | "code">[]
 }
 
 export type ExcludedTriggerConfig = {

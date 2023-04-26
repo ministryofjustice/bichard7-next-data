@@ -27,6 +27,7 @@ import resultQualifierCodeData from "./data/result-qualifier-code.json"
 import summonsData from "./data/summons.json"
 import targetCourtTypeData from "./data/target-court-type.json"
 import triggerDefinitionData from "./data/trigger-definitions.json"
+import exceptionDefinitionData from "./data/exception-definitions.json"
 import typeOfHearingData from "./data/type-of-hearing.json"
 import vehicleCodeData from "./data/vehicle-code.json"
 import verdictData from "./data/verdict.json"
@@ -41,6 +42,7 @@ import {
   DefendantPresentAtHearing,
   DurationType,
   DurationUnit,
+  ExceptionDefinition,
   ExcludedTriggerConfig,
   Force,
   Gender,
@@ -96,6 +98,7 @@ export const resultQualifierCode: ResultQualifierCode[] = resultQualifierCodeDat
 export const summons: Summons[] = summonsData
 export const targetCourtType: TargetCourtType[] = targetCourtTypeData
 export const triggerDefinitions = triggerDefinitionData as TriggerDefinition[]
+export const exceptionDefinitions = exceptionDefinitionData as ExceptionDefinition[]
 export const typeOfHearing: TypeOfHearing[] = typeOfHearingData
 export const vehicleCode: VehicleCode[] = vehicleCodeData
 export const verdict: Verdict[] = verdictData
