@@ -1,7 +1,7 @@
 import { z } from "zod"
 
 export const apiOffenceSchema = z.object({
-  Code: z.string(),
+  code: z.string(),
   OffenceType: z.string().optional(),
   CjsTitle: z.string().optional()
 })

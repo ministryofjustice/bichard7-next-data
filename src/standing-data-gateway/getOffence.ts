@@ -51,7 +51,9 @@ const getOffence = async (alphaChar: string): Promise<ApiOffence[] | Error> => {
       return newResult
     })
     .catch((error) => {
+      const reducedErrorOutput = error.issues[0]
       console.log(`error with ${alphaChar}`)
+      console.log(reducedErrorOutput)
       return error
     })
 }
