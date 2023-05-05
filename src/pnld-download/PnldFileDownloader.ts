@@ -101,7 +101,7 @@ export default class PnldFileDownloader {
 
   async getFileLinks(): Promise<PnldFile[]> {
     const links: PnldFile[] = []
-    await this.page.goto(this.options.downloadUrl)
+    await this.page.goto(this.options.downloadUrl, { waitUntil: "networkidle2" })
     // The links are in a 4 column table with the date in the 1st column and the link in the second
     const columnCount = 4
     const tds = await this.page.$$(".table-responsive table tbody td")
