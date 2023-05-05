@@ -75,8 +75,9 @@ export default class PnldFileDownloader {
 
   async waitForZipCount(zipCount: number, timeout: number): Promise<void> {
     for (let i = 0; i < timeout; i++) {
-      // eslint-disable-next-line no-promise-executor-return
-      await new Promise((res) => setTimeout(res, 1000))
+      await new Promise((res) => {
+        setTimeout(res, 1000)
+      })
       const dir = await fs.promises.readdir(this.tmpDir)
       const count = dir.reduce((acc, filename) => {
         if (filename.endsWith(".zip")) {
@@ -95,11 +96,8 @@ export default class PnldFileDownloader {
     const linkLocation = await link.evaluate((el) => el.getAttribute("href"))
     console.log(`Downloading PNLD file "${linkText}" from ${linkLocation}`)
 
-    await new Promise((r) => {
-      setTimeout(r, 2_000)
-    })
-
     const before = await fs.promises.readdir(this.tmpDir)
+    await link.scrollIntoView()
     await link.click()
     await this.waitForZipCount(before.length + 1, 60)
     const after = await fs.promises.readdir(this.tmpDir)
@@ -128,6 +126,11 @@ export default class PnldFileDownloader {
   async downloadArchives(): Promise<PnldFile[]> {
     await this.setupDownloadFolder()
     const fileLinks = await this.getFileLinks()
+
+    const cookiesButton = await this.page.$(".closeCookies")
+    if (cookiesButton) {
+      await cookiesButton.click()
+    }
 
     // eslint-disable-next-line no-restricted-syntax
     for (const fileLink of fileLinks) {
