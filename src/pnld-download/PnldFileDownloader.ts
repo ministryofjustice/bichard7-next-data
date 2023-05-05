@@ -1,6 +1,7 @@
 /* eslint-disable no-await-in-loop */
 import * as fs from "fs"
 import puppeteer, { ElementHandle, Browser, Page } from "puppeteer"
+import { parse } from "date-fns"
 import { PnldConfig } from "./config"
 
 export type PnldFile = {
@@ -25,7 +26,7 @@ export default class PnldFileDownloader {
   async setupPuppeteer(): Promise<void> {
     this.browser = await puppeteer.launch({
       ignoreHTTPSErrors: true,
-      headless: this.options.headless,
+      headless: this.options.headless ? "new" : false,
       args: [
         // Required for Docker version of Puppeteer
         "--no-sandbox",
@@ -74,8 +75,9 @@ export default class PnldFileDownloader {
 
   async waitForZipCount(zipCount: number, timeout: number): Promise<void> {
     for (let i = 0; i < timeout; i++) {
-      // eslint-disable-next-line no-promise-executor-return
-      await new Promise((res) => setTimeout(res, 1000))
+      await new Promise((res) => {
+        setTimeout(res, 1000)
+      })
       const dir = await fs.promises.readdir(this.tmpDir)
       const count = dir.reduce((acc, filename) => {
         if (filename.endsWith(".zip")) {
@@ -90,17 +92,25 @@ export default class PnldFileDownloader {
   }
 
   async downloadFile(link: ElementHandle): Promise<string> {
+    const linkText = await link.evaluate((el) => el.textContent)
+    const linkLocation = await link.evaluate((el) => el.getAttribute("href"))
+    console.log(`Downloading PNLD file "${linkText}" from ${linkLocation}`)
+
     const before = await fs.promises.readdir(this.tmpDir)
+    await link.scrollIntoView()
     await link.click()
     await this.waitForZipCount(before.length + 1, 60)
     const after = await fs.promises.readdir(this.tmpDir)
     const fileName = after.filter((f) => !before.includes(f))[0]
-    return `${this.tmpDir}/${fileName}`
+    const filePath = `${this.tmpDir}/${fileName}`
+
+    console.log(`Downloaded PNLD file "${linkText}" to ${filePath}`)
+    return filePath
   }
 
   async getFileLinks(): Promise<PnldFile[]> {
     const links: PnldFile[] = []
-    await this.page.goto(this.options.downloadUrl)
+    await this.page.goto(this.options.downloadUrl, { waitUntil: "networkidle2" })
     // The links are in a 4 column table with the date in the 1st column and the link in the second
     const columnCount = 4
     const tds = await this.page.$$(".table-responsive table tbody td")
@@ -108,7 +118,7 @@ export default class PnldFileDownloader {
     for (let i = 0; i < rowCount * columnCount; i += columnCount) {
       const date = await tds[i].evaluate((node) => (node as any).innerText)
       const link = await tds[i + 1].$("a")
-      links.push({ date: new Date(date), link })
+      links.push({ date: parse(date, "dd/MM/yy", new Date()), link })
     }
     return links
   }
@@ -116,6 +126,11 @@ export default class PnldFileDownloader {
   async downloadArchives(): Promise<PnldFile[]> {
     await this.setupDownloadFolder()
     const fileLinks = await this.getFileLinks()
+
+    const cookiesButton = await this.page.$(".closeCookies")
+    if (cookiesButton) {
+      await cookiesButton.click()
+    }
 
     // eslint-disable-next-line no-restricted-syntax
     for (const fileLink of fileLinks) {
