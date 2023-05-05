@@ -1,6 +1,7 @@
 /* eslint-disable no-await-in-loop */
 import * as fs from "fs"
 import puppeteer, { ElementHandle, Browser, Page } from "puppeteer"
+import { parse } from "date-fns"
 import { PnldConfig } from "./config"
 
 export type PnldFile = {
@@ -108,7 +109,7 @@ export default class PnldFileDownloader {
     for (let i = 0; i < rowCount * columnCount; i += columnCount) {
       const date = await tds[i].evaluate((node) => (node as any).innerText)
       const link = await tds[i + 1].$("a")
-      links.push({ date: new Date(date), link })
+      links.push({ date: parse(date, "dd/MM/yy", new Date()), link })
     }
     return links
   }
