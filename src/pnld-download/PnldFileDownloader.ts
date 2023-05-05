@@ -26,7 +26,7 @@ export default class PnldFileDownloader {
   async setupPuppeteer(): Promise<void> {
     this.browser = await puppeteer.launch({
       ignoreHTTPSErrors: true,
-      headless: this.options.headless ? "new" : undefined,
+      headless: this.options.headless ? "new" : false,
       args: [
         // Required for Docker version of Puppeteer
         "--no-sandbox",
@@ -91,12 +91,23 @@ export default class PnldFileDownloader {
   }
 
   async downloadFile(link: ElementHandle): Promise<string> {
+    const linkText = await link.evaluate((el) => el.textContent)
+    const linkLocation = await link.evaluate((el) => el.getAttribute("href"))
+    console.log(`Downloading PNLD file "${linkText}" from ${linkLocation}`)
+
+    await new Promise((r) => {
+      setTimeout(r, 2_000)
+    })
+
     const before = await fs.promises.readdir(this.tmpDir)
     await link.click()
     await this.waitForZipCount(before.length + 1, 60)
     const after = await fs.promises.readdir(this.tmpDir)
     const fileName = after.filter((f) => !before.includes(f))[0]
-    return `${this.tmpDir}/${fileName}`
+    const filePath = `${this.tmpDir}/${fileName}`
+
+    console.log(`Downloaded PNLD file "${linkText}" to ${filePath}`)
+    return filePath
   }
 
   async getFileLinks(): Promise<PnldFile[]> {
