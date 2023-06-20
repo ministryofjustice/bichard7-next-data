@@ -17,15 +17,15 @@
   },
   {
     "code": "04",
-    "name": "Lancashire Constabulary"
+    "name": "Lancashire"
   },
   {
     "code": "05",
-    "name": "Merseyside Police"
+    "name": "Merseyside"
   },
   {
     "code": "06",
-    "name": "Greater Manchester Police"
+    "name": "Greater Manchester"
   },
   {
     "code": "07",
@@ -45,11 +45,11 @@
   },
   {
     "code": "12",
-    "name": "North Yorkshire Police"
+    "name": "North Yorkshire"
   },
   {
     "code": "13",
-    "name": "West Yorkshire Police"
+    "name": "West Yorkshire"
   },
   {
     "code": "14",
@@ -61,11 +61,11 @@
   },
   {
     "code": "16",
-    "name": "Humberside Police"
+    "name": "Humberside"
   },
   {
     "code": "17",
-    "name": "Cleveland Police"
+    "name": "Cleveland"
   },
   {
     "code": "18",
@@ -81,15 +81,15 @@
   },
   {
     "code": "22",
-    "name": "West Mercia Constabulary"
+    "name": "West Mercia"
   },
   {
     "code": "23",
-    "name": "Warwickshire Police"
+    "name": "Warwickshire"
   },
   {
     "code": "24",
-    "name": "MOD Police force global include"
+    "name": "MOD"
   },
   {
     "code": "25",
@@ -105,7 +105,7 @@
   },
   {
     "code": "30",
-    "name": "Derbyshire Police P1250372"
+    "name": "Derbyshire"
   },
   {
     "code": "31",
@@ -125,7 +125,7 @@
   },
   {
     "code": "35",
-    "name": "Cambridgeshire Constabulary"
+    "name": "Cambridgeshire"
   },
   {
     "code": "36",
@@ -133,7 +133,7 @@
   },
   {
     "code": "37",
-    "name": "Suffolk Constabulary"
+    "name": "Suffolk"
   },
   {
     "code": "39",
@@ -153,51 +153,51 @@
   },
   {
     "code": "43",
-    "name": "Thames Valley Police"
+    "name": "Thames Valley"
   },
   {
     "code": "44",
-    "name": "Hampshire Constabulary"
+    "name": "Hampshire"
   },
   {
     "code": "45",
-    "name": "Surrey Police"
+    "name": "Surrey"
   },
   {
     "code": "46",
-    "name": "Kent Police"
+    "name": "Kent"
   },
   {
     "code": "47",
-    "name": "Sussex Police"
+    "name": "Sussex"
   },
   {
     "code": "48",
-    "name": "City of London Police"
+    "name": "City of London"
   },
   {
     "code": "50",
-    "name": "Devon & Cornwall Constabulary"
+    "name": "Devon & Cornwall"
   },
   {
     "code": "52",
-    "name": "Avon & Somerset Police"
+    "name": "Avon & Somerset"
   },
   {
     "code": "53",
-    "name": "Gloucestershire Police"
+    "name": "Gloucestershire"
   },
   {
     "code": "54",
-    "name": "Wiltshire Police"
+    "name": "Wiltshire"
   },
   {
     "code": "55",
-    "name": "Dorset Police"
+    "name": "Dorset"
   },
   {
     "code": "56",
-    "name": "Guernsey Police"
+    "name": "Guernsey"
   },
   {
     "code": "57",
@@ -221,7 +221,7 @@
   },
   {
     "code": "63",
-    "name": "Dyfed Powys Police"
+    "name": "Dyfed Powys"
   },
   {
     "code": "64",
@@ -285,7 +285,7 @@
   },
   {
     "code": "88",
-    "name": "HMRC force global include : P1331753 +PR2, +PR10, +PR12, +PR19"
+    "name": "HMRC"
   },
   {
     "code": "89",
@@ -305,7 +305,7 @@
   },
   {
     "code": "93",
-    "name": "BTP global include"
+    "name": "BTP"
   },
   {
     "code": "94",
