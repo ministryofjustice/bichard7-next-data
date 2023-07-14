@@ -1,13 +1,11 @@
 import type TriggerCode from "./TriggerCode"
 import type ExceptionCode from "./ExceptionCode"
-import type RemandStatusCode from "./RemandStatus"
-import type Duration from "./Duration"
 
 export type { default as TriggerCode } from "./TriggerCode"
-export type { default as RemandStatusCode } from "./RemandStatus"
-export type { default as DateCode } from "./DateCode"
-export type { default as GenderCode } from "./GenderCode"
-export type { default as Duration } from "./Duration"
+export type { DateCode } from "./DateCode"
+export type { GenderCode } from "./GenderCode"
+export type { RemandStatusCode } from "./RemandStatusCode"
+export type { Duration } from "./Duration"
 
 export type CjsCodeAndDescription = {
   cjsCode: string
@@ -163,6 +161,3 @@ export type Force = {
   code: string
   name: string
 }
-
-export type RemandCode = keyof typeof RemandStatusCode
-export type DurationCode = keyof typeof Duration
