@@ -2,6 +2,10 @@ import type TriggerCode from "./TriggerCode"
 import type ExceptionCode from "./ExceptionCode"
 
 export type { default as TriggerCode } from "./TriggerCode"
+export type { DateCode } from "./DateCode"
+export type { GenderCode } from "./GenderCode"
+export type { RemandStatusCode } from "./RemandStatusCode"
+export type { Duration } from "./Duration"
 
 export type CjsCodeAndDescription = {
   cjsCode: string
