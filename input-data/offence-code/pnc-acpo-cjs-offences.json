@@ -16508,7 +16508,7 @@
   {
     "cjsCode": "CT92511 ",
     "offenceTitle": "COMMITTAL TO PRISON FOR NON PAYMENT OF COUNCIL TAX********* CIVIL OFFENCE ********",
-    "recordableOnPnc": true,
+    "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
   {
