@@ -171,6 +171,7 @@ jobs:
       - fetch_docker_images
       - start_audit_logging
       - run:
+          working_directory: ~/bichard7-next
           name: Start docker services (except BeanConnect)
           command: make run-all-no-bc && make run-ui
       - start_beanconnect
