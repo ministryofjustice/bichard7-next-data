@@ -160,6 +160,7 @@ jobs:
     environment:
       STACK_TYPE: next
       WORKSPACE: local-next
+      RECORD: true # required for screenshots
     parallelism: 4
     steps:
       - checkout
