@@ -126,12 +126,11 @@ commands:
     steps:
       - run:
           name: Start BeanConnect and PNC Emulator
-          command: make run-beanconnect
-      - run:
-          name: Wait for Bichard
-          command: bash ./scripts/wait_for_bichard.sh
+          working_directory: ~/bichard7-next
+          command: make run-beanconnect && bash ./scripts/wait_for_bichard.sh
       - run:
           name: Retry - start BeanConnect and PNC Emulator
+          working_directory: ~/bichard7-next
           when: on_fail
           command: make run-beanconnect && bash ./scripts/wait_for_bichard.sh
 
