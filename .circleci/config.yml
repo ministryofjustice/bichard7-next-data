@@ -26,6 +26,11 @@ commands:
       - fetch_docker_image:
           image: ui
 
+  lint:
+    steps:
+      - run: npm i
+      - run: npm run lint
+
   save_e2e_artifacts:
     steps:
       - run:
@@ -139,7 +144,7 @@ jobs:
     resource_class: xlarge
     steps:
       - checkout
-      - run: npm run lint
+      - lint
       - build_data_jar
       - build_bichard
       - run:
@@ -159,7 +164,7 @@ jobs:
     parallelism: 4
     steps:
       - checkout
-      - run: npm run lint
+      - lint
       - build_data_jar
       - build_bichard
       - fetch_docker_images
