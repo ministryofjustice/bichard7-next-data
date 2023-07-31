@@ -139,6 +139,7 @@ jobs:
     resource_class: xlarge
     steps:
       - checkout
+      - run: npm run lint
       - build_data_jar
       - build_bichard
       - run:
@@ -158,6 +159,7 @@ jobs:
     parallelism: 4
     steps:
       - checkout
+      - run: npm run lint
       - build_data_jar
       - build_bichard
       - fetch_docker_images
