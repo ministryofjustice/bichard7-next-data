@@ -151,7 +151,6 @@ jobs:
       - name: Update standing data npm package
         run: >
           npm install 
-          bichard7-next-data-${VERSION}@npm:@moj-bichard7-developers/bichard7-next-data@${VERSION} 
           bichard7-next-data-latest@npm:@moj-bichard7-developers/bichard7-next-data@${VERSION}
         env:
           VERSION: ${{ needs.bump-package-version.outputs.version }}
