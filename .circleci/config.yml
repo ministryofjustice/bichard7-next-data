@@ -85,7 +85,7 @@ commands:
           command: git clone --depth 1 https://github.com/ministryofjustice/bichard7-next-tests.git ~/bichard7-next-tests
       - restore_cache:
           name: Restore bichard7-next-tests dependencies from cache
-          key: b7-tests-deps-{{ checksum "~/bichard7-next-tests/package-lock.json" }}
+          key: v1-b7-tests-deps-{{ checksum "~/bichard7-next-tests/package-lock.json" }}
       - run:
           name: Install test dependencies
           working_directory: ~/bichard7-next-tests
@@ -98,9 +98,9 @@ commands:
       - save_cache:
           name: Save bichard7-next-tests dependencies to cache
           working_directory: ~/bichard7-next-tests
-          key: b7-tests-deps-{{ checksum "~/bichard7-next-tests/package-lock.json" }}
+          key: v1-b7-tests-deps-{{ checksum "~/bichard7-next-tests/package-lock.json" }}
           paths: 
-            - ~/.cache/puppeteer
+            - ~/bichard7-next-tests/.cache/puppeteer
             - ~/bichard7-next-tests/node_modules
 
 ################### Services
@@ -161,6 +161,7 @@ jobs:
       STACK_TYPE: next
       WORKSPACE: local-next
       RECORD: true # required for screenshots
+      AUDIT_LOG_API_URL: http://localhost:3010
     parallelism: 4
     steps:
       - checkout
@@ -178,7 +179,7 @@ jobs:
       - run:
           name: Run E2E tests
           working_directory: ~/bichard7-next-tests
-          command: TOTAL_CHUNKS=$CIRCLE_NODE_TOTAL CHUNK_NUMBER=$CIRCLE_NODE_INDEX npm run test:chunk
+          command: TOTAL_CHUNKS=$CIRCLE_NODE_TOTAL CHUNK_NUMBER=$CIRCLE_NODE_INDEX bash ./scripts/run_test_chunk.sh 'not @Excluded and not @ExcludedOnMaster and not @OnlyRunsOnPNC and not @AuditLog'
       - save_e2e_artifacts
 
 #################################################################################
