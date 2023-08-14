@@ -180,7 +180,7 @@ jobs:
           working_directory: ~/bichard7-next-tests
           command: |
             TOTAL_CHUNKS=$CIRCLE_NODE_TOTAL CHUNK_NUMBER=$CIRCLE_NODE_INDEX \ 
-            bash ./scripts/run_test_chunk.sh \
+            ./scripts/run_test_chunk.sh \
             'not @Excluded and not @ExcludedOnMaster and not @OnlyRunsOnPNC and not @AuditLog'
       - save_e2e_artifacts
 
