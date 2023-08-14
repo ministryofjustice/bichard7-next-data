@@ -85,7 +85,7 @@ commands:
           command: git clone --depth 1 https://github.com/ministryofjustice/bichard7-next-tests.git ~/bichard7-next-tests
       - restore_cache:
           name: Restore bichard7-next-tests dependencies from cache
-          key: b7-tests-deps-{{ checksum "~/bichard7-next-tests/package-lock.json" }}
+          key: v1-b7-tests-deps-{{ checksum "~/bichard7-next-tests/package-lock.json" }}
       - run:
           name: Install test dependencies
           working_directory: ~/bichard7-next-tests
@@ -98,9 +98,9 @@ commands:
       - save_cache:
           name: Save bichard7-next-tests dependencies to cache
           working_directory: ~/bichard7-next-tests
-          key: b7-tests-deps-{{ checksum "~/bichard7-next-tests/package-lock.json" }}
+          key: v1-b7-tests-deps-{{ checksum "~/bichard7-next-tests/package-lock.json" }}
           paths: 
-            - ~/.cache/puppeteer
+            - ~/bichard7-next-tests/.cache/puppeteer
             - ~/bichard7-next-tests/node_modules
 
 ################### Services
