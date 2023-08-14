@@ -161,6 +161,7 @@ jobs:
       STACK_TYPE: next
       WORKSPACE: local-next
       RECORD: true # required for screenshots
+      AUDIT_LOG_API_URL: http://localhost:3010
     parallelism: 4
     steps:
       - checkout
