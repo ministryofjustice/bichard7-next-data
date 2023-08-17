@@ -92,9 +92,9 @@ export default class PnldFileDownloader {
   }
 
   async downloadFile(link: ElementHandle): Promise<string> {
-    const linkText = await link.evaluate((el) => el.textContent)
-    const linkLocation = await link.evaluate((el) => el.getAttribute("href"))
-    console.log(`Downloading PNLD file "${linkText}" from ${linkLocation}`)
+    // const linkText = await link.evaluate((el) => el.textContent)
+    // const linkLocation = await link.evaluate((el) => el.getAttribute("href"))
+    console.log("Downloading PNLD file")
 
     const before = await fs.promises.readdir(this.tmpDir)
     await link.scrollIntoView()
@@ -104,7 +104,7 @@ export default class PnldFileDownloader {
     const fileName = after.filter((f) => !before.includes(f))[0]
     const filePath = `${this.tmpDir}/${fileName}`
 
-    console.log(`Downloaded PNLD file "${linkText}" to ${filePath}`)
+    console.log("Downloaded PNLD file ")
     return filePath
   }
 
