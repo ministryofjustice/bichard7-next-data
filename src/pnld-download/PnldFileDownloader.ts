@@ -92,6 +92,7 @@ export default class PnldFileDownloader {
   }
 
   async downloadFile(link: ElementHandle): Promise<string> {
+    console.log(link)
     // const linkText = await link.evaluate((el) => el.textContent)
     // const linkLocation = await link.evaluate((el) => el.getAttribute("href"))
     console.log("Downloading PNLD file")
