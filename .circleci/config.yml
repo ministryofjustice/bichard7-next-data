@@ -106,6 +106,10 @@ commands:
           PACKAGE: bichard7-next-audit-logging
       - install_project_packages:
           PACKAGE: bichard7-next-tests
+      - run:
+          name: Install puppeteer dependencies
+          command: npm i
+          working_directory: ~/bichard7-next-tests/node_modules/puppeteer
 
   clone_packages:
     steps:
