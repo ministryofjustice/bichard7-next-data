@@ -139,7 +139,7 @@ commands:
 jobs:
   run_bichard_unit_tests:
     machine:
-      image: ubuntu-2004:2022.07.1
+      image: ubuntu-2204:current
       docker_layer_caching: false
     resource_class: xlarge
     steps:
@@ -154,7 +154,7 @@ jobs:
 
   run_e2e_tests:
     machine:
-      image: ubuntu-2004:2022.07.1
+      image: ubuntu-2204:current
       docker_layer_caching: false
     resource_class: xlarge
     environment:
