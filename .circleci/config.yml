@@ -200,9 +200,11 @@ jobs:
     resource_class: xlarge
     environment:
       STACK_TYPE: next
+      MESSAGE_ENTRY_POINT: mq
       WORKSPACE: local-next
       RECORD: true # required for screenshots
-      AUDIT_LOG_API_URL: http://localhost:3010
+      AWS_URL: http://localhost:4566
+      AUDIT_LOG_API_URL: http://localhost:7010
     parallelism: 4
     steps:
       - checkout
