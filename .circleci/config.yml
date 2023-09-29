@@ -79,10 +79,6 @@ commands:
       - node/install-packages:
           app-dir: ~/bichard7-next-tests
           include-branch-in-cache-key: true
-      - run:
-          name: Install puppeteer dependencies
-          command: npm i
-          working_directory: ~/bichard7-next-tests/node_modules/puppeteer
 
   clone_packages:
     steps:
