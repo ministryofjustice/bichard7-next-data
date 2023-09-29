@@ -72,13 +72,10 @@ commands:
       - node/install-packages:
           app-dir: ~/bichard7-next-core
           override-ci-command: npm i --workspaces --include-workspace-root
-          include-branch-in-cache-key: true
       - node/install-packages:
           app-dir: ~/bichard7-next-audit-logging
-          include-branch-in-cache-key: true
       - node/install-packages:
           app-dir: ~/bichard7-next-tests
-          include-branch-in-cache-key: true
 
   clone_packages:
     steps:
