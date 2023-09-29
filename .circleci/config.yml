@@ -130,6 +130,17 @@ commands:
       - install_node
       - install_packages
 
+  start_postgres:
+    steps:
+      - run:
+          name: Clone bichard7-next-core
+          command: git clone --depth 1 https://github.com/ministryofjustice/bichard7-next-core.git ~/bichard7-next-core
+      - install_node
+      - run:
+          name: Run Postgres
+          command: npm run postgres
+          working_directory: ~/bichard7-next-core
+
   build_message_forwarder:
     steps:
       - run:
@@ -188,6 +199,7 @@ jobs:
       - lint
       - build_data_jar
       - build_bichard
+      - start_postgres
       - run:
           name: Run Bichard unit tests
           working_directory: ~/bichard7-next
