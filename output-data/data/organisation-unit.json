@@ -24458,6 +24458,17 @@
     "secondLevelCode": "21",
     "secondLevelName": "Staffordshire",
     "thirdLevelCode": "BH",
+    "thirdLevelName": "Bennett House Stoke CTSC",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "B",
+    "topLevelName": "CTSC"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "21",
+    "secondLevelName": "Staffordshire",
+    "thirdLevelCode": "BH",
     "thirdLevelName": "NEWCASTLE SOUTH LPU",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
@@ -53557,6 +53568,17 @@
     "thirdLevelPsaCode": "1450",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "52",
+    "secondLevelName": "Avon and Somerset",
+    "thirdLevelCode": "WO",
+    "thirdLevelName": "Taunton Crown Court sitting at Worle",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "C",
+    "topLevelName": "Crown Courts"
   },
   {
     "bottomLevelCode": "00",
