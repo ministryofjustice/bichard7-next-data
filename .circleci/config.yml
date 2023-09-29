@@ -90,23 +90,6 @@ commands:
           name: Clone bichard7-next-tests
           command: git clone --depth 1 https://github.com/ministryofjustice/bichard7-next-tests.git ~/bichard7-next-tests
 
-  setup:
-    steps:
-      - clone_packages
-      - install_node
-      - install_packages
-
-  start_postgres:
-    steps:
-      - run:
-          name: Clone bichard7-next-core
-          command: git clone --depth 1 https://github.com/ministryofjustice/bichard7-next-core.git ~/bichard7-next-core
-      - install_node
-      - run:
-          name: Run Postgres
-          command: npm run postgres
-          working_directory: ~/bichard7-next-core
-
   build_message_forwarder:
     steps:
       - run:
@@ -131,6 +114,8 @@ commands:
           name: "Fetch images: <<parameters.IMAGES>>"
           command: bash ~/bichard7-next-core/scripts/fetch-docker-image.sh <<parameters.IMAGES>>
 
+################### Services
+
   start_bichard7_legacy:
     parameters:
       ENABLE_PHASE_2:
@@ -153,6 +138,18 @@ commands:
             SKIP_IMAGES=bichard7-liberty \
             npm run all-legacy
 
+  start_postgres:
+    steps:
+      - run:
+          name: Clone bichard7-next-core
+          command: git clone --depth 1 https://github.com/ministryofjustice/bichard7-next-core.git ~/bichard7-next-core
+      - install_node
+      - run:
+          name: Run Postgres
+          command: npm run postgres
+          working_directory: ~/bichard7-next-core
+
+#################################################################################
 
 jobs:
   bichard_unit_tests:
@@ -189,7 +186,9 @@ jobs:
       - lint
       - build_data_jar
       - build_bichard
-      - setup
+      - clone_packages
+      - install_node
+      - install_packages
       - start_bichard7_legacy
       - run:
           name: Run E2E tests
