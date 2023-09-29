@@ -8,7 +8,8 @@ commands:
   lint:
     steps:
       - node/install
-      - node/install-packages
+      - node/install-packages:
+          include-branch-in-cache-key: true
       - run: npm run lint
 
   save_e2e_artifacts:
@@ -71,10 +72,13 @@ commands:
       - node/install-packages:
           app-dir: ~/bichard7-next-core
           override-ci-command: npm i --workspaces --include-workspace-root
+          include-branch-in-cache-key: true
       - node/install-packages:
           app-dir: ~/bichard7-next-audit-logging
+          include-branch-in-cache-key: true
       - node/install-packages:
           app-dir: ~/bichard7-next-tests
+          include-branch-in-cache-key: true
       - run:
           name: Install puppeteer dependencies
           command: npm i
