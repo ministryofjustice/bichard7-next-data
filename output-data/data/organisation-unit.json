@@ -23610,6 +23610,17 @@
     "bottomLevelName": "",
     "secondLevelCode": "20",
     "secondLevelName": "West Midlands",
+    "thirdLevelCode": "MP",
+    "thirdLevelName": "Birmingham Magistrates' Court sitting at Maple House",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "B",
+    "topLevelName": "Magistrates' Courts"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "20",
+    "secondLevelName": "West Midlands",
     "thirdLevelCode": "MQ",
     "thirdLevelName": "HISTORIC",
     "thirdLevelPsaCode": "",
