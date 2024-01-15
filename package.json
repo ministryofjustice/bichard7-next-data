@@ -28,21 +28,21 @@
   },
   "homepage": "https://github.com/ministryofjustice/bichard7-next-data#readme",
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.485.0",
+    "@aws-sdk/client-s3": "^3.490.0",
     "@types/jest": "^29.5.11",
     "@types/lodash": "^4.14.202",
     "@types/puppeteer": "^5.4.7",
-    "@typescript-eslint/eslint-plugin": "^6.18.0",
-    "@typescript-eslint/parser": "^6.18.0",
+    "@typescript-eslint/eslint-plugin": "^6.18.1",
+    "@typescript-eslint/parser": "^6.18.1",
     "axios": "^1.6.5",
-    "date-fns": "^3.1.0",
+    "date-fns": "^3.2.0",
     "eslint": "^8.56.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.1.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-jest": "^27.6.1",
-    "fast-xml-parser": "^4.3.2",
+    "eslint-plugin-jest": "^27.6.3",
+    "fast-xml-parser": "^4.3.3",
     "google-auth-library": "^8.9.0",
     "googleapis": "^122.0.0",
     "husky": "^8.0.3",
@@ -53,7 +53,7 @@
     "lodash": "^4.17.21",
     "mockdate": "^3.0.5",
     "npm-check-updates": "^16.14.12",
-    "prettier": "^3.1.1",
+    "prettier": "^3.2.2",
     "puppeteer": "^21.7.0",
     "sort-json-keys": "^1.0.3",
     "ts-jest": "^29.1.1",
@@ -68,6 +68,6 @@
   },
   "devDependencies": {
     "@types/uuid": "^9.0.7",
-    "eslint-plugin-prettier": "^5.1.2"
+    "eslint-plugin-prettier": "^5.1.3"
   }
 }
