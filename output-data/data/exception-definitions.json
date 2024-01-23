@@ -123,9 +123,9 @@
     "code": "HO100307",
     "shortDescription": "Result Code not found (Lookup failed)",
     "description": "The result code is not found.",
-    "cause": "",
+    "cause": "Bichard fails to look up the result by CJS code",
     "correctingThisError": "Enter the result onto PNC manually.",
-    "avoidingThisError": ""
+    "avoidingThisError": "There is nothing the user can do to avoid this error."
   },
   {
     "code": "HO100309",
