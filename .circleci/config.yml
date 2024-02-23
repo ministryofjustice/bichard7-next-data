@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  node: circleci/node@5.1.0
+  node: circleci/node@5.2.0
 
 commands:
 ################### Helpers
@@ -199,7 +199,6 @@ jobs:
 #################################################################################
 
 workflows:
-  version: 2
   test:
     jobs:
       - bichard_unit_tests
