@@ -15,7 +15,7 @@
     "download-organisation-unit-data": "ts-node src/download-organisation-unit-data.ts",
     "merge-offence-data": "ts-node src/merge-offence-data.ts",
     "generate-trigger-config": "ts-node src/generate-trigger-properties/generate.ts",
-    "update-deps": "ncu -u -x puppeteer -x @typescript-eslint/eslint-plugin -x @typescript-eslint/parser && npm install"
+    "update-deps": "ncu -u -x @typescript-eslint/eslint-plugin -x @typescript-eslint/parser && npm install"
   },
   "repository": {
     "type": "git",
