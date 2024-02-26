@@ -95,7 +95,7 @@ commands:
       - run:
           name: Build message forwarder image
           working_directory: ~/bichard7-next-core
-          command: docker compose -f environment/docker-compose.yml build message-forwarder
+          command: bash .circleci/scripts/build-message-forwarder.sh
 
   build_audit_logging_images:
     steps:
@@ -112,7 +112,8 @@ commands:
     steps:
       - run:
           name: "Fetch images: <<parameters.IMAGES>>"
-          command: bash ~/bichard7-next-core/scripts/fetch-docker-image.sh <<parameters.IMAGES>>
+          working_directory: ~/bichard7-next-core
+          command: bash .circleci/scripts/fetch-docker-images.sh <<parameters.IMAGES>>
 
 ################### Services
 
@@ -134,9 +135,7 @@ commands:
           name: Start bichard7 legacy
           working_directory: ~/bichard7-next-core
           command: |
-            ENABLE_PHASE_2=<<parameters.ENABLE_PHASE_2>> \
-            SKIP_IMAGES=bichard7-liberty \
-            npm run all-legacy
+            ENABLE_PHASE_2=<<parameters.ENABLE_PHASE_2>> bash .circleci/scripts/run-infrastructure.sh bichard7-liberty all-legacy
 
   start_postgres:
     steps:
