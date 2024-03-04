@@ -2,21 +2,25 @@
 // currently breaks their compatibility
 // affects: src/requested-changes-download/sheetsClient.ts
 const pinned = ["google-auth-library"]
-const ignored = ["googleapis"]
+const ignored = ["googleapis", "puppeteer"]
+const skipped = []
 
 module.exports = {
-  target: (package) => {
-    if (pinned.some((p) => new RegExp(`^${p}$`).test(package))) {
+  target: (pkg) => {
+    if (pinned.some((pin) => pin === pkg)) {
       const res = "minor"
-      console.log(` ${package} is pinned to ${res} upgrades only (.ncurc.js)`)
+      console.log(` ${pkg} is pinned to ${res} upgrades only (.ncurc.js)`)
       return res
     }
     return "latest"
   },
 
-  filterResults: (package) => {
-    if (ignored.some((p) => new RegExp(`^${p}$`).test(package))) {
-      return
+  filterResults: (pkg, { upgradedVersion }) => {
+    if (ignored.some((ignore) => ignore.pkg === pkg)) {
+      return false
+    }
+    if (skipped.some((skip) => skip.pkg === pkg && skip.version === upgradedVersion)) {
+      return false
     }
     return true
   }
