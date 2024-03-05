@@ -40,6 +40,14 @@
     "avoidingThisError": "The error should be investigated and the cause explored."
   },
   {
+    "code": "HO100232",
+    "shortDescription": "Bad Location Of Offence",
+    "cause": "The offence location has to be a valid length, between 1 and 80 characters",
+    "description": "The Location code is either too long or short",
+    "correctingThisError": "The issue should be raised with the Bichard 7 support team",
+    "avoidingThisError": "There is nothing the user can do to avoid this error."
+  },
+  {
     "code": "HO100239",
     "shortDescription": "Bad Court Offence Sequence Number",
     "description": "There is no sequence number or the sequence number is a zero.",
