@@ -25,7 +25,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: "16.19.1"
+          node-version: 20.6.1
 
       - name: Bump output package version (and capture it)
         id: bump
@@ -67,7 +67,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "16.19.1"
+          node-version: 20.6.1
 
       - name: Install top-level NPM dependencies
         run: npm ci
@@ -105,7 +105,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "16.19.1"
+          node-version: 20.6.1
 
       - name: Install top-level NPM dependencies
         run: npm ci
