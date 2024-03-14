@@ -28,6 +28,9 @@ jobs:
         with:
           node-version: 20.6.1
 
+      - name: Keep a copy of the old data for generating changelog
+        run: mkdir -p /tmp/b7-standing-data-copy && cp -r ./output-data/data /tmp/b7-standing-data-copy
+
       - name: Install dependencies
         run: npm install
 
@@ -39,6 +42,9 @@ jobs:
 
       - name: Download Organisation Unit data
         run: npm run download-organisation-unit-data 
+
+      - name: Generate changelog
+        run: OLD_OFFENCES="/tmp/b7-standing-data-copy/data/offence-code.json" NEW_OFFENCES="./output-data/data/offence-code.json" npx -y ts-node -T ./scripts/generate-changelog.ts
 
       - name: Report Status
         if: always()
