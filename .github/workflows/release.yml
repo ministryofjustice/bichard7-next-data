@@ -33,7 +33,8 @@ jobs:
         working-directory: output-data
 
       - name: Check new version
-        run: echo "${{ steps.bump.outputs.version }}"
+        run: if [ -z "${{ steps.bump.outputs.version }}" ]; \
+          then exit 1; else echo "${{ steps.bump.outputs.version }}"; fi
 
       - name: Update pom.xml with new version number
         run: envsubst '$PACKAGE_JSON_VERSION' < pom.template.xml > pom.xml
