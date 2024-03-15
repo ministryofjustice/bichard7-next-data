@@ -27,23 +27,14 @@ jobs:
         with:
           node-version: 20.6.1
 
-      - name: DEBUG - GITHUB_OUTPUT before
-        run: echo $GITHUB_OUTPUT && cat $GITHUB_OUTPUT
-  
       - name: Bump output package version (and capture it)
         id: bump
         run: echo "version=$(npm version patch | tr -d 'v')" >> "$GITHUB_OUTPUT"
         working-directory: output-data
 
-      - name: DEBUG - GITHUB_OUTPUT after
-        run: echo $GITHUB_OUTPUT && cat $GITHUB_OUTPUT
-
       - name: Check new version
         run: if [ -z "${{ steps.bump.outputs.version }}" ]; then exit 1; else echo "${{ steps.bump.outputs.version }}"; fi
       
-      - name: DEBUG - Exit
-        run: exit 1
-
       - name: Update pom.xml with new version number
         run: envsubst '$PACKAGE_JSON_VERSION' < pom.template.xml > pom.xml
         env:
