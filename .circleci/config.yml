@@ -7,12 +7,9 @@ commands:
 ################### Helpers
   lint:
     steps:
-      - run:
-          name: Install NPM packages
-          command: nvm install && npm cache clean --force && npm cache verify && npm install --verbose
-      # - node/install
-      # - node/install-packages:
-      #     include-branch-in-cache-key: true
+      - node/install
+      - node/install-packages:
+          include-branch-in-cache-key: true
       - run: npm run lint
 
   save_e2e_artifacts:
@@ -72,22 +69,13 @@ commands:
   install_packages:
     description: Install all npm packages
     steps:
-      - run:
-          name: Install Core packages
-          command: cd ~/bichard7-next-core && npm i --workspaces --include-workspace-root
-      - run:
-          name: Install Audit Logging packages
-          command: cd ~/bichard7-next-audit-logging && npm i
-      - run:
-          name: Install Tests packages
-          command: cd ~/bichard7-next-tests && npm i
-      # - node/install-packages:
-      #     app-dir: ~/bichard7-next-core
-      #     override-ci-command: npm i --workspaces --include-workspace-root
-      # - node/install-packages:
-      #     app-dir: ~/bichard7-next-audit-logging
-      # - node/install-packages:
-      #     app-dir: ~/bichard7-next-tests
+      - node/install-packages:
+          app-dir: ~/bichard7-next-core
+          override-ci-command: npm i --workspaces --include-workspace-root
+      - node/install-packages:
+          app-dir: ~/bichard7-next-audit-logging
+      - node/install-packages:
+          app-dir: ~/bichard7-next-tests
 
   clone_packages:
     steps:
