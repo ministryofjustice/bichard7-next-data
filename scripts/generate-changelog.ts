@@ -1,120 +1,167 @@
+/* eslint no-underscore-dangle: 0 */
 import fs from "fs"
 
-type Offence = {
-  cjsCode: string
-  description: string
-  homeOfficeClassification: string
-  notifiableToHo: boolean
-  offenceCategory: string
-  offenceTitle: string
-  recordableOnPnc: boolean
-  resultHalfLifeHours: string
-}
-
-type ChangedOffence = {
-  code: string
+type DataItem = Record<string, string | number | null | undefined>
+type ChangedItem = {
+  key: string
   changes: string[]
 }
 
-const oldOffences = JSON.parse(
-  fs.readFileSync(String(process.env.OLD_OFFENCES)).toString()
-) as Offence[]
-const newOffences = JSON.parse(
-  fs.readFileSync(String(process.env.NEW_OFFENCES)).toString()
-) as Offence[]
+const newPath = String(process.env.NEW_DATA_PATH)
+const oldPath = String(process.env.OLD_DATA_PATH)
 
-const getLabel = (fieldName: string) =>
-  ({
-    cjsCode: "Code",
-    description: "Description",
-    homeOfficeClassification: "HO Classification",
-    notifiableToHo: "Notifiable to HO",
-    offenceCategory: "Category",
-    offenceTitle: "Title",
-    recordableOnPnc: "Recordable",
-    resultHalfLifeHours: "Result half life hours"
-  })[fieldName] || fieldName
+const defaultComparisonFn = (o: DataItem, n: DataItem) =>
+  ("__key" in o && o["__key"] === n["__key"]) ||
+  ("cjsCode" in o && o["cjsCode"] === n["cjsCode"]) ||
+  ("code" in o && o["code"] === n["code"]) ||
+  ("disposalCode" in o && o["disposalCode"] === n["disposalCode"])
 
-const getFields = (offence) =>
-  Object.keys(offence)
-    .map((fieldName) => `**${getLabel(fieldName)}**: ${offence[fieldName]}`)
-    .join("<br>")
+const organisationUnitComparisonFn = (o: DataItem, n: DataItem) =>
+  o["bottomLevelCode"] === n["bottomLevelCode"] &&
+  o["secondLevelCode"] === n["secondLevelCode"] &&
+  o["thirdLevelCode"] === n["thirdLevelCode"] &&
+  o["thirdLevelPsaCode"] === n["thirdLevelPsaCode"] &&
+  o["topLevelCode"] === n["topLevelCode"]
 
-// Deleted offences
-const deletedOffences = oldOffences.filter((o) => !newOffences.some((n) => o.cjsCode === n.cjsCode))
-const deletedOffencesTable = [
-  "| Code     | Details |",
-  "|----------|---------|",
-  deletedOffences.map((offence) => `| ${offence.cjsCode} | ${getFields(offence)} |`).join("\n")
-].join("\n")
+const files = ["offence-code.json"] //fs.readdirSync(oldPath).filter((file) => file.endsWith(".json"))
+const defaultFileFns = files.reduce((acc, file) => {
+  acc[file] = defaultComparisonFn
+  return acc
+}, {})
 
-// Added offences
-const addedOffences = newOffences.filter((o) => !oldOffences.some((n) => o.cjsCode === n.cjsCode))
-const addedOffencesTable = [
-  "| Code     | Details |",
-  "|----------|---------|",
-  addedOffences.map((offence) => `| ${offence.cjsCode} | ${getFields(offence)} |`).join("\n")
-].join("\n")
+const dataFileFns: Record<string, (o: DataItem, n: DataItem) => boolean> = {
+  ...defaultFileFns,
+  "organisation-unit.json": organisationUnitComparisonFn
+}
 
-// Updated offences
-const changedOffences: ChangedOffence[] = oldOffences
-  .map((oldOffence) => {
-    const newOffence = newOffences.find((n) => oldOffence.cjsCode === n.cjsCode)
-    if (!newOffence) {
-      return undefined
-    }
+const convertToArray = (rawData): DataItem[] =>
+  Array.isArray(rawData)
+    ? rawData
+    : Object.entries(rawData).map(([k, v]) => ({ __key: k, ...(v as any) }))
 
-    const generateChangeLog = (fieldName: string): string | undefined => {
-      const oldValue = oldOffence[fieldName]
-      const newValue = newOffence[fieldName]
-      if (newValue === oldValue) {
+const filesResult = {}
+for (const file of files) {
+  console.log("Processing", file)
+  const oldFilePath = `${oldPath}/${file}`
+  const newFilePath = `${newPath}/${file}`
+  if (!fs.existsSync(oldFilePath) || !fs.existsSync(newFilePath)) {
+    continue
+  }
+
+  const oldData = convertToArray(JSON.parse(fs.readFileSync(oldFilePath).toString()))
+  const newData = convertToArray(JSON.parse(fs.readFileSync(newFilePath).toString()))
+
+  const deletedItems = oldData.filter(
+    (oldDataItem) => !newData.some((newDataItem) => dataFileFns[file](oldDataItem, newDataItem))
+  )
+  const addedItems = newData.filter(
+    (newDataItem) => !oldData.some((oldDataItem) => dataFileFns[file](oldDataItem, newDataItem))
+  )
+  const changedItems = oldData
+    .map((oldDataItem) => {
+      const newDataItem = newData.find((newItem) => dataFileFns[file](oldDataItem, newItem))
+      if (!newDataItem) {
         return undefined
       }
 
-      const label = getLabel(fieldName)
-
-      const valueChange = `**${label}**:<br>- Old: '*${oldValue}*'<br>- New: '*${newValue}*'`
-      return valueChange
-    }
-
-    const changes = Object.keys(oldOffence)
-      .map((fieldName) => generateChangeLog(fieldName))
-      .filter((x) => x)
-
-    return changes.length
-      ? {
-          code: oldOffence.cjsCode,
-          changes
+      const generateChangeLog = (fieldName: string): string | undefined => {
+        const oldValue =
+          typeof oldDataItem[fieldName] === "object"
+            ? JSON.stringify(oldDataItem[fieldName])
+            : oldDataItem[fieldName]
+        const newValue =
+          typeof newDataItem[fieldName] === "object"
+            ? JSON.stringify(newDataItem[fieldName])
+            : newDataItem[fieldName]
+        if (newValue === oldValue) {
+          return undefined
         }
-      : undefined
-  })
-  .filter((x) => x) as ChangedOffence[]
 
-const changedOffencesTable = [
-  "| Code     | Changes |",
-  "|----------|---------|",
-  ...changedOffences
-    .filter((x) => x)
-    .map(({ code, changes }) => `| **${code}** | ${changes.join("<br>")} |`)
-].join("\n")
+        const valueChange = `**${fieldName}**:<br>- Old: '*${oldValue}*'<br>- New: '*${newValue}*'`
+        return valueChange
+      }
 
-const fileContent = `
-# Changelog
+      const changes = Object.keys(oldDataItem)
+        .map((fieldName) => generateChangeLog(fieldName))
+        .filter((x) => x)
 
-<details>
-  <summary>Deleted Offences (${deletedOffences.length})</summary>
-  ${deletedOffences.length ? deletedOffencesTable : "No offences deleted"}
-</details>
+      return changes.length
+        ? {
+            key: oldDataItem["__key"] || oldDataItem["cjsCode"] || oldDataItem["code"] || "",
+            changes
+          }
+        : undefined
+    })
+    .filter((x) => x) as ChangedItem[]
 
-<details>
-  <summary>Added Offences (${addedOffences.length})</summary>
-  ${addedOffences.length ? addedOffencesTable : "No offences added"}
-</details>
+  filesResult[file] = {
+    deleted: deletedItems,
+    added: addedItems,
+    changed: changedItems
+  }
+}
 
-<details>
-  <summary>Changed Offences (${changedOffences.length})</summary>
-  ${changedOffences.length ? changedOffencesTable : "No offences changed"}
-</details>
-`
+const getFields = (offence) =>
+  Object.keys(offence)
+    .map((fieldName) => `**${fieldName}**: ${offence[fieldName]}`)
+    .join("<br>")
 
-fs.writeFileSync("CHANGELOG.md", fileContent)
+const generateDeletedOrAddedTable = (deletedItems: DataItem[]) =>
+  [
+    "| Details |",
+    "|---------|",
+    deletedItems.map((item) => `| ${getFields(item)} |`).join("\n")
+  ].join("\n")
+
+const generateChangedItemsTable = (changedItems: ChangedItem[]) =>
+  [
+    "| Key     | Changes |",
+    "|---------|---------|",
+    ...changedItems
+      .filter((x) => x)
+      .map(({ key, changes }) => `| **${key}** | ${changes.join("<br>")} |`)
+  ].join("\n")
+
+let markdown = "# Changelog\n"
+
+for (const file of Object.keys(filesResult)) {
+  const fileMarkdown: string[] = []
+  const { deleted, added, changed } = filesResult[file]
+  if (deleted.length) {
+    fileMarkdown.push(`
+    <details>
+      <summary>Deleted Offences (${deleted.length})</summary>
+${generateDeletedOrAddedTable(deleted)}
+    </details>
+  `)
+  }
+
+  if (added.length) {
+    fileMarkdown.push(`
+    <details>
+      <summary>Added Offences (${added.length})</summary>
+${generateDeletedOrAddedTable(added)}
+    </details>
+  `)
+  }
+
+  if (changed.length) {
+    fileMarkdown.push(`
+    <details>
+      <summary>Changed Offences (${changed.length})</summary>
+${generateChangedItemsTable(changed)}
+    </details>
+  `)
+  }
+
+  if (fileMarkdown.length) {
+    markdown += `
+    ### ${file}
+
+    ${fileMarkdown.join("\n")}
+  
+    `
+  }
+}
+
+fs.writeFileSync("CHANGELOG.md", markdown)
