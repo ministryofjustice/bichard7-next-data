@@ -1,5 +1,10 @@
 [
   {
+    "cjsCode": " status=\"Success\"",
+    "offenceTitle": "",
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "AB06001",
     "offenceCategory": "CS",
     "offenceTitle": "Obstruct person acting in execution of the regulations",
@@ -4403,6 +4408,27 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "AN16600",
+    "offenceCategory": "CS",
+    "offenceTitle": "Crew member fail to comply with flight and duty time limitations and rest requirements",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AN16601",
+    "offenceCategory": "CS",
+    "offenceTitle": "Crew member undertaking duties for multiple operators fail to maintain records regarding times and rest periods",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AN16602",
+    "offenceCategory": "CS",
+    "offenceTitle": "Crew member undertaking duties for multiple operators fail to provide operator with data needed to schedule activities",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "AN79001",
     "offenceCategory": "CE",
     "offenceTitle": "Execute unauthorised work affecting a scheduled monument",
@@ -7163,7 +7189,7 @@
   {
     "cjsCode": "BA07005",
     "offenceCategory": "CE",
-    "offenceTitle": "Disclose information in breach of section 41 confidentiality re identity of a person-UK Borders Act 2007",
+    "offenceTitle": "Disclose information in breach of section 41 confidentiality re identity of a person - UK Borders Act 2007",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -8045,7 +8071,7 @@
   {
     "cjsCode": "BC09001",
     "offenceCategory": "CE",
-    "offenceTitle": "Wrongful disclosure of personal information to a person who is not a relevant official/Minister of the Crown",
+    "offenceTitle": "Wrongful disclosure of personal information to a person who is not a relevant official / Minister of the Crown",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -9338,6 +9364,62 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "BL24001",
+    "offenceCategory": "CS",
+    "offenceTitle": "Recreational permit holder used pot without a tag affixed to fish for specified shellfish NIFCA",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "BL24002",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to navigate with care and caution and in an appropriate manner in Chichester Harbour",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "BL24003",
+    "offenceCategory": "CS",
+    "offenceTitle": "Commercial permit holder used pot without a tag affixed to fish for specified shellfish NIFCA",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "BL24004",
+    "offenceCategory": "CS",
+    "offenceTitle": "Navigate ship at a speed exceeding 6 knots - Falmouth Harbour Direction 2/19",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "BL24005",
+    "offenceCategory": "CS",
+    "offenceTitle": "Navigate vessel in Falmouth Harbour without necessity to navigate from such areas",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "BL24006",
+    "offenceCategory": "CS",
+    "offenceTitle": "Navigate vessel in Falmouth Harbour without care and caution in / near mooring areas",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "BL24007",
+    "offenceCategory": "CS",
+    "offenceTitle": "Bring into / drive in the ground a motorcycle / motor vehicle / trailer where there was no right of way for that vehicle",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "BL24008",
+    "offenceCategory": "CS",
+    "offenceTitle": "Without permission let go / attempted to let go of mooring lines on Norfolk and Suffolk Broads",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "BN81001",
     "offenceCategory": "CS",
     "offenceTitle": "Make false statement to obtain British nationality",
@@ -9712,20 +9794,6 @@
     "cjsCode": "CA03006",
     "offenceCategory": "CS",
     "offenceTitle": "Cause to be sent by public communication network an offensive / indecent / obscene / menacing message / matter",
-    "recordableOnPnc": true,
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CA03007",
-    "offenceCategory": "CS",
-    "offenceTitle": "Send false message by public electronic communication network to cause annoyance, inconvenience or anxiety",
-    "recordableOnPnc": true,
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CA03008",
-    "offenceCategory": "CS",
-    "offenceTitle": "Cause to be sent by public communication network a false message to cause annoyance / inconvenience / anxiety",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -12985,34 +13053,6 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "CE79261",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to deliver specification of goods shipped for exportation / exported by land without entry",
-    "recordableOnPnc": false,
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CE79262",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to correct specification of goods shipped for exportation / exported by land without entry",
-    "recordableOnPnc": false,
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CE79263",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to comply with requirement under s.58 / 58A Customs and Excise Management Act 1979",
-    "recordableOnPnc": false,
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CE79264",
-    "offenceCategory": "CS",
-    "offenceTitle": "Furnish document bearing number not assigned for purpose of enabling goods to be shipped",
-    "recordableOnPnc": false,
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "CE79265",
     "offenceCategory": "CS",
     "offenceTitle": "Fail to surrender authenticated Community customs document at office where obtained",
@@ -15456,13 +15496,6 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "CJ15013",
-    "offenceCategory": "CE",
-    "offenceTitle": "Disclose / threaten to disclose private sexual photographs and films with intent to cause distress",
-    "recordableOnPnc": true,
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "CJ17501",
     "offenceCategory": "CR",
     "offenceTitle": "Hearing a person through videoconference or other audio visual transmission",
@@ -17780,13 +17813,6 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "COML018",
-    "offenceCategory": "CE",
-    "offenceTitle": "Public Nuisance - indecent exposure",
-    "recordableOnPnc": true,
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "COML019",
     "offenceCategory": "CI",
     "offenceTitle": "Keep a disorderly house",
@@ -19068,6 +19094,13 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "CQ86012",
+    "offenceCategory": "CI",
+    "offenceTitle": "Person subject to director disqualification sanctions act as director/take part in/concerned in company",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "CR00001",
     "offenceCategory": "CS",
     "offenceTitle": "Wildlife - place / maintain false / misleading notice on or near access land deterring public use",
@@ -19260,13 +19293,6 @@
     "cjsCode": "CS00009",
     "offenceCategory": "CS",
     "offenceTitle": "Fail without reasonable excuse to comply with any requirement re inspection of establishment / agency",
-    "recordableOnPnc": false,
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CS00010",
-    "offenceCategory": "CS",
-    "offenceTitle": "With intent to deceive took / used title of social worker / a title so implying when not so registered",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -20920,6 +20946,48 @@
     "offenceCategory": "CE",
     "offenceTitle": "Fail to give notice to a registrable person / relevant legal entity",
     "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CS06246",
+    "offenceCategory": "CS",
+    "offenceTitle": "Carry on business under name likely to give false impression connected to foreign government / organisation etc",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CS06247",
+    "offenceCategory": "CS",
+    "offenceTitle": "Company/officer carry on business under a name ordered/directed to change",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CS06248",
+    "offenceCategory": "CS",
+    "offenceTitle": "Company/officer with relevant relationship carry on business under name another company ordered/directed to change",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CS06249",
+    "offenceCategory": "CS",
+    "offenceTitle": "Company/officer fail to ensure companies registered office was an appropriate address",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CS06250",
+    "offenceCategory": "CS",
+    "offenceTitle": "Company/officer fail to ensure company's registered email address is appropriate email address",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CS06254",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to comply with requirement to provide information to the registrar",
+    "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
   {
@@ -28623,34 +28691,6 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "ES79014",
-    "offenceCategory": "CS",
-    "offenceTitle": "Wilfully obstruct an authorised officer of an enforcement authority acting in pursuance of the Estate Agents Act 1979",
-    "recordableOnPnc": false,
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "ES79016",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to give information / assistance to an authorised officer acting in pursuance of the Estate Agents Act 1979",
-    "recordableOnPnc": false,
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "ES79017",
-    "offenceCategory": "CS",
-    "offenceTitle": "Give false information to authorised officer authorised officer acting in pursuance of the Estate Agents Act 1979",
-    "recordableOnPnc": false,
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "ES79018",
-    "offenceCategory": "CS",
-    "offenceTitle": "Impersonate an authorised officer of an enforcement authority acting in pursuance of the Estate Agents Act 1979",
-    "recordableOnPnc": false,
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "ES79019",
     "offenceCategory": "CE",
     "offenceTitle": "Fail to comply with regulations made under the Estate Agents Act 1979",
@@ -33159,6 +33199,13 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "FN04001",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with requirement to give security where the failure continued for a prescribed period",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "FN21001",
     "offenceCategory": "CE",
     "offenceTitle": "Knowingly concerned in fraudulent evasion of plastic packaging tax",
@@ -33232,6 +33279,34 @@
     "cjsCode": "FO91006",
     "offenceCategory": "CS",
     "offenceTitle": "Go onto area adjacent to playing area - Football (Offences) Act 1991",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "FP21001",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with improvement notice re: food promotion and placement in England regs",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "FP21002",
+    "offenceCategory": "CS",
+    "offenceTitle": "Obstruct person acting in execution of food promotion and placement in England regulations",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "FP21003",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to give assistance / information to a person acting in execution of Food (Promotion and Placement) England Regs",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "FP21004",
+    "offenceCategory": "CE",
+    "offenceTitle": "Give false or misleading information to person acting in execution of Food Promotion and Placement England regulations",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -33894,6 +33969,34 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "FS23001",
+    "offenceCategory": "CS",
+    "offenceTitle": "Knowingly falsify / conceal / destroy documents relevant to a Bank of England investigation",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "FS23002",
+    "offenceCategory": "CS",
+    "offenceTitle": "Cause or permit another to falsify / conceal / destroy documents relevant to a Bank of England investigation",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "FS23003",
+    "offenceCategory": "CS",
+    "offenceTitle": "Provide false or misleading information in a Bank of England investigation",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "FS23004",
+    "offenceCategory": "CS",
+    "offenceTitle": "Obstruct execution of a search warrant for a Bank of England investigation",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "FS74002",
     "offenceCategory": "CS",
     "offenceTitle": "Registered friendly society failed to make annual return",
@@ -34071,14 +34174,14 @@
   {
     "cjsCode": "FS90036",
     "offenceCategory": "CE",
-    "offenceTitle": "Rendering food injurious to health",
+    "offenceTitle": "Rendering food injurious to health with intent to sell for human consumption",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "FS90037",
     "offenceCategory": "CE",
-    "offenceTitle": "Contravention of a food safety prohibition order",
+    "offenceTitle": "Knowingly contravene a food safety prohibition order",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -38829,6 +38932,13 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "HG39001",
+    "offenceCategory": "CS",
+    "offenceTitle": "Enter / remain within Range Area closed to the public during practice - Holbeach Air Gunnery and Bombing Range",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "HH39001",
     "offenceCategory": "CS",
     "offenceTitle": "Promoting collection for charitable purpose without licence",
@@ -41681,7 +41791,7 @@
     "cjsCode": "HY80126",
     "offenceCategory": "CM",
     "offenceTitle": "Wilful obstruction of a highway",
-    "recordableOnPnc": false,
+    "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
@@ -41737,6 +41847,13 @@
     "cjsCode": "HY80506",
     "offenceCategory": "VP",
     "offenceTitle": "Application to Magistrates Court to put a way / bridge in proper repair within reasonable period - liability admitted",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HY80507",
+    "offenceCategory": "VP",
+    "offenceTitle": "Appeal against notice served under section 163 Highways Act 1980",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -56280,6 +56397,20 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "MS95080",
+    "offenceCategory": "CS",
+    "offenceTitle": "Obstruct person boarding ship for inspection for purpose of monitoring compliance with Merchant Shipping Act 1995",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MS95081",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to comply / prevent compliance with requirements imposed by section 259 of the Merchant Shipping Act 1995",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "MS95501",
     "offenceCategory": "EF",
     "offenceTitle": "Sums ordered to be paid leviable by distress on the ship",
@@ -56745,20 +56876,6 @@
     "cjsCode": "MT88006",
     "offenceCategory": "CE",
     "offenceTitle": "Send letter / communication / article conveying indecent / offensive message",
-    "recordableOnPnc": true,
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "MT88007",
-    "offenceCategory": "CE",
-    "offenceTitle": "Send letter / communication / article conveying a threatening message",
-    "recordableOnPnc": true,
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "MT88008",
-    "offenceCategory": "CE",
-    "offenceTitle": "Send letter / communication / article conveying false information",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -58065,6 +58182,13 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "OC09501",
+    "offenceCategory": "VP",
+    "offenceTitle": "Appeal against decision of competent authority in respect of establishment subject to approval (England)",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "OC19001",
     "offenceCategory": "CS",
     "offenceTitle": "Obstruct auditor / inspector / person accompanying / enforcement officer",
@@ -58737,13 +58861,6 @@
     "resultHalfLifeHours": null
   },
   {
-    "cjsCode": "OR63010",
-    "offenceCategory": "CE",
-    "offenceTitle": "Disclose information obtained in premises entered under Offices, Shops and Railway Premises 1963",
-    "recordableOnPnc": true,
-    "resultHalfLifeHours": null
-  },
-  {
     "cjsCode": "OR63011",
     "offenceCategory": "CS",
     "offenceTitle": "Removed a notice or other document for the time being posted or displayed in premises in pursuance of a provision of t",
@@ -59027,6 +59144,48 @@
     "cjsCode": "OS20039",
     "offenceCategory": "CE",
     "offenceTitle": "Make false statement to obtain official document/password/codeword to gain admission to prohibited place",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "OS23001",
+    "offenceCategory": "CS",
+    "offenceTitle": "Send false communication with intent to cause harm",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "OS23002",
+    "offenceCategory": "CE",
+    "offenceTitle": "Send communication threatening death or serious harm",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "OS23003",
+    "offenceCategory": "CE",
+    "offenceTitle": "Send electronic communication with flashing images with general intent to harm",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "OS23004",
+    "offenceCategory": "CE",
+    "offenceTitle": "Send electronic communication with flashing images with intent to harm an individual",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "OS23005",
+    "offenceCategory": "CE",
+    "offenceTitle": "Show flashing images with intent to harm an individual",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "OS23006",
+    "offenceCategory": "CE",
+    "offenceTitle": "Encourage or assist serious self-harm by another",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -61875,7 +62034,7 @@
   {
     "cjsCode": "PD23012",
     "offenceCategory": "CE",
-    "offenceTitle": "Furnish false or misleading information to Natural Resources Wales re packaging waste (Wales)",
+    "offenceTitle": "Furnish false or misleading information to Natural Resources Wales re packaging waste - Wales",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -62895,6 +63054,13 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "PH97011B",
+    "offenceCategory": "CE",
+    "offenceTitle": "Aid and abet stalking involving serious alarm / distress",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "PH97012",
     "offenceCategory": "CE",
     "offenceTitle": "Harassment - breach of a restraining order after acquittal",
@@ -63451,6 +63617,13 @@
     "cjsCode": "PK78001A",
     "offenceCategory": "CE",
     "offenceTitle": "Attempt to take an indecent photograph / pseudo-photograph of a child",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PK78001C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspire to take an indecent photograph / pseudo-photograph of a child",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -66678,6 +66851,13 @@
     "cjsCode": "PU23008",
     "offenceCategory": "CS",
     "offenceTitle": "Interfere / move / remove apparatus major transport works",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PU23012",
+    "offenceCategory": "CS",
+    "offenceTitle": "Intentionally obstruct officer conducting stop and search without suspicion",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -71817,6 +71997,13 @@
     "offenceCategory": "CE",
     "offenceTitle": "Permit the use of leaded paint earlier than three weeks after providing declaration/body not satisfied with content",
     "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RE12001",
+    "offenceCategory": "CE",
+    "offenceTitle": "Distributor make EEE available Hazardous Substances",
+    "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
   {
@@ -77186,6 +77373,13 @@
     "offenceCategory": "CS",
     "offenceTitle": "Refuse to allow/obstruct a constable/water bailiff to exercise powers under Scotland Act 1998 (River Tweed) Order 2006",
     "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RT06025",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fish for / takes salmon in waters in the Tweed district during Sunday",
+    "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
   {
@@ -83960,7 +84154,7 @@
   {
     "cjsCode": "SO05014",
     "offenceCategory": "CE",
-    "offenceTitle": "Trespass on a protected site - SOCAP 2005",
+    "offenceTitle": "Trespass on a protected site",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -83976,6 +84170,13 @@
     "offenceCategory": "CE",
     "offenceTitle": "Intimidate person connected with animal research organisation - SOCA 2005",
     "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SO05026",
+    "offenceCategory": "CS",
+    "offenceTitle": "Include false / misleading information in a financial reporting order / fail to comply with requirement",
+    "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
   {
@@ -87955,6 +88156,13 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "SX03171A",
+    "offenceCategory": "CE",
+    "offenceTitle": "Offender under 18 attempt cause / incite a boy 13 to 15 to engage in sexual activity - no penetration - SOA 2003",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "SX03172",
     "offenceCategory": "CE",
     "offenceTitle": "Adult sexual activity with a girl under 13 family member - no penetration",
@@ -88147,6 +88355,13 @@
     "cjsCode": "SX03191",
     "offenceCategory": "CE",
     "offenceTitle": "Adult abuse of position of trust - sexual activity with a girl 13-17 cared for in s.21 premises - SOA 2003",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SX03191A",
+    "offenceCategory": "CE",
+    "offenceTitle": "Adult abuse of position of trust Attempt sexual activity with a girl 13-17 cared for in s.21 premises - SOA 2003",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -88382,6 +88597,13 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "SX03229A",
+    "offenceCategory": "CE",
+    "offenceTitle": "Attempt to cause / incite the sexual exploitation of a child under 13 - SOA 2003",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "SX03230",
     "offenceCategory": "CE",
     "offenceTitle": "Cause / incite the sexual exploitation of a child aged 13 - 17 - SOA 2003",
@@ -88595,6 +88817,41 @@
     "cjsCode": "SX03247A",
     "offenceCategory": "CE",
     "offenceTitle": "Attempt to Breach SOPO / interim SOPO / foreign travel order",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SX03248",
+    "offenceCategory": "CE",
+    "offenceTitle": "Send photograph or film of genitals to cause alarm, distress or humiliation",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SX03249",
+    "offenceCategory": "CS",
+    "offenceTitle": "Share photograph or film of person in intimate state without consent",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SX03250",
+    "offenceCategory": "CE",
+    "offenceTitle": "Share photograph or film of person in intimate state intending to cause alarm distress or humiliation",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SX03251",
+    "offenceCategory": "CE",
+    "offenceTitle": "Share photograph or film of person in intimate state for the purpose of sexual gratification",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SX03252",
+    "offenceCategory": "CE",
+    "offenceTitle": "Threaten to share photograph or film of person in intimate state",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -90380,6 +90637,13 @@
     "cjsCode": "TH68045A",
     "offenceCategory": "CI",
     "offenceTitle": "Attempt aggravated burglary - dwelling",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "TH68045C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspire to commit aggravated burglary - dwelling",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
