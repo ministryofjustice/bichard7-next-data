@@ -10,6 +10,7 @@
     "lint:fix": "eslint --fix .",
     "prepare": "husky",
     "build": "tsc --noEmit -p tsconfig.json",
+    "import-pnc-data": "ts-node -T src/import-pnc-data.ts",
     "download-offence-code-data": "ts-node src/download-offence-code-data.ts",
     "download-standing-data": "ts-node src/download-standing-data-api.ts",
     "download-organisation-unit-data": "ts-node src/download-organisation-unit-data.ts",
@@ -67,6 +68,7 @@
     "*.{js,ts,tsx}": "eslint --cache --fix --max-warnings 0 --ignore-pattern !.ncurc.js"
   },
   "devDependencies": {
+    "@types/node": "^20.12.7",
     "@types/uuid": "^9.0.8",
     "eslint-plugin-prettier": "^5.1.3"
   }
