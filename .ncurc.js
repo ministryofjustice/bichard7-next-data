@@ -1,7 +1,7 @@
 // google packages are here because upgrading them
 // currently breaks their compatibility
 // affects: src/requested-changes-download/sheetsClient.ts
-const pinned = ["google-auth-library"]
+const pinned = ["google-auth-library", "eslint"]
 const ignored = ["googleapis", "puppeteer"]
 const skipped = []
 
