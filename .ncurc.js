@@ -1,7 +1,10 @@
 // google packages are here because upgrading them
 // currently breaks their compatibility
 // affects: src/requested-changes-download/sheetsClient.ts
-const pinned = ["google-auth-library"]
+
+// pinned eslint as peer deps are using older version
+
+const pinned = ["google-auth-library", "eslint"]
 const ignored = ["googleapis"]
 
 module.exports = {
