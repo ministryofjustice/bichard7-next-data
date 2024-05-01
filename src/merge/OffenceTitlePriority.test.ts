@@ -1,73 +1,46 @@
-import getMatchCjsCodeFunction from "./getMatchCjsCodeFunction"
+import { OffenceCodeLookup } from "../types/OffenceCodeLookup"
 import OffenceTitlePriority from "./OffenceTitlePriority"
 
-const testCjsCode = "ABC123"
-const testTitle = "Murder most horrid"
+const cjsCode = "ABC123"
+
+const currentOffences: OffenceCodeLookup = { [cjsCode]: { cjsCode, offenceTitle: "CURRENT" } }
+const pnldOffences: OffenceCodeLookup = { [cjsCode]: { cjsCode, offenceTitle: "PNLD" } }
+const cjsOffences: OffenceCodeLookup = { [cjsCode]: { cjsCode, offenceTitle: "CJS" } }
+const pncOffences: OffenceCodeLookup = { [cjsCode]: { cjsCode, offenceTitle: "PNC" } }
 
 describe("OffenceTitlePriority", () => {
-  it("should prioritise civil/libra overrides first", () => {
-    const currentOffenceCodes = [{ cjsCode: testCjsCode, offenceTitle: testTitle }]
-    const civilLibraOffenceCodes = [{ cjsCode: testCjsCode }]
-
+  it("should prioritise PNLD offences first", () => {
     const priority = new OffenceTitlePriority(
-      currentOffenceCodes,
-      civilLibraOffenceCodes,
-      [],
-      [],
-      [],
-      [],
-      []
+      currentOffences,
+      pnldOffences,
+      cjsOffences,
+      pncOffences
     )
 
-    expect(
-      currentOffenceCodes.find(getMatchCjsCodeFunction(testCjsCode))?.offenceTitle
-    ).toBeTruthy()
-    expect(priority.getHighestPriority(testCjsCode)).toEqual(testTitle)
+    expect(priority.getHighestPriority(cjsCode)).toEqual("PNLD")
   })
 
-  it("should prioritise national requested changes second", () => {
-    const nrcOffenceCodes = [{ cjsCode: testCjsCode, offenceTitle: testTitle }]
+  it("should prioritise CJS offences second", () => {
+    const priority = new OffenceTitlePriority(currentOffences, {}, cjsOffences, pncOffences)
 
-    const priority = new OffenceTitlePriority([], [], nrcOffenceCodes, [], [], [], [])
-
-    expect(priority.getHighestPriority(testCjsCode)).toEqual(testTitle)
+    expect(priority.getHighestPriority(cjsCode)).toEqual("CJS")
   })
 
-  it("should prioritise local offences third", () => {
-    const localOffences = [{ cjsCode: testCjsCode, offenceTitle: testTitle }]
+  it("should prioritise PNC offences third", () => {
+    const priority = new OffenceTitlePriority(currentOffences, {}, {}, pncOffences)
 
-    const priority = new OffenceTitlePriority([], [], [], localOffences, [], [], [])
-
-    expect(priority.getHighestPriority(testCjsCode)).toEqual(testTitle)
+    expect(priority.getHighestPriority(cjsCode)).toEqual("PNC")
   })
 
-  it("should prioritise PNLD offences fourth", () => {
-    const pnldOffences = [{ cjsCode: testCjsCode, offenceTitle: testTitle }]
+  it("should fall back to curent offences", () => {
+    const priority = new OffenceTitlePriority(currentOffences, {}, {}, {})
 
-    const priority = new OffenceTitlePriority([], [], [], [], pnldOffences, [], [])
-
-    expect(priority.getHighestPriority(testCjsCode)).toEqual(testTitle)
-  })
-
-  it("should prioritise CJS offences fifth", () => {
-    const cjsOffences = [{ cjsCode: testCjsCode, offenceTitle: testTitle }]
-
-    const priority = new OffenceTitlePriority([], [], [], [], [], cjsOffences, [])
-
-    expect(priority.getHighestPriority(testCjsCode)).toEqual(testTitle)
-  })
-
-  it("should prioritise PNC offences sixth", () => {
-    const pncOffences = [{ cjsCode: testCjsCode, offenceTitle: testTitle }]
-
-    const priority = new OffenceTitlePriority([], [], [], [], [], [], pncOffences)
-
-    expect(priority.getHighestPriority(testCjsCode)).toEqual(testTitle)
+    expect(priority.getHighestPriority(cjsCode)).toEqual("CURRENT")
   })
 
   it("should return default title if not found", () => {
-    const priority = new OffenceTitlePriority([], [], [], [], [], [], [])
+    const priority = new OffenceTitlePriority({}, {}, {}, {})
 
-    expect(priority.getHighestPriority(testCjsCode)).toEqual("")
+    expect(priority.getHighestPriority(cjsCode)).toEqual("")
   })
 })

@@ -1,69 +1,61 @@
+import { OffenceCodeLookup } from "../types/OffenceCodeLookup"
 import OffenceCategoryPriority from "./OffenceCategoryPriority"
 
-const testCjsCode = "ABC123"
-const testCategory = "CS"
+const cjsCode = "ABC123"
+
+const currentOffences: OffenceCodeLookup = { [cjsCode]: { cjsCode, offenceCategory: "CURRENT" } }
+const pnldOffences: OffenceCodeLookup = { [cjsCode]: { cjsCode, offenceCategory: "PNLD" } }
+const cjsOffences: OffenceCodeLookup = { [cjsCode]: { cjsCode, offenceCategory: "CJS" } }
+const pncOffences: OffenceCodeLookup = { [cjsCode]: { cjsCode, offenceCategory: "PNC" } }
 
 describe("OffenceCodeCategoryPriority", () => {
   it("should prioritise B7 overrides first", () => {
-    const b7Overrides = [testCjsCode]
-
-    const priority = new OffenceCategoryPriority([], b7Overrides, [], [], [], [], [])
-
-    expect(priority.getHighestPriority(testCjsCode)).toEqual("B7")
-  })
-
-  it("should prioritise civil/libra overrides second", () => {
-    const currentOffenceCodes = [{ cjsCode: testCjsCode, offenceCategory: testCategory }]
-    const civilLibraOffenceCodes = [{ cjsCode: testCjsCode }]
+    const b7Overrides = [cjsCode]
 
     const priority = new OffenceCategoryPriority(
-      currentOffenceCodes,
-      [],
-      civilLibraOffenceCodes,
-      [],
-      [],
-      [],
-      []
+      currentOffences,
+      cjsOffences,
+      b7Overrides,
+      pnldOffences,
+      pncOffences
     )
 
-    expect(priority.getHighestPriority(testCjsCode)).toEqual(testCategory)
+    expect(priority.getHighestPriority(cjsCode)).toEqual("B7")
   })
 
-  it("should prioritise national requested changes third", () => {
-    const nrcOffenceCodes = [{ cjsCode: testCjsCode, offenceCategory: testCategory }]
+  it("should prioritise PNLD offences first", () => {
+    const priority = new OffenceCategoryPriority(
+      currentOffences,
+      cjsOffences,
+      [],
+      pnldOffences,
+      pncOffences
+    )
 
-    const priority = new OffenceCategoryPriority([], [], [], nrcOffenceCodes, [], [], [])
-
-    expect(priority.getHighestPriority(testCjsCode)).toEqual(testCategory)
+    expect(priority.getHighestPriority(cjsCode)).toEqual("PNLD")
   })
 
-  it("should prioritise local offences fourth", () => {
-    const localOffences = [{ cjsCode: testCjsCode, offenceCategory: testCategory }]
+  it("should prioritise CJS offences second", () => {
+    const priority = new OffenceCategoryPriority(currentOffences, cjsOffences, [], {}, pncOffences)
 
-    const priority = new OffenceCategoryPriority([], [], [], [], localOffences, [], [])
-
-    expect(priority.getHighestPriority(testCjsCode)).toEqual(testCategory)
+    expect(priority.getHighestPriority(cjsCode)).toEqual("CJS")
   })
 
-  it("should prioritise PNLD offences fifth", () => {
-    const pnldOffences = [{ cjsCode: testCjsCode, offenceCategory: testCategory }]
+  it("should prioritise PNC offences third", () => {
+    const priority = new OffenceCategoryPriority(currentOffences, {}, [], {}, pncOffences)
 
-    const priority = new OffenceCategoryPriority([], [], [], [], [], pnldOffences, [])
-
-    expect(priority.getHighestPriority(testCjsCode)).toEqual(testCategory)
+    expect(priority.getHighestPriority(cjsCode)).toEqual("PNC")
   })
 
-  it("should prioritise PNC offences sixth", () => {
-    const pncOffences = [{ cjsCode: testCjsCode, offenceCategory: testCategory }]
+  it("should call back to current data", () => {
+    const priority = new OffenceCategoryPriority(currentOffences, {}, [], {}, {})
 
-    const priority = new OffenceCategoryPriority([], [], [], [], [], [], pncOffences)
-
-    expect(priority.getHighestPriority(testCjsCode)).toEqual(testCategory)
+    expect(priority.getHighestPriority(cjsCode)).toEqual("CURRENT")
   })
 
   it("should return default category if not found", () => {
-    const priority = new OffenceCategoryPriority([], [], [], [], [], [], [])
+    const priority = new OffenceCategoryPriority({}, {}, [], {}, {})
 
-    expect(priority.getHighestPriority(testCjsCode)).toEqual("CE")
+    expect(priority.getHighestPriority(cjsCode)).toEqual("CE")
   })
 })

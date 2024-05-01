@@ -1,11 +1,9 @@
-import { OffenceCode } from "../types/OffenceCode"
-import getMatchCjsCodeFunction from "./getMatchCjsCodeFunction"
+import { OffenceCodeLookup } from "../types/OffenceCodeLookup"
 
 const defaultValue = "000/00"
 
-const getValue = (offences: OffenceCode[], code: string): string | undefined => {
-  const matchCjsCode = getMatchCjsCodeFunction(code)
-  const match = offences.find(matchCjsCode)?.homeOfficeClassification
+const getValue = (offences: OffenceCodeLookup, code: string): string | undefined => {
+  const match = offences[code]?.homeOfficeClassification
   if (!match || match === defaultValue) {
     return undefined
   }
@@ -13,8 +11,8 @@ const getValue = (offences: OffenceCode[], code: string): string | undefined => 
 }
 export default class HomeOfficeClassifictionPriority {
   constructor(
-    private currentOffenceCodes: OffenceCode[],
-    private pnldOffenceCodes: OffenceCode[]
+    private currentOffenceCodes: OffenceCodeLookup,
+    private pnldOffenceCodes: OffenceCodeLookup
   ) {}
 
   getHighestPriority(cjsCode: string): string {

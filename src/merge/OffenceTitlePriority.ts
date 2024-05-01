@@ -1,24 +1,22 @@
 import consistentWhitespace from "../lib/consistentWhitespace"
-import { OffenceCode } from "../types/OffenceCode"
-import getMatchCjsCodeFunction from "./getMatchCjsCodeFunction"
+import { OffenceCodeLookup } from "../types/OffenceCodeLookup"
 
 export default class OffenceTitlePriority {
   constructor(
-    private currentOffenceCodes: OffenceCode[],
-    private pnldOffenceCodes: OffenceCode[],
-    private cjsOffenceCodes: OffenceCode[],
-    private pncOffenceCodes: OffenceCode[]
+    private currentOffenceCodes: OffenceCodeLookup,
+    private pnldOffenceCodes: OffenceCodeLookup,
+    private cjsOffenceCodes: OffenceCodeLookup,
+    private pncOffenceCodes: OffenceCodeLookup
   ) {}
 
   getHighestPriority(cjsCode: string): string | undefined {
     const defaultTitle = ""
-    const matchCjsCode = getMatchCjsCodeFunction(cjsCode)
 
     const title =
-      this.pnldOffenceCodes.find(matchCjsCode)?.offenceTitle ||
-      this.cjsOffenceCodes.find(matchCjsCode)?.offenceTitle ||
-      this.pncOffenceCodes.find(matchCjsCode)?.offenceTitle ||
-      this.currentOffenceCodes.find(matchCjsCode)?.offenceTitle ||
+      this.pnldOffenceCodes[cjsCode]?.offenceTitle ||
+      this.cjsOffenceCodes[cjsCode]?.offenceTitle ||
+      this.pncOffenceCodes[cjsCode]?.offenceTitle ||
+      this.currentOffenceCodes[cjsCode]?.offenceTitle ||
       defaultTitle
 
     return consistentWhitespace(title)

@@ -1,16 +1,14 @@
-import { OffenceCode } from "../types/OffenceCode"
-import getMatchCjsCodeFunction from "./getMatchCjsCodeFunction"
+import { OffenceCodeLookup } from "../types/OffenceCodeLookup"
 
-const getValue = (offences: OffenceCode[], code: string): boolean | undefined => {
-  const matchCjsCode = getMatchCjsCodeFunction(code)
-  const match = offences.find(matchCjsCode)?.recordableOnPnc
+const getValue = (offences: OffenceCodeLookup, code: string): boolean | undefined => {
+  const match = offences[code]?.recordableOnPnc
   return typeof match === "boolean" ? match : undefined
 }
 export default class RecordableOnPncPriority {
   constructor(
-    private currentOffenceCodes: OffenceCode[],
-    private pnldOffenceCodes: OffenceCode[],
-    private pncOffenceCodes: OffenceCode[]
+    private currentOffenceCodes: OffenceCodeLookup,
+    private pnldOffenceCodes: OffenceCodeLookup,
+    private pncOffenceCodes: OffenceCodeLookup
   ) {}
 
   getHighestPriority(cjsCode: string): boolean {

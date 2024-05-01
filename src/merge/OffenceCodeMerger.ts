@@ -7,7 +7,7 @@ import RecordableOnPncPriority from "./RecordableOnPncPriority"
 
 export default class OffenceCodeMerger {
   constructor(
-    private offenceCodeKeys: string[],
+    private offenceCodeKeys: Set<string>,
     private homeOfficeClassification: HomeOfficeClassifictionPriority,
     private notifiableToHo: NotifiableToHOPriority,
     private offenceCategory: OffenceCategoryPriority,
@@ -16,7 +16,7 @@ export default class OffenceCodeMerger {
   ) {}
 
   merge(): OffenceCode[] {
-    return this.offenceCodeKeys.map((cjsCode) => {
+    return Array.from(this.offenceCodeKeys).map((cjsCode) => {
       return {
         cjsCode,
         description: cjsCode,
