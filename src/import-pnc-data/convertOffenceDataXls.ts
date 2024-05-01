@@ -23,10 +23,9 @@ export default (fileContents: Buffer): OffenceCode[] => {
 
   return jsonWorksheet
     .map((offenceCode) => ({
-      cjsCode: offenceCode.B,
-      offenceTitle: fixPoundSign(consistentWhitespace(offenceCode.C)),
-      recordableOnPnc: valueToBoolean(offenceCode.F),
-      resultHalfLifeHours: null
+      cjsCode: offenceCode.B?.trim(),
+      offenceTitle: fixPoundSign(consistentWhitespace(offenceCode.C?.trim())),
+      recordableOnPnc: valueToBoolean(offenceCode.F?.trim())
     }))
     .filter((offenceCode) => offenceCode.offenceTitle != null)
     .filter((offenceCode) => cjsCodeFilter(offenceCode.cjsCode))

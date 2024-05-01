@@ -1,32 +1,23 @@
-import { OffenceCode } from "../types/OffenceCode"
-import getMatchCjsCodeFunction from "./getMatchCjsCodeFunction"
+import { OffenceCodeLookup } from "../types/OffenceCodeLookup"
+
+const getValue = (offences: OffenceCodeLookup, code: string): boolean | undefined => {
+  const match = offences[code]?.notifiableToHo
+  return typeof match === "boolean" ? match : undefined
+}
 
 export default class NotifiableToHOPriority {
-  /* eslint-disable no-unused-vars */
   constructor(
-    private currentOffenceCodes: OffenceCode[],
-    private civilLibraOffenceCodes: OffenceCode[],
-    private nrcOffenceCodes: OffenceCode[],
-    private localOffenceCodes: OffenceCode[],
-    private pnldOffenceCodes: OffenceCode[]
+    private currentOffenceCodes: OffenceCodeLookup,
+    private pnldOffenceCodes: OffenceCodeLookup
   ) {}
 
   getHighestPriority(cjsCode: string): boolean {
     const defaultValue = false
-    const matchCjsCode = getMatchCjsCodeFunction(cjsCode)
 
-    if (this.civilLibraOffenceCodes.find(matchCjsCode)) {
-      return this.currentOffenceCodes.find(matchCjsCode)!.notifiableToHo as boolean
-    }
-    if (this.nrcOffenceCodes.find(matchCjsCode)?.notifiableToHo) {
-      return this.nrcOffenceCodes.find(matchCjsCode)!.notifiableToHo as boolean
-    }
-    if (this.localOffenceCodes.find(matchCjsCode)?.notifiableToHo) {
-      return this.localOffenceCodes.find(matchCjsCode)!.notifiableToHo as boolean
-    }
-    if (this.pnldOffenceCodes.find(matchCjsCode)?.notifiableToHo) {
-      return this.pnldOffenceCodes.find(matchCjsCode)!.notifiableToHo as boolean
-    }
-    return defaultValue
+    return (
+      getValue(this.pnldOffenceCodes, cjsCode) ??
+      getValue(this.currentOffenceCodes, cjsCode) ??
+      defaultValue
+    )
   }
 }

@@ -1,32 +1,25 @@
-import { OffenceCode } from "../types/OffenceCode"
-import getMatchCjsCodeFunction from "./getMatchCjsCodeFunction"
+import { OffenceCodeLookup } from "../types/OffenceCodeLookup"
 
+const defaultValue = "000/00"
+
+const getValue = (offences: OffenceCodeLookup, code: string): string | undefined => {
+  const match = offences[code]?.homeOfficeClassification
+  if (!match || match === defaultValue) {
+    return undefined
+  }
+  return match
+}
 export default class HomeOfficeClassifictionPriority {
-  /* eslint-disable no-unused-vars */
   constructor(
-    private currentOffenceCodes: OffenceCode[],
-    private civilLibraOffenceCodes: OffenceCode[],
-    private nrcOffenceCodes: OffenceCode[],
-    private localOffenceCodes: OffenceCode[],
-    private pnldOffenceCodes: OffenceCode[]
+    private currentOffenceCodes: OffenceCodeLookup,
+    private pnldOffenceCodes: OffenceCodeLookup
   ) {}
 
   getHighestPriority(cjsCode: string): string {
-    const defaultValue = "000/00"
-    const matchCjsCode = getMatchCjsCodeFunction(cjsCode)
-
-    if (this.civilLibraOffenceCodes.find(matchCjsCode)) {
-      return this.currentOffenceCodes.find(matchCjsCode)!.homeOfficeClassification as string
-    }
-    if (this.nrcOffenceCodes.find(matchCjsCode)?.homeOfficeClassification) {
-      return this.nrcOffenceCodes.find(matchCjsCode)!.homeOfficeClassification as string
-    }
-    if (this.localOffenceCodes.find(matchCjsCode)?.homeOfficeClassification) {
-      return this.localOffenceCodes.find(matchCjsCode)!.homeOfficeClassification as string
-    }
-    if (this.pnldOffenceCodes.find(matchCjsCode)?.homeOfficeClassification) {
-      return this.pnldOffenceCodes.find(matchCjsCode)!.homeOfficeClassification as string
-    }
-    return defaultValue
+    return (
+      getValue(this.pnldOffenceCodes, cjsCode) ??
+      getValue(this.currentOffenceCodes, cjsCode) ??
+      defaultValue
+    )
   }
 }

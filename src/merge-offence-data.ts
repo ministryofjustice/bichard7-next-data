@@ -1,101 +1,71 @@
 import fs from "fs"
 import offenceCodeB7CategoryOverrides from "../input-data/offence-code/b7-overrides.json"
-import civilLibraOffenceCodes from "../input-data/offence-code/civil-libra-codes.json"
 import cjsOffenceCodes from "../input-data/offence-code/cjs-offences.json"
-import legacyOverrides from "../input-data/offence-code/legacy-dataset-overrides.json"
-import nrcOffenceCodes from "../input-data/offence-code/legacy-nrc.json"
-import localOffenceCodes from "../input-data/offence-code/local-offences.json"
-import pncCcjsOffenceCodes from "../input-data/offence-code/pnc-ccjs-cjs-offences.json"
+import pncOffenceCodes from "../input-data/offence-code/pnc-ccjs-cjs-offences.json"
 import pnldOffenceCodes from "../input-data/offence-code/pnld-offences.json"
 import currentOffenceCodes from "../output-data/data/offence-code.json"
 import consistentSort from "./lib/consistentSort"
+import createOffenceCodeLookup from "./lib/createOffenceCodeLookup"
 import HomeOfficeClassifictionPriority from "./merge/HomeOfficeClassificationPriority"
 import NotifiableToHOPriority from "./merge/NotifiableToHOPriority"
 import OffenceCategoryPriority from "./merge/OffenceCategoryPriority"
 import OffenceCodeMerger from "./merge/OffenceCodeMerger"
 import OffenceTitlePriority from "./merge/OffenceTitlePriority"
 import RecordableOnPncPriority from "./merge/RecordableOnPncPriority"
-import { OffenceCode } from "./types/OffenceCode"
+
+const currentOffenceCodeLookup = createOffenceCodeLookup(currentOffenceCodes)
+const cjsOffenceCodeLookup = createOffenceCodeLookup(cjsOffenceCodes)
+const pnldOffenceCodeLookup = createOffenceCodeLookup(pnldOffenceCodes)
+const pncOffenceCodeLookup = createOffenceCodeLookup(pncOffenceCodes)
+
+const validOffenceCodeFilter = (oc: string): boolean => /^[0-9A-Za-z]+$/.test(oc)
+
+const allOffenceCodeKeys = new Set(
+  Object.keys(currentOffenceCodeLookup)
+    .concat(
+      Object.keys(pnldOffenceCodeLookup),
+      Object.keys(cjsOffenceCodeLookup),
+      Object.keys(pncOffenceCodeLookup)
+    )
+    .filter(validOffenceCodeFilter)
+)
 
 const main = async () => {
   const hoClassification = new HomeOfficeClassifictionPriority(
-    currentOffenceCodes as OffenceCode[],
-    civilLibraOffenceCodes as OffenceCode[],
-    nrcOffenceCodes as OffenceCode[],
-    localOffenceCodes as OffenceCode[],
-    pnldOffenceCodes as OffenceCode[]
+    currentOffenceCodeLookup,
+    pnldOffenceCodeLookup
   )
 
-  const notifiableToHo = new NotifiableToHOPriority(
-    currentOffenceCodes as OffenceCode[],
-    civilLibraOffenceCodes as OffenceCode[],
-    nrcOffenceCodes as OffenceCode[],
-    localOffenceCodes as OffenceCode[],
-    pnldOffenceCodes as OffenceCode[]
-  )
+  const notifiableToHo = new NotifiableToHOPriority(currentOffenceCodeLookup, pnldOffenceCodeLookup)
 
   const offenceCategory = new OffenceCategoryPriority(
-    currentOffenceCodes as OffenceCode[],
-    offenceCodeB7CategoryOverrides as string[],
-    civilLibraOffenceCodes as OffenceCode[],
-    nrcOffenceCodes as OffenceCode[],
-    localOffenceCodes as OffenceCode[],
-    pnldOffenceCodes as OffenceCode[],
-    pncCcjsOffenceCodes as OffenceCode[]
+    currentOffenceCodeLookup,
+    cjsOffenceCodeLookup,
+    offenceCodeB7CategoryOverrides,
+    pnldOffenceCodeLookup,
+    pncOffenceCodeLookup
   )
 
   const offenceTitle = new OffenceTitlePriority(
-    currentOffenceCodes as OffenceCode[],
-    civilLibraOffenceCodes as OffenceCode[],
-    nrcOffenceCodes as OffenceCode[],
-    localOffenceCodes as OffenceCode[],
-    pnldOffenceCodes as OffenceCode[],
-    cjsOffenceCodes as OffenceCode[],
-    pncCcjsOffenceCodes as OffenceCode[]
+    currentOffenceCodeLookup,
+    pnldOffenceCodeLookup,
+    cjsOffenceCodeLookup,
+    pncOffenceCodeLookup
   )
 
   const recordableOnPnc = new RecordableOnPncPriority(
-    currentOffenceCodes as OffenceCode[],
-    civilLibraOffenceCodes as OffenceCode[],
-    nrcOffenceCodes as OffenceCode[],
-    localOffenceCodes as OffenceCode[],
-    pnldOffenceCodes as OffenceCode[],
-    pncCcjsOffenceCodes as OffenceCode[]
-  )
-
-  const currentOffenceCodeKeys = (currentOffenceCodes as OffenceCode[]).map((oc) => oc.cjsCode)
-  const legacyOverrideKeys = legacyOverrides.map((oc) => oc.cjsCode)
-  const civilLibraOffenceCodeKeys = civilLibraOffenceCodes.map((oc) => oc.cjsCode)
-  const nrcOffenceCodeKeys = nrcOffenceCodes.map((oc) => oc.cjsCode)
-  const localOffenceCodeKeys = localOffenceCodes.map((oc) => oc.cjsCode)
-  const pnldOffenceCodeKeys = (pnldOffenceCodes as OffenceCode[]).map((oc) => oc.cjsCode)
-  const cjsOffenceCodeKeys = cjsOffenceCodes.map((oc) => oc.cjsCode)
-  const pncOffenceCodeKeys = pncCcjsOffenceCodes.map((oc) => oc.cjsCode)
-
-  const allOffenceCodeKeys = currentOffenceCodeKeys.concat(
-    legacyOverrideKeys,
-    civilLibraOffenceCodeKeys,
-    nrcOffenceCodeKeys,
-    localOffenceCodeKeys,
-    pnldOffenceCodeKeys,
-    cjsOffenceCodeKeys,
-    pncOffenceCodeKeys
-  )
-  const offenceCodeKeys = Object.keys(
-    allOffenceCodeKeys.reduce((acc: { [k: string]: boolean }, key) => {
-      acc[key.trim()] = true
-      return acc
-    }, {})
+    currentOffenceCodeLookup,
+    pnldOffenceCodeLookup,
+    pncOffenceCodeLookup
   )
 
   const merger = new OffenceCodeMerger(
-    offenceCodeKeys,
-    legacyOverrides as OffenceCode[],
+    allOffenceCodeKeys,
     hoClassification,
-    notifiableToHo as NotifiableToHOPriority,
-    offenceCategory as OffenceCategoryPriority,
-    offenceTitle as OffenceTitlePriority,
-    recordableOnPnc as RecordableOnPncPriority
+    notifiableToHo,
+    offenceCategory,
+    offenceTitle,
+    recordableOnPnc
   )
   const mergedData = merger.merge()
   const sortedData = consistentSort(mergedData)
