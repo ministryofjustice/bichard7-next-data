@@ -16,22 +16,12 @@ const mergeOrganisationUnits = (
         matchingValues(oldR.bottomLevelCode, record.bottomLevelCode)
     )
     if (existingRecord) {
-      // eslint-disable-next-line no-param-reassign
-      existingRecord.topLevelName = record.topLevelName
-        ? record.topLevelName
-        : existingRecord.topLevelName
-      existingRecord.secondLevelName = record.secondLevelName
-        ? record.secondLevelName
-        : existingRecord.secondLevelName
-      existingRecord.thirdLevelName = record.thirdLevelName
-        ? record.thirdLevelName
-        : existingRecord.thirdLevelName
-      existingRecord.bottomLevelName = record.bottomLevelName
-        ? record.bottomLevelName
-        : existingRecord.bottomLevelName
-      existingRecord.thirdLevelPsaCode = record.thirdLevelPsaCode
-        ? record.thirdLevelPsaCode
-        : existingRecord.thirdLevelPsaCode
+      existingRecord.topLevelName = record.topLevelName ?? existingRecord.topLevelName
+      existingRecord.secondLevelName = record.secondLevelName ?? existingRecord.secondLevelName
+      existingRecord.thirdLevelName = record.thirdLevelName ?? existingRecord.thirdLevelName
+      existingRecord.bottomLevelName = record.bottomLevelName ?? existingRecord.bottomLevelName
+      existingRecord.thirdLevelPsaCode =
+        record.thirdLevelPsaCode ?? existingRecord.thirdLevelPsaCode
     } else {
       existingData.push(record)
     }
