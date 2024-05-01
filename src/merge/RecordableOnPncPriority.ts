@@ -2,10 +2,8 @@ import { OffenceCode } from "../types/OffenceCode"
 import getMatchCjsCodeFunction from "./getMatchCjsCodeFunction"
 
 export default class RecordableOnPncPriority {
-  /* eslint-disable no-unused-vars */
   constructor(
     private currentOffenceCodes: OffenceCode[],
-    private civilLibraOffenceCodes: OffenceCode[],
     private nrcOffenceCodes: OffenceCode[],
     private localOffenceCodes: OffenceCode[],
     private pnldOffenceCodes: OffenceCode[],
@@ -17,9 +15,6 @@ export default class RecordableOnPncPriority {
 
     if (typeof this.pncOffenceCodes.find(matchCjsCode)?.recordableOnPnc === "boolean") {
       return this.pncOffenceCodes.find(matchCjsCode)!.recordableOnPnc as boolean
-    }
-    if (typeof this.civilLibraOffenceCodes.find(matchCjsCode)?.recordableOnPnc === "boolean") {
-      return this.civilLibraOffenceCodes.find(matchCjsCode)!.recordableOnPnc as boolean
     }
     if (typeof this.nrcOffenceCodes.find(matchCjsCode)?.recordableOnPnc === "boolean") {
       return this.nrcOffenceCodes.find(matchCjsCode)!.recordableOnPnc as boolean

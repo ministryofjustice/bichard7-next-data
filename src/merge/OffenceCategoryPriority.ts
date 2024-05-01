@@ -7,7 +7,6 @@ export default class OffenceCategoryPriority {
     private currentOffenceCodes: OffenceCode[],
     private cjsOffenceCodes: OffenceCode[],
     private offenceCodeB7CategoryOverrides: string[],
-    private civilLibraOffenceCodes: OffenceCode[],
     private nrcOffenceCodes: OffenceCode[],
     private localOffenceCodes: OffenceCode[],
     private pnldOffenceCodes: OffenceCode[],
@@ -20,9 +19,6 @@ export default class OffenceCategoryPriority {
 
     if (this.offenceCodeB7CategoryOverrides.indexOf(cjsCode) > -1) {
       return "B7"
-    }
-    if (this.civilLibraOffenceCodes.find(matchCjsCode)) {
-      return this.civilLibraOffenceCodes.find(matchCjsCode)!.offenceCategory as string
     }
     if (this.nrcOffenceCodes.find(matchCjsCode)?.offenceCategory) {
       return this.nrcOffenceCodes.find(matchCjsCode)!.offenceCategory as string

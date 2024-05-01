@@ -5,7 +5,6 @@ export default class NotifiableToHOPriority {
   /* eslint-disable no-unused-vars */
   constructor(
     private currentOffenceCodes: OffenceCode[],
-    private civilLibraOffenceCodes: OffenceCode[],
     private nrcOffenceCodes: OffenceCode[],
     private localOffenceCodes: OffenceCode[],
     private pnldOffenceCodes: OffenceCode[]
@@ -15,9 +14,6 @@ export default class NotifiableToHOPriority {
     const defaultValue = false
     const matchCjsCode = getMatchCjsCodeFunction(cjsCode)
 
-    if (typeof this.civilLibraOffenceCodes.find(matchCjsCode) === "boolean") {
-      return this.civilLibraOffenceCodes.find(matchCjsCode)!.notifiableToHo as boolean
-    }
     if (typeof this.nrcOffenceCodes.find(matchCjsCode)?.notifiableToHo === "boolean") {
       return this.nrcOffenceCodes.find(matchCjsCode)!.notifiableToHo as boolean
     }

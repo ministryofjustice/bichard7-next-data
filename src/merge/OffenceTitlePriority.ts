@@ -6,7 +6,6 @@ export default class OffenceTitlePriority {
   /* eslint-disable no-unused-vars */
   constructor(
     private currentOffenceCodes: OffenceCode[],
-    private civilLibraOffenceCodes: OffenceCode[],
     private nrcOffenceCodes: OffenceCode[],
     private localOffenceCodes: OffenceCode[],
     private pnldOffenceCodes: OffenceCode[],
@@ -20,9 +19,7 @@ export default class OffenceTitlePriority {
 
     let title: string | undefined = defaultTitle
 
-    if (this.civilLibraOffenceCodes.find(matchCjsCode)?.offenceTitle) {
-      title = this.civilLibraOffenceCodes.find(matchCjsCode)!.offenceTitle
-    } else if (this.nrcOffenceCodes.find(matchCjsCode)?.offenceTitle) {
+    if (this.nrcOffenceCodes.find(matchCjsCode)?.offenceTitle) {
       title = this.nrcOffenceCodes.find(matchCjsCode)!.offenceTitle as string
     } else if (this.localOffenceCodes.find(matchCjsCode)?.offenceTitle) {
       title = this.localOffenceCodes.find(matchCjsCode)!.offenceTitle as string

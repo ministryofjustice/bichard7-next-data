@@ -5,7 +5,6 @@ export default class HomeOfficeClassifictionPriority {
   /* eslint-disable no-unused-vars */
   constructor(
     private currentOffenceCodes: OffenceCode[],
-    private civilLibraOffenceCodes: OffenceCode[],
     private nrcOffenceCodes: OffenceCode[],
     private localOffenceCodes: OffenceCode[],
     private pnldOffenceCodes: OffenceCode[]
@@ -15,9 +14,6 @@ export default class HomeOfficeClassifictionPriority {
     const defaultValue = "000/00"
     const matchCjsCode = getMatchCjsCodeFunction(cjsCode)
 
-    if (this.civilLibraOffenceCodes.find(matchCjsCode)?.homeOfficeClassification) {
-      return this.civilLibraOffenceCodes.find(matchCjsCode)!.homeOfficeClassification as string
-    }
     if (this.nrcOffenceCodes.find(matchCjsCode)?.homeOfficeClassification) {
       return this.nrcOffenceCodes.find(matchCjsCode)!.homeOfficeClassification as string
     }
