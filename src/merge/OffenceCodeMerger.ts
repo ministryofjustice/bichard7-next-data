@@ -24,8 +24,7 @@ export default class OffenceCodeMerger {
         notifiableToHo: this.notifiableToHo.getHighestPriority(cjsCode),
         offenceCategory: this.offenceCategory.getHighestPriority(cjsCode),
         offenceTitle: this.offenceTitle.getHighestPriority(cjsCode),
-        recordableOnPnc: this.recordableOnPnc.getHighestPriority(cjsCode),
-        resultHalfLifeHours: null
+        recordableOnPnc: this.recordableOnPnc.getHighestPriority(cjsCode)
       }
     })
   }

@@ -25,8 +25,7 @@ export default (fileContents: Buffer): OffenceCode[] => {
     .map((offenceCode) => ({
       cjsCode: offenceCode.B?.trim(),
       offenceTitle: fixPoundSign(consistentWhitespace(offenceCode.C?.trim())),
-      recordableOnPnc: valueToBoolean(offenceCode.F?.trim()),
-      resultHalfLifeHours: null
+      recordableOnPnc: valueToBoolean(offenceCode.F?.trim())
     }))
     .filter((offenceCode) => offenceCode.offenceTitle != null)
     .filter((offenceCode) => cjsCodeFilter(offenceCode.cjsCode))

@@ -1,11 +1,11 @@
-import type TriggerCode from "./TriggerCode"
 import type ExceptionCode from "./ExceptionCode"
+import type TriggerCode from "./TriggerCode"
 
-export type { default as TriggerCode } from "./TriggerCode"
 export type { DateCode } from "./DateCode"
+export type { Duration } from "./Duration"
 export type { GenderCode } from "./GenderCode"
 export type { RemandStatusCode } from "./RemandStatusCode"
-export type { Duration } from "./Duration"
+export type { default as TriggerCode } from "./TriggerCode"
 
 export type CjsCodeAndDescription = {
   cjsCode: string
@@ -77,7 +77,6 @@ export type OffenceCode = {
   offenceCategory: string
   offenceTitle: string
   recordableOnPnc?: boolean
-  resultHalfLifeHours?: string | null
 }
 
 export type OffenceInitiation = CjsCodeAndDescription
