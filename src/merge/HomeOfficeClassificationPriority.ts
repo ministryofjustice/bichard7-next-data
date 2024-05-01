@@ -1,6 +1,16 @@
 import { OffenceCode } from "../types/OffenceCode"
 import getMatchCjsCodeFunction from "./getMatchCjsCodeFunction"
 
+const defaultValue = "000/00"
+
+const getValue = (offences: OffenceCode[], code: string): string | undefined => {
+  const matchCjsCode = getMatchCjsCodeFunction(code)
+  const match = offences.find(matchCjsCode)?.homeOfficeClassification
+  if (!match || match === defaultValue) {
+    return undefined
+  }
+  return match
+}
 export default class HomeOfficeClassifictionPriority {
   constructor(
     private currentOffenceCodes: OffenceCode[],
@@ -8,15 +18,10 @@ export default class HomeOfficeClassifictionPriority {
   ) {}
 
   getHighestPriority(cjsCode: string): string {
-    const defaultValue = "000/00"
-    const matchCjsCode = getMatchCjsCodeFunction(cjsCode)
-
-    if (this.pnldOffenceCodes.find(matchCjsCode)?.homeOfficeClassification) {
-      return this.pnldOffenceCodes.find(matchCjsCode)!.homeOfficeClassification as string
-    }
-    if (this.currentOffenceCodes.find(matchCjsCode)?.homeOfficeClassification) {
-      return this.currentOffenceCodes.find(matchCjsCode)!.homeOfficeClassification as string
-    }
-    return defaultValue
+    return (
+      getValue(this.pnldOffenceCodes, cjsCode) ??
+      getValue(this.currentOffenceCodes, cjsCode) ??
+      defaultValue
+    )
   }
 }

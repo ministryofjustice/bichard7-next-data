@@ -17,18 +17,13 @@ export default class OffenceCategoryPriority {
     if (this.offenceCodeB7CategoryOverrides.indexOf(cjsCode) > -1) {
       return "B7"
     }
-    if (this.pnldOffenceCodes.find(matchCjsCode)?.offenceCategory) {
-      return this.pnldOffenceCodes.find(matchCjsCode)!.offenceCategory as string
-    }
-    if (this.cjsOffenceCodes.find(matchCjsCode)) {
-      return this.cjsOffenceCodes.find(matchCjsCode)!.offenceCategory as string
-    }
-    if (this.pncOffenceCodes.find(matchCjsCode)?.offenceCategory) {
-      return this.pncOffenceCodes.find(matchCjsCode)!.offenceCategory as string
-    }
-    if (this.currentOffenceCodes.find(matchCjsCode)) {
-      return this.currentOffenceCodes.find(matchCjsCode)!.offenceCategory as string
-    }
-    return defaultCategory
+
+    return (
+      this.pnldOffenceCodes.find(matchCjsCode)?.offenceCategory ??
+      this.cjsOffenceCodes.find(matchCjsCode)?.offenceCategory ??
+      this.pncOffenceCodes.find(matchCjsCode)?.offenceCategory ??
+      this.currentOffenceCodes.find(matchCjsCode)?.offenceCategory ??
+      defaultCategory
+    )
   }
 }

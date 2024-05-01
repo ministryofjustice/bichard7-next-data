@@ -1,6 +1,11 @@
 import { OffenceCode } from "../types/OffenceCode"
 import getMatchCjsCodeFunction from "./getMatchCjsCodeFunction"
 
+const getValue = (offences: OffenceCode[], code: string): boolean | undefined => {
+  const matchCjsCode = getMatchCjsCodeFunction(code)
+  const match = offences.find(matchCjsCode)?.recordableOnPnc
+  return typeof match === "boolean" ? match : undefined
+}
 export default class RecordableOnPncPriority {
   constructor(
     private currentOffenceCodes: OffenceCode[],
@@ -9,17 +14,11 @@ export default class RecordableOnPncPriority {
   ) {}
 
   getHighestPriority(cjsCode: string): boolean {
-    const matchCjsCode = getMatchCjsCodeFunction(cjsCode)
-
-    if (typeof this.pncOffenceCodes.find(matchCjsCode)?.recordableOnPnc === "boolean") {
-      return this.pncOffenceCodes.find(matchCjsCode)!.recordableOnPnc as boolean
-    }
-    if (typeof this.pnldOffenceCodes.find(matchCjsCode)?.recordableOnPnc === "boolean") {
-      return this.pnldOffenceCodes.find(matchCjsCode)!.recordableOnPnc as boolean
-    }
-    if (typeof this.currentOffenceCodes.find(matchCjsCode)?.recordableOnPnc === "boolean") {
-      return this.currentOffenceCodes.find(matchCjsCode)!.recordableOnPnc as boolean
-    }
-    return false
+    return (
+      getValue(this.pncOffenceCodes, cjsCode) ??
+      getValue(this.pnldOffenceCodes, cjsCode) ??
+      getValue(this.currentOffenceCodes, cjsCode) ??
+      false
+    )
   }
 }
