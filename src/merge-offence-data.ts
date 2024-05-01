@@ -1,7 +1,6 @@
 import fs from "fs"
 import offenceCodeB7CategoryOverrides from "../input-data/offence-code/b7-overrides.json"
 import cjsOffenceCodes from "../input-data/offence-code/cjs-offences.json"
-import legacyOverrides from "../input-data/offence-code/legacy-dataset-overrides.json"
 import pncCcjsOffenceCodes from "../input-data/offence-code/pnc-ccjs-cjs-offences.json"
 import pnldOffenceCodes from "../input-data/offence-code/pnld-offences.json"
 import currentOffenceCodes from "../output-data/data/offence-code.json"
@@ -47,13 +46,11 @@ const main = async () => {
   )
 
   const currentOffenceCodeKeys = (currentOffenceCodes as OffenceCode[]).map((oc) => oc.cjsCode)
-  const legacyOverrideKeys = legacyOverrides.map((oc) => oc.cjsCode)
   const pnldOffenceCodeKeys = (pnldOffenceCodes as OffenceCode[]).map((oc) => oc.cjsCode)
   const cjsOffenceCodeKeys = cjsOffenceCodes.map((oc) => oc.cjsCode)
   const pncOffenceCodeKeys = pncCcjsOffenceCodes.map((oc) => oc.cjsCode)
 
   const allOffenceCodeKeys = currentOffenceCodeKeys.concat(
-    legacyOverrideKeys,
     pnldOffenceCodeKeys,
     cjsOffenceCodeKeys,
     pncOffenceCodeKeys
@@ -67,7 +64,6 @@ const main = async () => {
 
   const merger = new OffenceCodeMerger(
     offenceCodeKeys,
-    legacyOverrides as OffenceCode[],
     hoClassification,
     notifiableToHo as NotifiableToHOPriority,
     offenceCategory as OffenceCategoryPriority,
