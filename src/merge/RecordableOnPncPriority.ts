@@ -4,7 +4,6 @@ import getMatchCjsCodeFunction from "./getMatchCjsCodeFunction"
 export default class RecordableOnPncPriority {
   constructor(
     private currentOffenceCodes: OffenceCode[],
-    private nrcOffenceCodes: OffenceCode[],
     private localOffenceCodes: OffenceCode[],
     private pnldOffenceCodes: OffenceCode[],
     private pncOffenceCodes: OffenceCode[]
@@ -15,9 +14,6 @@ export default class RecordableOnPncPriority {
 
     if (typeof this.pncOffenceCodes.find(matchCjsCode)?.recordableOnPnc === "boolean") {
       return this.pncOffenceCodes.find(matchCjsCode)!.recordableOnPnc as boolean
-    }
-    if (typeof this.nrcOffenceCodes.find(matchCjsCode)?.recordableOnPnc === "boolean") {
-      return this.nrcOffenceCodes.find(matchCjsCode)!.recordableOnPnc as boolean
     }
     if (typeof this.localOffenceCodes.find(matchCjsCode)?.recordableOnPnc === "boolean") {
       return this.localOffenceCodes.find(matchCjsCode)!.recordableOnPnc as boolean
