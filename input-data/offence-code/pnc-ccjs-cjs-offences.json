@@ -4008,9 +4008,21 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "AN16359 ",
+    "offenceTitle": "CONTRAVENE/FAIL TO COMPLY WITH REGULATION MADE UNDER ARTICLE 239 OF THE AIR NAVIGATION ORDER 2016",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "AN16363 ",
     "offenceTitle": "REMOTE PILOT FLY SMALL UNMANNED AIRCRAFT IN FLIGHT RESTRICTION ZONE WITHOUT PERMISSION",
     "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AN16367 ",
+    "offenceTitle": "IMPROPERLY HOLD PERSON OUT AS BEING ABLE TO OFFER FLIGHTS IN UK AIRCRAFT FOR PUBLIC/COMMERCIAL AIR TRANSPORT",
+    "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
@@ -4425,6 +4437,30 @@
     "cjsCode": "AN16453 ",
     "offenceTitle": "UAS OPERATOR CAUSE FLIGHT OF TETHERED SMALL UNMANNED AIRCRAFT WHEN PILOT NOT COMPETENT",
     "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AN16457 ",
+    "offenceTitle": "REMOTE PILOT OF UNMANNED AIRCRAFT FAIL TO KEEP UNMANNED FLIGHT IN SIGHT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AN16460 ",
+    "offenceTitle": "REMOTE PILOT OF UNMANNED AIRCRAFT FAIL TO COMPLY RE FLIGHTS CLOSE TO EMERGENCY ZONES (OPEN CATEGORY)",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AN16549 ",
+    "offenceTitle": "REMOTE PILOT OF UNMANNED AIRCRAFT FAIL TO COMPLY RE GEOGRAPHICAL ZONES",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AN16A01 ",
+    "offenceTitle": "IMPROPERLY HOLD PERSON OUT AS BEING ABLE TO OFFER FLIGHTS IN UK AIRCRAFT FOR PUBLIC/COMMERCIAL AIR TRANSPORT",
+    "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
@@ -5124,6 +5160,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "AO16011 ",
+    "offenceTitle": "REMOTE PILOT OF LUC FLIGHT FAIL TO COMPLY WITH PART B PROOF OF COMPETENCY",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "AP03001 ",
     "offenceTitle": "OBSTRUCTION OF PERSON IN EXERCISE OF POWER CONFERRED BY REG 8 OR 9 IN PERFORMING REGULATORY FUNCTION",
     "recordableOnPnc": false,
@@ -5414,6 +5456,12 @@
   {
     "cjsCode": "AR11054 ",
     "offenceTitle": "FAIL TO NOTIFY SECRETARY OF STATE 24 HOURS IN ADVANCE OF ARRIVAL OF ANIMAL/GENETIC MATERIAL INTO ENGLAND",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AR11077 ",
+    "offenceTitle": "BRING IN A CONSIGNMENT OF PRODUCTS NOT COMPLYING WITH IMPORT REQUIREMENTS & CUSTOMS STORAGE PROCEDURES",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -6138,6 +6186,18 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "AS14019 ",
+    "offenceTitle": "FAIL TO COMPLY WITH A PUBLIC SPACES PROTECTION ORDER/EXPEDITED ORDER",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AS14020 ",
+    "offenceTitle": "CARRY OUT CONDUCT FOR PURPOSE OF CAUSING CHILD TO ENTER INTO MARRIAGE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "AS14A01 ",
     "offenceTitle": "REMAIN ON/ENTER PREMISES IN CONTRAVENTION OF A CLOSURE NOTICE/ORDER",
     "recordableOnPnc": true,
@@ -6369,6 +6429,30 @@
     "cjsCode": "AT01048 ",
     "offenceTitle": "RESIST/WILFULLY OBSTRUCT A COUNTER-TERRORISM FINANCIAL INVESTIGATOR",
     "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AT21001 ",
+    "offenceTitle": "REMOTE PILOT OF UNMANNED AIRCRAFT FAIL TO PROVIDE EVIDENCE OF COMPLIANCE UPON REQUEST",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AT21002 ",
+    "offenceTitle": "REMOTE PILOT OF UNMANNED AIRCRAFT FAIL TO PROVIDE INFORMATION AS TO IDENTITY OF PERSON UPON REQUEST",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AT21003 ",
+    "offenceTitle": "UAS OPERATOR FAIL TO PROVIDE EVIDENCE OF COMPLIANCE UPON REQUEST",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AT21004 ",
+    "offenceTitle": "UAS OPERATOR OF UNMANNED AIRCRAFT FAIL TO PROVIDE INFORMATION AS TO IDENTITY OF REMOTE PILOT UPON REQUEST",
+    "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
   {
@@ -7452,8 +7536,74 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "AW06040 ",
+    "offenceTitle": "BREACH OF DISQUALIFICATION - S1 PROTECTION OF ANIMALS (AMENDMENT) ACT 1954",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "AW06041 ",
     "offenceTitle": "CAUSE UNNECESSARY SUFFERING TO A PROTECTED ANIMAL",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AW06042 ",
+    "offenceTitle": "RESPONSIBLE PERSON FAIL TO PREVENT THE CAUSING OF UNNECESSARY SUFFERING TO AN ANIMAL",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AW06044 ",
+    "offenceTitle": "CAUSE THE CARRYING OUT OF A PROHIBITED PROCEDURE ON A PROTECTED ANIMAL",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AW06049 ",
+    "offenceTitle": "ADMINISTER A POISONOUS/INJURIOUS DRUG/SUBSTANCE TO A PROTECTED ANIMAL",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AW06053 ",
+    "offenceTitle": "CAUSE/ATTEMPT TO CAUSE AN ANIMAL FIGHT TO TAKE PLACE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AW06054 ",
+    "offenceTitle": "KEEP/TRAIN AN ANIMAL FOR USE IN CONNECTION WITH AN ANIMAL FIGHT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AW06A01 ",
+    "offenceTitle": "CAUSE A PROHIBITED PROCEDURE TO BE CARRIED OUT ON A PROTECTED ANIMAL",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AW06A02 ",
+    "offenceTitle": "ADMINISTER POISONOUS/INJURIOUS DRUG/SUBSTANCE TO A PROTECTED ANIMAL",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AW06A03 ",
+    "offenceTitle": "RESPONSIBLE PERSON PERMIT/FAIL TO TAKE STEPS TO PREVENT UNNECESSARY SUFFERING TO ANIMAL",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AW06A04 ",
+    "offenceTitle": "CAUSE/ATTEMPT TO CAUSE AN ANIMAL FIGHT TO TAKE PLACE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "AW06A05 ",
+    "offenceTitle": "KEEP/TRAIN AN ANIMAL FOR USE IN CONNECTION WITH ANIMAL FIGHT",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -7578,6 +7728,30 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "BA10010 ",
+    "offenceTitle": "BRIBERY",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "BA10011 ",
+    "offenceTitle": "REQUESTING, AGREEING TO RECEIVE OR ACCEPTING A BRIBE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "BA10012 ",
+    "offenceTitle": "IMPROP PERFORMANCE RELEVANT FUNCTION/ACTIVITY IN ANTICIPATION/CONSEQUENCE OF REQUESTING/AGREEING TO RECEIVE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "BA12059 ",
+    "offenceTitle": "DRIVE A VEHICLE WHILST DRUNK/UNDER INFLUENCE OF DRINK/DRUGS/OTHER INTOXICATING SUBSTANCES",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "BA76001 ",
     "offenceTitle": "FAILING TO SURRENDER TO CUSTODY AT APPOINTED TIME",
     "recordableOnPnc": true,
@@ -7593,6 +7767,18 @@
     "cjsCode": "BA76003 ",
     "offenceTitle": "AGREEING TO INDEMNIFY SURETIES",
     "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "BA76004 ",
+    "offenceTitle": "ARREST BY CONSTABLE AS UNLIKELY TO SURRENDER TO CUSTODY - BREACH OF BAIL CONDITIONS",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "BA76005 ",
+    "offenceTitle": "ARREST BY CONSTABLE FOR BREACHING/LIKELY TO BREACH BAIL CONDIT.DUTY TO SURRENDER INTO CUSTODY OF COURT",
+    "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
   {
@@ -8784,6 +8970,24 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "BS22001 ",
+    "offenceTitle": "OBSTRUCTION OF AN AUTHORISED OFFICER EXERCISING A RELEVANT BUILDING FUNCTION",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "BS22002 ",
+    "offenceTitle": "IMPERSONATE AN AUTHORISED BUILDING FUNCTION OFFICER",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "BS22003 ",
+    "offenceTitle": "PROVIDING FALSE OR MISLEADING INFORMATION TO THE BUILDING SAFETY REGULATOR",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "BS99001 ",
     "offenceTitle": "LICENSED BREEDER SELL DOG AT UNLICENSED PREMISES",
     "recordableOnPnc": true,
@@ -8823,6 +9027,18 @@
     "cjsCode": "BS99007 ",
     "offenceTitle": "BREACH OF COURT ORDER - UNAUTHORISED SALE/FAIL TO DELIVER DOG",
     "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "BT13001 ",
+    "offenceTitle": "USED APPARATUS OR FACILITIES OF THE RAPID TRANSIT SYSTEM WITHOUT THE CONSENT OF THE PROMOTER",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "BT13002 ",
+    "offenceTitle": "TRESPASS ON TRANSPORT SYSTEMS IN BRISTOL",
+    "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
   {
@@ -11172,6 +11388,36 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "CD09001 ",
+    "offenceTitle": "DRIVER OF A VEHICLE CARRYING DANGEROUS/PRESSURISED GOODS - NO INSTRUCTIONS IN WRITING RE GOODS CARRIED",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CD09005 ",
+    "offenceTitle": "DRIVER OF VEHICLE CARRYING DANGEROUS/PRESSURISED GOODS FAIL TO CARRY TRANSPORT DOCUMENTS RE NATURE/QUANTITY",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CD09007 ",
+    "offenceTitle": "DRIVER OF VEHICLE CARRYING DANGEROUS/PRESSURISED GOODS FAILS TO DISPLAY AN ORANGE PLACARD",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CD09024 ",
+    "offenceTitle": "VEHICLE CARRYING DANGEROUS/PRESSURISED GOODS DRIVER WITH NO CERTIFICATE/FAIL TO RECEIVE AWARENESS TRAINING",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CD09025 ",
+    "offenceTitle": "DRIVER - VEHICLE CARRYING DANGEROUS/PRESSURISED GOODS NO CERTIFICATE/FAILURE TO RECEIVE AWARENESS TRAINING",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "CD09026 ",
     "offenceTitle": "DRIVER OF VEHICLE CARRYING DANGEROUS/PRESSURISED GOODS EMERGENCY TELEPHONE NOT CONSTANTLY/ADEQUATELY MANNED",
     "recordableOnPnc": false,
@@ -11281,13 +11527,13 @@
   },
   {
     "cjsCode": "CD71001 ",
-    "offenceTitle": "DESTROYING PROPERTY (VALUE OF DAMAGE OVER 2,000 - OFFENCE AGAINST CRIMINAL DAMAGE ACT 1971 ONLY)",
+    "offenceTitle": "DESTROYING PROPERTY (VALUE OF DAMAGE OVER £2,000 - OFFENCE AGAINST CRIMINAL DAMAGE ACT 1971 ONLY)",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "CD71002 ",
-    "offenceTitle": "DESTROYING PROPERTY (VALUE OF DAMAGE 2,000 OR LESS - OFFENCE AGAINST CRIMINAL DAMAGE ACT 1971 ONLY)",
+    "offenceTitle": "DESTROYING PROPERTY (VALUE OF DAMAGE £2,000 OR LESS - OFFENCE AGAINST CRIMINAL DAMAGE ACT 1971 ONLY)",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -11305,13 +11551,13 @@
   },
   {
     "cjsCode": "CD71006 ",
-    "offenceTitle": "DAMAGING PROPERTY (VALUE OF DAMAGE OVER 2,000 - OFFENCE AGAINST CRIMINAL DAMAGE ACT 1971 ONLY)",
+    "offenceTitle": "DAMAGING PROPERTY (VALUE OF DAMAGE OVER £2,000 - OFFENCE AGAINST CRIMINAL DAMAGE ACT 1971 ONLY)",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "CD71007 ",
-    "offenceTitle": "DAMAGING PROPERTY (VALUE OF DAMAGE 2,000 OR LESS - OFFENCE AGAINST CRIMINAL DAMAGE ACT 1971 ONLY)",
+    "offenceTitle": "DAMAGING PROPERTY (VALUE OF DAMAGE £2,000 OR LESS - OFFENCE AGAINST CRIMINAL DAMAGE ACT 1971 ONLY)",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -11413,25 +11659,25 @@
   },
   {
     "cjsCode": "CD71031 ",
-    "offenceTitle": "DESTROYING PROPERTY VALUE IN EXCESS OF 5000",
+    "offenceTitle": "DESTROYING PROPERTY VALUE IN EXCESS OF £5000",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "CD71032 ",
-    "offenceTitle": "DESTROYING PROPERTY VALUE OF DAMAGE 5000 OR LESS",
+    "offenceTitle": "DESTROYING PROPERTY VALUE OF DAMAGE £5000 OR LESS",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "CD71036 ",
-    "offenceTitle": "DAMAGE PROPERTY VALUE IN EXCESS OF 5000",
+    "offenceTitle": "DAMAGE PROPERTY VALUE IN EXCESS OF £5000",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "CD71037 ",
-    "offenceTitle": "DAMAGE PROPERTY VALUE OF DAMAGE 5000 OR LESS",
+    "offenceTitle": "DAMAGE PROPERTY VALUE OF DAMAGE £5000 OR LESS",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -11600,6 +11846,12 @@
   {
     "cjsCode": "CD79008 ",
     "offenceTitle": "PERMIT RELIEVED GOODS TO BE USED BY ANOTHER FOR PURPOSE CONTRARY TO CONDITION RELIEF GRANTED",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CD79012 ",
+    "offenceTitle": "DISPOSE OF RELIEVED GOODS FOR USE BY ANOTHER CONTRARY TO A CONDITION UPON WHICH RELIEF WAS GRANTED",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -12080,6 +12332,18 @@
   {
     "cjsCode": "CD98079 ",
     "offenceTitle": "RACIALLY/RELIGIOUSLY AGGRAVATED STALKING INVOLVING SERIOUS ALARM/DISTRESS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CD98080 ",
+    "offenceTitle": "RACIALLY/RELIGIOUSLY AGGRAVATED INTENTIONAL STRANGULATION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CD98081 ",
+    "offenceTitle": "RACIALLY/RELIGIOUSLY AGGRAVATED INTENTIONAL STRANGULATION",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -14244,6 +14508,18 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "CE79390 ",
+    "offenceTitle": "ATTEMPT TO FRAUDULENTLY EVADE DUTY/PROHIBITION/RESTRICTION/PROVISION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CE79391 ",
+    "offenceTitle": "FRAUDULENTLY EVADE ANY DUTY/PROHIBITION/RESTRICTION/PROVISION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "CE79A01 ",
     "offenceTitle": "FRAUDULENT EVASION OF CUSTOMS DUTY",
     "recordableOnPnc": true,
@@ -15648,6 +15924,18 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "CI20081 ",
+    "offenceTitle": "FAIL TO UNDERTAKE TEST AFTER REASONABLE EXCUSE NO LONGER PERTAINS - ENGLAND",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CI20082 ",
+    "offenceTitle": "PERSON SUBJECT TO IMMIGRATION CTRL, REQUIRING LEAVE TO ENTER/REMAIN IN UK FAIL TO TAKE TEST WHEN REQUESTED",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "CI37001 ",
     "offenceTitle": "CONTRAVENING PROHIBITION OF FILMS IN PRODUCTION OF WHICH SUFFERING HAS BEEN CAUSED TO ANIMALS",
     "recordableOnPnc": true,
@@ -16890,8 +17178,62 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "CJ88151 ",
+    "offenceTitle": "POSSESS OFFENSIVE WEAPON ON SCHOOL PREMISES/FURTHER EDUCATION PREMISES",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CJ88152 ",
+    "offenceTitle": "POSSESS ARTICLE WITH BLADE/SHARPLY POINTED ARTICLE ON SCHOOL PREMISES/FURTHER EDUCATION PREMISES",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "CJ88153 ",
     "offenceTitle": "POSSESS AN OFFENSIVE WEAPON IN PRIVATE PLACE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CJ88154 ",
+    "offenceTitle": "THREATEN A PERSON WITH A BLADE/SHARPLY POINTED ARTICLE IN A PUBLIC PLACE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CJ88155 ",
+    "offenceTitle": "THREATEN A PERSON WITH A BLADE/SHARPLY POINTED ARTICLE ON SCHOOL PREMISES/FURTHER EDUCATION PREMISES",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CJ88156 ",
+    "offenceTitle": "THREATEN A PERSON WITH AN OFFENSIVE WEAPON ON SCHOOL PREMISES",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CJ88157 ",
+    "offenceTitle": "THREATEN A PERSON WITH A BLADE/SHARPLY POINTED ARTICLE ON FURTHER EDUCATION PREMISES",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CJ88158 ",
+    "offenceTitle": "THREATEN A PERSON WITH AN OFFENSIVE WEAPON ON FURTHER EDUCATION PREMISES",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CJ88159 ",
+    "offenceTitle": "COMMON ASSAULT OF AN EMERGENCY WORKER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CJ88160 ",
+    "offenceTitle": "ASSAULT BY BEATING OF AN EMERGENCY WORKER",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -16915,7 +17257,31 @@
   },
   {
     "cjsCode": "CJ88A04 ",
-    "offenceTitle": "POSSESS ARTICLE WITH BLADE/ SHARP POINT ON SCHOOL PREMISES.",
+    "offenceTitle": "POSSESS ARTICLE WITH BLADE/SHARP POINT ON SCHOOL PREMISES",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CJ88A06 ",
+    "offenceTitle": "THREATEN WITH AN OFFENSIVE WEAPON ON SCHOOL PREMISES",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CJ88A07 ",
+    "offenceTitle": "THREATEN WITH A BLADE/SHARPLY POINTED ARTICLE IN A PUBLIC PLACE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CJ88A08 ",
+    "offenceTitle": "ASSAULT BY BEATING OF AN EMERGENCY WORKER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CJ88A09 ",
+    "offenceTitle": "COMMON ASSAULT OF AN EMERGENCY WORKER",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -17604,6 +17970,18 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "CJ94041 ",
+    "offenceTitle": "FAIL TO COMPLY WITH REQUEST TO LEAVE LAND/REMOVE VEHICLE FROM LAND",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CJ94042 ",
+    "offenceTitle": "WITHOUT CONSENT OF OCCUPIER ENTER/RE-ENTER LAND WITH VEHICLE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "CJ94A01 ",
     "offenceTitle": "UNAUTHORISED PERSON SELLING TICKET FOR DESIGNATED FOOTBALL MATCH",
     "recordableOnPnc": true,
@@ -17618,12 +17996,6 @@
   {
     "cjsCode": "CJ94A03 ",
     "offenceTitle": "AGGRAVATED TRESPASS ON LAND OBSTRUCTING OR DISRUPTING LAWFUL ACTIVITY",
-    "recordableOnPnc": true,
-    "resultHalfLifeHours": null
-  },
-  {
-    "cjsCode": "CJS-CODE",
-    "offenceTitle": "OFFENCE DESCRIPTION",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -20766,6 +21138,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "CO14023 ",
+    "offenceTitle": "OBTAIN PROPERTY OF A REGISTERED SOCIETY BY FALSE REPRESENTATION/DECEPTION WITH FRAUDULENT INTENT",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "CO20001 ",
     "offenceTitle": "OPERATOR OF PORT FAIL TO COMPLY WITH A SCHEDULE 20 DIRECTION",
     "recordableOnPnc": true,
@@ -21642,6 +22020,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "CP07001 ",
+    "offenceTitle": "MAKE FALSE REPRESENTATION RECKLESSLY OR KNOWING IT TO BE FALSE - CIVIL ENFORCEMENT OF PARKING",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "CP08001 ",
     "offenceTitle": "ENGAGE IN COMMERCIAL PRACTICE CONTRAVENING REG 3(3) DISTORTING BEHAVIOUR OF AVERAGE CONSUMER",
     "recordableOnPnc": true,
@@ -21806,6 +22190,12 @@
   {
     "cjsCode": "CP74024 ",
     "offenceTitle": "DISCLOSE TRADE SECRET WITHOUT AUTHORISATION",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CP74025 ",
+    "offenceTitle": "OBSTRUCT AN AUTHORISED OFFICER",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -22602,6 +22992,66 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "CQ09001 ",
+    "offenceTitle": "PERSON REGISTERED WITH CARE QUALITY COMMISSION FAIL TO NOTIFY INCIDENT OCCURRING DURING REGULATED ACTIVITY",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CQ09002 ",
+    "offenceTitle": "REGISTERED PERSON CONTRAVENE/FAIL COMPLY REQUIREMENT TO PROVIDE SPECIFIED INFO IN STATEMENT OF PURPOSE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CQ09003 ",
+    "offenceTitle": "REGISTERED PERSON FAIL TO NOTIFY COMMISSION OF REVISED STATEMENT OF PURPOSE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CQ09004 ",
+    "offenceTitle": "REGISTERED PERSON FAIL TO GIVE NOTICE OF CHANGE OF CARE QUALITY COMMISSION",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CQ09005 ",
+    "offenceTitle": "REGISTERED PERSON FAIL TO NOTIFY COMMISSION OF DEATH OF A SERVICE USER",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CQ09006 ",
+    "offenceTitle": "REGISTERED PERSON FAIL TO NOTIFY COMMISSION OF DEATH/ABSENCE OF DETAINED SERVICE USER - MHA 83",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CQ09007 ",
+    "offenceTitle": "REGISTERED PERSON FAIL TO GIVE NOTICE OF ABSENCE TO CARE QUALITY COMMISSION",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CQ09008 ",
+    "offenceTitle": "REGISTERED PERSON FAIL TO PROVIDE STATEMENT OF COSTS TO SERVICE USER",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CQ09009 ",
+    "offenceTitle": "REGISTERED PERSON FAIL TO NOTIFY COMMISSION OF INFORMATION RE DEATH FOLLOWING TERMINATION OF PREGNANCY",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CQ09010 ",
+    "offenceTitle": "REGISTERED PERSON FAIL TO OBTAIN TWO CERTIFICATES OF OPINION PRIOR TO TERMINATING PREGNANCY",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "CQ86001 ",
     "offenceTitle": "PERSON CONTRAVENING COMPANY DIRECTORS DISQUALIFICATION ORDER",
     "recordableOnPnc": true,
@@ -22719,6 +23169,12 @@
     "cjsCode": "CR13001 ",
     "offenceTitle": "CONTRAVENTION OF A CONSTRUCTION PRODUCTS SUSPENSION NOTICE",
     "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CR15002 ",
+    "offenceTitle": "FAIL TO COMPLY WITH REQUIREMENT OF ENFORCER/OFFICER UNDER PART 4 OF SCHEDULE 5",
+    "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
   {
@@ -24288,6 +24744,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "CS06235 ",
+    "offenceTitle": "COMPANY/OFFICER FAIL TO KEEP REGISTER OF PEOPLE HAVING SIGNIFICANT CONTROL OF COMPANY",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "CS06237 ",
     "offenceTitle": "COMPANY OFFICER/DIRECTOR FAIL TO GIVE NOTICE TO PERSON/ENTITY KNOWING/BELIEVING RELEVANCY CHANGE OCCURRED",
     "recordableOnPnc": true,
@@ -24786,6 +25248,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "CT03016 ",
+    "offenceTitle": "MAKE/ATTEMPT TO MAKE UNAUTHORISED RECORDING/TRANSMISSION OF IMAGE/SOUND OF COURT PROCEEDINGS",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "CT03A01 ",
     "offenceTitle": "FALSE STATEMENT/FAIL TO PROVIDE INFORMATION TO FINES OFFICER",
     "recordableOnPnc": false,
@@ -24978,6 +25446,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "CT20024 ",
+    "offenceTitle": "CAUSE/PERMIT AIRCRAFT/VESSEL FROM DENMARK TO ARRIVE IN WALES",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "CT20043 ",
     "offenceTitle": "FAIL TO ARRANGE DAY 2/8 CORONAVIRUS TEST AFTER ARRIVAL IN WALES FROM OUTSIDE COMMON TRAVEL AREA",
     "recordableOnPnc": false,
@@ -25034,6 +25508,24 @@
   {
     "cjsCode": "CT20052 ",
     "offenceTitle": "FAIL TO UNDERTAKE REPLACEMENT CORONAVIRUS TEST IN WALES AFTER REASONABLE EXCUSE NO LONGER APPLY - UK",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CT20054 ",
+    "offenceTitle": "FAIL TO ISOLATE AFTER FAILURE TO UNDERTAKE DAY 2/DAY 8 TEST ON ARRIVAL IN WALES",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CT20055 ",
+    "offenceTitle": "FAIL TO ISOLATE AFTER FAILURE TO UNDERTAKE DAY 8 TEST ON ARRIVAL IN WALES - NON EXEMPT COUNTRY",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CT20056 ",
+    "offenceTitle": "FAIL TO ISOLATE AFTER FAILURE TO UNDERTAKE DAY 2/DAY 8 TEST ON ARRIVAL IN WALES",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -25124,6 +25616,12 @@
   {
     "cjsCode": "CT20071 ",
     "offenceTitle": "FAIL TO PROVIDE EVIDENCE OF TESTING PACKAGE AFTER ARRIVAL IN WALES",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CT20080 ",
+    "offenceTitle": "FAIL TO POSSESS TESTING PACKAGE ON ARRIVAL IN WALES - CORONAVIRUS",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -25806,6 +26304,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "CV60005 ",
+    "offenceTitle": "WILFULLY OBSTRUCT AUTHORISED OFFICER SEEKING ADMISSION TO CARAVAN SITE FOR SPECIFIED PURPOSE - ENGLAND",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "CV68001 ",
     "offenceTitle": "DURING SUBSISTENCE OF RESIDENTIAL CONTRACT DEPRIVE OCCUPIER OF RESIDENTIAL SITE",
     "recordableOnPnc": false,
@@ -25850,6 +26354,36 @@
   {
     "cjsCode": "CW07002 ",
     "offenceTitle": "KEEPER FAIL TO NOTIFY THE WELSH NATIONAL ASSEMBLY WITHIN 3 DAYS OF MOVEMENT OF CATTLE ON/OFF A HOLDING",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CW07004 ",
+    "offenceTitle": "NEW KEEPER OF CATTLE IN WALES FAILED TO UPDATE CATTLE PASSPORT DETAILS AS REQUIRED",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CW07005 ",
+    "offenceTitle": "FAIL TO MAKE RECORD OF THE MOVEMENT OF AN ANIMAL FROM ON OR OFF A HOLDING - WALES",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CW07006 ",
+    "offenceTitle": "FAILED TO REPLACE LOST OR ILLEGIBLE TAG WITHIN 28 DAYS ON AN ANIMAL BORN IN WALES BEFORE 1 JANUARY 1998",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CW07007 ",
+    "offenceTitle": "APPLIED AN EAR TAG TO AN ANIMAL FROM WALES THAT HAD BEEN USED BEFORE ON A DIFFERENT ANIMAL - WALES",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CW07008 ",
+    "offenceTitle": "APPLIED AN EAR TAG TO AN ANIMAL IN WALES WHERE THE EAR TAG NUMBER HAD BEEN USED ON A DIFFERENT ANIMAL",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -25957,6 +26491,18 @@
   },
   {
     "cjsCode": "CW20003 ",
+    "offenceTitle": "OBSTRUCT PERSON CARRYING OUT FUNCTION UNDER REGULATIONS REGARDING FACE COVERINGS IN ENGLAND",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CW20005 ",
+    "offenceTitle": "CONTRAVENE DIRECTION GIVEN TO WEAR FACE COVERING WITHIN OR LEAVE A RELEVANT PLACE IN ENGLAND",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CW20006 ",
     "offenceTitle": "OBSTRUCT PERSON CARRYING OUT FUNCTION UNDER REGULATIONS REGARDING FACE COVERINGS IN ENGLAND",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
@@ -26529,6 +27075,24 @@
     "cjsCode": "CY33051 ",
     "offenceTitle": "SELLING TOBACCO ETC TO A PERSON UNDER 18",
     "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CY33052 ",
+    "offenceTitle": "ASSAULT/ILL-TREAT/NEGLECT/ABANDON A CHILD/YOUNG PERSON TO CAUSE UNNECESSARY SUFFERING/INJURY",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CY33053 ",
+    "offenceTitle": "CAUSE ASSAULT/ILL TREATMENT/NEGLECT/ABANDONMENT OF CHILD/YOUNG PERSON TO CAUSE UNNECESSARY SUFFERING/INJURY",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "CY33054 ",
+    "offenceTitle": "ASSAULT/ILL-TREAT/NEGLECT/ABANDON A CHILD/YOUNG PERSON TO CAUSE UNNECESSARY SUFFERING/INJURY",
+    "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
@@ -27150,6 +27714,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "DE17010 ",
+    "offenceTitle": "ONWARDLY DISCLOSE PERSONAL INFORMATION DISCLOSED BY REVENUE & CUSTOMS UNDER S64(1) FOR PROCESSING",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "DE84001 ",
     "offenceTitle": "PERSON NOT REGISTERED AS DENTIST PRACTISING DENTISTRY",
     "recordableOnPnc": false,
@@ -27722,6 +28292,12 @@
   {
     "cjsCode": "DN98016 ",
     "offenceTitle": "FAIL ASSIST INSPECTION OF SCHENGEN/EURPOL/CUSTOMS INFORMATION SYSTEMS WHEN ASSISTANCE REASONABLY REQUIRED",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "DN98017 ",
+    "offenceTitle": "FAIL TO COMPLY WITH AN ENFORCEMENT NOTICE, INFORMATION NOTICE OR SPECIAL INFORMATION NOTICE",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -28374,6 +28950,18 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "DV04003 ",
+    "offenceTitle": "CAUSE/ALLOW THE DEATH OF A CHILD/VULNERABLE ADULT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "DV04004 ",
+    "offenceTitle": "CAUSE/ALLOW A CHILD/VULNERABLE PERSON TO SUFFER SERIOUS PHYSICAL HARM",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "DW76001 ",
     "offenceTitle": "KEEP DANGEROUS WILD ANIMAL WITHOUT LICENCE",
     "recordableOnPnc": false,
@@ -28668,6 +29256,24 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "EA10022 ",
+    "offenceTitle": "DRIVER OF TAXI/PRIVATE HIRE VEHICLE FAIL COMPLY WITH DUTY IN ASSISTING DISABLED PASSENGER TO FIND VEHICLE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EA10023 ",
+    "offenceTitle": "PVH OPERATOR FAIL/REFUSE TO ACCEPT BOOKING MADE BY/ON BEHALF OF/PERSON ACCOMPANYING DISABLED PASSENGER",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EA10024 ",
+    "offenceTitle": "PVH OPERATOR MAKE/PROPOSE TO MAKE ADDITIONAL CHARGE REGARDING DRIVERS DUTY TOWARDS DISABLED PASSENGER",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "EA20001 ",
     "offenceTitle": "EMPLOY CHILDREN UNDER AGE 14 ON VESSELS OTHER THAN THOSE UPON WHICH ONLY MEMBERS OF SAME FAMILY ARE EMPLOYED",
     "recordableOnPnc": false,
@@ -28887,6 +29493,24 @@
     "cjsCode": "EC09002 ",
     "offenceTitle": "FAIL TO KEEP RECORDS REQUIRED BY ART 22 OF COMMISSION REGULATION 589/2008",
     "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EC22001 ",
+    "offenceTitle": "FAIL TO COMPLY WITH INFORMATION RE REGISTERABLE BENEFICIAL OWNERS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EC22003 ",
+    "offenceTitle": "DELIVER FALSE DOCUMENT/MAKE FALSE STATEMENT TO COMPANIES REGISTRAR RE REGISTRATION OF OVERSEAS ENTITY",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EC22005 ",
+    "offenceTitle": "UNLAWFUL DISCLOSURE OF HMRC INFORMATION RE REGISTRATION",
+    "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
@@ -30006,6 +30630,30 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "EP23001 ",
+    "offenceTitle": "SUPPLY/OFFER TO SUPPLY SINGLE-USE PLASTIC PLATE, TRAY OR BOWL TO END USER IN COURSE OF BUSINESS",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EP23002 ",
+    "offenceTitle": "SUPPLY/OFFER TO SUPPLY SINGLE-USE PLASTIC BALLOON STICK/CUTLERY IN COURSE OF BUSINESS",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EP23003 ",
+    "offenceTitle": "SUPPLY/OFFER TO SUPPLY SINGLE-USE POLYSTYRENE FOOD/DRINK CONTAINER / SINGLE-USE CUP IN COURSE OF BUSINESS",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EP23004 ",
+    "offenceTitle": "FAIL TO COMPLY WITH STOP NOTICE - ENVIRONMENTAL PROTECTION (PLASTIC PLATES ETC)",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "EP75001 ",
     "offenceTitle": "OCCUPIER OF PREMISES WHERE GUNPOWDER MANUFACTURED/STORED FAIL TO PREVENT UNAUTHORISED ACCESS",
     "recordableOnPnc": false,
@@ -30834,6 +31482,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "EP90133 ",
+    "offenceTitle": "FAIL TO PROVIDE NAME OR ADDRESS OR GIVE A FALSE OR INACCURATE NAME OR ADDRESS",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "EP90136 ",
     "offenceTitle": "FAIL TO TAKE MEASURES WHEN MANAGING EXTRACTIVE WASTE TO PREVENT CONTRAVENTIONS AND THE ESCAPE OF WASTE",
     "recordableOnPnc": false,
@@ -30848,6 +31502,12 @@
   {
     "cjsCode": "EP90138 ",
     "offenceTitle": "FAIL TO COMP0LY WITH REQUIREMENTS REGARDING THE MAKING/RETENTION/FURNISHING OF DOCUMENTS",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EP90140 ",
+    "offenceTitle": "HANDLE/CONTROL/TRANSFER CONTROLLED WASTE WITHOUT TAKING REASONABLE MEASURES",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -31086,6 +31746,24 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "ES18003 ",
+    "offenceTitle": "ACQUIRE SPECIMEN OF SPECIES LISTED IN ANNEX A TO COUNCIL REGULATION (EC) NO 338/97 FOR COMMERCIAL PURPOSES",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "ES18004 ",
+    "offenceTitle": "USE SPECIMEN OF SPECIES LISTED IN ANNEX A TO COUNCIL REGULATIONS (EC) NO 338/97 FOR COMMERCIAL GAIN",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "ES18006 ",
+    "offenceTitle": "SELL SPECIMEN OF SPECIES LISTED IN ANNEX A TO COUNCIL REGULATION (EC) NO 338/97",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "ES18007 ",
     "offenceTitle": "KEEP SPECIMEN OF SPECIES LISTED IN ANNEX A TO COUNCIL REGULATION (EC) NO. 338/97 FOR SALE",
     "recordableOnPnc": true,
@@ -31154,6 +31832,12 @@
   {
     "cjsCode": "ES18032 ",
     "offenceTitle": "ACQUIRE SPECIMEN OF SPECIES LISTED IN ANNEX B TO COUNCIL REGULATION (EC) NO 338/97 FOR COMMERCIAL PURPOSES",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "ES18A01 ",
+    "offenceTitle": "ACQUIRE SPECIMEN OF SPECIES LISTED IN ANNEX A TO COUNCIL REGULATION (EC) NO 338/97 FOR COMMERCIAL PURPOSES",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -32088,6 +32772,168 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "EX14005 ",
+    "offenceTitle": "EXPLOSIVES MANUFACTURER/STORER FAIL TO TAKE MEASURES TO PREVENT/LIMIT/PROTECT PERSONS FROM FIRE OR EXPLOSION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14006 ",
+    "offenceTitle": "EXPLOSIVES MANUFACTURER OR STORER FAIL TO TAKE MEASURES TO LIMIT THE EXTENT OF FIRE OR EXPLOSION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14007 ",
+    "offenceTitle": "EXPLOSIVES MANUFACTURER OR STORER FAIL TO TAKE MEASURES TO PROTECT PERSONS FROM EFFECTS OF FIRE OR EXPLOSION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14008 ",
+    "offenceTitle": "EXPLOSIVES STORER FAIL TO ENSURE RELEVANT SEPARATION DISTANCE MAINTAINED",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14009 ",
+    "offenceTitle": "KEEP EXPLOSIVES WITHOUT/FAIL TO COMPLY WITH REQUIREMENTS EXPLOSIVES CERTIFICATE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14010 ",
+    "offenceTitle": "MANUFACTURE EXPLOSIVES WITHOUT LICENCE OR FAIL TO COMPLY WITH CONDITIONS OF LICENCE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14011 ",
+    "offenceTitle": "TRANSFER EXPLOSIVE W/OUT AUTHORITY DOCUMENT FROM RECIPIENT COMPETENT AUTHORITY GRANTING APPROVAL OF TRANSFER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14012 ",
+    "offenceTitle": "CONSIGN CIVIL EXPLOSIVES FOR CARRIAGE OUTSIDE GB WITHOUT APPROVAL FROM THE RELEVANT AUTHORITY",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14013 ",
+    "offenceTitle": "CONSIGN CIVIL EXPLOSIVES FOR CARRIAGE W/OUT BEING SATISFIED THAT CONSIGNEE HAS WRITTEN AUTHORITY APPROVAL",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14014 ",
+    "offenceTitle": "CARRY CIVIL EXPLOSIVES WITHOUT WRITTEN DOCUMENT FROM AUTHORITY GRANTING CARRIAGE OR CERTIFIED TRUE COPY",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14015 ",
+    "offenceTitle": "CONSIGNEE OF CIVIL EXPLOSIVES FAILED RETAIN AUTHORITY DOCUMENT/COPY FOR 3 YEARS FROM COMPLETION OF TRANSFER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14016 ",
+    "offenceTitle": "ACQUIRE MORE THAN 50KG OF FIREWORKS WITHOUT HOLDING A VALID LICENCE FOR THE STORAGE OF THOSE FIREWORKS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14017 ",
+    "offenceTitle": "SELL/TRANSFER MORE THAN 50KG OF FIREWORKS TO PERSON WHO FAILS TO PROVE THEY HAVE A VALID LICENCE FOR STORAGE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14018 ",
+    "offenceTitle": "EXPLOSIVES CERTIFICATE HOLDER FAILED TO INFORM POLICE OF ANY ADDRESS CHANGE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14019 ",
+    "offenceTitle": "FAIL TO SURRENDER EXPLOSIVES CERTIFICATE FOLLOWING NOTICE OF REVOCATION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14020 ",
+    "offenceTitle": "FAIL TO ENSURE EXPLOSIVES REMOVED FOLLOWING REVOCATION OF LICENCE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14021 ",
+    "offenceTitle": "FAIL TO ENSURE SUITABLE SITE ARRANGEMENTS FOR EXPLOSIVES FOLLOWING LICENCE REVOCATION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14022 ",
+    "offenceTitle": "FAIL TO RETURN EXPLOSIVES LICENCE FOLLOWING REVOCATION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14023 ",
+    "offenceTitle": "FAIL TO DISCARD OR DISPOSE OF EXPLOSIVES SAFELY",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14024 ",
+    "offenceTitle": "FAIL TO DECONTAMINATE EXPLOSIVE-CONTAMINATED ITEMS SAFELY",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14025 ",
+    "offenceTitle": "MANUFACTURE/STORE/KEEP PYROTECHNIC SUBSTANCE CONSISTING OF SULPHUR OR PHOSPHORUS MIXED WITH CHLORATES",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14026 ",
+    "offenceTitle": "MANUFACTURER/STORER/KEEPER OF EXPLOSIVES FAIL TO PREVENT ACCESS TO UNAUTHORISED PERSONS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14027 ",
+    "offenceTitle": "ENTER PREMISES OPERATING UNDER EXPLOSIVES LICENCE WITHOUT PERMISSION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14028 ",
+    "offenceTitle": "REFUSE TO LEAVE PREMISES OPERATING UNDER EXPLOSIVES LICENCE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14029 ",
+    "offenceTitle": "KNOWINGLY EMPLOY PROHIBITED PERSON TO HANDLE OR HAVE CONTROL OF RELEVANT EXPLOSIVE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14030 ",
+    "offenceTitle": "PROHIBITED PERSON ACQUIRE, HANDLE OR HAVE CONTROL OF RELEVANT EXPLOSIVE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14102 ",
+    "offenceTitle": "POSSESS/TRANSFER POSSESSION OF UNMARKED PLASTIC EXPLOSIVE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "EX14146 ",
     "offenceTitle": "CIVIL EXPLOSIVE MANUFACTURER FAIL TO HAVE CONFORMITY ASSESSMENT PROCEDURE CARRIED OUT",
     "recordableOnPnc": true,
@@ -32168,6 +33014,48 @@
   {
     "cjsCode": "EX14160 ",
     "offenceTitle": "ECONOMIC OPERATOR AFFIX MARKING TO CIVIL EXPLOSIVE IMPAIRING VISIBILITY OF UK MARKING",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14A01 ",
+    "offenceTitle": "EXPLOSIVES MANUFACTURER/STORER FAIL TO TAKE MEASURES TO PREVENT/LIMIT/PROTECT PERSONS FROM FIRE OR EXPLOSION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14A02 ",
+    "offenceTitle": "TRANSFER EXPLOSIVE W/OUT AUTHORITY DOCUMENT FROM RECIPIENT COMPETENT AUTHORITY GRANTING APPROVAL OF TRANSFER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14A03 ",
+    "offenceTitle": "ACQUIRE MORE THAN 50KG OF FIREWORKS WITHOUT HOLDING A VALID LICENCE FOR THE STORAGE OF THOSE FIREWORKS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14A04 ",
+    "offenceTitle": "FAIL TO ENSURE EXPLOSIVES REMOVED FOLLOWING REVOCATION OF LICENCE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14A05 ",
+    "offenceTitle": "FAIL TO DISCARD OR DISPOSE OF EXPLOSIVES SAFELY",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14A06 ",
+    "offenceTitle": "ENTER PREMISES OPERATING UNDER EXPLOSIVES LICENCE WITHOUT PERMISSION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "EX14A07 ",
+    "offenceTitle": "KNOWINGLY EMPLOY PROHIBITED PERSON TO HANDLE OR HAVE CONTROL OF RELEVANT EXPLOSIVE",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -33534,6 +34422,48 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "FE70001 ",
+    "offenceTitle": "ACCEPT MILITARY/NAVAL SERVICE WITH STATE AT WAR WITH FRIENDLY STATE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "FE70002 ",
+    "offenceTitle": "INDUCE ANOTHER TO ACCEPT MILITARY/NAVAL SERVICE WITH STATE AT WAR WITH FRIENDLY STATE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "FE70003 ",
+    "offenceTitle": "QUIT BRITAIN WITH A VIEW TO ACCEPT MILITARY/NAVAL SERVICE WITH STATE AT WAR WITH FRIENDLY STATE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "FE70004 ",
+    "offenceTitle": "INDUCE ANOTHER TO QUIT BRITAIN WITH A VIEW TO THEM ACCEPTING MILITARY/NAVAL SERVICE WITH STATE AT WAR",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "FE70005 ",
+    "offenceTitle": "INDUCE ANOTHER TO QUIT UK UNDER MISREPRESENTATION AS TO FOREIGN SERVICE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "FE70A01 ",
+    "offenceTitle": "ACCEPT MILITARY/NAVAL SERVICE WITH STATE AT WAR WITH FRIENDLY STATE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "FE70A02 ",
+    "offenceTitle": "QUIT BRITAIN WITH A VIEW TO ACCEPT MILITARY/NAVAL SERVICE WITH STATE AT WAR WITH FRIENDLY STATE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "FE85001 ",
     "offenceTitle": "CONTRAVENING AN EMERGENCY PROHIBITION ORDER OF THE FOOD AND ENVIRONMENT PROTECTION ACT",
     "recordableOnPnc": true,
@@ -34214,6 +35144,18 @@
   {
     "cjsCode": "FI12004 ",
     "offenceTitle": "CREATE FALSE/MISLEADING IMPRESSION AS TO PRICE/VALUE OF INVESTMENT/INTEREST RATE FOR TRANSACTION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "FI12005 ",
+    "offenceTitle": "MAKE FALSE/MISLEADING STATEMENT TO INDUCE PERSON TO ENTER AGREEMENT/EXERCISE RIGHTS CONFERRED BY INVESTMENT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "FI12A01 ",
+    "offenceTitle": "MAKE FALSE/MISLEADING STATEMENT TO INDUCE PERSON TO ENTER AGREEMENT/EXERCISE RIGHTS CONFERRED BY INVESTMENT",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -36378,6 +37320,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "FI68402 ",
+    "offenceTitle": "POSSESS PROHIBITED WEAPON - A ROCKET LAUNCHER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "FI68403 ",
     "offenceTitle": "PURCHASE OR ACQUIRE PROHIBITED WEAPON (ROCKET LAUNCHER)",
     "recordableOnPnc": true,
@@ -37160,6 +38108,18 @@
   {
     "cjsCode": "FN03005 ",
     "offenceTitle": "CONCERNED IN FRAUDULENT EVASION OF TAX BY SELF OR ANOTHER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "FN21001 ",
+    "offenceTitle": "KNOWINGLY CONCERNED IN FRAUDULENT EVASION OF PLASTIC PACKAGING TAX",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "FN21002 ",
+    "offenceTitle": "WITH INTENT TO DECEIVE, PRODUCE DOCUMENT WHICH IS FALSE IN A MATERIAL PARTICULAR - PLASTIC PACKAGING TAX",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -38406,6 +39366,18 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "FS90036 ",
+    "offenceTitle": "RENDERING FOOD INJURIOUS TO HEALTH",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "FS90037 ",
+    "offenceTitle": "CONTRAVENTION OF A FOOD SAFETY PROHIBITION ORDER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "FS90A01 ",
     "offenceTitle": "SELLING FOOD NOT COMPLYING WITH FOOD SAFETY REQUIREMENTS",
     "recordableOnPnc": true,
@@ -38448,6 +39420,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "FS90A08 ",
+    "offenceTitle": "RENDERING FOOD INJURIOUS TO HEALTH WITH INTENT THAT IT SHALL BE SOLD FOR HUMAN CONSUMPTION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "FS95001 ",
     "offenceTitle": "PROPRIETOR OF FOOD BUSINESS FAIL TO COMPLY WITH REQUIREMENT FOR FOOD PREMISES FOR PURPOSE OF THAT BUSINESS",
     "recordableOnPnc": true,
@@ -38462,6 +39440,24 @@
   {
     "cjsCode": "FS97001 ",
     "offenceTitle": "SUPPLY OF FIREWORKS OR FIREWORK ASSEMBLIES TO PERSON APPARENTLY UNDER 18",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "FS99001 ",
+    "offenceTitle": "INTENTIONALLY OBSTRUCT FOOD CRIME OFFICER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "FS99002 ",
+    "offenceTitle": "FAIL TO COMPLY WITH REQUIREMENT MADE BY FOOD OFFICER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "FS99003 ",
+    "offenceTitle": "PROVIDE FALSE/MISLEADING INFORMATION TO FOOD CRIME OFFICER",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -38622,6 +39618,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "FV17002 ",
+    "offenceTitle": "PROHIBITION ON PROCEEDING ON ANY VOYAGE WITHOUT A CERTIFICATE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "FV84001 ",
     "offenceTitle": "ACTING AS SKIPPER OF FISHING VESSEL WHEN NOT QUALIFIED",
     "recordableOnPnc": true,
@@ -38703,6 +39705,12 @@
     "cjsCode": "FW04007 ",
     "offenceTitle": "IMPORT FIREWORK HAVING FAILED TO PROVIDE INFORMATION REQUIRED TO CUSTOMS AND EXCISE",
     "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "FW14001 ",
+    "offenceTitle": "FAIL TO COMPLY WITH SPECIFIED FOOD INFORMATION REGULATIONS (WALES)",
+    "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
   {
@@ -39708,6 +40716,108 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "GA21001 ",
+    "offenceTitle": "DEAL WITH FUNDS/ECONOMIC RESOURCES OWNED/HELD/CONTROLLED BY DESIGNATED PERSON",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "GA21002 ",
+    "offenceTitle": "MADE FUNDS DIRECTLY/INDIRECTLY AVAILABLE TO DESIGNATED PERSON",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "GA21003 ",
+    "offenceTitle": "MADE FUNDS AVAILABLE FOR BENEFIT OF A DESIGNATED PERSON",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "GA21004 ",
+    "offenceTitle": "MADE ECONOMIC RESOURCES AVAILABLE TO DESIGNATED PERSON TO EXCHANGE FOR FUNDS/GOODS/SERVICES",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "GA21005 ",
+    "offenceTitle": "MADE ECONOMIC RESOURCES AVAILABLE FOR THE BENEFIT OF A DESIGNATED PERSON",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "GA21006 ",
+    "offenceTitle": "KNOWINGLY/RECKLESSLY PROVIDE FALSE INFORMATION IN A MATERIAL RESPECT TO OBTAIN TREASURY LICENCE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "GA21007 ",
+    "offenceTitle": "KNOWINGLY/RECKLESSLY PROVIDE/PRODUCE DOCUMENT TO OBTAIN TREASURY LICENCE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "GA21008 ",
+    "offenceTitle": "FAIL TO COMPLY WITH CONDITION OF TREASURY LICENCE WHEN PURPORT TO ACT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "GA21009 ",
+    "offenceTitle": "INTENTIONALLY PARTICIPATE IN ACTIVITY TO CIRCUMVENT PROHIBITIONS OF GLOBAL ANTI-CORRUPTION SANCTIONS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "GA21010 ",
+    "offenceTitle": "DISCLOSE CONFIDENTIAL INFORMATION REGARDING STATEMENT OF REASONS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "GA21011 ",
+    "offenceTitle": "RELEVANT FIRM FAIL TO PROVIDE INFORMATION IDENTIFYING DESIGNATED PERSON/PERSONS COMMITTING OFFENCES",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "GA21012 ",
+    "offenceTitle": "RELEVANT FIRM FAIL TO PROVIDE INFORMATION IDENTIFYING DESIGNATED PERSON/CUSTOMER OF FIRM",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "GA21013 ",
+    "offenceTitle": "REFUSE/FAIL TO COMPLY WITH REQUEST TO PROVIDE INFORMATION TO TREASURY",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "GA21014 ",
+    "offenceTitle": "GIVE FALSE INFORMATION/DOCUMENT IN RESPONSE TO TREASURY REQUEST FOR INFORMATION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "GA21015 ",
+    "offenceTitle": "DESTROY/MUTILATE/DEFACE/CONCEAL/REMOVE DOCUMENT REQUESTED BY TREASURY",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "GA21016 ",
+    "offenceTitle": "INTENTIONALLY OBSTRUCT THE TREASURY IN EXERCISE OF POWERS UNDER REGULATIONS 26/27",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "GA21017 ",
+    "offenceTitle": "DISCLOSE CONFIDENTIAL INFORMATION REGARDING DESIGNATION/VARIATION/REVOCATION OF STATEMENT OF REASONS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "GA45001 ",
     "offenceTitle": "CHEATING AT PLAY",
     "recordableOnPnc": false,
@@ -40314,6 +41424,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "GB68009 ",
+    "offenceTitle": "SOLD/EXCHANGED ETC SMALL ARM WHEN THE BARREL/EVERY BARREL THEREOF HAD NOT BEEN PROVED",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "GD75001 ",
     "offenceTitle": "USING GUARD DOG NOT UNDER CONTROL",
     "recordableOnPnc": false,
@@ -40676,6 +41792,12 @@
   {
     "cjsCode": "GM31060 ",
     "offenceTitle": "DAY TRESPASS BY 5 OR MORE ARMED AND OFFERING VIOLENCE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "GM31061 ",
+    "offenceTitle": "DAYTIME TRESPASS IN PURSUIT OF GAME - POACHING",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -41736,6 +42858,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "HA14012 ",
+    "offenceTitle": "DRIVER OF VEHICLE FAIL TO STOP/PROVIDE OWN/OWNER DETAILS AFTER AN INJURY/DAMAGE ACCIDENT ON HEATHROW AIRPORT",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "HA14105 ",
     "offenceTitle": "FAIL TO PRODUCE INSURANCE/PERMIT TO DRIVE VEHICLE WITHIN RESTRICTED AREA OF HEATHROW AIRPORT",
     "recordableOnPnc": false,
@@ -42684,6 +43812,204 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "HI21083 ",
+    "offenceTitle": "PRIVATE PROVIDER OF DAY 2 TEST FAIL TO COMPLY WITH PROVIDER REQUIREMENTS - ENGLAND",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21084 ",
+    "offenceTitle": "PRIVATE PROVIDER OF DAY 8 TEST FAIL TO COMPLY WITH PROVIDER REQUIREMENTS - ENGLAND",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21085 ",
+    "offenceTitle": "PRIVATE PROVIDER OF DAY 2/8 TESTS FAIL TO COMPLY WITH TEST REFERENCE AND NOTIFICATION REQUIREMENTS",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21086 ",
+    "offenceTitle": "PROVIDER OF OPTIONAL TEST FAIL TO COMPLY WITH PROVIDER REQUIREMENTS - ENGLAND",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21087 ",
+    "offenceTitle": "PROVIDER OF OPTIONAL TEST FAIL TO COMPLY WITH TEST REFERENCE AND NOTIFICATION REQUIREMENTS - ENGLAND",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21088 ",
+    "offenceTitle": "PERSON CARRYING OUT ELEMENT OF SINGLE END-TO-END TESTING FOR 2 DAY TEST, FAIL COMPLY WITH TEST REQUIREMENTS",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21089 ",
+    "offenceTitle": "PERSON CARRYING OUT ELEMENT OF SINGLE END-TO-END TESTING FOR DAY 8 TEST, FAIL COMPLY WITH TEST REQUIREMENTS",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21090 ",
+    "offenceTitle": "CARRY OUT ELEMENT OF SINGLE END-TO-END TESTING FOR OPTIONAL TEST, FAIL TO COMPLY WITH TESTING REQUIREMENTS",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21091 ",
+    "offenceTitle": "WILFULLY OBSTRUCT A PERSON CARRYING OUT FUNCTIONS UNDER REG 18A/B - TRAVEL AND OP LIABILITY REGS",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21092 ",
+    "offenceTitle": "FAIL TO PROVIDE INFORMATION REGARDING PERSONS RESIDING AT SELF ISOLATION ACCOMMODATION - CATEGORY 3",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21093 ",
+    "offenceTitle": "FAIL TO SELF ISOLATE FOLLOWING NOTIFICATION FROM SECRETARY OF STATE - CATEGORY 3",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21094 ",
+    "offenceTitle": "FAIL TO ENSURE CHILD SELF ISOLATES WITH P IN DESIGNATED ACCOMMODATION - CATEGORY 3",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21095 ",
+    "offenceTitle": "EMPLOYER KNOWINGLY ALLOW EMPLOYEE TO ATTEND ANY PLACE WHEN SELF ISOLATING - CATEGORY 3",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21096 ",
+    "offenceTitle": "FAIL TO ENSURE PROVIDE INFORMATION REGARDING CHILD TO SECRETARY OF STATE - CATEGORY 3",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21097 ",
+    "offenceTitle": "FAIL ENSURE CHILD POSSESSES BOOKING FOR RESPONSIBLE ADULT FOR SELF ISOLATION UNDER MANAGED PACKAGE - CAT 3",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21098 ",
+    "offenceTitle": "OPERATOR FAIL TO ENSURE PASSENGER POSSESSES EVIDENCE OF VACCINATION ELIGIBILITY CRITERIA - CHANNEL TUNNEL",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21099 ",
+    "offenceTitle": "OPERATOR FAIL TO ENSURE PASSENGER POSSESSES EVIDENCE OF VACCINATION ELIGIBILITY CRITERIA - ENGLISH PORT",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21100 ",
+    "offenceTitle": "PRIVATE PROVIDER OF DAY 2/8 TESTS, FAIL COMPLY WITH TEST REFERENCE & NOTIFICATION REQUIREMENTS - ENGLAND",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21101 ",
+    "offenceTitle": "PERSON CARRYING OUT ELEMENT OF SINGLE END-TO-END TESTING FOR DAY 2 TEST, FAIL COMPLY WITH TEST REQUIREMENTS",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21102 ",
+    "offenceTitle": "CARRY OUT ELEMENT OF SINGLE END-TO-END TESTING FOR DAY 8 TEST, FAIL COMPLY WITH TESTING REQUIREMENTS",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21103 ",
+    "offenceTitle": "ELIGIBLE TRAVELLER FAIL TO POSSESS BOOKING FOR DAY 2 TEST",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21104 ",
+    "offenceTitle": "ELIGIBLE TRAVELLER FAIL TO MAKE BOOKING FOR DAY 2 TEST ON ARRIVAL IN ENGLAND",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21105 ",
+    "offenceTitle": "FAIL TO MAKE BOOKING FOR DAY 2 TEST FOR ELIGIBLE UNACCOMPANIED CHILD ON ARRIVAL IN ENGLAND",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21106 ",
+    "offenceTitle": "ELIGIBLE TRAVELLER FAIL PROVIDE EVIDENCE OF BOOKING FOR DAY 2 TEST - IMMIGRATION OFFICER/CONSTABLE REQUEST",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21107 ",
+    "offenceTitle": "ELIGIBLE TRAVELLER FAIL TO UNDERTAKE DAY 2 TEST",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21108 ",
+    "offenceTitle": "FAIL TO ENSURE ELIGIBLE CHILD UNDERTOOK DAY 2 TEST",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21109 ",
+    "offenceTitle": "ELIGIBLE TRAVELLER FAIL TO UNDERTAKE DAY 2 TEST AFTER REASONABLE EXCUSE NO LONGER PERTAINS",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21110 ",
+    "offenceTitle": "ELIGIBLE TRAVELLER FAIL TO POSSESS BOOKING FOR DAY 2 TEST FOR CHILD",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21111 ",
+    "offenceTitle": "ELIGIBLE TRAVELLER FAIL TO MAKE BOOKING FOR DAY 2 TEST FOR CHILD ON ARRIVAL IN ENGLAND",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21112 ",
+    "offenceTitle": "PRIVATE PROVIDER DAY 2 LATERAL FLOW TEST FAIL COMPLY WITH TEST REFERENCE & NOTIFICATION REQS - ENGLAND",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21113 ",
+    "offenceTitle": "PERSON CARRY OUT ELEMENT OF END-TO-END TESTING FOR DAY 2 LATERAL FLOW TEST, FAIL COMPLY WITH TESTING REQS",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21114 ",
+    "offenceTitle": "ELIGIBLE TRAVELLER FAIL TO UNDERTAKE CONFIRMATORY TEST AFTER POSITIVE LATERAL FLOW TEST",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HI21115 ",
+    "offenceTitle": "FAIL TO ENSURE ELIGIBLE CHILD TRAVELLER UNDERTOOK CONFIRMATORY TEST AFTER POSITIVE LATERAL FLOW",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "HI71001 ",
     "offenceTitle": "HIJACKING",
     "recordableOnPnc": true,
@@ -43297,13 +44623,127 @@
   },
   {
     "cjsCode": "HO04017 ",
-    "offenceTitle": "OBSTRUCT RELEVANT PERSON IN PERFORMANCE OF ANYTHING REQUIRED BY PARTS 1 TO 4 OF THE ACT",
+    "offenceTitle": "OBSTRUCT A RELEVANT PERSON IN PERFORMANCE OF ANYTHING REQUIRED BY PARTS 1 TO 4 AND 7 OF THE HOUSING ACT",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "HO04018 ",
     "offenceTitle": "FAIL TO COMPLY WITH COURT ORDER TO ALLOW ENTRY TO CARRY OUT WORK",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HO14001 ",
+    "offenceTitle": "LANDLORD OF DWELLING SUBJECT TO/MARKETED/OFFERED FOR LET UNDER DOMESTIC TENANCY FAIL TO BE REGISTERED",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HO14002 ",
+    "offenceTitle": "LANDLORD OF DWELLING MARKETED/OFFERED FOR LET UNDER DOMESTIC TENANCY CARRY OUT LETTING ACTIVITY W/O LICENCE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HO14003 ",
+    "offenceTitle": "LANDLORD OF DWELLING SUBJECT TO DOMESTIC TENANCY CARRY OUT PROPERTY MANAGEMENT ACTIVITY WITHOUT LICENCE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HO14004 ",
+    "offenceTitle": "LANDLORD OF DWELLING NO LONGER SUBJECT TO DOMESTIC TENANCY CHECK CONTENTS/CONDITIONS OF DWELLING W/O LICENCE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HO14005 ",
+    "offenceTitle": "AGENT CARRY OUT LETTINGS WORK WITHOUT LICENCE RE DWELLING MARKETED/OFFERED FOR LET UNDER DOMESTIC TENANCY",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HO14006 ",
+    "offenceTitle": "AGENT CARRY OUT PROPERTY MANAGEMENT WORK RE DWELLING SUBJECT TO DOMESTIC TENANCY WITHOUT LICENCE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HO14007 ",
+    "offenceTitle": "AGENT CHECK CONTENTS/CONDITION OF DWELLING NO LONGER SUBJECT TO DOMESTIC TENANCY WITHOUT LICENCE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HO14008 ",
+    "offenceTitle": "LANDLORD OF DWELLING OFFERED FOR LET ALLOWING UNLICENSED AGENT TO UNDERTAKE LETTING WORK",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HO14009 ",
+    "offenceTitle": "LANDLORD OF DWELLING SUBJECT TO DOMESTIC TENANCY APPOINTED UNLICENSED AGENT TO UNDERTAKE PROPERTY WORK",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HO14010 ",
+    "offenceTitle": "REGISTERED LANDLORD FAIL TO NOTIFY LICENSING AUTHORITY OF CHANGES",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HO14011 ",
+    "offenceTitle": "HOUSING WALES ACT LICENCE HOLDER FAIL TO NOTIFY LICENSING AUTHORITY OF CHANGES",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HO14012 ",
+    "offenceTitle": "FAIL TO COMPLY WITH NOTICE UNDER SECTION 37",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HO14013 ",
+    "offenceTitle": "SUPPLY FALSE OR MISLEADING INFORMATION UNDER PART 1 HOUSING (WALES) ACT",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HO14014 ",
+    "offenceTitle": "SUPPLY FALSE OR MISLEADING INFORMATION KNOWING IT WOULD BE USED FOR PURPOSE OF PART 1 HOUSING (WALES) ACT",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HO14015 ",
+    "offenceTitle": "ALTER, SUPPRESS OR DESTROY DOCUMENT REQUIRED UNDER SECTION 37",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HO14016 ",
+    "offenceTitle": "MAKE FALSE STATEMENT TO INCLUDE LOCAL HOUSING AUTHORITY TO BELIEVE ENTITLEMENT TO ACCOMMODATION",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HO14017 ",
+    "offenceTitle": "WITHHOLD INFORMATION TO INCLUDE LOCAL HOUSING AUTHORITY TO BELIEVE ENTITLEMENT TO ACCOMMODATION",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HO14018 ",
+    "offenceTitle": "FAIL TO DISCLOSE CHANGE OF CIRCUMSTANCES MATERIAL TO APPLICATION FOR ENTITLEMENT TO ACCOMMODATION",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HO16002 ",
+    "offenceTitle": "BREACH OF BANNING ORDER",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -43574,6 +45014,18 @@
   {
     "cjsCode": "HO85046 ",
     "offenceTitle": "LANDLORD PERMITTING OVERCROWDING",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HO85047 ",
+    "offenceTitle": "FAIL TO PROVIDE FACILITIES TO INSPECT SERVICE CHARGE INFORMATION TO FREEHOLD HOUSE PURCHASER",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HO85048 ",
+    "offenceTitle": "FAIL TO FORWARD SERVICE CHARGE INFORMATION REQUEST",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -44022,6 +45474,48 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "HP23001 ",
+    "offenceTitle": "ADULT FAIL TO POSSESS VALID NOTIFICATION OF A NEGATIVE TEST RESULT ON ARRIVAL IN ENGLAND",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HP23002 ",
+    "offenceTitle": "RESPONSIBLE ADULT FAIL TO POSSESS NOTIFICATION OF NEGATIVE TEST RESULT FOR ACCOMPANIED CHILE ON ARRIVAL",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HP23003 ",
+    "offenceTitle": "UNACCOMPANIED CHILD FAIL TO POSSESS VALID NOTIFICATION OF NEGATIVE TEST RESULT ON ARRIVAL",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HP23004 ",
+    "offenceTitle": "FAIL PRODUCE VALID NOTIFICATION OF NEGATIVE TEST RESULT FROM PRE-DEPARTURE TEST UPON REQUEST OF IM.OFFICER",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HP23005 ",
+    "offenceTitle": "OPERATOR FAIL TO ENSURE RELEVANT ARRIVAL POSSESSED VALID NOTIFICATION OF A NEGATIVE TEST RESULT ON ARRIVAL",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HP23006 ",
+    "offenceTitle": "OPERATOR FAIL TO RETAIN RECORDS TO EVIDENCE COMPLIANCE WITH REGULATION 6(1)",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HP23007 ",
+    "offenceTitle": "OPERATOR FAIL TO PRODUCE RECORDS TO CAA WITHIN SPECIFIED PERIOD",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "HP25001 ",
     "offenceTitle": "ACCEPT/OBTAIN FOR SELF/ANOTHER GIFT/MONEY AS INDUCEMENT/REWARD TO PROCURE/ ASSIST IN GRANT OF TITLE/HONOUR",
     "recordableOnPnc": true,
@@ -44346,6 +45840,24 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "HS14001 ",
+    "offenceTitle": "REGISTERED PERSON FAIL TO PROVIDE CARE/TREATMENT IN SAFE WAY RESULTING IN HARM OR LOSS",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HS14002 ",
+    "offenceTitle": "REGISTERED PERSON FAIL DISPLAY CARE QUALITY COMMISSION PERFORMANCE RATING ON PREMISES PROVIDING REG ACTIVITY",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HS14003 ",
+    "offenceTitle": "REGISTERED PERSON PROVIDE CARE/TREATMENT TO SERVICE USER WITHOUT CONSENT",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "HS21001 ",
     "offenceTitle": "PARTICIPATE IN INDOOR GATHERING OF TWO OR MORE PERSONS IN THE STEP 1 AREA",
     "recordableOnPnc": false,
@@ -44475,6 +45987,54 @@
     "cjsCode": "HS21042 ",
     "offenceTitle": "HOLD/INVOLVED IN HOLDING RELEVANT GATHERING OF MORE THAN 50 PERSONS ON SPECIFIC PUBLIC LAND IN STEP 3 AREA",
     "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HS22001 ",
+    "offenceTitle": "CARRY OUT VIRGINITY TEST",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HS22002 ",
+    "offenceTitle": "PERSON IN ENGLAND AND WALES OFFER TO CARRY OUT VIRGINITY TESTING",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HS22003 ",
+    "offenceTitle": "PERSON OUTSIDE ENGLAND AND WALES OFFER TO CARRY OUT VIRGINITY TESTING",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HS22004 ",
+    "offenceTitle": "AID OR ABET THE CARRYING OUT OF A VIRGINITY TEST",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HS22005 ",
+    "offenceTitle": "CARRY OUT HYMENOPLASTY",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HS22006 ",
+    "offenceTitle": "PERSON WITHIN ENGLAND AND WALES OFFER TO CARRY OUT HYMENOPLASTY",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HS22007 ",
+    "offenceTitle": "PERSON OUTSIDE ENGLAND AND WALES OFFER TO CARRY OUT HYMENOPLASTY",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HS22008 ",
+    "offenceTitle": "AID AND ABET THE CARRYING OUT OF HYMENOPLASTY",
+    "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
@@ -44696,6 +46256,12 @@
   {
     "cjsCode": "HS74041 ",
     "offenceTitle": "EMPLOYER/SELF EMPLOYED PERSON FAIL TO GIVE INFORMATION TO NON-EMPLOYEES REGARDING HEALTH AND SAFETY",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HS74042 ",
+    "offenceTitle": "DESIGNER/MANUFACTURER/IMPORTER/SUPPLIER FAIL TO DISCHARGE DUTY TO CARRY OUT TESTING ENSURING ARTICLE SAFE",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -45044,6 +46610,30 @@
   {
     "cjsCode": "HV19010 ",
     "offenceTitle": "DRIVE HCV ON M20 WITHOUT PERMISSION/DIRECTION WHEN CARRIAGEWAY IN USE BY OTHER TRAFFIC",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HV19014 ",
+    "offenceTitle": "DRIVE HCV ON RELEVANT CLASS OF ROAD IN KENT DURING TRAFFIC RESTRICTION PERIOD",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HV19015 ",
+    "offenceTitle": "DRIVE HCV DURING TRAFFIC RESTRICTION PERIOD OTHERWISE THAN IN THE NEARSIDE LANE OF M2/M20 MOTORWAY",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HV19016 ",
+    "offenceTitle": "DRIVE HCV ON M2 MOTORWAY DURING TRAFFIC RESTRICTION PERIOD",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HV19017 ",
+    "offenceTitle": "DRIVE HCV ON M20 MOTORWAY WITHOUT PERMISSION/DIRECTION",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -45726,6 +47316,18 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "HY80126 ",
+    "offenceTitle": "WILFUL OBSTRUCTION OF A HIGHWAY",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HY80127 ",
+    "offenceTitle": "WILFULLY OBSTRUCT A HIGHWAY WITH A NON MOTOR VEHICLE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "HY80A01 ",
     "offenceTitle": "DISCHARGING FIREARM WITHIN 50 FEET OF THE HIGHWAY",
     "recordableOnPnc": false,
@@ -45734,6 +47336,12 @@
   {
     "cjsCode": "HY80A02 ",
     "offenceTitle": "LIGHTING FIRE ON CARRIAGEWAY",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "HY80A03 ",
+    "offenceTitle": "WILFULLY OBSTRUCTING FREE PASSAGE ALONG HIGHWAY (MOTOR VEHICLE)",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -47244,6 +48852,84 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "IM71132 ",
+    "offenceTitle": "KNOWINGLY ENTER THE UK IN BREACH OF A DEPORTATION ORDER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "IM71133 ",
+    "offenceTitle": "KNOWINGLY ENTER THE UK WITHOUT LEAVE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "IM71134 ",
+    "offenceTitle": "ENTER/REMAIN IN UK BEYOND LEAVE TIME LIMIT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "IM71135 ",
+    "offenceTitle": "ARRIVE IN UK WITHOUT VALID ENTRY CLEARANCE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "IM71136 ",
+    "offenceTitle": "ARRIVE IN UK WITHOUT A VALID ETA",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "IM71137 ",
+    "offenceTitle": "FAIL TO COMPLY WITH DIRECTION TO MOVE CONTAINER FOR SEARCH - IMMIGRATION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "IM71138 ",
+    "offenceTitle": "OBSTRUCT RELEVANT OFFICER PERFORMING MARITIME ENFORCEMENT FUNCTIONS - IMMIGRATION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "IM71139 ",
+    "offenceTitle": "FAIL TO COMPLY WITH REQUIREMENTS OF RELEVANT OFFICER PERFORMING MARITIME ENFORCEMENT FUNCTIONS - IMMIGRATION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "IM71140 ",
+    "offenceTitle": "PROVIDE FALSE INFORMATION TO RELEVANT OFFICER PERFORMING MARITIME ENFORCEMENT FUNCTIONS - IMMIGRATION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "IM71141 ",
+    "offenceTitle": "FAIL TO DISCLOSE A MATERIAL PARTICULAR TO OFFICER UNDER PART A1 OF SCHEDULE 4A TO IMMIGRATION ACT 1971",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "IM71142 ",
+    "offenceTitle": "DO AN ACT TO FACILITATE THE COMMISSION OF A BREACH OF UK IMMIGRATION LAW BY A NON UK NATIONAL",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "IM71143 ",
+    "offenceTitle": "HELP ASYLUM SEEKER TO ENTER UNITED KINGDOM - IMMIGRATION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "IM71144 ",
+    "offenceTitle": "SEEK/OBTAIN LEAVE TO ENTER/REMAIN/ETAL IN UK BY DECEPTIVE MEANS - IMMIGRATION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "IM71A01 ",
     "offenceTitle": "ILLEGAL ENTRY TO UNITED KINGDOM",
     "recordableOnPnc": true,
@@ -47406,6 +49092,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "IP16002 ",
+    "offenceTitle": "UNLAWFULLY OBTAIN COMMUNICATIONS DATA - PART 1",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "IP16003 ",
     "offenceTitle": "MAKE UNAUTHORISED DISCLOSURE - INTERCEPTION WARRANT - PART 2 INVESTIGATORY POWERS ACT 2016 OR PART 1 RIPA",
     "recordableOnPnc": true,
@@ -47426,6 +49118,12 @@
   {
     "cjsCode": "IP78001 ",
     "offenceTitle": "OFFENCE COMMITTED OUTSIDE UNITED KINGDOM AGAINST PROTECTED PERSON (SPECIFY OFFENCE)",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "IQ05001 ",
+    "offenceTitle": "FAIL WITHOUT REASONABLE EXCUSE TO DO SOMETHING REQUIRED BY A SECTION 21 NOTICE",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -48852,6 +50550,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "IS86332 ",
+    "offenceTitle": "MAKE FALSE REPRESENTATION/FRAUDULENTLY DO/OMIT TO DO THING FOR PURPOSES OF OBTAINING APPROVAL OF CREDITORS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "IS86A01 ",
     "offenceTitle": "BANKRUPT CONCEALING PROPERTY",
     "recordableOnPnc": true,
@@ -49038,6 +50742,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "IS86A32 ",
+    "offenceTitle": "MAKE FALSE REPRESENTATION/FRAUDULENTLY DO/OMIT TO DO A THING FOR PURPOSE OF OBTAINING APPROVAL OF CREDITORS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "IT82001 ",
     "offenceTitle": "KNOWINGLY OR RECKLESSLY FURNISHING RETURN ETC WHICH IS FALSE",
     "recordableOnPnc": false,
@@ -49065,6 +50775,12 @@
     "cjsCode": "IT85002 ",
     "offenceTitle": "INTERCEPTING COMMUNICATION IN COURSE OF TRANSMISSION BY PUBLIC TELECOMMUNICATION SYSTEM",
     "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "IW10001 ",
+    "offenceTitle": "OWNER/MASTER KEEP/LET/USE AN UNREGISTERED VESSEL ON A WATERWAY",
+    "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
   {
@@ -49220,6 +50936,12 @@
   {
     "cjsCode": "JY74014 ",
     "offenceTitle": "INTENTIONALLY DISCLOSE JURY DELIBERATIONS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "JY74015 ",
+    "offenceTitle": "INTERPRETER INTERFERE IN/INFLUENCE THE DELIBERATIONS OF THE JURY",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -51300,8 +53022,26 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "LH31005 ",
+    "offenceTitle": "PROPRIETOR OF DRIVER OF LONDON HACKNEY ASSAULT/OBSTRUCT A POLICE CONSTABLE/WATCHMAN/PATROL",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "LH43001 ",
     "offenceTitle": "DRIVER OR CONDUCTOR OF HACKNEY/STAGE CARRIAGE IN METROPOLITAN POLICE DISTRICT BEING DRUNK DURING EMPLOYMENT",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "LJ22001 ",
+    "offenceTitle": "PLACE AIRCRAFT OTHER THAN IN PLACE AND POSITION DESIGNATED - LIVERPOOL AIRPORT",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "LJ22002 ",
+    "offenceTitle": "FAIL TO SECURE STATIONARY AIRCRAFT NOT IN A HANGAR - LIVERPOOL AIRPORT",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -52857,6 +54597,18 @@
     "cjsCode": "MC15007 ",
     "offenceTitle": "OBSTRUCT AUTHORISED PERSON UNDER MICROCHIPPING OF DOGS (ENGLAND) REGULATIONS 2015",
     "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MC18001 ",
+    "offenceTitle": "ECONOMIC OPERATOR FAIL TO GIVE ASSISTANCE/INFORMATION TO OFFICER EXERCISING FUNCTIONS UNDER REGS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MC18002 ",
+    "offenceTitle": "ECONOMIC OPERATOR FAIL TO COMPLY WITH MOTORCYCLE REGULATIONS",
+    "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
@@ -56916,6 +58668,48 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "MD71609 ",
+    "offenceTitle": "POSSESS NITROUS OXIDE FOR WRONGFUL INHALATION - CLASS C DRUG",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MD71610 ",
+    "offenceTitle": "POSSESS WITH INTENT TO SUPPLY NITROUS OXIDE FOR WRONGFUL INHALATION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MD71612 ",
+    "offenceTitle": "SUPPLY NITROUS OXIDE FOR WRONGFUL INHALATION - CLASS C DRUG",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MD71613 ",
+    "offenceTitle": "CONCERNED IN PRODUCTION OF NITROUS OXIDE FOR WRONGFUL INHALATION - CLASS C DRUG",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MD71614 ",
+    "offenceTitle": "OFFER TO SUPPLY NITROUS OXIDE FOR WRONGFUL INHALATION - CLASS C DRUG",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MD71615 ",
+    "offenceTitle": "CONCERNED IN SUPPLY OF NITROUS OXIDE FOR WRONGFUL INHALATION - CLASS C DRUG",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MD71616 ",
+    "offenceTitle": "CONCERNED IN OFFER TO SUPPLY NITROUS OXIDE FOR WRONGFUL INHALATION - CLASS C DRUG",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "MD71A01 ",
     "offenceTitle": "PRODUCING CONTROLLED DRUG",
     "recordableOnPnc": true,
@@ -57072,6 +58866,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "MD71A28 ",
+    "offenceTitle": "SUPPLY NITROUS OXIDE FOR WRONGFUL INHALATION - CLASS C DRUG",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "MD73001 ",
     "offenceTitle": "FAILURE TO KEEP PROPER RECORDS",
     "recordableOnPnc": true,
@@ -57116,6 +58916,12 @@
   {
     "cjsCode": "MD96002 ",
     "offenceTitle": "FAIL TO WASH/PREWASH TANKS AND DEAL WITH WASH AS PRESCRIBED",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MD99001 ",
+    "offenceTitle": "FAIL TO RETURN ORIGINAL DRIVING LICENCE ON ISSUE OF DUPLICATE",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -57488,6 +59294,48 @@
   {
     "cjsCode": "MG49019 ",
     "offenceTitle": "SOLEMNIZE MARRIAGE UNDER SUPT REGISTRARS CERTIFICATE ON APPROVED PREMISES IN ABSENCE OF DISTRICT REGISTRAR",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MG49020 ",
+    "offenceTitle": "FAILING TO ATTEND PREMISES IN COMPLIANCE WITH A NOTICE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MG49021 ",
+    "offenceTitle": "SOLEMNISING MARRIAGE WITHIN 21 DAYS OF ENTRY OF NOTICE OF MARRIAGE IN NOTICE BOOK",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MG49022 ",
+    "offenceTitle": "SOLEMNIZE A MARRIAGE AFTER THE EXPIRATION OF THE APPLICABLE PERIOD",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MG49023 ",
+    "offenceTitle": "SUPERINTENDENT REGISTRAR ISSUE CERT FOR MARRIAGE BEFORE 28 DAYS AFTER MARRIAGE ENTERED IN NOTICE BOOK",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MG49024 ",
+    "offenceTitle": "SUPERINTENDENT REGISTRAR ISSUE MARRIAGE SCHEDULE AFTER THE EXPIRATION OF THE APPLICABLE PERIOD",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MG49025 ",
+    "offenceTitle": "SUPERINTENDENT REGISTRAR ISSUE A FORBIDDEN MARRIAGE SCHEDULE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MG49026 ",
+    "offenceTitle": "SOLEMNISING MARRIAGE IN UNREGISTERED BUILDING",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -59130,9 +60978,87 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "MS20021 ",
+    "offenceTitle": "MASTER/PERSON DIRECTED TO UNDERTAKE TASKS FAIL TO COMPLY WITH REGS ON OPERATION OF SHIPS STEERING GEAR",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MS20022 ",
+    "offenceTitle": "MASTER/PERSON DIRECTED TO UNDERTAKE TASKS FAIL COMPLY REG 26 RELATING TEST & DRILLS FOR SHIP STEERING GEAR",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MS20023 ",
+    "offenceTitle": "OWNER/MASTER OR SHIP FAIL TO ENSURE COMPLIANCE WITH REG 22 CHAPTER V SAFETY OF LIFE AT SEA",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MS20024 ",
+    "offenceTitle": "OWNER/MASTER OF SHIP FAIL TO ENSURE COMPLIANCE WITH REG 26 CHAPTER V SAFETY OF LIFE AT SEA",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MS20025 ",
+    "offenceTitle": "OWNER/MASTER OF SHIP FAIL TO ENSURE COMPLIANCE WITH REG 27 CHAPTER V SAFETY OF LIFE AT SEA",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MS20026 ",
+    "offenceTitle": "OWNER/MASTER OF SHIP FAIL TO ENSURE COMPLIANCE WITH REG 29 CHAPTER V SAFETY OF LIFE AT SEA",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MS20A01 ",
+    "offenceTitle": "MASTER/PERSON DIRECTED TO UNDERTAKE TASKS FAIL TO COMPLY WITH REGS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MS20A02 ",
+    "offenceTitle": "OWNER/MASTER OF SHIP FAIL TO ENSURE COMPLIANCE WITH REGULATIONS CHAPTER V SAFETY OF LIFE AT SEA",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "MS21001 ",
     "offenceTitle": "USING ETC IN NAVIGATION AN UNSAFE LIGHTER, BARGE OR LIKE VESSEL, LIKELY TO ENDANGER HUMAN LIFE",
     "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MS23001 ",
+    "offenceTitle": "OWNER/MASTER OF SHIP FAIL TO COMPLY WITH REQUIREMENT APPLICABLE TO SHIP",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MS23002 ",
+    "offenceTitle": "MASTER OF SHIP FAIL TO COMPLY WITH REQUIREMENT IN PARAGRAPH 6 OF REGULATIONS 5-1 OF CHAPTER II-1",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MS23003 ",
+    "offenceTitle": "MASTER OF SHIP FAIL TO COMPLY WITH REQUIREMENT IN PARAGRAPH 1 OF REGULATION 10.1 OF CHAPTER II-1",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MS23004 ",
+    "offenceTitle": "MASTER OF SHIP FAIL TO COMPLY WITH REQUIREMENT IN PARAGRAPH 1 OF REGULATION 10.1 OF CHAPTER 11-1",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MS23005 ",
+    "offenceTitle": "MASTER OF SHIP FAIL TO COMPLY WITH REQUIREMENT IN PARAGRAPH 4, 5 OR 9 OF REG 23 OF CHAPTER II-1",
+    "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
@@ -59880,6 +61806,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "MS95068 ",
+    "offenceTitle": "REMAIN ON BOARD SHIP AFTER BEING REQUESTED TO LEAVE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "MS95072 ",
     "offenceTitle": "OWNER OF FISHING VESSEL NOT REGISTERED IN UK DISPLAY DETAILS CAUSING VESSEL TO HAVE BEEN REGISTERED IN UK",
     "recordableOnPnc": true,
@@ -59991,6 +61923,12 @@
     "cjsCode": "MT02A01 ",
     "offenceTitle": "CHANGE/INTERFERE UNIQUE DEVICE IDENTIFIER",
     "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "MT03015 ",
+    "offenceTitle": "FAIL TO CAUSE A VEHICLE TO REMAIN AT THE PRESCRIBED DISTANCE FROM ANY OTHER VEHICLE WITHIN A MERSEY TUNNEL",
+    "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
   {
@@ -60288,6 +62226,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "MV11001 ",
+    "offenceTitle": "REMOVE/INTERFERE WITH A VEHICLE IMMOBILISATION NOTICE WITHOUT AUTHORITY",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "MV94001 ",
     "offenceTitle": "SUPPLY PART-WORN TYRE OR RETREADED TYRE WHICH HAS NOT BEEN PROPERLY REPAIRED",
     "recordableOnPnc": true,
@@ -60398,6 +62342,24 @@
   {
     "cjsCode": "ND95002 ",
     "offenceTitle": "NEW DRIVER FAIL DELIVER TEST CERT AFTER RECEIVING FPT NOTICE/CONDITIONAL OFFER INVOLVING ENDORSEMENT",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "ND95003 ",
+    "offenceTitle": "FAIL TO SURRENDER DRIVING LICENCE AFTER NOTICE OF REVOCATION",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "ND95004 ",
+    "offenceTitle": "FAIL TO SURRENDER CERTIFICATE AFTER NOTICE OF REVOCATION",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "ND95005 ",
+    "offenceTitle": "FAIL TO SURRENDER DRIVING LICENCE/CERTIFICATE AFTER NOTICE OF REVOCATION",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -60756,6 +62718,30 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "NP28007 ",
+    "offenceTitle": "TRESPASS ON LAND AT NIGHT AND TAKE/DESTROY GAME",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NP28008 ",
+    "offenceTitle": "TRESPASS ON LAND AT NIGHT AND TAKE/DESTROY A RABBIT OR RABBITS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NP28009 ",
+    "offenceTitle": "ENTER ON/WERE ON LAND AS A TRESPASSER AT NIGHT WITH A GUN TO TAKE/DESTROY GAME WITH A GUN",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NP28010 ",
+    "offenceTitle": "ENTER LAND AS A TRESPASSER AT NIGHT WITH POACHING EQUIPMENT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "NP44001 ",
     "offenceTitle": "TAKING OR DESTROYING GAME OR RABBITS BY NIGHT ON ROADS ETC OR AT OPENINGS FROM LAND ETC",
     "recordableOnPnc": false,
@@ -60908,6 +62894,252 @@
   {
     "cjsCode": "NS00010 ",
     "offenceTitle": "GIVING FALSE OR MISLEADING INFORMATION FOR THE PURPOSES OF THIS ACT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23001 ",
+    "offenceTitle": "UNLAWFULLY OBTAINING OR DISCLOSING PROTECTED INFORMATION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23002 ",
+    "offenceTitle": "UNLAWFULLY OBTAINING OR DISCLOSING TRADE SECRETS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23003 ",
+    "offenceTitle": "ENGAGE IN CONDUCT INTENDING TO ASSIST A FOREIGN INTELLIGENCE SERVICE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23004 ",
+    "offenceTitle": "CONDUCT LIKELY TO ASSIST A FOREIGN INTELLIGENCE SERVICE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23005 ",
+    "offenceTitle": "ENTERING ETC A PROHIBITED PLACE FOR A PURPOSE PREJUDICIAL TO THE UK",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23006 ",
+    "offenceTitle": "CAUSE UNMANNED VEHICLE TO ENTER ETC A PROHIBITED PLACE FOR A PURPOSE PREJUDICIAL TO THE UK",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23007 ",
+    "offenceTitle": "UNAUTHORISED ENTRY ETC TO A PROHIBITED PLACE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23008 ",
+    "offenceTitle": "CAUSE UNAUTHORISED ENTRY ETC TO A PROHIBITED PLACE BY UNMANNED VEHICLE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23009 ",
+    "offenceTitle": "FAIL TO COMPLY WITH POLICE ORDERS IN RELATION TO A PROHIBITED PLACE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23010 ",
+    "offenceTitle": "FAIL TO COMPLY WITH POLICE ORDERS IN RELATION TO A CORDONED AREA",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23011 ",
+    "offenceTitle": "SABOTAGE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23012 ",
+    "offenceTitle": "ENGAGE IN PROHIBITED CONDUCT INTENDING TO HAVE AN INTERFERENCE EFFECT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23013 ",
+    "offenceTitle": "ENGAGE IN PROHIBITED CONDUCT RECKLESSLY HAVING AN INTERFERENCE EFFECT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23014 ",
+    "offenceTitle": "AGREEING TO ACCEPT A MATERIAL BENEFIT FROM A FOREIGN INTELLIGENCE SERVICE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23015 ",
+    "offenceTitle": "ENGAGE WITH OTHERS IN PROHIBITED CONDUCT INTENDING AN INTERFERENCE EFFECT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23016 ",
+    "offenceTitle": "OBTAINING A MATERIAL BENEFIT FROM A FOREIGN INTELLIGENCE SERVICE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23017 ",
+    "offenceTitle": "ENGAGE IN CONDUCT PREPARATORY TO THE COMMISSION OF AN OFFENCE UNDER THE NATIONAL SECURITY ACT 2023",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23018 ",
+    "offenceTitle": "CONTRAVENE PART 2 NOTICE - GENERAL PROVISIONS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23019 ",
+    "offenceTitle": "CONTRAVENE TRAVEL MEASURE OF PART 2 NOTICE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23020 ",
+    "offenceTitle": "FAILURE TO REGISTER A FOREIGN ACTIVITY ARRANGEMENT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23021 ",
+    "offenceTitle": "MAKER OF UNREGISTERED FOREIGN ACTIVITY REQUIREMENT CARRY OUT RELEVANT ACTIVITY",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23022 ",
+    "offenceTitle": "CARRY OUT RELEVANT ACTIVITY UNDER UNREGISTERED FOREIGN ACTIVITY ARRANGEMENT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23023 ",
+    "offenceTitle": "SPECIFIED PERSON CARRY OUT UNREGISTERED RELEVANT ACTIVITY",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23024 ",
+    "offenceTitle": "EMPLOYEE ETC OF SPECIFIED PERSON CARRY OUT UNREGISTERED RELEVANT ACTIVITY",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23025 ",
+    "offenceTitle": "MISREPRESENTATION BY EMPLOYEE ETC OF SPECIFIED FOREIGN POWER RELATING TO UNREGISTERED RELEVANT ACTIVITY",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23026 ",
+    "offenceTitle": "FAILED TO REGISTER A FOREIGN INFLUENCE ARRANGEMENT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23027 ",
+    "offenceTitle": "CARRY OUT ACTIVITIES UNDER AN UNREGISTERED FOREIGN INFLUENCE ARRANGEMENT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23028 ",
+    "offenceTitle": "PERSON OTHER THAN MAKER CARRY OUT ACTIVITIES UNDER UNREGISTERED FOREIGN INFLUENCE ARRANGEMENT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23029 ",
+    "offenceTitle": "MISREPRESENTATION BY EMPLOYEE ETC OF FOREIGN POWER RELATING TO UNREGISTERED POLITICAL INFLUENCE ACTIVITY",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23030 ",
+    "offenceTitle": "FAIL TO NOTIFY SECRETARY OF STATE OF MATERIAL CHANGE TO INFORMATION ON A REGISTERED ACTIVITY OR ARRANGEMENT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23031 ",
+    "offenceTitle": "FAIL TO COMPLY WITH INFORMATION NOTICE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23032 ",
+    "offenceTitle": "PROVIDING FALSE INFORMATION RE FOREIGN ACTIVITY ARRANGEMENT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23033 ",
+    "offenceTitle": "PROVIDING FALSE INFORMATION RE REGISTERABLE RELEVANT ACTIVITY",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23034 ",
+    "offenceTitle": "KNOWINGLY PROVIDE FALSE INFORMATION RE FOREIGN INFLUENCE ARRANGEMENT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23035 ",
+    "offenceTitle": "KNOWINGLY PROVIDE FALSE INFORMATION RE POLITICAL INFLUENCE ACTIVITY",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23036 ",
+    "offenceTitle": "FALSE STATEMENT IN PURPORTED COMPLIANCE WITH AN EXPLANATION ORDER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23037 ",
+    "offenceTitle": "OBSTRUCT A SEARCH AUTHORISED BY WRITTEN ORDER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23038 ",
+    "offenceTitle": "FAIL TO COMPLY WITH WRITTEN NOTICE TO EXPLAIN SEIZED MATERIAL",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23039 ",
+    "offenceTitle": "FAIL TO COMPLY WITH THE REQUIREMENT OF A DISCLOSURE ORDER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23040 ",
+    "offenceTitle": "FALSE STATEMENT IN PURPORTED COMPLIANCE WITH A DISCLOSURE ORDER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "NS23041 ",
+    "offenceTitle": "FAIL TO COMPLY WITH THE REQUIREMENTS OF A CUSTOMER INFORMATION ORDER",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -61405,7 +63637,7 @@
   },
   {
     "cjsCode": "NY91003 ",
-    "offenceTitle": "REGISTERED SECOND HAND DEALER FAIL TO RECORD NAME & ADDRESS OF PURCHASER FOR SALE OVER ê100",
+    "offenceTitle": "REGISTERED SECOND HAND DEALER FAIL TO RECORD NAME & ADDRESS OF PURCHASER FOR SALE OVER £100",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -62514,6 +64746,42 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "OS23001 ",
+    "offenceTitle": "SEND FALSE COMMUNICATION WITH INTENT TO CAUSE HARM",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "OS23002 ",
+    "offenceTitle": "SEND COMMUNICATION THREATENING DEATH OR SERIOUS HARM",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "OS23003 ",
+    "offenceTitle": "SEND ELECTRONIC COMMUNICATION WITH FLASHING IMAGES WITH GENERAL INTENT TO HARM",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "OS23004 ",
+    "offenceTitle": "SEND ELECTRONIC COMMUNICATION WITH FLASHING IMAGES WITH INTENT TO HARM AN INDIVIDUAL",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "OS23005 ",
+    "offenceTitle": "SHOW FLASHING IMAGES WITH INTENT TO HARM AN INDIVIDUAL",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "OS23006 ",
+    "offenceTitle": "ENCOURAGE OR ASSIST SERIOUS SELF HARM BY ANOTHER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "OS89002 ",
     "offenceTitle": "UNLAWFUL DISCLOSURE OF SECRETS BY SERVING MEMBER OF SECURITY/INTELLIGENCE SERVICES.",
     "recordableOnPnc": true,
@@ -62904,6 +65172,30 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "OW19001 ",
+    "offenceTitle": "SELL CORROSIVE PRODUCT TO PERSON UNDER 18 YEARS OF AGE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "OW19002 ",
+    "offenceTitle": "SELL AND DELIVER/ARRANGE DELIVERY OF CORROSIVE PRODUCT TO RESIDENTIAL PREMISES",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "OW19003 ",
+    "offenceTitle": "DELIVER PURSUANT TO A DELIVERY ARRANGEMENT A CORROSIVE PRODUCT TO A PERSON UNDER 18 YEARS OF AGE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "OW19004 ",
+    "offenceTitle": "HAVE A CORROSIVE SUBSTANCE IN A PUBLIC PLACE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "OW19005 ",
     "offenceTitle": "FAIL WITHOUT REASONABLE EXCUSE TO NOTIFY POLICE OF NAME OR HOME ADDRESS",
     "recordableOnPnc": true,
@@ -62930,6 +65222,42 @@
   {
     "cjsCode": "OW19009 ",
     "offenceTitle": "BREACH OF KNIFE CRIME PREVENTION ORDER/INTERIM KNIFE CRIME PREVENTION ORDER W/O REASONABLE EXCUSE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "OW19010 ",
+    "offenceTitle": "SELL AND DELIVER/ARRANGE DELIVERY OF BLADED PRODUCT TO RESIDENTIAL PREMISES",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "OW19011 ",
+    "offenceTitle": "DELIVER PURSUANT TO DELIVERY ARRANGEMENT BLADED PRODUCT TO A RESIDENTIAL PREMISES TO PERSON UNDER 18",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "OW19012 ",
+    "offenceTitle": "DELIVER PURSUANT TO DELIVERY ARRANGEMENT BLADED ARTICLE TO A PERSON UNDER 18",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "OW19013 ",
+    "offenceTitle": "THREATEN A PERSON WITH AN OFFENSIVE WEAPON/ARTICLE/SUBSTANCE IN A PRIVATE PLACE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "OW19014 ",
+    "offenceTitle": "SELL AND DELIVER/ARRANGE DELIVERY OF CORROSIVE PRODUCT TO A LOCKER (LOCKABLE CONTAINER)",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "OW19015 ",
+    "offenceTitle": "SELL AND DELIVER/ARRANGE DELIVERY OF BLADED PRODUCT TO A LOCKER (LOCKABLE CONTAINER)",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -63240,6 +65568,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "PA15003 ",
+    "offenceTitle": "MANUFACTURER FAIL TO HAVE CONFORMITY ASSESSMENT BEFORE PLACING PYROTECHNIC ON MARKET - CAT F1/F2/F3 FIREWORK",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "PA15022 ",
     "offenceTitle": "MANUFACTURER MAKE CATEGORY F1/F2/F3 FIREWORK AVAILABLE ON UK MARKER TO PERSON YOUNGER THEN MINIMUM AGE LIMIT",
     "recordableOnPnc": true,
@@ -63252,8 +65586,44 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "PA15034 ",
+    "offenceTitle": "MFR. FAIL TO HAVE CONFORMITY ASSMNT BEFORE PLACING PYROTECHNIC ARTICLE (NOT CAT F1/F2/F3) FIREWORK ON MARKET",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PA15040 ",
+    "offenceTitle": "MANUFACTURER FAIL ENSURE CATEGORY F1-F3 FIREWORK (NOT FOR VEHICLE)_ WAS LABELLED BEFORE PLACING ON MARKET",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "PA15053 ",
     "offenceTitle": "MANUFACTURER MAKE A T1/P1 PYROTECHNIC ARTICLE AVAILABLE ON UK MARKET TO UNDERAGE PERSON",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PA15064 ",
+    "offenceTitle": "IMPORTER FAIL TO ENSURE CAT F1/F2/F3 FIREWORK SATISFIES REQUIREMENTS BEFORE PLACING ON THE MARKET",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PA15078 ",
+    "offenceTitle": "IMPORTER FAIL COOPERATE WITH AUTHORITY ON ACTION EVALUATING & ELIMINATING RISK POSED BY CAT F1-F3 FIREWORK",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PA15098 ",
+    "offenceTitle": "IMPORTER FAIL TO ASSIST AUTHORITY EVALUATING/ELIMINATING RISK BY PYROTECHNIC ARTICLE (NOT F1/F2/F3 FIREWORK)",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PA15111 ",
+    "offenceTitle": "IMPORTER FAIL ENSURE PYROTECHNIC (NOT CAT F1/F2/F3 FIREWORK) SATISFIES REQUIREMENTS BEFORE PLACING ON MARKET",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -63272,6 +65642,30 @@
   {
     "cjsCode": "PA15136 ",
     "offenceTitle": "DISTRIBUTOR MAKE A T1/P1 PYROTECHNIC ARTICLE AVAILABLE ON UK MARKET TO UNDERAGE PERSON",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PA15162 ",
+    "offenceTitle": "MFR. FAIL TO KEEP DOCUMENTS/DECLARATION OF CONFORMITY FOR 10 YEARS - PYROTECHNIC (NOT FL/F2/F3 FIREWORK)",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PA15166 ",
+    "offenceTitle": "IMPORTER FAIL TO KEEP DECLARATION/MAKE AVAILABLE DOCUMENTATION RE PYROTECHNIC (NOT CAT F1/F2/F3 FIREWORK)",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PA15167 ",
+    "offenceTitle": "IMPORTER FAIL TO KEEP UK DECLARATION OF CONFORMITY/MAKE AVAILABLE DOCUMENTATION RE CAT F1/F2/F3 FIREWORK",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PA15183 ",
+    "offenceTitle": "MFR. AFFIX MARK TO PYROTECHNIC (NOT F1/F2/F3 FIREWORK) PURPORTING TO ATTEST CONFORMITY SAFETY REQUIREMENTS",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -64302,6 +66696,18 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "PC53003 ",
+    "offenceTitle": "THREATEN A PERSON WITH AN OFFENSIVE WEAPON IN A PUBLIC PLACE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PC53A01 ",
+    "offenceTitle": "THREATEN WITH AN OFFENSIVE WEAPON IN A PUBLIC PLACE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "PC73001 ",
     "offenceTitle": "BREACH OF PROBATION ORDER",
     "recordableOnPnc": true,
@@ -64380,6 +66786,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "PD49003 ",
+    "offenceTitle": "WILFULLY OBSTRUCT THE EXERCISE OF POWERS BY LOCAL AUTHORITY",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "PD63001 ",
     "offenceTitle": "FRAUDULENTLY INDUCING PERSON TO INVEST ON DEPOSIT",
     "recordableOnPnc": true,
@@ -64437,6 +66849,12 @@
     "cjsCode": "PE04001 ",
     "offenceTitle": "CARRIER OF PET DOGS/CATS/FERRETS FAIL TO COMPLY WITH CONDITIONS OF APPROVAL FOR TRANSPORTATION INTO ENGLAND",
     "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PE11001 ",
+    "offenceTitle": "CARRIER MOVE PET ANIMAL INTO GREAT BRITAIN WHEN NOT APPROVED",
+    "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
   {
@@ -64532,6 +66950,12 @@
   {
     "cjsCode": "PE54004 ",
     "offenceTitle": "SPREADING MYXOMATOSIS",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PE54005 ",
+    "offenceTitle": "USE AN ANIMAL TRAP IN CIRCUMSTANCES FOR WHICH IT IS NOT APPROVED",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -64746,6 +67170,24 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "PH15052 ",
+    "offenceTitle": "DISCLOSE INFORMATION RELATING TO A PERSONS IDENTITY WITHOUT PRIOR CONSENT OF COMMISSIONERS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PH15058 ",
+    "offenceTitle": "INTRODUCE INTO/MOVE WITH PROTECTED ZONE IN ENGLAND RELEVANT MATERIAL WITHOUT A PLANT PASSPORT/INSPECTION",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PH15059 ",
+    "offenceTitle": "MOVE WITHIN PROTECTED ZONE IN ENGLAND RELEVANT MATERIAL WITHOUT AN ACCOMPANYING VALID PLANT PASSPORT",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "PH17002 ",
     "offenceTitle": "SMOKING IN A SMOKE-FREE PLACE - WALES",
     "recordableOnPnc": false,
@@ -64908,6 +67350,18 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "PH36003 ",
+    "offenceTitle": "OWNER/OCCUPIER OF LAND/PREMISES FAIL COMPLY WITH NOTICE OF REQUIREMENTS TO REMEDY CONDITION OF LAND/PREMISES",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PH36004 ",
+    "offenceTitle": "FAIL TO COMPLY WITH A NOTICE REQUIRING THE EXECUTION OF WORKS ISSUED UNDER THE PUBLIC HEALTH ACTS",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "PH54001 ",
     "offenceTitle": "REGISTRAR FALSIFYING MATTER CONCERNING REGISTER OR CERTIFICATE",
     "recordableOnPnc": false,
@@ -64988,6 +67442,12 @@
   {
     "cjsCode": "PH84002 ",
     "offenceTitle": "OCCUPIER FAILING TO FURNISH INFORMATION TO OFFICER",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PH84003 ",
+    "offenceTitle": "FAIL TO COMPLY WITH RESTRICTION/REQUIREMENT IMPOSED UNDER PART 2A OF THE ACT",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -65821,7 +68281,7 @@
   },
   {
     "cjsCode": "PL02031 ",
-    "offenceTitle": "FAIL GIVE NAME AND ADDRESS/GIVE FALSE NAME AND ADDRESS TO ACCREDITED PERSON WHEN ACTING IN ANTI-SOCIAL MANNE",
+    "offenceTitle": "FAIL GIVE NAME AND ADDRESS/GIVE FALSE NAME AND ADDR TO ACCREDITED PERSON WHEN ACTING IN ANTI-SOCIAL MANNER",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -65865,6 +68325,12 @@
     "cjsCode": "PL02038 ",
     "offenceTitle": "FAIL TO GIVE NAME AND ADDRESS TO CONSTABLE - ENGAGING IN ANTI-SOCIAL BEHAVIOUR",
     "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PL02039 ",
+    "offenceTitle": "FAIL GIVE NAME/ADDRESS TO PERSON ACCREDITED UNDER POLICE REFORM ACT 2002 - ENGAGING IN ANTI-SOCIAL BEHAVIOUR",
+    "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
@@ -65960,6 +68426,12 @@
   {
     "cjsCode": "PL02A01 ",
     "offenceTitle": "MAKE OFF WHILST IN PRESENCE OF CSO/CSV",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PL02A02 ",
+    "offenceTitle": "FAIL GIVE NAME AND ADDRESS/GIVE FALSE NAME AND ADDR TO ACCREDITED PERSON WHEN ACTING IN ANTI-SOCIAL MANNER",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -66074,6 +68546,12 @@
   {
     "cjsCode": "PL68002 ",
     "offenceTitle": "MASTER OF VESSEL NAVIGATE THAMES IN MANNER LIABLE TO INJURE/ENDANGER PERSON/VESSEL/RIVER BANK/STRUCTURE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PL68003 ",
+    "offenceTitle": "FAILED TO COMPLY WITH A GENERAL DIRECTION WHEN NAVIGATING A VESSEL ON THE THAMES",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -66372,6 +68850,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "PM11001 ",
+    "offenceTitle": "CONTRAVENE ART 11(1) OF COMMISSION REG 543/2008 REGARDING TYPES OF FARMING LABELLING THAT MAY BE USED",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "PM86001 ",
     "offenceTitle": "CONTRAVENE S.2(2) IN RELATION TO ANY REMAINS OF AIRCRAFT OR VESSEL WHICH ARE PART OF A CONTROLLED SITE",
     "recordableOnPnc": false,
@@ -66614,6 +69098,12 @@
   {
     "cjsCode": "PN06013 ",
     "offenceTitle": "AGENT KNOWINGLY GIVE RECEIPT/ACCOUNT/DOCUMENT CONTAINING FALSE/DEFECTIVE STATEMENT W/I TO DECEIVE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PN95001 ",
+    "offenceTitle": "MAKING AN EMPLOYER RELATED INVESTMENT",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -68550,6 +71040,42 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "PS22001 ",
+    "offenceTitle": "INTENTIONALLY/RECKLESSLY CAUSE A PUBLIC NUISANCE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PS22002 ",
+    "offenceTitle": "TRESPASS WITH INTENT TO SEARCH FOR OR TO PURSUE HARES WITH DOGS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PS22003 ",
+    "offenceTitle": "BEING EQUIPPED FOR SEARCHING FOR OR PURSUING HARES WITH DOGS ETC",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PS22004 ",
+    "offenceTitle": "BREACH DISQUALIFICATION ORDER FOR CERTAIN OFFENCES INVOLVING DOGS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PS22005 ",
+    "offenceTitle": "FAIL TO DELIVER DOG UP TO ENABLE ORDER FOR DOG TO BE TAKEN INTO POSSESSION TO BE CARRIED OUT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PS22006 ",
+    "offenceTitle": "FAIL TO DELIVER DOG UP FOR PURPOSES OF DIRECTION IN RELATION TO SUSPENDED DISQUALIFICATION ORDER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "PS38001 ",
     "offenceTitle": "REFUSING TO FURNISH INFORMATION",
     "recordableOnPnc": false,
@@ -69240,6 +71766,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "PT00063 ",
+    "offenceTitle": "FAIL TO DISCLOSE INFORMATION - TERRORISM",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "PT00064 ",
     "offenceTitle": "RECORD INFORMATION USEFUL TO PERSONS ENGAGED IN TERRORISM",
     "recordableOnPnc": true,
@@ -69264,6 +71796,18 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "PT00068 ",
+    "offenceTitle": "ELICIT INFO RE HM FORCES/INTELLIGENCE SERVICE/POLICE TO ASSIST IN COMMISSION TERRORISM",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PT00069 ",
+    "offenceTitle": "PUBLISH INFO RE HM FORCES/INTELLIGENCE SERVICE/POLICE TO ASSIST IN COMMISSION OF TERRORISM",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "PT00070 ",
     "offenceTitle": "EXPRESS OPINION/BELIEF IN SUPPORT OF PROSCRIBED ORGANISATION THAT WILL ENCOURAGE/SUPPORT - TERRORISM",
     "recordableOnPnc": true,
@@ -69278,6 +71822,18 @@
   {
     "cjsCode": "PT00072 ",
     "offenceTitle": "ENTERS/REMAINS IN A DESIGNATED AREA OVERSEAS - TERRORISM",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PT00073 ",
+    "offenceTitle": "BELONG/PROFESS TO BELONG TO A PRESCRIBED ORGANISATION - TERRORISM",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PT00077 ",
+    "offenceTitle": "EXPRESS OPINION/BELIEF IN SUPPORT OF PROSCRIBED ORGANISATION THAT WILL ENCOURAGE SUPPORT OF IT - TERRORISM",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -69302,6 +71858,36 @@
   {
     "cjsCode": "PT00A04 ",
     "offenceTitle": "TERRORISM - WEAPONS INSTRUCTION/ TRAINING",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PT00A05 ",
+    "offenceTitle": "BELONGING OR PROFESSING TO BELONG TO PROSCRIBED ORGANISATION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PT00A06 ",
+    "offenceTitle": "ELICIT INFO RE MEMBER OF HM FORCES/INTELLIGENCE SERVICES/POLICE ASSIST IN COMMISSION/PREPARATION TERRORISM",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PT00A07 ",
+    "offenceTitle": "PUBLISH/COMMUNICATE INFO RE HM FORCES/INTELLIGENCE SERVICE/POLICE TO ASSIST COMMISSION/PREPARATION TERRORISM",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PT00A08 ",
+    "offenceTitle": "EXPRESS OPINION/BELIEF IN SUPPORT OF PROSCRIBED ORGANISATION THAT WILL ENCOURAGE/SUPPORT - TERRORISM",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PT00A09 ",
+    "offenceTitle": "FAIL TO DISCLOSE INFORMATION",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -70506,6 +73092,54 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "PU23001 ",
+    "offenceTitle": "LOCK ON TO PERSON/OBJECT/LAND TO CAUSE SERIOUS DISRUPTION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PU23002 ",
+    "offenceTitle": "BEING EQUIPPED TO LOCK ON TO PERSON/OBJECT/LAND TO CAUSE SERIOUS DISRUPTION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PU23003 ",
+    "offenceTitle": "INTERFERE WITH USE/OPERATION OF KEY NATIONAL INFRASTRUCTURE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PU23004 ",
+    "offenceTitle": "CAUSE SERIOUS DISRUPTION BY TUNNELLING",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PU23005 ",
+    "offenceTitle": "CAUSE SERIOUS DISRUPTION BY PRESENCE IN TUNNEL",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PU23006 ",
+    "offenceTitle": "BEING EQUIPPED FOR TUNNELLING",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PU23007 ",
+    "offenceTitle": "OBSTRUCT UNDERTAKER ETC OF MAJOR TRANSPORT WORKS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PU23008 ",
+    "offenceTitle": "INTERFERE/MOVE/REMOVE APPARATUS - MAJOR TRANSPORT WORKS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "PU36001 ",
     "offenceTitle": "WEARING UNIFORM SIGNIFYING ASSOCIATION WITH POLITICAL ORGANISATION",
     "recordableOnPnc": true,
@@ -71400,6 +74034,66 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "PU86151 ",
+    "offenceTitle": "PUBLIC ASSEMBLY ORGANISER FAILING TO COMPLY WITH CONDITION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PU86152 ",
+    "offenceTitle": "PUBLIC ASSEMBLY PARTICIPANT FAIL TO COMPLY WITH CONDITION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PU86153 ",
+    "offenceTitle": "INCITE PUBLIC ASSEMBLY PARTICIPANT TO BREACH CONDITION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PU86154 ",
+    "offenceTitle": "INCITE PROCESSION PARTICIPANT TO BREACH A CONDITION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PU86155 ",
+    "offenceTitle": "PROCESSION PARTICIPANT FAIL TO COMPLY WITH CONDITION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PU86156 ",
+    "offenceTitle": "PUBLIC PROCESSION ORGANISER FAIL TO COMPLY WITH CONDITION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PU86157 ",
+    "offenceTitle": "PARTICIPANT/ORGANISER OF ONE PERSON PROTEST FAIL TO COMPLY WITH CONDITION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PU86158 ",
+    "offenceTitle": "INCITE PARTICIPANT/ORGANISER OF ONE PERSON PROTEST TO BREACH A CONDITION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PU86159 ",
+    "offenceTitle": "USE THREATENING/ABUSIVE/INSULTING WORDS/BEHAVIOUR TO CAUSE HARASSMENT/ALARM/DISTRESS BASED ON A PERSONS SEX",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PU86160 ",
+    "offenceTitle": "DISPLAY ANY WRITING/SIGN/VISIBLE REPRESENTATION WITH INTENT TO CAUSE HARASSMENT/ALARM/DISTRESS BASED ON SEX",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "PU86A01 ",
     "offenceTitle": "BREACH OF EXCLUSION ORDER FROM PRESCRIBED SPORTS GROUND",
     "recordableOnPnc": true,
@@ -71516,6 +74210,12 @@
   {
     "cjsCode": "PU86A20 ",
     "offenceTitle": "POSSESS RECORDING OF THREATENING VISUAL IMAGES/SOUNDS WITH VIEW TO DISTRIBUTE /SHOW/PLAY BY SELF/ANOTHER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PU86A21 ",
+    "offenceTitle": "PARTICIPANT/ORGANISER OF ONE PERSON PROTEST FAIL TO COMPLY WITH CONDITION",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -72120,6 +74820,156 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "PW23001 ",
+    "offenceTitle": "FAIL INFORM ENVIRONMENT AGENCY WHEN CARRYING ON ACTIVITIES OF DEAD/BANKRUPT/INCAPACITATED PACKAGING PRODUCER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PW23002 ",
+    "offenceTitle": "SMALL PACKAGING PRODUCER FAIL TO MAINTAIN AND RETAIN RECORDS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PW23003 ",
+    "offenceTitle": "LARGE PACKAGING PRODUCER FAIL TO MAINTAIN AND RETAIN RECORDS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PW23004 ",
+    "offenceTitle": "LARGE PACKAGING PRODUCER FAIL TO RETAIN EVIDENCE OF PACKAGING WASTE COLLECTED AND SENT FOR RECYCLING",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PW23005 ",
+    "offenceTitle": "LARGE PACKAGING PRODUCER FAIL TO RETAIN EVIDENCE OF RECYCLING OF RELEVANT PACKAGING WASTE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PW23006 ",
+    "offenceTitle": "ONLINE MARKETPLACE OPERATOR FAIL TO MAINTAIN AND RETAIN PACKAGING WASTE RECORDS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PW23007 ",
+    "offenceTitle": "SELLER FAIL TO MAINTAIN AND RETAIN PACKAGING WASTE RECORDS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PW23008 ",
+    "offenceTitle": "LICENSOR/PUB OPERATING BUSINESS FAIL TO MAINTAIN AND RETAIN PACKAGING WASTE RECORDS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PW23009 ",
+    "offenceTitle": "LRG BRAND OWNER PACKER/FILLER IMPORT OR SERVICE PROVIDER FAIL TO COMPLY WITH PACKAGING WASTE DATA REPORTING",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PW23010 ",
+    "offenceTitle": "LARGE BRAND OWNER/DISTRIBUTOR FAIL TO COMPLY WITH PACKAGING WASTE DATA REPORTING OBLIGATIONS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PW23011 ",
+    "offenceTitle": "LARGE BRAND OWNER/ONLINE MARKETPLACE OPERATOR FAIL TO COMPLY WITH PACKAGING WASTE DATA REPORTING OBLIGATION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PW23012 ",
+    "offenceTitle": "CORPORATE PRODUCER OF PACKAGING FAIL INFORM ENVIRONMENT AGENCY OF WINDING UP/RECEIVERSHIP OR ADMINISTRATION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PW23013 ",
+    "offenceTitle": "INDIVIDUAL PRODUCER OF PACKAGING FAIL INFORM ENVIRONMENT AGENCY OF WINDING UP/RECEIVERSHIP OR ADMINISTRATION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PW23014 ",
+    "offenceTitle": "REGISTERED SCHEME OPERATOR FAIL TO CARRY OUT DATA REPORTING OBLIGATIONS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PW23015 ",
+    "offenceTitle": "FURNISH FALSE INFORMATION TO ENVIRONMENT AGENCY KNOWING IT TO BE FALSE OR MISLEADING",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PW23016 ",
+    "offenceTitle": "RECKLESSLY FURNISH FALSE OR MISLEADING INFORMATION TO ENVIRONMENT AGENCY",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PW23017 ",
+    "offenceTitle": "FAIL TO COMPLY WITH ENVIRONMENT AGENCY INFORMATION NOTICE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PW23018 ",
+    "offenceTitle": "FAIL TO GIVE ASSISTANCE TO OFFICER OF THE ENVIRONMENT AGENCY",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PW23019 ",
+    "offenceTitle": "OBSTRUCT OR DELAY PERSON AUTHORISED BY ENVIRONMENT AGENCY TO EXERCISE POWERS OF ENTRY AND INSPECTION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PW23020 ",
+    "offenceTitle": "OBSTRUCT OR DELAY PERSON AUTHORISED BY ENVIRONMENT AGENCY TO EXERCISE POWERS OF ENTRY AND INSPECTION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PW23A01 ",
+    "offenceTitle": "PACKAGING PRODUCER FAIL TO MAINTAIN AND RETAIN RECORDS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PW23A02 ",
+    "offenceTitle": "SELLER FAIL TO MAINTAIN AND RETAIN PACKAGING WASTE RECORDS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PW23A03 ",
+    "offenceTitle": "LRG BRAND OWNER PACKER/FILLER IMPORT OR SERVICE PROVIDER FAIL TO COMPLY WITH PACKAGING WASTE DATA REPORTING",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PW23A04 ",
+    "offenceTitle": "PRODUCER OF PACKAGING FAIL INFORM ENVIRONMENT AGENCY OF WINDING UP/RECEIVERSHIP OR ADMINISTRATION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "PW23A05 ",
+    "offenceTitle": "FAIL TO GIVE ASSISTANCE TO OFFICER OF THE ENVIRONMENT AGENCY",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "PW96001 ",
     "offenceTitle": "HINDER OBSTRUCT PERSON TO DO ANYTHING WHICH HE IS ENTITLED WITH REGARD TO LAND OR PREMISES",
     "recordableOnPnc": false,
@@ -72351,6 +75201,324 @@
     "cjsCode": "RA75001 ",
     "offenceTitle": "FAILURE TO COMPLY WITH NOTICE FROM ENFORCEMENT AUTHORITY",
     "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88001 ",
+    "offenceTitle": "USE A MOTOR VEHICLE ON A ROAD/PUBLIC PLACE WITHOUT THIRD PARTY INSURANCE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88002 ",
+    "offenceTitle": "CAUSE USE OF MOTOR VEHICLE WITH NO INSURANCE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88003 ",
+    "offenceTitle": "PERMIT USE OF MOTOR VEHICLE WITH NO INSURANCE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88004 ",
+    "offenceTitle": "DRIVER FAIL TO PRODUCE CERTIFICATE OF INSURANCE TO PC AFTER ACCIDENT/SUSPECTED OFFENCE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88005 ",
+    "offenceTitle": "DRIVER FAIL TO PRODUCE INSURANCE CERTIFICATE - ACCIDENT - PUBLIC PLACE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88006 ",
+    "offenceTitle": "DRIVER OF GOODS VEHICLE FAIL TO GIVE NAME/ADDRESS/INSURANCE/PLATING CERTIFICATE AFTER ROAD ACCIDENT/OFFENCE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88007 ",
+    "offenceTitle": "DRIVER OF GOODS VEHICLE FAIL GIVE NAME/ADDRESS/PRODUCE INSURANCE CERTIFICATE AFTER ACCIDENT/OFFENCE ON ROAD",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88008 ",
+    "offenceTitle": "DRIVER OF GOODS VEHICLE FAIL GIVE NAME/ADDRESS/PRODUCE INSURANCE CERTIFICATE AFTER ACCIDENT IN PUBLIC PLACE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88009 ",
+    "offenceTitle": "DRIVER OF GOODS VEHICLE FAIL TO GIVE OWN/OWNER NAME/ADDRESS/PRODUCE INS CERT AFTER ROAD ACCIDENT/OFFENCE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88010 ",
+    "offenceTitle": "DRIVER OF A GOODS VEHICLE FAIL TO PRODUCE A CERTIFICATE OF INSURANCE AFTER ROAD ACCIDENT/OFFENCE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88011 ",
+    "offenceTitle": "DRIVER OF GOODS VEHICLE FAIL TO PRODUCE CERTIFICATE OF INSURANCE AFTER ACCIDENT IN A PUBLIC PLACE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88012 ",
+    "offenceTitle": "DRIVER OF GOODS VEHICLE FAIL TO PRODUCE INSURANCE/PLATING/TEST CERTIFICATES AFTER ROAD ACCIDENT/OFFENCE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88013 ",
+    "offenceTitle": "DRIVER OF GOODS VEHICLE FAIL TO PRODUCE INSURANCE/TEST CERTIFICATES AFTER ROAD ACCIDENT/OFFENCE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88014 ",
+    "offenceTitle": "DRIVER OF MOTOR VEHICLE FAIL TO GIVE NAME/ADDRESS/PRODUCE INSURANCE/TEST CERT AFTER ROAD ACCIDENT/OFFENCE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88015 ",
+    "offenceTitle": "DRIVER OF MOTOR VEHICLE FAIL TO GIVE NAME/ADDRESS AND PRODUCE INSURANCE CERTIFICATE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88016 ",
+    "offenceTitle": "DRIVER OF VEHICLE IN PUBLIC PLACE FAIL GIVE NAME/ADDRESS/PRODUCE INSURANCE TO A CONSTABLE AFTER AN ACCIDENT",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88017 ",
+    "offenceTitle": "DRIVER OF GOODS VEHICLE FAIL GIVE OWNER NAME/ADDRESS/PRODUCE INSURANCE CERT AFTER ACCIDENT IN PUBLIC PLACE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88018 ",
+    "offenceTitle": "DRIVER OF GOODS VEHICLE FAIL TO GIVE OWNERS NAME/ADDRESS/PRODUCE INSURANCE CERT AFTER ROAD ACCIDENT/OFFENCE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88019 ",
+    "offenceTitle": "DRIVER OF GOODS VEHICLE FAIL TO PRODUCE INSURANCE/PLATING CERTIFICATES AFTER ROAD ACCIDENT/OFFENCE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88020 ",
+    "offenceTitle": "DRIVER OF M/VEHICLE FAIL GIVE OWN/OWNER NAME/ADDRESS/PRODUCE INSURANCE/TEST CERT AFTER ROAD ACCIDENT/OFFENCE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88021 ",
+    "offenceTitle": "FAIL TO GIVE OWN AND OWNERS NAME/ADDRESS AND PRODUCE INSURANCE - PUBLIC PLACE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88022 ",
+    "offenceTitle": "FAIL TO GIVE OWN AND OWNERS NAME AND ADDRESS AND PRODUCE INSURANCE CERTIFICATE - ROAD",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88023 ",
+    "offenceTitle": "FAIL TO GIVE OWNERS NAME/ADDRESS AND PRODUCE INSURANCE CERTIFICATE - ROAD",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88024 ",
+    "offenceTitle": "FAIL TO GIVE OWNERS NAME AND ADDRESS AND PRODUCE INSURANCE - PUBLIC PLACE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88025 ",
+    "offenceTitle": "GOODS VEHICLE - FAIL TO GIVE OWN AND OWNERS NAME ETC AND PRODUCE INSURANCE/PLATING/TEST CERTIFICATES - ROAD",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88026 ",
+    "offenceTitle": "GOODS VEHICLE DRIVER FAIL GIVE NAME/ADDRESS/PRODUCE INSURANCE/PLATING/TEST CERTS - ROAD ACCIDENT/OFFENCE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88027 ",
+    "offenceTitle": "GOODS VEHICLE DRIVER FAIL TO GIVE OWN/OWNER NAME/ADDRESS/PRODUCE INSURANCE/TEST CERTS - ACCIDENT/OFFENCE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88028 ",
+    "offenceTitle": "GOODS VEHICLE DRIVER FAIL GIVE OWNERS NAME/ADDRESS/INSURANCE/PLATING/TEST CERTS - ACCIDENT/OFFENCE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88029 ",
+    "offenceTitle": "GOODS VEHICLE DRIVER FAIL GIVE OWNERS NAME/ADDRESS/PRODUCE INSURANCE/PLATING CERTS - ROAD ACCIDENT/OFFENCE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88030 ",
+    "offenceTitle": "GOODS VEHICLE FAIL GIVE OWNERS NAME/ADDRESS/PRODUCE INSURANCE/TEST CERTS - ROAD ACCIDENT/OFFENCE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88031 ",
+    "offenceTitle": "M/VEHICLE DRIVER FAIL GIVE OWNER NAME/ADDRESS/PRODUCE INSURANCE/TEST CERT - ACCIDENT/OFFENCE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88032 ",
+    "offenceTitle": "ROAD ACCIDENT - FAIL TO REPORT AND PRODUCE INSURANCE - MECHANICALLY PROPELLED VEHICLE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88033 ",
+    "offenceTitle": "OWNER OF MOTOR VEHICLE FAILING TO GIVE INFORMATION AS TO INSURANCE TO POLICE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88035 ",
+    "offenceTitle": "FORGE INSURANCE DOCUMENT WITH INTENT TO DECEIVE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88036 ",
+    "offenceTitle": "LEND INSURANCE DOCUMENT WITH INTENT TO DECEIVE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88037 ",
+    "offenceTitle": "MAKE INSURANCE DOCUMENT WITH INTENT TO DECEIVE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88038 ",
+    "offenceTitle": "POSSESS INSURANCE DOCUMENT WITH INTENT TO DECEIVE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88039 ",
+    "offenceTitle": "USE INSURANCE DOCUMENT WITH INTENT TO DECEIVE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88040 ",
+    "offenceTitle": "MAKE FALSE STATEMENT TO OBTAIN INSURANCE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88041 ",
+    "offenceTitle": "WITHHOLD INFORMATION TO OBTAIN MOTOR INSURANCE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88042 ",
+    "offenceTitle": "CAUSE DEATH BY DRIVING A VEHICLE - DRIVER UNLICENSED/UNINSURED",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88043 ",
+    "offenceTitle": "CAUSE DEATH BY DRIVING WITHOUT DUE CARE AND ATTENTION/REASONABLE CONSIDERATION WHILE UNFIT THROUGH DRINK",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88044 ",
+    "offenceTitle": "CAUSE DEATH BY DRIVING WITHOUT DUE CARE/CONSIDERATION WHILE UNFIT THROUGH DRUGS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88045 ",
+    "offenceTitle": "CAUSE DEATH BY DRIVING WITHOUT DUE CARE/CONSIDERATION WHILE OVER SPECIFIED LIMIT - SPECIFIED CONTROLLED DRUG",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88046 ",
+    "offenceTitle": "CAUSE DEATH BY DANGEROUS DRIVING",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88047 ",
+    "offenceTitle": "CAUSE DEATH BY DUE CARE WHILE OVER PRESCRIBED LIMIT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88048 ",
+    "offenceTitle": "CAUSE DEATH BY DUE CARE AND FAIL TO PROVIDE SPECIMEN",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88049 ",
+    "offenceTitle": "FAIL TO GIVE PERMISSION FOR A LABORATORY TEST ON A BLOOD SPECIMEN HAVING CAUSED A DEATH",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88050 ",
+    "offenceTitle": "CAUSE SERIOUS INJURY BY CARELESS/INCONSIDERATE DRIVING",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88051 ",
+    "offenceTitle": "MAKE FALSE STATEMENT TO OBTAIN INSURANCE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88A01 ",
+    "offenceTitle": "CAUSE DEATH BY DRIVING WITHOUT DUE CARE/CONSIDERATION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88A02 ",
+    "offenceTitle": "FORGE/ALTER/LEND/MAKE ROAD TRAFFIC DOCUMENT WITH INTENT TO DECEIVE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RA88A03 ",
+    "offenceTitle": "MAKE FALSE STATEMENT TO OBTAIN INSURANCE",
+    "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
@@ -75432,6 +78600,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "RC86815 ",
+    "offenceTitle": "DRIVER OF MOTOR VEHICLE NOT IN POSITION TO HAVE FULL VIEW - ENDORSABLE OFFENCE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "RC86820 ",
     "offenceTitle": "USE A HANDHELD MOBILE PHONE/DEVICE WHILE DRIVING A MOTOR VEHICLE ON A ROAD - ENDORSABLE OFFENCE",
     "recordableOnPnc": false,
@@ -78276,8 +81450,20 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "RL89172 ",
+    "offenceTitle": "USE A VEHICLE ON A ROAD WHEN THE REAR FOG LAMP(S) WERE USED TO CAUSE DAZZLE/DISCOMFORT",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "RL89177 ",
     "offenceTitle": "MISUSE OF FRONT FOG LAMP",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RL89178 ",
+    "offenceTitle": "USE VEHICLE ON ROAD WHEN THE REAR FOG LAMP(S) WERE USED AND VISIBILITY NOT SERIOUSLY REDUCED/VEHICLE PARKED",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -79698,6 +82884,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "RR84130 ",
+    "offenceTitle": "SPEEDING - PASSENGER MOTOR VEHICLE AND TRAILER EXCEEDING 50MPH - SINGLE CARRIAGEWAY - MANNED EQUIPMENT",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "RR84132 ",
     "offenceTitle": "SPEEDING - EXCEED TEMPORARY LIMIT ON MOTORWAY (ROAD WORKS)- MANNED EQUIPMENT",
     "recordableOnPnc": false,
@@ -79712,6 +82904,18 @@
   {
     "cjsCode": "RR84146 ",
     "offenceTitle": "FAIL TO COMPLY WITH INDICATION GIVEN BY A TRAFFIC SIGN - LOCAL ORDER OUTSIDE GREATER LONDON AREA",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RR84154 ",
+    "offenceTitle": "OVERSTAY AFTER EXCESS CHARGE FOR PARKING IN CONTRAVENTION OF A LOCAL TRAFFIC ORDER - O/S GREATER LONDON",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RR84160 ",
+    "offenceTitle": "SPEEDING - EXCEED TEMPORARY 60 MPH RESTRICTION ON A MOTORWAY (ROAD WORKS) - MANNED EQUIPMENT",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -79766,6 +82970,12 @@
   {
     "cjsCode": "RR84202 ",
     "offenceTitle": "EXCEED SPEED LIMIT CREATED BY LOCAL ORDER - NOT DETECTED BY CAMERA",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RR84203 ",
+    "offenceTitle": "SPEEDING - EXCEED 5/18/20/30/40/50/60 MPH LIMIT FOR A GOODS VEHICLE - MANNED EQUIPMENT",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -79914,8 +83124,26 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "RR84233 ",
+    "offenceTitle": "EXCEED VARIABLE SPEED LIMIT IN CONTRAVENTION OF SECRETARY OF STATE ORDER - AUTOMATIC CAMERA DEVICE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "RR84700 ",
     "offenceTitle": "OFFENCE BY HORSEDRAWN VEHICLE AT PEDESTRIAN CROSSING",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RR84702 ",
+    "offenceTitle": "SPEEDING - EXCEED 40 MPH SPECIAL ROAD / MOTORWAY LIMIT - ACD",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RR84706 ",
+    "offenceTitle": "SPEEDING - EXCEED 30 MPH ON RESTRICTED ROAD IN ENGLAND - MANNED EQUIPMENT",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -84072,6 +87300,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "RT88750 ",
+    "offenceTitle": "MOTOR VEHICLE FAIL TO COMPLY WITH A NON ENDORSABLE TRAFFIC SIGN - DETECTED BY ACD",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "RT88751 ",
     "offenceTitle": "MOTOR VEHICLE FAIL TO COMPLY WITH A NON ENDORSABLE TRAFFIC SIGN - DETECTED BY MEANS OTHER THAN ACD",
     "recordableOnPnc": false,
@@ -84241,7 +87475,7 @@
   },
   {
     "cjsCode": "RT88975 ",
-    "offenceTitle": "DRIVE ON MOTORWAY, FAIL TO COMPLY WITH RED/GREEN ARROW/LANE CLOSURE SIGNALS - AUTOMATIC DETECTION",
+    "offenceTitle": "DRIVE ON ROAD OTHER THAN MOTORWAY, FAIL COMPLY WITH RED/GREEN ARROW/LANE CLOSURE LIGHT SIGNALS - MANUAL",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -85008,6 +88242,18 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "RV86019 ",
+    "offenceTitle": "USE A HANDHELD MOBILE PHONE/DEVICE WHILE DRIVING A MOTOR VEHICLE ON A ROAD - ENDURABLE OFFENCE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "RV86020 ",
+    "offenceTitle": "CAUSE USE OF A HAND-HELD MOBILE PHONE/DEVICE WHILE DRIVING A MOTOR VEHICLE ON A ROAD - ENDORSABLE OFFENCE",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "RV98022 ",
     "offenceTitle": "USE ON ROAD A RIGID M/VEH/TRACTOR UNIT/TRAILER/ARTICULATED BUS WHEN THE MAXIMUM WEIGHT EXCEEDED",
     "recordableOnPnc": false,
@@ -85596,6 +88842,18 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "SC15005 ",
+    "offenceTitle": "INTENTIONAL STRANGULATION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SC15006 ",
+    "offenceTitle": "INTENTIONAL SUFFOCATION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "SC92001 ",
     "offenceTitle": "IMPERSONATING REFEREE TO GIVE FORGED OR FALSE REFERENCE",
     "recordableOnPnc": false,
@@ -85664,6 +88922,12 @@
   {
     "cjsCode": "SD08009 ",
     "offenceTitle": "CONTRAVENE/FAIL TO COMPLY WITH A PROVISION OF REGULATION (EC) NO 110/2008",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SD12001 ",
+    "offenceTitle": "DESTROY/DAMAGE/RENDER INOPERATIVE/REMOVE/OTHERWISE INTERFERE WITH SCALLOP DREDGING TRACKING DEVICE",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -86136,6 +89400,48 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "SE20006 ",
+    "offenceTitle": "ATTEMPT TO BREACH SEXUAL HARM PREVENTION ORDER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SE20012 ",
+    "offenceTitle": "BREACH OF SEXUAL HARM PREVENTION ORDER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SE20013 ",
+    "offenceTitle": "BREACH OF SERIOUS VIOLENCE REDUCTION ORDER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SE20014 ",
+    "offenceTitle": "BREACH A PROHIBITION IN SERIOUS VIOLENCE REDUCTION ORDER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SE20015 ",
+    "offenceTitle": "NOTIFY FALSE INFORMATION TO POLICE IN PURPORTED COMPLIANCE WITH SERIOUS VIOLENCE REDUCTION ORDER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SE20016 ",
+    "offenceTitle": "TELL CONSTABLE THAT NOT SUBJECT TO SERIOUS VIOLENCE REDUCTION ORDER WHEN SUCH ORDER IN PLACE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SE20017 ",
+    "offenceTitle": "OBSTRUCT CONSTABLE IN EXERCISE OF POWERS RELATING TO SERIOUS VIOLENCE REDUCTION ORDER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "SE20501 ",
     "offenceTitle": "FAILING TO COMPLY WITH THE REQUIREMENTS OF A COMMUNITY ORDER",
     "recordableOnPnc": true,
@@ -86274,6 +89580,24 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "SE20A01 ",
+    "offenceTitle": "BREACH SEXUAL HARM PREVENTION ORDER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SE20A02 ",
+    "offenceTitle": "BREACH OF SERIOUS VIOLENCE REDUCTION ORDER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SE20A03 ",
+    "offenceTitle": "OBSTRUCT CONSTABLE IN EXERCISE OF POWERS RELATING TO SERIOUS VIOLENCE REDUCTION ORDER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "SF00001 ",
     "offenceTitle": "FAIL TO KEEP ACCURATE LOG BOOK",
     "recordableOnPnc": false,
@@ -86366,6 +89690,12 @@
   {
     "cjsCode": "SF67005 ",
     "offenceTitle": "CONTRAVENE A PROHIBITION/RESTRICTION IMPOSED BY AN ORDER MADE UNDER S5(1) OF THE ACT",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SF67008 ",
+    "offenceTitle": "USE FISHING BOAT IN CONTRAVENTION OF AN ORDER IMPOSED UNDER SECTION 4",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -87762,6 +91092,84 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "SI18011 ",
+    "offenceTitle": "UNLAWFULLY SEIZE A UK-LAUNCHED SPACECRAFT/EXERCISE CONTROL OF IT WHILST ON BOARD",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SI18012 ",
+    "offenceTitle": "UNLAWFULLY AND INTENTIONALLY DESTROY A UK-LAUNCHED SPACECRAFT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SI18013 ",
+    "offenceTitle": "UNLAWFULLY AND INTENTIONALLY DAMAGE A UK LAUNCHED SPACECRAFT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SI18016 ",
+    "offenceTitle": "UNLAWFULLY AND INTENTIONALLY PLACE/CAUSE TO BE PLACE A DEVICE/SUBSTANCE ON A SPACECRAFT LIKELY TO DESTROY IT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SI18017 ",
+    "offenceTitle": "UNLAWFULLY AND INTENTIONALLY PLACE/CAUSE TO BE PLACED A DEVICE/SUBSTANCE ON A SPACECRAFT LIKELY TO DAMAGE IT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SI18018 ",
+    "offenceTitle": "UNLAWFULLY & INTENTIONALLY PLACE/CAUSE BE PLACED DEVICE/SUBSTANCE ON A CARRIER LIKELY TO DESTROY SPACECRAFT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SI18019 ",
+    "offenceTitle": "UNLAWFULLY & INTENTIONALLY PLACE/CAUSE BE PLACED A DEVICE/SUBSTANCE ON A CARRIER LIKELY TO DAMAGE SPACECRAFT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SI18020 ",
+    "offenceTitle": "UNLAWFULLY & INTENTIONALLY DESTROY/DAMAGE PROPERTY USED FOR/IN CONNECTION WITH OPERATING A SPACECRAFT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SI18021 ",
+    "offenceTitle": "UNLAWFULLY & INTENTIONALLY INTERFERE WITH PROPERTY USED FOR/IN CONNECTION WITH OPERATING A SPACECRAFT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SI18022 ",
+    "offenceTitle": "INTENTIONALLY COMMUNICATE FALSE/MISLEADING/DECEPTIVE INFORMATION ENDANGERING SAFETY OF SPACECRAFT IN FLIGHT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SI18025 ",
+    "offenceTitle": "UNLAWFULLY & INTENTIONALLY DESTROY/SERIOUSLY DAMAGE PROPERTY USED FOR PROVISION OF FACILITIES AT SPACEPORT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SI18026 ",
+    "offenceTitle": "UNLAWFULLY & INTENTIONALLY DESTROY/SERIOUSLY DAMAGE PROPERTY OF SPACECRAFT OR CARRIER AIRCRAFT AT SPACEPORT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SI18027 ",
+    "offenceTitle": "UNLAWFULLY AND INTENTIONALLY DISRUPT THE SERVICES OF A SPACEPORT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "SL74001 ",
     "offenceTitle": "FAILING TO HAVE SLAUGHTERHOUSE OR KNACKER'S YARD LICENSED",
     "recordableOnPnc": false,
@@ -88539,6 +91947,12 @@
     "cjsCode": "SO05A02 ",
     "offenceTitle": "ORGANISER OF/PERSON TAKING PART IN DEMONSTRATION IN A DESIGNATED AREA FAIL COMPLY DIRECTION UNDER S.135",
     "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SO22001 ",
+    "offenceTitle": "UNDERTAKE FISHING OPERATIONS IN CONTRAVENTION OF ARTICLE 3, PARAGRAPH 1",
+    "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
   {
@@ -91296,6 +94710,114 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "SX03235 ",
+    "offenceTitle": "ARRANGE/FACILITATE THE COMMISSION OF CHILD SEX OFFENCE - RAPE/ASSAULT BY PENETRATION OF CHILD UNDER 13",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SX03236 ",
+    "offenceTitle": "ARRANGE/FACILITATE THE COMMISSION OF A CHILD SEX OFFENCE - SEXUAL ASSAULT OF A CHILD",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SX03237 ",
+    "offenceTitle": "ARRANGE/FACILITATE COMMISSION OF OFFENCE CAUSE/INCITE CHILD U13 TO ENGAGE IN SEXUAL ACTIVITY - PENETRATION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SX03238 ",
+    "offenceTitle": "ARRANGE/FACILITATE COMMISSION OFFENCE OF SEXUAL ACTIVITY CAUSE/INCITE CHILD TO ENGAGE - PENETRATION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SX03239 ",
+    "offenceTitle": "ARRANGE/FACILITATE COMMISSION OF CHILD SEX OFFENCE - SEXUAL ACTIVITY - NO PENETRATION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SX03240 ",
+    "offenceTitle": "ARRANGE/FACILITATE COMMISSION OFFENCE OF SEXUAL ACTIVITY IN PRESENCE OF CHILD/CAUSE CHILD TO WATCH SEX ACT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SX03241 ",
+    "offenceTitle": "ARRANGE/FACILITATE COMMISSION OF CHILD SEX OFFENCE COMMITTED BY CHILD/YOUNG PERSON",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SX03242 ",
+    "offenceTitle": "OPERATE EQUIPMENT TO OBSERVE ANOTHER WHILE BREAST-FEEDING CHILD",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SX03243 ",
+    "offenceTitle": "RECORD IMAGE OF ANOTHER WHILE BREAST-FEEDING A CHILD",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SX03244 ",
+    "offenceTitle": "BREACH SHPO/INTERIM SHPO",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SX03245 ",
+    "offenceTitle": "BREACH A SEXUAL RISK ORDER/INTERIM SEXUAL RISK ORDER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SX03246 ",
+    "offenceTitle": "BREACH A RISK OF SEXUAL HARM ORDER ETC",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SX03247 ",
+    "offenceTitle": "BREACH SOP/INTERIM SOPO/FOREIGN TRAVEL ORDER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SX03248 ",
+    "offenceTitle": "SEND PHOTOGRAPH OR FILM OF GENITALS TO CAUSE ALARM DISTRESS OR HUMILIATION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SX03249 ",
+    "offenceTitle": "SEND PHOTOGRAPH OR FILM OF PERSON IN INTIMATE STATE WITHOUT CONSENT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SX03250 ",
+    "offenceTitle": "SHARE PHOTOGRAPH OR FILM OF PERSON IN INTIMATE STATE INTENDING TO CAUSE ALARM DISTRESS OR HUMILIATION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SX03251 ",
+    "offenceTitle": "SHARE PHOTOGRAPH OR FILM OF PERSON IN INTIMATE STATE FOR THE PURPOSE OF SEXUAL GRATIFICATION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SX03252 ",
+    "offenceTitle": "THREATEN TO SHARE PHOTOGRAPH OR FILM F PERSON IN INTIMATE STATE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "SX03A01 ",
     "offenceTitle": "RAPE OF FEMALE",
     "recordableOnPnc": true,
@@ -91670,6 +95192,24 @@
   {
     "cjsCode": "SX03A63 ",
     "offenceTitle": "FAIL TO COMPLY WITH INITIAL NOTIFICATION REQUIREMENT",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SX03A64 ",
+    "offenceTitle": "ARRANGE/FACILITATE THE COMMISSION OF A CHILD SEX OFFENCE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SX03A65 ",
+    "offenceTitle": "BREACH SHPO/INTERIM SHPO/SOPO/INTERIM SOPO/FOREIGN TRAVEL ORDER",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "SX03A66 ",
+    "offenceTitle": "BREACH OF SEXUAL RISK/RISK OF SEXUAL HARM ORDER OR INTERIM SEXUAL RISK/RISK OF SEXUAL HARM ORDER ETC",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -92622,6 +96162,24 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "TA02023 ",
+    "offenceTitle": "FAIL TO COMPLY WITH REQUIREMENT OF AUTHORISED OFFICER OR TOBACCO ADVERTISING ENFORCEMENT AUTHORITY",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "TA02024 ",
+    "offenceTitle": "PROPRIETOR OR EDITOR OF TOBACCO ADVERTISEMENT PUBLISHED BY MEANS OF AN SOCIETY SERVICE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "TA02025 ",
+    "offenceTitle": "PROCURE INCLUSION OF TOBACCO ADVERTISEMENT IN INFORMATION SOCIETY SERVICE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "TA02A01 ",
     "offenceTitle": "PUBLISH A TOBACCO ADVERTISEMENT",
     "recordableOnPnc": true,
@@ -92762,6 +96320,24 @@
   {
     "cjsCode": "TB07002 ",
     "offenceTitle": "KEEPER OF BOVINE ANIMAL FAIL TO COMPLY WITH A NOTICE TO HAVE IT TESTED FOR TUBERCULOSIS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "TB10001 ",
+    "offenceTitle": "KEEPER FAIL TO COMPLY WITH NOTICE REQUIRING ISOLATION OF BOVINE ANIMALS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "TB10002 ",
+    "offenceTitle": "KEEPER/PERSON IN OCCUPATION OF PREMISES IN WALES FAIL TO ARRANGE ISOLATION OF BOVINE ANIMALS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "TB10003 ",
+    "offenceTitle": "KEEPER OF BOVINE ANIMAL IN WALES FAIL TO COMPLY WITH NOTICE SERVED BY VETERINARY INSPECTOR UNDER ART.10(3)",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -93847,13 +97423,13 @@
   },
   {
     "cjsCode": "TH68121 ",
-    "offenceTitle": "DRIVE STOLEN VEHICLE (OTHER THAN CAUSE DEATH), DAMAGE UNDER 2000 NOT ONLY AGGRAVATING FACTOR",
+    "offenceTitle": "DRIVE STOLEN VEHICLE (OTHER THAN CAUSE DEATH), DAMAGE UNDER £2000 NOT ONLY AGGRAVATING FACTOR",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "TH68122 ",
-    "offenceTitle": "BEING CARRIED IN STOLEN VEHICLE (OTHER THAN CAUSE DEATH), DAMAGE UNDER 2000 NOT ONLY AGGRAVATING FACTOR",
+    "offenceTitle": "BEING CARRIED IN STOLEN VEHICLE (OTHER THAN CAUSE DEATH), DAMAGE UNDER £2000 NOT ONLY AGGRAVATING FACTOR",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -93865,13 +97441,13 @@
   },
   {
     "cjsCode": "TH68124 ",
-    "offenceTitle": "DRIVE STOLEN VEHICLE WHERE DAMAGE BELOW 2000 IS THE ONLY AGGRAVATING FACTOR",
+    "offenceTitle": "DRIVE STOLEN VEHICLE WHERE DAMAGE BELOW £2000 IS THE ONLY AGGRAVATING FACTOR",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
   {
     "cjsCode": "TH68125 ",
-    "offenceTitle": "BEING CARRIED IN STOLEN VEHICLE WHERE DAMAGE BELOW 2000, IS THE ONLY AGGRAVATING FACTOR",
+    "offenceTitle": "BEING CARRIED IN STOLEN VEHICLE WHERE DAMAGE BELOW £2000, IS THE ONLY AGGRAVATING FACTOR",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -95262,6 +98838,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "TP16002 ",
+    "offenceTitle": "PRODUCER OF TOBACCO PRODUCT FOR SMOKING FAIL TO USE APPROPRIATE PHOTOS FOR COMBINED HEALTH WARNING",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "TP16004 ",
     "offenceTitle": "PRODUCE/SUPPLY A TOBACCO PRODUCT WITH UNIT PACK/CONTAINER NOT CARRYING REG 7 HEALTH WARNINGS",
     "recordableOnPnc": true,
@@ -95298,6 +98880,36 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "TP16015 ",
+    "offenceTitle": "PRODUCE/SUPPLY TOBACCO FOR ORAL USE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "TP16027 ",
+    "offenceTitle": "PRODUCER OF HERBAL PRODUCT FOR SMOKING SUPPLY PRODUCT PRIOR TO HAVING SUBMITTED REQUIRED INFO",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "TP16028 ",
+    "offenceTitle": "PRODUCER SUPPLYING/INTENDING TO SUPPLY ELECTRONIC CIGARETTES/REFILL CONTAINERS FAIL TO NOTIFY SEC OF STATE",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "TP16030 ",
+    "offenceTitle": "PRODUCER FAIL PROVIDE INFORMATION RE ELECTRONIC CIGARETTES/REFILL CONTAINERS FOLLOWING REG 31(1) REQUEST",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "TP16033 ",
+    "offenceTitle": "PRODUCER OF ELECTRONIC CIGARETTES/REFILLS SUPPLY PRODUCT PRIOR TO SUBMITTING NOTIFICATION IAW REG 31",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "TP16034 ",
     "offenceTitle": "PRODUCE/SUPPLY ELECTRONIC CIGARETTE/REFILL CONTAINER WHICH DID NOT COMPLY WITH PRODUCT REQUIREMENTS",
     "recordableOnPnc": true,
@@ -95306,6 +98918,12 @@
   {
     "cjsCode": "TP16035 ",
     "offenceTitle": "PRODUCE/SUPPLY ELECTRONIC CIGARETTE/REFILL CONTAINER WHICH DID NOT COMPLY WITH INFO/LABELLING REQUIREMENTS",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "TP16043 ",
+    "offenceTitle": "INCLUDE/PROCURE INCLUSION OF ELECTRONIC CIGARETTE ADVERTISEMENT IN UK INFORMATION SOCIETY SERVICE",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -95850,6 +99468,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "TR06032 ",
+    "offenceTitle": "TRANSMIT CONTENT OF A TERRORIST PUBLICATION ELECTRONICALLY",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "TR06033 ",
     "offenceTitle": "POSSESS TERRORIST PUBLICATION TO DISTRIBUTE/GIVE/SELL/ LEND ETC CONTENT ELECTRONICALLY",
     "recordableOnPnc": true,
@@ -95870,6 +99494,12 @@
   {
     "cjsCode": "TR06A03 ",
     "offenceTitle": "PROVIDE SERVICE RE READING/LISTENING TO A TERRORIST PUBLICATION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "TR06A04 ",
+    "offenceTitle": "TRANSMIT CONTENTS OF A TERRORIST PUBLICATION",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -96362,6 +99992,12 @@
   {
     "cjsCode": "TR68086 ",
     "offenceTitle": "DRIVER FAIL TO RETURN RECORD SHEET/MANUAL RECORD/PRINTOUT TO TRANSPORT UNDERTAKING",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "TR68091 ",
+    "offenceTitle": "CONTRAVENE REGULATION MADE UNDER SECTION 98(4)/REQUIREMENT OF COMMUNITY RULES RE BOOKS/RECORDS/DOCUMENTS",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -96888,6 +100524,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "TR68283 ",
+    "offenceTitle": "USE A TACHOGRAPH DRIVER CARD WHEN NOT THE IDENTIFIED HOLDER",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "TR68299 ",
     "offenceTitle": "EXCEED DAILY 9 HOUR DRIVING LIMIT - MORE THAN 9 LESS THAN 10 HOURS - AETR",
     "recordableOnPnc": false,
@@ -97184,6 +100826,12 @@
   {
     "cjsCode": "TR68549 ",
     "offenceTitle": "FAIL BY MANUFACTURER OF MOTION SENSOR/TACHOGRAPH CARD TO INFORM SEC. OF STATE OF SECURITY VULNERABILITIES",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "TR68551 ",
+    "offenceTitle": "DRIVER OF VEHICLE FAIL TO COMPLY WITH CONDITIONS OF WEEKLY REST - EC",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -97836,8 +101484,20 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "TS16006 ",
+    "offenceTitle": "FAIL TO COMPLY WITH RED LIGHT AT PUFFIN CROSSING",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "TS16012 ",
     "offenceTitle": "FAIL TO COMPLY WITH RED LIGHT AT SIGNAL-CONTROLLED CROSSING",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "TS16013 ",
+    "offenceTitle": "STOPPING VEHICLE IN CONTROLLED AREA OF SIGNAL CONTROL CROSSING",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -100032,6 +103692,12 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "VE94130 ",
+    "offenceTitle": "CONTRAVENE/FAIL COMPLY WITH REGULATIONS MADE UNDER S24 VEHICLE EXCISE AND REGISTRATION ACT 1994",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "VE94131 ",
     "offenceTitle": "CONTRAVENE/FAIL COMPLY WITH REGULATIONS MADE UNDER S.28 VEHICLE EXCISE AND REGISTRATION ACT 1994",
     "recordableOnPnc": false,
@@ -100040,6 +103706,12 @@
   {
     "cjsCode": "VE94134 ",
     "offenceTitle": "DRIVE VEHICLE - REGISTRATION MARK FAILING TO CONFORM",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "VE94135 ",
+    "offenceTitle": "KEEP A VEHICLE WHEN REGISTRATION MARK FAILS TO CONFORM WITH THE REGULATIONS",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -100359,6 +104031,66 @@
     "cjsCode": "VG24047 ",
     "offenceTitle": "PERSISTENTLY BEG",
     "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "VI22001 ",
+    "offenceTitle": "SUPPLY A COPY/DISCLOSE/MAKE USE OF INFORMATION CONTAINED IN ELECTORAL IDENTITY RECORDS",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "VI22002 ",
+    "offenceTitle": "FAIL TO TAKE PROPER PRECAUTIONS FOR THE SAFE CUSTODY OF ELECTORAL IDENTITY RECORDS",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "VI22003 ",
+    "offenceTitle": "RELEVANT OFFICER SUPPLY COPY/DISCLOSE/MAKE USE OF INFORMATION CONTAINED ELECTORAL DOCUMENTS/IDENTITY RECORDS",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "VI22004 ",
+    "offenceTitle": "RELEVANT OFFICER FAIL TO TAKE PROPER PRECAUTIONS FOR SAFE CUSTODY OF SUPPLIED ELECTORAL DOCS/IDENTITY RECORD",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "VI22006 ",
+    "offenceTitle": "CONSTABLE/OFFICER/EMPLOYEE FAIL TO TAKE PROPER PRECAUTIONS FOR SAFE CUSTODY OF ELECTORAL RECORDS",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "VI22007 ",
+    "offenceTitle": "DISCLOSE INFORMATION PROVIDED IN AN IDENTITY DOCUMENT APPLICATION",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "VI22008 ",
+    "offenceTitle": "OTHER PERSON SUPPLY COPY/DISCLOSE/MAKE USE OF INFORMATION IN ELECTORAL DOCUMENTS",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "VI22009 ",
+    "offenceTitle": "PERSON OTHER THAN CONSTABLE/OFFICER/EMPLOYEE SUPPLY COPY/DISCLOSE/ MAKE USE OF INFORMATION IN ELECTORAL DOCS",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "VI22010 ",
+    "offenceTitle": "OTHER PERSON FAIL TO TAKE PROPER PRECAUTIONS FOR SAFE CUSTODY OF ELECTORAL RECORDS",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "VI22011 ",
+    "offenceTitle": "PERSON OTHER THAN CONSTABLE/OFFICER/EMPLOYEE FAIL TAKE PROPER PRECAUTIONS FOR SAFE CUSTODY ELECTORAL RECORDS",
+    "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
   {
@@ -101858,6 +105590,12 @@
   {
     "cjsCode": "WA06001 ",
     "offenceTitle": "TRANSPORTER TRANSPORTED AN ANIMAL NOT FIT FOR THE INTENDED JOURNEY",
+    "recordableOnPnc": true,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "WA06003 ",
+    "offenceTitle": "TRANSPORTER TRANSPORTED AN ANIMAL IN A WAY WHICH WAS LIKELY TO CAUSE INJURY OF SUFFERING TO THE ANIMAL",
     "recordableOnPnc": true,
     "resultHalfLifeHours": null
   },
@@ -104280,6 +108018,24 @@
     "resultHalfLifeHours": null
   },
   {
+    "cjsCode": "WE13087 ",
+    "offenceTitle": "OPERATOR OF AATF/APPROVED EXPORTER FAIL TO COMPLY WITH CONDITION OF APPROVAL",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "WE13100 ",
+    "offenceTitle": "AATF OPERATOR/APPROVED EXPORTER KNOWINGLY FURNISH FALSE OR MISLEADING INFORMATION IN REGULATION 66 REPORT",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "WE13101 ",
+    "offenceTitle": "AATF OPERATOR/APPROVED EXPORTER RECKLESSLY FURNISH FALSE OR MISLEADING INFORMATION IN REGULATION 66 REPORT",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
     "cjsCode": "WE13113 ",
     "offenceTitle": "RECKLESSLY FURNISH FALSE INFORMATION TO PERSON ACTING IN EXECUTION OF THE WASTE ELECTRICAL REGULATIONS",
     "recordableOnPnc": false,
@@ -104522,6 +108278,12 @@
   {
     "cjsCode": "WH20033 ",
     "offenceTitle": "FAIL TO COMPLY WITH SELF ISOLATION REQUIREMENTS FOLLOWING CLOSE CONTACT TO CORONAVIRUS",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "WH20036 ",
+    "offenceTitle": "PERSON LIVING IN WALES LEFT WALES TO ENTER/REMAIN IN RESTRICTED UK AREA W/O REASONABLE EXCUSE - CORONAVIRUS",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },
@@ -107282,6 +111044,12 @@
   {
     "cjsCode": "WS99002 ",
     "offenceTitle": "FAILED TO GIVE NOTICE TO WATER UNDERTAKER OF THE INTENDED INSTALLATION OF WATER FITTING",
+    "recordableOnPnc": false,
+    "resultHalfLifeHours": null
+  },
+  {
+    "cjsCode": "WS99003 ",
+    "offenceTitle": "UNLAWFULLY INSTALL/CONNECT/ARRANGE/USE WATER SUPPLY FITTING CAUSING WASTE/MISUSE/UNDUE CONSUMPTION ETC",
     "recordableOnPnc": false,
     "resultHalfLifeHours": null
   },

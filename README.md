@@ -67,3 +67,15 @@ $ npm run download-organisation-unit-data
 ## Consistently Formatting Data
 
 In order to make differences between versions of data easy to read, the data should be sorted before committing. This can be done by running `./data-formatter/format.sh` from the root of the repository. This will sort the arrays of data by alphabetical attribute name and then output them with their attributes sorted.
+
+## Importing new data from the PNC
+
+Follow these steps to import an updated data export from the PNC.
+
+1. Ask Ben to request a new export (note: at the moment this needs sending from Ben's CJSM as that's the only approved address)
+2. Receive the files
+3. Unzip the files and place the xlsx docs in the root of this project (note: the files are normally named the same way each time, but they should end in `.CJS.xlsx` and `FSCODE.xlsx` for them to be found automatically. You can ignore the file ending in `ACPO.xlsx`)
+4. Run `npm run import-pnc-data` to convert these xlsx files to JSON
+5. Run `npm run merge-offence-data` to regenerate the standing data based on these new input files
+6. Make a PR
+7. Delete the xlsx files

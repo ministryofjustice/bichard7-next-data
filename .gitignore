@@ -6,3 +6,4 @@ dist
 target
 .idea
 output-data/data/triggers.properties
+*.xlsx
