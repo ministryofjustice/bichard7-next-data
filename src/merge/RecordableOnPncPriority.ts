@@ -15,20 +15,23 @@ export default class RecordableOnPncPriority {
   getHighestPriority(cjsCode: string): boolean {
     const matchCjsCode = getMatchCjsCodeFunction(cjsCode)
 
-    if (this.civilLibraOffenceCodes.find(matchCjsCode)) {
-      return this.currentOffenceCodes.find(matchCjsCode)!.recordableOnPnc as boolean
+    if (typeof this.pncOffenceCodes.find(matchCjsCode)?.recordableOnPnc === "boolean") {
+      return this.pncOffenceCodes.find(matchCjsCode)!.recordableOnPnc as boolean
     }
-    if (this.nrcOffenceCodes.find(matchCjsCode)?.recordableOnPnc) {
+    if (typeof this.civilLibraOffenceCodes.find(matchCjsCode)?.recordableOnPnc === "boolean") {
+      return this.civilLibraOffenceCodes.find(matchCjsCode)!.recordableOnPnc as boolean
+    }
+    if (typeof this.nrcOffenceCodes.find(matchCjsCode)?.recordableOnPnc === "boolean") {
       return this.nrcOffenceCodes.find(matchCjsCode)!.recordableOnPnc as boolean
     }
-    if (this.localOffenceCodes.find(matchCjsCode)?.recordableOnPnc) {
+    if (typeof this.localOffenceCodes.find(matchCjsCode)?.recordableOnPnc === "boolean") {
       return this.localOffenceCodes.find(matchCjsCode)!.recordableOnPnc as boolean
     }
-    if (this.pnldOffenceCodes.find(matchCjsCode)?.recordableOnPnc) {
+    if (typeof this.pnldOffenceCodes.find(matchCjsCode)?.recordableOnPnc === "boolean") {
       return this.pnldOffenceCodes.find(matchCjsCode)!.recordableOnPnc as boolean
     }
-    if (this.pncOffenceCodes.find(matchCjsCode)?.recordableOnPnc) {
-      return this.pncOffenceCodes.find(matchCjsCode)!.recordableOnPnc as boolean
+    if (typeof this.currentOffenceCodes.find(matchCjsCode)?.recordableOnPnc === "boolean") {
+      return this.currentOffenceCodes.find(matchCjsCode)!.recordableOnPnc as boolean
     }
     return false
   }

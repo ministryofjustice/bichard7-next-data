@@ -1,6 +1,6 @@
+import consistentWhitespace from "../lib/consistentWhitespace"
 import { OffenceCode } from "../types/OffenceCode"
 import getMatchCjsCodeFunction from "./getMatchCjsCodeFunction"
-import consistentWhitespace from "../lib/consistentWhitespace"
 
 export default class OffenceTitlePriority {
   /* eslint-disable no-unused-vars */
@@ -20,8 +20,8 @@ export default class OffenceTitlePriority {
 
     let title: string | undefined = defaultTitle
 
-    if (this.civilLibraOffenceCodes.find(matchCjsCode)) {
-      title = this.currentOffenceCodes.find(matchCjsCode)?.offenceTitle
+    if (this.civilLibraOffenceCodes.find(matchCjsCode)?.offenceTitle) {
+      title = this.civilLibraOffenceCodes.find(matchCjsCode)!.offenceTitle
     } else if (this.nrcOffenceCodes.find(matchCjsCode)?.offenceTitle) {
       title = this.nrcOffenceCodes.find(matchCjsCode)!.offenceTitle as string
     } else if (this.localOffenceCodes.find(matchCjsCode)?.offenceTitle) {
@@ -32,6 +32,8 @@ export default class OffenceTitlePriority {
       title = this.cjsOffenceCodes.find(matchCjsCode)!.offenceTitle as string
     } else if (this.pncOffenceCodes.find(matchCjsCode)?.offenceTitle) {
       title = this.pncOffenceCodes.find(matchCjsCode)!.offenceTitle as string
+    } else if (this.currentOffenceCodes.find(matchCjsCode)?.offenceTitle) {
+      title = this.currentOffenceCodes.find(matchCjsCode)!.offenceTitle as string
     }
     return consistentWhitespace(title)
   }

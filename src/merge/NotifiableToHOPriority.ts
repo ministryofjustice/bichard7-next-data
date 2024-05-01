@@ -15,17 +15,20 @@ export default class NotifiableToHOPriority {
     const defaultValue = false
     const matchCjsCode = getMatchCjsCodeFunction(cjsCode)
 
-    if (this.civilLibraOffenceCodes.find(matchCjsCode)) {
-      return this.currentOffenceCodes.find(matchCjsCode)!.notifiableToHo as boolean
+    if (typeof this.civilLibraOffenceCodes.find(matchCjsCode) === "boolean") {
+      return this.civilLibraOffenceCodes.find(matchCjsCode)!.notifiableToHo as boolean
     }
-    if (this.nrcOffenceCodes.find(matchCjsCode)?.notifiableToHo) {
+    if (typeof this.nrcOffenceCodes.find(matchCjsCode)?.notifiableToHo === "boolean") {
       return this.nrcOffenceCodes.find(matchCjsCode)!.notifiableToHo as boolean
     }
-    if (this.localOffenceCodes.find(matchCjsCode)?.notifiableToHo) {
+    if (typeof this.localOffenceCodes.find(matchCjsCode)?.notifiableToHo === "boolean") {
       return this.localOffenceCodes.find(matchCjsCode)!.notifiableToHo as boolean
     }
-    if (this.pnldOffenceCodes.find(matchCjsCode)?.notifiableToHo) {
+    if (typeof this.pnldOffenceCodes.find(matchCjsCode)?.notifiableToHo === "boolean") {
       return this.pnldOffenceCodes.find(matchCjsCode)!.notifiableToHo as boolean
+    }
+    if (typeof this.currentOffenceCodes.find(matchCjsCode) === "boolean") {
+      return this.currentOffenceCodes.find(matchCjsCode)!.notifiableToHo as boolean
     }
     return defaultValue
   }

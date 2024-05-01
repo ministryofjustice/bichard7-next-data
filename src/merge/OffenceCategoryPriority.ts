@@ -5,6 +5,7 @@ export default class OffenceCategoryPriority {
   /* eslint-disable no-unused-vars */
   constructor(
     private currentOffenceCodes: OffenceCode[],
+    private cjsOffenceCodes: OffenceCode[],
     private offenceCodeB7CategoryOverrides: string[],
     private civilLibraOffenceCodes: OffenceCode[],
     private nrcOffenceCodes: OffenceCode[],
@@ -21,7 +22,7 @@ export default class OffenceCategoryPriority {
       return "B7"
     }
     if (this.civilLibraOffenceCodes.find(matchCjsCode)) {
-      return this.currentOffenceCodes.find(matchCjsCode)!.offenceCategory as string
+      return this.civilLibraOffenceCodes.find(matchCjsCode)!.offenceCategory as string
     }
     if (this.nrcOffenceCodes.find(matchCjsCode)?.offenceCategory) {
       return this.nrcOffenceCodes.find(matchCjsCode)!.offenceCategory as string
@@ -32,8 +33,14 @@ export default class OffenceCategoryPriority {
     if (this.pnldOffenceCodes.find(matchCjsCode)?.offenceCategory) {
       return this.pnldOffenceCodes.find(matchCjsCode)!.offenceCategory as string
     }
+    if (this.cjsOffenceCodes.find(matchCjsCode)) {
+      return this.cjsOffenceCodes.find(matchCjsCode)!.offenceCategory as string
+    }
     if (this.pncOffenceCodes.find(matchCjsCode)?.offenceCategory) {
       return this.pncOffenceCodes.find(matchCjsCode)!.offenceCategory as string
+    }
+    if (this.currentOffenceCodes.find(matchCjsCode)) {
+      return this.currentOffenceCodes.find(matchCjsCode)!.offenceCategory as string
     }
     return defaultCategory
   }

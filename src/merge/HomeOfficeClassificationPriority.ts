@@ -15,8 +15,8 @@ export default class HomeOfficeClassifictionPriority {
     const defaultValue = "000/00"
     const matchCjsCode = getMatchCjsCodeFunction(cjsCode)
 
-    if (this.civilLibraOffenceCodes.find(matchCjsCode)) {
-      return this.currentOffenceCodes.find(matchCjsCode)!.homeOfficeClassification as string
+    if (this.civilLibraOffenceCodes.find(matchCjsCode)?.homeOfficeClassification) {
+      return this.civilLibraOffenceCodes.find(matchCjsCode)!.homeOfficeClassification as string
     }
     if (this.nrcOffenceCodes.find(matchCjsCode)?.homeOfficeClassification) {
       return this.nrcOffenceCodes.find(matchCjsCode)!.homeOfficeClassification as string
@@ -26,6 +26,9 @@ export default class HomeOfficeClassifictionPriority {
     }
     if (this.pnldOffenceCodes.find(matchCjsCode)?.homeOfficeClassification) {
       return this.pnldOffenceCodes.find(matchCjsCode)!.homeOfficeClassification as string
+    }
+    if (this.currentOffenceCodes.find(matchCjsCode)?.homeOfficeClassification) {
+      return this.currentOffenceCodes.find(matchCjsCode)!.homeOfficeClassification as string
     }
     return defaultValue
   }

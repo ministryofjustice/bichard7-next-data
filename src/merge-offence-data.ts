@@ -36,6 +36,7 @@ const main = async () => {
 
   const offenceCategory = new OffenceCategoryPriority(
     currentOffenceCodes as OffenceCode[],
+    cjsOffenceCodes as OffenceCode[],
     offenceCodeB7CategoryOverrides as string[],
     civilLibraOffenceCodes as OffenceCode[],
     nrcOffenceCodes as OffenceCode[],
