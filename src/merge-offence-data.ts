@@ -2,7 +2,6 @@ import fs from "fs"
 import offenceCodeB7CategoryOverrides from "../input-data/offence-code/b7-overrides.json"
 import cjsOffenceCodes from "../input-data/offence-code/cjs-offences.json"
 import legacyOverrides from "../input-data/offence-code/legacy-dataset-overrides.json"
-import localOffenceCodes from "../input-data/offence-code/local-offences.json"
 import pncCcjsOffenceCodes from "../input-data/offence-code/pnc-ccjs-cjs-offences.json"
 import pnldOffenceCodes from "../input-data/offence-code/pnld-offences.json"
 import currentOffenceCodes from "../output-data/data/offence-code.json"
@@ -18,13 +17,11 @@ import { OffenceCode } from "./types/OffenceCode"
 const main = async () => {
   const hoClassification = new HomeOfficeClassifictionPriority(
     currentOffenceCodes as OffenceCode[],
-    localOffenceCodes as OffenceCode[],
     pnldOffenceCodes as OffenceCode[]
   )
 
   const notifiableToHo = new NotifiableToHOPriority(
     currentOffenceCodes as OffenceCode[],
-    localOffenceCodes as OffenceCode[],
     pnldOffenceCodes as OffenceCode[]
   )
 
@@ -32,14 +29,12 @@ const main = async () => {
     currentOffenceCodes as OffenceCode[],
     cjsOffenceCodes as OffenceCode[],
     offenceCodeB7CategoryOverrides as string[],
-    localOffenceCodes as OffenceCode[],
     pnldOffenceCodes as OffenceCode[],
     pncCcjsOffenceCodes as OffenceCode[]
   )
 
   const offenceTitle = new OffenceTitlePriority(
     currentOffenceCodes as OffenceCode[],
-    localOffenceCodes as OffenceCode[],
     pnldOffenceCodes as OffenceCode[],
     cjsOffenceCodes as OffenceCode[],
     pncCcjsOffenceCodes as OffenceCode[]
@@ -47,21 +42,18 @@ const main = async () => {
 
   const recordableOnPnc = new RecordableOnPncPriority(
     currentOffenceCodes as OffenceCode[],
-    localOffenceCodes as OffenceCode[],
     pnldOffenceCodes as OffenceCode[],
     pncCcjsOffenceCodes as OffenceCode[]
   )
 
   const currentOffenceCodeKeys = (currentOffenceCodes as OffenceCode[]).map((oc) => oc.cjsCode)
   const legacyOverrideKeys = legacyOverrides.map((oc) => oc.cjsCode)
-  const localOffenceCodeKeys = localOffenceCodes.map((oc) => oc.cjsCode)
   const pnldOffenceCodeKeys = (pnldOffenceCodes as OffenceCode[]).map((oc) => oc.cjsCode)
   const cjsOffenceCodeKeys = cjsOffenceCodes.map((oc) => oc.cjsCode)
   const pncOffenceCodeKeys = pncCcjsOffenceCodes.map((oc) => oc.cjsCode)
 
   const allOffenceCodeKeys = currentOffenceCodeKeys.concat(
     legacyOverrideKeys,
-    localOffenceCodeKeys,
     pnldOffenceCodeKeys,
     cjsOffenceCodeKeys,
     pncOffenceCodeKeys

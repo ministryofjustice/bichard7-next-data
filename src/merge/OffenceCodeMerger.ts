@@ -7,7 +7,6 @@ import OffenceTitlePriority from "./OffenceTitlePriority"
 import RecordableOnPncPriority from "./RecordableOnPncPriority"
 
 export default class OffenceCodeMerger {
-  /* eslint-disable no-unused-vars */
   constructor(
     private offenceCodeKeys: string[],
     private legacyOverrides: OffenceCode[],

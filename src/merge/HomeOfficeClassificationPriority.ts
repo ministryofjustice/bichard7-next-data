@@ -2,10 +2,8 @@ import { OffenceCode } from "../types/OffenceCode"
 import getMatchCjsCodeFunction from "./getMatchCjsCodeFunction"
 
 export default class HomeOfficeClassifictionPriority {
-  /* eslint-disable no-unused-vars */
   constructor(
     private currentOffenceCodes: OffenceCode[],
-    private localOffenceCodes: OffenceCode[],
     private pnldOffenceCodes: OffenceCode[]
   ) {}
 
@@ -13,9 +11,6 @@ export default class HomeOfficeClassifictionPriority {
     const defaultValue = "000/00"
     const matchCjsCode = getMatchCjsCodeFunction(cjsCode)
 
-    if (this.localOffenceCodes.find(matchCjsCode)?.homeOfficeClassification) {
-      return this.localOffenceCodes.find(matchCjsCode)!.homeOfficeClassification as string
-    }
     if (this.pnldOffenceCodes.find(matchCjsCode)?.homeOfficeClassification) {
       return this.pnldOffenceCodes.find(matchCjsCode)!.homeOfficeClassification as string
     }

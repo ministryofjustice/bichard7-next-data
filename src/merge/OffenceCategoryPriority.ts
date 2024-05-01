@@ -2,12 +2,10 @@ import { OffenceCode } from "../types/OffenceCode"
 import getMatchCjsCodeFunction from "./getMatchCjsCodeFunction"
 
 export default class OffenceCategoryPriority {
-  /* eslint-disable no-unused-vars */
   constructor(
     private currentOffenceCodes: OffenceCode[],
     private cjsOffenceCodes: OffenceCode[],
     private offenceCodeB7CategoryOverrides: string[],
-    private localOffenceCodes: OffenceCode[],
     private pnldOffenceCodes: OffenceCode[],
     private pncOffenceCodes: OffenceCode[]
   ) {}
@@ -18,9 +16,6 @@ export default class OffenceCategoryPriority {
 
     if (this.offenceCodeB7CategoryOverrides.indexOf(cjsCode) > -1) {
       return "B7"
-    }
-    if (this.localOffenceCodes.find(matchCjsCode)?.offenceCategory) {
-      return this.localOffenceCodes.find(matchCjsCode)!.offenceCategory as string
     }
     if (this.pnldOffenceCodes.find(matchCjsCode)?.offenceCategory) {
       return this.pnldOffenceCodes.find(matchCjsCode)!.offenceCategory as string
