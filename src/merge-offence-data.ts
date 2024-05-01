@@ -18,12 +18,16 @@ const cjsOffenceCodeLookup = createOffenceCodeLookup(cjsOffenceCodes)
 const pnldOffenceCodeLookup = createOffenceCodeLookup(pnldOffenceCodes)
 const pncOffenceCodeLookup = createOffenceCodeLookup(pncOffenceCodes)
 
+const validOffenceCodeFilter = (oc: string): boolean => /^[0-9A-Za-z]+$/.test(oc)
+
 const allOffenceCodeKeys = new Set(
-  Object.keys(currentOffenceCodeLookup).concat(
-    Object.keys(pnldOffenceCodeLookup),
-    Object.keys(cjsOffenceCodeLookup),
-    Object.keys(pncOffenceCodeLookup)
-  )
+  Object.keys(currentOffenceCodeLookup)
+    .concat(
+      Object.keys(pnldOffenceCodeLookup),
+      Object.keys(cjsOffenceCodeLookup),
+      Object.keys(pncOffenceCodeLookup)
+    )
+    .filter(validOffenceCodeFilter)
 )
 
 const main = async () => {
