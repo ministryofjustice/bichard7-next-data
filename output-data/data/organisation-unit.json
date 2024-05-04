@@ -94,7 +94,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "BB",
     "thirdLevelName": "Barbican (Aldersgate House)",
-    "thirdLevelPsaCode": "0413",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -105,7 +105,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "BE",
     "thirdLevelName": "Belmarsh",
-    "thirdLevelPsaCode": "2575",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -116,7 +116,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "BH",
     "thirdLevelName": "Bexley",
-    "thirdLevelPsaCode": "2575",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -127,7 +127,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "BL",
     "thirdLevelName": "Blackfriars",
-    "thirdLevelPsaCode": "0428",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -138,7 +138,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "CE",
     "thirdLevelName": "Central Criminal Court",
-    "thirdLevelPsaCode": "0413",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -149,7 +149,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "CE",
     "thirdLevelName": "Willesden",
-    "thirdLevelPsaCode": "2571",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -160,7 +160,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "CJ",
     "thirdLevelName": "Royal Courts of Justice",
-    "thirdLevelPsaCode": "0413",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -171,7 +171,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "CN",
     "thirdLevelName": "Bromley (London Road)",
-    "thirdLevelPsaCode": "2575",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -182,7 +182,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "CX",
     "thirdLevelName": "Camberwell Green",
-    "thirdLevelPsaCode": "2576",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -193,7 +193,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "CY",
     "thirdLevelName": "Croydon",
-    "thirdLevelPsaCode": "0418",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -204,7 +204,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "DU",
     "thirdLevelName": "City of London (Queen Victoria Street)",
-    "thirdLevelPsaCode": "2570",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -215,7 +215,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "EF",
     "thirdLevelName": "Croydon",
-    "thirdLevelPsaCode": "2576",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -226,7 +226,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "FA",
     "thirdLevelName": "Ealing",
-    "thirdLevelPsaCode": "2578",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -237,7 +237,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "GQ",
     "thirdLevelName": "Hendon",
-    "thirdLevelPsaCode": "2571",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -248,7 +248,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "GU",
     "thirdLevelName": "Highbury Corner",
-    "thirdLevelPsaCode": "2572",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -259,7 +259,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "HA",
     "thirdLevelName": "Harrow",
-    "thirdLevelPsaCode": "0468",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -270,7 +270,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "HG",
     "thirdLevelName": "ILCFPC (Wells Street)",
-    "thirdLevelPsaCode": "6700",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -281,7 +281,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "IL",
     "thirdLevelName": "Inner London",
-    "thirdLevelPsaCode": "0440",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -292,7 +292,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "IS",
     "thirdLevelName": "Isleworth",
-    "thirdLevelPsaCode": "0475",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -303,7 +303,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "IX",
     "thirdLevelName": "Westminster Magistrates' Court",
-    "thirdLevelPsaCode": "2570",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -314,7 +314,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "JI",
     "thirdLevelName": "Jury's Inn Croydon",
-    "thirdLevelPsaCode": "0418",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -325,7 +325,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "KR",
     "thirdLevelName": "Barkingside",
-    "thirdLevelPsaCode": "2573",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -336,7 +336,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "KT",
     "thirdLevelName": "Kingston upon Thames",
-    "thirdLevelPsaCode": "0427",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -347,7 +347,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "LA",
     "thirdLevelName": "Romford",
-    "thirdLevelPsaCode": "2573",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -358,7 +358,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "LY",
     "thirdLevelName": "Lavender Hill",
-    "thirdLevelPsaCode": "2577",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -369,7 +369,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "MN",
     "thirdLevelName": "Stratford",
-    "thirdLevelPsaCode": "2574",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -380,7 +380,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "MU",
     "thirdLevelName": "Monument",
-    "thirdLevelPsaCode": "0413",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -391,7 +391,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "ND",
     "thirdLevelName": "Thames",
-    "thirdLevelPsaCode": "2574",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -402,7 +402,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "NM",
     "thirdLevelName": "Uxbridge",
-    "thirdLevelPsaCode": "2578",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -413,7 +413,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "OB",
     "thirdLevelName": "Hammersmith",
-    "thirdLevelPsaCode": "2570",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -424,7 +424,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "OK",
     "thirdLevelName": "Wimbledon",
-    "thirdLevelPsaCode": "2577",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -435,7 +435,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "RB",
     "thirdLevelName": "Bow (County Court, Romford Road)",
-    "thirdLevelPsaCode": "2574",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -446,7 +446,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "RC",
     "thirdLevelName": "Brentford (County Court, Alexandra Road)",
-    "thirdLevelPsaCode": "2578",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -457,7 +457,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "RD",
     "thirdLevelName": "Bromley (County Court, College Road)",
-    "thirdLevelPsaCode": "2575",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -468,7 +468,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "RE",
     "thirdLevelName": "Central London (County Court, Park Crescent)",
-    "thirdLevelPsaCode": "2570",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -479,7 +479,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "RF",
     "thirdLevelName": "Clerkenwell and Shoreditch (County Court, Gee Street)",
-    "thirdLevelPsaCode": "2574",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -490,7 +490,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "RG",
     "thirdLevelName": "Edmonton (County Court, Fore Street)",
-    "thirdLevelPsaCode": "2572",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -501,7 +501,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "RJ",
     "thirdLevelName": "Lambeth (County Court, Cleaver Street)",
-    "thirdLevelPsaCode": "2577",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -512,7 +512,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "RK",
     "thirdLevelName": "Romford (County Court, Oaklands Avenue)",
-    "thirdLevelPsaCode": "2573",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -523,7 +523,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "RL",
     "thirdLevelName": "The Mayor's and City of London (County Court, Guildhall)",
-    "thirdLevelPsaCode": "2570",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -534,7 +534,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "RM",
     "thirdLevelName": "Uxbridge (County Court, Uxbridge Road)",
-    "thirdLevelPsaCode": "2578",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -545,7 +545,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "RN",
     "thirdLevelName": "Wandsworth (County Court, Upper Richmond Road)",
-    "thirdLevelPsaCode": "2577",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -556,7 +556,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "RO",
     "thirdLevelName": "West London (County Court, Talgarth Road)",
-    "thirdLevelPsaCode": "2570",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -567,7 +567,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "RP",
     "thirdLevelName": "Willesden (County Court, Acton Lane)",
-    "thirdLevelPsaCode": "2571",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -578,7 +578,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "RQ",
     "thirdLevelName": "Woolwich (County Court, Powis Street)",
-    "thirdLevelPsaCode": "2575",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -589,7 +589,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "SN",
     "thirdLevelName": "Snaresbrook",
-    "thirdLevelPsaCode": "0453",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -600,7 +600,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "SP",
     "thirdLevelName": "Southwark (Prospero House)",
-    "thirdLevelPsaCode": "0471",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -611,7 +611,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "SW",
     "thirdLevelName": "Southwark",
-    "thirdLevelPsaCode": "0471",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -622,7 +622,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "WG",
     "thirdLevelName": "Wood Green",
-    "thirdLevelPsaCode": "0469",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -633,7 +633,7 @@
     "secondLevelName": "London",
     "thirdLevelCode": "WL",
     "thirdLevelName": "Woolwich",
-    "thirdLevelPsaCode": "0472",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -643,7 +643,7 @@
     "secondLevelCode": "01",
     "secondLevelName": "Metropolitan Police Service",
     "thirdLevelCode": "00",
-    "thirdLevelName": "PNC SPECIALIST ENQUIRIES (FORMERLY-PNC- POLICY AND PLANNING)",
+    "thirdLevelName": "PNC SPECIALIST ENQUIRIES",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -1909,6 +1909,17 @@
     "secondLevelName": "Metropolitan Police Service",
     "thirdLevelCode": "OD",
     "thirdLevelName": "PAN LONDON WOMENS REDUCING RE-OFFENDING PROGRAMME",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "01",
+    "secondLevelName": "Metropolitan Police Service",
+    "thirdLevelCode": "OF",
+    "thirdLevelName": "OUT OF FORCE ARRESTS ONLY",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -3679,7 +3690,7 @@
     "secondLevelCode": "02",
     "secondLevelName": "Metropolitan Police Service",
     "thirdLevelCode": "00",
-    "thirdLevelName": "PNC SPECIALIST ENQUIRIES (FORMERLY PNC- POLICY AND PLANNING)",
+    "thirdLevelName": "PNC SPECIALIST ENQUIRIES",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -3789,7 +3800,7 @@
     "secondLevelCode": "02",
     "secondLevelName": "Metropolitan Police Service",
     "thirdLevelCode": "AX",
-    "thirdLevelName": "SO6 BRANCH DPG (DIPLOMATIC PROTECTION DEPARTMENT)",
+    "thirdLevelName": "PARLIAMENTARY AND DIPLOMATIC PROTECTION",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -3932,7 +3943,7 @@
     "secondLevelCode": "02",
     "secondLevelName": "Metropolitan Police Service",
     "thirdLevelCode": "BQ",
-    "thirdLevelName": "PNC BUREAU 24 HOURS SSS-REFERENCING AND VETTING FORMERLY SCO26",
+    "thirdLevelName": "PNC BUREAU REFERENCING AND VETTING (AVAILABLE 24 HOURS)",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -4108,7 +4119,7 @@
     "secondLevelCode": "02",
     "secondLevelName": "Metropolitan Police Service",
     "thirdLevelCode": "CC",
-    "thirdLevelName": "SCD6 STOLEN MOTOR VEHICLE SQUAD. (EX OCG, SO1-6 SO7(4) C10) MON-FRI 7AM-7PM",
+    "thirdLevelName": "OVCU - ORGANISED VEHICLE CRIME UNIT MON-FRI 9AM-5PM",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -4153,6 +4164,28 @@
     "secondLevelName": "Metropolitan Police Service",
     "thirdLevelCode": "CJ",
     "thirdLevelName": "CRIMIMAL JUSTICE PORTFOLIO",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "02",
+    "secondLevelName": "Metropolitan Police Service",
+    "thirdLevelCode": "CK",
+    "thirdLevelName": "NON STANDARD UNIT",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "02",
+    "secondLevelName": "Metropolitan Police Service",
+    "thirdLevelCode": "CL",
+    "thirdLevelName": "NON STANDARD UNIT",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -4305,6 +4338,17 @@
     "bottomLevelName": "",
     "secondLevelCode": "02",
     "secondLevelName": "Metropolitan Police Service",
+    "thirdLevelCode": "DO",
+    "thirdLevelName": "DPA DATA DISPUTES TEAM",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "02",
+    "secondLevelName": "Metropolitan Police Service",
     "thirdLevelCode": "DQ",
     "thirdLevelName": "02DQ",
     "thirdLevelPsaCode": "",
@@ -4405,7 +4449,7 @@
     "secondLevelCode": "02",
     "secondLevelName": "Metropolitan Police Service",
     "thirdLevelCode": "F1",
-    "thirdLevelName": "FIREARMS ENQUIRY AREA 1 DAF REPORTS TO:",
+    "thirdLevelName": "FIREARMS ENQUIRY TEAM DAF REPORTS TO:",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -4416,7 +4460,7 @@
     "secondLevelCode": "02",
     "secondLevelName": "Metropolitan Police Service",
     "thirdLevelCode": "F2",
-    "thirdLevelName": "FIREARMS ENQUIRY AREA 2 DAF REPORTS TO:",
+    "thirdLevelName": "FIREARMS ENQUIRY TEAM DAF REPORTS TO:",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -4427,7 +4471,7 @@
     "secondLevelCode": "02",
     "secondLevelName": "Metropolitan Police Service",
     "thirdLevelCode": "F3",
-    "thirdLevelName": "FIREARMS ENQUIRY AREA 3 DAF REPORTS TO:",
+    "thirdLevelName": "FIREARMS ENQUIRY TEAM DAF REPORTS TO:",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -4438,7 +4482,7 @@
     "secondLevelCode": "02",
     "secondLevelName": "Metropolitan Police Service",
     "thirdLevelCode": "F4",
-    "thirdLevelName": "FIREARMS ENQUIRY AREA 4 DAF REPORTS TO:",
+    "thirdLevelName": "FIREARMS ENQUIRY TEAM DAF REPORTS TO:",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -4449,7 +4493,7 @@
     "secondLevelCode": "02",
     "secondLevelName": "Metropolitan Police Service",
     "thirdLevelCode": "F5",
-    "thirdLevelName": "FIREARMS ENQUIRY AREA 5 DAF REPORTS TO:",
+    "thirdLevelName": "FIREARMS ENQUIRY TEAM DAF REPORTS TO:",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -5130,6 +5174,17 @@
     "bottomLevelName": "",
     "secondLevelCode": "02",
     "secondLevelName": "Metropolitan Police Service",
+    "thirdLevelCode": "NT",
+    "thirdLevelName": "NCTPHQ *MPS USE ONLY*",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "02",
+    "secondLevelName": "Metropolitan Police Service",
     "thirdLevelCode": "NW",
     "thirdLevelName": "SCD7(5)SF FINCHLEY FLYING SQUAD",
     "thirdLevelPsaCode": "",
@@ -5340,7 +5395,7 @@
     "secondLevelCode": "02",
     "secondLevelName": "Metropolitan Police Service",
     "thirdLevelCode": "PP",
-    "thirdLevelName": "SAFER CUSTODY PROJECT MPS CONTACT PS LOW SO3-3 020 7230 2792",
+    "thirdLevelName": "SAFER CUSTODY PROJECT",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -6430,7 +6485,7 @@
     "secondLevelName": "Cumbria",
     "thirdLevelCode": "AX",
     "thirdLevelName": "Barrow in Furness",
-    "thirdLevelPsaCode": "1753",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -6452,7 +6507,7 @@
     "secondLevelName": "Cumbria",
     "thirdLevelCode": "CL",
     "thirdLevelName": "Carlisle",
-    "thirdLevelPsaCode": "0412",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -6463,7 +6518,7 @@
     "secondLevelName": "Cumbria",
     "thirdLevelCode": "DE",
     "thirdLevelName": "Carlisle",
-    "thirdLevelPsaCode": "1752",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -6507,7 +6562,7 @@
     "secondLevelName": "Cumbria",
     "thirdLevelCode": "HG",
     "thirdLevelName": "Kendal Town Hall",
-    "thirdLevelPsaCode": "1753",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -6672,7 +6727,7 @@
     "secondLevelName": "Cumbria",
     "thirdLevelCode": "OT",
     "thirdLevelName": "Workington",
-    "thirdLevelPsaCode": "1752",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -6716,7 +6771,7 @@
     "secondLevelName": "Cumbria",
     "thirdLevelCode": "RR",
     "thirdLevelName": "Kendal (County Court, Burneside Road)",
-    "thirdLevelPsaCode": "1753",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -6771,6 +6826,17 @@
     "secondLevelName": "Cumbria",
     "thirdLevelCode": "SU",
     "thirdLevelName": "CENTRAL SUMMONS UNIT",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "03",
+    "secondLevelName": "Cumbria",
+    "thirdLevelCode": "SV",
+    "thirdLevelName": "03SV",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -6837,6 +6903,17 @@
     "secondLevelName": "Cumbria",
     "thirdLevelCode": "UM",
     "thirdLevelName": "POFA BIOMETRIC MAGISTRATES REQUESTS",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "03",
+    "secondLevelName": "Cumbria",
+    "thirdLevelCode": "UV",
+    "thirdLevelName": "03UV",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -6923,6 +7000,17 @@
     "bottomLevelName": "",
     "secondLevelCode": "03",
     "secondLevelName": "Cumbria",
+    "thirdLevelCode": "XV",
+    "thirdLevelName": "03XV",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "03",
+    "secondLevelName": "Cumbria",
     "thirdLevelCode": "YA",
     "thirdLevelName": "PENRITH DIVISION",
     "thirdLevelPsaCode": "",
@@ -6947,6 +7035,17 @@
     "secondLevelName": "Cumbria",
     "thirdLevelCode": "YC",
     "thirdLevelName": "APPLEBY",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "03",
+    "secondLevelName": "Cumbria",
+    "thirdLevelCode": "YV",
+    "thirdLevelName": "03YV",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -7009,6 +7108,17 @@
   {
     "bottomLevelCode": "00",
     "bottomLevelName": "",
+    "secondLevelCode": "03",
+    "secondLevelName": "Cumbria",
+    "thirdLevelCode": "ZV",
+    "thirdLevelName": "03ZV",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
     "secondLevelCode": "04",
     "secondLevelName": "Lancashire",
     "thirdLevelCode": "00",
@@ -7023,7 +7133,7 @@
     "secondLevelCode": "04",
     "secondLevelName": "Lancashire",
     "thirdLevelCode": "00",
-    "thirdLevelName": "MANAGER - MARTINE CRAVEN SUPERVISOR & SYSTEMS MANAGER STEVE UDEN",
+    "thirdLevelName": "STRATEGIC PNC LEAD - LEANNE PICKFORD OPERATIONAL PNC LEAD - STEVE UDEN",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -7068,7 +7178,7 @@
     "secondLevelName": "Lancashire",
     "thirdLevelCode": "AH",
     "thirdLevelName": "Lancaster Magistrates' Court sitting at Ashton Hall",
-    "thirdLevelPsaCode": "1790",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -7211,7 +7321,7 @@
     "secondLevelName": "Lancashire",
     "thirdLevelCode": "BF",
     "thirdLevelName": "Barrow in Furness",
-    "thirdLevelPsaCode": "0751",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -7277,7 +7387,7 @@
     "secondLevelName": "Lancashire",
     "thirdLevelCode": "BP",
     "thirdLevelName": "Blackburn",
-    "thirdLevelPsaCode": "1790",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -7288,7 +7398,7 @@
     "secondLevelName": "Lancashire",
     "thirdLevelCode": "BQ",
     "thirdLevelName": "Blackpool Magistrates' and Civil Court",
-    "thirdLevelPsaCode": "1790",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -7299,7 +7409,7 @@
     "secondLevelName": "Lancashire",
     "thirdLevelCode": "BU",
     "thirdLevelName": "Burnley",
-    "thirdLevelPsaCode": "0409",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -7420,7 +7530,7 @@
     "secondLevelName": "Lancashire",
     "thirdLevelCode": "CO",
     "thirdLevelName": "Burnley",
-    "thirdLevelPsaCode": "1790",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -7508,7 +7618,7 @@
     "secondLevelName": "Lancashire",
     "thirdLevelCode": "DS",
     "thirdLevelName": "Chorley",
-    "thirdLevelPsaCode": "1790",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -7926,7 +8036,7 @@
     "secondLevelName": "Lancashire",
     "thirdLevelCode": "GS",
     "thirdLevelName": "Preston Crown Court sitting at Ashton Hall",
-    "thirdLevelPsaCode": "0448",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -7992,7 +8102,7 @@
     "secondLevelName": "Lancashire",
     "thirdLevelCode": "HQ",
     "thirdLevelName": "Lancaster",
-    "thirdLevelPsaCode": "1790",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -8102,7 +8212,7 @@
     "secondLevelName": "Lancashire",
     "thirdLevelCode": "KO",
     "thirdLevelName": "Preston",
-    "thirdLevelPsaCode": "1790",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -8113,7 +8223,7 @@
     "secondLevelName": "Lancashire",
     "thirdLevelCode": "LA",
     "thirdLevelName": "Lancaster",
-    "thirdLevelPsaCode": "0768",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -8289,7 +8399,7 @@
     "secondLevelName": "Lancashire",
     "thirdLevelCode": "PN",
     "thirdLevelName": "Preston North End Crown Court",
-    "thirdLevelPsaCode": "0448",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -8300,7 +8410,7 @@
     "secondLevelName": "Lancashire",
     "thirdLevelCode": "PR",
     "thirdLevelName": "Preston",
-    "thirdLevelPsaCode": "0448",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -8399,7 +8509,7 @@
     "secondLevelName": "Lancashire",
     "thirdLevelCode": "RV",
     "thirdLevelName": "Blackburn (County Court, Victoria Street)",
-    "thirdLevelPsaCode": "1790",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -8410,7 +8520,7 @@
     "secondLevelName": "Lancashire",
     "thirdLevelCode": "RX",
     "thirdLevelName": "Lancaster (County Court, Church Street)",
-    "thirdLevelPsaCode": "1790",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -8421,7 +8531,7 @@
     "secondLevelName": "Lancashire",
     "thirdLevelCode": "RZ",
     "thirdLevelName": "Preston (County Court, Openshaw Place)",
-    "thirdLevelPsaCode": "1790",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -8464,7 +8574,7 @@
     "secondLevelCode": "04",
     "secondLevelName": "Lancashire",
     "thirdLevelCode": "SD",
-    "thirdLevelName": "04SD",
+    "thirdLevelName": "LEYLAND POLICE STATION",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -8618,7 +8728,7 @@
     "secondLevelCode": "04",
     "secondLevelName": "Lancashire",
     "thirdLevelCode": "WA",
-    "thirdLevelName": "BLACKPOOL CENTRAL POLICE STATION",
+    "thirdLevelName": "BLACKPOOL POLICE STATION WEST DIVISIONAL HEADQUARTERS",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -9136,7 +9246,7 @@
     "secondLevelName": "Merseyside",
     "thirdLevelCode": "BK",
     "thirdLevelName": "Wirral",
-    "thirdLevelPsaCode": "1810",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -9180,7 +9290,7 @@
     "secondLevelName": "Merseyside",
     "thirdLevelCode": "BW",
     "thirdLevelName": "South Sefton",
-    "thirdLevelPsaCode": "1810",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -9730,7 +9840,7 @@
     "secondLevelName": "Merseyside",
     "thirdLevelCode": "GP",
     "thirdLevelName": "St George's Hall",
-    "thirdLevelPsaCode": "1810",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -9741,7 +9851,7 @@
     "secondLevelName": "Merseyside",
     "thirdLevelCode": "HL",
     "thirdLevelName": "Hilton Liverpool City Centre",
-    "thirdLevelPsaCode": "0433",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -9751,7 +9861,7 @@
     "secondLevelCode": "05",
     "secondLevelName": "Merseyside",
     "thirdLevelCode": "HQ",
-    "thirdLevelName": "FORCE H.Q",
+    "thirdLevelName": "HEADQUARTERS",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -9785,7 +9895,7 @@
     "secondLevelName": "Merseyside",
     "thirdLevelCode": "LV",
     "thirdLevelName": "Liverpool Crown Court",
-    "thirdLevelPsaCode": "0433",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -9882,6 +9992,17 @@
     "bottomLevelName": "",
     "secondLevelCode": "05",
     "secondLevelName": "Merseyside",
+    "thirdLevelCode": "MD",
+    "thirdLevelName": "MATRIX DRONE UNIT",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "05",
+    "secondLevelName": "Merseyside",
     "thirdLevelCode": "MI",
     "thirdLevelName": "MATRIX INVESTIGATIONS",
     "thirdLevelPsaCode": "",
@@ -9926,9 +10047,20 @@
     "bottomLevelName": "",
     "secondLevelCode": "05",
     "secondLevelName": "Merseyside",
+    "thirdLevelCode": "OR",
+    "thirdLevelName": "OPERATION R",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "05",
+    "secondLevelName": "Merseyside",
     "thirdLevelCode": "PK",
     "thirdLevelName": "Liverpool Magistrates' Court",
-    "thirdLevelPsaCode": "1810",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -10027,7 +10159,7 @@
     "secondLevelName": "Merseyside",
     "thirdLevelCode": "SB",
     "thirdLevelName": "Birkenhead (County Court, Hamilton Street)",
-    "thirdLevelPsaCode": "1810",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -10038,7 +10170,7 @@
     "secondLevelName": "Merseyside",
     "thirdLevelCode": "SC",
     "thirdLevelName": "Liverpool Civil and Family Court (Vernon Street)",
-    "thirdLevelPsaCode": "1810",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -10092,7 +10224,7 @@
     "secondLevelCode": "05",
     "secondLevelName": "Merseyside",
     "thirdLevelCode": "T1",
-    "thirdLevelName": "T DIVISION GROUP 1",
+    "thirdLevelName": "TRAFFIC SYNDICATE 1",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -10103,7 +10235,7 @@
     "secondLevelCode": "05",
     "secondLevelName": "Merseyside",
     "thirdLevelCode": "T2",
-    "thirdLevelName": "T DIVISION GROUP 2",
+    "thirdLevelName": "TRAFFIC SYNDICATE 2",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -10114,7 +10246,7 @@
     "secondLevelCode": "05",
     "secondLevelName": "Merseyside",
     "thirdLevelCode": "T3",
-    "thirdLevelName": "T DIVISION GROUP 3",
+    "thirdLevelName": "TRAFFIC SYNDICATE 3",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -10125,7 +10257,7 @@
     "secondLevelCode": "05",
     "secondLevelName": "Merseyside",
     "thirdLevelCode": "T4",
-    "thirdLevelName": "T DIVISION GROUP 4",
+    "thirdLevelName": "TRAFFIC SYNDICATE 4",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -10555,7 +10687,7 @@
     "secondLevelName": "Greater Manchester",
     "thirdLevelCode": "AN",
     "thirdLevelName": "Ashton under Lyne (Henry Sq)",
-    "thirdLevelPsaCode": "1720",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -10643,7 +10775,7 @@
     "secondLevelName": "Greater Manchester",
     "thirdLevelCode": "BO",
     "thirdLevelName": "Bolton",
-    "thirdLevelPsaCode": "0470",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -10654,7 +10786,7 @@
     "secondLevelName": "Greater Manchester",
     "thirdLevelCode": "BS",
     "thirdLevelName": "University of Bolton Stadium",
-    "thirdLevelPsaCode": "0470",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -10665,7 +10797,7 @@
     "secondLevelName": "Greater Manchester",
     "thirdLevelCode": "BV",
     "thirdLevelName": "Bolton",
-    "thirdLevelPsaCode": "1720",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -10764,7 +10896,7 @@
     "secondLevelName": "Greater Manchester",
     "thirdLevelCode": "CR",
     "thirdLevelName": "Manchester (Crown Square)",
-    "thirdLevelPsaCode": "1720",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -10796,7 +10928,7 @@
     "secondLevelCode": "06",
     "secondLevelName": "Greater Manchester",
     "thirdLevelCode": "E1",
-    "thirdLevelName": "LONGSIGHT",
+    "thirdLevelName": "HISTORIC",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -11094,7 +11226,7 @@
     "secondLevelName": "Greater Manchester",
     "thirdLevelCode": "IS",
     "thirdLevelName": "Manchester",
-    "thirdLevelPsaCode": "1720",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -11479,7 +11611,7 @@
     "secondLevelName": "Greater Manchester",
     "thirdLevelCode": "MC",
     "thirdLevelName": "Manchester",
-    "thirdLevelPsaCode": "0435",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -11501,7 +11633,7 @@
     "secondLevelName": "Greater Manchester",
     "thirdLevelCode": "MH",
     "thirdLevelName": "Manchester Hilton Deansgate",
-    "thirdLevelPsaCode": "0435",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -11512,7 +11644,7 @@
     "secondLevelName": "Greater Manchester",
     "thirdLevelCode": "MK",
     "thirdLevelName": "Stockport",
-    "thirdLevelPsaCode": "1720",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -11523,7 +11655,7 @@
     "secondLevelName": "Greater Manchester",
     "thirdLevelCode": "MM",
     "thirdLevelName": "Minshull Street Manchester",
-    "thirdLevelPsaCode": "0436",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -11556,7 +11688,7 @@
     "secondLevelName": "Greater Manchester",
     "thirdLevelCode": "MS",
     "thirdLevelName": "Manchester & Salford Magistrates' Court sitting at the Lowry Theatre",
-    "thirdLevelPsaCode": "1720",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -11699,7 +11831,7 @@
     "secondLevelName": "Greater Manchester",
     "thirdLevelCode": "OJ",
     "thirdLevelName": "Wigan",
-    "thirdLevelPsaCode": "1720",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -11985,7 +12117,7 @@
     "secondLevelName": "Greater Manchester",
     "thirdLevelCode": "SG",
     "thirdLevelName": "Oldham (County Court, New Radcliffe Street)",
-    "thirdLevelPsaCode": "1720",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -11996,7 +12128,7 @@
     "secondLevelName": "Greater Manchester",
     "thirdLevelCode": "SI",
     "thirdLevelName": "Stockport (County Court, Wellington Street)",
-    "thirdLevelPsaCode": "1720",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -12007,7 +12139,7 @@
     "secondLevelName": "Greater Manchester",
     "thirdLevelCode": "SJ",
     "thirdLevelName": "Wigan (County Court, Crawford Street)",
-    "thirdLevelPsaCode": "1720",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -12018,7 +12150,7 @@
     "secondLevelName": "Greater Manchester",
     "thirdLevelCode": "SL",
     "thirdLevelName": "Salford Lowry Theatre",
-    "thirdLevelPsaCode": "0435",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -12062,7 +12194,7 @@
     "secondLevelName": "Greater Manchester",
     "thirdLevelCode": "TL",
     "thirdLevelName": "Tameside Magistrates' Court sitting at the Lowry Theatre",
-    "thirdLevelPsaCode": "1720",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -12370,7 +12502,7 @@
     "secondLevelName": "Greater Manchester",
     "thirdLevelCode": "WL",
     "thirdLevelName": "Wigan Magistrates' Court sitting at the Lowry Theatre",
-    "thirdLevelPsaCode": "1720",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -12381,7 +12513,7 @@
     "secondLevelName": "Greater Manchester",
     "thirdLevelCode": "WX",
     "thirdLevelName": "Manchester Civil Justice Centre",
-    "thirdLevelPsaCode": "1720",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -12887,7 +13019,7 @@
     "secondLevelName": "Cheshire",
     "thirdLevelCode": "CA",
     "thirdLevelName": "Caernarfon",
-    "thirdLevelPsaCode": "0755",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -12920,7 +13052,7 @@
     "secondLevelName": "Cheshire",
     "thirdLevelCode": "CP",
     "thirdLevelName": "Crowne Plaza Chester",
-    "thirdLevelPsaCode": "0415",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -12931,7 +13063,7 @@
     "secondLevelName": "Cheshire",
     "thirdLevelCode": "CS",
     "thirdLevelName": "Chester",
-    "thirdLevelPsaCode": "0415",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -12942,7 +13074,7 @@
     "secondLevelName": "Cheshire",
     "thirdLevelCode": "CT",
     "thirdLevelName": "Chester Town Hall",
-    "thirdLevelPsaCode": "0415",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -13030,7 +13162,7 @@
     "secondLevelName": "Cheshire",
     "thirdLevelCode": "DM",
     "thirdLevelName": "Chester",
-    "thirdLevelPsaCode": "1710",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -13041,7 +13173,7 @@
     "secondLevelName": "Cheshire",
     "thirdLevelCode": "DO",
     "thirdLevelName": "Dolgellau",
-    "thirdLevelPsaCode": "0758",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -13085,7 +13217,7 @@
     "secondLevelName": "Cheshire",
     "thirdLevelCode": "ED",
     "thirdLevelName": "Crewe",
-    "thirdLevelPsaCode": "1710",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -13151,7 +13283,7 @@
     "secondLevelName": "Cheshire",
     "thirdLevelCode": "FQ",
     "thirdLevelName": "Warrington",
-    "thirdLevelPsaCode": "1710",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -13239,7 +13371,7 @@
     "secondLevelName": "Cheshire",
     "thirdLevelCode": "KN",
     "thirdLevelName": "Knutsford",
-    "thirdLevelPsaCode": "0767",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -13250,7 +13382,7 @@
     "secondLevelName": "Cheshire",
     "thirdLevelCode": "MO",
     "thirdLevelName": "Mold",
-    "thirdLevelPsaCode": "0438",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -13359,7 +13491,7 @@
     "secondLevelCode": "07",
     "secondLevelName": "Cheshire",
     "thirdLevelCode": "Q1",
-    "thirdLevelName": "IMU-PNC/INTEL IMU MANAGER EMMA HUMPHREYS 01606 364131",
+    "thirdLevelName": "IMU-PNC/INTEL 01606 363808",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -13370,7 +13502,7 @@
     "secondLevelCode": "07",
     "secondLevelName": "Cheshire",
     "thirdLevelCode": "Q2",
-    "thirdLevelName": "COURTS&CRIMINAL RECORD SECTION (CCRS)",
+    "thirdLevelName": "COURTS&CRIMINAL RECORD SECTION (CCRS) BARBARA SMITH PNC MANAGER",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -13470,7 +13602,7 @@
     "secondLevelName": "Cheshire",
     "thirdLevelCode": "SK",
     "thirdLevelName": "Chester (County Court, Little St John Street)",
-    "thirdLevelPsaCode": "1710",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -13514,6 +13646,28 @@
     "secondLevelName": "Cheshire",
     "thirdLevelCode": "TF",
     "thirdLevelName": "ARMED RESPONSE UNIT",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "07",
+    "secondLevelName": "Cheshire",
+    "thirdLevelCode": "U1",
+    "thirdLevelName": "07U1",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "07",
+    "secondLevelName": "Cheshire",
+    "thirdLevelCode": "U2",
+    "thirdLevelName": "CONGLETON",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -13591,7 +13745,7 @@
     "secondLevelName": "Cheshire",
     "thirdLevelCode": "WA",
     "thirdLevelName": "Warrington",
-    "thirdLevelPsaCode": "0775",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -13646,7 +13800,7 @@
     "secondLevelName": "Cheshire",
     "thirdLevelCode": "WE",
     "thirdLevelName": "Welshpool",
-    "thirdLevelPsaCode": "0774",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -13709,9 +13863,9 @@
     "bottomLevelCode": "00",
     "bottomLevelName": "",
     "secondLevelCode": "09",
-    "secondLevelName": "Not in use",
-    "thirdLevelCode": "00",
-    "thirdLevelName": "",
+    "secondLevelName": "",
+    "thirdLevelCode": "FV",
+    "thirdLevelName": "VISOR",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -13720,9 +13874,9 @@
     "bottomLevelCode": "00",
     "bottomLevelName": "",
     "secondLevelCode": "09",
-    "secondLevelName": "Reserved",
-    "thirdLevelCode": "FV",
-    "thirdLevelName": "VISOR",
+    "secondLevelName": "Not in use",
+    "thirdLevelCode": "00",
+    "thirdLevelName": "",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -13888,7 +14042,7 @@
     "secondLevelName": "Northumbria",
     "thirdLevelCode": "BD",
     "thirdLevelName": "Bedlington",
-    "thirdLevelPsaCode": "2360",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -13899,7 +14053,7 @@
     "secondLevelName": "Northumbria",
     "thirdLevelCode": "BF",
     "thirdLevelName": "Berwick upon Tweed",
-    "thirdLevelPsaCode": "2360",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -14251,7 +14405,7 @@
     "secondLevelName": "Northumbria",
     "thirdLevelCode": "FR",
     "thirdLevelName": "Gateshead",
-    "thirdLevelPsaCode": "2365",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -14438,7 +14592,7 @@
     "secondLevelName": "Northumbria",
     "thirdLevelCode": "JJ",
     "thirdLevelName": "Newcastle Upon Tyne",
-    "thirdLevelPsaCode": "2360",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -14449,7 +14603,7 @@
     "secondLevelName": "Northumbria",
     "thirdLevelCode": "JL",
     "thirdLevelName": "Newcastle",
-    "thirdLevelPsaCode": "2360",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -14460,7 +14614,7 @@
     "secondLevelName": "Northumbria",
     "thirdLevelCode": "JQ",
     "thirdLevelName": "North Shields",
-    "thirdLevelPsaCode": "2360",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -14526,7 +14680,7 @@
     "secondLevelName": "Northumbria",
     "thirdLevelCode": "LX",
     "thirdLevelName": "South Shields (Millbank)",
-    "thirdLevelPsaCode": "2365",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -14548,7 +14702,7 @@
     "secondLevelName": "Northumbria",
     "thirdLevelCode": "MR",
     "thirdLevelName": "Sunderland",
-    "thirdLevelPsaCode": "2365",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -14559,7 +14713,7 @@
     "secondLevelName": "Northumbria",
     "thirdLevelCode": "NE",
     "thirdLevelName": "Newcastle",
-    "thirdLevelPsaCode": "0439",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -14724,7 +14878,7 @@
     "secondLevelName": "Northumbria",
     "thirdLevelCode": "SN",
     "thirdLevelName": "Gateshead (County Court, Tynegate Precinct)",
-    "thirdLevelPsaCode": "2365",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -14735,7 +14889,7 @@
     "secondLevelName": "Northumbria",
     "thirdLevelCode": "SP",
     "thirdLevelName": "North Shields (County Court, Earl Grey Way)",
-    "thirdLevelPsaCode": "2360",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -14757,7 +14911,7 @@
     "secondLevelName": "Northumbria",
     "thirdLevelCode": "SQ",
     "thirdLevelName": "Sunderland (County Court, Victoria Avenue)",
-    "thirdLevelPsaCode": "2365",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -15316,6 +15470,50 @@
     "bottomLevelName": "",
     "secondLevelCode": "11",
     "secondLevelName": "Durham",
+    "thirdLevelCode": "AA",
+    "thirdLevelName": "A/S REF ONLY",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "11",
+    "secondLevelName": "Durham",
+    "thirdLevelCode": "AK",
+    "thirdLevelName": "A/S REF ONLY",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "11",
+    "secondLevelName": "Durham",
+    "thirdLevelCode": "BD",
+    "thirdLevelName": "A/S REF ONLY",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "11",
+    "secondLevelName": "Durham",
+    "thirdLevelCode": "BE",
+    "thirdLevelName": "A/S REF ONLY",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "11",
+    "secondLevelName": "Durham",
     "thirdLevelCode": "CA",
     "thirdLevelName": "ADMIN",
     "thirdLevelPsaCode": "",
@@ -15329,6 +15527,28 @@
     "secondLevelName": "Durham",
     "thirdLevelCode": "CD",
     "thirdLevelName": "CLEVELAND AND DURHAM FINGERPRINTS BUREAU",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "11",
+    "secondLevelName": "Durham",
+    "thirdLevelCode": "CG",
+    "thirdLevelName": "A/S REF ONLY",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "11",
+    "secondLevelName": "Durham",
+    "thirdLevelCode": "CI",
+    "thirdLevelName": "A/S REF ONLY",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -15461,6 +15681,17 @@
     "secondLevelName": "Durham",
     "thirdLevelCode": "HQ",
     "thirdLevelName": "POLICE HEADQUARTERS",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "11",
+    "secondLevelName": "Durham",
+    "thirdLevelCode": "IH",
+    "thirdLevelName": "INVESTIGATIVE HUB",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -15625,7 +15856,7 @@
     "secondLevelCode": "11",
     "secondLevelName": "Durham",
     "thirdLevelCode": "RO",
-    "thirdLevelName": "DURHAM RECORDS OFFICE MRS H PICKERING",
+    "thirdLevelName": "DURHAM RECORDS OFFICE MS N WILKINSON",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -15813,7 +16044,7 @@
     "secondLevelName": "Durham, County",
     "thirdLevelCode": "DU",
     "thirdLevelName": "Durham",
-    "thirdLevelPsaCode": "0422",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -15824,7 +16055,7 @@
     "secondLevelName": "Durham, County",
     "thirdLevelCode": "EI",
     "thirdLevelName": "Darlington",
-    "thirdLevelPsaCode": "1585",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -15835,7 +16066,7 @@
     "secondLevelName": "Durham, County",
     "thirdLevelCode": "JP",
     "thirdLevelName": "Newton Aycliffe",
-    "thirdLevelPsaCode": "1585",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -15846,7 +16077,7 @@
     "secondLevelName": "Durham, County",
     "thirdLevelCode": "KF",
     "thirdLevelName": "Peterlee",
-    "thirdLevelPsaCode": "1585",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -15857,7 +16088,7 @@
     "secondLevelName": "Durham, County",
     "thirdLevelCode": "ST",
     "thirdLevelName": "Darlington (County Court, Coniscliffe Road)",
-    "thirdLevelPsaCode": "1585",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -15868,7 +16099,7 @@
     "secondLevelName": "Durham, County",
     "thirdLevelCode": "SU",
     "thirdLevelName": "Durham (County Court, Hallgarth Street)",
-    "thirdLevelPsaCode": "1585",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -16066,7 +16297,7 @@
     "secondLevelName": "North Yorkshire",
     "thirdLevelCode": "GH",
     "thirdLevelName": "Harrogate",
-    "thirdLevelPsaCode": "2370",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -16209,7 +16440,7 @@
     "secondLevelName": "North Yorkshire",
     "thirdLevelCode": "JR",
     "thirdLevelName": "Northallerton",
-    "thirdLevelPsaCode": "2370",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -16242,7 +16473,7 @@
     "secondLevelName": "North Yorkshire",
     "thirdLevelCode": "LK",
     "thirdLevelName": "Scarborough (Northway)",
-    "thirdLevelPsaCode": "2370",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -16264,7 +16495,7 @@
     "secondLevelName": "North Yorkshire",
     "thirdLevelCode": "LT",
     "thirdLevelName": "Skipton",
-    "thirdLevelPsaCode": "2370",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -16385,7 +16616,7 @@
     "secondLevelName": "North Yorkshire",
     "thirdLevelCode": "PA",
     "thirdLevelName": "York",
-    "thirdLevelPsaCode": "2370",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -16506,7 +16737,7 @@
     "secondLevelName": "North Yorkshire",
     "thirdLevelCode": "SV",
     "thirdLevelName": "Harrogate (County Court, Victoria Avenue)",
-    "thirdLevelPsaCode": "2370",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -16517,7 +16748,7 @@
     "secondLevelName": "North Yorkshire",
     "thirdLevelCode": "SX",
     "thirdLevelName": "Skipton (County Court, Otley Street)",
-    "thirdLevelPsaCode": "2370",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -16539,7 +16770,7 @@
     "secondLevelName": "North Yorkshire",
     "thirdLevelCode": "SY",
     "thirdLevelName": "York (County Court, Piccadilly)",
-    "thirdLevelPsaCode": "2370",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -16693,7 +16924,7 @@
     "secondLevelName": "North Yorkshire",
     "thirdLevelCode": "YO",
     "thirdLevelName": "York",
-    "thirdLevelPsaCode": "0467",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -16913,7 +17144,7 @@
     "secondLevelName": "West Yorkshire",
     "thirdLevelCode": "BR",
     "thirdLevelName": "Bradford",
-    "thirdLevelPsaCode": "0402",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -16990,7 +17221,7 @@
     "secondLevelName": "West Yorkshire",
     "thirdLevelCode": "CC",
     "thirdLevelName": "Bradford",
-    "thirdLevelPsaCode": "2375",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -17012,7 +17243,7 @@
     "secondLevelName": "West Yorkshire",
     "thirdLevelCode": "CH",
     "thirdLevelName": "Cloth Hall Court",
-    "thirdLevelPsaCode": "0429",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -17220,7 +17451,7 @@
     "secondLevelCode": "13",
     "secondLevelName": "West Yorkshire",
     "thirdLevelCode": "FR",
-    "thirdLevelName": "FORCE RECORDS PHOENIX.BUREAU DATA MANAGEMENT UNIT",
+    "thirdLevelName": "INFORMATION MANAGEMENT",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -17353,7 +17584,7 @@
     "secondLevelName": "West Yorkshire",
     "thirdLevelCode": "HD",
     "thirdLevelName": "Huddersfield",
-    "thirdLevelPsaCode": "2375",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -17375,7 +17606,7 @@
     "secondLevelName": "West Yorkshire",
     "thirdLevelCode": "HT",
     "thirdLevelName": "Leeds",
-    "thirdLevelPsaCode": "2375",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -17562,7 +17793,7 @@
     "secondLevelName": "West Yorkshire",
     "thirdLevelCode": "LE",
     "thirdLevelName": "Leeds",
-    "thirdLevelPsaCode": "0429",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -17703,6 +17934,17 @@
     "bottomLevelName": "",
     "secondLevelCode": "13",
     "secondLevelName": "West Yorkshire",
+    "thirdLevelCode": "SC",
+    "thirdLevelName": "PROTECTIVE SERVICES CRIME OFFENDER MANAGEMENT UNIT",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "13",
+    "secondLevelName": "West Yorkshire",
     "thirdLevelCode": "SO",
     "thirdLevelName": "VISOR REGISTRAR",
     "thirdLevelPsaCode": "",
@@ -17727,7 +17969,7 @@
     "secondLevelName": "West Yorkshire",
     "thirdLevelCode": "TA",
     "thirdLevelName": "Halifax (County Court, Prescott Street)",
-    "thirdLevelPsaCode": "2375",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -17738,7 +17980,7 @@
     "secondLevelName": "West Yorkshire",
     "thirdLevelCode": "TB",
     "thirdLevelName": "Huddersfield (County Court, Queensgate)",
-    "thirdLevelPsaCode": "2375",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -17749,7 +17991,7 @@
     "secondLevelName": "West Yorkshire",
     "thirdLevelCode": "TE",
     "thirdLevelName": "Wakefield (County Court, Kirkgate)",
-    "thirdLevelPsaCode": "2375",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -18057,7 +18299,7 @@
     "secondLevelName": "South Yorkshire",
     "thirdLevelCode": "AV",
     "thirdLevelName": "Barnsley",
-    "thirdLevelPsaCode": "2800",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -18167,7 +18409,7 @@
     "secondLevelName": "South Yorkshire",
     "thirdLevelCode": "DN",
     "thirdLevelName": "Doncaster",
-    "thirdLevelPsaCode": "0420",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -18222,7 +18464,7 @@
     "secondLevelName": "South Yorkshire",
     "thirdLevelCode": "ET",
     "thirdLevelName": "Doncaster",
-    "thirdLevelPsaCode": "2800",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -18243,7 +18485,7 @@
     "secondLevelCode": "14",
     "secondLevelName": "South Yorkshire",
     "thirdLevelCode": "EX",
-    "thirdLevelName": "SHEFFIELD SOUTH **NOW SHEFFIELD 2**",
+    "thirdLevelName": "SHEFFIELD SOUTH **NOW SHEFFIELD 2** **CLOSED FOR REFURB 5/9/22**",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -18409,7 +18651,7 @@
     "secondLevelName": "South Yorkshire",
     "thirdLevelCode": "LO",
     "thirdLevelName": "Sheffield",
-    "thirdLevelPsaCode": "2800",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -18507,7 +18749,7 @@
     "secondLevelCode": "14",
     "secondLevelName": "South Yorkshire",
     "thirdLevelCode": "SF",
-    "thirdLevelName": "PNC BUREAU UPDATES AND ENQUIRIES PNC LIAISON VETTING AND DISCLOSURE UNIT",
+    "thirdLevelName": "PNC BUREAU UPDATES AND ENQUIRIES PNC LIAISON DVLA LIAISON 24 HOUR SERVICE",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -18519,7 +18761,7 @@
     "secondLevelName": "South Yorkshire",
     "thirdLevelCode": "SH",
     "thirdLevelName": "Sheffield",
-    "thirdLevelPsaCode": "0451",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -18684,7 +18926,7 @@
     "secondLevelName": "South Yorkshire",
     "thirdLevelCode": "TG",
     "thirdLevelName": "Doncaster (County Court, Waterdale)",
-    "thirdLevelPsaCode": "2800",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -18695,7 +18937,7 @@
     "secondLevelName": "South Yorkshire",
     "thirdLevelCode": "TH",
     "thirdLevelName": "Rotherham (County Court, Mansfield Road)",
-    "thirdLevelPsaCode": "2800",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -19090,7 +19332,7 @@
     "secondLevelCode": "16",
     "secondLevelName": "Humberside",
     "thirdLevelCode": "00",
-    "thirdLevelName": "HUMBERSIDE POLICE MRS VAL REUBEN PNC MANAGER",
+    "thirdLevelName": "HUMBERSIDE POLICE PNC MANAGER JUDITH PULFORD",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -19388,7 +19630,7 @@
     "secondLevelName": "Humberside",
     "thirdLevelCode": "BG",
     "thirdLevelName": "Beverley",
-    "thirdLevelPsaCode": "1980",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -19696,7 +19938,7 @@
     "secondLevelName": "Humberside",
     "thirdLevelCode": "CJ",
     "thirdLevelName": "Bridlington",
-    "thirdLevelPsaCode": "1980",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -20246,7 +20488,7 @@
     "secondLevelName": "Humberside",
     "thirdLevelCode": "GB",
     "thirdLevelName": "Grimsby",
-    "thirdLevelPsaCode": "1980",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -20257,7 +20499,7 @@
     "secondLevelName": "Humberside",
     "thirdLevelCode": "GR",
     "thirdLevelName": "Grimsby",
-    "thirdLevelPsaCode": "0425",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -20268,7 +20510,7 @@
     "secondLevelName": "Humberside",
     "thirdLevelCode": "HE",
     "thirdLevelName": "Kingston upon Hull",
-    "thirdLevelPsaCode": "1980",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -20334,7 +20576,7 @@
     "secondLevelName": "Humberside",
     "thirdLevelCode": "HU",
     "thirdLevelName": "Kingston upon Hull",
-    "thirdLevelPsaCode": "0403",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -20356,7 +20598,7 @@
     "secondLevelName": "Humberside",
     "thirdLevelCode": "LL",
     "thirdLevelName": "Scunthorpe",
-    "thirdLevelPsaCode": "1980",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -20367,6 +20609,17 @@
     "secondLevelName": "Humberside",
     "thirdLevelCode": "NP",
     "thirdLevelName": "NON POLICE AGENCIES",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "16",
+    "secondLevelName": "Humberside",
+    "thirdLevelCode": "RT",
+    "thirdLevelName": "RURAL TASK FORCE",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -20389,7 +20642,7 @@
     "secondLevelName": "Humberside",
     "thirdLevelCode": "TI",
     "thirdLevelName": "Scunthorpe (County Court, Comforts Avenue)",
-    "thirdLevelPsaCode": "1980",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -20774,7 +21027,7 @@
     "secondLevelName": "Cleveland",
     "thirdLevelCode": "JA",
     "thirdLevelName": "Middlesbrough (Teesside)",
-    "thirdLevelPsaCode": "1460",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -21027,7 +21280,7 @@
     "secondLevelName": "Cleveland",
     "thirdLevelCode": "TE",
     "thirdLevelName": "Teesside",
-    "thirdLevelPsaCode": "0460",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -21563,18 +21816,7 @@
     "bottomLevelCode": "00",
     "bottomLevelName": "",
     "secondLevelCode": "19",
-    "secondLevelName": "Not in use",
-    "thirdLevelCode": "00",
-    "thirdLevelName": "",
-    "thirdLevelPsaCode": "",
-    "topLevelCode": "",
-    "topLevelName": "Police Service"
-  },
-  {
-    "bottomLevelCode": "00",
-    "bottomLevelName": "",
-    "secondLevelCode": "19",
-    "secondLevelName": "Reserved",
+    "secondLevelName": "",
     "thirdLevelCode": "ES",
     "thirdLevelName": "FORCE 19",
     "thirdLevelPsaCode": "",
@@ -21585,9 +21827,20 @@
     "bottomLevelCode": "00",
     "bottomLevelName": "",
     "secondLevelCode": "19",
-    "secondLevelName": "Reserved",
+    "secondLevelName": "",
     "thirdLevelCode": "XX",
     "thirdLevelName": "MOD RESTRICTED",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "19",
+    "secondLevelName": "Not in use",
+    "thirdLevelCode": "00",
+    "thirdLevelName": "",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -21609,7 +21862,7 @@
     "secondLevelCode": "20",
     "secondLevelName": "West Midlands",
     "thirdLevelCode": "00",
-    "thirdLevelName": "PNC LIAISON MARTIN ACOTT WEST MIDLANDS PNC BUREAU",
+    "thirdLevelName": "PNC LIAISON HEAD OF PNC MARK READER WEST MIDLANDS PNC BUREAU",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -21685,9 +21938,20 @@
     "bottomLevelName": "",
     "secondLevelCode": "20",
     "secondLevelName": "West Midlands",
+    "thirdLevelCode": "BH",
+    "thirdLevelName": "BIRMINGHAM LPA",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "20",
+    "secondLevelName": "West Midlands",
     "thirdLevelCode": "BI",
     "thirdLevelName": "Birmingham",
-    "thirdLevelPsaCode": "0404",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -21698,7 +21962,7 @@
     "secondLevelName": "West Midlands",
     "thirdLevelCode": "BL",
     "thirdLevelName": "Birmingham (Corporation St)",
-    "thirdLevelPsaCode": "2922",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -21720,7 +21984,7 @@
     "secondLevelName": "West Midlands",
     "thirdLevelCode": "BN",
     "thirdLevelName": "Birmingham Youth Court (Steelehouse Lane)",
-    "thirdLevelPsaCode": "6922",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -21830,7 +22094,7 @@
     "secondLevelName": "West Midlands",
     "thirdLevelCode": "CO",
     "thirdLevelName": "Coventry",
-    "thirdLevelPsaCode": "0417",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -22193,7 +22457,7 @@
     "secondLevelName": "West Midlands",
     "thirdLevelCode": "EB",
     "thirdLevelName": "Coventry",
-    "thirdLevelPsaCode": "2924",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -22391,7 +22655,7 @@
     "secondLevelName": "West Midlands",
     "thirdLevelCode": "EY",
     "thirdLevelName": "Dudley",
-    "thirdLevelPsaCode": "2923",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -23557,7 +23821,7 @@
     "secondLevelName": "West Midlands",
     "thirdLevelCode": "MH",
     "thirdLevelName": "Birmingham Maple House",
-    "thirdLevelPsaCode": "0404",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -23623,6 +23887,17 @@
     "secondLevelName": "West Midlands",
     "thirdLevelCode": "MQ",
     "thirdLevelName": "HISTORIC",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "20",
+    "secondLevelName": "West Midlands",
+    "thirdLevelCode": "MT",
+    "thirdLevelName": "TACT CUSTODY SUITE",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -23700,7 +23975,7 @@
     "secondLevelName": "West Midlands",
     "thirdLevelCode": "NP",
     "thirdLevelName": "Walsall (Aldridge)",
-    "thirdLevelPsaCode": "2923",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -23711,7 +23986,7 @@
     "secondLevelName": "West Midlands",
     "thirdLevelCode": "NQ",
     "thirdLevelName": "Walsall (Stafford Street)",
-    "thirdLevelPsaCode": "2923",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -23788,7 +24063,7 @@
     "secondLevelName": "West Midlands",
     "thirdLevelCode": "OQ",
     "thirdLevelName": "Wolverhampton",
-    "thirdLevelPsaCode": "2923",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -23920,7 +24195,7 @@
     "secondLevelName": "West Midlands",
     "thirdLevelCode": "RT",
     "thirdLevelName": "Birmingham Repertory Theatre and Library",
-    "thirdLevelPsaCode": "0404",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -24151,7 +24426,7 @@
     "secondLevelName": "West Midlands",
     "thirdLevelCode": "TJ",
     "thirdLevelName": "Birmingham Civil Justice Centre (Bull Street)",
-    "thirdLevelPsaCode": "2922",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -24162,7 +24437,7 @@
     "secondLevelName": "West Midlands",
     "thirdLevelCode": "TK",
     "thirdLevelName": "Dudley (County Court, Waterfront West)",
-    "thirdLevelPsaCode": "2923",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -24173,7 +24448,7 @@
     "secondLevelName": "West Midlands",
     "thirdLevelCode": "TM",
     "thirdLevelName": "Walsall (County Court, Bridge Street)",
-    "thirdLevelPsaCode": "2923",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -24259,8 +24534,118 @@
     "bottomLevelName": "",
     "secondLevelCode": "20",
     "secondLevelName": "West Midlands",
+    "thirdLevelCode": "VB",
+    "thirdLevelName": "BIRMINGHAM LPA VA BOARD",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "20",
+    "secondLevelName": "West Midlands",
+    "thirdLevelCode": "VC",
+    "thirdLevelName": "COVENTRY LPA VA BOARD",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "20",
+    "secondLevelName": "West Midlands",
+    "thirdLevelCode": "VD",
+    "thirdLevelName": "DUDLEY LPA VA BOARD",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "20",
+    "secondLevelName": "West Midlands",
+    "thirdLevelCode": "VF",
+    "thirdLevelName": "FORCE CID VA BOARD",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "20",
+    "secondLevelName": "West Midlands",
+    "thirdLevelCode": "VH",
+    "thirdLevelName": "SOLIHULL LPA VA BOARD",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "20",
+    "secondLevelName": "West Midlands",
+    "thirdLevelCode": "VL",
+    "thirdLevelName": "WALSALL LPA VA BOARD",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "20",
+    "secondLevelName": "West Midlands",
+    "thirdLevelCode": "VO",
+    "thirdLevelName": "OPERATIONS VA BOARD",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "20",
+    "secondLevelName": "West Midlands",
     "thirdLevelCode": "VP",
     "thirdLevelName": "HISTORIC",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "20",
+    "secondLevelName": "West Midlands",
+    "thirdLevelCode": "VS",
+    "thirdLevelName": "SANDWELL LPA VA BOARD",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "20",
+    "secondLevelName": "West Midlands",
+    "thirdLevelCode": "VU",
+    "thirdLevelName": "PUBLIC PROTECTI ON - VA BOARD",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "20",
+    "secondLevelName": "West Midlands",
+    "thirdLevelCode": "VW",
+    "thirdLevelName": "WOLVERHAMPTON LPA VA BOARD",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -24283,7 +24668,7 @@
     "secondLevelName": "West Midlands",
     "thirdLevelCode": "WO",
     "thirdLevelName": "Wolverhampton",
-    "thirdLevelPsaCode": "0421",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -24294,7 +24679,7 @@
     "secondLevelName": "West Midlands",
     "thirdLevelCode": "WP",
     "thirdLevelName": "Wolverhampton Park Hall Hotel",
-    "thirdLevelPsaCode": "0421",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -24668,7 +25053,7 @@
     "secondLevelName": "Staffordshire",
     "thirdLevelCode": "DA",
     "thirdLevelName": "Cannock",
-    "thirdLevelPsaCode": "2805",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -25041,7 +25426,7 @@
     "secondLevelCode": "21",
     "secondLevelName": "Staffordshire",
     "thirdLevelCode": "EP",
-    "thirdLevelName": "UTTOXETER LPT HYBRID",
+    "thirdLevelName": "EAST STAFFS",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -25063,7 +25448,7 @@
     "secondLevelCode": "21",
     "secondLevelName": "Staffordshire",
     "thirdLevelCode": "ER",
-    "thirdLevelName": "LICHFIELD DISTRICT LRT",
+    "thirdLevelName": "LICHFIELD DISTRICT",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -25118,7 +25503,7 @@
     "secondLevelCode": "21",
     "secondLevelName": "Staffordshire",
     "thirdLevelCode": "EW",
-    "thirdLevelName": "TAMWORTH LPT",
+    "thirdLevelName": "TAMWORTH",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -25548,7 +25933,7 @@
     "secondLevelName": "Staffordshire",
     "thirdLevelCode": "JI",
     "thirdLevelName": "North Staffordshire Justice Centre",
-    "thirdLevelPsaCode": "2805",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -25745,7 +26130,18 @@
     "secondLevelCode": "21",
     "secondLevelName": "Staffordshire",
     "thirdLevelCode": "NA",
-    "thirdLevelName": "HISTORIC CODE SEE 21BF",
+    "thirdLevelName": "MOORLANDS",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "21",
+    "secondLevelName": "Staffordshire",
+    "thirdLevelCode": "NB",
+    "thirdLevelName": "NEWCASTLE",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -25943,7 +26339,7 @@
     "secondLevelCode": "21",
     "secondLevelName": "Staffordshire",
     "thirdLevelCode": "SC",
-    "thirdLevelName": "HISTORIC CODE SEE 21SM",
+    "thirdLevelName": "STOKE NORTH",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -25988,7 +26384,7 @@
     "secondLevelName": "Staffordshire",
     "thirdLevelCode": "SF",
     "thirdLevelName": "Stafford",
-    "thirdLevelPsaCode": "0455",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -25998,7 +26394,7 @@
     "secondLevelCode": "21",
     "secondLevelName": "Staffordshire",
     "thirdLevelCode": "SG",
-    "thirdLevelName": "HISTORIC CODE SEE 21SR",
+    "thirdLevelName": "STOKE SOUTH",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -26054,7 +26450,7 @@
     "secondLevelName": "Staffordshire",
     "thirdLevelCode": "SK",
     "thirdLevelName": "Stoke",
-    "thirdLevelPsaCode": "0456",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -26283,6 +26679,17 @@
     "bottomLevelName": "",
     "secondLevelCode": "21",
     "secondLevelName": "Staffordshire",
+    "thirdLevelCode": "WM",
+    "thirdLevelName": "STAFFORD",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "21",
+    "secondLevelName": "Staffordshire",
     "thirdLevelCode": "WT",
     "thirdLevelName": "TRAFFIC PROCESS OFFICE.(SOUTH)",
     "thirdLevelPsaCode": "",
@@ -26294,9 +26701,31 @@
     "bottomLevelName": "",
     "secondLevelCode": "21",
     "secondLevelName": "Staffordshire",
+    "thirdLevelCode": "WV",
+    "thirdLevelName": "CANNOCK",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "21",
+    "secondLevelName": "Staffordshire",
+    "thirdLevelCode": "WX",
+    "thirdLevelName": "SOUTH STAFFS",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "21",
+    "secondLevelName": "Staffordshire",
     "thirdLevelCode": "XA",
     "thirdLevelName": "AIT Stoke-on-Trent",
-    "thirdLevelPsaCode": "2805",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -27242,7 +27671,7 @@
     "secondLevelName": "West Mercia",
     "thirdLevelCode": "GR",
     "thirdLevelName": "Hereford (Bath Street)",
-    "thirdLevelPsaCode": "1841",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -27253,7 +27682,7 @@
     "secondLevelName": "West Mercia",
     "thirdLevelCode": "HE",
     "thirdLevelName": "Hereford",
-    "thirdLevelPsaCode": "0762",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -27264,7 +27693,7 @@
     "secondLevelName": "West Mercia",
     "thirdLevelCode": "HM",
     "thirdLevelName": "Kidderminster (Comberton Place)",
-    "thirdLevelPsaCode": "1894",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -27297,7 +27726,7 @@
     "secondLevelName": "West Mercia",
     "thirdLevelCode": "KS",
     "thirdLevelName": "Redditch",
-    "thirdLevelPsaCode": "1894",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -27308,7 +27737,7 @@
     "secondLevelName": "West Mercia",
     "thirdLevelCode": "LQ",
     "thirdLevelName": "Shrewsbury",
-    "thirdLevelPsaCode": "3285",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -27319,7 +27748,7 @@
     "secondLevelName": "West Mercia",
     "thirdLevelCode": "MZ",
     "thirdLevelName": "Telford",
-    "thirdLevelPsaCode": "3285",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -27341,7 +27770,7 @@
     "secondLevelName": "West Mercia",
     "thirdLevelCode": "OS",
     "thirdLevelName": "Worcester (Castle St)",
-    "thirdLevelPsaCode": "1894",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -27451,7 +27880,7 @@
     "secondLevelName": "West Mercia",
     "thirdLevelCode": "SW",
     "thirdLevelName": "Shrewsbury",
-    "thirdLevelPsaCode": "0452",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -27484,7 +27913,7 @@
     "secondLevelName": "West Mercia",
     "thirdLevelCode": "TQ",
     "thirdLevelName": "Hereford (County Court, The Shire Hall)",
-    "thirdLevelPsaCode": "1841",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -27528,7 +27957,7 @@
     "secondLevelName": "West Mercia",
     "thirdLevelCode": "WC",
     "thirdLevelName": "Worcester",
-    "thirdLevelPsaCode": "0466",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -27704,7 +28133,7 @@
     "secondLevelName": "Warwickshire",
     "thirdLevelCode": "HS",
     "thirdLevelName": "Leamington Spa",
-    "thirdLevelPsaCode": "2905",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -27869,7 +28298,7 @@
     "secondLevelName": "Warwickshire",
     "thirdLevelCode": "PP",
     "thirdLevelName": "Nuneaton, Vicarage St",
-    "thirdLevelPsaCode": "2905",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -28056,7 +28485,7 @@
     "secondLevelName": "Warwickshire",
     "thirdLevelCode": "WH",
     "thirdLevelName": "Warwick Hotel (M40 J15)",
-    "thirdLevelPsaCode": "0463",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -28067,7 +28496,7 @@
     "secondLevelName": "Warwickshire",
     "thirdLevelCode": "WR",
     "thirdLevelName": "Warwick",
-    "thirdLevelPsaCode": "0463",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -28088,7 +28517,7 @@
     "secondLevelCode": "24",
     "secondLevelName": "MOD",
     "thirdLevelCode": "00",
-    "thirdLevelName": "JIMMY MCINTOSH PNC&DNA LIAISON OFFICER MINISTRY OF DEFENCE POLICE",
+    "thirdLevelName": "CLAIRE BLAND PNC&DNA LIAISON OFFICER MINISTRY OF DEFENCE POLICE",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -28913,7 +29342,7 @@
     "secondLevelCode": "24",
     "secondLevelName": "MOD",
     "thirdLevelCode": "X0",
-    "thirdLevelName": "CENTRAL CONTROL ROOM",
+    "thirdLevelName": "FORCE CONTROL ROOM",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -29241,9 +29670,9 @@
     "bottomLevelCode": "00",
     "bottomLevelName": "",
     "secondLevelCode": "29",
-    "secondLevelName": "Not in use",
-    "thirdLevelCode": "00",
-    "thirdLevelName": "",
+    "secondLevelName": "",
+    "thirdLevelCode": "FV",
+    "thirdLevelName": "VISOR",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -29252,9 +29681,9 @@
     "bottomLevelCode": "00",
     "bottomLevelName": "",
     "secondLevelCode": "29",
-    "secondLevelName": "Reserved",
-    "thirdLevelCode": "FV",
-    "thirdLevelName": "VISOR",
+    "secondLevelName": "Not in use",
+    "thirdLevelCode": "00",
+    "thirdLevelName": "",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -29749,7 +30178,7 @@
     "secondLevelCode": "30",
     "secondLevelName": "Derbyshire",
     "thirdLevelCode": "BZ",
-    "thirdLevelName": "INTELLIGENCE NORTH DIVISION BUXTON/GLOSSOP",
+    "thirdLevelName": "INTELLIGENCE NORTH DIVISION BUXTON/GLOSSOP *HISTORICAL*",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -30058,7 +30487,7 @@
     "secondLevelName": "Derbyshire",
     "thirdLevelCode": "DE",
     "thirdLevelName": "Derby",
-    "thirdLevelPsaCode": "0419",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -30310,7 +30739,7 @@
     "secondLevelCode": "30",
     "secondLevelName": "Derbyshire",
     "thirdLevelCode": "EW",
-    "thirdLevelName": "EUROPEAN ARREST WARRANTS",
+    "thirdLevelName": "EUROPEAN ARREST WARRANTS *HISTORICAL-SEE 30PA*",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -30344,7 +30773,7 @@
     "secondLevelName": "Derbyshire",
     "thirdLevelCode": "FS",
     "thirdLevelName": "Glossop",
-    "thirdLevelPsaCode": "1435",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -30916,7 +31345,7 @@
     "secondLevelName": "Derbyshire",
     "thirdLevelCode": "PG",
     "thirdLevelName": "Chesterfield (Tapton Lane)",
-    "thirdLevelPsaCode": "1435",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -30927,7 +31356,7 @@
     "secondLevelName": "Derbyshire",
     "thirdLevelCode": "PI",
     "thirdLevelName": "Derby Justice Centre",
-    "thirdLevelPsaCode": "1428",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -30937,7 +31366,7 @@
     "secondLevelCode": "30",
     "secondLevelName": "Derbyshire",
     "thirdLevelCode": "PN",
-    "thirdLevelName": "DERBYSHIRE PND'S",
+    "thirdLevelName": "DERBYSHIRE PND'S *HISTORICAL-SEE 30CI*",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -31015,7 +31444,7 @@
     "secondLevelName": "Derbyshire",
     "thirdLevelCode": "TY",
     "thirdLevelName": "Buxton (County Court, Hardwick Street)",
-    "thirdLevelPsaCode": "1435",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -31026,7 +31455,7 @@
     "secondLevelName": "Derbyshire",
     "thirdLevelCode": "TZ",
     "thirdLevelName": "Chesterfield (County Court, St Mary's Gate)",
-    "thirdLevelPsaCode": "1435",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -31047,7 +31476,7 @@
     "secondLevelCode": "30",
     "secondLevelName": "Derbyshire",
     "thirdLevelCode": "UM",
-    "thirdLevelName": "RESERVED LIANE DODD / DATA PROTECTION INFORMATION MANAGEMENT",
+    "thirdLevelName": "RESERVED JENNA BOULTER/ DATA PROTECTION INFORMATION MANAGEMENT",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -31058,7 +31487,7 @@
     "secondLevelCode": "30",
     "secondLevelName": "Derbyshire",
     "thirdLevelCode": "UZ",
-    "thirdLevelName": "RESERVED LIANE DODD / DATA PROTECTION INFORMATION MANAGEMENT",
+    "thirdLevelName": "RESERVED JENNA BOULTER/ DATA PROTECTION INFORMATION MANAGEMENT",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -31345,7 +31774,7 @@
     "secondLevelName": "Nottinghamshire",
     "thirdLevelCode": "IT",
     "thirdLevelName": "Mansfield (Rosemary St)",
-    "thirdLevelPsaCode": "2095",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -31356,7 +31785,7 @@
     "secondLevelName": "Nottinghamshire",
     "thirdLevelCode": "JV",
     "thirdLevelName": "Nottingham (Carrington St)",
-    "thirdLevelPsaCode": "2095",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -31378,7 +31807,7 @@
     "secondLevelName": "Nottinghamshire",
     "thirdLevelCode": "MS",
     "thirdLevelName": "Mercure Nottingham Sherwood Hotel",
-    "thirdLevelPsaCode": "0444",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -31433,7 +31862,7 @@
     "secondLevelName": "Nottinghamshire",
     "thirdLevelCode": "NT",
     "thirdLevelName": "Nottingham",
-    "thirdLevelPsaCode": "0444",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -31741,7 +32170,7 @@
     "secondLevelName": "Nottinghamshire",
     "thirdLevelCode": "UA",
     "thirdLevelName": "Mansfield (County Court, Commercial Gate)",
-    "thirdLevelPsaCode": "2095",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -32126,7 +32555,7 @@
     "secondLevelName": "Lincolnshire",
     "thirdLevelCode": "BX",
     "thirdLevelName": "Boston",
-    "thirdLevelPsaCode": "2105",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -32511,7 +32940,7 @@
     "secondLevelName": "Lincolnshire",
     "thirdLevelCode": "FQ",
     "thirdLevelName": "Gainsborough",
-    "thirdLevelPsaCode": "2105",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -32544,7 +32973,7 @@
     "secondLevelName": "Lincolnshire",
     "thirdLevelCode": "FX",
     "thirdLevelName": "Grantham",
-    "thirdLevelPsaCode": "2105",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -32577,7 +33006,7 @@
     "secondLevelName": "Lincolnshire",
     "thirdLevelCode": "HX",
     "thirdLevelName": "Lincoln",
-    "thirdLevelPsaCode": "2105",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -32599,7 +33028,7 @@
     "secondLevelName": "Lincolnshire",
     "thirdLevelCode": "LI",
     "thirdLevelName": "Lincoln",
-    "thirdLevelPsaCode": "0432",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -32698,7 +33127,7 @@
     "secondLevelName": "Lincolnshire",
     "thirdLevelCode": "UD",
     "thirdLevelName": "Boston (County Court, Norfolk Street)",
-    "thirdLevelPsaCode": "2105",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -32709,7 +33138,7 @@
     "secondLevelName": "Lincolnshire",
     "thirdLevelCode": "UE",
     "thirdLevelName": "Lincoln (County Court, Combined Court Centre, High Steet)",
-    "thirdLevelPsaCode": "2105",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -33059,6 +33488,17 @@
     "bottomLevelName": "",
     "secondLevelCode": "33",
     "secondLevelName": "Leicestershire",
+    "thirdLevelCode": "HF",
+    "thirdLevelName": "ARMED RESPONSE TEAM",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "33",
+    "secondLevelName": "Leicestershire",
     "thirdLevelCode": "HG",
     "thirdLevelName": "DOG SECTION",
     "thirdLevelPsaCode": "",
@@ -33182,7 +33622,7 @@
     "secondLevelName": "Leicestershire",
     "thirdLevelCode": "HU",
     "thirdLevelName": "Leicester",
-    "thirdLevelPsaCode": "2100",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -33226,7 +33666,7 @@
     "secondLevelName": "Leicestershire",
     "thirdLevelCode": "II",
     "thirdLevelName": "Loughborough",
-    "thirdLevelPsaCode": "2100",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -33435,7 +33875,7 @@
     "secondLevelName": "Leicestershire",
     "thirdLevelCode": "LB",
     "thirdLevelName": "Loughborough",
-    "thirdLevelPsaCode": "0430",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -33457,7 +33897,7 @@
     "secondLevelName": "Leicestershire",
     "thirdLevelCode": "LC",
     "thirdLevelName": "Leicester",
-    "thirdLevelPsaCode": "0430",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -33874,7 +34314,7 @@
     "secondLevelCode": "33",
     "secondLevelName": "Leicestershire",
     "thirdLevelCode": "SN",
-    "thirdLevelName": "NSPIS CONTACT PS 1367",
+    "thirdLevelName": "NSPIS",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -34216,7 +34656,7 @@
     "secondLevelName": "Northamptonshire",
     "thirdLevelCode": "JS",
     "thirdLevelName": "Northampton",
-    "thirdLevelPsaCode": "2330",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -34392,7 +34832,7 @@
     "secondLevelName": "Northamptonshire",
     "thirdLevelCode": "NO",
     "thirdLevelName": "Northampton",
-    "thirdLevelPsaCode": "0442",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -34469,7 +34909,7 @@
     "secondLevelName": "Northamptonshire",
     "thirdLevelCode": "NX",
     "thirdLevelName": "Wellingborough",
-    "thirdLevelPsaCode": "2330",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -34512,7 +34952,7 @@
     "secondLevelCode": "34",
     "secondLevelName": "Northamptonshire",
     "thirdLevelCode": "PS",
-    "thirdLevelName": "PROTECTIVE SERVICES COMMAND",
+    "thirdLevelName": "FORCE INTELLIGENCE BUREAU",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -34623,7 +35063,7 @@
     "secondLevelName": "Northamptonshire",
     "thirdLevelCode": "UF",
     "thirdLevelName": "Kettering (County Court, Dryland Street)",
-    "thirdLevelPsaCode": "2330",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -34656,6 +35096,17 @@
     "secondLevelName": "Northamptonshire",
     "thirdLevelCode": "UZ",
     "thirdLevelName": "FORENSIC SERVICES",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "34",
+    "secondLevelName": "Northamptonshire",
+    "thirdLevelCode": "VA",
+    "thirdLevelName": "34VA",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -34787,7 +35238,7 @@
     "secondLevelCode": "35",
     "secondLevelName": "Cambridgeshire",
     "thirdLevelCode": "00",
-    "thirdLevelName": "PETE HAWKINS PNC BUREAU SUPERVISOR",
+    "thirdLevelName": "PETE HAWKINS PNC BUREAU MANAGER",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -34865,7 +35316,7 @@
     "secondLevelName": "Cambridgeshire",
     "thirdLevelCode": "CM",
     "thirdLevelName": "Cambridge",
-    "thirdLevelPsaCode": "0410",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -34953,7 +35404,7 @@
     "secondLevelName": "Cambridgeshire",
     "thirdLevelCode": "CZ",
     "thirdLevelName": "Cambridge",
-    "thirdLevelPsaCode": "1949",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -35030,7 +35481,7 @@
     "secondLevelName": "Cambridgeshire",
     "thirdLevelCode": "HF",
     "thirdLevelName": "Huntingdon",
-    "thirdLevelPsaCode": "1949",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -35074,7 +35525,7 @@
     "secondLevelName": "Cambridgeshire",
     "thirdLevelCode": "JB",
     "thirdLevelName": "Peterborough (County Court)",
-    "thirdLevelPsaCode": "1949",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -35085,7 +35536,7 @@
     "secondLevelName": "Cambridgeshire",
     "thirdLevelCode": "KE",
     "thirdLevelName": "Peterborough",
-    "thirdLevelPsaCode": "1949",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -35195,7 +35646,7 @@
     "secondLevelName": "Cambridgeshire",
     "thirdLevelCode": "PE",
     "thirdLevelName": "Peterborough",
-    "thirdLevelPsaCode": "0473",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -35206,7 +35657,7 @@
     "secondLevelName": "Cambridgeshire",
     "thirdLevelCode": "PK",
     "thirdLevelName": "Peterborough (Knights' Chamber)",
-    "thirdLevelPsaCode": "0473",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -36361,7 +36812,7 @@
     "secondLevelName": "Norfolk",
     "thirdLevelCode": "FZ",
     "thirdLevelName": "Great Yarmouth",
-    "thirdLevelPsaCode": "1972",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -36526,7 +36977,7 @@
     "secondLevelName": "Norfolk",
     "thirdLevelCode": "HN",
     "thirdLevelName": "King's Lynn",
-    "thirdLevelPsaCode": "1972",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -36581,7 +37032,7 @@
     "secondLevelName": "Norfolk",
     "thirdLevelCode": "JU",
     "thirdLevelName": "Norwich",
-    "thirdLevelPsaCode": "1972",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -36669,7 +37120,7 @@
     "secondLevelName": "Norfolk",
     "thirdLevelCode": "KL",
     "thirdLevelName": "King's Lynn",
-    "thirdLevelPsaCode": "0765",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -36944,7 +37395,7 @@
     "secondLevelName": "Norfolk",
     "thirdLevelCode": "NR",
     "thirdLevelName": "Norwich",
-    "thirdLevelPsaCode": "0443",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -37131,7 +37582,7 @@
     "secondLevelName": "Norfolk",
     "thirdLevelCode": "UJ",
     "thirdLevelName": "King's Lynn (County Court, King Street)",
-    "thirdLevelPsaCode": "1972",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -37339,7 +37790,7 @@
     "secondLevelCode": "37",
     "secondLevelName": "Suffolk",
     "thirdLevelCode": "00",
-    "thirdLevelName": "MARIE JONES",
+    "thirdLevelName": "MARIE JONES PNC LIAISON OFFICER",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -37384,7 +37835,7 @@
     "secondLevelName": "Suffolk",
     "thirdLevelCode": "BE",
     "thirdLevelName": "Bury St Edmunds",
-    "thirdLevelPsaCode": "0754",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -37439,7 +37890,7 @@
     "secondLevelName": "Suffolk",
     "thirdLevelCode": "CR",
     "thirdLevelName": "Bury St Edmunds",
-    "thirdLevelPsaCode": "2865",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -37582,7 +38033,7 @@
     "secondLevelName": "Suffolk",
     "thirdLevelCode": "HI",
     "thirdLevelName": "Ipswich",
-    "thirdLevelPsaCode": "2870",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -37637,7 +38088,7 @@
     "secondLevelName": "Suffolk",
     "thirdLevelCode": "IP",
     "thirdLevelName": "Ipswich",
-    "thirdLevelPsaCode": "0426",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -37879,7 +38330,7 @@
     "secondLevelName": "Suffolk",
     "thirdLevelCode": "UK",
     "thirdLevelName": "Bury St. Edmunds (County Court, St. Andrews Street North)",
-    "thirdLevelPsaCode": "2870",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -37890,7 +38341,7 @@
     "secondLevelName": "Suffolk",
     "thirdLevelCode": "UL",
     "thirdLevelName": "Ipswich (County Court, Arcade Street)",
-    "thirdLevelPsaCode": "2870",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -39617,7 +40068,7 @@
     "secondLevelName": "Bedfordshire",
     "thirdLevelCode": "BC",
     "thirdLevelName": "Bedford",
-    "thirdLevelPsaCode": "1080",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -39914,7 +40365,7 @@
     "secondLevelName": "Bedfordshire",
     "thirdLevelCode": "IM",
     "thirdLevelName": "Luton",
-    "thirdLevelPsaCode": "1080",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -40013,7 +40464,7 @@
     "secondLevelName": "Bedfordshire",
     "thirdLevelCode": "LU",
     "thirdLevelName": "Luton",
-    "thirdLevelPsaCode": "0476",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -40090,7 +40541,7 @@
     "secondLevelName": "Bedfordshire",
     "thirdLevelCode": "UM",
     "thirdLevelName": "Bedford (County Court, Goldington Road)",
-    "thirdLevelPsaCode": "1080",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -40112,7 +40563,7 @@
     "secondLevelName": "Bedfordshire",
     "thirdLevelCode": "UN",
     "thirdLevelName": "Luton (County Court, Alma Street)",
-    "thirdLevelPsaCode": "1080",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -40508,7 +40959,7 @@
     "secondLevelName": "Hertfordshire",
     "thirdLevelCode": "GS",
     "thirdLevelName": "Hertford",
-    "thirdLevelPsaCode": "1911",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -40651,7 +41102,7 @@
     "secondLevelName": "Hertfordshire",
     "thirdLevelCode": "ME",
     "thirdLevelName": "St Albans",
-    "thirdLevelPsaCode": "1910",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -40662,7 +41113,7 @@
     "secondLevelName": "Hertfordshire",
     "thirdLevelCode": "MJ",
     "thirdLevelName": "Stevenage",
-    "thirdLevelPsaCode": "1911",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -40695,7 +41146,7 @@
     "secondLevelName": "Hertfordshire",
     "thirdLevelCode": "NW",
     "thirdLevelName": "Watford",
-    "thirdLevelPsaCode": "1910",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -40805,7 +41256,7 @@
     "secondLevelName": "Hertfordshire",
     "thirdLevelCode": "ST",
     "thirdLevelName": "St Albans",
-    "thirdLevelPsaCode": "0450",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -40871,7 +41322,7 @@
     "secondLevelName": "Hertfordshire",
     "thirdLevelCode": "UR",
     "thirdLevelName": "Watford (County Court, Station Road)",
-    "thirdLevelPsaCode": "1910",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -40882,7 +41333,7 @@
     "secondLevelName": "Hertfordshire",
     "thirdLevelCode": "US",
     "thirdLevelName": "Hatfield Magistrates’ Court",
-    "thirdLevelPsaCode": "1910",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -41036,7 +41487,7 @@
     "secondLevelName": "Essex",
     "thirdLevelCode": "AZ",
     "thirdLevelName": "Basildon",
-    "thirdLevelPsaCode": "1971",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -41069,7 +41520,7 @@
     "secondLevelName": "Essex",
     "thirdLevelCode": "BS",
     "thirdLevelName": "Basildon",
-    "thirdLevelPsaCode": "0461",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -41079,7 +41530,7 @@
     "secondLevelCode": "42",
     "secondLevelName": "Essex",
     "thirdLevelCode": "BX",
-    "thirdLevelName": "TILBURY CUSTODY SUITE",
+    "thirdLevelName": "OBSOLETE",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -41124,7 +41575,7 @@
     "secondLevelName": "Essex",
     "thirdLevelCode": "CF",
     "thirdLevelName": "Chelmsford",
-    "thirdLevelPsaCode": "0414",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -41134,7 +41585,7 @@
     "secondLevelCode": "42",
     "secondLevelName": "Essex",
     "thirdLevelCode": "CF",
-    "thirdLevelName": "SOUTH WOODHAM FERRERS CUSTODY SUITE",
+    "thirdLevelName": "OBSOLETE",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -41145,7 +41596,7 @@
     "secondLevelCode": "42",
     "secondLevelName": "Essex",
     "thirdLevelCode": "CH",
-    "thirdLevelName": "HALSTEAD CUSTODY SUITE",
+    "thirdLevelName": "OBSOLETE",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -41157,7 +41608,7 @@
     "secondLevelName": "Essex",
     "thirdLevelCode": "CM",
     "thirdLevelName": "Chelmsford",
-    "thirdLevelPsaCode": "1970",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -41179,7 +41630,7 @@
     "secondLevelName": "Essex",
     "thirdLevelCode": "CO",
     "thirdLevelName": "Colchester",
-    "thirdLevelPsaCode": "1970",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -41200,7 +41651,7 @@
     "secondLevelCode": "42",
     "secondLevelName": "Essex",
     "thirdLevelCode": "CQ",
-    "thirdLevelName": "SOUTHMINSTER CUSTODY SUITE",
+    "thirdLevelName": "OBSOLETE",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -41354,7 +41805,7 @@
     "secondLevelCode": "42",
     "secondLevelName": "Essex",
     "thirdLevelCode": "EW",
-    "thirdLevelName": "HARWICH CUSTODY SUITE",
+    "thirdLevelName": "OBSOLETE",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -41498,7 +41949,7 @@
     "secondLevelName": "Essex",
     "thirdLevelCode": "MB",
     "thirdLevelName": "Southend on Sea",
-    "thirdLevelPsaCode": "1971",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -41552,7 +42003,7 @@
     "secondLevelCode": "42",
     "secondLevelName": "Essex",
     "thirdLevelCode": "MV",
-    "thirdLevelName": "OBSOLETE FORMERLY LAINDON CJU",
+    "thirdLevelName": "RESERVED FOR CJU FORMERLY LAINDON CJU",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -41563,7 +42014,7 @@
     "secondLevelCode": "42",
     "secondLevelName": "Essex",
     "thirdLevelCode": "MW",
-    "thirdLevelName": "OBSOLETE FORMERLY SOUTHEND CJU",
+    "thirdLevelName": "RESERVED FOR CJU FORMERLY SOUTHEND CJU",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -41574,7 +42025,7 @@
     "secondLevelCode": "42",
     "secondLevelName": "Essex",
     "thirdLevelCode": "MY",
-    "thirdLevelName": "OBSOLETE FORMERLY HARLOW CJU",
+    "thirdLevelName": "RESERVED FOR CJU FORMERLY HARLOW CJU",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -41860,7 +42311,7 @@
     "secondLevelCode": "42",
     "secondLevelName": "Essex",
     "thirdLevelCode": "QB",
-    "thirdLevelName": "RESOLUTION CENTRE INCORPORATING CRIME BUREAU",
+    "thirdLevelName": "CONTACT CENTRE ESSEX POLICE HEADQUARTERS",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -41915,7 +42366,7 @@
     "secondLevelCode": "42",
     "secondLevelName": "Essex",
     "thirdLevelCode": "QI",
-    "thirdLevelName": "FORCE CONTROL ROOM ESSEX POLICE HEADQUARTERS",
+    "thirdLevelName": "CONTROL CENTRE ESSEX POLICE HEADQUARTERS",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -42059,7 +42510,7 @@
     "secondLevelName": "Essex",
     "thirdLevelCode": "SE",
     "thirdLevelName": "Southend",
-    "thirdLevelPsaCode": "0772",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -42290,7 +42741,7 @@
     "secondLevelName": "Essex",
     "thirdLevelCode": "US",
     "thirdLevelName": "Chelmsford (County Court, New London Road)",
-    "thirdLevelPsaCode": "1970",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -42301,7 +42752,7 @@
     "secondLevelName": "Essex",
     "thirdLevelCode": "UT",
     "thirdLevelName": "Colchester (County Court, Southway)",
-    "thirdLevelPsaCode": "1970",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -42312,7 +42763,7 @@
     "secondLevelName": "Essex",
     "thirdLevelCode": "UW",
     "thirdLevelName": "Southend (County Court, Tylers Avenue)",
-    "thirdLevelPsaCode": "1971",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -42389,7 +42840,7 @@
     "secondLevelName": "Thames Valley",
     "thirdLevelCode": "AJ",
     "thirdLevelName": "Amersham",
-    "thirdLevelPsaCode": "1129",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -42433,7 +42884,7 @@
     "secondLevelName": "Thames Valley",
     "thirdLevelCode": "AM",
     "thirdLevelName": "Amersham",
-    "thirdLevelPsaCode": "0777",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -42455,7 +42906,7 @@
     "secondLevelName": "Thames Valley",
     "thirdLevelCode": "AQ",
     "thirdLevelName": "Banbury",
-    "thirdLevelPsaCode": "1922",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -42488,7 +42939,7 @@
     "secondLevelName": "Thames Valley",
     "thirdLevelCode": "AY",
     "thirdLevelName": "Aylesbury",
-    "thirdLevelPsaCode": "0401",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -43126,7 +43577,7 @@
     "secondLevelName": "Thames Valley",
     "thirdLevelCode": "IQ",
     "thirdLevelName": "Maidenhead",
-    "thirdLevelPsaCode": "1920",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -43170,7 +43621,7 @@
     "secondLevelName": "Thames Valley",
     "thirdLevelCode": "JC",
     "thirdLevelName": "Milton Keynes",
-    "thirdLevelPsaCode": "1921",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -43258,7 +43709,7 @@
     "secondLevelName": "Thames Valley",
     "thirdLevelCode": "KB",
     "thirdLevelName": "Oxford",
-    "thirdLevelPsaCode": "1922",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -43269,7 +43720,7 @@
     "secondLevelName": "Thames Valley",
     "thirdLevelCode": "KQ",
     "thirdLevelName": "Reading",
-    "thirdLevelPsaCode": "1920",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -43346,7 +43797,7 @@
     "secondLevelName": "Thames Valley",
     "thirdLevelCode": "LV",
     "thirdLevelName": "Slough",
-    "thirdLevelPsaCode": "1920",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -43522,7 +43973,7 @@
     "secondLevelName": "Thames Valley",
     "thirdLevelCode": "OX",
     "thirdLevelName": "Oxford",
-    "thirdLevelPsaCode": "0445",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -43533,7 +43984,7 @@
     "secondLevelName": "Thames Valley",
     "thirdLevelCode": "OX",
     "thirdLevelName": "Wycombe",
-    "thirdLevelPsaCode": "1921",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -43577,7 +44028,7 @@
     "secondLevelName": "Thames Valley",
     "thirdLevelCode": "RE",
     "thirdLevelName": "Reading",
-    "thirdLevelPsaCode": "0449",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -43686,7 +44137,7 @@
     "secondLevelCode": "43",
     "secondLevelName": "Thames Valley",
     "thirdLevelCode": "SK",
-    "thirdLevelName": "INFORMATION RESEARCH BUREAU (PNC)",
+    "thirdLevelName": "INFORMATION RESEARCH BUREAU - IRB (PNC)",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -43940,7 +44391,7 @@
     "secondLevelName": "Thames Valley",
     "thirdLevelCode": "UX",
     "thirdLevelName": "Aylesbury (County Court, Buckingham Street)",
-    "thirdLevelPsaCode": "1921",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -43951,7 +44402,7 @@
     "secondLevelName": "Thames Valley",
     "thirdLevelCode": "UY",
     "thirdLevelName": "Banbury (County Court, Warwick Road)",
-    "thirdLevelPsaCode": "1922",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -43973,7 +44424,7 @@
     "secondLevelName": "Thames Valley",
     "thirdLevelCode": "UZ",
     "thirdLevelName": "Milton Keynes (County Court, Silbury Boulevard)",
-    "thirdLevelPsaCode": "1921",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -43995,7 +44446,7 @@
     "secondLevelName": "Thames Valley",
     "thirdLevelCode": "VB",
     "thirdLevelName": "Reading (County Court, Friar Street)",
-    "thirdLevelPsaCode": "1920",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -44138,7 +44589,7 @@
     "secondLevelName": "Hampshire",
     "thirdLevelCode": "AG",
     "thirdLevelName": "Aldershot",
-    "thirdLevelPsaCode": "1305",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -44149,7 +44600,7 @@
     "secondLevelName": "Hampshire",
     "thirdLevelCode": "BA",
     "thirdLevelName": "Basingstoke",
-    "thirdLevelPsaCode": "1305",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -44490,7 +44941,7 @@
     "secondLevelName": "Hampshire",
     "thirdLevelCode": "JK",
     "thirdLevelName": "Newport",
-    "thirdLevelPsaCode": "1945",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -44534,7 +44985,7 @@
     "secondLevelName": "Hampshire",
     "thirdLevelCode": "KM",
     "thirdLevelName": "Portsmouth",
-    "thirdLevelPsaCode": "1800",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -44633,7 +45084,7 @@
     "secondLevelName": "Hampshire",
     "thirdLevelCode": "MA",
     "thirdLevelName": "Southampton (The Avenue)",
-    "thirdLevelPsaCode": "1304",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -44677,7 +45128,7 @@
     "secondLevelName": "Hampshire",
     "thirdLevelCode": "NI",
     "thirdLevelName": "Newport IOW",
-    "thirdLevelPsaCode": "0478",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -44930,7 +45381,7 @@
     "secondLevelName": "Hampshire",
     "thirdLevelCode": "PO",
     "thirdLevelName": "Portsmouth",
-    "thirdLevelPsaCode": "0447",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -45062,7 +45513,7 @@
     "secondLevelName": "Hampshire",
     "thirdLevelCode": "SA",
     "thirdLevelName": "Southampton",
-    "thirdLevelPsaCode": "0454",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -45238,7 +45689,7 @@
     "secondLevelName": "Hampshire",
     "thirdLevelCode": "VE",
     "thirdLevelName": "Southampton (County Court, Combined Court Centre, London Road)",
-    "thirdLevelPsaCode": "1304",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -45293,7 +45744,7 @@
     "secondLevelName": "Hampshire",
     "thirdLevelCode": "WG",
     "thirdLevelName": "The Guildhall",
-    "thirdLevelPsaCode": "0465",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -45304,7 +45755,7 @@
     "secondLevelName": "Hampshire",
     "thirdLevelCode": "WI",
     "thirdLevelName": "Winchester",
-    "thirdLevelPsaCode": "0465",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -45348,7 +45799,7 @@
     "secondLevelName": "Hampshire",
     "thirdLevelCode": "WZ",
     "thirdLevelName": "Winchester Combined Court Centre",
-    "thirdLevelPsaCode": "1305",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -45544,6 +45995,17 @@
     "bottomLevelName": "",
     "secondLevelCode": "45",
     "secondLevelName": "Surrey",
+    "thirdLevelCode": "DR",
+    "thirdLevelName": "DIGITAL RECORDING CASES (MOBILE RECORDING)",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "45",
+    "secondLevelName": "Surrey",
     "thirdLevelCode": "EC",
     "thirdLevelName": "HISTORIC CODE CATERHAM",
     "thirdLevelPsaCode": "",
@@ -45700,7 +46162,7 @@
     "secondLevelName": "Surrey",
     "thirdLevelCode": "GC",
     "thirdLevelName": "Guildford",
-    "thirdLevelPsaCode": "2875",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -45722,7 +46184,7 @@
     "secondLevelName": "Surrey",
     "thirdLevelCode": "GU",
     "thirdLevelName": "Guildford",
-    "thirdLevelPsaCode": "0474",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -45810,7 +46272,7 @@
     "secondLevelName": "Surrey",
     "thirdLevelCode": "MH",
     "thirdLevelName": "Staines",
-    "thirdLevelPsaCode": "2875",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -46635,7 +47097,7 @@
     "secondLevelName": "Kent",
     "thirdLevelCode": "CN",
     "thirdLevelName": "Canterbury",
-    "thirdLevelPsaCode": "0479",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -46712,7 +47174,7 @@
     "secondLevelName": "Kent",
     "thirdLevelCode": "DB",
     "thirdLevelName": "Canterbury",
-    "thirdLevelPsaCode": "1953",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -46778,7 +47240,7 @@
     "secondLevelName": "Kent",
     "thirdLevelCode": "DH",
     "thirdLevelName": "Medway",
-    "thirdLevelPsaCode": "1961",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -47053,7 +47515,7 @@
     "secondLevelName": "Kent",
     "thirdLevelCode": "FO",
     "thirdLevelName": "Folkestone",
-    "thirdLevelPsaCode": "1957",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -47196,7 +47658,7 @@
     "secondLevelName": "Kent",
     "thirdLevelCode": "IR",
     "thirdLevelName": "Maidstone",
-    "thirdLevelPsaCode": "1959",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -47207,7 +47669,7 @@
     "secondLevelName": "Kent",
     "thirdLevelCode": "IU",
     "thirdLevelName": "Margate",
-    "thirdLevelPsaCode": "1965",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -47361,7 +47823,7 @@
     "secondLevelName": "Kent",
     "thirdLevelCode": "LN",
     "thirdLevelName": "Sevenoaks",
-    "thirdLevelPsaCode": "1960",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -47416,7 +47878,7 @@
     "secondLevelName": "Kent",
     "thirdLevelCode": "MA",
     "thirdLevelName": "Maidstone",
-    "thirdLevelPsaCode": "0434",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -47449,7 +47911,7 @@
     "secondLevelName": "Kent",
     "thirdLevelCode": "MC",
     "thirdLevelName": "Mercure Maidstone (Great Danes Hotel)",
-    "thirdLevelPsaCode": "0434",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -47657,7 +48119,7 @@
     "secondLevelCode": "46",
     "secondLevelName": "Kent",
     "thirdLevelCode": "QA",
-    "thirdLevelName": "PNC BUREAU (FOR FIB SEE 46QZ)",
+    "thirdLevelName": "PNC BUREAU",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -47845,7 +48307,7 @@
     "secondLevelName": "Kent",
     "thirdLevelCode": "VH",
     "thirdLevelName": "Dartford (County Court, Home Gardens)",
-    "thirdLevelPsaCode": "1966",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -47856,7 +48318,7 @@
     "secondLevelName": "Kent",
     "thirdLevelCode": "VJ",
     "thirdLevelName": "Medway (County and Family Court, Dock Road)",
-    "thirdLevelPsaCode": "1966",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -47867,7 +48329,7 @@
     "secondLevelName": "Kent",
     "thirdLevelCode": "VK",
     "thirdLevelName": "Thanet (County Court, Cecil Square)",
-    "thirdLevelPsaCode": "1965",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -48417,7 +48879,7 @@
     "secondLevelName": "Sussex",
     "thirdLevelCode": "CC",
     "thirdLevelName": "Chichester",
-    "thirdLevelPsaCode": "0416",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -48439,7 +48901,7 @@
     "secondLevelName": "Sussex",
     "thirdLevelCode": "CL",
     "thirdLevelName": "Brighton (Edward Street)",
-    "thirdLevelPsaCode": "2950",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -48483,7 +48945,7 @@
     "secondLevelName": "Sussex",
     "thirdLevelCode": "EC",
     "thirdLevelName": "Crawley",
-    "thirdLevelPsaCode": "2951",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -48549,7 +49011,7 @@
     "secondLevelName": "Sussex",
     "thirdLevelCode": "FB",
     "thirdLevelName": "Eastbourne",
-    "thirdLevelPsaCode": "2948",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -48604,7 +49066,7 @@
     "secondLevelName": "Sussex",
     "thirdLevelCode": "GL",
     "thirdLevelName": "Hastings",
-    "thirdLevelPsaCode": "2948",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -48615,7 +49077,7 @@
     "secondLevelName": "Sussex",
     "thirdLevelCode": "HB",
     "thirdLevelName": "Horsham",
-    "thirdLevelPsaCode": "2951",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -48648,7 +49110,7 @@
     "secondLevelName": "Sussex",
     "thirdLevelCode": "LW",
     "thirdLevelName": "Lewes",
-    "thirdLevelPsaCode": "0431",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -48714,7 +49176,7 @@
     "secondLevelName": "Sussex",
     "thirdLevelCode": "OV",
     "thirdLevelName": "Worthing",
-    "thirdLevelPsaCode": "2951",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -48802,7 +49264,7 @@
     "secondLevelName": "Sussex",
     "thirdLevelCode": "VM",
     "thirdLevelName": "Chichester (County Court, Combined Court Centre, Southgate)",
-    "thirdLevelPsaCode": "2951",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -48813,7 +49275,7 @@
     "secondLevelName": "Sussex",
     "thirdLevelCode": "VN",
     "thirdLevelName": "Eastbourne (County Court, The Avenue)",
-    "thirdLevelPsaCode": "2948",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -48824,7 +49286,7 @@
     "secondLevelName": "Sussex",
     "thirdLevelCode": "VO",
     "thirdLevelName": "Hastings (County Court, Bohemia Road)",
-    "thirdLevelPsaCode": "2948",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -50848,7 +51310,7 @@
     "secondLevelName": "Devon and Cornwall",
     "thirdLevelCode": "AW",
     "thirdLevelName": "Barnstaple",
-    "thirdLevelPsaCode": "1300",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -50859,7 +51321,7 @@
     "secondLevelName": "Devon and Cornwall",
     "thirdLevelCode": "BU",
     "thirdLevelName": "Bodmin",
-    "thirdLevelPsaCode": "1301",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -50870,7 +51332,7 @@
     "secondLevelName": "Devon and Cornwall",
     "thirdLevelCode": "EX",
     "thirdLevelName": "Exeter",
-    "thirdLevelPsaCode": "0423",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -50881,7 +51343,7 @@
     "secondLevelName": "Devon and Cornwall",
     "thirdLevelCode": "HJ",
     "thirdLevelName": "Isles of Scilly",
-    "thirdLevelPsaCode": "1301",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -50892,7 +51354,7 @@
     "secondLevelName": "Devon and Cornwall",
     "thirdLevelCode": "JO",
     "thirdLevelName": "Newton Abbot",
-    "thirdLevelPsaCode": "1302",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -50903,7 +51365,7 @@
     "secondLevelName": "Devon and Cornwall",
     "thirdLevelCode": "KH",
     "thirdLevelName": "Plymouth",
-    "thirdLevelPsaCode": "1302",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -50914,7 +51376,7 @@
     "secondLevelName": "Devon and Cornwall",
     "thirdLevelCode": "KI",
     "thirdLevelName": "Plymouth (Combined Court, The Law Courts, Amanda Way)",
-    "thirdLevelPsaCode": "1302",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -50925,7 +51387,7 @@
     "secondLevelName": "Devon and Cornwall",
     "thirdLevelCode": "NL",
     "thirdLevelName": "Truro",
-    "thirdLevelPsaCode": "1301",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -50936,7 +51398,7 @@
     "secondLevelName": "Devon and Cornwall",
     "thirdLevelCode": "PL",
     "thirdLevelName": "Plymouth",
-    "thirdLevelPsaCode": "0446",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -50947,7 +51409,7 @@
     "secondLevelName": "Devon and Cornwall",
     "thirdLevelCode": "TR",
     "thirdLevelName": "Truro",
-    "thirdLevelPsaCode": "0477",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -50958,7 +51420,7 @@
     "secondLevelName": "Devon and Cornwall",
     "thirdLevelCode": "VQ",
     "thirdLevelName": "Bodmin (County Court, Market Street)",
-    "thirdLevelPsaCode": "1301",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -50969,7 +51431,7 @@
     "secondLevelName": "Devon and Cornwall",
     "thirdLevelCode": "VR",
     "thirdLevelName": "Exeter",
-    "thirdLevelPsaCode": "1300",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -50977,9 +51439,9 @@
     "bottomLevelCode": "00",
     "bottomLevelName": "",
     "secondLevelCode": "51",
-    "secondLevelName": "Not in use",
-    "thirdLevelCode": "00",
-    "thirdLevelName": "",
+    "secondLevelName": "",
+    "thirdLevelCode": "HQ",
+    "thirdLevelName": "FORCE 51",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -50988,9 +51450,9 @@
     "bottomLevelCode": "00",
     "bottomLevelName": "",
     "secondLevelCode": "51",
-    "secondLevelName": "Reserved",
-    "thirdLevelCode": "HQ",
-    "thirdLevelName": "FORCE 51",
+    "secondLevelName": "Not in use",
+    "thirdLevelCode": "00",
+    "thirdLevelName": "",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -53200,8 +53662,19 @@
     "bottomLevelName": "",
     "secondLevelCode": "52",
     "secondLevelName": "Avon & Somerset",
+    "thirdLevelCode": "VO",
+    "thirdLevelName": "52VO BELONGS TO 52VP",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "52",
+    "secondLevelName": "Avon & Somerset",
     "thirdLevelCode": "VP",
-    "thirdLevelName": "PNC INTEL UNIT INTELLIGENCE DIRECTORATE PAUL REES PNC LIAISON",
+    "thirdLevelName": "PNC INTEL UNIT INTELLIGENCE DIRECTORATE ALEX QUAYLE PNC LIAISON",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -53433,7 +53906,7 @@
     "secondLevelName": "Avon and Somerset",
     "thirdLevelCode": "BB",
     "thirdLevelName": "Bath",
-    "thirdLevelPsaCode": "1450",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -53444,7 +53917,7 @@
     "secondLevelName": "Avon and Somerset",
     "thirdLevelCode": "BT",
     "thirdLevelName": "Bristol",
-    "thirdLevelPsaCode": "0408",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -53455,7 +53928,7 @@
     "secondLevelName": "Avon and Somerset",
     "thirdLevelCode": "CM",
     "thirdLevelName": "Bristol",
-    "thirdLevelPsaCode": "1450",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -53466,7 +53939,7 @@
     "secondLevelName": "Avon and Somerset",
     "thirdLevelCode": "MY",
     "thirdLevelName": "Taunton",
-    "thirdLevelPsaCode": "1450",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -53477,7 +53950,7 @@
     "secondLevelName": "Avon and Somerset",
     "thirdLevelCode": "OC",
     "thirdLevelName": "Weston-super-Mare",
-    "thirdLevelPsaCode": "1023",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -53488,7 +53961,7 @@
     "secondLevelName": "Avon and Somerset",
     "thirdLevelCode": "OZ",
     "thirdLevelName": "Yeovil",
-    "thirdLevelPsaCode": "1450",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -53499,7 +53972,7 @@
     "secondLevelName": "Avon and Somerset",
     "thirdLevelCode": "QA",
     "thirdLevelName": "Bristol Civil Justice Centre",
-    "thirdLevelPsaCode": "1450",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -53510,7 +53983,7 @@
     "secondLevelName": "Avon and Somerset",
     "thirdLevelCode": "SH",
     "thirdLevelName": "Shire Hall ((County Court, Taunton)",
-    "thirdLevelPsaCode": "1450",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -53532,7 +54005,7 @@
     "secondLevelName": "Avon and Somerset",
     "thirdLevelCode": "TC",
     "thirdLevelName": "Shire Hall ((County Court, Taunton)",
-    "thirdLevelPsaCode": "0459",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -53543,7 +54016,7 @@
     "secondLevelName": "Avon and Somerset",
     "thirdLevelCode": "VU",
     "thirdLevelName": "Bath (County Court, Henry Street)",
-    "thirdLevelPsaCode": "1450",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -53554,7 +54027,7 @@
     "secondLevelName": "Avon and Somerset",
     "thirdLevelCode": "VV",
     "thirdLevelName": "Bristol (County Court, Lewins Mead)",
-    "thirdLevelPsaCode": "1450",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -53565,7 +54038,7 @@
     "secondLevelName": "Avon and Somerset",
     "thirdLevelCode": "VW",
     "thirdLevelName": "Weston-super-Mare (County Court, High Street)",
-    "thirdLevelPsaCode": "1450",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -53576,7 +54049,7 @@
     "secondLevelName": "Avon and Somerset",
     "thirdLevelCode": "VX",
     "thirdLevelName": "Yeovil (County Court, Hendford)",
-    "thirdLevelPsaCode": "1450",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -53608,7 +54081,7 @@
     "secondLevelCode": "53",
     "secondLevelName": "Gloucestershire",
     "thirdLevelCode": "00",
-    "thirdLevelName": "RYAN WHITTARD PNC LIAISON OFFICER",
+    "thirdLevelName": "CLAIRE GASSIDE PNC LIAISON OFFICER",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -53630,7 +54103,7 @@
     "secondLevelCode": "53",
     "secondLevelName": "Gloucestershire",
     "thirdLevelCode": "AM",
-    "thirdLevelName": "HISTORIC CODE SEE 53DH",
+    "thirdLevelName": "HISTORIC CODE SEE 53DH TEWKESBURY",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -53663,7 +54136,7 @@
     "secondLevelCode": "53",
     "secondLevelName": "Gloucestershire",
     "thirdLevelCode": "BM",
-    "thirdLevelName": "HISTORIC CODE SEE 53EH",
+    "thirdLevelName": "HISTORIC CODE SEE 53EH CINDERFORD",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -53674,7 +54147,7 @@
     "secondLevelCode": "53",
     "secondLevelName": "Gloucestershire",
     "thirdLevelCode": "BN",
-    "thirdLevelName": "HISTORIC CODE SEE 53EH",
+    "thirdLevelName": "HISTORIC CODE SEE 53EH COLEFORD",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -53685,7 +54158,7 @@
     "secondLevelCode": "53",
     "secondLevelName": "Gloucestershire",
     "thirdLevelCode": "BR",
-    "thirdLevelName": "HISTORIC CODE SEE 53EH",
+    "thirdLevelName": "HISTORIC CODE SEE 53EH LYDNEY",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -53707,7 +54180,7 @@
     "secondLevelCode": "53",
     "secondLevelName": "Gloucestershire",
     "thirdLevelCode": "CI",
-    "thirdLevelName": "HISTORIC CODE SEE 53FH",
+    "thirdLevelName": "HISTORIC CODE SEE 53FH STOW ON THE WOL",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -53718,7 +54191,7 @@
     "secondLevelCode": "53",
     "secondLevelName": "Gloucestershire",
     "thirdLevelCode": "CK",
-    "thirdLevelName": "HISTORIC CODE SEE 53FH",
+    "thirdLevelName": "HISTORIC CODE SEE 53FH CIRENCESTER",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -53729,7 +54202,7 @@
     "secondLevelCode": "53",
     "secondLevelName": "Gloucestershire",
     "thirdLevelCode": "CN",
-    "thirdLevelName": "HISTORIC CODE SEE 53CH",
+    "thirdLevelName": "HISTORIC CODE SEE 53CH DURSLEY",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -53752,7 +54225,7 @@
     "secondLevelName": "Gloucestershire",
     "thirdLevelCode": "DJ",
     "thirdLevelName": "Cheltenham",
-    "thirdLevelPsaCode": "1696",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -53763,7 +54236,7 @@
     "secondLevelName": "Gloucestershire",
     "thirdLevelCode": "DT",
     "thirdLevelName": "Cirencester",
-    "thirdLevelPsaCode": "1689",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -53851,7 +54324,7 @@
     "secondLevelName": "Gloucestershire",
     "thirdLevelCode": "GC",
     "thirdLevelName": "Cirencester (Gloucester)",
-    "thirdLevelPsaCode": "0424",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -53862,7 +54335,7 @@
     "secondLevelName": "Gloucestershire",
     "thirdLevelCode": "GL",
     "thirdLevelName": "Gloucester",
-    "thirdLevelPsaCode": "0424",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -53905,7 +54378,7 @@
     "secondLevelCode": "53",
     "secondLevelName": "Gloucestershire",
     "thirdLevelCode": "SI",
-    "thirdLevelName": "GLOUCESTERSHIRE",
+    "thirdLevelName": "GLOUCESTERSHIRE FIB",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -53961,7 +54434,7 @@
     "secondLevelName": "Gloucestershire",
     "thirdLevelCode": "VZ",
     "thirdLevelName": "Gloucester (County Court, Kimbrose Way)",
-    "thirdLevelPsaCode": "1698",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -53982,7 +54455,7 @@
     "secondLevelCode": "54",
     "secondLevelName": "Wiltshire",
     "thirdLevelCode": "00",
-    "thirdLevelName": "COLIN DAVIES PNC LIAISON OFFICER WILTSHIRE",
+    "thirdLevelName": "EMILY REES PNC LIAISON OFFICER WILTSHIRE",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -54092,7 +54565,7 @@
     "secondLevelCode": "54",
     "secondLevelName": "Wiltshire",
     "thirdLevelCode": "BB",
-    "thirdLevelName": "COLIN DAVIES PNC BUREAU OPENING TIMES MON-FRI WEEKENDS/B/HOLS",
+    "thirdLevelName": "EMILY REES PNC BUREAU OPENING TIMES MON-FRI WEEKENDS/B/HOLS",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -54302,7 +54775,7 @@
     "secondLevelName": "Wiltshire",
     "thirdLevelCode": "DR",
     "thirdLevelName": "Chippenham (Pewsham Way)",
-    "thirdLevelPsaCode": "3021",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -54522,7 +54995,7 @@
     "secondLevelName": "Wiltshire",
     "thirdLevelCode": "MW",
     "thirdLevelName": "Swindon",
-    "thirdLevelPsaCode": "3021",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -54566,7 +55039,7 @@
     "secondLevelName": "Wiltshire",
     "thirdLevelCode": "SD",
     "thirdLevelName": "Swindon",
-    "thirdLevelPsaCode": "0458",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -54577,7 +55050,7 @@
     "secondLevelName": "Wiltshire",
     "thirdLevelCode": "SL",
     "thirdLevelName": "Salisbury",
-    "thirdLevelPsaCode": "0480",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -54631,7 +55104,7 @@
     "secondLevelCode": "54",
     "secondLevelName": "Wiltshire",
     "thirdLevelCode": "UZ",
-    "thirdLevelName": "COLIN DAVIES PNC BUREAU",
+    "thirdLevelName": "EMILY REES PNC BUREAU",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -54643,7 +55116,7 @@
     "secondLevelName": "Wiltshire",
     "thirdLevelCode": "WA",
     "thirdLevelName": "Trowbridge (County Court, Stallard Street)",
-    "thirdLevelPsaCode": "3021",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -54654,7 +55127,7 @@
     "secondLevelName": "Wiltshire",
     "thirdLevelCode": "WV",
     "thirdLevelName": "Salisbury",
-    "thirdLevelPsaCode": "3021",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -54786,7 +55259,7 @@
     "secondLevelName": "Dorset",
     "thirdLevelCode": "BN",
     "thirdLevelName": "Bournemouth",
-    "thirdLevelPsaCode": "0406",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -55622,7 +56095,7 @@
     "secondLevelName": "Dorset",
     "thirdLevelCode": "IS",
     "thirdLevelName": "Bournemouth Combined Court",
-    "thirdLevelPsaCode": "1530",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -55743,7 +56216,7 @@
     "secondLevelName": "Dorset",
     "thirdLevelCode": "KL",
     "thirdLevelName": "Poole (The Law Courts, Park Road)",
-    "thirdLevelPsaCode": "1530",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -56194,7 +56667,7 @@
     "secondLevelName": "Dorset",
     "thirdLevelCode": "OE",
     "thirdLevelName": "Weymouth",
-    "thirdLevelPsaCode": "1530",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -56601,7 +57074,7 @@
     "secondLevelName": "Dorset",
     "thirdLevelCode": "WC",
     "thirdLevelName": "Weymouth (County Court, Westwey Road)",
-    "thirdLevelPsaCode": "1530",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -56678,7 +57151,7 @@
     "secondLevelName": "Dorset",
     "thirdLevelCode": "WY",
     "thirdLevelName": "Weymouth and Dorchester Combined Court Centre",
-    "thirdLevelPsaCode": "0407",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -56884,9 +57357,9 @@
     "bottomLevelCode": "00",
     "bottomLevelName": "",
     "secondLevelCode": "58",
-    "secondLevelName": "Not in use",
-    "thirdLevelCode": "00",
-    "thirdLevelName": "",
+    "secondLevelName": "",
+    "thirdLevelCode": "SF",
+    "thirdLevelName": "SERIOUS FRAUD OFFICE",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -56895,9 +57368,9 @@
     "bottomLevelCode": "00",
     "bottomLevelName": "",
     "secondLevelCode": "58",
-    "secondLevelName": "Reserved",
-    "thirdLevelCode": "SF",
-    "thirdLevelName": "SERIOUS FRAUD OFFICE",
+    "secondLevelName": "Not in use",
+    "thirdLevelCode": "00",
+    "thirdLevelName": "",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -56963,7 +57436,7 @@
     "secondLevelCode": "60",
     "secondLevelName": "North Wales",
     "thirdLevelCode": "00",
-    "thirdLevelName": "SHIRLEY ROYLES PNC MANAGER",
+    "thirdLevelName": "PNC BUREAU",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -57723,7 +58196,7 @@
     "secondLevelName": "North Wales",
     "thirdLevelCode": "ID",
     "thirdLevelName": "Llandudno",
-    "thirdLevelPsaCode": "3070",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -57734,7 +58207,7 @@
     "secondLevelName": "North Wales",
     "thirdLevelCode": "IF",
     "thirdLevelName": "Llangefni Shire Hall",
-    "thirdLevelPsaCode": "3240",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -57756,7 +58229,7 @@
     "secondLevelName": "North Wales",
     "thirdLevelCode": "JE",
     "thirdLevelName": "Mold",
-    "thirdLevelPsaCode": "3063",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -57822,7 +58295,7 @@
     "secondLevelName": "North Wales",
     "thirdLevelCode": "OW",
     "thirdLevelName": "Wrexham",
-    "thirdLevelPsaCode": "3063",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -57998,6 +58471,17 @@
     "secondLevelName": "North Wales",
     "thirdLevelCode": "SS",
     "thirdLevelName": "GWYNEDD SOUTH DIVISION",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "60",
+    "secondLevelName": "North Wales",
+    "thirdLevelCode": "TR",
+    "thirdLevelName": "60TR",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -58184,7 +58668,7 @@
     "secondLevelCode": "60",
     "secondLevelName": "North Wales",
     "thirdLevelCode": "WR",
-    "thirdLevelName": "WREXHAM RURAL",
+    "thirdLevelName": "WREXHAM RURAL - LLAY",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -58218,7 +58702,7 @@
     "secondLevelName": "North Wales",
     "thirdLevelCode": "WU",
     "thirdLevelName": "Caernarfon",
-    "thirdLevelPsaCode": "3240",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -58658,7 +59142,7 @@
     "secondLevelName": "Gwent",
     "thirdLevelCode": "EH",
     "thirdLevelName": "Cwmbran",
-    "thirdLevelPsaCode": "3210",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -58889,7 +59373,7 @@
     "secondLevelName": "Gwent",
     "thirdLevelCode": "NP",
     "thirdLevelName": "Newport",
-    "thirdLevelPsaCode": "3211",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -58999,7 +59483,7 @@
     "secondLevelName": "Gwent",
     "thirdLevelCode": "WY",
     "thirdLevelName": "Newport (Crown Court Building)",
-    "thirdLevelPsaCode": "3211",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -59042,7 +59526,7 @@
     "secondLevelCode": "62",
     "secondLevelName": "South Wales",
     "thirdLevelCode": "00",
-    "thirdLevelName": "PNC MANAGER TBC PNC LIAISON JEREMY DAVIES PHOENIX MANAGER SARA FRANCIS",
+    "thirdLevelName": "PNC MANAGER TBC PNC LIAISON JEREMY DAVIES PHOENIX MANAGER SOPHIE MCMILLAN",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -59175,7 +59659,7 @@
     "secondLevelName": "South Wales",
     "thirdLevelCode": "CH",
     "thirdLevelName": "Carmarthen",
-    "thirdLevelPsaCode": "0756",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -59263,7 +59747,7 @@
     "secondLevelName": "South Wales",
     "thirdLevelCode": "CR",
     "thirdLevelName": "Cardiff",
-    "thirdLevelPsaCode": "0411",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -59340,7 +59824,7 @@
     "secondLevelName": "South Wales",
     "thirdLevelCode": "DC",
     "thirdLevelName": "Cardiff",
-    "thirdLevelPsaCode": "3190",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -59593,7 +60077,7 @@
     "secondLevelName": "South Wales",
     "thirdLevelCode": "HV",
     "thirdLevelName": "Haverfordwest",
-    "thirdLevelPsaCode": "0761",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -59626,7 +60110,7 @@
     "secondLevelName": "South Wales",
     "thirdLevelCode": "IZ",
     "thirdLevelName": "Merthyr Tydfil",
-    "thirdLevelPsaCode": "3270",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -59692,7 +60176,7 @@
     "secondLevelName": "South Wales",
     "thirdLevelCode": "KL",
     "thirdLevelName": "Port Talbot",
-    "thirdLevelPsaCode": "3319",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -59747,7 +60231,7 @@
     "secondLevelName": "South Wales",
     "thirdLevelCode": "MT",
     "thirdLevelName": "Merthyr Tydfil",
-    "thirdLevelPsaCode": "0437",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -59758,7 +60242,7 @@
     "secondLevelName": "South Wales",
     "thirdLevelCode": "MV",
     "thirdLevelName": "Swansea (Grove Place)",
-    "thirdLevelPsaCode": "3319",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -59791,7 +60275,7 @@
     "secondLevelName": "South Wales",
     "thirdLevelCode": "NG",
     "thirdLevelName": "Newport (Gwent)",
-    "thirdLevelPsaCode": "0441",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -59879,7 +60363,7 @@
     "secondLevelName": "South Wales",
     "thirdLevelCode": "PM",
     "thirdLevelName": "Pontypridd (Union Street)",
-    "thirdLevelPsaCode": "3265",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -59934,7 +60418,7 @@
     "secondLevelName": "South Wales",
     "thirdLevelCode": "SC",
     "thirdLevelName": "Swansea (Council Chambers)",
-    "thirdLevelPsaCode": "0457",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -59967,7 +60451,7 @@
     "secondLevelName": "South Wales",
     "thirdLevelCode": "SS",
     "thirdLevelName": "Swansea",
-    "thirdLevelPsaCode": "0457",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "C",
     "topLevelName": "Crown Courts"
   },
@@ -60099,7 +60583,7 @@
     "secondLevelName": "South Wales",
     "thirdLevelCode": "WM",
     "thirdLevelName": "Cardiff (County Court, Park Street)",
-    "thirdLevelPsaCode": "3190",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -60110,7 +60594,7 @@
     "secondLevelName": "South Wales",
     "thirdLevelCode": "WN",
     "thirdLevelName": "Neath and Port Talbot (County Court, Forster Road)",
-    "thirdLevelPsaCode": "3319",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -60132,7 +60616,7 @@
     "secondLevelName": "South Wales",
     "thirdLevelCode": "WO",
     "thirdLevelName": "Pontypridd (County Court, Courthouse Street)",
-    "thirdLevelPsaCode": "3270",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -60143,7 +60627,7 @@
     "secondLevelName": "South Wales",
     "thirdLevelCode": "WP",
     "thirdLevelName": "Swansea (County Court, Quay West)",
-    "thirdLevelPsaCode": "3319",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -60307,7 +60791,7 @@
     "secondLevelCode": "63",
     "secondLevelName": "Dyfed Powys",
     "thirdLevelCode": "HQ",
-    "thirdLevelName": "POLICE HQ PNC BUREAU",
+    "thirdLevelName": "POLICE HQ",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -60418,7 +60902,7 @@
     "secondLevelName": "Dyfed-Powys",
     "thirdLevelCode": "AD",
     "thirdLevelName": "Aberystwyth",
-    "thirdLevelPsaCode": "3253",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -60429,7 +60913,7 @@
     "secondLevelName": "Dyfed-Powys",
     "thirdLevelCode": "GN",
     "thirdLevelName": "Haverfordwest",
-    "thirdLevelPsaCode": "3139",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -60440,7 +60924,7 @@
     "secondLevelName": "Dyfed-Powys",
     "thirdLevelCode": "IE",
     "thirdLevelName": "Llanelli",
-    "thirdLevelPsaCode": "3252",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -60451,7 +60935,7 @@
     "secondLevelName": "Dyfed-Powys",
     "thirdLevelCode": "LW",
     "thirdLevelName": "Llandrindod Wells Justice Centre",
-    "thirdLevelPsaCode": "3250",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -60462,7 +60946,7 @@
     "secondLevelName": "Dyfed-Powys",
     "thirdLevelCode": "NZ",
     "thirdLevelName": "Welshpool",
-    "thirdLevelPsaCode": "3346",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -60473,7 +60957,7 @@
     "secondLevelName": "Dyfed-Powys",
     "thirdLevelCode": "WS",
     "thirdLevelName": "Llanelli (County Court, Town Hall Square)",
-    "thirdLevelPsaCode": "3252",
+    "thirdLevelPsaCode": "",
     "topLevelCode": "B",
     "topLevelName": "Magistrates' Courts"
   },
@@ -60769,7 +61253,7 @@
     "secondLevelCode": "67",
     "secondLevelName": "Serious Organised Crime Agency",
     "thirdLevelCode": "EX",
-    "thirdLevelName": "NCA EXTRADITION",
+    "thirdLevelName": "THE JOINT INTERNATIONAL CRIME CENTRE (JICC)",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -60932,18 +61416,7 @@
     "bottomLevelCode": "00",
     "bottomLevelName": "",
     "secondLevelCode": "68",
-    "secondLevelName": "Not in use",
-    "thirdLevelCode": "00",
-    "thirdLevelName": "",
-    "thirdLevelPsaCode": "",
-    "topLevelCode": "",
-    "topLevelName": "Police Service"
-  },
-  {
-    "bottomLevelCode": "00",
-    "bottomLevelName": "",
-    "secondLevelCode": "68",
-    "secondLevelName": "Reserved",
+    "secondLevelName": "",
     "thirdLevelCode": "HA",
     "thirdLevelName": "HIGHWAYS ENGLAND",
     "thirdLevelPsaCode": "",
@@ -60953,7 +61426,7 @@
   {
     "bottomLevelCode": "00",
     "bottomLevelName": "",
-    "secondLevelCode": "69",
+    "secondLevelCode": "68",
     "secondLevelName": "Not in use",
     "thirdLevelCode": "00",
     "thirdLevelName": "",
@@ -60965,7 +61438,7 @@
     "bottomLevelCode": "00",
     "bottomLevelName": "",
     "secondLevelCode": "69",
-    "secondLevelName": "Not in use",
+    "secondLevelName": "",
     "thirdLevelCode": "CE",
     "thirdLevelName": "CIRCULATION OF ESCAPEES FROM DETENTION",
     "thirdLevelPsaCode": "",
@@ -60976,7 +61449,7 @@
     "bottomLevelCode": "00",
     "bottomLevelName": "",
     "secondLevelCode": "69",
-    "secondLevelName": "Not in use",
+    "secondLevelName": "",
     "thirdLevelCode": "CF",
     "thirdLevelName": "HOME OFFICE CFI MARKERS",
     "thirdLevelPsaCode": "",
@@ -60987,7 +61460,7 @@
     "bottomLevelCode": "00",
     "bottomLevelName": "",
     "secondLevelCode": "69",
-    "secondLevelName": "Not in use",
+    "secondLevelName": "",
     "thirdLevelCode": "EX",
     "thirdLevelName": "HOME OFFICE EXCLUSIONS",
     "thirdLevelPsaCode": "",
@@ -60998,7 +61471,7 @@
     "bottomLevelCode": "00",
     "bottomLevelName": "",
     "secondLevelCode": "69",
-    "secondLevelName": "Not in use",
+    "secondLevelName": "",
     "thirdLevelCode": "GA",
     "thirdLevelName": "HOME OFFICE ABSCONDERS",
     "thirdLevelPsaCode": "",
@@ -61009,7 +61482,7 @@
     "bottomLevelCode": "00",
     "bottomLevelName": "",
     "secondLevelCode": "69",
-    "secondLevelName": "Not in use",
+    "secondLevelName": "",
     "thirdLevelCode": "LD",
     "thirdLevelName": "HOME OFFICE LIABLE FOR DEPORTATION",
     "thirdLevelPsaCode": "",
@@ -61020,7 +61493,7 @@
     "bottomLevelCode": "00",
     "bottomLevelName": "",
     "secondLevelCode": "69",
-    "secondLevelName": "Not in use",
+    "secondLevelName": "",
     "thirdLevelCode": "RA",
     "thirdLevelName": "HOME OFFICE EEA OP RADAR",
     "thirdLevelPsaCode": "",
@@ -61031,9 +61504,20 @@
     "bottomLevelCode": "00",
     "bottomLevelName": "",
     "secondLevelCode": "69",
-    "secondLevelName": "Not in use",
+    "secondLevelName": "",
     "thirdLevelCode": "UK",
     "thirdLevelName": "HOME OFFICE RELEASED FNO",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "69",
+    "secondLevelName": "Not in use",
+    "thirdLevelCode": "00",
+    "thirdLevelName": "",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -61108,18 +61592,7 @@
     "bottomLevelCode": "00",
     "bottomLevelName": "",
     "secondLevelCode": "71",
-    "secondLevelName": "Not in use",
-    "thirdLevelCode": "00",
-    "thirdLevelName": "",
-    "thirdLevelPsaCode": "",
-    "topLevelCode": "",
-    "topLevelName": "Police Service"
-  },
-  {
-    "bottomLevelCode": "00",
-    "bottomLevelName": "",
-    "secondLevelCode": "71",
-    "secondLevelName": "Not in use",
+    "secondLevelName": "",
     "thirdLevelCode": "PO",
     "thirdLevelName": "ROYAL MAIL CORPORATE SECURITY",
     "thirdLevelPsaCode": "",
@@ -61129,7 +61602,7 @@
   {
     "bottomLevelCode": "00",
     "bottomLevelName": "",
-    "secondLevelCode": "72",
+    "secondLevelCode": "71",
     "secondLevelName": "Not in use",
     "thirdLevelCode": "00",
     "thirdLevelName": "",
@@ -61141,9 +61614,20 @@
     "bottomLevelCode": "00",
     "bottomLevelName": "",
     "secondLevelCode": "72",
-    "secondLevelName": "Not in use",
+    "secondLevelName": "",
     "thirdLevelCode": "MC",
     "thirdLevelName": "MHRA",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "72",
+    "secondLevelName": "Not in use",
+    "thirdLevelCode": "00",
+    "thirdLevelName": "",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -63330,18 +63814,7 @@
     "bottomLevelCode": "00",
     "bottomLevelName": "",
     "secondLevelCode": "75",
-    "secondLevelName": "Not in use",
-    "thirdLevelCode": "00",
-    "thirdLevelName": "",
-    "thirdLevelPsaCode": "",
-    "topLevelCode": "",
-    "topLevelName": "Police Service"
-  },
-  {
-    "bottomLevelCode": "00",
-    "bottomLevelName": "",
-    "secondLevelCode": "75",
-    "secondLevelName": "Not in use",
+    "secondLevelName": "",
     "thirdLevelCode": "CF",
     "thirdLevelName": "IMMIGRATION ENFORCEMENT CRIMINAL AND FINANCE INVESTIGATION",
     "thirdLevelPsaCode": "",
@@ -63352,9 +63825,20 @@
     "bottomLevelCode": "00",
     "bottomLevelName": "",
     "secondLevelCode": "75",
-    "secondLevelName": "Not in use",
+    "secondLevelName": "",
     "thirdLevelCode": "WI",
     "thirdLevelName": "75WI",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "75",
+    "secondLevelName": "Not in use",
+    "thirdLevelCode": "00",
+    "thirdLevelName": "",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -63365,7 +63849,7 @@
     "secondLevelCode": "76",
     "secondLevelName": "Lothian & Borders Police",
     "thirdLevelCode": "00",
-    "thirdLevelName": "NICOLA NICOL & KATY MCLEOD PNC LIAISON POLICE SCOTLAND LEGACY L&B (76)",
+    "thirdLevelName": "JILL BROWN PNC LIAISON POLICE SCOTLAND",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -64201,7 +64685,7 @@
     "secondLevelCode": "78",
     "secondLevelName": "Fife Constabulary",
     "thirdLevelCode": "00",
-    "thirdLevelName": "KAREN TAIT PNC LIAISON OFFICER POLICE SCOTLAND EAST COMMAND LEGACY:FIFE",
+    "thirdLevelName": "PNC LIAISON OFFICER POLICE SCOTLAND EAST COMMAND LEGACY:FIFE",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -64300,7 +64784,7 @@
     "secondLevelCode": "80",
     "secondLevelName": "Tayside Police",
     "thirdLevelCode": "00",
-    "thirdLevelName": "MRS G BUTTER PNC LIAISON OFFICER POLICE SCOTLAND NORTH COMMAND LEGACY TAYSIDE",
+    "thirdLevelName": "POLICE SCOTLAND NORTH COMMAND LEGACY TAYSIDE",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -65257,7 +65741,7 @@
     "secondLevelCode": "88",
     "secondLevelName": "HMRC",
     "thirdLevelCode": "NA",
-    "thirdLevelName": "FINGERPRINT & DNA OFFICE",
+    "thirdLevelName": "FINGERPRINT & DNA OFFICE (C/O POLICE SYSTEM INTERFACE BUREAU)",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -65268,7 +65752,7 @@
     "secondLevelCode": "88",
     "secondLevelName": "HMRC",
     "thirdLevelCode": "NC",
-    "thirdLevelName": "HMRC POLICE SYSTEMS INTERFACE BUREAU (PSIB) NAFIS SEE 88NA",
+    "thirdLevelName": "HMRC POLICE SYSTEMS HUB",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -65685,6 +66169,17 @@
     "bottomLevelName": "",
     "secondLevelCode": "90",
     "secondLevelName": "Scottish Crime & Drug Enforcement Agency",
+    "thirdLevelCode": "HA",
+    "thirdLevelName": "PREVENT DELIVER DELIVERY UNIT",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "90",
+    "secondLevelName": "Scottish Crime & Drug Enforcement Agency",
     "thirdLevelCode": "HR",
     "thirdLevelName": "90HR",
     "thirdLevelPsaCode": "",
@@ -65961,7 +66456,7 @@
     "secondLevelCode": "91",
     "secondLevelName": "National Crime Agency",
     "thirdLevelCode": "D2",
-    "thirdLevelName": "NSU ADMIN",
+    "thirdLevelName": "NSU ENQUIRIES",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -65972,7 +66467,7 @@
     "secondLevelCode": "91",
     "secondLevelName": "National Crime Agency",
     "thirdLevelCode": "D3",
-    "thirdLevelName": "NSU ADMIN",
+    "thirdLevelName": "NSU ENQUIRIES",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -68270,6 +68765,17 @@
     "bottomLevelName": "",
     "secondLevelCode": "93",
     "secondLevelName": "BTP",
+    "thirdLevelCode": "SP",
+    "thirdLevelName": "SPRING HOUSE",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "93",
+    "secondLevelName": "BTP",
     "thirdLevelCode": "SS",
     "thirdLevelName": "SOUTHAMPTON",
     "thirdLevelPsaCode": "",
@@ -68898,7 +69404,7 @@
     "secondLevelCode": "97",
     "secondLevelName": "Isle of Man Constabulary",
     "thirdLevelCode": "00",
-    "thirdLevelName": "KRISTY BRYAN/ DAVID FERRAN/ LINDA KELLY PNC LIAISON OFFICERS",
+    "thirdLevelName": "GAIL CONWAY SARAH GAWNE PNC LIAISON OFFICERS",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
@@ -69130,6 +69636,17 @@
     "secondLevelName": "Police Service of Northern Ireland",
     "thirdLevelCode": "DQ",
     "thirdLevelName": "PDU BROOKLYN",
+    "thirdLevelPsaCode": "",
+    "topLevelCode": "",
+    "topLevelName": "Police Service"
+  },
+  {
+    "bottomLevelCode": "00",
+    "bottomLevelName": "",
+    "secondLevelCode": "98",
+    "secondLevelName": "Police Service of Northern Ireland",
+    "thirdLevelCode": "DV",
+    "thirdLevelName": "BELFAST INTERNATIONAL AIRPORT",
     "thirdLevelPsaCode": "",
     "topLevelCode": "",
     "topLevelName": "Police Service"
