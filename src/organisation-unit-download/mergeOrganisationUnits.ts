@@ -16,12 +16,12 @@ const mergeOrganisationUnits = (
         matchingValues(oldR.bottomLevelCode, record.bottomLevelCode)
     )
     if (existingRecord) {
-      existingRecord.topLevelName = record.topLevelName ?? existingRecord.topLevelName
-      existingRecord.secondLevelName = record.secondLevelName ?? existingRecord.secondLevelName
-      existingRecord.thirdLevelName = record.thirdLevelName ?? existingRecord.thirdLevelName
-      existingRecord.bottomLevelName = record.bottomLevelName ?? existingRecord.bottomLevelName
+      existingRecord.topLevelName = record.topLevelName || existingRecord.topLevelName
+      existingRecord.secondLevelName = record.secondLevelName || existingRecord.secondLevelName
+      existingRecord.thirdLevelName = record.thirdLevelName || existingRecord.thirdLevelName
+      existingRecord.bottomLevelName = record.bottomLevelName || existingRecord.bottomLevelName
       existingRecord.thirdLevelPsaCode =
-        record.thirdLevelPsaCode ?? existingRecord.thirdLevelPsaCode
+        record.thirdLevelPsaCode || existingRecord.thirdLevelPsaCode
     } else {
       existingData.push(record)
     }
