@@ -1,7 +1,7 @@
-import downloadCjsOuCodes from "./organisation-unit-download/downloadCjsOuCodes"
+import mergeOrganisationUnitData from "./organisation-unit-download/mergeOrganisationUnitData"
 
 const main = async () => {
-  await downloadCjsOuCodes()
+  await mergeOrganisationUnitData()
 }
 
 main()

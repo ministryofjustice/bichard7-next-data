@@ -15,6 +15,7 @@
     "download-standing-data": "ts-node src/download-standing-data-api.ts",
     "download-organisation-unit-data": "ts-node src/download-organisation-unit-data.ts",
     "merge-offence-data": "ts-node src/merge-offence-data.ts",
+    "merge-organisation-unit-data": "ts-node src/merge-organisation-unit-data.ts",
     "generate-trigger-config": "ts-node src/generate-trigger-properties/generate.ts",
     "update-deps": "ncu -u && npm install"
   },
