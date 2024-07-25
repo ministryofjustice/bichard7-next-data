@@ -1,5 +1,3 @@
-import TriggerCodeGroups from "./TriggerCodeGroups"
-
 enum TriggerCode {
   TRPR0001 = "TRPR0001",
   TRPR0002 = "TRPR0002",
@@ -38,30 +36,12 @@ enum TriggerCode {
   TRPS0013 = "TRPS0013"
 }
 
-const GroupedTriggerCodes: Record<TriggerCodeGroups, TriggerCode[]> = {
-  [TriggerCodeGroups.Bails]: [
-    TriggerCode.TRPR0008,
-    TriggerCode.TRPR0010,
-    TriggerCode.TRPR0020,
-    TriggerCode.TRPR0030
-  ],
-  [TriggerCodeGroups.Custody]: [
-    TriggerCode.TRPR0001,
-    TriggerCode.TRPR0005,
-    TriggerCode.TRPR0006,
-    TriggerCode.TRPR0019,
-    TriggerCode.TRPR0021
-  ],
-  [TriggerCodeGroups.Orders]: [
-    TriggerCode.TRPR0003,
-    TriggerCode.TRPR0016,
-    TriggerCode.TRPR0025,
-    TriggerCode.TRPR0026,
-    TriggerCode.TRPR0029,
-    TriggerCode.TRPS0008
-  ],
-  [TriggerCodeGroups.Warrants]: [TriggerCode.TRPR0002, TriggerCode.TRPR0012]
+enum TriggerCodeGroups {
+  Bails = "Bails",
+  Custody = "Custody",
+  Orders = "Orders",
+  Warrants = "Warrants"
 }
 
-export { GroupedTriggerCodes }
+export { TriggerCodeGroups }
 export default TriggerCode
