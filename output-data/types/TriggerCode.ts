@@ -1,3 +1,5 @@
+import TriggerCodeGroups from "./TriggerCodeGroups"
+
 enum TriggerCode {
   TRPR0001 = "TRPR0001",
   TRPR0002 = "TRPR0002",
@@ -41,13 +43,6 @@ type TriggerCodesByGroup = {
   triggerCodes: TriggerCode[]
 }
 
-enum TriggerCodeGroups {
-  Bails = "Bails",
-  Custody = "Custody",
-  Orders = "Orders",
-  Warrants = "Warrants"
-}
-
 const GroupedTriggerCodes: TriggerCodesByGroup[] = [
   {
     group: TriggerCodeGroups.Bails,
@@ -85,5 +80,5 @@ const GroupedTriggerCodes: TriggerCodesByGroup[] = [
   }
 ]
 
-export { GroupedTriggerCodes, TriggerCodeGroups }
+export { GroupedTriggerCodes }
 export default TriggerCode
