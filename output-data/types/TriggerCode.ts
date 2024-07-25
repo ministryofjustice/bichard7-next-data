@@ -38,47 +38,30 @@ enum TriggerCode {
   TRPS0013 = "TRPS0013"
 }
 
-type TriggerCodesByGroup = {
-  group: string
-  triggerCodes: TriggerCode[]
+const GroupedTriggerCodes: Record<TriggerCodeGroups, TriggerCode[]> = {
+  [TriggerCodeGroups.Bails]: [
+    TriggerCode.TRPR0008,
+    TriggerCode.TRPR0010,
+    TriggerCode.TRPR0020,
+    TriggerCode.TRPR0030
+  ],
+  [TriggerCodeGroups.Custody]: [
+    TriggerCode.TRPR0001,
+    TriggerCode.TRPR0005,
+    TriggerCode.TRPR0006,
+    TriggerCode.TRPR0019,
+    TriggerCode.TRPR0021
+  ],
+  [TriggerCodeGroups.Orders]: [
+    TriggerCode.TRPR0003,
+    TriggerCode.TRPR0016,
+    TriggerCode.TRPR0025,
+    TriggerCode.TRPR0026,
+    TriggerCode.TRPR0029,
+    TriggerCode.TRPS0008
+  ],
+  [TriggerCodeGroups.Warrants]: [TriggerCode.TRPR0002, TriggerCode.TRPR0012]
 }
-
-const GroupedTriggerCodes: TriggerCodesByGroup[] = [
-  {
-    group: TriggerCodeGroups.Bails,
-    triggerCodes: [
-      TriggerCode.TRPR0008,
-      TriggerCode.TRPR0010,
-      TriggerCode.TRPR0020,
-      TriggerCode.TRPR0030
-    ]
-  },
-  {
-    group: TriggerCodeGroups.Custody,
-    triggerCodes: [
-      TriggerCode.TRPR0001,
-      TriggerCode.TRPR0005,
-      TriggerCode.TRPR0006,
-      TriggerCode.TRPR0019,
-      TriggerCode.TRPR0021
-    ]
-  },
-  {
-    group: TriggerCodeGroups.Orders,
-    triggerCodes: [
-      TriggerCode.TRPR0003,
-      TriggerCode.TRPR0016,
-      TriggerCode.TRPR0025,
-      TriggerCode.TRPR0026,
-      TriggerCode.TRPR0029,
-      TriggerCode.TRPS0008
-    ]
-  },
-  {
-    group: TriggerCodeGroups.Warrants,
-    triggerCodes: [TriggerCode.TRPR0002, TriggerCode.TRPR0012]
-  }
-]
 
 export { GroupedTriggerCodes }
 export default TriggerCode
