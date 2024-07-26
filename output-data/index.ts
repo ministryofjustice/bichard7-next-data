@@ -7,6 +7,7 @@ import crestDisposalData from "./data/crest-disposal.json"
 import defendantPresentAtHearingData from "./data/defendant-present-at-hearing.json"
 import durationTypeData from "./data/duration-type.json"
 import durationUnitData from "./data/duration-unit.json"
+import exceptionDefinitionData from "./data/exception-definitions.json"
 import excudedTriggerConfigData from "./data/excluded-trigger-config.json"
 import forcesData from "./data/forces.json"
 import genderData from "./data/gender.json"
@@ -27,11 +28,11 @@ import resultQualifierCodeData from "./data/result-qualifier-code.json"
 import summonsData from "./data/summons.json"
 import targetCourtTypeData from "./data/target-court-type.json"
 import triggerDefinitionData from "./data/trigger-definitions.json"
-import exceptionDefinitionData from "./data/exception-definitions.json"
 import typeOfHearingData from "./data/type-of-hearing.json"
 import vehicleCodeData from "./data/vehicle-code.json"
 import verdictData from "./data/verdict.json"
 import yesNoData from "./data/yes-no.json"
+import GroupedTriggerCodes from "./types/GroupedTriggerCodes"
 import {
   ActualOffenceDate,
   AlcoholLevelMethod,
@@ -136,5 +137,6 @@ export default {
   typeOfHearing,
   vehicleCode,
   verdict,
-  yesNo
+  yesNo,
+  GroupedTriggerCodes
 }
