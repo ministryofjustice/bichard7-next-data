@@ -36,4 +36,12 @@ enum TriggerCode {
   TRPS0013 = "TRPS0013"
 }
 
+enum TriggerCodeGroups {
+  Bails = "Bails",
+  Custody = "Custody",
+  Orders = "Orders",
+  Warrants = "Warrants"
+}
+
+export { TriggerCodeGroups }
 export default TriggerCode
