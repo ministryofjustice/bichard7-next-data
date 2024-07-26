@@ -51,6 +51,18 @@ jobs:
       - name: Push new commit and tag
         run: git push --follow-tags
 
+      - name: Report Status
+        if: always()
+        uses: ravsamhq/notify-slack-action@v1
+        with:
+          status: ${{ job.status }}
+          notification_title: 'GitHub action failed'
+          message_format: ':elmo-fire: *{workflow}* {status_message} in <{repo_url}|{repo}>'
+          notify_when: 'failure'
+          footer: 'Linked to Repo <{repo_url}|{repo}>'
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.ACTION_MONITORING_SLACK }}  
+
   release-npm-package:
     name: Release NPM package
     needs: bump-package-version
@@ -88,6 +100,18 @@ jobs:
         working-directory: output-data
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Report Status
+        if: always()
+        uses: ravsamhq/notify-slack-action@v1
+        with:
+          status: ${{ job.status }}
+          notification_title: 'GitHub action failed'
+          message_format: ':elmo-fire: *{workflow}* {status_message} in <{repo_url}|{repo}>'
+          notify_when: 'failure'
+          footer: 'Linked to Repo <{repo_url}|{repo}>'
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.ACTION_MONITORING_SLACK }} 
 
   release-maven-package:
     name: Release Maven package
@@ -130,11 +154,24 @@ jobs:
       - name: Package the data with maven
         run: mvn package --no-transfer-progress
 
+
       - name: Publish maven package
         run: mvn deploy
         env:
           MAVEN_USERNAME: ${{ secrets.SONATYPE_USERNAME }}
           MAVEN_PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
+
+      - name: Report Status
+        if: always()
+        uses: ravsamhq/notify-slack-action@v1
+        with:
+          status: ${{ job.status }}
+          notification_title: 'GitHub action failed'
+          message_format: ':elmo-fire: *{workflow}* {status_message} in <{repo_url}|{repo}>'
+          notify_when: 'failure'
+          footer: 'Linked to Repo <{repo_url}|{repo}>'
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.ACTION_MONITORING_SLACK }}  
 
   update-core-repo:
     name: Update NPM package in core repo
@@ -156,6 +193,18 @@ jobs:
           -w packages/core
         env:
           VERSION: ${{ needs.bump-package-version.outputs.version }}
+
+      - name: Report Status
+        if: always()
+        uses: ravsamhq/notify-slack-action@v1
+        with:
+          status: ${{ job.status }}
+          notification_title: 'GitHub action failed'
+          message_format: ':elmo-fire: *{workflow}* {status_message} in <{repo_url}|{repo}>'
+          notify_when: 'failure'
+          footer: 'Linked to Repo <{repo_url}|{repo}>'
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.ACTION_MONITORING_SLACK }}
 
       - name: Create pull request
         id: cpr
@@ -196,6 +245,18 @@ jobs:
           sed -i -r "s/bichardDataVersion = \"[0-9]+\.[0-9]+\.[0-9]+\"$/bichardDataVersion = \"$VERSION\"/g" build.gradle
         env:
           VERSION: ${{ needs.bump-package-version.outputs.version }}
+
+      - name: Report Status
+        if: always()
+        uses: ravsamhq/notify-slack-action@v1
+        with:
+          status: ${{ job.status }}
+          notification_title: 'GitHub action failed'
+          message_format: ':elmo-fire: *{workflow}* {status_message} in <{repo_url}|{repo}>'
+          notify_when: 'failure'
+          footer: 'Linked to Repo <{repo_url}|{repo}>'
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.ACTION_MONITORING_SLACK }}  
 
       - name: Create pull request
         id: cpr
