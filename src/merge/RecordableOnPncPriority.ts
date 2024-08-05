@@ -1,43 +1,22 @@
-import { OffenceCode } from "../types/OffenceCode"
-import getMatchCjsCodeFunction from "./getMatchCjsCodeFunction"
+import { OffenceCodeLookup } from "../types/OffenceCodeLookup"
 
+const getValue = (offences: OffenceCodeLookup, code: string): boolean | undefined => {
+  const match = offences[code]?.recordableOnPnc
+  return typeof match === "boolean" ? match : undefined
+}
 export default class RecordableOnPncPriority {
-  /* eslint-disable no-unused-vars */
   constructor(
-    private currentOffenceCodes: OffenceCode[],
-    private civilLibraOffenceCodes: OffenceCode[],
-    private nrcOffenceCodes: OffenceCode[],
-    private localOffenceCodes: OffenceCode[],
-    private pnldOffenceCodes: OffenceCode[],
-    private pncOffenceCodes: OffenceCode[]
+    private currentOffenceCodes: OffenceCodeLookup,
+    private pnldOffenceCodes: OffenceCodeLookup,
+    private pncOffenceCodes: OffenceCodeLookup
   ) {}
 
-  getHighestPriority(cjsCode: string): string {
-    const yes = "Y"
-    const no = "N"
-    const matchCjsCode = getMatchCjsCodeFunction(cjsCode)
-
-    if (this.civilLibraOffenceCodes.find(matchCjsCode)) {
-      return this.currentOffenceCodes.find(matchCjsCode)!.recordableOnPnc as string
-    }
-    if (this.nrcOffenceCodes.find(matchCjsCode)?.recordableOnPnc?.trim()) {
-      return this.nrcOffenceCodes.find(matchCjsCode)!.recordableOnPnc as string
-    }
-    if (this.localOffenceCodes.find(matchCjsCode)?.recordableOnPnc?.trim()) {
-      return this.localOffenceCodes.find(matchCjsCode)!.recordableOnPnc as string
-    }
-    if (this.pnldOffenceCodes.find(matchCjsCode)?.recordableOnPnc?.trim() === yes) {
-      return yes
-    }
-    if (this.pncOffenceCodes.find(matchCjsCode)?.recordableOnPnc?.trim() === yes) {
-      return yes
-    }
-    if (this.pnldOffenceCodes.find(matchCjsCode)?.recordableOnPnc?.trim() === no) {
-      return no
-    }
-    if (this.pncOffenceCodes.find(matchCjsCode)?.recordableOnPnc?.trim() === no) {
-      return no
-    }
-    return no
+  getHighestPriority(cjsCode: string): boolean {
+    return (
+      getValue(this.pncOffenceCodes, cjsCode) ??
+      getValue(this.pnldOffenceCodes, cjsCode) ??
+      getValue(this.currentOffenceCodes, cjsCode) ??
+      false
+    )
   }
 }

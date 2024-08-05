@@ -1,59 +1,33 @@
+import { OffenceCodeLookup } from "../types/OffenceCodeLookup"
 import HomeOfficeClassifictionPriority from "./HomeOfficeClassificationPriority"
 
-const testCjsCode = "ABC123"
-const testHomeOfficeClassification = "123/45"
+const cjsCode = "ABC123"
+const homeOfficeClassification = "123/45"
 
 describe("NotifiableToHOPriority", () => {
-  it("should prioritise civil/libra overrides first", () => {
-    const currentOffenceCodes = [
-      { cjsCode: testCjsCode, homeOfficeClassification: testHomeOfficeClassification }
-    ]
-    const civilLibraOffenceCodes = [{ cjsCode: testCjsCode }]
+  it("should prioritise PNLD offences above current offence codes", () => {
+    const pnldOffences: OffenceCodeLookup = { [cjsCode]: { cjsCode, homeOfficeClassification } }
 
-    const priority = new HomeOfficeClassifictionPriority(
-      currentOffenceCodes,
-      civilLibraOffenceCodes,
-      [],
-      [],
-      []
-    )
+    const currentOffences: OffenceCodeLookup = {
+      [cjsCode]: { cjsCode, homeOfficeClassification: "CURRENT" }
+    }
 
-    expect(priority.getHighestPriority(testCjsCode)).toEqual(testHomeOfficeClassification)
+    const priority = new HomeOfficeClassifictionPriority(currentOffences, pnldOffences)
+
+    expect(priority.getHighestPriority(cjsCode)).toEqual(homeOfficeClassification)
   })
 
-  it("should prioritise national requested changes second", () => {
-    const nrcOffenceCodes = [
-      { cjsCode: testCjsCode, homeOfficeClassification: testHomeOfficeClassification }
-    ]
+  it("should fall back to current offences", () => {
+    const currentOffences: OffenceCodeLookup = { [cjsCode]: { cjsCode, homeOfficeClassification } }
 
-    const priority = new HomeOfficeClassifictionPriority([], [], nrcOffenceCodes, [], [])
+    const priority = new HomeOfficeClassifictionPriority(currentOffences, {})
 
-    expect(priority.getHighestPriority(testCjsCode)).toEqual(testHomeOfficeClassification)
-  })
-
-  it("should prioritise local offences third", () => {
-    const localOffences = [
-      { cjsCode: testCjsCode, homeOfficeClassification: testHomeOfficeClassification }
-    ]
-
-    const priority = new HomeOfficeClassifictionPriority([], [], [], localOffences, [])
-
-    expect(priority.getHighestPriority(testCjsCode)).toEqual(testHomeOfficeClassification)
-  })
-
-  it("should prioritise PNLD offences fourth", () => {
-    const pnldOffences = [
-      { cjsCode: testCjsCode, homeOfficeClassification: testHomeOfficeClassification }
-    ]
-
-    const priority = new HomeOfficeClassifictionPriority([], [], [], [], pnldOffences)
-
-    expect(priority.getHighestPriority(testCjsCode)).toEqual(testHomeOfficeClassification)
+    expect(priority.getHighestPriority(cjsCode)).toEqual(homeOfficeClassification)
   })
 
   it("should return default value if not found", () => {
-    const priority = new HomeOfficeClassifictionPriority([], [], [], [], [])
+    const priority = new HomeOfficeClassifictionPriority({}, {})
 
-    expect(priority.getHighestPriority(testCjsCode)).toEqual("000/00")
+    expect(priority.getHighestPriority(cjsCode)).toEqual("000/00")
   })
 })

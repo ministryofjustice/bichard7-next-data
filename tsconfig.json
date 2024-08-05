@@ -13,7 +13,9 @@
     "resolveJsonModule": true,
     "strictNullChecks": true,
     "strictPropertyInitialization": false,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "declaration": true,
+    "outDir": "dist"
   },
   "include": [
     "src/**/*.ts",

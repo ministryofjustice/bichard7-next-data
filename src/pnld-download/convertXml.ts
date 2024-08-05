@@ -1,4 +1,5 @@
 import { XMLParser } from "fast-xml-parser"
+import valueToBoolean from "../lib/valueToBoolean"
 import { OffenceCode } from "../types/OffenceCode"
 
 export type PnldOffenceParsedXml = {
@@ -40,10 +41,9 @@ export default async (xmlData: string): Promise<OffenceCode> => {
     cjsCode: doc.codes?.cjsoffencecode,
     description: doc.codes?.cjsoffencecode,
     offenceTitle: doc.english?.title,
-    recordableOnPnc: doc.codes?.recordableonpncindicator?.code,
-    notifiableToHo: doc.codes?.notifiabletoho?.code,
+    recordableOnPnc: valueToBoolean(doc.codes?.recordableonpncindicator?.code),
+    notifiableToHo: valueToBoolean(doc.codes?.notifiabletoho?.code),
     homeOfficeClassification: doc.codes?.hoclassification,
-    offenceCategory: doc.libra.cjsoffencecategory?.code,
-    resultHalfLifeHours: null
+    offenceCategory: doc.libra.cjsoffencecategory?.code
   }
 }

@@ -1,0 +1,280 @@
+name: Release
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+env:
+  GITHUB_USERNAME: "bichard7"
+  GITHUB_EMAIL: "bichard7@users.noreply.github.com"
+
+jobs:
+  bump-package-version:
+    name: Bump package version
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.bump.outputs.version }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_ACCESS_TOKEN }}
+          persist-credentials: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.6.1
+
+      - name: Bump output package version (and capture it)
+        id: bump
+        run: echo "version=$(npm version patch | tr -d 'v')" >> "$GITHUB_OUTPUT"
+        working-directory: output-data
+
+      - name: Check new version
+        run: if [ -z "${{ steps.bump.outputs.version }}" ]; then exit 1; else echo "${{ steps.bump.outputs.version }}"; fi
+
+      - name: Update pom.xml with new version number
+        run: envsubst '$PACKAGE_JSON_VERSION' < pom.template.xml > pom.xml
+        env:
+          PACKAGE_JSON_VERSION: ${{ steps.bump.outputs.version }}
+
+      - name: Commit output package version bump
+        run: |
+          git config user.name ${{ env.GITHUB_USERNAME }}
+          git config user.email ${{ env.GITHUB_EMAIL }}
+          git add output-data/package*.json pom.xml
+          git commit -m "Bump package version [skip actions]"
+          git tag v${{ steps.bump.outputs.version }}
+
+      - name: Push new commit and tag
+        run: git push --follow-tags
+
+      - name: Report Status
+        if: always()
+        uses: ravsamhq/notify-slack-action@v1
+        with:
+          status: ${{ job.status }}
+          notification_title: 'GitHub action failed: Bump package version'
+          message_format: ':elmo-fire: *{workflow}* {status_message} in <{repo_url}|{repo}>'
+          notify_when: 'failure'
+          footer: 'Linked to Repo <{repo_url}|{repo}>'
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.ACTION_MONITORING_SLACK }}  
+
+  release-npm-package:
+    name: Release NPM package
+    needs: bump-package-version
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # We need to specify the branch name, so that we get the updated package.json
+          # If we don't specify this, the default is to fetch the commit that triggered
+          # the workflow (which won't include the updated package.json)
+          ref: ${{ github.ref_name }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.6.1
+
+      - name: Install top-level NPM dependencies
+        run: npm ci
+
+      - name: Generate triggers.properties files
+        run: npm run generate-trigger-config
+
+      - name: Install output package NPM dependencies
+        run: npm ci
+        working-directory: output-data
+
+      - name: Build output package
+        working-directory: output-data
+        run: npm run build
+
+      - name: Publish output package
+        run: npm publish
+        working-directory: output-data
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Report Status
+        if: always()
+        uses: ravsamhq/notify-slack-action@v1
+        with:
+          status: ${{ job.status }}
+          notification_title: 'GitHub action failed: Release npm package'
+          message_format: ':elmo-fire: *{workflow}* {status_message} in <{repo_url}|{repo}>'
+          notify_when: 'failure'
+          footer: 'Linked to Repo <{repo_url}|{repo}>'
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.ACTION_MONITORING_SLACK }} 
+
+  release-maven-package:
+    name: Release Maven package
+    needs: bump-package-version
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # We need to specify the branch name, so that we get the updated package.json
+          # If we don't specify this, the default is to fetch the commit that triggered
+          # the workflow (which won't include the updated package.json)
+          ref: ${{ github.ref_name }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.6.1
+
+      - name: Install top-level NPM dependencies
+        run: npm ci
+
+      - name: Generate triggers.properties files
+        run: npm run generate-trigger-config
+
+      - name: Setup Java and Maven
+        uses: actions/setup-java@v2
+        with:
+          distribution: "zulu"
+          java-version: 17
+          server-id: ossrh
+          server-username: MAVEN_USERNAME
+          server-password: MAVEN_PASSWORD
+
+      - name: Install gpg secret key
+        run: |
+          cat <(echo -e "${{ secrets.OSSRH_GPG_SECRET_KEY }}") | gpg --batch --import
+          gpg --list-secret-keys --keyid-format LONG
+
+      - name: Package the data with maven
+        run: mvn package --no-transfer-progress
+
+
+      - name: Publish maven package
+        run: mvn deploy
+        env:
+          MAVEN_USERNAME: ${{ secrets.SONATYPE_USERNAME }}
+          MAVEN_PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
+
+      - name: Report Status
+        if: always()
+        uses: ravsamhq/notify-slack-action@v1
+        with:
+          status: ${{ job.status }}
+          notification_title: 'GitHub action failed: Release Maven package'
+          message_format: ':elmo-fire: *{workflow}* {status_message} in <{repo_url}|{repo}>'
+          notify_when: 'failure'
+          footer: 'Linked to Repo <{repo_url}|{repo}>'
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.ACTION_MONITORING_SLACK }}  
+
+  update-core-repo:
+    name: Update NPM package in core repo
+    needs:
+      - bump-package-version
+      - release-npm-package
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out core repo
+        uses: actions/checkout@v4
+        with:
+          repository: ministryofjustice/bichard7-next-core
+          token: ${{ secrets.GH_ACCESS_TOKEN }}
+
+      - name: Update standing data npm package
+        run: >
+          npm install 
+          bichard7-next-data-latest@npm:@moj-bichard7-developers/bichard7-next-data@${VERSION}
+          -w packages/core
+        env:
+          VERSION: ${{ needs.bump-package-version.outputs.version }}
+
+      - name: Report Status
+        if: always()
+        uses: ravsamhq/notify-slack-action@v1
+        with:
+          status: ${{ job.status }}
+          notification_title: 'GitHub action failed: Update core repo'
+          message_format: ':elmo-fire: *{workflow}* {status_message} in <{repo_url}|{repo}>'
+          notify_when: 'failure'
+          footer: 'Linked to Repo <{repo_url}|{repo}>'
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.ACTION_MONITORING_SLACK }}
+
+      - name: Create pull request
+        id: cpr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: auto/update-standing-data
+          delete-branch: true
+          token: ${{ secrets.GH_ACCESS_TOKEN }}
+          committer: ${{ env.GITHUB_USERNAME }} <${{ env.GITHUB_EMAIL }}>
+          author: ${{ env.GITHUB_USERNAME }} <${{ env.GITHUB_EMAIL }}>
+          commit-message: Update standing data dependency
+          title: Update standing data
+          body: >
+            Automated standing data update generated by the
+            [Release](https://github.com/ministryofjustice/bichard7-next-data/actions/workflows/release.yml)
+            workflow.
+
+      - name: PR information
+        run: |
+          echo "PR #${{ steps.cpr.outputs.pull-request-number }}"
+          echo "${{ steps.cpr.outputs.pull-request-url }}"
+
+  update-b7-repo:
+    name: Update maven package in bichard7-next repo
+    needs:
+      - bump-package-version
+      - release-maven-package
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          repository: ministryofjustice/bichard7-next
+          token: ${{ secrets.GH_ACCESS_TOKEN }}
+
+      - name: Update standing data gradle dependency
+        run: |
+          sed -i -r "s/bichardDataVersion = \"[0-9]+\.[0-9]+\.[0-9]+\"$/bichardDataVersion = \"$VERSION\"/g" build.gradle
+        env:
+          VERSION: ${{ needs.bump-package-version.outputs.version }}
+
+      - name: Report Status
+        if: always()
+        uses: ravsamhq/notify-slack-action@v1
+        with:
+          status: ${{ job.status }}
+          notification_title: 'GitHub action failed: Update Bichard 7 next'
+          message_format: ':elmo-fire: *{workflow}* {status_message} in <{repo_url}|{repo}>'
+          notify_when: 'failure'
+          footer: 'Linked to Repo <{repo_url}|{repo}>'
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.ACTION_MONITORING_SLACK }}  
+
+      - name: Create pull request
+        id: cpr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: auto/update-standing-data
+          delete-branch: true
+          token: ${{ secrets.GH_ACCESS_TOKEN }}
+          committer: ${{ env.GITHUB_USERNAME }} <${{ env.GITHUB_EMAIL }}>
+          author: ${{ env.GITHUB_USERNAME }} <${{ env.GITHUB_EMAIL }}>
+          commit-message: Update standing data
+          title: Update standing data
+          body: >
+            Automated standing data update generated by the
+            [Release](https://github.com/ministryofjustice/bichard7-next-data/actions/workflows/release.yml)
+            workflow.
+
+      - name: PR information
+        run: |
+          echo "PR #${{ steps.cpr.outputs.pull-request-number }}"
+          echo "${{ steps.cpr.outputs.pull-request-url }}"

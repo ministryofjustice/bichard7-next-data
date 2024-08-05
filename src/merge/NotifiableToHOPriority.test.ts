@@ -1,51 +1,33 @@
+import { OffenceCodeLookup } from "../types/OffenceCodeLookup"
 import NotifiableToHOPriority from "./NotifiableToHOPriority"
 
-const testCjsCode = "ABC123"
-const testNotifiableToHo = "Y"
+const cjsCode = "ABC123"
+const notifiableToHo = true
 
 describe("NotifiableToHOPriority", () => {
-  it("should prioritise civil/libra overrides first", () => {
-    const currentOffenceCodes = [{ cjsCode: testCjsCode, notifiableToHo: testNotifiableToHo }]
-    const civilLibraOffenceCodes = [{ cjsCode: testCjsCode }]
+  it("should prioritise PNLD offences above current offence codes", () => {
+    const pnldOffences: OffenceCodeLookup = { [cjsCode]: { cjsCode, notifiableToHo } }
 
-    const priority = new NotifiableToHOPriority(
-      currentOffenceCodes,
-      civilLibraOffenceCodes,
-      [],
-      [],
-      []
-    )
+    const currentOffences: OffenceCodeLookup = {
+      [cjsCode]: { cjsCode, notifiableToHo: false }
+    }
 
-    expect(priority.getHighestPriority(testCjsCode)).toEqual(testNotifiableToHo)
+    const priority = new NotifiableToHOPriority(currentOffences, pnldOffences)
+
+    expect(priority.getHighestPriority(cjsCode)).toEqual(notifiableToHo)
   })
 
-  it("should prioritise national requested changes second", () => {
-    const nrcOffenceCodes = [{ cjsCode: testCjsCode, notifiableToHo: testNotifiableToHo }]
+  it("should fall back to current offences", () => {
+    const currentOffences: OffenceCodeLookup = { [cjsCode]: { cjsCode, notifiableToHo } }
 
-    const priority = new NotifiableToHOPriority([], [], nrcOffenceCodes, [], [])
+    const priority = new NotifiableToHOPriority(currentOffences, {})
 
-    expect(priority.getHighestPriority(testCjsCode)).toEqual(testNotifiableToHo)
-  })
-
-  it("should prioritise local offences third", () => {
-    const localOffences = [{ cjsCode: testCjsCode, notifiableToHo: testNotifiableToHo }]
-
-    const priority = new NotifiableToHOPriority([], [], [], localOffences, [])
-
-    expect(priority.getHighestPriority(testCjsCode)).toEqual(testNotifiableToHo)
-  })
-
-  it("should prioritise PNLD offences fourth", () => {
-    const pnldOffences = [{ cjsCode: testCjsCode, notifiableToHo: testNotifiableToHo }]
-
-    const priority = new NotifiableToHOPriority([], [], [], [], pnldOffences)
-
-    expect(priority.getHighestPriority(testCjsCode)).toEqual(testNotifiableToHo)
+    expect(priority.getHighestPriority(cjsCode)).toEqual(notifiableToHo)
   })
 
   it("should return default value if not found", () => {
-    const priority = new NotifiableToHOPriority([], [], [], [], [])
+    const priority = new NotifiableToHOPriority({}, {})
 
-    expect(priority.getHighestPriority(testCjsCode)).toEqual("N")
+    expect(priority.getHighestPriority(cjsCode)).toEqual(false)
   })
 })

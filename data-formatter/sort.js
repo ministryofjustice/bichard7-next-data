@@ -10,5 +10,4 @@ if (!data.length) {
 const keys = Object.keys(data[0]).sort()
 const newData = _.sortBy(data, keys)
 
-// eslint-disable-next-line no-console
 console.log(JSON.stringify(newData, null, 2))

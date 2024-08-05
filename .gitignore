@@ -2,3 +2,8 @@ node_modules
 .env
 .eslintcache
 tmp
+dist
+target
+.idea
+output-data/data/triggers.properties
+*.xlsx

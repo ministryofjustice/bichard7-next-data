@@ -2,11 +2,8 @@ export type OffenceCode = {
   cjsCode: string
   description?: string
   homeOfficeClassification?: string | null
-  notifiableToHo?: string | null
-  recordCreated?: number[]
-  source?: string
+  notifiableToHo?: boolean | null
   offenceCategory?: string
   offenceTitle?: string
-  recordableOnPnc?: string
-  resultHalfLifeHours?: string | null
+  recordableOnPnc?: boolean | null
 }

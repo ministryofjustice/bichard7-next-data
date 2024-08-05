@@ -1,0 +1,204 @@
+version: 2.1
+
+orbs:
+  node: circleci/node@5.2.0
+
+commands:
+################### Helpers
+  lint:
+    steps:
+      - node/install
+      - node/install-packages:
+          include-branch-in-cache-key: true
+      - run: npm run lint
+
+  save_e2e_artifacts:
+    steps:
+      - run:
+          name: Compress the artifacts for easier downloading
+          when: always
+          command: for file in ~/bichard7-next-tests/screenshots/*; do tar -czf ${file}.tar.gz $file; done
+      - run:
+          name: Create the saved_artifacts directory
+          when: always
+          command: mkdir ./saved_artifacts
+      - run:
+          name: Move the gzipped files across
+          when: always
+          command: mv ~/bichard7-next-tests/screenshots/*.tar.gz ./saved_artifacts/
+      - store_artifacts:
+          path: /home/circleci/project/saved_artifacts
+
+  build_data_jar:
+    description: Package the standing data into a jar file
+    steps:
+      - run:
+          name: Package data with maven
+          command: mvn package --no-transfer-progress
+
+  build_bichard:
+    description: Build the Bichard application and copy in the latest standing data
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - 34:9c:fd:c3:53:22:35:9e:07:60:6b:55:85:97:0d:18
+      - run:
+          name: Clone bichard7-next
+          command: git clone --depth 1 git@github.com:ministryofjustice/bichard7-next.git ~/bichard7-next
+      - run:
+          name: Copy data JAR into place
+          command: |
+            cp $(find ~/project/target -type f -name '*.jar' -and ! -name '*sources.jar') ~/bichard7-next/jars/bichard7-next-data.jar
+      - run:
+          name: Replace gradle data dependency with reference to local JAR
+          working_directory: ~/bichard7-next
+          command: |
+            sed -i -r "s|^.*name: 'bichard7-next-data'.*$|    implementation files('../jars/bichard7-next-data.jar')|" bichard-backend/build.gradle
+      - run:
+          name: Build Bichard application
+          working_directory: ~/bichard7-next
+          command: make build-ci
+
+  install_node:
+    steps:
+      - run:
+          name: Install Node
+          command: nvm install
+          working_directory: ~/bichard7-next-core
+
+  install_packages:
+    description: Install all npm packages
+    steps:
+      - node/install-packages:
+          app-dir: ~/bichard7-next-core
+          override-ci-command: npm i --workspaces --include-workspace-root
+      - node/install-packages:
+          app-dir: ~/bichard7-next-audit-logging
+      - node/install-packages:
+          app-dir: ~/bichard7-next-tests
+
+  clone_packages:
+    steps:
+      - checkout
+      - run:
+          name: Clone bichard7-next-core
+          command: git clone --depth 1 https://github.com/ministryofjustice/bichard7-next-core.git ~/bichard7-next-core
+      - run:
+          name: Clone bichard7-next-audit-logging
+          command: git clone --depth 1 https://github.com/ministryofjustice/bichard7-next-audit-logging.git ~/bichard7-next-audit-logging
+      - run:
+          name: Clone bichard7-next-tests
+          command: git clone --depth 1 https://github.com/ministryofjustice/bichard7-next-tests.git ~/bichard7-next-tests
+
+  build_message_forwarder:
+    steps:
+      - run:
+          name: Build message forwarder image
+          working_directory: ~/bichard7-next-core
+          command: bash .circleci/scripts/build-message-forwarder.sh
+
+  build_audit_logging_images:
+    steps:
+      - run:
+          name: Build audit logging images
+          working_directory: ~/bichard7-next-audit-logging
+          command: make build-api-server build-event-handler-server
+
+  fetch_images:
+    parameters:
+      IMAGES:
+        default: ""
+        type: string
+    steps:
+      - run:
+          name: "Fetch images: <<parameters.IMAGES>>"
+          working_directory: ~/bichard7-next-core
+          command: bash .circleci/scripts/fetch-docker-images.sh <<parameters.IMAGES>>
+
+################### Services
+
+  start_bichard7_legacy:
+    parameters:
+      ENABLE_PHASE_2:
+        default: "true"
+        type: string
+    steps:
+      - fetch_images:
+          IMAGES: nodejs-20-2023
+      - build_message_forwarder
+      - build_audit_logging_images
+      - run:
+          name: Build liberty image
+          command: make build
+          working_directory: ~/bichard7-next
+      - run:
+          name: Start bichard7 legacy
+          working_directory: ~/bichard7-next-core
+          command: |
+            ENABLE_PHASE_2=<<parameters.ENABLE_PHASE_2>> bash .circleci/scripts/run-infrastructure.sh bichard7-liberty all-legacy
+
+  start_postgres:
+    steps:
+      - run:
+          name: Clone bichard7-next-core
+          command: git clone --depth 1 https://github.com/ministryofjustice/bichard7-next-core.git ~/bichard7-next-core
+      - install_node
+      - run:
+          name: Run Postgres
+          command: npm run postgres
+          working_directory: ~/bichard7-next-core
+
+#################################################################################
+
+jobs:
+  bichard_unit_tests:
+    machine:
+      image: ubuntu-2204:current
+      docker_layer_caching: false
+    resource_class: xlarge
+    steps:
+      - checkout
+      - lint
+      - build_data_jar
+      - build_bichard
+      - start_postgres
+      - run:
+          name: Run Bichard unit tests
+          working_directory: ~/bichard7-next
+          command: make test
+
+  e2e_tests:
+    machine:
+      image: ubuntu-2204:current
+      docker_layer_caching: false
+    resource_class: xlarge
+    environment:
+      STACK_TYPE: next
+      MESSAGE_ENTRY_POINT: mq
+      WORKSPACE: local-next
+      RECORD: true # required for screenshots
+      AWS_URL: http://localhost:4566
+      AUDIT_LOG_API_URL: http://localhost:7010
+    parallelism: 4
+    steps:
+      - checkout
+      - lint
+      - build_data_jar
+      - build_bichard
+      - clone_packages
+      - install_node
+      - install_packages
+      - start_bichard7_legacy
+      - run:
+          name: Run E2E tests
+          command: TOTAL_CHUNKS=$CIRCLE_NODE_TOTAL CHUNK_NUMBER=$CIRCLE_NODE_INDEX bash ./scripts/run_test_chunk.sh 'not @Excluded and not @ExcludedOnMaster and not @OnlyRunsOnPNC'
+          working_directory: ~/bichard7-next-tests
+      - save_e2e_artifacts
+
+#################################################################################
+
+workflows:
+  test:
+    jobs:
+      - bichard_unit_tests
+      - e2e_tests
