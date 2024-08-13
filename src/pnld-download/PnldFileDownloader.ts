@@ -25,7 +25,7 @@ export default class PnldFileDownloader {
 
   async setupPuppeteer(): Promise<void> {
     this.browser = await puppeteer.launch({
-      ignoreHTTPSErrors: true,
+      acceptInsecureCerts: true,
       headless: this.options.headless,
       args: [
         // Required for Docker version of Puppeteer
