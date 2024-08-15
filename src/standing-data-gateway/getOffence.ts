@@ -25,7 +25,7 @@ const getOffence = async (alphaChar: string): Promise<ApiOffence[] | Error> => {
             GetOffenceRequest: {
               CJSCode: null,
               AlphaChar: alphaChar,
-              AllOffences: "ALL",
+              AllOffences: "CURRENT",
               ChangedDate: null
             }
           }
