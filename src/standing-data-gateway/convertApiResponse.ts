@@ -7,9 +7,11 @@ export default (apiResponse: ApiOffence[] | Error): OffenceCode[] => {
   }
   return apiResponse.map((offenceCode) => ({
     cjsCode: offenceCode.code,
-    offenceTitle: offenceCode.CjsTitle,
-    offenceCategory: offenceCode.OffenceType,
+    description: offenceCode.code,
+    homeOfficeClassification: "099/96",
     notifiableToHo: offenceCode.Notifiable,
+    offenceCategory: offenceCode.OffenceType,
+    offenceTitle: offenceCode.CjsTitle,
     recordableOnPnc: offenceCode.Recordable
   }))
 }

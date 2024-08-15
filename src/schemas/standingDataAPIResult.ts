@@ -2,13 +2,13 @@ import { z } from "zod"
 
 export const apiOffenceSchema = z.object({
   code: z.string(),
-  OffenceType: z.string().optional(),
   CjsTitle: z.string().optional(),
-  Recordable: z
+  Notifiable: z
     .string()
     .transform((value) => value === "Y")
     .optional(),
-  Notifiable: z
+  OffenceType: z.string().optional(),
+  Recordable: z
     .string()
     .transform((value) => value === "Y")
     .optional()
