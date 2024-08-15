@@ -39,9 +39,11 @@ export default async (xmlData: string): Promise<OffenceCode> => {
 
   return {
     cjsCode: doc.codes?.cjsoffencecode,
+    description: doc.codes?.cjsoffencecode,
     offenceTitle: doc.english?.title,
     recordableOnPnc: valueToBoolean(doc.codes?.recordableonpncindicator?.code),
     notifiableToHo: valueToBoolean(doc.codes?.notifiabletoho?.code),
+    homeOfficeClassification: doc.codes?.hoclassification,
     offenceCategory: doc.libra.cjsoffencecategory?.code
   }
 }
