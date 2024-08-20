@@ -19,7 +19,7 @@ export default async () => {
   const offenceCodes = allApiResponses.flat().map(convertApiResponse)
   const data = consistentSort(offenceCodes.flat())
   await fs.promises.writeFile(
-    "input-data/offence-code/standing-data-api.json",
+    "input-data/offence-code/standing-data-api-offences.json",
     JSON.stringify(data, null, 2)
   )
 
