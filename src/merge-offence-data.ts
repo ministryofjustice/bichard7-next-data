@@ -1,10 +1,12 @@
 import fs from "fs"
 import offenceCodeB7CategoryOverrides from "../input-data/offence-code/b7-overrides.json"
 import pncOffenceCodes from "../input-data/offence-code/pnc-ccjs-cjs-offences.json"
-import standingDataOffenceCodes from "../input-data/offence-code/standing-data-api-offences.json"
+import standingDataOffenceCodes from "../input-data/offence-code/standing-data-api.json"
 import currentOffenceCodes from "../output-data/data/offence-code.json"
 import consistentSort from "./lib/consistentSort"
 import createOffenceCodeLookup from "./lib/createOffenceCodeLookup"
+import HomeOfficeClassifictionPriority from "./merge/HomeOfficeClassificationPriority"
+import NotifiableToHOPriority from "./merge/NotifiableToHOPriority"
 import OffenceCategoryPriority from "./merge/OffenceCategoryPriority"
 import OffenceCodeMerger from "./merge/OffenceCodeMerger"
 import OffenceTitlePriority from "./merge/OffenceTitlePriority"
@@ -26,6 +28,16 @@ const allOffenceCodeKeys = new Set(
 )
 
 const main = async () => {
+  const hoClassification = new HomeOfficeClassifictionPriority(
+    currentOffenceCodeLookup,
+    standingDataOffenceCodeLookup
+  )
+
+  const notifiableToHo = new NotifiableToHOPriority(
+    currentOffenceCodeLookup,
+    standingDataOffenceCodeLookup
+  )
+
   const offenceCategory = new OffenceCategoryPriority(
     currentOffenceCodeLookup,
     offenceCodeB7CategoryOverrides,
@@ -47,6 +59,8 @@ const main = async () => {
 
   const merger = new OffenceCodeMerger(
     allOffenceCodeKeys,
+    hoClassification,
+    notifiableToHo,
     offenceCategory,
     offenceTitle,
     recordableOnPnc
