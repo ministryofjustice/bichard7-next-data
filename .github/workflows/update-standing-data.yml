@@ -10,10 +10,6 @@ jobs:
     name: Update standing data
     runs-on: ubuntu-latest
     env:
-      PNLD_DOWNLOAD_URL: ${{ secrets.PNLD_DOWNLOAD_URL }}
-      PNLD_LOGIN_URL: ${{ secrets.PNLD_LOGIN_URL }}
-      PNLD_PASSWORD: ${{ secrets.PNLD_PASSWORD }}
-      PNLD_USERNAME: ${{ secrets.PNLD_USERNAME }}
       GOOGLE_API_KEY: ${{ secrets.SHEETSAPIKEY }}
       SD_USERNAME: ${{ secrets.SD_USERNAME }}
       SD_PASSWORD: ${{ secrets.SD_PASSWORD }}
@@ -31,8 +27,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Download offence code data files
-        run: npm run download-offence-code-data
+      - name: Download standing data from API
+        run: npm run download-standing-data
 
       - name: Merge offence code data files
         run: npm run merge-offence-data
