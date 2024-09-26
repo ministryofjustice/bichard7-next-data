@@ -28,7 +28,13 @@ jobs:
         run: npm install
 
       - name: Download standing data from API
-        run: npm run download-standing-data
+        uses: nick-fields/retry@v3
+        with:
+          max_attempts: 3
+          timeout_minutes: 10
+          retry_on: error
+          command: 
+            npm run download-standing-data
 
       - name: Merge offence code data files
         run: npm run merge-offence-data
