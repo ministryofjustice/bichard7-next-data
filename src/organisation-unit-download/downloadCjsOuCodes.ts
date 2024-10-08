@@ -1,5 +1,5 @@
 import fs from "fs"
-import getDownloadUrl from "../cjs-download/getDownloadUrl"
+import getDownloadUrl from "./getDownloadUrl"
 import consistentSort from "../lib/consistentSort"
 import downloadFile from "../lib/downloadFile"
 import generateCourtOrganisationUnits from "./generateCourtOrganisationUnits"

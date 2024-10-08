@@ -1,4 +1,4 @@
-import standingDataDownload from "./standing-data-gateway/index"
+import standingDataDownload from "./standing-data-api/index"
 
 const main = async () => {
   await standingDataDownload()

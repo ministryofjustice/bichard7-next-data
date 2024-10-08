@@ -5,7 +5,6 @@ const cjsCode = "ABC123"
 
 const currentOffences: OffenceCodeLookup = { [cjsCode]: { cjsCode, offenceCategory: "CURRENT" } }
 const pnldOffences: OffenceCodeLookup = { [cjsCode]: { cjsCode, offenceCategory: "PNLD" } }
-const cjsOffences: OffenceCodeLookup = { [cjsCode]: { cjsCode, offenceCategory: "CJS" } }
 const pncOffences: OffenceCodeLookup = { [cjsCode]: { cjsCode, offenceCategory: "PNC" } }
 
 describe("OffenceCodeCategoryPriority", () => {
@@ -14,7 +13,6 @@ describe("OffenceCodeCategoryPriority", () => {
 
     const priority = new OffenceCategoryPriority(
       currentOffences,
-      cjsOffences,
       b7Overrides,
       pnldOffences,
       pncOffences
@@ -24,37 +22,25 @@ describe("OffenceCodeCategoryPriority", () => {
   })
 
   it("should prioritise PNLD offences first", () => {
-    const priority = new OffenceCategoryPriority(
-      currentOffences,
-      cjsOffences,
-      [],
-      pnldOffences,
-      pncOffences
-    )
+    const priority = new OffenceCategoryPriority(currentOffences, [], pnldOffences, pncOffences)
 
     expect(priority.getHighestPriority(cjsCode)).toEqual("PNLD")
   })
 
-  it("should prioritise CJS offences second", () => {
-    const priority = new OffenceCategoryPriority(currentOffences, cjsOffences, [], {}, pncOffences)
-
-    expect(priority.getHighestPriority(cjsCode)).toEqual("CJS")
-  })
-
   it("should prioritise PNC offences third", () => {
-    const priority = new OffenceCategoryPriority(currentOffences, {}, [], {}, pncOffences)
+    const priority = new OffenceCategoryPriority(currentOffences, [], {}, pncOffences)
 
     expect(priority.getHighestPriority(cjsCode)).toEqual("PNC")
   })
 
   it("should call back to current data", () => {
-    const priority = new OffenceCategoryPriority(currentOffences, {}, [], {}, {})
+    const priority = new OffenceCategoryPriority(currentOffences, [], {}, {})
 
     expect(priority.getHighestPriority(cjsCode)).toEqual("CURRENT")
   })
 
   it("should return default category if not found", () => {
-    const priority = new OffenceCategoryPriority({}, {}, [], {}, {})
+    const priority = new OffenceCategoryPriority({}, [], {}, {})
 
     expect(priority.getHighestPriority(cjsCode)).toEqual("CE")
   })
