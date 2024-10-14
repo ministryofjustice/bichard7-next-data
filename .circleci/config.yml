@@ -69,12 +69,17 @@ commands:
           command: nvm install
           working_directory: ~/bichard7-next-core
 
-  install_packages:
+  install_and_build_packages:
     description: Install all npm packages
     steps:
       - node/install-packages:
           app-dir: ~/bichard7-next-core
           override-ci-command: npm i --workspaces --include-workspace-root
+      - run:
+          name: Build Core
+          command: npm run build
+          working_directory: ~/bichard7-next-core
+
       - node/install-packages:
           app-dir: ~/bichard7-next-audit-logging
 
@@ -185,7 +190,7 @@ jobs:
       - build_bichard
       - clone_packages
       - install_node
-      - install_packages
+      - install_and_build_packages
       - start_bichard7_legacy
       - run:
           name: Run E2E tests
