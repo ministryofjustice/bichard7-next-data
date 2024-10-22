@@ -3,7 +3,6 @@ import { OffenceCodeLookup } from "../types/OffenceCodeLookup"
 export default class OffenceCategoryPriority {
   constructor(
     private currentOffenceCodes: OffenceCodeLookup,
-    private cjsOffenceCodes: OffenceCodeLookup,
     private offenceCodeB7CategoryOverrides: string[],
     private pnldOffenceCodes: OffenceCodeLookup,
     private pncOffenceCodes: OffenceCodeLookup
@@ -18,7 +17,6 @@ export default class OffenceCategoryPriority {
 
     return (
       this.pnldOffenceCodes[cjsCode]?.offenceCategory ??
-      this.cjsOffenceCodes[cjsCode]?.offenceCategory ??
       this.pncOffenceCodes[cjsCode]?.offenceCategory ??
       this.currentOffenceCodes[cjsCode]?.offenceCategory ??
       defaultCategory

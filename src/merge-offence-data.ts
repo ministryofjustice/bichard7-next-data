@@ -1,8 +1,7 @@
 import fs from "fs"
 import offenceCodeB7CategoryOverrides from "../input-data/offence-code/b7-overrides.json"
-import cjsOffenceCodes from "../input-data/offence-code/cjs-offences.json"
 import pncOffenceCodes from "../input-data/offence-code/pnc-ccjs-cjs-offences.json"
-import pnldOffenceCodes from "../input-data/offence-code/pnld-offences.json"
+import standingDataOffenceCodes from "../input-data/offence-code/standing-data-api-offences.json"
 import currentOffenceCodes from "../output-data/data/offence-code.json"
 import consistentSort from "./lib/consistentSort"
 import createOffenceCodeLookup from "./lib/createOffenceCodeLookup"
@@ -12,50 +11,49 @@ import OffenceCategoryPriority from "./merge/OffenceCategoryPriority"
 import OffenceCodeMerger from "./merge/OffenceCodeMerger"
 import OffenceTitlePriority from "./merge/OffenceTitlePriority"
 import RecordableOnPncPriority from "./merge/RecordableOnPncPriority"
+import { OffenceCode } from "./types/OffenceCode"
 
-const currentOffenceCodeLookup = createOffenceCodeLookup(currentOffenceCodes)
-const cjsOffenceCodeLookup = createOffenceCodeLookup(cjsOffenceCodes)
-const pnldOffenceCodeLookup = createOffenceCodeLookup(pnldOffenceCodes)
+const currentOffenceCodeLookup = createOffenceCodeLookup(currentOffenceCodes as OffenceCode[])
+const standingDataOffenceCodeLookup = createOffenceCodeLookup(
+  standingDataOffenceCodes as OffenceCode[]
+)
 const pncOffenceCodeLookup = createOffenceCodeLookup(pncOffenceCodes)
 
 const validOffenceCodeFilter = (oc: string): boolean => /^[0-9A-Za-z]+$/.test(oc)
 
 const allOffenceCodeKeys = new Set(
   Object.keys(currentOffenceCodeLookup)
-    .concat(
-      Object.keys(pnldOffenceCodeLookup),
-      Object.keys(cjsOffenceCodeLookup),
-      Object.keys(pncOffenceCodeLookup)
-    )
+    .concat(Object.keys(standingDataOffenceCodeLookup), Object.keys(pncOffenceCodeLookup))
     .filter(validOffenceCodeFilter)
 )
 
 const main = async () => {
   const hoClassification = new HomeOfficeClassifictionPriority(
     currentOffenceCodeLookup,
-    pnldOffenceCodeLookup
+    standingDataOffenceCodeLookup
   )
 
-  const notifiableToHo = new NotifiableToHOPriority(currentOffenceCodeLookup, pnldOffenceCodeLookup)
+  const notifiableToHo = new NotifiableToHOPriority(
+    currentOffenceCodeLookup,
+    standingDataOffenceCodeLookup
+  )
 
   const offenceCategory = new OffenceCategoryPriority(
     currentOffenceCodeLookup,
-    cjsOffenceCodeLookup,
     offenceCodeB7CategoryOverrides,
-    pnldOffenceCodeLookup,
+    standingDataOffenceCodeLookup,
     pncOffenceCodeLookup
   )
 
   const offenceTitle = new OffenceTitlePriority(
     currentOffenceCodeLookup,
-    pnldOffenceCodeLookup,
-    cjsOffenceCodeLookup,
+    standingDataOffenceCodeLookup,
     pncOffenceCodeLookup
   )
 
   const recordableOnPnc = new RecordableOnPncPriority(
     currentOffenceCodeLookup,
-    pnldOffenceCodeLookup,
+    standingDataOffenceCodeLookup,
     pncOffenceCodeLookup
   )
 
