@@ -30,8 +30,8 @@
   },
   "homepage": "https://github.com/ministryofjustice/bichard7-next-data#readme",
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.675.0",
-    "@types/jest": "^29.5.13",
+    "@aws-sdk/client-s3": "^3.679.0",
+    "@types/jest": "^29.5.14",
     "@types/lodash": "^4.17.12",
     "@types/puppeteer": "^7.0.4",
     "axios": "^1.7.7",
@@ -51,14 +51,14 @@
     "lint-staged": "^15.2.10",
     "lodash": "^4.17.21",
     "mockdate": "^3.0.5",
-    "npm-check-updates": "^17.1.4",
+    "npm-check-updates": "^17.1.8",
     "prettier": "^3.3.3",
     "puppeteer": "^23.6.0",
     "sort-json-keys": "^1.0.3",
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.3",
-    "uuid": "^10.0.0",
+    "uuid": "^11.0.1",
     "xlsx": "^0.18.5",
     "zod": "^3.23.8"
   },
@@ -66,7 +66,7 @@
     "*.{js,ts,tsx}": "eslint --cache --fix --max-warnings 0 --ignore-pattern !.ncurc.js"
   },
   "devDependencies": {
-    "@types/node": "^22.7.7",
+    "@types/node": "^22.8.1",
     "@types/uuid": "^10.0.0",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
