@@ -1,5 +1,9 @@
 [
   {
+    "cjsCode": " status=\"Success\"",
+    "offenceTitle": ""
+  },
+  {
     "cjsCode": "AB06001",
     "offenceCategory": "CS",
     "offenceTitle": "Obstruct person acting in execution of the regulations",
@@ -3876,69 +3880,9 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "AN81007",
-    "offenceCategory": "CS",
-    "offenceTitle": "Unlawfully export a horse",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "AN81008",
-    "offenceCategory": "CS",
-    "offenceTitle": "Unlawfully export an unregistered pony",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "AN81009",
-    "offenceCategory": "CS",
-    "offenceTitle": "Unlawfully export a registered pony",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "AN81010",
-    "offenceCategory": "CS",
-    "offenceTitle": "Master of a vessel fail to slaughter a seriously injured horse",
-    "recordableOnPnc": true
-  },
-  {
     "cjsCode": "AN81012",
     "offenceCategory": "CE",
     "offenceTitle": "Land an animal with intent to evade the rabies regulations",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "AN81013",
-    "offenceCategory": "CS",
-    "offenceTitle": "Master of a vessel fail to produce a proper killing instrument as required for inspection",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "AN81014",
-    "offenceCategory": "CS",
-    "offenceTitle": "Owner of vessel fail to ensure vessel provided with proper killing instrument of slaughter for a seriously injured horse",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "AN81015",
-    "offenceCategory": "CS",
-    "offenceTitle": "Master of a vessel fail ensure vessel provided with humane instrument of slaughter for a seriously injured horse",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "AN81016",
-    "offenceCategory": "CS",
-    "offenceTitle": "Attempt to unlawfully export a horse",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "AN81017",
-    "offenceCategory": "CS",
-    "offenceTitle": "Attempt to unlawfully export an unregistered pony",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "AN81018",
-    "offenceCategory": "CS",
-    "offenceTitle": "Attempt to unlawfully export a registered pony",
     "recordableOnPnc": true
   },
   {
@@ -6162,6 +6106,12 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "AW06505",
+    "offenceCategory": "CR",
+    "offenceTitle": "Application for an order depriving the owner of an animal following conviction - s.33 Animal Welfare Act 2006",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "AW10001",
     "offenceCategory": "CS",
     "offenceTitle": "Attach an electronic collar to a cat / dog",
@@ -6202,6 +6152,12 @@
     "offenceCategory": "CS",
     "offenceTitle": "Intentionally obstruct an inspector appointed for the enforcement of the Animal Welfare Licensing of Activities Regs",
     "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "AW24001",
+    "offenceCategory": "CS",
+    "offenceTitle": "Export livestock for slaughter",
+    "recordableOnPnc": true
   },
   {
     "cjsCode": "BA07001",
@@ -7155,6 +7111,30 @@
     "cjsCode": "BF03002",
     "offenceCategory": "CS",
     "offenceTitle": "Sell processed cereal-based food / baby food not complying with regulation 8 labelling",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "BI21018",
+    "offenceCategory": "CS",
+    "offenceTitle": "Obstruct / interfere with an emergency exit - Birmingham International Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "BI21026",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail / neglect / refuse to comply with indication / PC / airport official / notice - Birmingham International Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "BI21067",
+    "offenceCategory": "CS",
+    "offenceTitle": "Cause annoyance or offence to person / cause disruption - Birmingham International Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "BI21070",
+    "offenceCategory": "CS",
+    "offenceTitle": "Enter / leave otherwise than through gate / entrance provided for that purpose - Birmingham International Airport",
     "recordableOnPnc": false
   },
   {
@@ -8148,6 +8128,12 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "BL24010",
+    "offenceCategory": "CS",
+    "offenceTitle": "Cause or permit boat to be used on river with being registered - Conservators of the River Cam Bylaws 1996",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "BN81001",
     "offenceCategory": "CS",
     "offenceTitle": "Make false statement to obtain British nationality",
@@ -8232,6 +8218,18 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "BT21001",
+    "offenceCategory": "CS",
+    "offenceTitle": "Administer botulinum toxin or filler for cosmetic purpose to person under 18",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "BT21002",
+    "offenceCategory": "CS",
+    "offenceTitle": "Business owner when botulinum toxin or filler for cosmetic purpose administered to person under 18 by unapproved person",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "BT49005",
     "offenceCategory": "CS",
     "offenceTitle": "Trespass in proximity of railway / on railway property",
@@ -8256,12 +8254,6 @@
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "BU84002",
-    "offenceCategory": "CS",
-    "offenceTitle": "Contravene a condition for the relaxing of building regulations for a particular type of building matter",
-    "recordableOnPnc": false
-  },
-  {
     "cjsCode": "BU84003",
     "offenceCategory": "CS",
     "offenceTitle": "Fail to remove a building made of short lived materials when ordered by a local authority",
@@ -8283,18 +8275,6 @@
     "cjsCode": "BU84006",
     "offenceCategory": "CS",
     "offenceTitle": "Occupy a building without a certificate that it will be supplied with sufficient wholesome water",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "BU84007",
-    "offenceCategory": "CS",
-    "offenceTitle": "Contravene a provision contained within building regulations under the Building Act 1984",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "BU84008",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to give a local authority a notice cancelling the initial notice when required",
     "recordableOnPnc": false
   },
   {
@@ -8418,6 +8398,48 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "BU84032",
+    "offenceCategory": "CS",
+    "offenceTitle": "Acting as or pretending to be a registered building inspector",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "BU84033",
+    "offenceCategory": "CS",
+    "offenceTitle": "Pretending to be a registered building control approver",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "BU84034",
+    "offenceCategory": "CS",
+    "offenceTitle": "Contravene a condition for exempting a prescribed class of building from the provisions of the building regulations",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "BU84035",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to give a local authority a notice cancelling the initial notice when required",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "BU84036",
+    "offenceCategory": "CE",
+    "offenceTitle": "Contravene a provision contained within building regulations under the Building Act 1984 - England",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "BU84037",
+    "offenceCategory": "CS",
+    "offenceTitle": "Contravene a provision contained within building regulations under the Building Act 1984 - Wales",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "BU84038",
+    "offenceCategory": "CS",
+    "offenceTitle": "Contravene a condition for the relaxing of building regulations for a particular type of building matter",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "BU84501",
     "offenceCategory": "VP",
     "offenceTitle": "Application for an order in respect of a dangerous building or structure",
@@ -8427,6 +8449,12 @@
     "cjsCode": "BU84502",
     "offenceCategory": "VP",
     "offenceTitle": "Appeal against notice requiring works - section 102 of the Building Act 1984",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "BU84503",
+    "offenceCategory": "VP",
+    "offenceTitle": "Appeal against notice issued under section 36 Building Act 1984",
     "recordableOnPnc": false
   },
   {
@@ -9914,37 +9942,37 @@
   {
     "cjsCode": "CD71038",
     "offenceCategory": "CE",
-    "offenceTitle": "Criminal damage to property - value over &#163;5000",
+    "offenceTitle": "Criminal damage to property - value over £5000",
     "recordableOnPnc": true
   },
   {
     "cjsCode": "CD71038A",
     "offenceCategory": "CE",
-    "offenceTitle": "Attempt criminal damage to property - value over &#163;5000",
+    "offenceTitle": "Attempt criminal damage to property - value over £5000",
     "recordableOnPnc": true
   },
   {
     "cjsCode": "CD71038B",
     "offenceCategory": "CE",
-    "offenceTitle": "Aid, abet, counsel and procure the destruction of / damage to property valued over &#163;5000",
+    "offenceTitle": "Aid, abet, counsel and procure the destruction of / damage to property valued over £5000",
     "recordableOnPnc": true
   },
   {
     "cjsCode": "CD71039",
     "offenceCategory": "CE",
-    "offenceTitle": "Criminal damage to property valued under &#163;5000",
+    "offenceTitle": "Criminal damage to property valued under £5000",
     "recordableOnPnc": true
   },
   {
     "cjsCode": "CD71039A",
     "offenceCategory": "CS",
-    "offenceTitle": "Attempt criminal damage to property valued under &#163;5000",
+    "offenceTitle": "Attempt criminal damage to property valued under £5000",
     "recordableOnPnc": true
   },
   {
     "cjsCode": "CD71039B",
     "offenceCategory": "CS",
-    "offenceTitle": "Aid, abet, counsel and procure the destruction of / damage to property valued under &#163;5000",
+    "offenceTitle": "Aid, abet, counsel and procure the destruction of / damage to property valued under £5000",
     "recordableOnPnc": true
   },
   {
@@ -10258,6 +10286,30 @@
     "offenceCategory": "CR",
     "offenceTitle": "Brought before the court in order for deposition to be taken",
     "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "CE19001",
+    "offenceCategory": "CS",
+    "offenceTitle": "Designated person refuse / fail to comply with request to provide financial information to Treasury",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CE19002",
+    "offenceCategory": "CS",
+    "offenceTitle": "Knowingly / recklessly give info / produce document that was false in a material particular providing financial info",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CE19003",
+    "offenceCategory": "CS",
+    "offenceTitle": "Destroy / mutilate / deface etc document with intent to evade - Counter-Terrorism (Sanctions) (EU Exit) Regulations 20",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CE19005",
+    "offenceCategory": "CS",
+    "offenceTitle": "Intentionally obstruct Treasury exercising powers under regs 23 / 24 Counter-Terrorism (Sanctions) (EU Exit) Regs 2019",
+    "recordableOnPnc": true
   },
   {
     "cjsCode": "CE20003",
@@ -13272,24 +13324,6 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "CJ14501",
-    "offenceCategory": "CR",
-    "offenceTitle": "Application to recognise a european supervision order",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "CJ14502",
-    "offenceCategory": "CR",
-    "offenceTitle": "Breach of european supervision measures",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "CJ14503",
-    "offenceCategory": "VP",
-    "offenceTitle": "Application to recognise a european protection order",
-    "recordableOnPnc": false
-  },
-  {
     "cjsCode": "CJ15001",
     "offenceCategory": "CE",
     "offenceTitle": "Care worker ill-treat / wilfully neglect an individual",
@@ -13366,12 +13400,6 @@
     "offenceCategory": "CE",
     "offenceTitle": "Disclose information acquired in employment at directly managed secure college relating to detainee",
     "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "CJ17501",
-    "offenceCategory": "CR",
-    "offenceTitle": "Hearing a person through videoconference or other audio visual transmission",
-    "recordableOnPnc": false
   },
   {
     "cjsCode": "CJ25001",
@@ -15252,18 +15280,6 @@
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "CO20501",
-    "offenceCategory": "VP",
-    "offenceTitle": "Appeal (England) against a requirement or restriction imposed under Schedule 21 Coronavirus Act 2020",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "CO20502",
-    "offenceCategory": "VP",
-    "offenceTitle": "Appeal (Wales) against a requirement or restriction imposed under Schedule 21 Coronavirus Act 2020",
-    "recordableOnPnc": false
-  },
-  {
     "cjsCode": "CO71001",
     "offenceCategory": "CS",
     "offenceTitle": "Make as a coin / token for money a gold / silver / copper / bronze / metal coin without the authority of the Treasury",
@@ -15568,6 +15584,12 @@
     "offenceCategory": "CI",
     "offenceTitle": "Conspire to cheat the public revenue",
     "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "COML501",
+    "offenceCategory": "CR",
+    "offenceTitle": "Application to bulk re-open cases for the declaration of nullity of proceedings",
+    "recordableOnPnc": false
   },
   {
     "cjsCode": "CP08001",
@@ -16461,7 +16483,7 @@
     "cjsCode": "CQ86012",
     "offenceCategory": "CI",
     "offenceTitle": "Person subject to director disqualification sanctions act as director/take part in/concerned in company",
-    "recordableOnPnc": false
+    "recordableOnPnc": true
   },
   {
     "cjsCode": "CR00001",
@@ -18056,7 +18078,7 @@
   {
     "cjsCode": "CS06252",
     "offenceCategory": "CE",
-    "offenceTitle": "Disclose HMRC information relating to persons whose identity is specified/can be deduced",
+    "offenceTitle": "Registrar disclose HMRC information relating to persons whose identity is specified/can be deduced",
     "recordableOnPnc": true
   },
   {
@@ -19806,6 +19828,12 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "CW07012",
+    "offenceCategory": "CE",
+    "offenceTitle": "Keeper fail to send passport relating to a stolen / lost animal to Secretary of State within 7 days (Wales)",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "CW13001",
     "offenceCategory": "CS",
     "offenceTitle": "Intentionally delay / obstruct an authorised officer in the exercise of a power under regulation 4 / 5",
@@ -20265,6 +20293,12 @@
     "cjsCode": "CY33501",
     "offenceCategory": "VP",
     "offenceTitle": "Complaint for a restricted sale order",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "CY33502",
+    "offenceCategory": "VP",
+    "offenceTitle": "Complaint for a restricted premises order",
     "recordableOnPnc": false
   },
   {
@@ -21030,6 +21064,24 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "DP20001",
+    "offenceCategory": "CS",
+    "offenceTitle": "Master of vessel failed to comply with direction of the Harbour Master - Dockyard Port of Plymouth Order 2020",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "DP20002",
+    "offenceCategory": "CS",
+    "offenceTitle": "Master of a vessel exceeding speed of 10 knots through the water - Dockyard Port of Plymouth Order 2020",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "DP20003",
+    "offenceCategory": "CS",
+    "offenceTitle": "Master of a vessel failed to navigate in Dockyard Port with care and caution - Dockyard Port of Plymouth Order 2020",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "DP53001",
     "offenceCategory": "CS",
     "offenceTitle": "Owner of a dog worrying livestock",
@@ -21046,18 +21098,6 @@
     "offenceCategory": "EF",
     "offenceTitle": "Application for maintenance order - Grounds",
     "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DP99001",
-    "offenceCategory": "CS",
-    "offenceTitle": "Master of a vessel exceeding speed of 8 knots through the water - Dockyard Port of Plymouth Order 1999",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "DP99002",
-    "offenceCategory": "CS",
-    "offenceTitle": "Master of a vessel failed to navigate in Dockyard Port with care and caution - Dockyard Port of Plymouth Order 1999",
-    "recordableOnPnc": false
   },
   {
     "cjsCode": "DR20501",
@@ -21765,6 +21805,12 @@
     "cjsCode": "DW76002",
     "offenceCategory": "CS",
     "offenceTitle": "Wilfully obstruct / delay the exercise of a power of entry / inspection in relation to dangerous wild animals",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "DW76501",
+    "offenceCategory": "VP",
+    "offenceTitle": "Appeal against a decision of the licensing authority relating to keeping any dangerous wild animals",
     "recordableOnPnc": false
   },
   {
@@ -24429,6 +24475,12 @@
     "cjsCode": "EP90507",
     "offenceCategory": "VP",
     "offenceTitle": "Complaint by persons aggrieved by litter - s.91 Environmental Protection Act 1990",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "EP90508",
+    "offenceCategory": "VP",
+    "offenceTitle": "Appeal against notice to provide receptacles for storage of industrial or commercia waste s.47 EPA 1990",
     "recordableOnPnc": false
   },
   {
@@ -27924,6 +27976,12 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "FI68274C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspire to possess expanding ammunition - military equipment",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "FI68275",
     "offenceCategory": "CE",
     "offenceTitle": "Purchase / acquire expanding ammunition - military equipment",
@@ -28587,6 +28645,18 @@
     "cjsCode": "FI68454",
     "offenceCategory": "CI",
     "offenceTitle": "Manufacture weapon / device / ammunition specified in section 5(1) of the Firearms Act 1968",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "FI68454A",
+    "offenceCategory": "CI",
+    "offenceTitle": "Attempted to manufacture weapon / device / ammunition specified in section 5(1) of the Firearms Act 1968",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "FI68454C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspire to manufacture weapon / device / ammunition specified in section 5(1) of the Firearms Act 1968",
     "recordableOnPnc": true
   },
   {
@@ -34260,6 +34330,12 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "HO04502",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application for the court to authorise action by one owner on behalf of another s.36 Housing Act 2004",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "HO14001",
     "offenceCategory": "CS",
     "offenceTitle": "Landlord of dwelling subject to / marketed / offered for let under domestic tenancy fail to be registered",
@@ -34545,18 +34621,6 @@
     "cjsCode": "HP18006",
     "offenceCategory": "CS",
     "offenceTitle": "Cause / permit goods vehicle to be taken outside UK in breach of prohibition notice",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "HP20501",
-    "offenceCategory": "VP",
-    "offenceTitle": "Appeal against the imposition of requirements/restrictions under the coronavirus regulations",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "HP20502",
-    "offenceCategory": "VP",
-    "offenceTitle": "Appeal by responsible adult against the imposition of requirements/restrictions under the coronavirus regulations",
     "recordableOnPnc": false
   },
   {
@@ -35286,12 +35350,6 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "HT04003",
-    "offenceCategory": "CE",
-    "offenceTitle": "Store body for anatomical examination without death certificate - Human Tissue Act 2004",
-    "recordableOnPnc": true
-  },
-  {
     "cjsCode": "HT04004",
     "offenceCategory": "CE",
     "offenceTitle": "Give / receive reward for supply / offer of human material for transplantation - Human Tissue Act 2004",
@@ -35403,6 +35461,12 @@
     "cjsCode": "HT04022",
     "offenceCategory": "CS",
     "offenceTitle": "Use transplantable material from body of living person - Human Tissue Act 2004",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "HT04030",
+    "offenceCategory": "CE",
+    "offenceTitle": "Store body for anatomical examination without death certificate - Human Tissue Act 2004",
     "recordableOnPnc": true
   },
   {
@@ -36730,6 +36794,18 @@
     "offenceCategory": "CI",
     "offenceTitle": "Conceal the commission of a war crime",
     "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "IC76001",
+    "offenceCategory": "CM",
+    "offenceTitle": "Use / cause / permit use of transport equipment without certification for international carriage of perishable foods",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "IC76002",
+    "offenceCategory": "CM",
+    "offenceTitle": "Use / cause / permit use of transport equipment without designated mark for international carriage of perishable foods",
+    "recordableOnPnc": false
   },
   {
     "cjsCode": "ID10001",
@@ -40104,12 +40180,6 @@
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "LE20501",
-    "offenceCategory": "VP",
-    "offenceTitle": "Appeal against coronavirus improvement / restriction notice (England)",
-    "recordableOnPnc": false
-  },
-  {
     "cjsCode": "LG02001",
     "offenceCategory": "CS",
     "offenceTitle": "Drunk in charge of a child under the age of seven years",
@@ -42888,255 +42958,129 @@
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "MA55001",
+    "cjsCode": "MA24001",
     "offenceCategory": "CS",
-    "offenceTitle": "Obstruct / interfere with the proper use of Manchester International Airport",
+    "offenceTitle": "Obstruct / interfere with proper use of or a person in the execution of duty - Manchester Airport",
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "MA55002",
+    "cjsCode": "MA24002",
     "offenceCategory": "CS",
-    "offenceTitle": "Obstruct / interfere with a person in execution of his / her duty in relation to Manchester International Airport",
+    "offenceTitle": "Drop / leave / throw / deposit anything causing damage / defacement - Manchester Airport",
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "MA55003",
+    "cjsCode": "MA24003",
     "offenceCategory": "CS",
-    "offenceTitle": "Remain within Manchester International Airport having been required to leave",
+    "offenceTitle": "Fail to provide correct name / address / purpose / identification - Manchester Airport",
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "MA55004",
+    "cjsCode": "MA24004",
     "offenceCategory": "CS",
-    "offenceTitle": "Allow a vehicle / animal within Manchester International Airport after being required to move it / presence forbidden",
+    "offenceTitle": "Camp on the airport without reasonable excuse - Manchester Airport",
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "MA55005",
+    "cjsCode": "MA24005",
     "offenceCategory": "CS",
-    "offenceTitle": "Without authority board / attempted to board an aircraft within Manchester International Airport",
+    "offenceTitle": "Loiter / frequent / remain on Airport without reasonable cause - Manchester Airport",
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "MA55006",
+    "cjsCode": "MA24006",
     "offenceCategory": "CS",
-    "offenceTitle": "Tamper / interfere with an aircraft within Manchester International Airport",
+    "offenceTitle": "Sleep at Airport for time considered unreasonable by Airport Company - Manchester Airport",
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "MA55007",
+    "cjsCode": "MA24007",
     "offenceCategory": "CS",
-    "offenceTitle": "Smoke / bring / light a naked light in where prohibited by notice within Manchester International Airport",
+    "offenceTitle": "Urinate / defecate other than in toilets provided or to outrage public decency etc - Manchester Airport",
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "MA55008",
+    "cjsCode": "MA24008",
     "offenceCategory": "CS",
-    "offenceTitle": "Smoke / bring a naked light within 50 ft of an aircraft / fuel / explosive store at Manchester International Airport",
+    "offenceTitle": "Leave a refuse container uncovered - Manchester Airport",
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "MA55009",
+    "cjsCode": "MA24009",
     "offenceCategory": "CS",
-    "offenceTitle": "Do an act to cause / intend to cause an outbreak of fire within Manchester International Airport",
+    "offenceTitle": "Drunk / under the influence of drugs / intoxicants at Airport - Manchester Airport",
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "MA55010",
+    "cjsCode": "MA24010",
     "offenceCategory": "CS",
-    "offenceTitle": "Throw / leave / drop article capable of causing injury to a person / property on Manchester International Airport",
+    "offenceTitle": "Consume alcohol outside an authorised premises - Manchester Airport",
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "MA55011",
+    "cjsCode": "MA24011",
     "offenceCategory": "CS",
-    "offenceTitle": "Climb a wall / fence / barrier / railing / post within Manchester International Airport",
+    "offenceTitle": "Unauthorised sale of alcohol / other intoxicating substances - Manchester Airport",
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "MA55012",
+    "cjsCode": "MA24012",
     "offenceCategory": "CS",
-    "offenceTitle": "Give a false fire / ambulance call within Manchester International Airport",
+    "offenceTitle": "Enter / remain in airport except for bona fide purpose - Manchester Airport",
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "MA55013",
+    "cjsCode": "MA24013",
     "offenceCategory": "CS",
-    "offenceTitle": "Fail put aircraft in place / position appointed by airport director / authorised person Manchester International Airport",
+    "offenceTitle": "Remain on airport after request to leave by a constable / airport official - Manchester Airport",
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "MA55014",
+    "cjsCode": "MA24014",
     "offenceCategory": "CS",
-    "offenceTitle": "Fail to moor / secure / aircraft which was not in a hangar within Manchester International Airport",
+    "offenceTitle": "Return to airport within 24 hours of a request to leave - Manchester Airport",
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "MA55015",
+    "cjsCode": "MA24015",
     "offenceCategory": "CS",
-    "offenceTitle": "Drive / place vehicle carelessly / dangerously / without due consideration within Manchester International Airport",
+    "offenceTitle": "Enter airport whilst prohibited - Manchester Airport",
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "MA55016",
+    "cjsCode": "MA24016",
     "offenceCategory": "CS",
-    "offenceTitle": "Fail to stop a vehicle within Manchester International Airport when required by a constable",
+    "offenceTitle": "Refuse to submit to personal / baggage / vehicle / item search - Manchester Airport",
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "MA55017",
+    "cjsCode": "MA24017",
     "offenceCategory": "CS",
-    "offenceTitle": "Driver involved in accident fail give n/a and n/a of owner to person requiring within Manchester International Airport",
+    "offenceTitle": "Organise / take part in demonstration / public assembly likely interfere / obstruct - Manchester Airport",
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "MA55018",
+    "cjsCode": "MA24018",
     "offenceCategory": "CS",
-    "offenceTitle": "Driver fail to report accident forthwith to a constable / Airport Director at Manchester International Airport",
+    "offenceTitle": "Display a flag / banner / emblem likely to cause a breach of the peace - Manchester Airport",
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "MA55019",
+    "cjsCode": "MA24019",
     "offenceCategory": "CS",
-    "offenceTitle": "Driver fail comply with direction by PC / traffic sign for regulation of traffic at Manchester International Airport",
+    "offenceTitle": "Drop / leave / throw food items attracting birds - Manchester Airport",
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "MA55020",
+    "cjsCode": "MA24020",
     "offenceCategory": "CS",
-    "offenceTitle": "Park a vehicle elsewhere than in a place provided within Manchester International Airport",
+    "offenceTitle": "Drop / leave litter / refuse except in receptacle - Manchester Airport",
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "MA55021",
+    "cjsCode": "MA24021",
     "offenceCategory": "CS",
-    "offenceTitle": "Fail to remove vehicle from its parking place within Manchester International Airport when required",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "MA55022",
-    "offenceCategory": "CS",
-    "offenceTitle": "Walk on / damage a flower bed / thing growing in a flower bed within Manchester International Airport",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "MA55023",
-    "offenceCategory": "CS",
-    "offenceTitle": "Remove / pick / damage tree / shrub / plant within Manchester International Airport",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "MA55024",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to keep an animal under control within Manchester International Airport",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "MA55025",
-    "offenceCategory": "CS",
-    "offenceTitle": "Use language likely to cause offence / annoyance to another person within Manchester International Airport",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "MA55026",
-    "offenceCategory": "CS",
-    "offenceTitle": "Behave in an indecent / disorderly manner within Manchester International Airport",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "MA55027",
-    "offenceCategory": "CS",
-    "offenceTitle": "In an intoxicated condition within Manchester International Airport",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "MA55028",
-    "offenceCategory": "CS",
-    "offenceTitle": "Drop / leave litter otherwise than in a receptacle provided for that purpose within Manchester International Airport",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "MA55029",
-    "offenceCategory": "CS",
-    "offenceTitle": "Enter / leave Manchester International Airport other than by gate / entry provided without permission",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "MA55030",
-    "offenceCategory": "CS",
-    "offenceTitle": "Enter part of Manchester International Airport from which public excluded w/o council / Airport Director permission",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "MA55031",
-    "offenceCategory": "CS",
-    "offenceTitle": "Remove / alter etc building / structure etc w/i Manchester International Airport without permission",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "MA55032",
-    "offenceCategory": "CS",
-    "offenceTitle": "Dig soil or cut / remove turf within Manchester International Airport without council / Airport Director permission",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "MA55033",
-    "offenceCategory": "CS",
-    "offenceTitle": "Graze animals within Manchester International Airport without council / Airport Director permission",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "MA55034",
-    "offenceCategory": "CS",
-    "offenceTitle": "Sell / distribute goods / offer services w/i Manchester International Airport w/o council / Airport Director permission",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "MA55035",
-    "offenceCategory": "CS",
-    "offenceTitle": "Exhibit notice / advert within Manchester International Airport without council / Airport Director permission",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "MA55036",
-    "offenceCategory": "CS",
-    "offenceTitle": "Leave vehicle within Manchester International Airport for longer than necessary without permission",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "MA55037",
-    "offenceCategory": "CS",
-    "offenceTitle": "Drive vehicle other than in place provided w/i Manchester International Airport without permission",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "MA55038",
-    "offenceCategory": "CS",
-    "offenceTitle": "Take a m/vehicle into a maintenance hanger w/i Manchester International Airport without permission",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "MA55039",
-    "offenceCategory": "CS",
-    "offenceTitle": "Run an aircraft engine in a hanger within Manchester International Airport without council / Airport Director permission",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "MA55040",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fill / discharge container of liquid fuel within Manchester International Airport at an unapproved location",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "MA55041",
-    "offenceCategory": "CS",
-    "offenceTitle": "Lit a fire in an unauthorised place within Manchester International Airport w/o council / Airport Director permission",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "MA55042",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to leave or give PC / authorised person name / address and state purpose at Manchester International Airport",
+    "offenceTitle": "Fly tip - Manchester Airport",
     "recordableOnPnc": false
   },
   {
@@ -46298,37 +46242,37 @@
   {
     "cjsCode": "MF97001",
     "offenceCategory": "CE",
-    "offenceTitle": "Contravene regulation 5 of the Merchant Shipping & Fishing Vessels (Health &amp; Safety at Work) Regulations 1997",
+    "offenceTitle": "Contravene regulation 5 of the Merchant Shipping & Fishing Vessels (Health & Safety at Work) Regulations 1997",
     "recordableOnPnc": true
   },
   {
     "cjsCode": "MF97002",
     "offenceCategory": "CS",
-    "offenceTitle": "Contravene regulation 14 of the Merchant Shipping & Fishing Vessels Health &amp; Safety at Work Regs 1997",
+    "offenceTitle": "Contravene regulation 14 of the Merchant Shipping & Fishing Vessels Health & Safety at Work Regs 1997",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "MF97003",
     "offenceCategory": "CS",
-    "offenceTitle": "Contravene reg 6 / 7 / 16 / 17 / 20 or 21 Merchant Shipping & Fishing Vessels Health &amp; Safety at Work Regs 1997",
+    "offenceTitle": "Contravene reg 6 / 7 / 16 / 17 / 20 or 21 Merchant Shipping & Fishing Vessels Health & Safety at Work Regs 1997",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "MF97004",
     "offenceCategory": "CS",
-    "offenceTitle": "Contravene reg 8 / 9 / 11 / 12 / 13 / 22 / 23 Merchant Ship & Fishing Vessels Health &amp; Safety at Work Regs 97",
+    "offenceTitle": "Contravene reg 8 / 9 / 11 / 12 / 13 / 22 / 23 Merchant Ship & Fishing Vessels Health & Safety at Work Regs 97",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "MF97005",
     "offenceCategory": "CS",
-    "offenceTitle": "Contravene reg 15 or 19 Merchant Shipping & Fishing Vessels (Health &amp; Safety at Work) Regulations 1997",
+    "offenceTitle": "Contravene reg 15 or 19 Merchant Shipping & Fishing Vessels (Health & Safety at Work) Regulations 1997",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "MF97006",
     "offenceCategory": "CS",
-    "offenceTitle": "Master of ship / vessel contravene reg 19 Merchant Shipping & Fishing Vessels (Health &amp; Safety at Work) Reg 97",
+    "offenceTitle": "Master of ship / vessel contravene reg 19 Merchant Shipping & Fishing Vessels (Health & Safety at Work) Reg 97",
     "recordableOnPnc": false
   },
   {
@@ -50114,7 +50058,7 @@
   {
     "cjsCode": "NY91003",
     "offenceCategory": "CS",
-    "offenceTitle": "Registered second-hand dealer fail to record name & address of purchaser for sale over &#163;100",
+    "offenceTitle": "Registered second-hand dealer fail to record name & address of purchaser for sale over £100",
     "recordableOnPnc": false
   },
   {
@@ -50132,7 +50076,7 @@
   {
     "cjsCode": "NY91006",
     "offenceCategory": "CS",
-    "offenceTitle": "Registered second-hand dealer acquiring goods value over &#163;10 from u.16year old",
+    "offenceTitle": "Registered second-hand dealer acquiring goods value over £10 from u.16year old",
     "recordableOnPnc": false
   },
   {
@@ -50796,24 +50740,6 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "OS20002",
-    "offenceCategory": "CE",
-    "offenceTitle": "Use military uniform to gain entry to prohibited place or for interest prejudicial to state",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "OS20003",
-    "offenceCategory": "CE",
-    "offenceTitle": "Make false statement/omission to gain admission to prohibited space",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "OS20004",
-    "offenceCategory": "CE",
-    "offenceTitle": "Tamper with, or possess forged, altered or irregular official document",
-    "recordableOnPnc": true
-  },
-  {
     "cjsCode": "OS20005",
     "offenceCategory": "CE",
     "offenceTitle": "Forging military document",
@@ -50829,30 +50755,6 @@
     "cjsCode": "OS20007",
     "offenceCategory": "CE",
     "offenceTitle": "Altering military document",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "OS20008",
-    "offenceCategory": "CE",
-    "offenceTitle": "Personating Crown officer to gain admission to a prohibited place",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "OS20009",
-    "offenceCategory": "CE",
-    "offenceTitle": "Use/possess/control Crown die for the purpose of gaining admission to prohibited place",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "OS20010",
-    "offenceCategory": "CE",
-    "offenceTitle": "Use/possess/control Crown stamp for the purpose of gaining admission to prohibited place",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "OS20011",
-    "offenceCategory": "CE",
-    "offenceTitle": "Use/possess/control Crown seal for the purpose of gaining admission to prohibited place",
     "recordableOnPnc": true
   },
   {
@@ -50874,54 +50776,6 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "OS20015",
-    "offenceCategory": "CE",
-    "offenceTitle": "Counterfeit Crown die to gain admission to prohibited place",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "OS20016",
-    "offenceCategory": "CE",
-    "offenceTitle": "Counterfeit Crown stamp to gain admission to prohibited place",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "OS20017",
-    "offenceCategory": "CE",
-    "offenceTitle": "Counterfeit Crown seal to gain admission to prohibited place",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "OS20018",
-    "offenceCategory": "CE",
-    "offenceTitle": "Retain official document when no right / contrary to duty to do so",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "OS20019",
-    "offenceCategory": "CE",
-    "offenceTitle": "Allow another to be in possession of official document or communicate secret code/pass word",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "OS20021",
-    "offenceCategory": "CE",
-    "offenceTitle": "Sell, manufacture or possess for sale official die",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "OS20022",
-    "offenceCategory": "CE",
-    "offenceTitle": "Sell, manufacture or possess for sale official stamp",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "OS20023",
-    "offenceCategory": "CE",
-    "offenceTitle": "Sell, manufacture or possess for sale official seal",
-    "recordableOnPnc": true
-  },
-  {
     "cjsCode": "OS20024",
     "offenceCategory": "CE",
     "offenceTitle": "Possessing for sale official die",
@@ -50940,57 +50794,9 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "OS20027",
-    "offenceCategory": "CE",
-    "offenceTitle": "Interfere with / obstruct / mislead / impede police or member of HM Forces in vicinity of prohibited place",
-    "recordableOnPnc": true
-  },
-  {
     "cjsCode": "OS20028",
     "offenceCategory": "CE",
     "offenceTitle": "Interfering with Her Majesty's forces near prohibited place",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "OS20033",
-    "offenceCategory": "CE",
-    "offenceTitle": "Withholding information about commission of act prejudicial to State",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "OS20034",
-    "offenceCategory": "CE",
-    "offenceTitle": "Omit or refuse to give information about person harboured under the Official Secrets Act",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "OS20035",
-    "offenceCategory": "CE",
-    "offenceTitle": "Use naval uniform to gain entry to prohibited place or for interest prejudicial to state",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "OS20036",
-    "offenceCategory": "CE",
-    "offenceTitle": "Use air force uniform to gain entry to prohibited place or for interest prejudicial to state",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "OS20037",
-    "offenceCategory": "CE",
-    "offenceTitle": "Use official uniform to gain entry to prohibited place or for interest prejudicial to state",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "OS20038",
-    "offenceCategory": "CE",
-    "offenceTitle": "Falsely represent self to be person given official document/password to gain admission to prohibited place",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "OS20039",
-    "offenceCategory": "CE",
-    "offenceTitle": "Make false statement to obtain official document/password/codeword to gain admission to prohibited place",
     "recordableOnPnc": true
   },
   {
@@ -52752,12 +52558,6 @@
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "PC00503",
-    "offenceCategory": "VP",
-    "offenceTitle": "Reference for revocation of referral order to youth offender panel where compliance is impractical",
-    "recordableOnPnc": false
-  },
-  {
     "cjsCode": "PC00504",
     "offenceCategory": "CB",
     "offenceTitle": "Reference by Youth Offender Panel - Breach of contract",
@@ -53658,6 +53458,18 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "PE24001",
+    "offenceCategory": "CE",
+    "offenceTitle": "Take / detain a dog",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "PE24002",
+    "offenceCategory": "CE",
+    "offenceTitle": "Take a cat",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "PE51001",
     "offenceCategory": "CS",
     "offenceTitle": "Trade as a pet shop when not licensed to do so",
@@ -53864,7 +53676,7 @@
   {
     "cjsCode": "PF16001",
     "offenceCategory": "CS",
-    "offenceTitle": "Contravention of conditions under which persons may collect money or sell articles for charity or other purposes in a",
+    "offenceTitle": "Collect money / sell articles in a street/public place for benefit of charitable or other purposes without permit",
     "recordableOnPnc": false
   },
   {
@@ -55302,6 +55114,12 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "PL68004",
+    "offenceCategory": "CS",
+    "offenceTitle": "Carry out / construct / place etc works when not licensed to do so Port of London Act 1968",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "PL84001",
     "offenceCategory": "CS",
     "offenceTitle": "Detainee / person charged fail / refuse to provide a sample for Class 'A' drug test",
@@ -55400,7 +55218,7 @@
   {
     "cjsCode": "PL96003",
     "offenceCategory": "CS",
-    "offenceTitle": "Obstruct/resist a constable in execution of duty",
+    "offenceTitle": "Obstruct / resist a constable in execution of duty",
     "recordableOnPnc": true
   },
   {
@@ -56007,18 +55825,6 @@
     "cjsCode": "PP00024",
     "offenceCategory": "CE",
     "offenceTitle": "Political parties - treasurer make false declaration of campaign expenditure",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "PP02001",
-    "offenceCategory": "CS",
-    "offenceTitle": "Place on market personal protective equipment which does not conform to regulation 8(2) or 11",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "PP02002",
-    "offenceCategory": "CS",
-    "offenceTitle": "Supply personal protective equipment which does not conform to regulation 8(2) or 11",
     "recordableOnPnc": true
   },
   {
@@ -57212,8 +57018,8 @@
   {
     "cjsCode": "PT00013",
     "offenceCategory": "CS",
-    "offenceTitle": "Obstruct a search within a cordoned area",
-    "recordableOnPnc": false
+    "offenceTitle": "Wilfully obstruct search within cordoned area - Terrorism Act 2000 - Schedule 5",
+    "recordableOnPnc": true
   },
   {
     "cjsCode": "PT00014",
@@ -57519,6 +57325,30 @@
     "cjsCode": "PT00077",
     "offenceCategory": "CE",
     "offenceTitle": "Express opinion / belief in support of proscribed organisation that will encourage support of it - terrorism",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "PT00078",
+    "offenceCategory": "CE",
+    "offenceTitle": "Knowingly / recklessly make false statement - explanation order - Terrorism Act 2000",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "PT00079",
+    "offenceCategory": "CS",
+    "offenceTitle": "Wilfully obstruct urgent search under warrant - Schedule 5 - Terrorism Act 2000",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "PT00080",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with an urgent explanation notice - Schedule 5 - Terrorism Act 2000",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "PT00081",
+    "offenceCategory": "CS",
+    "offenceTitle": "Company officer fail to comply with requirement to provide customer info - Schedule 6 Terrorism Act 2000",
     "recordableOnPnc": true
   },
   {
@@ -59708,7 +59538,7 @@
   {
     "cjsCode": "RC86210",
     "offenceCategory": "CM",
-    "offenceTitle": "Towing unbraked trailer with towing vehicle less than twice the weight of said trailer and load (goods vehicles and ve",
+    "offenceTitle": "Towing unbraked trailer with towing vehicle less than twice the weight of said trailer and load (goods vehicles and vehi",
     "recordableOnPnc": true
   },
   {
@@ -62205,12 +62035,6 @@
     "cjsCode": "RE20135",
     "offenceCategory": "CS",
     "offenceTitle": "Organise prohibited event in Alert Level 2 area of Wales - Coronavirus",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "RE20501",
-    "offenceCategory": "VP",
-    "offenceTitle": "Wales: Appeal against Coronavirus premises improvement notice or premises closure notice",
     "recordableOnPnc": false
   },
   {
@@ -72024,6 +71848,12 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "SG09005",
+    "offenceCategory": "CS",
+    "offenceTitle": "Keeper of animals fails to comply with the requirements of making an annual inventory of animals on their holdings",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "SG15001",
     "offenceCategory": "CS",
     "offenceTitle": "Failed to make an annual inventory of animals on holding within 30 days of date specified by the Welsh Ministers",
@@ -72548,7 +72378,7 @@
   {
     "cjsCode": "SO05007",
     "offenceCategory": "CS",
-    "offenceTitle": "Fail to comply with the requirements of s.62 disclosure/s.63 production of documents-SOCA 2005",
+    "offenceTitle": "Fail to comply with the requirements of s.62 disclosure / s.63 production of documents - SOCA 2005",
     "recordableOnPnc": true
   },
   {
@@ -76710,12 +76540,6 @@
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "SX03514",
-    "offenceCategory": "VP",
-    "offenceTitle": "Application for an Interim Sexual Offences Prevention Order",
-    "recordableOnPnc": false
-  },
-  {
     "cjsCode": "SX03515",
     "offenceCategory": "VP",
     "offenceTitle": "Application to vary an interim sexual offences prevention order",
@@ -76731,12 +76555,6 @@
     "cjsCode": "SX03517",
     "offenceCategory": "VP",
     "offenceTitle": "Application to discharge an interim sexual offences prevention order",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "SX03518",
-    "offenceCategory": "VP",
-    "offenceTitle": "Application for a foreign travel order",
     "recordableOnPnc": false
   },
   {
@@ -76758,69 +76576,9 @@
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "SX03522",
-    "offenceCategory": "VP",
-    "offenceTitle": "Application for a risk of sexual harm order",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "SX03523",
-    "offenceCategory": "VP",
-    "offenceTitle": "Application to vary a risk of sexual harm order",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "SX03524",
-    "offenceCategory": "VP",
-    "offenceTitle": "Application to renew a risk of sexual harm order",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "SX03525",
-    "offenceCategory": "VP",
-    "offenceTitle": "Application to discharge a risk of sexual harm order",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "SX03526",
-    "offenceCategory": "VP",
-    "offenceTitle": "Application for an Interim Risk of Sexual Harm Order",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "SX03527",
-    "offenceCategory": "VP",
-    "offenceTitle": "Application to vary an interim risk of sexual harm order",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "SX03528",
-    "offenceCategory": "VP",
-    "offenceTitle": "Application to renew an interim risk of sexual harm order",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "SX03529",
-    "offenceCategory": "VP",
-    "offenceTitle": "Application to discharge an interim risk of sexual harm order",
-    "recordableOnPnc": false
-  },
-  {
     "cjsCode": "SX03530",
     "offenceCategory": "VP",
     "offenceTitle": "Application for a notification order",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "SX03531",
-    "offenceCategory": "VP",
-    "offenceTitle": "Application for a sexual offences prevention order",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "SX03532",
-    "offenceCategory": "VP",
-    "offenceTitle": "Application for a risk of sexual harm order",
     "recordableOnPnc": false
   },
   {
@@ -78500,25 +78258,25 @@
   {
     "cjsCode": "TH68143",
     "offenceCategory": "CE",
-    "offenceTitle": "Aggravated vehicle taking - ( initial taker ) and property damage &#163;5000 or over",
+    "offenceTitle": "Aggravated vehicle taking - ( initial taker ) and property damage £5000 or over",
     "recordableOnPnc": true
   },
   {
     "cjsCode": "TH68144",
     "offenceCategory": "CE",
-    "offenceTitle": "Aggravated vehicle taking - (initial taker) and property damage under &#163;5000",
+    "offenceTitle": "Aggravated vehicle taking - (initial taker) and property damage under £5000",
     "recordableOnPnc": true
   },
   {
     "cjsCode": "TH68145",
     "offenceCategory": "CE",
-    "offenceTitle": "Aggravated vehicle taking - ( initial taker ) and vehicle damage of &#163;5000 or over",
+    "offenceTitle": "Aggravated vehicle taking - ( initial taker ) and vehicle damage of £5000 or over",
     "recordableOnPnc": true
   },
   {
     "cjsCode": "TH68146",
     "offenceCategory": "CE",
-    "offenceTitle": "Aggravated vehicle taking - (initial taker) and vehicle damage under &#163;5000",
+    "offenceTitle": "Aggravated vehicle taking - (initial taker) and vehicle damage under £5000",
     "recordableOnPnc": true
   },
   {
@@ -78536,25 +78294,25 @@
   {
     "cjsCode": "TH68149",
     "offenceCategory": "CE",
-    "offenceTitle": "Aggravated vehicle taking - ( driver did not take ) and property damage &#163;5000 or over",
+    "offenceTitle": "Aggravated vehicle taking - ( driver did not take ) and property damage £5000 or over",
     "recordableOnPnc": true
   },
   {
     "cjsCode": "TH68150",
     "offenceCategory": "CE",
-    "offenceTitle": "Aggravated vehicle taking - (driver did not take) and property damage under &#163;5000",
+    "offenceTitle": "Aggravated vehicle taking - (driver did not take) and property damage under £5000",
     "recordableOnPnc": true
   },
   {
     "cjsCode": "TH68151",
     "offenceCategory": "CE",
-    "offenceTitle": "Aggravated vehicle taking - (driver did not take) and vehicle damage of &#163;5000 or over",
+    "offenceTitle": "Aggravated vehicle taking - ( driver did not take ) and vehicle damage of £5000 or over",
     "recordableOnPnc": true
   },
   {
     "cjsCode": "TH68152",
     "offenceCategory": "CE",
-    "offenceTitle": "Aggravated vehicle taking - (driver did not take) and vehicle damage under &#163;5000",
+    "offenceTitle": "Aggravated vehicle taking - (driver did not take) and vehicle damage under £5000",
     "recordableOnPnc": true
   },
   {
@@ -78572,43 +78330,43 @@
   {
     "cjsCode": "TH68155",
     "offenceCategory": "CE",
-    "offenceTitle": "Aggravated vehicle taking - ( being carried on ) and property damage of &#163;5000 or over",
+    "offenceTitle": "Aggravated vehicle taking - ( being carried on ) and property damage of £5000 or over",
     "recordableOnPnc": true
   },
   {
     "cjsCode": "TH68156",
     "offenceCategory": "CE",
-    "offenceTitle": "Aggravated vehicle taking - ( being carried on ) and property damage under &#163;5000",
+    "offenceTitle": "Aggravated vehicle taking - ( being carried on ) and property damage under £5000",
     "recordableOnPnc": true
   },
   {
     "cjsCode": "TH68157",
     "offenceCategory": "CE",
-    "offenceTitle": "Aggravated vehicle taking - (being carried on) and vehicle damage of &#163;5000 or over",
+    "offenceTitle": "Aggravated vehicle taking - ( being carried on ) and vehicle damage of £5000 or over",
     "recordableOnPnc": true
   },
   {
     "cjsCode": "TH68158",
     "offenceCategory": "CE",
-    "offenceTitle": "Aggravated vehicle taking - (being carried on) and vehicle damage under &#163;5000",
+    "offenceTitle": "Aggravated vehicle taking - (being carried on) and vehicle damage under £5000",
     "recordableOnPnc": true
   },
   {
     "cjsCode": "TH68159",
     "offenceCategory": "CE",
-    "offenceTitle": "Aggravated vehicle taking - (driver did not take) vehicle and property damage under &#163;5000",
+    "offenceTitle": "Aggravated vehicle taking - (driver did not take) vehicle and property damage under £5000",
     "recordableOnPnc": true
   },
   {
     "cjsCode": "TH68160",
     "offenceCategory": "CE",
-    "offenceTitle": "Aggravated vehicle taking - (initial taker) vehicle and property damage under &#163;5000",
+    "offenceTitle": "Aggravated vehicle taking - (initial taker) vehicle and property damage under £5000",
     "recordableOnPnc": true
   },
   {
     "cjsCode": "TH68161",
     "offenceCategory": "CE",
-    "offenceTitle": "Aggravated vehicle taking - (being carried on) vehicle and property damage under &#163;5000",
+    "offenceTitle": "Aggravated vehicle taking - (being carried on) vehicle and property damage under £5000",
     "recordableOnPnc": true
   },
   {
@@ -78638,7 +78396,7 @@
   {
     "cjsCode": "TH68166",
     "offenceCategory": "CE",
-    "offenceTitle": "Aggravated vehicle taking - (driver did not take) vehicle and property damage over &#163;5000",
+    "offenceTitle": "Aggravated vehicle taking - (driver did not take) vehicle and property damage over £5000",
     "recordableOnPnc": true
   },
   {
@@ -80139,6 +79897,12 @@
     "cjsCode": "TR08017",
     "offenceCategory": "CE",
     "offenceTitle": "Knowingly / recklessly provide false information / a document to obtain grant of an exemption licence",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "TR08018",
+    "offenceCategory": "CE",
+    "offenceTitle": "Enter into activities circumventing requirements imposed by Treasury - Counter-Terrorism Act 2008",
     "recordableOnPnc": true
   },
   {
@@ -83205,12 +82969,6 @@
     "cjsCode": "VC06016",
     "offenceCategory": "CS",
     "offenceTitle": "Bring / cause to be brought into GB imitation firearm which does not conform to specification required by regs",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "VC06501",
-    "offenceCategory": "VP",
-    "offenceTitle": "Application for drinking banning order",
     "recordableOnPnc": false
   },
   {
@@ -87510,6 +87268,12 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "WF21001",
+    "offenceCategory": "CS",
+    "offenceTitle": "Take / retain whelk or knowingly allow or assist another to take / retain whelk in Welsh zone without a permit",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "WH92001",
     "offenceCategory": "CE",
     "offenceTitle": "Employer fail to ensure condition of floors and traffic routes not a risk to health and safety",
@@ -89685,12 +89449,6 @@
     "cjsCode": "WR91095",
     "offenceCategory": "CE",
     "offenceTitle": "Fail to comply with a works notice issued by an appropriate agency",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "WS10002",
-    "offenceCategory": "CE",
-    "offenceTitle": "Store slurry otherwise than in slurry storage system satisfying Schedule 2",
     "recordableOnPnc": false
   },
   {
