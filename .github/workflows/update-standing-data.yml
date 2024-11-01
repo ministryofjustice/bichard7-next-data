@@ -26,8 +26,13 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+      
+      - name: Warm API
+        run: npm run download-standing-data
+        continue-on-error: true
 
       - name: Download standing data from API
+        id: download_standing_data
         uses: nick-fields/retry@v3
         with:
           max_attempts: 5
@@ -37,16 +42,23 @@ jobs:
             npm run download-standing-data
 
       - name: Merge offence code data files
+        id: merge_offence_code
         run: npm run merge-offence-data
 
       - name: Download Organisation Unit data files
+        id: download_organisation_unit
         run: npm run download-organisation-unit-data
 
       - name: Merge Organisation Unit data files
+        id: merge_organisation_unit
         run: npm run merge-organisation-unit-data
 
       - name: Report Status
-        if: always()
+        if: |
+          steps.download_standing_data.outcome == 'failure' ||
+          steps.merge_offence_code.outcome == 'failure' ||
+          steps.download_organisation_unit.outcome == 'failure' ||
+          steps.merge_organisation_unit.outcome == 'failure'
         uses: ravsamhq/notify-slack-action@v1
         with:
           status: ${{ job.status }}
