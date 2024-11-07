@@ -30,7 +30,7 @@ jobs:
       - name: Download standing data from API
         uses: nick-fields/retry@v3
         with:
-          max_attempts: 5
+          max_attempts: 3
           timeout_minutes: 10
           retry_on: error
           command: 
