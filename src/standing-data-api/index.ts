@@ -6,7 +6,7 @@ import getOffence from "./getOffence"
 export default async () => {
   console.log("Calling Standing Data API")
   const alphaChar = [..."ABCDEFGHIJKLMNOPRSTUVWXYZ"] // "Q" Removed as not a valid request
-  const chunks = 5
+  const chunks = 3
   const allApiResponses = []
   for (let i = 0; i < alphaChar.length; i += chunks) {
     let tempArray = []
