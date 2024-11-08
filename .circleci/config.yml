@@ -77,7 +77,7 @@ commands:
           override-ci-command: npm i --workspaces --include-workspace-root
       - run:
           name: Build Core
-          command: npm run build
+          command: npm run build:core
           working_directory: ~/bichard7-next-core
 
       - node/install-packages:
