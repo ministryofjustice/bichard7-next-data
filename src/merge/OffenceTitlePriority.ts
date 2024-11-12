@@ -5,7 +5,6 @@ export default class OffenceTitlePriority {
   constructor(
     private currentOffenceCodes: OffenceCodeLookup,
     private pnldOffenceCodes: OffenceCodeLookup,
-    private cjsOffenceCodes: OffenceCodeLookup,
     private pncOffenceCodes: OffenceCodeLookup
   ) {}
 
@@ -14,7 +13,6 @@ export default class OffenceTitlePriority {
 
     const title =
       this.pnldOffenceCodes[cjsCode]?.offenceTitle ||
-      this.cjsOffenceCodes[cjsCode]?.offenceTitle ||
       this.pncOffenceCodes[cjsCode]?.offenceTitle ||
       this.currentOffenceCodes[cjsCode]?.offenceTitle ||
       defaultTitle
