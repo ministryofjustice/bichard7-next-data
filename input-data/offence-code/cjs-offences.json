@@ -1,9 +1,5 @@
 [
   {
-    "cjsCode": " status=\"Success\"",
-    "offenceTitle": ""
-  },
-  {
     "cjsCode": "AB06001",
     "offenceCategory": "CS",
     "offenceTitle": "Obstruct person acting in execution of the regulations",
@@ -2800,12 +2796,6 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "AN16266",
-    "offenceCategory": "CE",
-    "offenceTitle": "Fail to keep / produce records of exposure to cosmic radiation as required",
-    "recordableOnPnc": true
-  },
-  {
     "cjsCode": "AN16267",
     "offenceCategory": "CE",
     "offenceTitle": "Recklessly / negligently cause / permit aircraft to endanger person or property",
@@ -3517,12 +3507,6 @@
     "cjsCode": "AN16424",
     "offenceCategory": "CS",
     "offenceTitle": "Remote pilot of unmanned aircraft fail to comply with maximum operating height",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16426",
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator cause or permit unmanned aircraft to be flown by under age remote pilot",
     "recordableOnPnc": false
   },
   {
@@ -5035,6 +5019,90 @@
     "cjsCode": "AT01518",
     "offenceCategory": "VP",
     "offenceTitle": "Application to release converted cryptoassets to a victim etc (ATCSA)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "AT01519",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application for prior authorisation for detention of cryptoassets (ATCSA)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "AT01520",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application for the release of detained cryptoasset related items or cryptoassets (ATCSA)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "AT01521",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application for further continuation of a crypto wallet freezing order (ATCSA)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "AT01522",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application to vary or set aside a crypto wallet freezing order (ATCSA)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "AT01523",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application for forfeiture of cryptoassets detained / held in a crypto wallet subject to a freezing order (ATCSA)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "AT01524",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application to release detained cryptoassets to a victim or other owner (ATCSA)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "AT01525",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application to release cryptoassets held in wallet subject to a freezing order to a victim or other owner (ATCSA)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "AT01526",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application for compensation - cryptoassets detained of held in a crypto wallet subject to a freezing order (ATCSA)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "AT01527",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application for continued detention of converted cryptoassets (ATCSA)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "AT01528",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application for further order for continued detention of converted cryptoassets (ATCSA)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "AT01529",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application for continued detention of converted cryptoassets held in crypto wallet subject to a freezing order (ATCSA)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "AT01530",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application for further continued detention of converted cryptoassets held in a crypto wallet - freezing order (ATCSA)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "AT01531",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application for forfeiture of converted cryptoassets (ATCSA)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "AT01532",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application for compensation following detention of converted cryptoassets (ATCSA)",
     "recordableOnPnc": false
   },
   {
@@ -8134,6 +8202,12 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "BL24011",
+    "offenceCategory": "CS",
+    "offenceTitle": "Sell / let for hire commodity / article without agreement or any lawful right or privilege - Liverpool City Council",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "BN81001",
     "offenceCategory": "CS",
     "offenceTitle": "Make false statement to obtain British nationality",
@@ -10288,6 +10362,12 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "CD98531",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application to discharge Sex Offender Order",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "CE19001",
     "offenceCategory": "CS",
     "offenceTitle": "Designated person refuse / fail to comply with request to provide financial information to Treasury",
@@ -11266,12 +11346,6 @@
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "CE79253",
-    "offenceCategory": "CS",
-    "offenceTitle": "Exporter fail to furnish information to the Commissioners when non-dutiable goods entry cancelled",
-    "recordableOnPnc": false
-  },
-  {
     "cjsCode": "CE79254",
     "offenceCategory": "CS",
     "offenceTitle": "Exporter of dutiable goods where entry cancelled fail to ensure sum not paid / repay sum",
@@ -11866,6 +11940,24 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "CE79395C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspire to fraudulently evade a prohibition on the exportation of a class A drug",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CE79396C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspire to fraudulently evade a prohibition on the exportation of a class B drug",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CE79397C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspire to fraudulently evade a prohibition on the exportation of a class C drug",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "CE79501",
     "offenceCategory": "VP",
     "offenceTitle": "Application for condemnation of goods liable to forfeit",
@@ -11890,18 +11982,6 @@
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "CH06001",
-    "offenceCategory": "CS",
-    "offenceTitle": "Provide early years childminding when enforcement notice in effect",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "CH06002",
-    "offenceCategory": "CS",
-    "offenceTitle": "Provide early years provision without being registered",
-    "recordableOnPnc": false
-  },
-  {
     "cjsCode": "CH06003",
     "offenceCategory": "CS",
     "offenceTitle": "Early years provider fail to comply with section 38 registration condition",
@@ -11911,18 +11991,6 @@
     "cjsCode": "CH06004",
     "offenceCategory": "CS",
     "offenceTitle": "Fail to comply with welfare requirements and regulations",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "CH06005",
-    "offenceCategory": "CS",
-    "offenceTitle": "Provide later years childminding for child under eight when enforcement notice in effect",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "CH06006",
-    "offenceCategory": "CS",
-    "offenceTitle": "Provide later years provision for child under eight without being registered",
     "recordableOnPnc": false
   },
   {
@@ -11941,12 +12009,6 @@
     "cjsCode": "CH06009",
     "offenceCategory": "CS",
     "offenceTitle": "Voluntary registered provider fail to comply with section 66 registration condition",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "CH06010",
-    "offenceCategory": "CS",
-    "offenceTitle": "Provide early / later years provision when registration suspended",
     "recordableOnPnc": false
   },
   {
@@ -11971,6 +12033,36 @@
     "cjsCode": "CH06014",
     "offenceCategory": "CS",
     "offenceTitle": "Make false / misleading statement in application for registration",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "CH06015",
+    "offenceCategory": "CS",
+    "offenceTitle": "Provide early years childminding on domestic premises when enforcement notice in effect",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "CH06016",
+    "offenceCategory": "CS",
+    "offenceTitle": "Provide early years provision without being registered",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "CH06017",
+    "offenceCategory": "CS",
+    "offenceTitle": "Provide later years childminding for child under eight on domestic premises when enforcement notice in effect",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "CH06018",
+    "offenceCategory": "CS",
+    "offenceTitle": "Provide later years provision for child under eight without being registered",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "CH06019",
+    "offenceCategory": "CS",
+    "offenceTitle": "Provide early / later years provision when registration suspended",
     "recordableOnPnc": false
   },
   {
@@ -13242,7 +13334,7 @@
   {
     "cjsCode": "CJ09012",
     "offenceCategory": "CS",
-    "offenceTitle": "Cause a false representation to be made with intent to enable other to evade service as an inquest juror",
+    "offenceTitle": "Cause a false representation to be made with intent tp enable other to evade service as an inquest juror",
     "recordableOnPnc": false
   },
   {
@@ -13327,6 +13419,12 @@
     "cjsCode": "CJ15001",
     "offenceCategory": "CE",
     "offenceTitle": "Care worker ill-treat / wilfully neglect an individual",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CJ15001A",
+    "offenceCategory": "CE",
+    "offenceTitle": "Care worker attempted to ill-treat / wilfully neglect an individual",
     "recordableOnPnc": true
   },
   {
@@ -14704,36 +14802,6 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "CM98006",
-    "offenceCategory": "CE",
-    "offenceTitle": "Obstruct a person in exercise of powers under a warrant issued under s.62 / 62A / 63 of the Competition Act 1998",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "CM98007",
-    "offenceCategory": "CE",
-    "offenceTitle": "Fail to comply with a requirement imposed under s.65E / 65F / 65G / 65H of the Competition Act 1998",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "CM98008",
-    "offenceCategory": "CE",
-    "offenceTitle": "Destroy / dispose / falsify / conceal a document to be produced under s. 65E / 65F / 65G / 65H Competition Act 1998",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "CM98009",
-    "offenceCategory": "CE",
-    "offenceTitle": "Provide false / misleading information to the CMA for a Part IIA function of the Competition Act 1998",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "CM98010",
-    "offenceCategory": "CE",
-    "offenceTitle": "Knowingly provide false / misleading information to another for the CMA for Part IIA function of Competition Act 1998",
-    "recordableOnPnc": true
-  },
-  {
     "cjsCode": "CM98011",
     "offenceCategory": "CE",
     "offenceTitle": "Intentionally obstruct officer in exercise of powers under a s. 28 warrant of the Competition Act 1998",
@@ -14749,24 +14817,6 @@
     "cjsCode": "CM98013",
     "offenceCategory": "CE",
     "offenceTitle": "Recklessly provide false / misleading information to another for the CMA for a Part 1 function of Competition Act 1998",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "CM98014",
-    "offenceCategory": "CE",
-    "offenceTitle": "Intentionally obstruct an investigating officer - Competition Act 1998",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "CM98015",
-    "offenceCategory": "CE",
-    "offenceTitle": "Cause / permit destruction / disposal etc. of document to be produced under s. 65E / 65F / 65G / 65H",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "CM98016",
-    "offenceCategory": "CE",
-    "offenceTitle": "Recklessly provide false / misleading information to another for CMA for Part IIA function of Competition Act 1998",
     "recordableOnPnc": true
   },
   {
@@ -18388,12 +18438,6 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "CT03016",
-    "offenceCategory": "CS",
-    "offenceTitle": "Make / attempt to make unauthorised recording / transmission of image / sound of court proceedings",
-    "recordableOnPnc": false
-  },
-  {
     "cjsCode": "CT03501",
     "offenceCategory": "EF",
     "offenceTitle": "Appeal against decision to vary/not to vary payment terms when not in default",
@@ -20392,6 +20436,102 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "DA21001",
+    "offenceCategory": "CE",
+    "offenceTitle": "Breach of domestic abuse protection order",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "DA21002",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to comply with initial notification requirements under domestic abuse protection order",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "DA21003",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to notify police of name not provided under s41 of the Domestic Abuse Act 2021",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "DA21004",
+    "offenceCategory": "CE",
+    "offenceTitle": "Provide false information in notification to police under domestic abuse protection order",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "DA21005",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to comply with request for fingerprints or photographs during notification under domestic abuse protection order",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "DA21006",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to notify police of new home address as required by s41 of Domestic Abuse Act 2021",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "DA21007",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to notify police of not having an address - a requirement to notify such under s41 Domestic Abuse Act 2021",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "DA21501",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application by Police for Domestic Abuse Protection Order made on application by complaint without notice",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "DA21502",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application by Police for Domestic Abuse Protection Order made on application by complaint with notice",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "DA21503",
+    "offenceCategory": "VP",
+    "offenceTitle": "Arrested for Breach of Domestic Abuse Protection Notice",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "DA21504",
+    "offenceCategory": "VP",
+    "offenceTitle": "Adjournment of proceedings on an application for a Domestic Abuse Protection Order",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "DA21505",
+    "offenceCategory": "CR",
+    "offenceTitle": "Consideration of a Domestic Abuse Protection Order on acquittal",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "DA21506",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application to vary a Domestic Abuse Protection Order made by the Police",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "DA21507",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application to vary a Domestic Abuse Protection Order made by a third party",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "DA21508",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application to discharge a Domestic Abuse Protection Order made by the Police",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "DA21509",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application to discharge a Domestic Abuse Protection Order made by a third party",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "DC03001",
     "offenceCategory": "CE",
     "offenceTitle": "Dealing in tainted cultural objects",
@@ -20906,6 +21046,60 @@
     "offenceCategory": "CM",
     "offenceTitle": "Owner-driver failing to preserve record sheets",
     "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "DM24001",
+    "offenceCategory": "CE",
+    "offenceTitle": "Destroy/dispose of/falsify/conceal information required by CMA/other re digital markets",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "DM24002",
+    "offenceCategory": "CE",
+    "offenceTitle": "Cause/permit destruction/disposal/falsification/concealment of information required by CMA/other re digital markets",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "DM24003",
+    "offenceCategory": "CE",
+    "offenceTitle": "Give false/misleading information to the CMA in connection with its digital markets functions",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "DM24004",
+    "offenceCategory": "CE",
+    "offenceTitle": "Give false/misleading information to another knowing it will be given to the CMA re its digital markets functions",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "DM24005",
+    "offenceCategory": "CE",
+    "offenceTitle": "Obstruct an officer of the Competition and Markets Authority",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "DM24019",
+    "offenceCategory": "CE",
+    "offenceTitle": "Destroy/dispose of/falsify/conceal information required by CMA in connection with motor fuel",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "DM24020",
+    "offenceCategory": "CE",
+    "offenceTitle": "Cause/permit destruction/disposal/falsification/concealment of information required by CMA in connection with motor fuel",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "DM24021",
+    "offenceCategory": "CE",
+    "offenceTitle": "Destroy/dispose of/falsify/conceal information required by CMA in connection with motor fuel",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "DM24022",
+    "offenceCategory": "CE",
+    "offenceTitle": "Give false/misleading information to another knowing it will be given to CMA in connection with motor fuel",
+    "recordableOnPnc": true
   },
   {
     "cjsCode": "DN18001",
@@ -22369,6 +22563,12 @@
     "cjsCode": "EE09002",
     "offenceCategory": "CS",
     "offenceTitle": "Fail to comply with regulation 9 of the Eggs and Chicks (England) Regulations 2009",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "EE09003",
+    "offenceCategory": "CS",
+    "offenceTitle": "Obstruct person acting in execution of the Eggs and Chicks (England) Regulations 2009",
     "recordableOnPnc": false
   },
   {
@@ -24802,18 +25002,6 @@
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "ES79009",
-    "offenceCategory": "CE",
-    "offenceTitle": "Accept clients money without insurance cover",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "ES79010",
-    "offenceCategory": "CE",
-    "offenceTitle": "Describe self as estate agent without placing information at business premises / on business documents",
-    "recordableOnPnc": false
-  },
-  {
     "cjsCode": "ES79011",
     "offenceCategory": "CE",
     "offenceTitle": "Fail to comply with condition of exemption from insurance provisions",
@@ -24829,12 +25017,6 @@
     "cjsCode": "ES79013",
     "offenceCategory": "CE",
     "offenceTitle": "Engage in estate agency work after being adjudged bankrupt",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "ES79019",
-    "offenceCategory": "CE",
-    "offenceTitle": "Fail to comply with regulations made under the Estate Agents Act 1979",
     "recordableOnPnc": false
   },
   {
@@ -25771,6 +25953,18 @@
     "cjsCode": "FA13001",
     "offenceCategory": "CS",
     "offenceTitle": "Placed on the market a product which failed to comply with EC Regulation 1333/2008 etc.",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "FA20001",
+    "offenceCategory": "CE",
+    "offenceTitle": "Master/Owner/Charterer of a fishing boat broke a condition of a sea fishing licence",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "FA20002",
+    "offenceCategory": "CE",
+    "offenceTitle": "Master/Owner/Charterer of a fishing boat fished when not authorised to do so by a sea fishing licence",
     "recordableOnPnc": false
   },
   {
@@ -30730,6 +30924,18 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "GA21018",
+    "offenceCategory": "CS",
+    "offenceTitle": "Relevant firm fail to provide information identifying person holding funds / economic resources",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "GA21019",
+    "offenceCategory": "CS",
+    "offenceTitle": "Relevant firm fail to provide updated information identifying person holding funds / economic resources",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "GA96001",
     "offenceCategory": "CS",
     "offenceTitle": "Place an aircraft in a place and position other than one allocated for that aircraft at Gatwick Airport",
@@ -32164,6 +32370,12 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "GP05501",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application for forfeiture of a dangerous product - General Product Safety Regulations 2005",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "GR04001",
     "offenceCategory": "CS",
     "offenceTitle": "Prohibition on disclosure of information - Gender Recognition Act 2004",
@@ -32257,6 +32469,36 @@
     "cjsCode": "GS86027",
     "offenceCategory": "CS",
     "offenceTitle": "Obstruct an officer exercising powers of entry - Schedule 2B paragraph 28 - Gas Act 1986",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "GS86028",
+    "offenceCategory": "CE",
+    "offenceTitle": "Convey gas through pipes otherwise than in accordance with a licence",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "GS86029",
+    "offenceCategory": "CE",
+    "offenceTitle": "Participate in the operation of a gas interconnector without a licence",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "GS86030",
+    "offenceCategory": "CE",
+    "offenceTitle": "Arrange with gas transporter for gas to be conveyed etc. without a licence",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "GS86031",
+    "offenceCategory": "CE",
+    "offenceTitle": "Carry out functions of the Independent System Operator and Planner when not authorised by licence",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "GS86032",
+    "offenceCategory": "CE",
+    "offenceTitle": "Provide a smart meter communication service without licence",
     "recordableOnPnc": false
   },
   {
@@ -34225,6 +34467,12 @@
     "cjsCode": "HO04003",
     "offenceCategory": "CS",
     "offenceTitle": "Controller / manager of house in multiple occupation act without a section 61(1) licence",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "HO04003B",
+    "offenceCategory": "CS",
+    "offenceTitle": "Aid and Abet - Controller / manager of house in multiple occupation act without a section 61(1) licence",
     "recordableOnPnc": false
   },
   {
@@ -37402,6 +37650,12 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "IM71501",
+    "offenceCategory": "CB",
+    "offenceTitle": "Arrest for Examination by an Immigration Officer",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "IN38001",
     "offenceCategory": "CI",
     "offenceTitle": "Infanticide",
@@ -37412,12 +37666,6 @@
     "offenceCategory": "CS",
     "offenceTitle": "Nuisance in town / village greens / allotments - Inclosure Act 1857",
     "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "IP16002",
-    "offenceCategory": "CE",
-    "offenceTitle": "Unlawfully obtain communications data - Part 1 Investigatory Powers Act 2016",
-    "recordableOnPnc": true
   },
   {
     "cjsCode": "IP16003",
@@ -37477,6 +37725,18 @@
     "cjsCode": "IP16012",
     "offenceCategory": "CE",
     "offenceTitle": "Intercept communication - public telecommunication system/private telecommunication system/public postal service",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "IP16013",
+    "offenceCategory": "CE",
+    "offenceTitle": "Breach safeguards relating to examination of material regarding third party BPD warrant",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "IP16014",
+    "offenceCategory": "CE",
+    "offenceTitle": "Unlawfully obtain communications data - Part 1 Investigatory Powers Act 2016",
     "recordableOnPnc": true
   },
   {
@@ -44602,6 +44862,12 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "MD71213C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspiracy to possess controlled drug - Class A - MDMA",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "MD71214",
     "offenceCategory": "CE",
     "offenceTitle": "Possess a controlled drug of Class A - Crack Cocaine",
@@ -46042,6 +46308,12 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "MD71620",
+    "offenceCategory": "CE",
+    "offenceTitle": "Contravene regulations made under Misuse of Drugs Act 1971 - Misuse of Drugs Regulations 2001",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "MD71901",
     "offenceCategory": "CR",
     "offenceTitle": "Further consideration of an application for forfeiture under the Misuse of Drugs Act 1971",
@@ -47233,6 +47505,12 @@
     "cjsCode": "MO58511",
     "offenceCategory": "EM",
     "offenceTitle": "Show cause notice for enforcement of payment - maintenance fixed sum",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MP23001",
+    "offenceCategory": "CE",
+    "offenceTitle": "Contravened a byelaw by using bottom towed fishing gear in a protected area",
     "recordableOnPnc": false
   },
   {
@@ -49288,6 +49566,12 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "NF18001",
+    "offenceCategory": "CS",
+    "offenceTitle": "Contravene / fail to comply with the specified Union provisions of article 35(2) of Regulation (EC) No 2015/2283",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "NH07001",
     "offenceCategory": "CE",
     "offenceTitle": "Contravene / fail to comply with the provisions of article 3 of Regulation (EC) No 1924/2006",
@@ -49339,24 +49623,6 @@
     "cjsCode": "NH07009",
     "offenceCategory": "CE",
     "offenceTitle": "Contravene / fail to comply with the provisions of article 14(2) of Regulation (EC) No 1924/2006",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "NH07010",
-    "offenceCategory": "CS",
-    "offenceTitle": "Intentionally obstruct an officer acting in the execution of the Nutrition and Health Claims (England) Regulations 2007",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "NH07011",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to give info required by person acting in execution of Nutrition and Health Claims (England) Regulations 2007",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "NH07012",
-    "offenceCategory": "CE",
-    "offenceTitle": "Provide false / misleading info under reg 7(1)(b) of the Nutrition and Health Claims (England) Regulations 2007",
     "recordableOnPnc": true
   },
   {
@@ -50275,6 +50541,12 @@
     "cjsCode": "OF61060",
     "offenceCategory": "CI",
     "offenceTitle": "Administer poison with intent to endanger life / inflict grievous bodily harm",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "OF61060A",
+    "offenceCategory": "CI",
+    "offenceTitle": "Attempt to administer poison with intent to endanger life / inflict grievous bodily harm",
     "recordableOnPnc": true
   },
   {
@@ -53110,6 +53382,96 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "PC02549",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application for prior authorisation for detention of cryptoassets (POCA)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PC02550",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application for further continuation of a crypto wallet freezing order (POCA)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PC02551",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application to vary or set aside a crypto wallet freezing order (POCA)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PC02552",
+    "offenceCategory": "VP",
+    "offenceTitle": "Forfeiture of cryptoassets following detention or freezing order (POCA)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PC02553",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application to release detained cryptoassets to a victim or other owner (POCA)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PC02554",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application to release cryptoassets held in frozen crypto wallets to a victim or other owner (POCA)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PC02555",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application for compensation following detention of cryptoassets or the making of a crypto wallet freezing order (POCA)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PC02556",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application for continued detention of converted cryptoassets (POCA)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PC02557",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application for further order for continued detention of converted cryptoassets (POCA)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PC02558",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application for continued detention of converted cryptoassets held in a crypto wallet subject to a freezing order (POCA)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PC02559",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application for further continued detention of converted cryptoassets held in a crypto wallet - freezing order (POCA)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PC02560",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application for forfeiture of converted cryptoassets (POCA)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PC02561",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application to release detained converted cryptoassets to a victim or other owner (POCA)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PC02562",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application for compensation following detention of converted cryptoassets (POCA)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PC02563",
+    "offenceCategory": "CR",
+    "offenceTitle": "Application for release of money in account freezing order by person claiming money belongs to them",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "PC09001",
     "offenceCategory": "CS",
     "offenceTitle": "Under 18 without reasonable excuse possess alcohol in a relevant place 3 or more occasions within 12 consecutive months",
@@ -53884,6 +54246,36 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "PH17032",
+    "offenceCategory": "CS",
+    "offenceTitle": "Special procedure licence holder contravene remedial action notice (Wales)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PH17033",
+    "offenceCategory": "CS",
+    "offenceTitle": "Contravene a special procedure premises remedial action notice (Wales)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PH17034",
+    "offenceCategory": "CS",
+    "offenceTitle": "Make a false statement in an application for a special procedure licence or approval (Wales)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PH17035",
+    "offenceCategory": "CS",
+    "offenceTitle": "Obstruct authorised officer re special procedure (Wales)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PH17036",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to give reasonable assistance to authorised officer re special procedure (Wales)",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "PH19006",
     "offenceCategory": "CS",
     "offenceTitle": "Professional operator fail to comply with the notification requirements in relation to other plants and plant products",
@@ -54145,18 +54537,6 @@
     "cjsCode": "PH97001",
     "offenceCategory": "CE",
     "offenceTitle": "Harassment - breach of civil injunction",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "PH97003",
-    "offenceCategory": "CE",
-    "offenceTitle": "Harassment - breach of a restraining order on conviction",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "PH97003A",
-    "offenceCategory": "CE",
-    "offenceTitle": "Attempt to breach a restraining order after conviction",
     "recordableOnPnc": true
   },
   {
@@ -57496,6 +57876,12 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "PU23009",
+    "offenceCategory": "CS",
+    "offenceTitle": "Interfere with access to / provision of abortion services",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "PU23012",
     "offenceCategory": "CS",
     "offenceTitle": "Intentionally obstruct officer conducting stop and search without suspicion",
@@ -58658,6 +59044,12 @@
     "offenceCategory": "CS",
     "offenceTitle": "Failing to produce a certificate to a justice, constable, officer, or a person to whom he offers his goods for sale, o",
     "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "PZ71501",
+    "offenceCategory": "VP",
+    "offenceTitle": "Appeal Against refusal to grant a pedlar certificate",
+    "recordableOnPnc": false
   },
   {
     "cjsCode": "RA00001",
@@ -61960,84 +62352,6 @@
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "RE20082",
-    "offenceCategory": "CS",
-    "offenceTitle": "Gather in travel / holiday accommodation in Level 3 area of Wales",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "RE20083",
-    "offenceCategory": "CS",
-    "offenceTitle": "Gather in place other than private dwelling / travel accomodation in Alert Level 3 area of Wales",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "RE20086",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to close food / drink business in Alert Level 3 area of Wales",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "RE20087",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to close holiday / travel accommodation in Alert Level 3 area of Wales",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "RE20088",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to close leisure / social business in Alert Level 3 area of Wales",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "RE20090",
-    "offenceCategory": "CS",
-    "offenceTitle": "Gather in a private dwelling in an Alert Level 3 area of Wales without reasonable excuse",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "RE20096",
-    "offenceCategory": "CS",
-    "offenceTitle": "Participate in gathering in holiday / travel accommodation in Alert Level 2 area in Wales - Coronavirus",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "RE20110",
-    "offenceCategory": "CS",
-    "offenceTitle": "Organise prohibited event in Alert Level 3 area of Wales - Coronavirus",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "RE20123",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to work from home where where reasonably practicable to do so",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "RE20128",
-    "offenceCategory": "CS",
-    "offenceTitle": "Participate in indoor gathering of more than 6 people in public place in Alert Level 1 area of Wales - Coronavirus",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "RE20130",
-    "offenceCategory": "CS",
-    "offenceTitle": "Participate in indoor gathering of more than 30 people in dwelling holiday / travel accommodation in Wales - Coronavirus",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "RE20132",
-    "offenceCategory": "CS",
-    "offenceTitle": "Participate in gathering of more than six people in regulated premises in Alert Level 2 area of Wales - Coronavirus",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "RE20135",
-    "offenceCategory": "CS",
-    "offenceTitle": "Organise prohibited event in Alert Level 2 area of Wales - Coronavirus",
-    "recordableOnPnc": false
-  },
-  {
     "cjsCode": "RE59024",
     "offenceCategory": "CS",
     "offenceTitle": "Manufacture / sell / hire or offer / expose / possess for the purpose of sale / hire a flick / gravity knife",
@@ -62730,7 +63044,7 @@
   {
     "cjsCode": "RG24001",
     "offenceCategory": "CS",
-    "offenceTitle": "Deliver document/make statement that is misleading/false/deceptive - reports on Payments to Governments Regulations 2014",
+    "offenceTitle": "Deliver document/make statement that is misleading/false/deceptive - Reports on Payments to Governments Regulations 2014",
     "recordableOnPnc": false
   },
   {
@@ -66066,7 +66380,7 @@
   {
     "cjsCode": "RR84226",
     "offenceCategory": "CM",
-    "offenceTitle": "Exceed a temporary 50mph speed restriction on a motorway - automatic camera device",
+    "offenceTitle": "Exceed a temporary 50mph speed restriction on a motorway in contravention of a Local Traffic Order - ACD",
     "recordableOnPnc": false
   },
   {
@@ -77428,6 +77742,12 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "TC90059",
+    "offenceCategory": "CS",
+    "offenceTitle": "Make false or misleading statement purporting to comply with section 70D notice",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "TC90060",
     "offenceCategory": "CS",
     "offenceTitle": "Occupier / owner of land fail comply with notice to maintain land - England",
@@ -77554,6 +77874,12 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "TH68001B",
+    "offenceCategory": "CE",
+    "offenceTitle": "Aid / abet theft from the person of another",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "TH68001C",
     "offenceCategory": "CI",
     "offenceTitle": "Conspire to steal from the person of another",
@@ -77569,6 +77895,12 @@
     "cjsCode": "TH68002A",
     "offenceCategory": "CE",
     "offenceTitle": "Attempt theft in dwelling other than automatic machine or meter",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "TH68002C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspire to steal in dwelling other than from automatic machine or meter",
     "recordableOnPnc": true
   },
   {
@@ -77641,6 +77973,12 @@
     "cjsCode": "TH68009A",
     "offenceCategory": "CE",
     "offenceTitle": "Attempt theft from vehicle - other than a motor vehicle",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "TH68009C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspire to steal from a vehicle - other than a motor vehicle",
     "recordableOnPnc": true
   },
   {
@@ -77921,7 +78259,7 @@
   },
   {
     "cjsCode": "TH68040",
-    "offenceCategory": "CE",
+    "offenceCategory": "CI",
     "offenceTitle": "Burglary dwelling - attempt grievous bodily harm",
     "recordableOnPnc": true
   },
@@ -82996,36 +83334,6 @@
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "VD07001",
-    "offenceCategory": "CM",
-    "offenceTitle": "Drive a relevant vehicle on a road prior to completing / after five years of a Certificate of Professional Competence",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "VD07002",
-    "offenceCategory": "CM",
-    "offenceTitle": "Cause person to drive relevant vehicle on road without a Professional Competence Certificate",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "VD07003",
-    "offenceCategory": "CM",
-    "offenceTitle": "Permit person to drive relevant vehicle on road without a Professional Competence Certificate",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "VD07004",
-    "offenceCategory": "CM",
-    "offenceTitle": "Driver of a relevant vehicle fail to carry a Certificate of Professional Competence",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "VD07005",
-    "offenceCategory": "CM",
-    "offenceTitle": "Driver of a relevant vehicle fail to carry an initial Certificate of Professional Competence",
-    "recordableOnPnc": false
-  },
-  {
     "cjsCode": "VD07006",
     "offenceCategory": "CM",
     "offenceTitle": "Driver of a relevant vehicle fail to carry authority to drive for up to 12 months while undertaking a competence course",
@@ -83038,81 +83346,81 @@
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "VD07008",
-    "offenceCategory": "CM",
-    "offenceTitle": "Fail to comply with notice in writing to surrender revoked document / card - Vehicle Drivers ( CPC ) Reg's 07",
-    "recordableOnPnc": false
-  },
-  {
     "cjsCode": "VD07012",
     "offenceCategory": "CE",
     "offenceTitle": "Knowingly make a false statement to obtain issue of a driver qualification card",
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "VD07013",
+    "cjsCode": "VD07024",
     "offenceCategory": "CM",
-    "offenceTitle": "Fail to surrender driver qualification card - Vehicle Drivers ( CPC ) Regulations 2007",
+    "offenceTitle": "Fail to notify loss / damage / theft of driver disqualification card / national driver card or NVT Certificate",
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "VD07014",
+    "cjsCode": "VD07025",
     "offenceCategory": "CM",
-    "offenceTitle": "Fail to notify competent authority of loss / damage / theft of DQ card or NVT Certificate",
+    "offenceTitle": "Fail to notify competent authority of recovery of stolen or lost driver disqualification card / NVT Certificate etc",
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "VD07015",
+    "cjsCode": "VD07026",
     "offenceCategory": "CM",
-    "offenceTitle": "Fail to notify competent authority of recovery of stolen DQ card or NVT Certificate",
+    "offenceTitle": "Drive a relevant vehicle on a road prior to completing / after five years of a Certificate of Professional Competence et",
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "VD07016",
+    "cjsCode": "VD07027",
     "offenceCategory": "CM",
-    "offenceTitle": "Driver of a relevant vehicle fail to carry a Swiss Certificate of Professional Competence",
+    "offenceTitle": "Cause / permit person to drive relevant vehicle on road without a Professional Competence Certificate etc",
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "VD07017",
+    "cjsCode": "VD07028",
     "offenceCategory": "CM",
-    "offenceTitle": "Driver of a relevant vehicle fail to carry initial Swiss Certificate of Professional Competence",
+    "offenceTitle": "Driver of a relevant vehicle fail to carry evidence of CPC or national return to driving course",
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "VD07018",
+    "cjsCode": "VD07029",
+    "offenceCategory": "CM",
+    "offenceTitle": "Driver of a relevant vehicle fail to carry evidence of CPC obtained in member state / Gibraltar",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "VD07030",
+    "offenceCategory": "CM",
+    "offenceTitle": "Driver of a relevant vehicle fail to carry evidence of Swiss CPC",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "VD07032",
+    "offenceCategory": "CM",
+    "offenceTitle": "Fail to comply with notice in writing to surrender revoked document / card - Vehicle Drivers ( CPC ) Reg's 07",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "VD07033",
+    "offenceCategory": "CM",
+    "offenceTitle": "Fail to surrender driver qualification / national driver qualification card - Vehicle Drivers ( CPC ) Regulations 2007",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "VD07034",
     "offenceCategory": "CE",
-    "offenceTitle": "With intent to deceive forge / alter / use Swiss CPC / other document issued",
+    "offenceTitle": "With intent to deceive forge / alter / use an authority / qualification card / licence / certificate",
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "VD07019",
+    "cjsCode": "VD07035",
     "offenceCategory": "CE",
-    "offenceTitle": "Loan to another / allow to be used by another a Swiss CPC / other document",
+    "offenceTitle": "Loan to another / allow to be used by another a CPC / other document",
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "VD07020",
+    "cjsCode": "VD07036",
     "offenceCategory": "CE",
-    "offenceTitle": "With intent to deceive make / possess Swiss CPC / other document",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "VD07021",
-    "offenceCategory": "CE",
-    "offenceTitle": "With intent to deceive forge / alter / use an authority / qualification card / community licence / certificate",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "VD07022",
-    "offenceCategory": "CE",
-    "offenceTitle": "Loan to another / allow to be used by another a document / qualification card / community licence / certificate",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "VD07023",
-    "offenceCategory": "CE",
-    "offenceTitle": "With intent to deceive make / possess an authority / qualification card / community licence / certificate",
+    "offenceTitle": "With intent to deceive make / possess a CPC / other document",
     "recordableOnPnc": true
   },
   {
@@ -87265,6 +87573,18 @@
     "cjsCode": "WF07172",
     "offenceCategory": "CS",
     "offenceTitle": "Cause / permit failure to retain record of conventionally reared meat chickens in each house - England",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "WF07173",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to provide correctly constructed accommodation for pigs - England",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "WF07174",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to provide a dry and comfortable lying area for boar - England",
     "recordableOnPnc": true
   },
   {
