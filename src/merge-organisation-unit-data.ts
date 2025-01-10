@@ -6,4 +6,7 @@ const main = async () => {
 
 main()
   .then(() => console.log("Organisation Unit data is downloaded"))
-  .catch((err) => console.error(err))
+  .catch((err) => {
+    console.error(err)
+    process.exit(1)
+  })

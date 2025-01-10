@@ -77,4 +77,7 @@ const main = async () => {
 
 main()
   .then(() => console.log("Offence code data merged"))
-  .catch((err) => console.error(err))
+  .catch((err) => {
+    console.error(err)
+    process.exit(1)
+  })

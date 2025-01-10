@@ -6,4 +6,9 @@ const main = async () => {
   await cjsDownload()
 }
 
-main().then(() => console.log("All data downloaded"))
+main()
+  .then(() => console.log("All data downloaded"))
+  .catch((err) => {
+    console.error(err)
+    process.exit(1)
+  })
