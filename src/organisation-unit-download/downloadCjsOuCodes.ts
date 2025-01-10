@@ -6,7 +6,7 @@ import generateCourtOrganisationUnits from "./generateCourtOrganisationUnits"
 
 const downloadCjsOuCodes = async () => {
   console.log("Downloading CJS Organisation Unit data")
-  const downloadLinkRegex = /(https:\/\/.*cjs-courts-bc-ou-codes.*\.xlsx?)"/i
+  const downloadLinkRegex = /(https:\/\/.*cjs.courts.bc.ou.codes.*\.xlsx?)"/i
   const downloadURL = await getDownloadUrl(downloadLinkRegex)
   const fileContents = await downloadFile(downloadURL)
   const courtOrganisationUnitData = generateCourtOrganisationUnits(fileContents)

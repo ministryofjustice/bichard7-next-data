@@ -28,4 +28,7 @@ const main = async () => {
 
 main()
   .then(() => console.log("PNC Data imported successfully"))
-  .catch((err) => console.error(err))
+  .catch((err) => {
+    console.error(err)
+    process.exit(1)
+  })
