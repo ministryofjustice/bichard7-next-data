@@ -174,7 +174,7 @@ jobs:
     machine:
       image: ubuntu-2204:current
       docker_layer_caching: false
-    resource_class: xlarge
+    resource_class: large
     environment:
       STACK_TYPE: next
       MESSAGE_ENTRY_POINT: mq
@@ -182,7 +182,8 @@ jobs:
       RECORD: true # required for screenshots
       AWS_URL: http://localhost:4566
       AUDIT_LOG_API_URL: http://localhost:7010
-    parallelism: 4
+      TEST_TIMEOUT: 35000
+    parallelism: 10
     steps:
       - checkout
       - lint
