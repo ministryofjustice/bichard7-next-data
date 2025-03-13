@@ -182,7 +182,6 @@ jobs:
       RECORD: true # required for screenshots
       AWS_URL: http://localhost:4566
       AUDIT_LOG_API_URL: http://localhost:7010
-      TEST_TIMEOUT: 35000
     parallelism: 10
     steps:
       - checkout
