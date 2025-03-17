@@ -186,7 +186,7 @@ jobs:
           token: ${{ secrets.GH_ACCESS_TOKEN }}
 
       - name: Update standing data npm package
-        run: npm install @moj-bichard7-developers/bichard7-next-data@${VERSION} -w packages/core -w packages/ui -w packages/e2e-test -w packages/api
+        run: npm install @moj-bichard7-developers/bichard7-next-data@${VERSION} -w packages/core -w packages/ui -w packages/e2e-test -w packages/api  -w packages/conductor
         env:
           VERSION: ${{ needs.bump-package-version.outputs.version }}
 
