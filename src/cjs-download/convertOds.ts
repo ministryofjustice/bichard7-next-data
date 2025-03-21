@@ -20,10 +20,12 @@ export default (data: Buffer): OffenceCode[] => {
 
   const worksheet = workbook.Sheets[workbook.SheetNames[0]]
   const jsonWorksheet: CjsOffenceCode[] = XLSX.utils.sheet_to_json(worksheet)
-  return jsonWorksheet.map((offenceCode) => ({
-    cjsCode: offenceCode["CJS Offence Code"],
-    offenceTitle: consistentWhitespace(offenceCode["Offence Title"])?.replace("&amp;", "&"),
-    recordableOnPnc: valueToBoolean(offenceCode["Recordable On PNC Indicator"]),
-    offenceCategory: offenceCode["Offence Category Code"]
-  }))
+  return jsonWorksheet
+    .filter((offenceCode) => /^[a-zA-Z0-9]+$/.test(offenceCode["CJS Offence Code"]))
+    .map((offenceCode) => ({
+      cjsCode: offenceCode["CJS Offence Code"],
+      offenceTitle: consistentWhitespace(offenceCode["Offence Title"])?.replace("&amp;", "&"),
+      recordableOnPnc: valueToBoolean(offenceCode["Recordable On PNC Indicator"]),
+      offenceCategory: offenceCode["Offence Category Code"]
+    }))
 }
