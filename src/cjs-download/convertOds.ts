@@ -24,7 +24,12 @@ export default (data: Buffer): OffenceCode[] => {
     .filter((offenceCode) => /^[a-zA-Z0-9]+$/.test(offenceCode["CJS Offence Code"]))
     .map((offenceCode) => ({
       cjsCode: offenceCode["CJS Offence Code"],
-      offenceTitle: consistentWhitespace(offenceCode["Offence Title"])?.replace("&amp;", "&"),
+      offenceTitle: consistentWhitespace(
+        offenceCode["Offence Title"]
+          ?.replace("&amp;", "&")
+          .replace("\u0019", "'")
+          .replace("\u0013", "")
+      ),
       recordableOnPnc: valueToBoolean(offenceCode["Recordable On PNC Indicator"]),
       offenceCategory: offenceCode["Offence Category Code"]
     }))
