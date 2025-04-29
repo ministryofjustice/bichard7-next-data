@@ -38,6 +38,7 @@ enum TriggerCode {
 
 enum TriggerCodeGroups {
   Bails = "Bails",
+  Results = "Results",
   Custody = "Custody",
   Orders = "Orders",
   Warrants = "Warrants"
