@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/ministryofjustice/bichard7-next-data#readme",
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.797.0",
+    "@aws-sdk/client-s3": "^3.802.0",
     "@types/jest": "^29.5.14",
     "@types/lodash": "^4.17.16",
     "@types/puppeteer": "^7.0.4",
@@ -41,7 +41,7 @@
     "eslint-config-prettier": "^10.1.2",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jest": "^28.11.0",
-    "fast-xml-parser": "^5.2.1",
+    "fast-xml-parser": "^5.2.2",
     "google-auth-library": "^8.9.0",
     "googleapis": "^148.0.0",
     "husky": "^9.1.7",
@@ -53,14 +53,14 @@
     "mockdate": "^3.0.5",
     "npm-check-updates": "^18.0.1",
     "prettier": "^3.5.3",
-    "puppeteer": "^24.7.2",
+    "puppeteer": "^24.8.0",
     "sort-json-keys": "^1.0.3",
     "ts-jest": "^29.3.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3",
     "uuid": "^11.1.0",
     "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz",
-    "zod": "^3.24.3"
+    "zod": "^3.24.4"
   },
   "lint-staged": {
     "*.{js,ts,tsx}": "eslint --cache --fix --max-warnings 0 --ignore-pattern !.ncurc.js"
@@ -71,6 +71,6 @@
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
     "eslint-config-airbnb-typescript": "^18.0.0",
-    "eslint-plugin-prettier": "^5.2.6"
+    "eslint-plugin-prettier": "^5.3.1"
   }
 }
