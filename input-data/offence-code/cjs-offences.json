@@ -4320,12 +4320,6 @@
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "AR11044",
-    "offenceCategory": "CS",
-    "offenceTitle": "Bring an animal / animal product into England other than at a designated border inspection post",
-    "recordableOnPnc": false
-  },
-  {
     "cjsCode": "AR11045",
     "offenceCategory": "CS",
     "offenceTitle": "Disclose information received from the Commissioners / a general customs official",
@@ -4419,6 +4413,12 @@
     "cjsCode": "AR11077",
     "offenceCategory": "CS",
     "offenceTitle": "Bring in a consignment of products not complying with import requirements and Customs and storage procedures",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "AR11078",
+    "offenceCategory": "CS",
+    "offenceTitle": "Bring an animal / animal product into England other than through a border control post / designated point of entry",
     "recordableOnPnc": false
   },
   {
@@ -8358,6 +8358,42 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "BL25001",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fished for / took specified shellfish other than in accordance with a permit exceeding daily allowance - NIFCA",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "BL25002",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fish for / take / attempt to fish for / take salmon with rod & line by means of any bait from any river/tributary -Wales",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "BL25003",
+    "offenceCategory": "CS",
+    "offenceTitle": "Used bait or lure furnished with more than one hook with weight attached below lure or bait",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "BL25004",
+    "offenceCategory": "CS",
+    "offenceTitle": "Moor / permit boat to be moored on land designated in Schedule 1 of the Byelaws relating to Mooring",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "BL25005",
+    "offenceCategory": "CS",
+    "offenceTitle": "Erect a post/rail/fence/pole/tent/booth/stand/building/structure on Grounds without consent of Liverpool City Council",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "BL25006",
+    "offenceCategory": "CS",
+    "offenceTitle": "Moor / permit boat to be moored on land designated in Schedule 2 of the Byelaws relating to Mooring",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "BN81001",
     "offenceCategory": "CS",
     "offenceTitle": "Make false statement to obtain British nationality",
@@ -8660,7 +8696,25 @@
   {
     "cjsCode": "BW74001",
     "offenceCategory": "CI",
-    "offenceTitle": "Develop / produce / stockpile / acquire / retain biological agent or toxin without justification",
+    "offenceTitle": "Develop / produce / stockpile / acquire / retain biological agent or toxin",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "BW74002",
+    "offenceCategory": "CI",
+    "offenceTitle": "Develop / produce / stockpile / acquire / retain biological weapons",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "BW74003",
+    "offenceCategory": "CI",
+    "offenceTitle": "Transfer biological agent or toxin to another person or agree to do so",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "BW74004",
+    "offenceCategory": "CI",
+    "offenceTitle": "Make arrangements for the transfer of biological agent or toxin to another person",
     "recordableOnPnc": true
   },
   {
@@ -9888,6 +9942,12 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "CC81012",
+    "offenceCategory": "CR",
+    "offenceTitle": "Obstructive, disruptive, insulting, intimidating conduct in the Crown Court - Contempt of Court Act 1981",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "CC81501",
     "offenceCategory": "VP",
     "offenceTitle": "Application to revoke committal order (contempt)",
@@ -10171,13 +10231,13 @@
   },
   {
     "cjsCode": "CD71039A",
-    "offenceCategory": "CS",
+    "offenceCategory": "CE",
     "offenceTitle": "Attempt criminal damage to property valued under £5000",
     "recordableOnPnc": true
   },
   {
     "cjsCode": "CD71039B",
-    "offenceCategory": "CS",
+    "offenceCategory": "CE",
     "offenceTitle": "Aid, abet, counsel and procure the destruction of / damage to property valued under £5000",
     "recordableOnPnc": true
   },
@@ -10497,6 +10557,12 @@
     "cjsCode": "CD98531",
     "offenceCategory": "VP",
     "offenceTitle": "Application to discharge Sex Offender Order",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "CD98532",
+    "offenceCategory": "CR",
+    "offenceTitle": "Financial penalty etc. payable following a youth conditional caution",
     "recordableOnPnc": false
   },
   {
@@ -11749,7 +11815,7 @@
   },
   {
     "cjsCode": "CE79321C",
-    "offenceCategory": "CI",
+    "offenceCategory": "CE",
     "offenceTitle": "Conspire to possess goods chargeable with duty not paid with intent to defraud HM",
     "recordableOnPnc": true
   },
@@ -13814,7 +13880,7 @@
   {
     "cjsCode": "CJ88139",
     "offenceCategory": "CS",
-    "offenceTitle": "Offer for sale/hire an offensive weapon",
+    "offenceTitle": "Offer for sale / hire an offensive weapon",
     "recordableOnPnc": true
   },
   {
@@ -15636,6 +15702,12 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "COML025B",
+    "offenceCategory": "CI",
+    "offenceTitle": "Aid and abet attempt murder, victim aged 1 year or over",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "COML025C",
     "offenceCategory": "CI",
     "offenceTitle": "Conspire to murder - potential victim one year of age or older",
@@ -15796,54 +15868,6 @@
     "offenceCategory": "CR",
     "offenceTitle": "Application to bulk re-open cases for the declaration of nullity of proceedings",
     "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "CP08001",
-    "offenceCategory": "CE",
-    "offenceTitle": "Trader knowingly / recklessly engage in a commercial practice - Unfair Trading Regulations",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "CP08002",
-    "offenceCategory": "CE",
-    "offenceTitle": "Trader engage in commercial practice which is a misleading action containing false information - Unfair Trading Regs 08",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "CP08002B",
-    "offenceCategory": "CE",
-    "offenceTitle": "Aid, abet trader engaged in commercial practice which is a misleading action containing false information",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "CP08002C",
-    "offenceCategory": "CE",
-    "offenceTitle": "Conspiracy by trader to engage in a commercial practice which is a misleading action etc. - Unfair Trading Regs 08",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "CP08003",
-    "offenceCategory": "CE",
-    "offenceTitle": "Trader engage in a commercial practice which is a misleading omission - Unfair Trading Regulations 2008",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "CP08004",
-    "offenceCategory": "CE",
-    "offenceTitle": "Trader engage in a commercial practice which was aggressive - Unfair Trading Regulations 2008",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "CP08005",
-    "offenceCategory": "CE",
-    "offenceTitle": "Trader engage in unfair commercial practice - Unfair Trading Regulations 2008",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "CP08005B",
-    "offenceCategory": "CE",
-    "offenceTitle": "Aid, abet counsel or procure a trader engaged in unfair commercial practice - Unfair Trading Regulations 2008",
-    "recordableOnPnc": true
   },
   {
     "cjsCode": "CP13003",
@@ -18366,6 +18390,24 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "CS06266",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to comply with notice given under section 790D to person with significant control",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CS06270",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to comply with a duty under s.790G to notify company on becoming a PSC",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CS06271",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to comply with duty under s.790H to notify changes in PSC information",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "CS10501",
     "offenceCategory": "VP",
     "offenceTitle": "Application for a domestic violence protection order",
@@ -20352,6 +20394,12 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "CW99002",
+    "offenceCategory": "CS",
+    "offenceTitle": "Resist / Intentionally obstruct officers in the execution of their duties under City of Westminster Act 1999",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "CY33011",
     "offenceCategory": "CS",
     "offenceTitle": "Allow a young person under 16 years of age to reside in / frequent a brothel",
@@ -21231,6 +21279,72 @@
     "cjsCode": "DM24005",
     "offenceCategory": "CE",
     "offenceTitle": "Obstruct an officer of the Competition and Markets Authority",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "DM24006",
+    "offenceCategory": "CE",
+    "offenceTitle": "Trader engage in unfair commercial practice involving misleading action",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "DM24007",
+    "offenceCategory": "CE",
+    "offenceTitle": "Trader engage in unfair commercial practice involving misleading omission",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "DM24008",
+    "offenceCategory": "CE",
+    "offenceTitle": "Trader engage in unfair commercial practice involving an aggressive practice",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "DM24009",
+    "offenceCategory": "CE",
+    "offenceTitle": "Trader engage in unfair commercial practice involving contravention of requirements of professional diligence",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "DM24010",
+    "offenceCategory": "CE",
+    "offenceTitle": "Trader engage in unfair commercial practice by omitting material information from an invitation to purchase",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "DM24011",
+    "offenceCategory": "CE",
+    "offenceTitle": "Trader engage in unfair commercial practice of a description listed in Schedule 20",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "DM24012",
+    "offenceCategory": "CE",
+    "offenceTitle": "Act/omission due to which trader engaged in unfair commercial practice involving misleading action",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "DM24013",
+    "offenceCategory": "CE",
+    "offenceTitle": "Act/omission due to which trader engaged in unfair commercial practice involving misleading omission",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "DM24014",
+    "offenceCategory": "CE",
+    "offenceTitle": "Act/omission due to which trader engaged in unfair commercial practice involving aggressive practice",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "DM24015",
+    "offenceCategory": "CE",
+    "offenceTitle": "Act/omission due to which trader engaged in unfair commercial practice by omitting material information",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "DM24016",
+    "offenceCategory": "CE",
+    "offenceTitle": "Act/omission due to which trader engaged in unfair commercial practice listed in Schedule 20",
     "recordableOnPnc": true
   },
   {
@@ -23982,6 +24096,30 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "EN95009",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to comply with a section 108 requirement from the Agency / NRBW operation of water / sewerage undertaker / licensee",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "EN95010",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail / refuse to provide facilities / assistance / information / permit inspection authorised by the Agency / NRBW",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "EN95011",
+    "offenceCategory": "CE",
+    "offenceTitle": "Prevent other appearing before / answering question of an authorised person defined in s.110(3D) pursuant to s. 108(4)",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "EN95012",
+    "offenceCategory": "CE",
+    "offenceTitle": "Obstruct an authorised person under 110(3D) in the execution of powers",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "EN95501",
     "offenceCategory": "VP",
     "offenceTitle": "Application for a restriction order - section 109D of the Environment Act 1995",
@@ -24184,6 +24322,36 @@
     "offenceCategory": "CE",
     "offenceTitle": "Fail to comply with stop notice - Environmental Protection (Plastic Plates etc)",
     "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "EP24001",
+    "offenceCategory": "CS",
+    "offenceTitle": "Possess / offer / supply single-use vape - Environmental Protection (Single-use Vapes) (England) Regs 2024",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "EP24002",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with requirement imposed by enforcement officer - Single-use Vapes (England)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "EP24003",
+    "offenceCategory": "CS",
+    "offenceTitle": "Obstruct enforcement officer - Environmental Protection (Single-use Vapes) (England) Regulations 2024",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "EP24004",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to comply with stop notice - Environmental Protection (Single-use Vapes) (England) Regulations 2024",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "EP24005",
+    "offenceCategory": "CS",
+    "offenceTitle": "Offer to supply a single-use vape - Environmental Protection (Single-use Vapes) (England) Regulations 2024",
+    "recordableOnPnc": false
   },
   {
     "cjsCode": "EP75004",
@@ -24828,6 +24996,12 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "EP90509",
+    "offenceCategory": "VP",
+    "offenceTitle": "Appeal against notice to provide receptacles for household waste s.46 EPA 1990",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "EP99001",
     "offenceCategory": "CS",
     "offenceTitle": "Use lead shot for purpose of shooting with a shot gun",
@@ -25299,6 +25473,30 @@
     "cjsCode": "EW10001",
     "offenceCategory": "CE",
     "offenceTitle": "Fail to comply with a stop notice issued by Natural Resources Wales",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "EW24001",
+    "offenceCategory": "CE",
+    "offenceTitle": "Possess / offer / supply single-use vape - Environmental Protection (Single-use Vapes) (Wales) Regulations 2024",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "EW24002",
+    "offenceCategory": "CS",
+    "offenceTitle": "Obstruct an enforcement officer in exercise of powers - Environmental Protection (Single-use Vapes) (Wales)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "EW24003",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with a request made by enforcement officer - Environmental Protection - (Single-use Vapes) (Wales)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "EW24004",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to comply with a stop notice - Environmental Protection (Single-use Vapes) (Wales) Regulations 2024",
     "recordableOnPnc": true
   },
   {
@@ -28965,6 +29163,12 @@
     "cjsCode": "FI68457",
     "offenceCategory": "CI",
     "offenceTitle": "Possess any device designed or adapted so that it becomes part of a prohibited weapon",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "FI68458",
+    "offenceCategory": "CE",
+    "offenceTitle": "Possess component parts of ammunition with intent to manufacture",
     "recordableOnPnc": true
   },
   {
@@ -38000,7 +38204,7 @@
   {
     "cjsCode": "IS86038",
     "offenceCategory": "CE",
-    "offenceTitle": "Bankrupt fail to deliver up property - receiver/trustee",
+    "offenceTitle": "Bankrupt fail to deliver up property - receiver / trustee",
     "recordableOnPnc": true
   },
   {
@@ -39594,6 +39798,12 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "LA04001",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to give name / give false name or false address to an authorised person",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "LA05001",
     "offenceCategory": "CS",
     "offenceTitle": "Tamper with an aircraft / anything likely to interfere with safe running / security of an aircraft at Luton Airport",
@@ -40215,6 +40425,78 @@
     "cjsCode": "LA91002",
     "offenceCategory": "CS",
     "offenceTitle": "Used etc. premises for special treatment without a license in London",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "LB22012",
+    "offenceCategory": "CS",
+    "offenceTitle": "Smoke where smoking prohibited by sign - Leeds Bradford Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "LB22072",
+    "offenceCategory": "CS",
+    "offenceTitle": "Smoke other than where smoking area is designated by sign - Leeds Bradford Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "LB22074",
+    "offenceCategory": "CS",
+    "offenceTitle": "Smoke in enclosed place - Leeds Bradford Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "LB22076",
+    "offenceCategory": "CS",
+    "offenceTitle": "Smoke in restricted area at Leeds Bradford Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "LB22096",
+    "offenceCategory": "CS",
+    "offenceTitle": "Drunk or under influence of drugs or intoxicating substances - Leeds Bradford Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "LB22097",
+    "offenceCategory": "CS",
+    "offenceTitle": "Assist or procure another to be drunk or under influence of drugs or intoxicating substances - Leeds Bradford Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "LB22098",
+    "offenceCategory": "CS",
+    "offenceTitle": "Carry on consuming alcohol / drugs etc in breach of a direction from constable / official - Leeds Bradford Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "LB22099",
+    "offenceCategory": "CS",
+    "offenceTitle": "Assist / procure another to carry on consuming alcohol, breaching direction from constable etc - Leeds Bradford Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "LB22100",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to surrender alcohol / drugs / intoxicating substances to constable / official on request - Leeds Bradford Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "LB22101",
+    "offenceCategory": "CS",
+    "offenceTitle": "Assist / procure failure to surrender alcohol / drugs etc to constable / official on request - Leeds Bradford Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "LB22102",
+    "offenceCategory": "CS",
+    "offenceTitle": "Consume alcohol / possess open alcohol container other than in restaurant / bar areas - Leeds Bradford Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "LB22103",
+    "offenceCategory": "CS",
+    "offenceTitle": "Assist / procure another to consume alcohol / possess open alcohol container - Leeds Bradford Airport",
     "recordableOnPnc": false
   },
   {
@@ -43056,6 +43338,30 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "LR23002",
+    "offenceCategory": "CS",
+    "offenceTitle": "Interested person fail to give information re premises in designated high street / town centre",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "LR23003",
+    "offenceCategory": "CS",
+    "offenceTitle": "Interested person give false information re premises in designated high street or town centre",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "LR23004",
+    "offenceCategory": "CS",
+    "offenceTitle": "Obstruct person entering designated high street or town centre property",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "LR23005",
+    "offenceCategory": "CS",
+    "offenceTitle": "Disclose confidential information obtained in exercise of power to enter and search designated high street / town centre",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "LR23006",
     "offenceCategory": "CS",
     "offenceTitle": "Fail to comply with requirement imposed under section 219",
@@ -43066,6 +43372,12 @@
     "offenceCategory": "CS",
     "offenceTitle": "Provide false information in response to requirement imposed under section 219",
     "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "LR23008",
+    "offenceCategory": "CS",
+    "offenceTitle": "Landlord carry out repairs to premises while final letting notice in force",
+    "recordableOnPnc": false
   },
   {
     "cjsCode": "LS07001",
@@ -43471,14 +43783,14 @@
   },
   {
     "cjsCode": "MA83001",
-    "offenceCategory": "CS",
-    "offenceTitle": "Pretending to be registered by taking name or title of a Medical Practitioner",
-    "recordableOnPnc": true
+    "offenceCategory": "CM",
+    "offenceTitle": "Pretend to be / take / use name / title of physician / doctor etc",
+    "recordableOnPnc": false
   },
   {
     "cjsCode": "MA83002",
     "offenceCategory": "CS",
-    "offenceTitle": "Non-licence holder - held out as having / engaged in conduct calculated to suggest that you had a licence to practise",
+    "offenceTitle": "Non-licence holder - held out as having / engaged in conduct calculated to suggest that person held licence to practise",
     "recordableOnPnc": false
   },
   {
@@ -45264,18 +45576,6 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "MD71396",
-    "offenceCategory": "CE",
-    "offenceTitle": "Possess a controlled drug of Class C - GHB",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "MD71396A",
-    "offenceCategory": "CE",
-    "offenceTitle": "Attempt to possess a controlled drug of Class C - GHB",
-    "recordableOnPnc": true
-  },
-  {
     "cjsCode": "MD71430",
     "offenceCategory": "CE",
     "offenceTitle": "Produce a controlled drug of class C - other",
@@ -45306,18 +45606,6 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "MD71434",
-    "offenceCategory": "CE",
-    "offenceTitle": "Production of hydroxy-n-butyric acid ( ghb )",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "MD71435",
-    "offenceCategory": "CE",
-    "offenceTitle": "Concerned in production of hydroxy-n-butyric acid (ghb)",
-    "recordableOnPnc": true
-  },
-  {
     "cjsCode": "MD71440",
     "offenceCategory": "CE",
     "offenceTitle": "Cultivate cannabis plant a class B controlled drug",
@@ -45333,6 +45621,12 @@
     "cjsCode": "MD71441A",
     "offenceCategory": "CE",
     "offenceTitle": "Attempt to possess with intent to supply a controlled drug of Class C - Anabolic Steroids",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MD71441C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspire to possess controlled drug of Class C with intent to supply - Anabolic Steroids",
     "recordableOnPnc": true
   },
   {
@@ -45420,36 +45714,6 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "MD71453",
-    "offenceCategory": "CE",
-    "offenceTitle": "Supply a controlled drug of Class C - GHB",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "MD71453A",
-    "offenceCategory": "CE",
-    "offenceTitle": "Attempt to supply a controlled drug of Class C - GHB",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "MD71454",
-    "offenceCategory": "CE",
-    "offenceTitle": "Offer to supply hydroxy-n-butyric acid ( ghb )",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "MD71455",
-    "offenceCategory": "CE",
-    "offenceTitle": "Concerned in supply of hydroxy-n-butyric acid ( ghb )",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "MD71456",
-    "offenceCategory": "CE",
-    "offenceTitle": "Concerned in offer to supply hydroxy-n-butyric acid (ghb)",
-    "recordableOnPnc": true
-  },
-  {
     "cjsCode": "MD71470",
     "offenceCategory": "CE",
     "offenceTitle": "Permit supply of controlled drug of class C on premises - Anabolic Steroids",
@@ -45474,18 +45738,6 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "MD71474",
-    "offenceCategory": "CE",
-    "offenceTitle": "Permit production on premises of hydroxy-n-butyric acid ( ghb )",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "MD71475",
-    "offenceCategory": "CE",
-    "offenceTitle": "Permit use of premises for supply of hydroxy-n-butyric acid ( ghb )",
-    "recordableOnPnc": true
-  },
-  {
     "cjsCode": "MD71490",
     "offenceCategory": "CE",
     "offenceTitle": "Doctor / chemist contravene s.12(2) direction concerning prescription of controlled drug of Class C",
@@ -45495,18 +45747,6 @@
     "cjsCode": "MD71491",
     "offenceCategory": "CE",
     "offenceTitle": "Prohibited doctor / chemist prescribing class C drug",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "MD71492",
-    "offenceCategory": "CE",
-    "offenceTitle": "Possess with intent to supply a controlled drug of Class C - Hydroxy-n-butyric acid",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "MD71492A",
-    "offenceCategory": "CE",
-    "offenceTitle": "Attempt to possess with intent to supply a controlled drug of Class C - hydroxy-n-butyric acid",
     "recordableOnPnc": true
   },
   {
@@ -46389,6 +46629,84 @@
     "cjsCode": "MD71620",
     "offenceCategory": "CE",
     "offenceTitle": "Contravene regulations made under Misuse of Drugs Act 1971 - Misuse of Drugs Regulations 2001",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MD71621",
+    "offenceCategory": "CE",
+    "offenceTitle": "Possess a controlled drug of Class B - 4-Hydroxy-n-butyric acid (GHB)",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MD71621A",
+    "offenceCategory": "CE",
+    "offenceTitle": "Attempt to possess a controlled drug of Class B - 4-Hydroxy-n-butyric acid (GHB)",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MD71622",
+    "offenceCategory": "CE",
+    "offenceTitle": "Production of a controlled drug of Class B - 4-Hydroxy-n-butyric acid (GHB)",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MD71623",
+    "offenceCategory": "CE",
+    "offenceTitle": "Concerned in production of a Class B drug - 4-Hydroxy-n-butyric acid (GHB)",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MD71624",
+    "offenceCategory": "CE",
+    "offenceTitle": "Offer to supply a controlled drug of Class B - 4-Hydroxy-n-butyric acid (GHB)",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MD71625",
+    "offenceCategory": "CE",
+    "offenceTitle": "Concerned in supply of a controlled drug of Class B - 4-Hydroxy-n-butyric acid (GHB)",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MD71626",
+    "offenceCategory": "CE",
+    "offenceTitle": "Concerned in offer to supply a controlled drug of Class B - 4-Hydroxy-n-butyric acid (GHB)",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MD71627",
+    "offenceCategory": "CE",
+    "offenceTitle": "Permit production on premises of a controlled drug of Class B - 4-Hydroxy-n-butyric acid (GHB)",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MD71628",
+    "offenceCategory": "CE",
+    "offenceTitle": "Permit use of premises for supply of a controlled drug of Class B - 4-Hydroxy-n-butyric acid (GHB)",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MD71629",
+    "offenceCategory": "CE",
+    "offenceTitle": "Possess with intent to supply a controlled drug of Class B - 4-Hydroxy-n-butyric acid (GHB)",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MD71629A",
+    "offenceCategory": "CE",
+    "offenceTitle": "Attempt to possess with intent to supply a controlled drug of Class B - 4-Hydroxy-n-butyric acid (GHB)",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MD71630",
+    "offenceCategory": "CE",
+    "offenceTitle": "Supply a controlled drug of Class B - 4-Hydroxy-n-butyric acid (GHB)",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MD71630A",
+    "offenceCategory": "CE",
+    "offenceTitle": "Attempt to supply a controlled drug of Class B - 4-Hydroxy-n-butyric acid (GHB)",
     "recordableOnPnc": true
   },
   {
@@ -51042,12 +51360,6 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "OR63005",
-    "offenceCategory": "CE",
-    "offenceTitle": "Owner of building contravene s. 9 with regard to a common part of the building",
-    "recordableOnPnc": true
-  },
-  {
     "cjsCode": "OR63006",
     "offenceCategory": "CS",
     "offenceTitle": "Owner(s) of building contravened, in relation to a common part of buildings to which this section applies, s.42(2) or",
@@ -52659,6 +52971,12 @@
     "cjsCode": "PA72003",
     "offenceCategory": "CE",
     "offenceTitle": "Member of public import / acquire / possess / use a regulated substance without licence",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "PA72003A",
+    "offenceCategory": "CE",
+    "offenceTitle": "Member of public attempt to import / acquire / possess / use a regulated substance without licence",
     "recordableOnPnc": true
   },
   {
@@ -55932,6 +56250,12 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "PO07007",
+    "offenceCategory": "CE",
+    "offenceTitle": "Contravene requirement of regulation 23(2) of the Producer Responsibility Obligations (Packaging Waste) Regulations 2007",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "PO09001",
     "offenceCategory": "CE",
     "offenceTitle": "Interfere with security measure required by port security plan",
@@ -57027,6 +57351,12 @@
     "cjsCode": "PS16002",
     "offenceCategory": "CE",
     "offenceTitle": "Supply a psychoactive substance",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "PS16002A",
+    "offenceCategory": "CE",
+    "offenceTitle": "Attempt to supply a psychoactive substance",
     "recordableOnPnc": true
   },
   {
@@ -58614,12 +58944,6 @@
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "PV81031",
-    "offenceCategory": "CE",
-    "offenceTitle": "Forge / alter / use / lend a PSV operator's licence / certificate / disc / document with intent to deceive",
-    "recordableOnPnc": true
-  },
-  {
     "cjsCode": "PV81032",
     "offenceCategory": "CE",
     "offenceTitle": "Alter a PSV operator's licence with intent to deceive",
@@ -58641,12 +58965,6 @@
     "cjsCode": "PV81035",
     "offenceCategory": "CE",
     "offenceTitle": "Allow use of a PSV operator's licence with intent to deceive",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "PV81036",
-    "offenceCategory": "CE",
-    "offenceTitle": "Make or possess PSV operator's licence / fitness or type certificate / disc or control document with intent to deceive",
     "recordableOnPnc": true
   },
   {
@@ -58984,6 +59302,18 @@
     "offenceCategory": "CS",
     "offenceTitle": "Contravene / fail to comply with a provision of the Public Service Vehicles Carrying Capacity Regulations 1984",
     "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PV81109",
+    "offenceCategory": "CE",
+    "offenceTitle": "Forge / alter / use / lend a PSV operator's licence / certificate / disc / document with intent to deceive",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "PV81110",
+    "offenceCategory": "CE",
+    "offenceTitle": "Make or possess PSV operator's licence / fitness or type certificate / disc or control document with intent to deceive",
+    "recordableOnPnc": true
   },
   {
     "cjsCode": "PW16001",
@@ -65732,7 +66062,7 @@
   {
     "cjsCode": "RR84030",
     "offenceCategory": "CM",
-    "offenceTitle": "Fail to stop for a person at a school crossing patrol",
+    "offenceTitle": "Vehicle fail to stop for a person at a school crossing patrol - endorsable",
     "recordableOnPnc": false
   },
   {
@@ -65756,7 +66086,7 @@
   {
     "cjsCode": "RR84034",
     "offenceCategory": "CS",
-    "offenceTitle": "Fail to wait at a school crossing patrol",
+    "offenceTitle": "Vehicle fail to wait at a school crossing patrol - endorsable",
     "recordableOnPnc": false
   },
   {
@@ -66522,6 +66852,18 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "RR84240",
+    "offenceCategory": "CM",
+    "offenceTitle": "Fail to stop non-motor vehicle for a person at a school crossing patrol - non-endorsable",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "RR84241",
+    "offenceCategory": "CS",
+    "offenceTitle": "Non-motor vehicle fail to wait at a school crossing patrol - non-endorsable",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "RR84701",
     "offenceCategory": "CM",
     "offenceTitle": "Fail to deliver a suspect document or article to an authorised person",
@@ -67041,6 +67383,132 @@
     "cjsCode": "RT18029",
     "offenceCategory": "CM",
     "offenceTitle": "Fail to present a certified copy of a licence for international occasional services to an authorised inspecting officer",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "RT18036",
+    "offenceCategory": "CS",
+    "offenceTitle": "Breach of bus or coach technical standards in Annex 2 of the RSR Protocol",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "RT18037",
+    "offenceCategory": "CS",
+    "offenceTitle": "Operate internation bus service without authorisation",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "RT18038",
+    "offenceCategory": "CS",
+    "offenceTitle": "Operate temporary or parallel interbus service without authorisation",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "RT18039",
+    "offenceCategory": "CS",
+    "offenceTitle": "Operate an additional vehicle under the RSR Protocol otherwise than under an authorisation",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "RT18040",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to keep required documents in additional vehicle operating under the RSR Protocol",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "RT18041",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to present required documents to authorised officer for additional vehicle operating under the RSR Protocol",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "RT18042",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with conditions of authorisation for service operated under the RSR Protocol",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "RT18043",
+    "offenceCategory": "CS",
+    "offenceTitle": "Operator of a service under the RSR Protocol fail to provide information to passengers",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "RT18044",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to keep authorisations and operators licence for international regular bus service in the vehicle",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "RT18045",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to present authorisations and operators licence for international regular bus operations when required to do so",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "RT18046",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to keep control documents and operators licence for international special regular bus service in the vehicle",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "RT18047",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to present control documents and operators licence for international special regular bus operations when required",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "RT18048",
+    "offenceCategory": "CS",
+    "offenceTitle": "Operate international bus or coach service when vehicle registered elsewhere",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "RT18049",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with technical standard for bus or coach used on international service",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "RT18050",
+    "offenceCategory": "CS",
+    "offenceTitle": "Operate regular or special regular transport service without authorisation",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "RT18051",
+    "offenceCategory": "CS",
+    "offenceTitle": "Operate a parallel or temporary international passenger transport service without authorisation",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "RT18052",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to carry authorisation and operators licence on vehicle used for international passenger transport service",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "RT18053",
+    "offenceCategory": "CS",
+    "offenceTitle": "Failed to present authorisation and operators licence for international passenger transport service when required",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "RT18054",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to keep control documents for a special regular passenger transport service in the vehicle",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "RT18055",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to present control documents for a special regular international passenger service when required",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "RT18056",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to carry completed journey form on occasional international passenger transport service",
     "recordableOnPnc": false
   },
   {
@@ -70513,7 +70981,7 @@
   },
   {
     "cjsCode": "SD12001",
-    "offenceCategory": "CS",
+    "offenceCategory": "CE",
     "offenceTitle": "Destroy / damage / render inoperative / remove / otherwise interfere with scallop dredging tracking device - Wales",
     "recordableOnPnc": false
   },
@@ -72876,6 +73344,18 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "SP22001",
+    "offenceCategory": "CS",
+    "offenceTitle": "Provide / arrange a relevant service for a student in relation to a relevant assignment",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "SP22002",
+    "offenceCategory": "CS",
+    "offenceTitle": "Advertise a relevant service to students",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "SP67003",
     "offenceCategory": "CS",
     "offenceTitle": "Intentionally obstructing person exercising power of entry and inspection",
@@ -73466,7 +73946,7 @@
   {
     "cjsCode": "ST19001",
     "offenceCategory": "CE",
-    "offenceTitle": "Breach of stalking order / interim stalking order",
+    "offenceTitle": "Breach of stalking protection order / interim stalking protection order",
     "recordableOnPnc": true
   },
   {
@@ -74511,12 +74991,6 @@
     "cjsCode": "SV77015",
     "offenceCategory": "CM",
     "offenceTitle": "Motor vehicle exceed 60 mph on single carriageway - manned equipment",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "SW00001",
-    "offenceCategory": "CE",
-    "offenceTitle": "Owner / master / charterer of fishing boat breach EC measure regarding undersized fish in sea adjoining Wales",
     "recordableOnPnc": false
   },
   {
@@ -77706,12 +78180,6 @@
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "TC90059",
-    "offenceCategory": "CS",
-    "offenceTitle": "Make false or misleading statement purporting to comply with section 70D notice",
-    "recordableOnPnc": false
-  },
-  {
     "cjsCode": "TC90060",
     "offenceCategory": "CS",
     "offenceTitle": "Occupier / owner of land fail comply with notice to maintain land - England",
@@ -80574,6 +81042,12 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "TR11058",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to give name / address to authorised person under the Transport for London Railway Byelaws",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "TR18001",
     "offenceCategory": "CM",
     "offenceTitle": "Keep / use unregistered trailer in 1968 Convention territories outside the UK",
@@ -82188,6 +82662,12 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "TS07075",
+    "offenceCategory": "CE",
+    "offenceTitle": "Transfer waste without complying with prior written notification and consent procedure - Transfrontier Regulations",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "TS10001",
     "offenceCategory": "CE",
     "offenceTitle": "Trader fail to provide information on pre-contractual matters to consumer",
@@ -82245,30 +82725,6 @@
     "cjsCode": "TS10010",
     "offenceCategory": "CE",
     "offenceTitle": "Trader fail to send to a consumer a request for payment at least 14 days before it becomes due",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "TS10011",
-    "offenceCategory": "CS",
-    "offenceTitle": "Obstruct an officer of an enforcement authority",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "TS10012",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to comply with a requirement properly made by an officer of an enforcement authority",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "TS10013",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to give an officer of an enforcement authority officer assistance / information required",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "TS10014",
-    "offenceCategory": "CE",
-    "offenceTitle": "Knowingly / recklessly make a false statement to an enforcement authority officer",
     "recordableOnPnc": false
   },
   {
@@ -83552,13 +84008,13 @@
   {
     "cjsCode": "VD07026",
     "offenceCategory": "CM",
-    "offenceTitle": "Drive a relevant vehicle on a road prior to completing / after five years of a Certificate of Professional Competence et",
+    "offenceTitle": "Drive a relevant vehicle on a road prior to completing / after five years of a CPC etc",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "VD07027",
     "offenceCategory": "CM",
-    "offenceTitle": "Cause / permit person to drive relevant vehicle on road without a Professional Competence Certificate etc",
+    "offenceTitle": "Cause / permit person to drive relevant vehicle on road without a CPC certificate etc",
     "recordableOnPnc": false
   },
   {
@@ -88380,12 +88836,6 @@
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "WI91087",
-    "offenceCategory": "CE",
-    "offenceTitle": "Water undertaker fail to assist / give information to assessor appointed to enforce water quality",
-    "recordableOnPnc": false
-  },
-  {
     "cjsCode": "WI91088",
     "offenceCategory": "CE",
     "offenceTitle": "Water undertaker fail to fix fire-hydrants on water mains",
@@ -88510,6 +88960,12 @@
     "offenceCategory": "CS",
     "offenceTitle": "Wilfully or negligently injure or suffer to be injured a water fitting belonging to supply licensee",
     "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "WI91110",
+    "offenceCategory": "CE",
+    "offenceTitle": "Water undertaker fail to assist / give information to assessor appointed to enforce water quality",
+    "recordableOnPnc": true
   },
   {
     "cjsCode": "WM06001",
