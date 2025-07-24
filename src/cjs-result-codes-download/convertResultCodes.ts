@@ -4,7 +4,7 @@ import { ResultCode } from "../../output-data/types/types"
 export type CjsResultCode = {
   "CJS Result Code": string
   "Result Description": string
-  "Bichard7-PNC MaxHoursPriority": string
+  "Bichard7-PNC MaxHoursPriority ": string
   "Result Type Code": string
 }
 
@@ -18,7 +18,7 @@ export default (fileContents: Buffer): ResultCode[] => {
     description: record["Result Description"],
     recordableOnPnc: "",
     resultCodeQualifiers: "",
-    resultHalfLifeHours: record["Bichard7-PNC MaxHoursPriority"],
+    resultHalfLifeHours: String(record["Bichard7-PNC MaxHoursPriority "]),
     type: record["Result Type Code"]
   }))
 }
