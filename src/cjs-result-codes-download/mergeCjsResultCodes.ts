@@ -1,12 +1,9 @@
 import { ResultCode } from "../../output-data/types/types"
 
-const matchingValues = (firstValue: string, secondValue: string): boolean =>
-  firstValue?.trim().toLowerCase() === secondValue?.trim().toLowerCase()
-
 const mergeCjsResultCodes = (newData: ResultCode[], existingData: ResultCode[]): ResultCode[] => {
   newData.forEach((newItem) => {
-    const existingRecord = existingData.find((existingItem) =>
-      matchingValues(existingItem.cjsCode, newItem.cjsCode)
+    const existingRecord = existingData.find(
+      (existingItem) => existingItem.cjsCode.trim() === newItem.cjsCode.trim()
     )
 
     if (existingRecord) {
