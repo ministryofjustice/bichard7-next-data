@@ -1,6 +1,6 @@
 import * as fs from "fs"
 import mergeCjsResultCodes from "./mergeCjsResultCodes"
-import newCjsResultCodes from "../../input-data/result-code/cjs-result-data.json"
+import newCjsResultCodes from "../../input-data/cjs-result-codes/cjs-result-data.json"
 import existingCjsResultCodes from "../../output-data/data/result-code.json"
 import consistentSort from "../lib/consistentSort"
 
