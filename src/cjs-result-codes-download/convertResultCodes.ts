@@ -23,7 +23,7 @@ export default (fileContents: Buffer): ResultCode[] => {
   return jsonWorksheet.map((record) => ({
     cjsCode: cleanValue(record["CJS Result Code"]),
     description: cleanValue(record["Result Description"]),
-    recordableOnPnc: "",
+    recordableOnPnc: "", // Possibly TODO: derive this?
     resultCodeQualifiers: cleanValue(record["Result Applicable Qualifier Code"]),
     resultHalfLifeHours: cleanValue(record["Bichard7-PNC MaxHoursPriority "]),
     type: cleanValue(record["Result Type Code"])
