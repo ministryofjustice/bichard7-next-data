@@ -4,8 +4,15 @@ import { ResultCode } from "../../output-data/types/types"
 export type CjsResultCode = {
   "CJS Result Code": string
   "Result Description": string
+  "Result Applicable Qualifier Code": string
   "Bichard7-PNC MaxHoursPriority ": string
   "Result Type Code": string
+}
+
+const cleanValue = (value: unknown): string => {
+  if (typeof value === "string") return value.trim()
+  if (typeof value === "number") return value.toString().trim()
+  return ""
 }
 
 export default (fileContents: Buffer): ResultCode[] => {
@@ -14,11 +21,11 @@ export default (fileContents: Buffer): ResultCode[] => {
   const jsonWorksheet: CjsResultCode[] = XLSX.utils.sheet_to_json(worksheet)
 
   return jsonWorksheet.map((record) => ({
-    cjsCode: record["CJS Result Code"],
-    description: record["Result Description"],
+    cjsCode: cleanValue(record["CJS Result Code"]),
+    description: cleanValue(record["Result Description"]),
     recordableOnPnc: "",
-    resultCodeQualifiers: "",
-    resultHalfLifeHours: String(record["Bichard7-PNC MaxHoursPriority "]),
-    type: record["Result Type Code"]
+    resultCodeQualifiers: cleanValue(record["Result Applicable Qualifier Code"]),
+    resultHalfLifeHours: cleanValue(record["Bichard7-PNC MaxHoursPriority "]),
+    type: cleanValue(record["Result Type Code"])
   }))
 }
