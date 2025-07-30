@@ -9,11 +9,8 @@ export type CjsResultCode = {
   "Result Type Code": string
 }
 
-const cleanValue = (value: unknown): string => {
-  if (typeof value === "string") return value.trim()
-  if (typeof value === "number") return value.toString().trim()
-  return ""
-}
+const cleanValue = (value: unknown): string =>
+  typeof value === "string" || typeof value === "number" ? value.toString().trim() : ""
 
 export default (fileContents: Buffer): ResultCode[] => {
   const workbook = XLSX.read(fileContents)
