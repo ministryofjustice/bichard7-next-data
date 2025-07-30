@@ -2,14 +2,14 @@ import * as fs from "fs"
 import getDownloadUrl from "../cjs-download/getDownloadUrl"
 import consistentSort from "../lib/consistentSort"
 import downloadFile from "../lib/downloadFile"
-import convertResultCodes from "./convertResultCodes"
+import convertCjsResultCodes from "./convertCjsResultCodes"
 
 const downloadCjsResultCodes = async () => {
   console.log("Downloading CJS Result Codes")
   const downloadLinkRegex = /(https:\/\/.*cjs-result-codes.*\.xlsx?)"/i
   const downloadUrl = await getDownloadUrl(downloadLinkRegex)
   const fileContents = await downloadFile(downloadUrl)
-  const resultCodes = convertResultCodes(fileContents)
+  const resultCodes = convertCjsResultCodes(fileContents)
   const sortedData = consistentSort(resultCodes)
   await fs.promises.writeFile(
     "input-data/cjs-result-codes/cjs-result-data.json",

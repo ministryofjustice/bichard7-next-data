@@ -14,6 +14,11 @@ const cleanValue = (value: unknown): string =>
 
 export default (fileContents: Buffer): ResultCode[] => {
   const workbook = XLSX.read(fileContents)
+
+  if (!workbook.SheetNames || workbook.SheetNames.length < 2) {
+    throw new Error("Invalid XLSX file")
+  }
+
   const worksheet = workbook.Sheets[workbook.SheetNames[1]]
   const jsonWorksheet: CjsResultCode[] = XLSX.utils.sheet_to_json(worksheet)
 
