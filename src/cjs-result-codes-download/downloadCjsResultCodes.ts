@@ -12,7 +12,7 @@ const downloadCjsResultCodes = async () => {
   const resultCodes = convertResultCodes(fileContents)
   const sortedData = consistentSort(resultCodes)
   await fs.promises.writeFile(
-    "input-data/result-code/cjs-result-data.json",
+    "input-data/cjs-result-codes/cjs-result-data.json",
     JSON.stringify(sortedData, null, 2)
   )
   console.log("CJS Result Codes successfully downloaded")
