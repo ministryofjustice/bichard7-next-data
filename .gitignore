@@ -7,4 +7,5 @@ target
 .idea
 output-data/data/triggers.properties
 *.xlsx
+!test-data/**/*.xlsx
 .vscode

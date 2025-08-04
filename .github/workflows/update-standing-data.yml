@@ -43,6 +43,12 @@ jobs:
       - name: Merge Organisation Unit data files
         run: npm run merge-organisation-unit-data
 
+      - name: Download CJS result codes data file
+        run: npm run download-cjs-result-codes-data
+
+      - name: Merge CJS result codes data files
+        run: npm run merge-cjs-result-codes-data
+
       - name: Report Status
         if: always()
         uses: ravsamhq/notify-slack-action@v1
