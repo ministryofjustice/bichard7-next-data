@@ -127,7 +127,7 @@ commands:
         type: string
     steps:
       - fetch_images:
-          IMAGES: nodejs-20-2023
+          IMAGES: nginx-nodejs-20-2023-supervisord
       - build_message_forwarder
       - build_audit_logging_images
       - run:
