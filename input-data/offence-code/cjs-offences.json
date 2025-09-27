@@ -1358,7 +1358,7 @@
   {
     "cjsCode": "AL24001",
     "offenceCategory": "CS",
-    "offenceTitle": "Fail to retain records of relevant livestock exported from GB - Animal Welfare (Livestock Exports) Enforcement Regs 2024",
+    "offenceTitle": "Fail to retain records of relevant livestock exported from GB",
     "recordableOnPnc": false
   },
   {
@@ -1370,25 +1370,25 @@
   {
     "cjsCode": "AL24003",
     "offenceCategory": "CS",
-    "offenceTitle": "Fail to provide assistance / information to person - Animal Welfare (Livestock Exports) Enforcement regs 2024",
+    "offenceTitle": "Fail to provide assistance / information to person executing Animal Welfare (Livestock Exports) Enforcement Regs 2024",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "AL24004",
     "offenceCategory": "CS",
-    "offenceTitle": "Knowingly / recklessly give false / misleading info to person - Animal Welfare (Livestock Exports) Enforcement Regs 2024",
+    "offenceTitle": "Knowingly / recklessly give false / misleading info to person executing Animal Welfare Enforcement Regs 2024",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "AL24005",
     "offenceCategory": "CS",
-    "offenceTitle": "Fail to comply with hold notice relating to relevant livestock - Animal Welfare (Livestock Exports) Enforcement Regs 24",
+    "offenceTitle": "Fail to comply with hold notice relating to the export of relevant livestock",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "AL24006",
     "offenceCategory": "CS",
-    "offenceTitle": "Disclose information received from Commissioners for HMRC - Animal Welfare (Livestock Exports) Enforcement regs 2024",
+    "offenceTitle": "Disclose information received from HMRC otherwise than for the purpose of the livestock export regulations",
     "recordableOnPnc": false
   },
   {
@@ -8394,6 +8394,18 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "BL25007",
+    "offenceCategory": "CS",
+    "offenceTitle": "Navigate vessel under influence of drink/drugs - incapable of proper control - Norfolk and Suffolk Broads",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "BL25008",
+    "offenceCategory": "CS",
+    "offenceTitle": "Master of vessel fail to report sinking/stranded vessel as soon as reasonably practicable - Norfolk and Suffolk Broads",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "BN81001",
     "offenceCategory": "CS",
     "offenceTitle": "Make false statement to obtain British nationality",
@@ -8668,6 +8680,18 @@
     "offenceCategory": "CS",
     "offenceTitle": "Contravene a condition for the relaxing of building regulations for a particular type of building matter",
     "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "BU84039",
+    "offenceCategory": "CE",
+    "offenceTitle": "Contravention of a building control compliance notice",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "BU84040",
+    "offenceCategory": "CE",
+    "offenceTitle": "Contravention of a building control stop notice",
+    "recordableOnPnc": true
   },
   {
     "cjsCode": "BU84501",
@@ -9645,12 +9669,6 @@
     "cjsCode": "CA93004",
     "offenceCategory": "CS",
     "offenceTitle": "Wilfully obstruct a person acting in the exercise of a section 56 power to enter land or a vessel",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "CA93005",
-    "offenceCategory": "CS",
-    "offenceTitle": "Permit smoke to be emitted from a chimney of a building within a smoke control area",
     "recordableOnPnc": false
   },
   {
@@ -11652,18 +11670,6 @@
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "CE79286",
-    "offenceCategory": "CE",
-    "offenceTitle": "Export counterfeit currency with intent to evade prohibition",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "CE79287",
-    "offenceCategory": "CE",
-    "offenceTitle": "Export / attempt to export nuclear material with intent to evade a prohibition / restriction",
-    "recordableOnPnc": true
-  },
-  {
     "cjsCode": "CE79289",
     "offenceCategory": "CS",
     "offenceTitle": "Master of coasting ship depart from port without correct account having been delivered",
@@ -12162,6 +12168,24 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "CE79398",
+    "offenceCategory": "CE",
+    "offenceTitle": "Export / attempt to export nuclear material with intent to evade a prohibition / restriction",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CE79399",
+    "offenceCategory": "CE",
+    "offenceTitle": "Export counterfeit currency with intent to evade prohibition",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CE79400",
+    "offenceCategory": "CE",
+    "offenceTitle": "Evade a prohibition / restriction on the export of goods - other than controlled drug",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "CE79501",
     "offenceCategory": "VP",
     "offenceTitle": "Application for condemnation of goods liable to forfeit",
@@ -12321,6 +12345,12 @@
     "cjsCode": "CH84004",
     "offenceCategory": "CE",
     "offenceTitle": "Detain a child so as to remove him / her from a person having lawful control",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CH84004A",
+    "offenceCategory": "CE",
+    "offenceTitle": "Attempt to detain a child so as to remove him / her from a person having lawful control",
     "recordableOnPnc": true
   },
   {
@@ -15562,6 +15592,12 @@
     "offenceCategory": "CE",
     "offenceTitle": "Break up a metal coin current since 16/05/1969 in the United Kingdom without a treasury licence",
     "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CO76001",
+    "offenceCategory": "CS",
+    "offenceTitle": "Encroachment on / Inclosure of town / village disturbing / interfering / occupying soil otherwise than for enjoyment",
+    "recordableOnPnc": false
   },
   {
     "cjsCode": "COML001",
@@ -20538,6 +20574,12 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "CY33055",
+    "offenceCategory": "CS",
+    "offenceTitle": "Sell a nicotine product in contravention of restricted premises order",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "CY33501",
     "offenceCategory": "VP",
     "offenceTitle": "Complaint for a restricted sale order",
@@ -22257,6 +22299,12 @@
     "cjsCode": "DV04004",
     "offenceCategory": "CI",
     "offenceTitle": "Cause / allow a child / vulnerable adult to suffer serious physical harm",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "DW03001",
+    "offenceCategory": "CS",
+    "offenceTitle": "Movement of animals from premises without authority of issued licence - Disease Control (Wales) Order 2003",
     "recordableOnPnc": true
   },
   {
@@ -26229,6 +26277,12 @@
     "cjsCode": "FA06003",
     "offenceCategory": "CE",
     "offenceTitle": "Fraud by abuse of position - Fraud Act 2006",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "FA06003A",
+    "offenceCategory": "CE",
+    "offenceTitle": "Attempt fraud by abuse of position - Fraud Act 2006",
     "recordableOnPnc": true
   },
   {
@@ -36704,7 +36758,7 @@
   {
     "cjsCode": "HY80128",
     "offenceCategory": "CS",
-    "offenceTitle": "Disturb surface of footpath / bridleway / other highway rendering it inconvenient for exercise of public right of way",
+    "offenceTitle": "Disturb surface of Footpath/Highway/other highway to render it inconvenient for the exercise of the public right of way",
     "recordableOnPnc": false
   },
   {
@@ -39801,6 +39855,12 @@
     "cjsCode": "LA04001",
     "offenceCategory": "CS",
     "offenceTitle": "Fail to give name / give false name or false address to an authorised person",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "LA04002",
+    "offenceCategory": "CS",
+    "offenceTitle": "Obstruction of authorised officer - London Local Authorities Act 2004",
     "recordableOnPnc": false
   },
   {
@@ -43700,7 +43760,7 @@
   {
     "cjsCode": "MA24012",
     "offenceCategory": "CS",
-    "offenceTitle": "Enter / remain in airport except for bona fide purpose - Manchester Airport",
+    "offenceTitle": "Enter airport except for bona fide purpose - Manchester Airport",
     "recordableOnPnc": false
   },
   {
@@ -43758,6 +43818,726 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "MA24023",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to secure aircraft against movement at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24024",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to report aircraft damage at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24025",
+    "offenceCategory": "CS",
+    "offenceTitle": "Drop or leave items in airside area of Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24026",
+    "offenceCategory": "CS",
+    "offenceTitle": "Move / use / tamper with aircraft at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24027",
+    "offenceCategory": "CS",
+    "offenceTitle": "Tamper with or misuse equipment at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24028",
+    "offenceCategory": "CS",
+    "offenceTitle": "Misuse communications equipment at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24029",
+    "offenceCategory": "CS",
+    "offenceTitle": "Radiate or generate electrical interference at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24030",
+    "offenceCategory": "CS",
+    "offenceTitle": "Charge laptop, tablet or phone at Manchester Airport other than in designated area",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24031",
+    "offenceCategory": "CS",
+    "offenceTitle": "Give false bomb warning or emergency alarm at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24032",
+    "offenceCategory": "CS",
+    "offenceTitle": "Smoke other than in designated smoking area at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24033",
+    "offenceCategory": "CS",
+    "offenceTitle": "Obstruct / tamper with emergency exit at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24034",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to evacuate Manchester Airport when ordered to do so",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24035",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to wear pass in restricted area of Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24036",
+    "offenceCategory": "CS",
+    "offenceTitle": "Misuse or fail to safeguard Manchester Airport security pass",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24037",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to surrender Manchester Airport security pass when requested to do so",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24038",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to report loss of Manchester Airport security pass when requested to do so",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24039",
+    "offenceCategory": "CS",
+    "offenceTitle": "Tamper with or misuse lift, escalator, travelator, conveyor belt at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24040",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to produce motor insurance details at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24041",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to give vehicle driver information at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24042",
+    "offenceCategory": "CS",
+    "offenceTitle": "Drive airside at Manchester Airport without driving licence and apron permit",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24043",
+    "offenceCategory": "CS",
+    "offenceTitle": "Leave cargo or baggage or park vehicle or equipment at Manchester Airport in contravention of sign",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24044",
+    "offenceCategory": "CS",
+    "offenceTitle": "Left baggage or other item unattended at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24045",
+    "offenceCategory": "CS",
+    "offenceTitle": "Operate emergency stop etc at Manchester Airport other than in emergency",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24046",
+    "offenceCategory": "CS",
+    "offenceTitle": "Allow vehicle, animal or other thing to remain on Manchester Airport after its presence forbidden",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24047",
+    "offenceCategory": "CS",
+    "offenceTitle": "Misuse baggage trolley or wheelchair at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24048",
+    "offenceCategory": "CS",
+    "offenceTitle": "Remove baggage trolley or wheelchair from Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24049",
+    "offenceCategory": "CS",
+    "offenceTitle": "Soil or defile wall, structure, floor, pavement or surface forming part of Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24050",
+    "offenceCategory": "CS",
+    "offenceTitle": "Commit defacement at Manchester Airport by litter, pollution or disposal of waste substance",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24051",
+    "offenceCategory": "CS",
+    "offenceTitle": "Spit within Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24052",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to dispose of chewing gum within Manchester Airport in a responsible manner",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24053",
+    "offenceCategory": "CS",
+    "offenceTitle": "Remain on Manchester Airport whilst intoxicated or under the influence of drugs",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24054",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to keep animal under control at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24055",
+    "offenceCategory": "CS",
+    "offenceTitle": "Allow vehicle, animal or thing to remain at Manchester Airport having been required to remove it",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24056",
+    "offenceCategory": "CS",
+    "offenceTitle": "Allow return of removed vehicle, animal or thing to Manchester Airport having complied with requirement to remove it",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24057",
+    "offenceCategory": "CS",
+    "offenceTitle": "Grazed animals at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24058",
+    "offenceCategory": "CS",
+    "offenceTitle": "Use skateboards, roller skates, bicycles etc on Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24059",
+    "offenceCategory": "CS",
+    "offenceTitle": "Use mobile phone airside at Manchester Airport whilst operating a moving vehicle",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24060",
+    "offenceCategory": "CS",
+    "offenceTitle": "Use mobile phone when in airside fuelling area at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24061",
+    "offenceCategory": "CS",
+    "offenceTitle": "Use mobile phone at Manchester Airport when requested not to do so",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24062",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to ensure mobile phone at Manchester Airport switched off when so requested",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24063",
+    "offenceCategory": "CS",
+    "offenceTitle": "Run aircraft engine at Manchester Airport other than in area allocated for that purpose",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24064",
+    "offenceCategory": "CS",
+    "offenceTitle": "Run aircraft engine at Manchester Airport above idling speed for tests outside allocated area",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24065",
+    "offenceCategory": "CS",
+    "offenceTitle": "Run aircraft engine at Manchester Airport above idling speed for tests outside specified hours",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24066",
+    "offenceCategory": "CS",
+    "offenceTitle": "Enter aircraft at Manchester Airport without permission",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24067",
+    "offenceCategory": "CS",
+    "offenceTitle": "Clean, service or maintain aircraft in prohibited area of Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24068",
+    "offenceCategory": "CS",
+    "offenceTitle": "Move aircraft over roads or movement areas of Manchester Airport without consent",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24069",
+    "offenceCategory": "CS",
+    "offenceTitle": "Operate use move or disturb Manchester Airport equipment without consent",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24070",
+    "offenceCategory": "CS",
+    "offenceTitle": "Cause or permit fire to occur at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24071",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fill or discharge liquid fuel at Manchester Airport other than in approved place",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24072",
+    "offenceCategory": "CS",
+    "offenceTitle": "Carry out ground handling at Manchester Airport without written consent",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24073",
+    "offenceCategory": "CS",
+    "offenceTitle": "Cause or permit discharge of deleterious matter at Manchester Airport likely to obstruct drains sewers etc",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24074",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with sign prohibiting or restricting access to part of Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24075",
+    "offenceCategory": "CS",
+    "offenceTitle": "Climb wall, fence, barrier or post within Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24076",
+    "offenceCategory": "CS",
+    "offenceTitle": "Cut, damage or destroy wall, fence, barrier or post located on or within Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24077",
+    "offenceCategory": "CS",
+    "offenceTitle": "Sing, dance, play instrument so as to cause annoyance at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24078",
+    "offenceCategory": "CS",
+    "offenceTitle": "Erect or use apparatus for transmission at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24079",
+    "offenceCategory": "CS",
+    "offenceTitle": "Place building, structure, equipment, vehicle or container within three metres of Manchester Airport restricted area",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24080",
+    "offenceCategory": "CS",
+    "offenceTitle": "Enter part of Manchester Airport to which members of the public were not being admitted for the time being",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24081",
+    "offenceCategory": "CS",
+    "offenceTitle": "Drove vehicle elsewhere than in place provided for passage or accommodation at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24082",
+    "offenceCategory": "CS",
+    "offenceTitle": "Enter or remain on part of Airport Company premises at Manchester Airport where premises unavailable for entry or use",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24083",
+    "offenceCategory": "CS",
+    "offenceTitle": "Enter aircraft manoeuvring area of Manchester Airport without permission and clearance of Air Traffic Control",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24084",
+    "offenceCategory": "CS",
+    "offenceTitle": "Enter or leave Manchester Airport other than through gate provided by Airport Company for that purpose",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24085",
+    "offenceCategory": "CS",
+    "offenceTitle": "Sell or distribute thing or services for reward at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24086",
+    "offenceCategory": "CS",
+    "offenceTitle": "Post, distribute or display advert, display, sign or circular at Manchester Airport except on authorised premises",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24087",
+    "offenceCategory": "CS",
+    "offenceTitle": "Beg or solicit funds or contributions at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24088",
+    "offenceCategory": "CS",
+    "offenceTitle": "Bookmaking, gaming, betting or wagering at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24089",
+    "offenceCategory": "CS",
+    "offenceTitle": "Pay, receive or settle bets at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24090",
+    "offenceCategory": "CS",
+    "offenceTitle": "Operate small unmanned vehicle at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24091",
+    "offenceCategory": "CS",
+    "offenceTitle": "Conduct market research or interview passengers or staff at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24092",
+    "offenceCategory": "CS",
+    "offenceTitle": "Create graffiti upon wall, structure, floor pavement or surface at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24093",
+    "offenceCategory": "CS",
+    "offenceTitle": "Photograph, film or record at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24094",
+    "offenceCategory": "CS",
+    "offenceTitle": "Drive dangerously on part of Manchester Airport to which road traffic enactments do not apply",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24095",
+    "offenceCategory": "CS",
+    "offenceTitle": "Drive without due care and attention on part of Manchester Airport to which road traffic enactments do not apply",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24096",
+    "offenceCategory": "CS",
+    "offenceTitle": "Drive whilst drunk or under influence of drugs on part of Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24097",
+    "offenceCategory": "CS",
+    "offenceTitle": "Drive whilst operating mobile telephone or other handheld device on part of Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24098",
+    "offenceCategory": "CS",
+    "offenceTitle": "Drive at excess speed on part of Manchester Airport to which road traffic enactments do not apply",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24099",
+    "offenceCategory": "CS",
+    "offenceTitle": "Drive vehicle in such a way as to cause danger or nuisance on part of Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24100",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to set vehicle handbrake on part of Manchester Airport to which road traffic enactments do not apply",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24101",
+    "offenceCategory": "CS",
+    "offenceTitle": "Use vehicle on part of Manchester Airport in contravention of steering, braking etc requirements",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24102",
+    "offenceCategory": "CS",
+    "offenceTitle": "Use vehicle on part of Manchester Airport when safety locking devices not in good working order",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24103",
+    "offenceCategory": "CS",
+    "offenceTitle": "Use vehicle on part of Manchester Airport when fuel or exhaust system were in a condition to cause danger / nuisance etc",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24104",
+    "offenceCategory": "CS",
+    "offenceTitle": "Use vehicle on part of Manchester Airport with dangerous parts, load or accessories causing danger to person / property",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24105",
+    "offenceCategory": "CS",
+    "offenceTitle": "Use vehicle on part of Manchester Airport to which road traffic enactments do not apply with excess passengers",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24106",
+    "offenceCategory": "CS",
+    "offenceTitle": "Use vehicle on part of Manchester Airport when seatbelts not worn by all passengers",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24107",
+    "offenceCategory": "CS",
+    "offenceTitle": "Use vehicle when load not secured on part of Manchester Airport to which road traffic enactments do not apply",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24108",
+    "offenceCategory": "CS",
+    "offenceTitle": "Permit entry onto part of Manchester Airport licensed for surface movement of aircraft",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24109",
+    "offenceCategory": "CS",
+    "offenceTitle": "Use vehicle on Manchester Airport apron in breach of regulations regarding colour / identification / lights etc",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24110",
+    "offenceCategory": "CS",
+    "offenceTitle": "Improper use of charging point on part of Manchester Airport to which road traffic enactments do not apply",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24111",
+    "offenceCategory": "CS",
+    "offenceTitle": "Drive or place vehicle on part of Manchester Airport elsewhere than place provided for passage or accomodation",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24112",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with lighting regulations on vehicle on part of Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24113",
+    "offenceCategory": "CS",
+    "offenceTitle": "Leave vehicle unattended with engine running on part of Manchester Airport to which road traffic enactments do not apply",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24114",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to stop vehicle when required on part of Manchester Airport to which road traffic enactments do not apply",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24115",
+    "offenceCategory": "CS",
+    "offenceTitle": "Driver fail to comply with direction on part of Manchester Airport to which road traffic enactments do not apply",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24116",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to remove vehicle from parking place on part of Manchester Airport to which road traffic enactments do not apply",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24117",
+    "offenceCategory": "CS",
+    "offenceTitle": "Cause obstruction or danger with vehicle on part of Manchester Airport to which road traffic enactments do not apply",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24119",
+    "offenceCategory": "CS",
+    "offenceTitle": "Offer vehicle for hire on public area of Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24120",
+    "offenceCategory": "CS",
+    "offenceTitle": "Cause or permit private hire vehicle to enter Manchester Airport when not pre-booked or in designated car park",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24121",
+    "offenceCategory": "CS",
+    "offenceTitle": "Cause or permit private hire vehicle to load passengers at Manchester Airport other than in car park or designated space",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24122",
+    "offenceCategory": "CS",
+    "offenceTitle": "Cause or permit private hire vehicle to ply for hire at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24123",
+    "offenceCategory": "CS",
+    "offenceTitle": "Cause or permit taxi to ply for hire or load passengers at Manchester Airport other than when authorised",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24124",
+    "offenceCategory": "CS",
+    "offenceTitle": "Stand or park taxi for hire on Manchester Airport other than at authorised standing",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24125",
+    "offenceCategory": "CS",
+    "offenceTitle": "Cause or permit vehicle other than taxi to stand on authorised standing on Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24126",
+    "offenceCategory": "CS",
+    "offenceTitle": "Cause or permit taxi to stand on authorised standing on Manchester Airport in excess of maximum number permitted",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24127",
+    "offenceCategory": "CS",
+    "offenceTitle": "Taxi driver on authorised standing on Manchester Airport fail to be with taxi available and willing to be hired",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24128",
+    "offenceCategory": "CS",
+    "offenceTitle": "Leave taxi on authorised standing on Manchester Airport when not willing to be hired immediately",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24129",
+    "offenceCategory": "CS",
+    "offenceTitle": "Taxi driver on authorised standing on Manchester Airport refuse to accept fare",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24130",
+    "offenceCategory": "CS",
+    "offenceTitle": "Leave disabled taxi on authorised standing on Manchester Airport for longer than reasonably necessary",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24131",
+    "offenceCategory": "CS",
+    "offenceTitle": "Wash down or clean out taxi on authorised standing or at taxi feeder park on Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24132",
+    "offenceCategory": "CS",
+    "offenceTitle": "Drive taxi on authorised standing on Manchester Airport without first driving first through taxi feeder park",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24133",
+    "offenceCategory": "CS",
+    "offenceTitle": "Enter taxi feeder park on Manchester Airport without permission or displaying ticket",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24134",
+    "offenceCategory": "CS",
+    "offenceTitle": "Leave taxi on feeder park on Manchester Airport when unwilling to be despatched immediately to authorised standing",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24135",
+    "offenceCategory": "CS",
+    "offenceTitle": "Taxi driver fail to fill vacancies on Manchester Airport as they occur",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24136",
+    "offenceCategory": "CS",
+    "offenceTitle": "Taxi driver fail to comply with direction in Manchester Airport taxi feeder park",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24137",
+    "offenceCategory": "CS",
+    "offenceTitle": "Taxi driver fail to leave taxi feeder park Manchester Airport as directed and proceed to authorised standing",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24138",
+    "offenceCategory": "CS",
+    "offenceTitle": "Drive more than one taxi onto Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24139",
+    "offenceCategory": "CS",
+    "offenceTitle": "Deface ticket permit or permission issued to permit entry to taxi feeder park at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24141",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to display taxi permit at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24142",
+    "offenceCategory": "CS",
+    "offenceTitle": "Aircraft commander or tug driver fail stop and give details of aircraft accident at Manchester Airport",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24143",
+    "offenceCategory": "CS",
+    "offenceTitle": "Driver of vehicle involved in aircraft accident at Manchester Airport fail to stop and give details",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA24144",
+    "offenceCategory": "CS",
+    "offenceTitle": "Driver of vehicle involved in accident at Manchester Airport failed to stop and give details",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "MA58001",
     "offenceCategory": "CS",
     "offenceTitle": "Wilful / unlawfully obstruct / interfere with manoeuvres within a manoeuvres area and during a manoeuvres period",
@@ -43784,13 +44564,19 @@
   {
     "cjsCode": "MA83001",
     "offenceCategory": "CM",
-    "offenceTitle": "Pretend to be / take / use name / title of physician / doctor etc",
+    "offenceTitle": "Wilfully / falsely pretended to be or took / used name / title of physician / doctor etc",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "MA83002",
     "offenceCategory": "CS",
     "offenceTitle": "Non-licence holder - held out as having / engaged in conduct calculated to suggest that person held licence to practise",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MA83003",
+    "offenceCategory": "CM",
+    "offenceTitle": "Wilfully / falsely took / used title implying physician / doctor etc",
     "recordableOnPnc": false
   },
   {
@@ -45414,6 +46200,12 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "MD71239C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspiracy to possess controlled drug with intent to supply - Class A - Other",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "MD71240",
     "offenceCategory": "CE",
     "offenceTitle": "Possess with intent to supply a controlled drug of Class B - Amphetamine",
@@ -45435,6 +46227,12 @@
     "cjsCode": "MD71245A",
     "offenceCategory": "CE",
     "offenceTitle": "Attempt to possess with intent to supply a controlled drug of Class B - Other",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MD71245C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspiracy to possess controlled drug with intent to supply - Class B - Other",
     "recordableOnPnc": true
   },
   {
@@ -45639,6 +46437,12 @@
     "cjsCode": "MD71442A",
     "offenceCategory": "CE",
     "offenceTitle": "Attempt to possess with intent to supply a controlled drug of Class C - Other",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MD71442C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspiracy to possess controlled drug with intent to supply - Class C - Other",
     "recordableOnPnc": true
   },
   {
@@ -47337,6 +48141,18 @@
     "cjsCode": "MH04049",
     "offenceCategory": "CE",
     "offenceTitle": "Sponsor fail to report suspected unexpected serious adverse reactions in another country to the licensing authority",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MH04050",
+    "offenceCategory": "CE",
+    "offenceTitle": "Without authority manufacture / assemble MM investigational medicinal product",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MH04051",
+    "offenceCategory": "CE",
+    "offenceTitle": "Without authority manufacture / assemble POC investigational medicinal product",
     "recordableOnPnc": true
   },
   {
@@ -50538,6 +51354,102 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "NS23020",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to register a foreign activity arrangement",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23021",
+    "offenceCategory": "CE",
+    "offenceTitle": "Maker of unregistered foreign activity requirement carry out relevant activity",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23022",
+    "offenceCategory": "CE",
+    "offenceTitle": "Carry out relevant activity under unregistered foreign activity arrangement",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23023",
+    "offenceCategory": "CE",
+    "offenceTitle": "Specified person carry out unregistered relevant activity",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23024",
+    "offenceCategory": "CE",
+    "offenceTitle": "Employee etc of specified person carry out unregistered relevant activity",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23025",
+    "offenceCategory": "CE",
+    "offenceTitle": "Misrepresentation by employee etc of specified foreign power relating to unregistered relevant activity",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23026",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to register a foreign influence arrangement",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23027",
+    "offenceCategory": "CE",
+    "offenceTitle": "Carry out activities under an unregistered foreign influence arrangement",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23028",
+    "offenceCategory": "CE",
+    "offenceTitle": "Person other than maker carry out activities under unregistered foreign influence arrangement",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23029",
+    "offenceCategory": "CE",
+    "offenceTitle": "Misrepresentation by employee etc of foreign power relating to unregistered political influence activity",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23030",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to notify Secretary of State of material change to information on a registered activity or arrangement",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23031",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to comply with information notice - foreign activity",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23032",
+    "offenceCategory": "CE",
+    "offenceTitle": "Provide false information re foreign activity arrangement",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23033",
+    "offenceCategory": "CE",
+    "offenceTitle": "Provide false information re registerable relevant activity",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23034",
+    "offenceCategory": "CE",
+    "offenceTitle": "Knowingly provide false information re foreign influence arrangement",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23035",
+    "offenceCategory": "CE",
+    "offenceTitle": "Knowingly provide false information re political influence activity",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "NS23036",
     "offenceCategory": "CE",
     "offenceTitle": "False statement in purported compliance with an explanation order",
@@ -50571,6 +51483,18 @@
     "cjsCode": "NS23041",
     "offenceCategory": "CS",
     "offenceTitle": "Fail to comply with the requirements of a customer information order",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23042",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to notify Secretary of State of material change to information on an influence activity or arrangement",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23043",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to comply with information notice - foreign influence",
     "recordableOnPnc": true
   },
   {
@@ -59787,6 +60711,12 @@
     "cjsCode": "RA88046",
     "offenceCategory": "CI",
     "offenceTitle": "Cause death by dangerous driving",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "RA88046B",
+    "offenceCategory": "CI",
+    "offenceTitle": "Aid / Abet the causing of death by dangerous driving",
     "recordableOnPnc": true
   },
   {
@@ -72606,6 +73536,12 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "SG15003",
+    "offenceCategory": "CS",
+    "offenceTitle": "Keeper on the holding of destination failed to notify central database operator of the receipt of animals (Wales)",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "SG75001",
     "offenceCategory": "CE",
     "offenceTitle": "Holder or responsible person contravene safety certificate terms and conditions",
@@ -77172,6 +78108,12 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "SX03245A",
+    "offenceCategory": "CE",
+    "offenceTitle": "Attempted to breach a sexual risk order / interim sexual risk order",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "SX03246",
     "offenceCategory": "CE",
     "offenceTitle": "Breach a risk of sexual harm order etc",
@@ -77826,6 +78768,12 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "TB10007",
+    "offenceCategory": "CS",
+    "offenceTitle": "Keeper of bovine animal in Wales fail to comply post movement testing - Tuberculous (Wales) Order 2010",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "TB79001",
     "offenceCategory": "CS",
     "offenceTitle": "Possess / transport / display unmarked tobacco products otherwise than as prescribed",
@@ -78207,6 +79155,12 @@
     "cjsCode": "TC90064",
     "offenceCategory": "CS",
     "offenceTitle": "Person convicted of an offence still fail comply with notice to maintain land - Wales",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "TC90066",
+    "offenceCategory": "CE",
+    "offenceTitle": "Other person use / cause / permit use of land in contravention of enforcement notice",
     "recordableOnPnc": false
   },
   {
@@ -78670,6 +79624,12 @@
     "offenceCategory": "CE",
     "offenceTitle": "Burglary dwelling and theft - no violence",
     "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "TH68036B",
+    "offenceCategory": "CE",
+    "offenceTitle": "Aid & abet burglary (stealing or attempting to steal - in dwelling)",
+    "recordableOnPnc": false
   },
   {
     "cjsCode": "TH68037",
@@ -80354,128 +81314,134 @@
   {
     "cjsCode": "TR00001",
     "offenceCategory": "CE",
-    "offenceTitle": "Contravene or fail to comply with a direction under this section",
-    "recordableOnPnc": false
+    "offenceTitle": "Contravene / fail to comply with a direction made in the interests of national security",
+    "recordableOnPnc": true
   },
   {
     "cjsCode": "TR00002",
     "offenceCategory": "CE",
-    "offenceTitle": "Make a disclosure in contravention of subsection (10)",
-    "recordableOnPnc": false
+    "offenceTitle": "Make a disclosure contravening / failing to comply with a direction made in the interests of national security",
+    "recordableOnPnc": true
   },
   {
     "cjsCode": "TR00003",
     "offenceCategory": "CS",
-    "offenceTitle": "Fail to comply with requirement of regulations made under S.81",
+    "offenceTitle": "Fail to comply with requirement of regulations made under S.81 regarding records",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "TR00004",
     "offenceCategory": "CS",
-    "offenceTitle": "Unlawful disclosure of information provided/obtained under regulations made under S.81",
-    "recordableOnPnc": false
+    "offenceTitle": "Unlawful disclosure of information providedor obtained under regulations made under S.81 regarding records",
+    "recordableOnPnc": true
   },
   {
     "cjsCode": "TR00005",
     "offenceCategory": "CE",
-    "offenceTitle": "Knowingly provide particulars which are false in a material particular",
-    "recordableOnPnc": false
+    "offenceTitle": "Knowingly provide particulars which were false in a material particular regarding relevant records to specified persons",
+    "recordableOnPnc": true
   },
   {
     "cjsCode": "TR00006",
     "offenceCategory": "CE",
-    "offenceTitle": "Recklessly provide particulars which are false in a material particular",
-    "recordableOnPnc": false
+    "offenceTitle": "Recklessly provide particulars which were false in a material particular regarding relevant records to specified persons",
+    "recordableOnPnc": true
   },
   {
     "cjsCode": "TR00007",
     "offenceCategory": "CE",
-    "offenceTitle": "Contravene or fail to comply with a direction given in times of severe international tension, great national emergency",
-    "recordableOnPnc": false
+    "offenceTitle": "Contravene / fail comply with direction in time of hostilities etc",
+    "recordableOnPnc": true
   },
   {
     "cjsCode": "TR00008",
     "offenceCategory": "CE",
-    "offenceTitle": "Knowingly make false statement in giving information or making an application under Part I of this Act",
+    "offenceTitle": "Knowingly make a false statement in giving informationor making an application in relevant circumstances",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "TR00009",
     "offenceCategory": "CE",
-    "offenceTitle": "Recklessly make false statement in giving information or making an application under Part I of this Act",
+    "offenceTitle": "Recklessly make a false statement in giving information or making an application in relevant circumstances",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "TR00010",
     "offenceCategory": "CE",
-    "offenceTitle": "Disclose information obtained under or by virtue of Part I of this Act and in contravention of Sched.9",
-    "recordableOnPnc": false
+    "offenceTitle": "Disclose prohibited air traffic information",
+    "recordableOnPnc": true
   },
   {
     "cjsCode": "TR00011",
     "offenceCategory": "CS",
-    "offenceTitle": "Systematic failure by operators to provide the mandatory travel concession",
+    "offenceTitle": "Systematically fail to provide a mandatory travel concession",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "TR00012",
     "offenceCategory": "CS",
-    "offenceTitle": "Giving false or misleading information to Director General of Fair Trading",
+    "offenceTitle": "Give false or misleading information to the Competition and Markets Authority",
     "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "TR00013",
+    "offenceCategory": "CS",
+    "offenceTitle": "Interfere with charging equipment or obscure registration plate to avoid payment",
+    "recordableOnPnc": true
   },
   {
     "cjsCode": "TR00014",
-    "offenceCategory": "CM",
-    "offenceTitle": "Make/use any false document w/i to avoid payment of, or being identified as having failed to pay, charges made under",
-    "recordableOnPnc": false
+    "offenceCategory": "CS",
+    "offenceTitle": "Make / use false document to avoid payment / fail to pay charge made under charging scheme",
+    "recordableOnPnc": true
   },
   {
     "cjsCode": "TR00015",
-    "offenceCategory": "CM",
-    "offenceTitle": "Remove a notice of a charging scheme penalty charge which has been fixed to a motor vehicle in accordance with regula",
+    "offenceCategory": "CS",
+    "offenceTitle": "Remove notice of a charging scheme penalty charge fixed to a motor vehicle",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "TR00016",
-    "offenceCategory": "CM",
-    "offenceTitle": "Intentionally obstruct a person exercising any power conferred on him by a charging scheme under Part III of this Act",
-    "recordableOnPnc": false
+    "offenceCategory": "CS",
+    "offenceTitle": "Obstruct a person exercising power conferred by charging scheme under Part III",
+    "recordableOnPnc": true
   },
   {
     "cjsCode": "TR00017",
-    "offenceCategory": "CM",
-    "offenceTitle": "Remove or interfere with an immobilisation notice fixed to a motor vehicle in contravention of a provision included in",
+    "offenceCategory": "CS",
+    "offenceTitle": "Remove or interfere with an immobilisation notice fixed to a motor vehicle in accordance with charging scheme",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "TR00018",
-    "offenceCategory": "CM",
-    "offenceTitle": "Remove or interfere with an immobilisation device fixed to a motor vehicle in contravention of a provision included in",
+    "offenceCategory": "CS",
+    "offenceTitle": "Remove or attempt to remove an immobilisation device fitted to a motor vehicle in accordance with charging scheme",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "TR00019",
-    "offenceCategory": "CM",
-    "offenceTitle": "Intentionally obstruct a person exercising any power conferred on him by provision included in a charging scheme under",
+    "offenceCategory": "CS",
+    "offenceTitle": "Obstruct person exercising a power conferred by a charging scheme in relation to an immobilised vehicle",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "TR00020",
-    "offenceCategory": "CM",
-    "offenceTitle": "Intentionally obstruct person exercising any power conferred on him for the enforcement of licensing schemes",
+    "offenceCategory": "CE",
+    "offenceTitle": "Obstruct person exercising power to enter premises to enforce workplace parking licensing scheme",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "TR00022",
-    "offenceCategory": "CM",
-    "offenceTitle": "W/i avoid/fail pay charge imposed by charging scheme interfere with equip' used for/in connection with scheme",
-    "recordableOnPnc": false
+    "offenceCategory": "CS",
+    "offenceTitle": "Interfere with equipment with intent to avoid payment / fail pay charge imposed by charging scheme",
+    "recordableOnPnc": true
   },
   {
     "cjsCode": "TR00023",
-    "offenceCategory": "CM",
-    "offenceTitle": "W/i avoid payment of/fail to pay charge imposed by charging scheme cause/permit reg plate of m/vehicle to be obscured",
-    "recordableOnPnc": false
+    "offenceCategory": "CS",
+    "offenceTitle": "Cause / permit registration plate to be obscured with intent to avoid payment / fail pay charge imposed by scheme",
+    "recordableOnPnc": true
   },
   {
     "cjsCode": "TR06007",
@@ -82206,6 +83172,12 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "TR68552",
+    "offenceCategory": "CM",
+    "offenceTitle": "Transport undertaking fail to ensure download of data from vehicle unit or driver card",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "TR80001",
     "offenceCategory": "CS",
     "offenceTitle": "Display a sign on a vehicle suggesting it was a taxi",
@@ -82665,7 +83637,7 @@
     "cjsCode": "TS07075",
     "offenceCategory": "CE",
     "offenceTitle": "Transfer waste without complying with prior written notification and consent procedure - Transfrontier Regulations",
-    "recordableOnPnc": true
+    "recordableOnPnc": false
   },
   {
     "cjsCode": "TS10001",
@@ -84038,7 +85010,7 @@
   {
     "cjsCode": "VD07032",
     "offenceCategory": "CM",
-    "offenceTitle": "Fail to comply with notice in writing to surrender revoked document / card - Vehicle Drivers ( CPC ) Reg's 07",
+    "offenceTitle": "Fail to comply with notice in writing to surrender revoked document / card - Vehicle Drivers (CPC) Reg's 07",
     "recordableOnPnc": false
   },
   {
