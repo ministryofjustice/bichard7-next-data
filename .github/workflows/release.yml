@@ -5,6 +5,10 @@ on:
     branches:
       - main
 
+permissions:
+  id-token: write  # Required for OIDC
+  contents: read
+
 env:
   GITHUB_USERNAME: "bichard7"
   GITHUB_EMAIL: "bichard7@users.noreply.github.com"
@@ -98,8 +102,6 @@ jobs:
       - name: Publish output package
         run: npm publish
         working-directory: output-data
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Report Status
         if: always()
