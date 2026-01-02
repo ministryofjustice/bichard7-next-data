@@ -27,9 +27,9 @@ jobs:
           persist-credentials: true
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: 20.6.1
+          node-version-file: .nvmrc
 
       - name: Bump output package version (and capture it)
         id: bump
@@ -73,7 +73,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           # We need to specify the branch name, so that we get the updated package.json
           # If we don't specify this, the default is to fetch the commit that triggered
@@ -81,9 +81,9 @@ jobs:
           ref: ${{ github.ref_name }}
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: 20.6.1
+          node-version-file: .nvmrc
 
       - name: Install top-level NPM dependencies
         run: npm ci
@@ -121,7 +121,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           # We need to specify the branch name, so that we get the updated package.json
           # If we don't specify this, the default is to fetch the commit that triggered
@@ -129,9 +129,9 @@ jobs:
           ref: ${{ github.ref_name }}
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: 20.6.1
+          node-version-file: .nvmrc
 
       - name: Install top-level NPM dependencies
         run: npm ci
@@ -182,7 +182,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out core repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: ministryofjustice/bichard7-next-core
           token: ${{ secrets.GH_ACCESS_TOKEN }}
@@ -233,7 +233,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: ministryofjustice/bichard7-next
           token: ${{ secrets.GH_ACCESS_TOKEN }}
