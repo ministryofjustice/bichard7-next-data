@@ -918,6 +918,18 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "AF09501",
+    "offenceCategory": "EF",
+    "offenceTitle": "MOD - Registration of Financial Penalty Enforcement Order",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "AF09502",
+    "offenceCategory": "EF",
+    "offenceTitle": "MOD - Registration of Service Compensation Order",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "AF15001",
     "offenceCategory": "CE",
     "offenceTitle": "Feed business operator fail to register establishment",
@@ -2748,21 +2760,9 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "AN16251",
-    "offenceCategory": "CE",
-    "offenceTitle": "Act as pilot of Part-21 aircraft registered in UK without required licence",
-    "recordableOnPnc": true
-  },
-  {
     "cjsCode": "AN16252",
     "offenceCategory": "CE",
     "offenceTitle": "Act as member of flight crew of aircraft without holding appropriate licence",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "AN16254",
-    "offenceCategory": "CE",
-    "offenceTitle": "Holder of Part-FCL licence exercise privileges of licence without valid medical certificate",
     "recordableOnPnc": true
   },
   {
@@ -3832,6 +3832,18 @@
     "offenceCategory": "CS",
     "offenceTitle": "Fly VFR over congested area at height less than 1,000 feet and within 600m of aircraft",
     "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "AN16606",
+    "offenceCategory": "CE",
+    "offenceTitle": "Act as pilot of Part-21 aircraft registered in UK without appropriate licence",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "AN16607",
+    "offenceCategory": "CE",
+    "offenceTitle": "Holder of Part-FCL / SFCL / BFCL licence exercise privileges of licence without valid medical certificate",
+    "recordableOnPnc": true
   },
   {
     "cjsCode": "AN79001",
@@ -8168,13 +8180,13 @@
   {
     "cjsCode": "BL23004",
     "offenceCategory": "CS",
-    "offenceTitle": "Master, owner, charterer contravene paragraph 3b of byelaw 5 of the NIFCA byelaws",
+    "offenceTitle": "Marker / buoy / dahn not from relevant fishing vessel did not display name / telephone - NIFCA Byelaws",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "BL23005",
     "offenceCategory": "CS",
-    "offenceTitle": "Master, owner, charterer contravene paragraph 3a of byelaw 5 of the NIFCA byelaws",
+    "offenceTitle": "Marker / buoy / dahn from relevant fishing vessel did not display name / port letters / numbers - NIFCA Byelaws",
     "recordableOnPnc": false
   },
   {
@@ -8403,6 +8415,42 @@
     "cjsCode": "BL25008",
     "offenceCategory": "CS",
     "offenceTitle": "Master of vessel fail to report sinking/stranded vessel as soon as reasonably practicable - Norfolk and Suffolk Broads",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "BL25009",
+    "offenceCategory": "CS",
+    "offenceTitle": "Master of vessel failed to navigate vessel to avert collision - Windermere Navigation Byelaws 2008",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "BL25010",
+    "offenceCategory": "CS",
+    "offenceTitle": "Master of a vessel on lake Windermere failed to maintain a proper lookout by sight and hearing at all times",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "BL25011",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fish for / take / attempt to fish for / take non migratory trout other than by artificial fly",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "BL25012",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to report collision to the Harbourmaster occurring in the Milford Haven",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "BL25013",
+    "offenceCategory": "CS",
+    "offenceTitle": "Navigate a vessel on Dart Marina without due care and attention",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "BL25014",
+    "offenceCategory": "CS",
+    "offenceTitle": "Navigate a vessel on Dart Marina at a speed exceeding 6 knots through the water",
     "recordableOnPnc": false
   },
   {
@@ -9774,6 +9822,12 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "CC13001",
+    "offenceCategory": "CE",
+    "offenceTitle": "Disclose / use information relating to fees of court / tribunals",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "CC13002",
     "offenceCategory": "CS",
     "offenceTitle": "Assault a member of a National Crime Agency led international joint investigation team",
@@ -10244,13 +10298,13 @@
   {
     "cjsCode": "CD71039",
     "offenceCategory": "CE",
-    "offenceTitle": "Criminal damage to property valued under £5000",
+    "offenceTitle": "Criminal damage to property - value under £5000",
     "recordableOnPnc": true
   },
   {
     "cjsCode": "CD71039A",
     "offenceCategory": "CE",
-    "offenceTitle": "Attempt criminal damage to property valued under £5000",
+    "offenceTitle": "Attempt criminal damage to property - value under £5000",
     "recordableOnPnc": true
   },
   {
@@ -10436,7 +10490,7 @@
   {
     "cjsCode": "CD98066",
     "offenceCategory": "CE",
-    "offenceTitle": "Racially / religiously aggravated fear / provocation of violence by words / writing",
+    "offenceTitle": "Racially / religiously aggravated fear / provocation of violence by words / writing / behaviour",
     "recordableOnPnc": true
   },
   {
@@ -10484,7 +10538,7 @@
   {
     "cjsCode": "CD98075",
     "offenceCategory": "CS",
-    "offenceTitle": "Racially / religiously aggravated harassment / alarm / distress by words / writing",
+    "offenceTitle": "Racially / religiously aggravated harassment / alarm / distress by words / writing / behaviour",
     "recordableOnPnc": true
   },
   {
@@ -11228,7 +11282,7 @@
   {
     "cjsCode": "CE79194",
     "offenceCategory": "CE",
-    "offenceTitle": "Import a drug subject of a temporary class drug order with intent to evade a prohibition / restriction",
+    "offenceTitle": "Carry / remove / deposit / harbour / keep / conceal etc temporary class drug with intent evade prohibition on importing",
     "recordableOnPnc": true
   },
   {
@@ -11498,7 +11552,7 @@
   {
     "cjsCode": "CE79241",
     "offenceCategory": "CE",
-    "offenceTitle": "Import a drug of a temporary class with intent to evade a prohibition",
+    "offenceTitle": "Import a drug of a temporary class to which a prohibition applies",
     "recordableOnPnc": true
   },
   {
@@ -12944,7 +12998,7 @@
   {
     "cjsCode": "CI10001",
     "offenceCategory": "CE",
-    "offenceTitle": "Contravene CIL Stop Notice issued under regulation 90 of the Community Infrastructure Levy Regulations 2010",
+    "offenceTitle": "Contravene a CIL stop notice that has been served / displayed",
     "recordableOnPnc": false
   },
   {
@@ -15006,6 +15060,18 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "CM90010A",
+    "offenceCategory": "CI",
+    "offenceTitle": "Attempt - Unauthorised act in relation to a computer causing / creating risk of serious damage",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CM90010C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspiracy - Unauthorised act in relation to a computer causing / creating risk of serious damage",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "CM90011",
     "offenceCategory": "CI",
     "offenceTitle": "Unauthorised act in relation to a computer causing / creating risk of serious damage to human welfare/national security",
@@ -15596,7 +15662,7 @@
   {
     "cjsCode": "CO76001",
     "offenceCategory": "CS",
-    "offenceTitle": "Encroachment on / Inclosure of town / village disturbing / interfering / occupying soil otherwise than for enjoyment",
+    "offenceTitle": "Encroach on/inclose upon town/village green/recreation ground",
     "recordableOnPnc": false
   },
   {
@@ -15674,7 +15740,7 @@
   {
     "cjsCode": "COML017C",
     "offenceCategory": "CI",
-    "offenceTitle": "Conspiracy to falsely imprison another",
+    "offenceTitle": "Conspire to falsely imprison another",
     "recordableOnPnc": true
   },
   {
@@ -16827,6 +16893,12 @@
     "cjsCode": "CR13001",
     "offenceCategory": "CS",
     "offenceTitle": "Contravention of a construction products suspension notice",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CR13002",
+    "offenceCategory": "CS",
+    "offenceTitle": "Supplied construction product without declaration of performance and UK Marking affixed to it",
     "recordableOnPnc": true
   },
   {
@@ -18234,76 +18306,10 @@
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "CS06233",
-    "offenceCategory": "CE",
-    "offenceTitle": "Fail to take reasonable steps to ascertain who is a registrable person or a relevant legal entity, and identify them",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "CS06234",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to give notice to the registrar of the change made to its PSC register, and the date on which the change was made",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "CS06235",
-    "offenceCategory": "CS",
-    "offenceTitle": "Company / officer fail to keep register of people having significant control of company",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "CS06236",
-    "offenceCategory": "CS",
-    "offenceTitle": "Company / officer refused / defaulted to provide copy of the company PSC register when requested",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "CS06237",
-    "offenceCategory": "CE",
-    "offenceTitle": "Company / officer fail to give notice to person / entity if relevant change has occurred in PSC register",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "CS06239",
-    "offenceCategory": "CE",
-    "offenceTitle": "Knowingly / recklessly make a misleading, false or deceptive statement when requesting to inspect / copy a PSC register",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "CS06240",
-    "offenceCategory": "CE",
-    "offenceTitle": "Disclose / fail to prevent disclosure of information from a company's PSC register for improper purpose",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "CS06241",
-    "offenceCategory": "CS",
-    "offenceTitle": "Officer / director fail to inform person inspecting / copying PSC register date of last alteration / further alteration",
-    "recordableOnPnc": false
-  },
-  {
     "cjsCode": "CS06242",
     "offenceCategory": "CS",
     "offenceTitle": "Company / officer fail to deliver information to the registrar during a period of election",
     "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "CS06243",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to confirm all required information was delivered to registrar when requested",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "CS06244",
-    "offenceCategory": "CS",
-    "offenceTitle": "Company / officer fail to give notice to the registrar of where its PSC register is kept",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "CS06245",
-    "offenceCategory": "CE",
-    "offenceTitle": "Fail to give notice to a registrable person / relevant legal entity",
-    "recordableOnPnc": true
   },
   {
     "cjsCode": "CS06246",
@@ -18426,12 +18432,6 @@
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "CS06266",
-    "offenceCategory": "CE",
-    "offenceTitle": "Fail to comply with notice given under section 790D to person with significant control",
-    "recordableOnPnc": true
-  },
-  {
     "cjsCode": "CS06270",
     "offenceCategory": "CE",
     "offenceTitle": "Fail to comply with a duty under s.790G to notify company on becoming a PSC",
@@ -18442,6 +18442,168 @@
     "offenceCategory": "CE",
     "offenceTitle": "Fail to comply with duty under s.790H to notify changes in PSC information",
     "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CS06272",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to comply with duty under s.790HA notifying company on ceasing to be PSC",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CS06273",
+    "offenceCategory": "CS",
+    "offenceTitle": "Make a misleading, false or deceptive statement in purported compliance with a notice or duty under Part 21A",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "CS06274",
+    "offenceCategory": "CE",
+    "offenceTitle": "Knowingly make a misleading / false / deceptive statement in purported compliance with a notice or duty under Part 21A",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CS06275",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to comply with notice given under section 790D to person with significant control",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CS06276",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to comply with notice given under section 790DA to third party re PSC",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CS06277",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to comply with notice given under section 790E to PSC where details changed",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CS06278",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to comply with notice given under section 790EA to person ceasing to PSC",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CS06279",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to comply with a duty under s.790G to notify company on becoming a PSC",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CS06280",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to comply with duty under s.790H to notify changes in PSC information",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CS06281",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with duty to notify registrar of change of information regarding company secretary",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "CS06282",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with duty to notify registrar of change in company secretary",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "CS06283",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with duty to notify registrar of change in company secretary before / upon incorporation",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CS06284",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to comply with duty to find out about persons with significant control in a company",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CS06285",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to comply with duty to give notices to persons with significant control in a company",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CS06286",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to comply with duty to obtain information from third parties about a suspected PSC",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CS06287",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to comply with duty to find out about changes in PSC information",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CS06288",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to comply with duty to find out about persons ceasing to be PSCs",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CS06289",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with duty to notify registrar of confirmed persons with significant control",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "CS06290",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with duty to notify registrar of pre-incorporation changes in required particulars",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "CS06291",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with duty to notify registrar when person ceases to have significant control",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "CS06292",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to notify registrar of someone not becoming a person with significant control on incorporation",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "CS06293",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with duty to notify registrar when company ceases to have persons with significant control",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "CS06294",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with duty to notify registrar of change in directors",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "CS06295",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with duty to notify registrar of change of information about a director",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "CS06296",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to notify registrar of change in director / information occurring before incorporation",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "CS06298",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with duty to notify registrar of unconfirmed persons with significant control",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CS06299",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with duty to notify registrar of changes in required particulars",
+    "recordableOnPnc": false
   },
   {
     "cjsCode": "CS10501",
@@ -20109,6 +20271,48 @@
     "cjsCode": "CW07012",
     "offenceCategory": "CE",
     "offenceTitle": "Keeper fail to send passport relating to a stolen / lost animal to Secretary of State within 7 days (Wales)",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CW07013",
+    "offenceCategory": "CE",
+    "offenceTitle": "Provide false information, in a notification made under the Cattle Identification (Wales) Regulations 2007",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CW07014",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to identify cattle within a specified time in Wales",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CW07015",
+    "offenceCategory": "CE",
+    "offenceTitle": "Moved cattle that were not tagged or marked correctly in Wales",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CW07016",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to replace lost or illegible tag within 28 days on an animal born in Wales on or after 1 January 1998",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CW07017",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to notify the National Assembly of lost, stolen or destroyed cattle passport (Wales)",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CW07018",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to mark cattle passports with the date of movement and sign appropriately when cattle moved off a holding (Wales)",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CW07019",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to comply with Article 7(3) of Regulation (EC) No. 1760/2000 (Wales)",
     "recordableOnPnc": true
   },
   {
@@ -22304,7 +22508,7 @@
   {
     "cjsCode": "DW03001",
     "offenceCategory": "CS",
-    "offenceTitle": "Movement of animals from premises without authority of issued licence - Disease Control (Wales) Order 2003",
+    "offenceTitle": "Movement of animals from premises without authority of issued licence (Wales)",
     "recordableOnPnc": true
   },
   {
@@ -22726,6 +22930,18 @@
     "offenceCategory": "CE",
     "offenceTitle": "Knowingly deliver document / make statement that is misleading/false/deceptive - aggravated",
     "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "EC23001",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to prevent fraud by associate",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "EC23002",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to prevent fraud by employee",
+    "recordableOnPnc": false
   },
   {
     "cjsCode": "EC60001",
@@ -30260,7 +30476,7 @@
   {
     "cjsCode": "FW04007",
     "offenceCategory": "CS",
-    "offenceTitle": "Import fireworks without giving information to Customs & Excise - Firework Reg's 2004",
+    "offenceTitle": "Import fireworks without giving information to Customs and Excise - Firework Reg's 2004",
     "recordableOnPnc": true
   },
   {
@@ -32096,7 +32312,7 @@
   {
     "cjsCode": "GL99046",
     "offenceCategory": "CS",
-    "offenceTitle": "Use apparatus for the transmission / reception / reproduction of sound / speech in Trafalgar Square",
+    "offenceTitle": "Use apparatus for the transmission / reception / reproduction of sound / speech in Trafalgar Square without permission",
     "recordableOnPnc": false
   },
   {
@@ -34476,18 +34692,6 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "HM12021",
-    "offenceCategory": "CS",
-    "offenceTitle": "Sell / supply / offer to sell / supply medicinal product subject to general sale elsewhere than at a registered pharmacy",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "HM12021C",
-    "offenceCategory": "CI",
-    "offenceTitle": "Conspire to sell / supply / offer to sell / supply medicinal product to general sale elsewhere than at a reg pharmacy",
-    "recordableOnPnc": false
-  },
-  {
     "cjsCode": "HM12022",
     "offenceCategory": "CS",
     "offenceTitle": "Sell / offer to sell a medicinal product by automatic machine when not subject to general sale",
@@ -34684,6 +34888,18 @@
     "offenceCategory": "CE",
     "offenceTitle": "Sell / supply / possess for sale / supply a medicinal product packaged in breach of Pt 13 Human Medicines Regs 2012",
     "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "HM12052",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspire to sell / supply / offer to sell / supply medicinal product to general sale elsewhere than at from reg pharmacy",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "HM12053",
+    "offenceCategory": "CS",
+    "offenceTitle": "Sell / supply / offer to sell / supply medicinal product subject to general sale elsewhere than at registered pharmacy",
+    "recordableOnPnc": false
   },
   {
     "cjsCode": "HM73001",
@@ -37548,18 +37764,6 @@
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "IM71003",
-    "offenceCategory": "CS",
-    "offenceTitle": "Immigration - enter/remain in UK beyond time limit",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "IM71004",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to observe conditions to enter/remain in United Kingdom",
-    "recordableOnPnc": true
-  },
-  {
     "cjsCode": "IM71005",
     "offenceCategory": "CS",
     "offenceTitle": "Enter United Kingdom lawfully without leave but remain beyond time limit",
@@ -38001,6 +38205,12 @@
     "cjsCode": "IM71144",
     "offenceCategory": "CE",
     "offenceTitle": "Seek / obtain leave to enter / remain / ETA in UK by deceptive means - immigration",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "IM71148",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to observe conditions to enter / remain in United Kingdom",
     "recordableOnPnc": true
   },
   {
@@ -39783,6 +39993,12 @@
     "cjsCode": "JY74015",
     "offenceCategory": "CI",
     "offenceTitle": "Interpreter interfere in / influence the deliberations of the jury",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "KF15001",
+    "offenceCategory": "CE",
+    "offenceTitle": "Introduced fish into inland waters the Keeping and Introduction of Fish (England and River Esk Catchment Area) Regs 2015",
     "recordableOnPnc": false
   },
   {
@@ -43712,7 +43928,7 @@
   {
     "cjsCode": "MA24004",
     "offenceCategory": "CS",
-    "offenceTitle": "Camp on the airport without reasonable excuse - Manchester Airport",
+    "offenceTitle": "Camp on the airport without reasonable cause - Manchester Airport",
     "recordableOnPnc": false
   },
   {
@@ -43742,7 +43958,7 @@
   {
     "cjsCode": "MA24009",
     "offenceCategory": "CS",
-    "offenceTitle": "Drunk / under the influence of drugs / intoxicants at Airport - Manchester Airport",
+    "offenceTitle": "Drunk or under the influence of drugs or other intoxicating substances within Manchester Airport",
     "recordableOnPnc": false
   },
   {
@@ -51270,6 +51486,12 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "NS23005C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspire to enter etc a prohibited place for a purpose prejudicial to the UK",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "NS23006",
     "offenceCategory": "CI",
     "offenceTitle": "Cause unmanned vehicle to enter etc a prohibited place for a purpose prejudicial to the UK",
@@ -51308,13 +51530,13 @@
   {
     "cjsCode": "NS23012",
     "offenceCategory": "CI",
-    "offenceTitle": "Engage in prohibited conducted intending to have an interference effect",
+    "offenceTitle": "Engage in prohibited conduct intending to have an interference effect",
     "recordableOnPnc": true
   },
   {
     "cjsCode": "NS23013",
     "offenceCategory": "CI",
-    "offenceTitle": "Engage in prohibited conducted recklessly having an interference effect",
+    "offenceTitle": "Engage in prohibited conduct recklessly having an interference effect",
     "recordableOnPnc": true
   },
   {
@@ -51495,6 +51717,18 @@
     "cjsCode": "NS23043",
     "offenceCategory": "CE",
     "offenceTitle": "Fail to comply with information notice - foreign influence",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23044",
+    "offenceCategory": "CE",
+    "offenceTitle": "Provide false / inaccurate / misleading information in respect of relevant activity under foreign activity arrangement",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23045",
+    "offenceCategory": "CE",
+    "offenceTitle": "Provide false / inaccurate / misleading information in respect of political activity under foreign influence arrangement",
     "recordableOnPnc": true
   },
   {
@@ -52422,6 +52656,12 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "OS23007",
+    "offenceCategory": "CE",
+    "offenceTitle": "Knowingly / recklessly provide false information in a material respect relating to s66 Online Safety Act 2023",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "OS89002",
     "offenceCategory": "CE",
     "offenceTitle": "Member of Security or Intelligence Services disclose information / document / article re security or intelligence",
@@ -52918,48 +53158,6 @@
     "offenceCategory": "CS",
     "offenceTitle": "Sell and deliver / arrange delivery of bladed product to a lockable container / locker",
     "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "OW19501",
-    "offenceCategory": "CR",
-    "offenceTitle": "Application for Knife Crime Prevention Order other than on conviction",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "OW19502",
-    "offenceCategory": "VP",
-    "offenceTitle": "Application to Vary Knife Crime Prevention Order",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "OW19503",
-    "offenceCategory": "VP",
-    "offenceTitle": "Application to Discharge Knife Crime Prevention Order",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "OW19504",
-    "offenceCategory": "VP",
-    "offenceTitle": "Application to Renew Knife Crime Prevention Order",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "OW19505",
-    "offenceCategory": "VP",
-    "offenceTitle": "Application to Vary an Interim Knife Crime Prevention Order",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "OW19506",
-    "offenceCategory": "VP",
-    "offenceTitle": "Application to Discharge an Interim Knife Crime Prevention Order",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "OW19507",
-    "offenceCategory": "VP",
-    "offenceTitle": "Review of Knife Crime Prevention Order",
-    "recordableOnPnc": false
   },
   {
     "cjsCode": "PA11080",
@@ -55784,7 +55982,7 @@
   {
     "cjsCode": "PH97005",
     "offenceCategory": "CE",
-    "offenceTitle": "Harassment - breach of a restraining order after acquittal",
+    "offenceTitle": "Harassment - breach of a restraining order after acquittal (Order made under s 5 PHA 97).",
     "recordableOnPnc": true
   },
   {
@@ -55820,7 +56018,7 @@
   {
     "cjsCode": "PH97012",
     "offenceCategory": "CE",
-    "offenceTitle": "Harassment - breach of a restraining order after acquittal",
+    "offenceTitle": "Harassment - breach of a restraining order after acquittal (Order made under s 5A(2D) and (2E) of PHA 97",
     "recordableOnPnc": true
   },
   {
@@ -58374,6 +58572,12 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "PS22001A",
+    "offenceCategory": "CE",
+    "offenceTitle": "Attempt to intentionally / recklessly cause a public nuisance",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "PS22001C",
     "offenceCategory": "CE",
     "offenceTitle": "Conspire to intentionally / recklessly cause a public nuisance",
@@ -59144,7 +59348,7 @@
   {
     "cjsCode": "PT00081",
     "offenceCategory": "CS",
-    "offenceTitle": "Company officer fail to comply with requirement to provide customer info - Schedule 6 Terrorism Act 2000",
+    "offenceTitle": "Company officer fail to comply with requirement to provide customer info - Schedule 6 - Terrorism Act 2000",
     "recordableOnPnc": true
   },
   {
@@ -59247,6 +59451,12 @@
     "cjsCode": "PU23001",
     "offenceCategory": "CS",
     "offenceTitle": "Lock on to person / object / land to cause serious disruption",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "PU23001C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspire to lock on to person / object / land to cause serious disruption",
     "recordableOnPnc": true
   },
   {
@@ -65510,13 +65720,13 @@
   {
     "cjsCode": "RO88501",
     "offenceCategory": "VP",
-    "offenceTitle": "Appeal against refusal issue course completion cert",
+    "offenceTitle": "Application for declaration that course provider's decision not to give a certificate was contrary to s.34B(4)",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "RO88502",
     "offenceCategory": "VP",
-    "offenceTitle": "Application for course organiser to issue certificate",
+    "offenceTitle": "Application for a declaration that the course provider is in default",
     "recordableOnPnc": false
   },
   {
@@ -67794,6 +68004,18 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "RR84242",
+    "offenceCategory": "CM",
+    "offenceTitle": "Exceed a temporary 20mph speed restriction - roadworks - manned equipment",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "RR84243",
+    "offenceCategory": "CM",
+    "offenceTitle": "Exceed a temporary 20mph speed restriction - roadworks - ACD",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "RR84701",
     "offenceCategory": "CM",
     "offenceTitle": "Fail to deliver a suspect document or article to an authorised person",
@@ -67924,6 +68146,12 @@
     "offenceCategory": "CE",
     "offenceTitle": "Participate in activities to circumvent or enable / facilitate contravention of prohibitions",
     "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "RS19014",
+    "offenceCategory": "CE",
+    "offenceTitle": "Made luxury goods available to a person connected with Russia",
+    "recordableOnPnc": false
   },
   {
     "cjsCode": "RS84002",
@@ -68254,6 +68482,12 @@
     "offenceCategory": "CS",
     "offenceTitle": "Fish for / takes salmon in waters in the Tweed district during Sunday",
     "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "RT06026",
+    "offenceCategory": "CE",
+    "offenceTitle": "Possessing salmon which have been illegally taken, killed or landed",
+    "recordableOnPnc": true
   },
   {
     "cjsCode": "RT18001",
@@ -73526,19 +73760,55 @@
   {
     "cjsCode": "SG15001",
     "offenceCategory": "CS",
-    "offenceTitle": "Failed to make an annual inventory of animals on holding within 30 days of date specified by the Welsh Ministers",
+    "offenceTitle": "Keeper of animals fail to make an annual inventory of animals on holding within 30 days of specified date (Wales)",
     "recordableOnPnc": true
   },
   {
     "cjsCode": "SG15002",
     "offenceCategory": "CS",
-    "offenceTitle": "Keeper of animals fail to comply with the requirements re: holding register (Wales)",
+    "offenceTitle": "Keeper of animals fail to keep up to date register of required information (Wales)",
     "recordableOnPnc": true
   },
   {
     "cjsCode": "SG15003",
     "offenceCategory": "CS",
     "offenceTitle": "Keeper on the holding of destination failed to notify central database operator of the receipt of animals (Wales)",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "SG15004",
+    "offenceCategory": "CS",
+    "offenceTitle": "Keeper of animals fail to record information re: holding register (Wales)",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "SG15005",
+    "offenceCategory": "CS",
+    "offenceTitle": "Keeper of animals kept holding register in a form other than approved by the Welsh Ministers (Wales)",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "SG15006",
+    "offenceCategory": "CS",
+    "offenceTitle": "Keeper of animals moved off holding fail to electronically notify central database of movement within 3 days (Wales)",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "SG15007",
+    "offenceCategory": "CS",
+    "offenceTitle": "Keeper of animals moved off holding fail to complete movement document (Wales)",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "SG15008",
+    "offenceCategory": "CS",
+    "offenceTitle": "Keeper of animals fail to keep register in line with EC requirements (Wales)",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "SG15009",
+    "offenceCategory": "CS",
+    "offenceTitle": "Keeper of animals fail to supply information to competent authority (Wales)",
     "recordableOnPnc": true
   },
   {
@@ -76664,7 +76934,7 @@
   {
     "cjsCode": "SX03033C",
     "offenceCategory": "CI",
-    "offenceTitle": "Conspire to cause a child under 13 to watch / look at an image of sexual activity - Offence 18 or over - SOA 2003",
+    "offenceTitle": "Offender 18 or over conspire to cause a child under 13 to watch / look at an image of sexual activity - SOA 2003",
     "recordableOnPnc": true
   },
   {
@@ -77228,7 +77498,7 @@
   {
     "cjsCode": "SX03107A",
     "offenceCategory": "CE",
-    "offenceTitle": "Attempting to pay for the sexual services of a boy 13 to 15 - no penetration - SOA 2003",
+    "offenceTitle": "Attempt to pay for the sexual services of a boy 13 to 15 - no penetration - SOA 2003",
     "recordableOnPnc": true
   },
   {
@@ -77337,6 +77607,12 @@
     "cjsCode": "SX03128",
     "offenceCategory": "CE",
     "offenceTitle": "Exposure - SOA 2003",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "SX03128A",
+    "offenceCategory": "CE",
+    "offenceTitle": "Attempt exposure - SOA 2003",
     "recordableOnPnc": true
   },
   {
@@ -78770,7 +79046,7 @@
   {
     "cjsCode": "TB10007",
     "offenceCategory": "CS",
-    "offenceTitle": "Keeper of bovine animal in Wales fail to comply post movement testing - Tuberculous (Wales) Order 2010",
+    "offenceTitle": "Keeper of bovine animal fail to arrange post movement testing in low TB area (Wales)",
     "recordableOnPnc": true
   },
   {
@@ -83732,19 +84008,19 @@
   {
     "cjsCode": "TS12006",
     "offenceCategory": "CS",
-    "offenceTitle": "Failing to comply with direction to leave Trafalgar Square",
+    "offenceTitle": "Fail to comply with direction to leave Trafalgar Square",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "TS12007",
     "offenceCategory": "CS",
-    "offenceTitle": "Fail to remove animal which in charge of when required to do so - Trafalgar Square",
+    "offenceTitle": "Fail to remove animal from Trafalgar Square",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "TS12008",
     "offenceCategory": "CS",
-    "offenceTitle": "Light a fire / barbeque or place / throw / drop lighted match or thing to likely to cause fire - Trafalgar Square",
+    "offenceTitle": "Light fire / barbeque / match / other thing likely to cause a fire in Trafalgar Square",
     "recordableOnPnc": false
   },
   {
@@ -83756,13 +84032,13 @@
   {
     "cjsCode": "TS12010",
     "offenceCategory": "CS",
-    "offenceTitle": "Feed birds in Trafalgar Square",
+    "offenceTitle": "Feed bird / s in Trafalgar Square",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "TS12011",
     "offenceCategory": "CS",
-    "offenceTitle": "Attach banner or article to / climb or interfere with permanent / temporary structure in Trafalgar Square",
+    "offenceTitle": "Attach banner or article to / climb or interfere with structure in Trafalgar Square Garden without permission",
     "recordableOnPnc": false
   },
   {
@@ -83774,7 +84050,7 @@
   {
     "cjsCode": "TS12013",
     "offenceCategory": "CS",
-    "offenceTitle": "Exhibit notice / advertisement / written or pictorial matter in Trafalgar Square",
+    "offenceTitle": "Exhibit notice / advertisement / written / pictorial matter in Trafalgar Square without permission",
     "recordableOnPnc": false
   },
   {
@@ -83828,31 +84104,31 @@
   {
     "cjsCode": "TS12023",
     "offenceCategory": "CS",
-    "offenceTitle": "Collect / solicit money or gift in Trafalgar Square",
+    "offenceTitle": "Collect / solicit money / gift in Trafalgar Square without permission",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "TS12024",
     "offenceCategory": "CS",
-    "offenceTitle": "Make / give public speech / address in Trafalgar Square",
+    "offenceTitle": "Make / give public speech / address in Trafalgar Square without permission",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "TS12025",
     "offenceCategory": "CS",
-    "offenceTitle": "Organise / take part in assembly / display / performance / representation / parade / procession / review / theatre event",
+    "offenceTitle": "Organise / take part in assembly / display / performance / representation / parade etc within Trafalgar Square",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "TS12026",
     "offenceCategory": "CS",
-    "offenceTitle": "Photograph / film / make recording of images for the purpose of / in connection with business within Trafalgar Square",
+    "offenceTitle": "Take photo / film etc for the purposes of a trade / employment etc within Trafalgar Square without permission",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "TS12027",
     "offenceCategory": "CS",
-    "offenceTitle": "Ride animal on Trafalgar Square",
+    "offenceTitle": "Ride an animal on Trafalgar Square without permission",
     "recordableOnPnc": false
   },
   {
@@ -83876,19 +84152,19 @@
   {
     "cjsCode": "TS12031",
     "offenceCategory": "CS",
-    "offenceTitle": "Cause vehicle to wait / leave vehicle unattended within Trafalgar Square in non-emergency",
+    "offenceTitle": "Cause a vehicle to wait / leave vehicle unattended within Trafalgar Square without permission",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "TS12032",
     "offenceCategory": "CS",
-    "offenceTitle": "Use pedal cycle, roller skate, ice skate etc within Trafalgar Square",
+    "offenceTitle": "Use pedal cycle / roller skate / ice skate /scooter etc within Trafalgar Square without permission",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "TS12033",
     "offenceCategory": "CS",
-    "offenceTitle": "Tow / leave caravan / trailer within Trafalgar Square",
+    "offenceTitle": "Tow / leave a caravan / trailer within Trafalgar Square without permission",
     "recordableOnPnc": false
   },
   {
@@ -83900,25 +84176,25 @@
   {
     "cjsCode": "TS12035",
     "offenceCategory": "CS",
-    "offenceTitle": "Carry on trade / business without licence within Trafalgar Square",
+    "offenceTitle": "Carry on trade / business within Trafalgar Square other than in accordance with a licence",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "TS12036",
     "offenceCategory": "CS",
-    "offenceTitle": "Sell / hire anything or offer anything for sale / hire without a licence within Trafalgar Square",
+    "offenceTitle": "Sell / hire, or offer to sell / hire, something within Trafalgar Square other than in accordance with licence",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "TS12037",
     "offenceCategory": "CS",
-    "offenceTitle": "Expose / possess anything for sale or hire without a licence within Trafalgar Square",
+    "offenceTitle": "Expose / possess something for purpose of sale / hire in Trafalgar Square other than in accordance with licence",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "TS12038",
     "offenceCategory": "CS",
-    "offenceTitle": "Use language within Trafalgar Sq. that publicly intimates article / commodity etc be obtained in the Square / elsewhere",
+    "offenceTitle": "Use language which intimates that an article / service etc can be obtained within Trafalgar Square other than in accord",
     "recordableOnPnc": false
   },
   {
@@ -85580,7 +85856,7 @@
   {
     "cjsCode": "VG24047",
     "offenceCategory": "CS",
-    "offenceTitle": "Persistently beg in a public place ( second or subsequent offence ) - Vagrancy Act 1824",
+    "offenceTitle": "Persistently beg in a public place (second or subsequent offence) - Vagrancy Act 1824",
     "recordableOnPnc": true
   },
   {
@@ -88245,12 +88521,6 @@
     "cjsCode": "WE13004",
     "offenceCategory": "CE",
     "offenceTitle": "Producer / rep fail to finance costs of WEEE collection / treatment / recovery / disposal - other than private household",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "WE13005",
-    "offenceCategory": "CE",
-    "offenceTitle": "Producer placing EEE onto market in Member State fail to comply with Directive",
     "recordableOnPnc": false
   },
   {
