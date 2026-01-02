@@ -5,6 +5,10 @@ on:
     branches:
       - main
 
+permissions:
+  id-token: write  # Required for OIDC
+  contents: read
+
 env:
   GITHUB_USERNAME: "bichard7"
   GITHUB_EMAIL: "bichard7@users.noreply.github.com"
