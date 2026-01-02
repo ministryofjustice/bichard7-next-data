@@ -102,8 +102,6 @@ jobs:
       - name: Publish output package
         run: npm publish
         working-directory: output-data
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Report Status
         if: always()
