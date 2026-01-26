@@ -32,11 +32,11 @@
   },
   "homepage": "https://github.com/ministryofjustice/bichard7-next-data#readme",
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.971.0",
+    "@aws-sdk/client-s3": "^3.975.0",
     "@types/jest": "^30.0.0",
     "@types/lodash": "^4.17.23",
     "@types/puppeteer": "^7.0.4",
-    "axios": "^1.13.2",
+    "axios": "^1.13.3",
     "date-fns": "^4.1.0",
     "eslint": "^8.57.1",
     "eslint-config-airbnb-base": "^15.0.0",
@@ -51,24 +51,24 @@
     "jest-extended": "^7.0.0",
     "jsonlint-mod": "^1.7.6",
     "lint-staged": "^16.2.7",
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.23",
     "mockdate": "^3.0.5",
     "npm-check-updates": "^19.3.1",
-    "prettier": "^3.8.0",
-    "puppeteer": "^24.35.0",
+    "prettier": "^3.8.1",
+    "puppeteer": "^24.36.0",
     "sort-json-keys": "^1.0.3",
     "ts-jest": "^29.4.6",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3",
     "uuid": "^13.0.0",
     "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz",
-    "zod": "^4.3.5"
+    "zod": "^4.3.6"
   },
   "lint-staged": {
     "*.{js,ts,tsx}": "eslint --cache --fix --max-warnings 0 --ignore-pattern !.ncurc.js"
   },
   "devDependencies": {
-    "@types/node": "^25.0.9",
+    "@types/node": "^25.0.10",
     "@types/uuid": "^11.0.0",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
