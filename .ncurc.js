@@ -6,7 +6,8 @@ const pinned = [
   "eslint",
   "@typescript-eslint/eslint-plugin",
   "@typescript-eslint/parser",
-  "eslint-plugin-jest"
+  "eslint-plugin-jest",
+  "jest"
 ]
 const ignored = ["googleapis", "puppeteer"]
 const skipped = []
