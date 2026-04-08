@@ -30,7 +30,7 @@ jobs:
       - name: Update dependencies
         run: npm run update-deps
 
-      # Temporarily disabled - investigating alternative actions
+# Temporarily disabled - investigating alternative actions
 #      - name: Report Status
 #        if: always()
 #        uses: ravsamhq/notify-slack-action@v1
