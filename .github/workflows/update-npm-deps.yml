@@ -14,34 +14,38 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3 # v6
 
       - name: Setup node version
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903 # v6
         with:
           node-version-file: .nvmrc
 
+      - name: ⛓️ SLSA Supply Chain Security
+        uses: ministryofjustice/devsecops-actions/sca/slsa@559ec2408860d9237cc472a5710e61c1c2187ffa # v1.4.0
+
       - name: Install dependencies
-        run: npm install
+        run: npm ci --ignore-scripts
 
       - name: Update dependencies
         run: npm run update-deps
 
-      - name: Report Status
-        if: always()
-        uses: ravsamhq/notify-slack-action@v1
-        with:
-          status: ${{ job.status }}
-          notification_title: 'GitHub action failed'
-          message_format: ':elmo-fire: *{workflow}* {status_message} in <{repo_url}|{repo}>'
-          notify_when: 'failure'
-          footer: 'Linked to Repo <{repo_url}|{repo}>'
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.ACTION_MONITORING_SLACK }}
+      # Temporarily disabled - investigating alternative actions
+#      - name: Report Status
+#        if: always()
+#        uses: ravsamhq/notify-slack-action@v1
+#        with:
+#          status: ${{ job.status }}
+#          notification_title: 'GitHub action failed'
+#          message_format: ':elmo-fire: *{workflow}* {status_message} in <{repo_url}|{repo}>'
+#          notify_when: 'failure'
+#          footer: 'Linked to Repo <{repo_url}|{repo}>'
+#        env:
+#          SLACK_WEBHOOK_URL: ${{ secrets.ACTION_MONITORING_SLACK }}
 
       - name: Create pull request
         id: cpr
-        uses: peter-evans/create-pull-request@v8
+        uses: peter-evans/create-pull-request@98357b18bf14b5342f975ff684046ec3b2a07725 # v8
         with:
           branch: auto/update-npm-deps
           delete-branch: true
