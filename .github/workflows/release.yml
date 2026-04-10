@@ -55,18 +55,26 @@ jobs:
       - name: Push new commit and tag
         run: git push --follow-tags
 
-# Temporarily disabled - investigating alternative actions
-#      - name: Report Status
-#        if: always()
-#        uses: ravsamhq/notify-slack-action@4ed28566c2bdcdaee6dca2b46b9666d01b4ed8a4 # v1
-#        with:
-#          status: ${{ job.status }}
-#          notification_title: "GitHub action failed: Bump package version"
-#          message_format: ":elmo-fire: *{workflow}* {status_message} in <{repo_url}|{repo}>"
-#          notify_when: "failure"
-#          footer: "Linked to Repo <{repo_url}|{repo}>"
-#        env:
-#          SLACK_WEBHOOK_URL: ${{ secrets.ACTION_MONITORING_SLACK }}
+      - name: Report Status
+        if: failure()
+        uses: slackapi/slack-github-action@485a9d42d3a73031f12ec201c457e2162c45d02d #v2.0.0
+        with:
+          webhook-type: incoming-webhook
+          payload: |
+            text: "GitHub action failed"  
+            attachments:  
+              - color: "#a30000" # Red  
+                blocks:  
+                  - type: "section"  
+                    text:  
+                      type: "mrkdwn"  
+                      text: ":elmo-fire: *${{ github.workflow }}* failed in <${{ github.server_url }}/${{ github.repository }}|${{ github.repository }}>"  
+                  - type: "context"  
+                    elements:  
+                      - type: "mrkdwn"  
+                        text: "Linked to Repo <${{ github.server_url }}/${{ github.repository }}|${{ github.repository }}>"
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.ACTION_MONITORING_SLACK }}
 
   release-npm-package:
     name: Release NPM package
@@ -104,18 +112,26 @@ jobs:
         run: npm publish
         working-directory: output-data
 
-# Temporarily disabled - investigating alternative actions
-#      - name: Report Status
-#        if: always()
-#        uses: ravsamhq/notify-slack-action@4ed28566c2bdcdaee6dca2b46b9666d01b4ed8a4 # v1
-#        with:
-#          status: ${{ job.status }}
-#          notification_title: "GitHub action failed: Release npm package"
-#          message_format: ":elmo-fire: *{workflow}* {status_message} in <{repo_url}|{repo}>"
-#          notify_when: "failure"
-#          footer: "Linked to Repo <{repo_url}|{repo}>"
-#        env:
-#          SLACK_WEBHOOK_URL: ${{ secrets.ACTION_MONITORING_SLACK }}
+      - name: Report Status
+        if: failure()
+        uses: slackapi/slack-github-action@485a9d42d3a73031f12ec201c457e2162c45d02d #v2.0.0
+        with:
+          webhook-type: incoming-webhook
+          payload: |
+            text: "GitHub action failed"  
+            attachments:  
+              - color: "#a30000" # Red  
+                blocks:  
+                  - type: "section"  
+                    text:  
+                      type: "mrkdwn"  
+                      text: ":elmo-fire: *${{ github.workflow }}* failed in <${{ github.server_url }}/${{ github.repository }}|${{ github.repository }}>"  
+                  - type: "context"  
+                    elements:  
+                      - type: "mrkdwn"  
+                        text: "Linked to Repo <${{ github.server_url }}/${{ github.repository }}|${{ github.repository }}>"
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.ACTION_MONITORING_SLACK }}
 
   release-maven-package:
     name: Release Maven package
@@ -164,18 +180,26 @@ jobs:
           MAVEN_USERNAME: ${{ secrets.SONATYPE_USERNAME }}
           MAVEN_PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
 
-# Temporarily disabled - investigating alternative actions
-#      - name: Report Status
-#        if: always()
-#        uses: ravsamhq/notify-slack-action@4ed28566c2bdcdaee6dca2b46b9666d01b4ed8a4 # v1
-#        with:
-#          status: ${{ job.status }}
-#          notification_title: "GitHub action failed: Release Maven package"
-#          message_format: ":elmo-fire: *{workflow}* {status_message} in <{repo_url}|{repo}>"
-#          notify_when: "failure"
-#          footer: "Linked to Repo <{repo_url}|{repo}>"
-#        env:
-#          SLACK_WEBHOOK_URL: ${{ secrets.ACTION_MONITORING_SLACK }}
+      - name: Report Status
+        if: failure()
+        uses: slackapi/slack-github-action@485a9d42d3a73031f12ec201c457e2162c45d02d #v2.0.0
+        with:
+          webhook-type: incoming-webhook
+          payload: |
+            text: "GitHub action failed"  
+            attachments:  
+              - color: "#a30000" # Red  
+                blocks:  
+                  - type: "section"  
+                    text:  
+                      type: "mrkdwn"  
+                      text: ":elmo-fire: *${{ github.workflow }}* failed in <${{ github.server_url }}/${{ github.repository }}|${{ github.repository }}>"  
+                  - type: "context"  
+                    elements:  
+                      - type: "mrkdwn"  
+                        text: "Linked to Repo <${{ github.server_url }}/${{ github.repository }}|${{ github.repository }}>"
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.ACTION_MONITORING_SLACK }}
 
   update-core-repo:
     name: Update NPM package in core repo
@@ -195,18 +219,26 @@ jobs:
         env:
           VERSION: ${{ needs.bump-package-version.outputs.version }}
 
-# Temporarily disabled - investigating alternative actions
-#      - name: Report Status
-#        if: always()
-#        uses: ravsamhq/notify-slack-action@4ed28566c2bdcdaee6dca2b46b9666d01b4ed8a4 # v1
-#        with:
-#          status: ${{ job.status }}
-#          notification_title: "GitHub action failed: Update core repo"
-#          message_format: ":elmo-fire: *{workflow}* {status_message} in <{repo_url}|{repo}>"
-#          notify_when: "failure"
-#          footer: "Linked to Repo <{repo_url}|{repo}>"
-#        env:
-#          SLACK_WEBHOOK_URL: ${{ secrets.ACTION_MONITORING_SLACK }}
+      - name: Report Status
+        if: failure()
+        uses: slackapi/slack-github-action@485a9d42d3a73031f12ec201c457e2162c45d02d #v2.0.0
+        with:
+          webhook-type: incoming-webhook
+          payload: |
+            text: "GitHub action failed"  
+            attachments:  
+              - color: "#a30000" # Red  
+                blocks:  
+                  - type: "section"  
+                    text:  
+                      type: "mrkdwn"  
+                      text: ":elmo-fire: *${{ github.workflow }}* failed in <${{ github.server_url }}/${{ github.repository }}|${{ github.repository }}>"  
+                  - type: "context"  
+                    elements:  
+                      - type: "mrkdwn"  
+                        text: "Linked to Repo <${{ github.server_url }}/${{ github.repository }}|${{ github.repository }}>"
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.ACTION_MONITORING_SLACK }}
 
       - name: Create pull request
         id: cpr
@@ -248,18 +280,26 @@ jobs:
         env:
           VERSION: ${{ needs.bump-package-version.outputs.version }}
 
-# Temporarily disabled - investigating alternative actions
-#      - name: Report Status
-#        if: always()
-#        uses: ravsamhq/notify-slack-action@v1
-#        with:
-#          status: ${{ job.status }}
-#          notification_title: "GitHub action failed: Update Bichard 7 next"
-#          message_format: ":elmo-fire: *{workflow}* {status_message} in <{repo_url}|{repo}>"
-#          notify_when: "failure"
-#          footer: "Linked to Repo <{repo_url}|{repo}>"
-#        env:
-#          SLACK_WEBHOOK_URL: ${{ secrets.ACTION_MONITORING_SLACK }}
+      - name: Report Status
+        if: failure()
+        uses: slackapi/slack-github-action@485a9d42d3a73031f12ec201c457e2162c45d02d #v2.0.0
+        with:
+          webhook-type: incoming-webhook
+          payload: |
+            text: "GitHub action failed"  
+            attachments:  
+              - color: "#a30000" # Red  
+                blocks:  
+                  - type: "section"  
+                    text:  
+                      type: "mrkdwn"  
+                      text: ":elmo-fire: *${{ github.workflow }}* failed in <${{ github.server_url }}/${{ github.repository }}|${{ github.repository }}>"  
+                  - type: "context"  
+                    elements:  
+                      - type: "mrkdwn"  
+                        text: "Linked to Repo <${{ github.server_url }}/${{ github.repository }}|${{ github.repository }}>"
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.ACTION_MONITORING_SLACK }}
 
       - name: Create pull request
         id: cpr
