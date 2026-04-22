@@ -15,7 +15,8 @@
     "strictPropertyInitialization": false,
     "skipLibCheck": true,
     "declaration": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "types": ["node","jest", "jest-extended"]
   },
   "include": [
     "src/**/*.ts",
