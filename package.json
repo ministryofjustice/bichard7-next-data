@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/ministryofjustice/bichard7-next-data#readme",
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.1036.0",
+    "@aws-sdk/client-s3": "^3.1040.0",
     "@types/jest": "^30.0.0",
     "@types/lodash": "^4.17.24",
     "@types/puppeteer": "^7.0.4",
@@ -43,7 +43,7 @@
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-jest": "^28.14.0",
-    "fast-xml-parser": "^5.7.1",
+    "fast-xml-parser": "^5.7.2",
     "google-auth-library": "^8.9.0",
     "googleapis": "^171.4.0",
     "husky": "^9.1.7",
@@ -53,7 +53,7 @@
     "lint-staged": "^16.4.0",
     "lodash": "^4.18.1",
     "mockdate": "^3.0.5",
-    "npm-check-updates": "^21.0.3",
+    "npm-check-updates": "^22.0.1",
     "prettier": "^3.8.3",
     "puppeteer": "^24.42.0",
     "sort-json-keys": "^1.0.3",
@@ -62,7 +62,7 @@
     "typescript": "^6.0.3",
     "uuid": "^14.0.0",
     "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz",
-    "zod": "^4.3.6"
+    "zod": "^4.4.1"
   },
   "lint-staged": {
     "*.{js,ts,tsx}": "eslint --cache --fix --max-warnings 0 --ignore-pattern !.ncurc.js"
