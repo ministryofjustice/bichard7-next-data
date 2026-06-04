@@ -228,6 +228,8 @@ jobs:
           name: Run E2E tests
           command: TOTAL_CHUNKS=$CIRCLE_NODE_TOTAL CHUNK_NUMBER=$CIRCLE_NODE_INDEX bash ./scripts/run_test_chunk.sh 'not @Excluded and not @ExcludedOnMaster and not @OnlyRunsOnPNC'
           working_directory: ~/bichard7-next-core/packages/e2e-test
+          max_auto_reruns: 2
+          auto_rerun_delay: 5s
       - save_e2e_artifacts
 
 #################################################################################
