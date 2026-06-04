@@ -170,7 +170,7 @@ commands:
           name: Start bichard7 legacy
           working_directory: ~/bichard7-next-core
           command: |
-            ENABLE_PHASE_2=<<parameters.ENABLE_PHASE_2>> bash .circleci/scripts/run-infrastructure.sh 'bichard7-liberty api ui user-service' all-legacy
+            ENABLE_PHASE_2=<<parameters.ENABLE_PHASE_2>> bash .circleci/scripts/run-infrastructure.sh 'bichard7-liberty api ui user-service' all
 
   start_postgres:
     steps:
@@ -226,8 +226,8 @@ jobs:
       - start_bichard7_legacy
       - run:
           name: Run E2E tests
-          command: TOTAL_CHUNKS=$CIRCLE_NODE_TOTAL CHUNK_NUMBER=$CIRCLE_NODE_INDEX bash ./scripts/run_test_chunk.sh 'not @Excluded and not @ExcludedOnMaster and not @OnlyRunsOnPNC'
           working_directory: ~/bichard7-next-core/packages/e2e-test
+          command: bash ./scripts/run_test_chunk.sh "not @Excluded and not @ExcludedOnMaster and not @OnlyRunsOnPNC"
           max_auto_reruns: 2
           auto_rerun_delay: 5s
       - save_e2e_artifacts
