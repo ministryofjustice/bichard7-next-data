@@ -127,7 +127,39 @@ commands:
         type: string
     steps:
       - fetch_images:
-          IMAGES: nodejs-24-2023 nginx-nodejs-24-2023-supervisord
+          IMAGES: nodejs-24-2023 nginx-nodejs-24-2023-supervisord ui api user-service
+      - run:
+          name: Dynamically Re-tag All Required Images
+          command: |
+            # 1. Define the list of short image names you need to fix (space-separated)
+            IMAGES="ui api user-service"
+            
+            # Determine the target tag fallback
+            TARGET_TAG=${DOCKER_TAG:-latest}
+  
+            echo "Starting dynamic re-tagging for: ${IMAGES}"
+            echo "----------------------------------------"
+            
+            # 2. Loop through each image name
+            for IMG in $IMAGES; do
+              echo "Searching for local image matching suffix: /${IMG}"
+  
+              # Safely find the Image ID matching exact repository suffix
+              IMAGE_ID=$(docker images --format '{{.Repository}} {{.ID}}' | grep -E "(/|^)${IMG} " | awk '{print $2}' | head -n 1)
+            
+              if [ -z "$IMAGE_ID" ]; then
+                echo "⚠️ Warning: Could not find any local image ending in '${IMG}'. Skipping..."
+                echo "----------------------------------------"
+                continue
+              fi
+  
+              # 3. Apply the tag for docker-compose
+              echo "Found Image ID: ${IMAGE_ID}"
+              echo "Tagging as: ${IMG}:${TARGET_TAG}"
+              docker tag "$IMAGE_ID" "${IMG}:${TARGET_TAG}"
+              echo "Successfully tagged!"
+              echo "----------------------------------------"
+            done
       - build_message_forwarder
       - build_audit_logging_images
       - run:
