@@ -209,8 +209,6 @@ jobs:
     steps:
       - checkout
       - lint
-      - build_data_jar
-      - build_bichard
       - clone_packages
       - install_node
       - install_and_build_packages
