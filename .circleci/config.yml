@@ -120,11 +120,7 @@ commands:
 
   ################### Services
 
-  start_bichard7_legacy:
-    parameters:
-      ENABLE_PHASE_2:
-        default: "true"
-        type: string
+  start_bichard7:
     steps:
       - fetch_images:
           IMAGES: nodejs-24-2023 nginx-nodejs-24-2023-supervisord ui api user-service
@@ -163,14 +159,10 @@ commands:
       - build_message_forwarder
       - build_audit_logging_images
       - run:
-          name: Build liberty image
-          command: make build
-          working_directory: ~/bichard7-next
-      - run:
-          name: Start bichard7 legacy
+          name: Start Bichard7 legacy
           working_directory: ~/bichard7-next-core
           command: |
-            ENABLE_PHASE_2=<<parameters.ENABLE_PHASE_2>> bash .circleci/scripts/run-infrastructure.sh 'bichard7-liberty api ui user-service' all
+            ENABLE_PHASE_2=<<parameters.ENABLE_PHASE_2>> bash .circleci/scripts/run-infrastructure.sh 'api ui user-service' all
 
   start_postgres:
     steps:
@@ -208,12 +200,12 @@ jobs:
       docker_layer_caching: false
     resource_class: large
     environment:
+      RECORD: true
       STACK_TYPE: next
-      MESSAGE_ENTRY_POINT: mq
       WORKSPACE: local-next
-      RECORD: true # required for screenshots
-      AWS_URL: http://localhost:4566
-      AUDIT_LOG_API_URL: http://localhost:7010
+      AUTH_TYPE: user-service
+      TZ: "Europe/London"
+      USE_LEDS: false
     parallelism: 10
     steps:
       - checkout
@@ -223,11 +215,15 @@ jobs:
       - clone_packages
       - install_node
       - install_and_build_packages
-      - start_bichard7_legacy
+      - start_bichard7
       - run:
           name: Run E2E tests
           working_directory: ~/bichard7-next-core/packages/e2e-test
           command: bash ./scripts/run_test_chunk.sh "not @Excluded and not @ExcludedOnMaster and not @OnlyRunsOnPNC"
+          environment:
+            RECORD: "true"
+            NEXTUI: "true"
+            MESSAGE_ENTRY_POINT: "s3"
           max_auto_reruns: 2
           auto_rerun_delay: 5s
       - save_e2e_artifacts
