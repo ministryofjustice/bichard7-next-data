@@ -159,10 +159,9 @@ commands:
       - build_message_forwarder
       - build_audit_logging_images
       - run:
-          name: Start Bichard7 legacy
+          name: Start Bichard7
           working_directory: ~/bichard7-next-core
-          command: |
-            ENABLE_PHASE_2=<<parameters.ENABLE_PHASE_2>> bash .circleci/scripts/run-infrastructure.sh 'api ui user-service' all
+          command: bash .circleci/scripts/run-infrastructure.sh 'api ui user-service' all
 
   start_postgres:
     steps:
