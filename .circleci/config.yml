@@ -185,7 +185,6 @@ jobs:
     steps:
       - checkout
       - lint
-      - install_node
       - run:
           name: Generate triggers.properties files
           command: npm run generate-trigger-config
