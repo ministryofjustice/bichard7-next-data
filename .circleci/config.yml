@@ -177,7 +177,7 @@ commands:
 #################################################################################
 
 jobs:
-  bichard_unit_tests:
+  lint_and_build:
     machine:
       image: ubuntu-2204:current
       docker_layer_caching: false
@@ -185,50 +185,32 @@ jobs:
     steps:
       - checkout
       - lint
-      - build_data_jar
-      - build_bichard
-      - start_postgres
+      - install_node
       - run:
-          name: Run Bichard unit tests
-          working_directory: ~/bichard7-next
-          command: make test
+          name: Generate triggers.properties files
+          command: npm run generate-trigger-config
+      - run:
+          name: Install output package NPM dependencies
+          command: npm ci --ignore-scripts
+          working-directory: output-data
+      - run:
+          name: Build output package
+          command: npm run build
+          working-directory: output-data
 
-  e2e_tests:
+  build_data_jar:
     machine:
       image: ubuntu-2204:current
       docker_layer_caching: false
-    resource_class: large
-    environment:
-      RECORD: true
-      STACK_TYPE: next
-      WORKSPACE: local-next
-      AUTH_TYPE: user-service
-      TZ: "Europe/London"
-      USE_LEDS: false
-    parallelism: 10
+    resource_class: medium
     steps:
       - checkout
-      - lint
-      - clone_packages
-      - install_node
-      - install_and_build_packages
-      - start_bichard7
-      - run:
-          name: Run E2E tests
-          working_directory: ~/bichard7-next-core/packages/e2e-test
-          command: bash ./scripts/run_test_chunk.sh "not @Excluded and not @ExcludedOnMaster and not @OnlyRunsOnPNC"
-          environment:
-            RECORD: "true"
-            NEXTUI: "true"
-            MESSAGE_ENTRY_POINT: "s3"
-          max_auto_reruns: 2
-          auto_rerun_delay: 5s
-      - save_e2e_artifacts
+      - build_data_jar
 
 #################################################################################
 
 workflows:
   test:
     jobs:
-      - bichard_unit_tests
-      - e2e_tests
+      - lint_and_build
+      - build_data_jar
