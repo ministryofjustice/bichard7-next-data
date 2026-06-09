@@ -191,11 +191,11 @@ jobs:
       - run:
           name: Install output package NPM dependencies
           command: npm ci --ignore-scripts
-          working-directory: output-data
+          working_directory: output-data
       - run:
           name: Build output package
           command: npm run build
-          working-directory: output-data
+          working_directory: output-data
 
   build_data_jar:
     machine:
