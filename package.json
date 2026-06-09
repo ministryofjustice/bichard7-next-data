@@ -32,37 +32,39 @@
   },
   "homepage": "https://github.com/ministryofjustice/bichard7-next-data#readme",
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.1040.0",
+    "@aws-sdk/client-s3": "^3.1062.0",
+    "@emnapi/core": "^1.10.0",
+    "@emnapi/wasi-threads": "^1.2.1",
     "@types/jest": "^30.0.0",
     "@types/lodash": "^4.17.24",
     "@types/puppeteer": "^7.0.4",
-    "axios": "^1.15.2",
-    "date-fns": "^4.1.0",
+    "axios": "^1.17.0",
+    "date-fns": "^4.4.0",
     "eslint": "^8.57.1",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-jest": "^28.14.0",
-    "fast-xml-parser": "^5.7.2",
+    "fast-xml-parser": "^5.8.0",
     "google-auth-library": "^8.9.0",
-    "googleapis": "^171.4.0",
+    "googleapis": "^173.0.0",
     "husky": "^9.1.7",
-    "jest": "^30.3.0",
+    "jest": "^30.4.2",
     "jest-extended": "^7.0.0",
     "jsonlint-mod": "^1.7.6",
-    "lint-staged": "^16.4.0",
+    "lint-staged": "^17.0.7",
     "lodash": "^4.18.1",
     "mockdate": "^3.0.5",
-    "npm-check-updates": "^22.0.1",
+    "npm-check-updates": "^22.2.2",
     "prettier": "^3.8.3",
-    "puppeteer": "^24.42.0",
+    "puppeteer": "^25.1.0",
     "sort-json-keys": "^1.0.3",
-    "ts-jest": "^29.4.9",
+    "ts-jest": "^29.4.11",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.3",
     "uuid": "^14.0.0",
     "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz",
-    "zod": "^4.4.1"
+    "zod": "^4.4.3"
   },
   "lint-staged": {
     "*.{js,ts,tsx}": "eslint --cache --fix --max-warnings 0 --ignore-pattern !.ncurc.js"
@@ -73,6 +75,6 @@
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
     "eslint-config-airbnb-typescript": "^18.0.0",
-    "eslint-plugin-prettier": "^5.5.5"
+    "eslint-plugin-prettier": "^5.5.6"
   }
 }
