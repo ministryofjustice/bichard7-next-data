@@ -4854,6 +4854,12 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "AV24017",
+    "offenceCategory": "CE",
+    "offenceTitle": "Use / disclose information for purposes other than those for which it was obtained - Automated Vehicles Act 2024",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "AV82001",
     "offenceCategory": "CI",
     "offenceTitle": "Hijacking aircraft - Aviation Security Act 1982",
@@ -13626,6 +13632,12 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "CJ88144C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspiracy - Possess knife blade / sharp pointed article in a public place - Criminal Justice Act 1988",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "CJ88151",
     "offenceCategory": "CE",
     "offenceTitle": "Possess offensive weapon on school / further education premises",
@@ -14646,6 +14658,12 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "CM90005A",
+    "offenceCategory": "CE",
+    "offenceTitle": "Attempt to Cause a computer to perform function to secure / enable unauthorised access to a program / data",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "CM90005C",
     "offenceCategory": "CE",
     "offenceTitle": "Conspire to cause a computer to perform function to secure / enable unauthorised access to a program / data",
@@ -14673,6 +14691,12 @@
     "cjsCode": "CM90007",
     "offenceCategory": "CE",
     "offenceTitle": "Make / adapt / supply etc article intended for use / to assist in commission of section 1 or 3 Computer Misuse offence",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CM90007C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspire to make/adapt/supply article intended for use/to assist in commission of section 1 or 3 Computer Misuse offence",
     "recordableOnPnc": true
   },
   {
@@ -16395,6 +16419,12 @@
     "cjsCode": "CQ86002B",
     "offenceCategory": "CE",
     "offenceTitle": "Aid / abet act in contravention of order / undertaking made under Company Directors Disqualification Act 1986",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CQ86002C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspire to contravene a disqualification order / undertaking made under Company Directors Disqualification Act 1986",
     "recordableOnPnc": true
   },
   {
@@ -21420,15 +21450,15 @@
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "DP53001",
+    "cjsCode": "DP53003",
     "offenceCategory": "CS",
-    "offenceTitle": "Owner of a dog worrying livestock",
+    "offenceTitle": "Owner of a dog attacking/worrying livestock",
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "DP53002",
+    "cjsCode": "DP53004",
     "offenceCategory": "CS",
-    "offenceTitle": "Person in charge of a dog worrying livestock",
+    "offenceTitle": "Person in charge of a dog attacking/worrying livestock",
     "recordableOnPnc": false
   },
   {
@@ -21654,471 +21684,135 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "DS14001",
+    "cjsCode": "DS14079",
     "offenceCategory": "CE",
-    "offenceTitle": "Occupier of premises for swine fail to notify authority of change in occupation",
+    "offenceTitle": "Occupier fail to comply with conditions following classical swine fever in feral pig - other than feral pig in England",
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "DS14002",
+    "cjsCode": "DS14080",
     "offenceCategory": "CE",
-    "offenceTitle": "New occupier of premises fail to allow keeper of restricted pigs to enter during period of control or restriction",
+    "offenceTitle": "Vaccinate domestic pig - other than in England - without authority of licence to do so or in accordance with Part 7",
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "DS14003",
+    "cjsCode": "DS14081",
     "offenceCategory": "CE",
-    "offenceTitle": "Fail to notify authority of pig or carcase infected with disease",
+    "offenceTitle": "Vaccinate domestic pig in England without authority of licence to do so or in accordance with Part 7",
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "DS14004",
+    "cjsCode": "DS14082",
     "offenceCategory": "CE",
-    "offenceTitle": "Examiner fail to notify authority that pig or carcase infected with disease or antibodies to, or antigens of, disease",
+    "offenceTitle": "Collect semen, embryos or ova from seropositive pigs following confirmation of classical swine fever (Wales)",
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "DS14005",
+    "cjsCode": "DS14083",
     "offenceCategory": "CE",
-    "offenceTitle": "Occupier informed by vet of investigation into pig infection fail to comply with initial measures",
+    "offenceTitle": "Collect semen, embryos or ova from seropositive pigs following confirmation of classical or African swine fever (Eng)",
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "DS14006",
+    "cjsCode": "DS14084",
     "offenceCategory": "CE",
-    "offenceTitle": "Occupier informed by vet of investigation into feral pig infection fail to comply with initial measures",
+    "offenceTitle": "Move pig from premises within emergency vaccination zone following confirmation of classical swine fever (Wales)",
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "DS14007",
+    "cjsCode": "DS14085",
     "offenceCategory": "CE",
-    "offenceTitle": "Move pig from premises in temporary control zone other than in accordance with licence",
+    "offenceTitle": "Move pig from premises in emergency vaccination zone following confirmation of classical or African swine fever (Eng)",
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "DS14008",
+    "cjsCode": "DS14086",
     "offenceCategory": "CE",
-    "offenceTitle": "Slaughterhouse operator fail to destroy pig carcase and offal following disease infection",
+    "offenceTitle": "Move pigs from premises within emergency vaccination zone to slaughterhouse following classical swine fever (Wales)",
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "DS14009",
+    "cjsCode": "DS14088",
     "offenceCategory": "CE",
-    "offenceTitle": "Slaughterhouse operator fail to cleanse and disinfect premises, equipment and vehicles following pig disease infection",
+    "offenceTitle": "Slaughterhouse operator fail to separate pig carcases following confirmation of classical swine fever (Wales)",
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "DS14010",
+    "cjsCode": "DS14089",
     "offenceCategory": "CE",
-    "offenceTitle": "Place meat on market from feral pig hunted in feral pig control zone when risk of spread of disease",
+    "offenceTitle": "Slaughterhouse operator fail to separate pig carcases following confirmation of classical or African swine fever (Eng)",
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "DS14011",
+    "cjsCode": "DS14090",
     "offenceCategory": "CE",
-    "offenceTitle": "Occupier fail to comply with conditions following classical swine fever in feral pig",
+    "offenceTitle": "Slaughterhouse operator fail to separate pigs following confirmation of classical swine fever (Wales)",
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "DS14012",
+    "cjsCode": "DS14091",
     "offenceCategory": "CE",
-    "offenceTitle": "Pig keeper fail to comply with measure within declaration zone",
+    "offenceTitle": "Slaughterhouse operator fail to separate pigs following confirmation of classical or African swine fever (Eng)",
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "DS14013",
+    "cjsCode": "DS14092",
     "offenceCategory": "CE",
-    "offenceTitle": "Vaccinate domestic pig without authority of licence to do so or in accordance with Part 7",
+    "offenceTitle": "Use semen, embryos or ova collected from pigs during 30 days prior to vaccination against classical swine fever (Wales)",
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "DS14014",
+    "cjsCode": "DS14093",
     "offenceCategory": "CE",
-    "offenceTitle": "Vaccinate feral pig against disease other than in accordance with regulations",
+    "offenceTitle": "Use semen, embryos or ova collected from pigs during 30 days prior to vaccination (England)",
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "DS14015",
+    "cjsCode": "DS14094",
     "offenceCategory": "CE",
-    "offenceTitle": "Move pigs from premises within emergency vaccination zone following confirmation of classical swine fever",
+    "offenceTitle": "Fail to ensure pig vaccinated against classical swine fever is identified in accordance with instructions (Wales)",
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "DS14016",
+    "cjsCode": "DS14095",
     "offenceCategory": "CE",
-    "offenceTitle": "Slaughterhouse operator fail to separate pigs following confirmation of classical swine fever",
+    "offenceTitle": "Fail to ensure pig vaccinated against classical or African swine fever is identified according to instructions (Eng)",
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "DS14017",
+    "cjsCode": "DS14096",
     "offenceCategory": "CE",
-    "offenceTitle": "Slaughterhouse operator fail to separate pig carcases following confirmation of classical swine fever",
+    "offenceTitle": "Fail to keep record that pig vaccinated against classical swine fever (Wales)",
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "DS14018",
+    "cjsCode": "DS14097",
     "offenceCategory": "CE",
-    "offenceTitle": "Move pig from premises within emergency vaccination zone following confirmation of classical swine fever",
+    "offenceTitle": "Fail to keep record that pig vaccinated against classical or African swine fever (Eng)",
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "DS14019",
+    "cjsCode": "DS14098",
     "offenceCategory": "CE",
-    "offenceTitle": "Collect semen, embryos or ova from seropositive pigs following confirmation of classical swine fever",
+    "offenceTitle": "Keeper of pig vaccinated against classical swine fever slaughtered other than at designated slaughterhouse (Wales)",
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "DS14020",
+    "cjsCode": "DS14099",
     "offenceCategory": "CE",
-    "offenceTitle": "Use semen, embryos or ova collected from pigs during 30 days prior to vaccination against classical swine fever",
+    "offenceTitle": "Keeper of pig vaccinated against classical or African swine fever slaughtered other than at designated slaughterhouse",
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "DS14021",
+    "cjsCode": "DS14100",
     "offenceCategory": "CE",
-    "offenceTitle": "Fail to ensure pig vaccinated against classical swine fever is identified in accordance with instructions",
+    "offenceTitle": "Move pig from outside emergency vaccination zone following confirmation of swine vesicular disease (Wales)",
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "DS14022",
+    "cjsCode": "DS14101",
     "offenceCategory": "CE",
-    "offenceTitle": "Fail to keep record that pig vaccinated against classical swine fever",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14023",
-    "offenceCategory": "CE",
-    "offenceTitle": "Keeper of pig vaccinated against classical swine fever that is slaughtered other than at designated slaughterhouse",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14024",
-    "offenceCategory": "CE",
-    "offenceTitle": "Fail to ensure pig vaccinated against swine vesicular disease is identified in accordance with instructions",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14025",
-    "offenceCategory": "CE",
-    "offenceTitle": "Fail to keep record that pig vaccinated against swine vesicular disease",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14026",
-    "offenceCategory": "CE",
-    "offenceTitle": "Move pig from premises in emergency vaccination zone following confirmation of swine vesicular disease",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14027",
-    "offenceCategory": "CE",
-    "offenceTitle": "Slaughterhouse operator fail to separate pigs following confirmation of swine vesicular disease",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14028",
-    "offenceCategory": "CE",
-    "offenceTitle": "Slaughterhouse operator fail to separate pig carcases following confirmation of swine vesicular disease",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14029",
-    "offenceCategory": "CE",
-    "offenceTitle": "Move pig from outside emergency vaccination zone following confirmation of swine vesicular disease",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14030",
-    "offenceCategory": "CE",
-    "offenceTitle": "Fail to comply with notice served given or displayed under Diseases of Swine Regulations",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14031",
-    "offenceCategory": "CE",
-    "offenceTitle": "Fail to comply with condition of licence under Diseases of Swine Regulations",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14032",
-    "offenceCategory": "CE",
-    "offenceTitle": "Intentionally obstruct or impede person acting in execution or enforcement of Diseases of Swine Regulations",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14033",
-    "offenceCategory": "CE",
-    "offenceTitle": "Fail to give assistance or information to person acting in execution or enforcement of Diseases of Swine Regulations",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14034",
-    "offenceCategory": "CE",
-    "offenceTitle": "Provide false or misleading information to person acting in execution or enforcement of Diseases of Swine Regulations",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14035",
-    "offenceCategory": "CE",
-    "offenceTitle": "Fail to produce record to person acting in execution or enforcement of Diseases of Swine Regulations",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14036",
-    "offenceCategory": "CE",
-    "offenceTitle": "Occupier fail to keep record of number of pigs on infected premises",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14037",
-    "offenceCategory": "CE",
-    "offenceTitle": "Occupier fail to update record of number of live/dead/ill pigs on infected premises",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14038",
-    "offenceCategory": "CE",
-    "offenceTitle": "Occupier fail to keep record of pigs on infected premises for six months",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14039",
-    "offenceCategory": "CE",
-    "offenceTitle": "Occupier fail to ensure that pigs on infected premises are confined or isolated",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14040",
-    "offenceCategory": "CE",
-    "offenceTitle": "Move pigs or carcases off suspected infected premises without licence to do so",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14041",
-    "offenceCategory": "CE",
-    "offenceTitle": "Remove equipment or animal off suspected infected premises without licence to do so",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14042",
-    "offenceCategory": "CE",
-    "offenceTitle": "Spread pig manure or slurry on infected premises without licence to do so",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14043",
-    "offenceCategory": "CE",
-    "offenceTitle": "Occupier fail to provide means of cleansing and disinfection to infected premises",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14044",
-    "offenceCategory": "CE",
-    "offenceTitle": "Enter, leave or move vehicle to or from infected premises without licence to do so",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14045",
-    "offenceCategory": "CE",
-    "offenceTitle": "Person entering or leaving infected premises fail to observe appropriate biosecurity measures",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14046",
-    "offenceCategory": "CE",
-    "offenceTitle": "Occupier fail to report location of carcase of feral pig in Feral Pig Investigation or Control Zone",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14047",
-    "offenceCategory": "CE",
-    "offenceTitle": "Occupier move carcase of feral pig in Feral Pig Investigation or Control Zone without licence",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14048",
-    "offenceCategory": "CE",
-    "offenceTitle": "Occupier fail to ensure domestic pig isolated from feral pig following classical/African swine fever",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14049",
-    "offenceCategory": "CE",
-    "offenceTitle": "Occupier fail to ensure no one moves pig on/off premises following classical/African swine fever in feral pig",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14050",
-    "offenceCategory": "CE",
-    "offenceTitle": "Occupier fail to ensure appropriate cleansing/disinfection following classical/African swine fever in feral pig",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14051",
-    "offenceCategory": "CE",
-    "offenceTitle": "Occupier fail to ensure observance of appropriate biosecurity following classical/African swine fever in feral pig",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14052",
-    "offenceCategory": "CE",
-    "offenceTitle": "Occupier fail to ensure vector control carried out following classical/African swine fever in feral pig",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14053",
-    "offenceCategory": "CE",
-    "offenceTitle": "Occupier of premises fail to ensure isolation of pigs following confirmation of swine vesicular disease in feral pig",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14054",
-    "offenceCategory": "CE",
-    "offenceTitle": "Occupier fail to ensure no one moves pig on/off premises following swine vesicular disease in feral pig",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14055",
-    "offenceCategory": "CE",
-    "offenceTitle": "Occupier fail to ensure appropriate cleansing/disinfection following swine vesicular disease in feral pig",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14056",
-    "offenceCategory": "CE",
-    "offenceTitle": "Occupier fail to ensure all persons observe appropriate biosecurity following swine vesicular disease in feral pig",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14057",
-    "offenceCategory": "CE",
-    "offenceTitle": "Occupier fail to ensure vector control carried out following swine vesicular disease in feral pig",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14058",
-    "offenceCategory": "CE",
-    "offenceTitle": "Move pig semen, ova or embryos off premises following classical/African swine fever in feral pig",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14059",
-    "offenceCategory": "CE",
-    "offenceTitle": "Kill feral pig in feral pig investigation or control zone when not licensed to do so",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14060",
-    "offenceCategory": "CE",
-    "offenceTitle": "Feed feral pig in investigation or control zone other than in accordance with licence",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14061",
-    "offenceCategory": "CE",
-    "offenceTitle": "Move pig in protection zone following confirmation of disease in domestic pigs",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14062",
-    "offenceCategory": "CE",
-    "offenceTitle": "Move animal that may carry disease on or off premises in pig protection zone",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14063",
-    "offenceCategory": "CE",
-    "offenceTitle": "Move thing liable to transmit disease off premises within pig protection zone other than under licence",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14064",
-    "offenceCategory": "CE",
-    "offenceTitle": "Transport manure or slurry containing waste material of swine origin off premises in pig protection zone",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14065",
-    "offenceCategory": "CE",
-    "offenceTitle": "Spread manure or slurry containing waste material of swine origin other than under licence in pig protection zone",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14066",
-    "offenceCategory": "CE",
-    "offenceTitle": "Keeper fail to report all dead or diseased pigs in pig protection zone to the appropriate authority",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14067",
-    "offenceCategory": "CE",
-    "offenceTitle": "Move pig through surveillance zone",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14068",
-    "offenceCategory": "CE",
-    "offenceTitle": "Move animal that may carry disease on to or off premises in pig surveillance zone",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14069",
-    "offenceCategory": "CE",
-    "offenceTitle": "Move thing liable to transmit disease off premises in pig surveillance zone",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14070",
-    "offenceCategory": "CE",
-    "offenceTitle": "Transport manure or slurry containing waste material of swine origin off premises in pig surveillance zone",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14071",
-    "offenceCategory": "CE",
-    "offenceTitle": "Spread manure or slurry containing waste material of swine origin other than under licence in pig surveillance zone",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14072",
-    "offenceCategory": "CE",
-    "offenceTitle": "Keeper fail to report all dead or diseased pigs to the appropriate authority in pig surveillance zone",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14073",
-    "offenceCategory": "CE",
-    "offenceTitle": "Leave premises in pig protection zone without cleansing and disinfecting vehicle",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14074",
-    "offenceCategory": "CE",
-    "offenceTitle": "Fail to cleanse and disinfect vehicle in pig protection zone",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14075",
-    "offenceCategory": "CE",
-    "offenceTitle": "Allow vehicle to leave pig protection zone without being inspected and licensed to leave by inspector",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14076",
-    "offenceCategory": "CE",
-    "offenceTitle": "Leave premises in pig surveillance zone without cleansing and disinfecting vehicle",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14077",
-    "offenceCategory": "CE",
-    "offenceTitle": "Fail to cleanse and disinfect vehicle in pig surveillance zone",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "DS14078",
-    "offenceCategory": "CE",
-    "offenceTitle": "Fail to arrange for cleansing and disinfection of vehicle transporting pig outside protection or surveillance zone",
+    "offenceTitle": "Move pig from outside emergency vaccination zone following confirmation of swine vesicular disease (England)",
     "recordableOnPnc": true
   },
   {
@@ -22455,24 +22149,6 @@
     "cjsCode": "EA73004",
     "offenceCategory": "CE",
     "offenceTitle": "Employment business request / receive fee from 2nd person for finding / seeking to find 3rd person employment",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "EA73005",
-    "offenceCategory": "CS",
-    "offenceTitle": "Obstruct an officer in the exercise of a power under s. 9 of the Employment Agencies Act 1973",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "EA73006",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to comply with requirement under s. 9 of the Employment Agencies Act 1973",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "EA73007",
-    "offenceCategory": "CS",
-    "offenceTitle": "Disclose information obtained in the exercise of s.9 powers / pursuant to s.15(5A) National Minimum Wage Act 1998",
     "recordableOnPnc": false
   },
   {
@@ -24136,6 +23812,12 @@
     "offenceCategory": "CE",
     "offenceTitle": "Knowingly cause / permit person to operate a regulated facility without authorisation of environmental permit",
     "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "EP16501",
+    "offenceCategory": "VP",
+    "offenceTitle": "Application to extend / further extend remediation order",
+    "recordableOnPnc": false
   },
   {
     "cjsCode": "EP17001",
@@ -26154,6 +25836,12 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "FA06005A",
+    "offenceCategory": "CE",
+    "offenceTitle": "Attempt to make / supply article for use in fraud - Fraud Act 2006",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "FA06005B",
     "offenceCategory": "CE",
     "offenceTitle": "Aid abet counsel and procure a person in the making / supplying of an article for use in fraud",
@@ -26835,6 +26523,12 @@
     "cjsCode": "FC81028",
     "offenceCategory": "CE",
     "offenceTitle": "Custody / control a thing knowing it was a counterfeit currency note - Forgery and Counterfeiting Act 1981",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "FC81028A",
+    "offenceCategory": "CE",
+    "offenceTitle": "Attempt to possess / control a thing knowing it was a counterfeit currency note - Forgery and Counterfeiting Act 1981",
     "recordableOnPnc": true
   },
   {
@@ -29220,6 +28914,12 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "FO91007",
+    "offenceCategory": "CS",
+    "offenceTitle": "Enter / attempt to enter premises for purpose of attending football match without valid ticket",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "FP21001",
     "offenceCategory": "CS",
     "offenceTitle": "Fail to comply with improvement notice re: food promotion and placement in England regs",
@@ -30231,24 +29931,6 @@
     "cjsCode": "GA04005",
     "offenceCategory": "CS",
     "offenceTitle": "Enter into arrangement to be supplied with workers / services - Gangmasters Act",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "GA04006",
-    "offenceCategory": "CS",
-    "offenceTitle": "Intentionally obstruct an enforcement / compliance officer in exercise of functions - Gangmasters Act",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "GA04007",
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to comply with requirement of an enforcement / compliance officer - Gangmasters Act",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "GA04008",
-    "offenceCategory": "CS",
-    "offenceTitle": "Make false statement to an enforcement / compliance officer - Gangmasters Act",
     "recordableOnPnc": true
   },
   {
@@ -34662,18 +34344,6 @@
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "HO04003",
-    "offenceCategory": "CS",
-    "offenceTitle": "Controller / manager of house in multiple occupation act without a section 61(1) licence",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "HO04003B",
-    "offenceCategory": "CS",
-    "offenceTitle": "Aid / abet controller / manager of house in multiple occupation to act without a section 61(1) licence",
-    "recordableOnPnc": false
-  },
-  {
     "cjsCode": "HO04004",
     "offenceCategory": "CS",
     "offenceTitle": "Controller / manager of licensed multi occupation house knowingly permit unauthorised occupation",
@@ -34683,12 +34353,6 @@
     "cjsCode": "HO04005",
     "offenceCategory": "CS",
     "offenceTitle": "Licence holder / person restricted by licence of multi occupation house fail to comply with licence conditions",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "HO04006",
-    "offenceCategory": "CS",
-    "offenceTitle": "Controller / manager of residential accommodation required to be licensed under Part 3 of the Act",
     "recordableOnPnc": false
   },
   {
@@ -34767,6 +34431,42 @@
     "cjsCode": "HO04019",
     "offenceCategory": "CS",
     "offenceTitle": "Fail to comply with an emergency housing prohibition order",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "HO04020",
+    "offenceCategory": "CS",
+    "offenceTitle": "Controller / manager / landlord etc of house in multiple occupation act without a section 61(1) licence",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "HO04020B",
+    "offenceCategory": "CS",
+    "offenceTitle": "Aid / abet controller / manager / landlord etc of house in multiple occupation to act without a section 61(1) licence",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "HO04021",
+    "offenceCategory": "CS",
+    "offenceTitle": "Landlord / licensor with superior interest of HMO act without a section 61(1) licence",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "HO04021B",
+    "offenceCategory": "CS",
+    "offenceTitle": "Aid / abet landlord / licensor of superior interest house in multiple occupation to act without a section 61(1) licence",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "HO04022",
+    "offenceCategory": "CS",
+    "offenceTitle": "Controller / manager / landlord etc of residential accommodation required to be licensed under Part 3 of the Act",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "HO04023",
+    "offenceCategory": "CS",
+    "offenceTitle": "Landlord / licensor with superior interest in residential accommodation required to be licensed under Part 3 of the Act",
     "recordableOnPnc": false
   },
   {
@@ -34900,6 +34600,12 @@
     "offenceCategory": "CS",
     "offenceTitle": "Breach of banning order - Housing and Planning Act 2016",
     "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "HO16003",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with providing information to local housing authority - Banning Order S.19 Housing and Planning Act",
+    "recordableOnPnc": false
   },
   {
     "cjsCode": "HO85001",
@@ -37353,12 +37059,6 @@
     "cjsCode": "IM14004",
     "offenceCategory": "CE",
     "offenceTitle": "Agent responsible for post-grant contravention in relation to residential tenancy agreement",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "IM16001",
-    "offenceCategory": "CE",
-    "offenceTitle": "Fail to comply with an Labour Market Enforcement order",
     "recordableOnPnc": true
   },
   {
@@ -41976,6 +41676,24 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "LH75001",
+    "offenceCategory": "CS",
+    "offenceTitle": "Driver of a hackney carriage plying for hire fail to proceed with reasonable speed to a carriage stand",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "LH75002",
+    "offenceCategory": "CS",
+    "offenceTitle": "Driver of a hackney carriage when plying for hire and not actually hired failed to proceed from a fully occupied stand",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "LH75003",
+    "offenceCategory": "CS",
+    "offenceTitle": "Driver of a hackney carriage stationed at a stand not in accordance of the Leeds City Council Hackney Carriages Byelaws",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "LJ22001",
     "offenceCategory": "CS",
     "offenceTitle": "Place aircraft other than in place and position designated - Liverpool Airport",
@@ -43958,31 +43676,31 @@
   {
     "cjsCode": "MA24067",
     "offenceCategory": "CS",
-    "offenceTitle": "Clean, service or maintain aircraft in prohibited area of Manchester Airport",
+    "offenceTitle": "Clean / service / maintain aircraft in prohibited area of Manchester Airport",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "MA24068",
     "offenceCategory": "CS",
-    "offenceTitle": "Move aircraft over roads or movement areas of Manchester Airport without consent",
+    "offenceTitle": "Move / cause to be moved aircraft over roads or movement areas of Manchester Airport without consent",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "MA24069",
     "offenceCategory": "CS",
-    "offenceTitle": "Operate use move or disturb Manchester Airport equipment without consent",
+    "offenceTitle": "Operate / use / move / disturb Manchester Airport equipment without consent",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "MA24070",
     "offenceCategory": "CS",
-    "offenceTitle": "Cause or permit fire to occur at Manchester Airport",
+    "offenceTitle": "Cause or permit fire to occur at Manchester Airport by act / omission",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "MA24071",
     "offenceCategory": "CS",
-    "offenceTitle": "Fill or discharge liquid fuel at Manchester Airport other than in approved place",
+    "offenceTitle": "Fill / discharge liquid fuel at Manchester Airport other than in approved place",
     "recordableOnPnc": false
   },
   {
@@ -43994,43 +43712,43 @@
   {
     "cjsCode": "MA24073",
     "offenceCategory": "CS",
-    "offenceTitle": "Cause or permit discharge of deleterious matter at Manchester Airport likely to obstruct drains sewers etc",
+    "offenceTitle": "Cause / permit discharge of deleterious matter at Manchester Airport likely to obstruct drains / sewers etc",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "MA24074",
     "offenceCategory": "CS",
-    "offenceTitle": "Fail to comply with sign prohibiting or restricting access to part of Manchester Airport",
+    "offenceTitle": "Fail to comply with sign prohibiting / restricting access to part of Manchester Airport",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "MA24075",
     "offenceCategory": "CS",
-    "offenceTitle": "Climb wall, fence, barrier or post within Manchester Airport",
+    "offenceTitle": "Climb wall / fence / barrier / post within Manchester Airport",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "MA24076",
     "offenceCategory": "CS",
-    "offenceTitle": "Cut, damage or destroy wall, fence, barrier or post located on or within Manchester Airport",
+    "offenceTitle": "Cut / damage / destroy wall, fence, barrier, post or railing located on or within Manchester Airport",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "MA24077",
     "offenceCategory": "CS",
-    "offenceTitle": "Sing, dance, play instrument so as to cause annoyance at Manchester Airport",
+    "offenceTitle": "Sing / dance / play instrument so as to cause annoyance at Manchester Airport",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "MA24078",
     "offenceCategory": "CS",
-    "offenceTitle": "Erect or use apparatus for transmission at Manchester Airport",
+    "offenceTitle": "Erect / use apparatus for transmission at Manchester Airport",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "MA24079",
     "offenceCategory": "CS",
-    "offenceTitle": "Place building, structure, equipment, vehicle or container within three metres of Manchester Airport restricted area",
+    "offenceTitle": "Place building / structure / equipment / vehicle / container within three metres of Manchester Airport restricted area",
     "recordableOnPnc": false
   },
   {
@@ -44042,7 +43760,7 @@
   {
     "cjsCode": "MA24081",
     "offenceCategory": "CS",
-    "offenceTitle": "Drove vehicle elsewhere than in place provided for passage or accommodation at Manchester Airport",
+    "offenceTitle": "Drove vehicle airside elsewhere than in place provided for passage or accommodation at Manchester Airport",
     "recordableOnPnc": false
   },
   {
@@ -44066,31 +43784,31 @@
   {
     "cjsCode": "MA24085",
     "offenceCategory": "CS",
-    "offenceTitle": "Sell or distribute thing or services for reward at Manchester Airport",
+    "offenceTitle": "Sell / distribute thing / services for reward at Manchester Airport",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "MA24086",
     "offenceCategory": "CS",
-    "offenceTitle": "Post, distribute or display advert, display, sign or circular at Manchester Airport except on authorised premises",
+    "offenceTitle": "Post / distribute / display advert, display, sign or circular at Manchester Airport except on authorised premises",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "MA24087",
     "offenceCategory": "CS",
-    "offenceTitle": "Beg or solicit funds or contributions at Manchester Airport",
+    "offenceTitle": "Beg / solicit funds / contributions at Manchester Airport",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "MA24088",
     "offenceCategory": "CS",
-    "offenceTitle": "Bookmaking, gaming, betting or wagering at Manchester Airport",
+    "offenceTitle": "Bookmaking / gaming / betting / wagering at Manchester Airport",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "MA24089",
     "offenceCategory": "CS",
-    "offenceTitle": "Pay, receive or settle bets at Manchester Airport",
+    "offenceTitle": "Pay / receive / settle bets at Manchester Airport",
     "recordableOnPnc": false
   },
   {
@@ -44108,7 +43826,7 @@
   {
     "cjsCode": "MA24092",
     "offenceCategory": "CS",
-    "offenceTitle": "Create graffiti upon wall, structure, floor pavement or surface at Manchester Airport",
+    "offenceTitle": "Create graffiti upon wall / structure / floor pavement or surface at Manchester Airport",
     "recordableOnPnc": false
   },
   {
@@ -45835,8 +45553,8 @@
   },
   {
     "cjsCode": "MD71179C",
-    "offenceCategory": "CI",
-    "offenceTitle": "Conspired together with others to be concerned in supply of a class A drug",
+    "offenceCategory": "CE",
+    "offenceTitle": "Conspire to supply a class A controlled drug - other",
     "recordableOnPnc": true
   },
   {
@@ -47796,12 +47514,6 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "MH04002",
-    "offenceCategory": "CE",
-    "offenceTitle": "Recruit an individual for a clinical trial without authority",
-    "recordableOnPnc": true
-  },
-  {
     "cjsCode": "MH04003",
     "offenceCategory": "CE",
     "offenceTitle": "In business sell / supply investigational medicinal product for use in a clinical trial in breach of conditions",
@@ -47826,33 +47538,9 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "MH04007",
-    "offenceCategory": "CE",
-    "offenceTitle": "Fail to ensure the investigational medicinal products / devices used were made available free of charge",
-    "recordableOnPnc": true
-  },
-  {
     "cjsCode": "MH04008",
     "offenceCategory": "CE",
     "offenceTitle": "Fail to conduct a clinical trial in accordance with the protocol relating to that trial",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "MH04009",
-    "offenceCategory": "CE",
-    "offenceTitle": "Sponsor fail give written notice of urgent safety measures of pandemic disease / serious risk to human health",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "MH04010",
-    "offenceCategory": "CE",
-    "offenceTitle": "Fail to report a serious adverse event at a trial site immediately to the sponsor",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "MH04011",
-    "offenceCategory": "CE",
-    "offenceTitle": "Fail to make a written report following the report of a serious adverse event at a clinical trial",
     "recordableOnPnc": true
   },
   {
@@ -47865,18 +47553,6 @@
     "cjsCode": "MH04013",
     "offenceCategory": "CE",
     "offenceTitle": "Sponsor fail to keep detailed records of adverse events relating to a clinical trial reported",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "MH04015",
-    "offenceCategory": "CE",
-    "offenceTitle": "Sponsor fail to inform investigator of suspected unexpected serious adverse reactions in a clinical trial",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "MH04017",
-    "offenceCategory": "CE",
-    "offenceTitle": "Sponsor fail to report list of suspected unexpected serious adverse reactions",
     "recordableOnPnc": true
   },
   {
@@ -47895,12 +47571,6 @@
     "cjsCode": "MH04020",
     "offenceCategory": "CE",
     "offenceTitle": "Holder of manufacturing authorisation fail to have at his disposal the services of a qualified person",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "MH04021",
-    "offenceCategory": "CE",
-    "offenceTitle": "Holder of manufacturing authorisation permit unqualified person to act as qualified",
     "recordableOnPnc": true
   },
   {
@@ -47994,12 +47664,6 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "MH04037",
-    "offenceCategory": "CE",
-    "offenceTitle": "Advertise for recruits for a clinical trial without authority",
-    "recordableOnPnc": true
-  },
-  {
     "cjsCode": "MH04038",
     "offenceCategory": "CE",
     "offenceTitle": "Perform functions of a sponsor of clinical trial not in accordance with conditions / good clinical practice principles",
@@ -48015,12 +47679,6 @@
     "cjsCode": "MH04040",
     "offenceCategory": "CE",
     "offenceTitle": "Fail to conduct a clinical trial in accordance with licensing authority conditions",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "MH04041",
-    "offenceCategory": "CE",
-    "offenceTitle": "Sponsor fail give written notice of urgent safety measures",
     "recordableOnPnc": true
   },
   {
@@ -48060,12 +47718,6 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "MH04048",
-    "offenceCategory": "CE",
-    "offenceTitle": "Sponsor fail to ensure the recording and reporting of suspected unexpected serious adverse reactions in a clinical trial",
-    "recordableOnPnc": true
-  },
-  {
     "cjsCode": "MH04049",
     "offenceCategory": "CE",
     "offenceTitle": "Sponsor fail to report suspected unexpected serious adverse reactions in another country to the licensing authority",
@@ -48081,6 +47733,78 @@
     "cjsCode": "MH04051",
     "offenceCategory": "CE",
     "offenceTitle": "Without authority manufacture / assemble POC investigational medicinal product",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MH04052",
+    "offenceCategory": "CE",
+    "offenceTitle": "Sponsor fail to ensure the reporting of suspected unexpected serious adverse reactions in a clinical trial",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MH04053",
+    "offenceCategory": "CE",
+    "offenceTitle": "Holder of manufacturing authorisation permit unqualified person to act as qualified",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MH04054",
+    "offenceCategory": "CE",
+    "offenceTitle": "Sponsor fail to report on the safety of the participants of clinical trials of investigational medicinal products",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MH04055",
+    "offenceCategory": "CE",
+    "offenceTitle": "Provide false / misleading material to licensing authority / ethics committee in modification of important detail",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MH04056",
+    "offenceCategory": "CE",
+    "offenceTitle": "Provide false / misleading material to licensing authority / ethics committee in making a modification request",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MH04057",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to ensure the investigational medicinal products / devices used were made available free of charge",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MH04058",
+    "offenceCategory": "CE",
+    "offenceTitle": "Advertise for recruits for a clinical trial without authority",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MH04059",
+    "offenceCategory": "CE",
+    "offenceTitle": "Recruit an individual for a clinical trial without authority",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MH04060",
+    "offenceCategory": "CE",
+    "offenceTitle": "Sponsor fail give written notice of urgent safety measures",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MH04061",
+    "offenceCategory": "CE",
+    "offenceTitle": "Sponsor fail give written notice of urgent safety measures of pandemic disease / serious risk to human health",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MH04062",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to report a serious adverse event at a trial site immediately to the sponsor",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MH04063",
+    "offenceCategory": "CE",
+    "offenceTitle": "Fail to make a written report following the report of a serious adverse event at a clinical trial",
     "recordableOnPnc": true
   },
   {
@@ -49047,6 +48771,12 @@
     "cjsCode": "MR14010",
     "offenceCategory": "CS",
     "offenceTitle": "Unauthorised item on the Merseyrail railway",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "MR14024",
+    "offenceCategory": "CS",
+    "offenceTitle": "Enter part of the railway other than on foot Merseyrail Railway Byelaws 2014",
     "recordableOnPnc": false
   },
   {
@@ -50814,6 +50544,12 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "NI21001",
+    "offenceCategory": "CS",
+    "offenceTitle": "Drunk or under the influence of drugs or other intoxicating substances within Newcastle Airport",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "NL93001",
     "offenceCategory": "CE",
     "offenceTitle": "National lottery - sell ticket to person under 16",
@@ -51576,18 +51312,6 @@
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "NW98005",
-    "offenceCategory": "CE",
-    "offenceTitle": "Intentionally delay / obstruct an officer in the exercise of a power conferred by the National Minimum Wage Act 1998",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "NW98006",
-    "offenceCategory": "CE",
-    "offenceTitle": "Refuse / neglect to answer a question / furnish information / produce document required under s.14",
-    "recordableOnPnc": false
-  },
-  {
     "cjsCode": "NY91001",
     "offenceCategory": "CS",
     "offenceTitle": "Carry on the business of a dealer in second-hand goods when not registered with the County Council",
@@ -51966,18 +51690,6 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "OF61107",
-    "offenceCategory": "CI",
-    "offenceTitle": "Procure own miscarriage by poison / use of instrument",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "OF61108",
-    "offenceCategory": "CI",
-    "offenceTitle": "Procure miscarriage of woman by poison / instrument",
-    "recordableOnPnc": true
-  },
-  {
     "cjsCode": "OF61108A",
     "offenceCategory": "CI",
     "offenceTitle": "Attempt to procure miscarriage of woman by poison / instrument",
@@ -52137,6 +51849,12 @@
     "cjsCode": "OF61131B",
     "offenceCategory": "CE",
     "offenceTitle": "Aid and abet another to wound / inflict grievous bodily harm without intent",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "OF61134",
+    "offenceCategory": "CI",
+    "offenceTitle": "Procure miscarriage of woman by poison / instrument",
     "recordableOnPnc": true
   },
   {
@@ -52365,12 +52083,6 @@
     "cjsCode": "OS23006",
     "offenceCategory": "CE",
     "offenceTitle": "Encourage or assist serious self-harm by another",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "OS23007",
-    "offenceCategory": "CE",
-    "offenceTitle": "Knowingly / recklessly provide false information in a material respect relating to s66 Online Safety Act 2023",
     "recordableOnPnc": true
   },
   {
@@ -55034,7 +54746,7 @@
   {
     "cjsCode": "PE77001",
     "offenceCategory": "CE",
-    "offenceTitle": "Deprive/displace residential occupier from premises",
+    "offenceTitle": "Deprive / displace residential occupier from premises",
     "recordableOnPnc": true
   },
   {
@@ -55106,7 +54818,7 @@
   {
     "cjsCode": "PE77010",
     "offenceCategory": "CE",
-    "offenceTitle": "Landlord/agent harass occupier to give up premises",
+    "offenceTitle": "Landlord / agent harass occupier to give up premises",
     "recordableOnPnc": true
   },
   {
@@ -59114,19 +58826,19 @@
   {
     "cjsCode": "PT97001",
     "offenceCategory": "CS",
-    "offenceTitle": "Fishing within the controlled area of Portland Harbour",
+    "offenceTitle": "Fish within Portland Harbour",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "PT97002",
     "offenceCategory": "CS",
-    "offenceTitle": "Diving or swimming underwater in the specified area of Portland Harbour",
+    "offenceTitle": "Dive / swim underwater in specified area of Portland Harbour",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "PT97003",
     "offenceCategory": "CS",
-    "offenceTitle": "Land on breakwaters of Portland Harbour",
+    "offenceTitle": "Fail to comply with a direction issued by the Harbour Master",
     "recordableOnPnc": false
   },
   {
@@ -59138,7 +58850,7 @@
   {
     "cjsCode": "PT97005",
     "offenceCategory": "CS",
-    "offenceTitle": "Fished with surface nets in the inner harbour of Portland Harbour without the written permission of the Harbour Master",
+    "offenceTitle": "Fish in Newton's Cove",
     "recordableOnPnc": false
   },
   {
@@ -59742,6 +59454,18 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "PU86159",
+    "offenceCategory": "CE",
+    "offenceTitle": "On account of persons sex use threatening / abusive / insulting words / behaviour to cause harassment / alarm / distress",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "PU86160",
+    "offenceCategory": "CE",
+    "offenceTitle": "Display any writing / sign / visible representation with intent to cause harassment / alarm or distress based on sex",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "PV09001",
     "offenceCategory": "CS",
     "offenceTitle": "Remove / attempt to remove an immobilisation device fixed to a vehicle under reg 5(1) otherwise than under reg 5(2)",
@@ -59763,6 +59487,18 @@
     "cjsCode": "PV09004",
     "offenceCategory": "CE",
     "offenceTitle": "Make a false / misleading declaration that a vehicle was not / had not been used to secure its return under reg 14",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PV26002",
+    "offenceCategory": "CS",
+    "offenceTitle": "London pedicab vehicle licence holder fail to maintain policy of insurance to carry passengers for hire or reward",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PV26004",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with condition attached to London pedicab vehicle licence",
     "recordableOnPnc": false
   },
   {
@@ -67872,6 +67608,18 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "RS19016",
+    "offenceCategory": "CE",
+    "offenceTitle": "Make luxury goods available for use in Russia",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "RS19017",
+    "offenceCategory": "CE",
+    "offenceTitle": "Designated person dealt with funds or economic resources in contravention of Russia (Sanctions) (EU Exit) Regs 2019",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "RS84002",
     "offenceCategory": "CS",
     "offenceTitle": "Failing to comply with requirement of certifying officer or PSV examiner relating to use of PSV for international carr",
@@ -74544,27 +74292,9 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "SS92036",
-    "offenceCategory": "CE",
-    "offenceTitle": "Dishonestly make a false statement to obtain a benefit / advantage / payment",
-    "recordableOnPnc": true
-  },
-  {
     "cjsCode": "SS92036B",
     "offenceCategory": "CE",
     "offenceTitle": "Aid / abet a dishonest false statement / representation to obtain social security benefit / advantage / payment",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "SS92037",
-    "offenceCategory": "CE",
-    "offenceTitle": "Dishonestly produce / furnish a false statement / representation to obtain social security benefit / advantage / payment",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "SS92038",
-    "offenceCategory": "CE",
-    "offenceTitle": "Dishonestly cause production of false statement / representation to obtain social security benefit / advantage / payment",
     "recordableOnPnc": true
   },
   {
@@ -74650,6 +74380,42 @@
     "offenceCategory": "CS",
     "offenceTitle": "Refuse / neglect to comply with a requirement of section 109BA / 110AA of the Social Security Administration Act 1992",
     "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "SS92050",
+    "offenceCategory": "CE",
+    "offenceTitle": "Dishonestly make a false statement / representation to obtain a benefit / advantage / payment",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "SS92051",
+    "offenceCategory": "CE",
+    "offenceTitle": "Dishonestly produce / furnish a false statement / representation to obtain social security benefit / advantage / payment",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "SS92052",
+    "offenceCategory": "CE",
+    "offenceTitle": "Dishonestly cause production of false document / information to obtain social security benefit / advantage / payment",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "SS92053",
+    "offenceCategory": "CS",
+    "offenceTitle": "Make a false statement to obtain a non-benefit payment",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "SS92054",
+    "offenceCategory": "CS",
+    "offenceTitle": "Produce / furnish document / information false in material particular to obtain non-benefit payment",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "SS92055",
+    "offenceCategory": "CS",
+    "offenceTitle": "Knowingly cause / allow production of document / information false in material particular to obtain non-benefit payment",
+    "recordableOnPnc": true
   },
   {
     "cjsCode": "ST15001",
@@ -76161,6 +75927,12 @@
     "cjsCode": "SX03008A",
     "offenceCategory": "CE",
     "offenceTitle": "Attempt sexual assault on a male person",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "SX03008B",
+    "offenceCategory": "CE",
+    "offenceTitle": "Aid, abet, sexual assault on a male",
     "recordableOnPnc": true
   },
   {
@@ -78150,9 +77922,21 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "SX03250C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspire to share photograph or film of person in intimate state intending to cause alarm distress or humiliation",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "SX03251",
     "offenceCategory": "CE",
     "offenceTitle": "Share photograph or film of person in intimate state for the purpose of sexual gratification",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "SX03251A",
+    "offenceCategory": "CE",
+    "offenceTitle": "Attempt - Share photograph or film of person in intimate state for the purpose of sexual gratification",
     "recordableOnPnc": true
   },
   {
@@ -85071,6 +84855,12 @@
     "cjsCode": "VE02003",
     "offenceCategory": "CM",
     "offenceTitle": "Vehicle Emissions - Driver fail to stop running of engine when required",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "VE03001",
+    "offenceCategory": "CM",
+    "offenceTitle": "Fail to comply with requirement to stop a vehicle engine - Wales",
     "recordableOnPnc": false
   },
   {
