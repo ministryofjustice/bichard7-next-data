@@ -34,6 +34,9 @@ jobs:
       - name: Install dependencies
         run: npm ci --ignore-scripts
 
+      - name: Install Chrome for Puppeteer
+        run: npx puppeteer browsers install
+
       - name: Download offence code data files
         run: npm run download-offence-code-data
 
