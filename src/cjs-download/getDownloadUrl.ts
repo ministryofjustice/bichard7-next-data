@@ -10,6 +10,10 @@ export default (downloadLinkRegex: RegExp): Promise<string> =>
     responseType: "text"
   })
     .then((response) => response.data)
+    .catch((error) => {
+      console.error(`Failed to download URL: ${error.message}`)
+      process.exit(1)
+    })
     .then((xhtml) => {
       const regexResult = downloadLinkRegex.exec(xhtml)
       if (regexResult) {
