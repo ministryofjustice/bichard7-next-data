@@ -6,9 +6,12 @@ import PnldFileDownloader from "./PnldFileDownloader"
 import processPnldFiles from "./processPnldFiles"
 
 export default async () => {
-  for (let i = 0; i < 5; i++) {
+  const maxRetries = 5
+  let retries = 1
+
+  while (retries <= maxRetries) {
     try {
-      console.log("Downloading PNLD data")
+      console.log(`Downloading PNLD data - attempt ${retries} of ${maxRetries}`)
       const downloader = new PnldFileDownloader(config)
       const files = await downloader.download()
       const records = await processPnldFiles(files)
@@ -23,5 +26,11 @@ export default async () => {
       console.error("Error downloading PNLD data")
       console.error(e)
     }
+
+    retries += 1
+  }
+
+  if (retries >= maxRetries) {
+    throw new Error("Failed to download PNLD data")
   }
 }
