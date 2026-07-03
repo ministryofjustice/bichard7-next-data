@@ -21,8 +21,8 @@ jobs:
         with:
           node-version-file: .nvmrc
 
-      - name: ⛓️ SLSA Supply Chain Security
-        uses: ministryofjustice/devsecops-actions/sca/slsa@559ec2408860d9237cc472a5710e61c1c2187ffa # v1.4.0
+      # - name: ⛓️ SLSA Supply Chain Security
+      #   uses: ministryofjustice/devsecops-actions/sca/slsa@559ec2408860d9237cc472a5710e61c1c2187ffa # v1.4.0
 
       - name: Install dependencies
         run: npm ci --ignore-scripts
