@@ -72,6 +72,9 @@ jobs:
             exit 0
           fi
 
+          git commit -m "Update npm dependencies"
+          git push -f origin "$BRANCH"
+
           # Get existing PR if it exists
           PR_DATA=$(gh pr list --head "$BRANCH" --state open --json number --jq 'length')
 
