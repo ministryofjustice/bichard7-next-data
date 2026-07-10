@@ -249,7 +249,7 @@ jobs:
       - name: Create pull request
         id: cpr
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.GH_ACTION_TOKEN_2026 }}
         run: |
           BRANCH="auto/update-standing-data"
 
@@ -335,7 +335,7 @@ jobs:
       - name: Create pull request
         id: cpr
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.GH_ACTION_TOKEN_2026 }}
         run: |
           BRANCH="auto/update-standing-data"
 
