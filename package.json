@@ -43,7 +43,7 @@
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-jest": "^28.14.0",
-    "fast-xml-parser": "^5.9.3",
+    "fast-xml-parser": "^5.10.1",
     "google-auth-library": "^8.9.0",
     "googleapis": "^173.0.0",
     "husky": "^9.1.7",
