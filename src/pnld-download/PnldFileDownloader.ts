@@ -1,4 +1,3 @@
-/* eslint-disable no-await-in-loop */
 import * as fs from "fs"
 import puppeteer, { ElementHandle, Browser, Page } from "puppeteer"
 import { parse } from "date-fns"
@@ -55,7 +54,6 @@ export default class PnldFileDownloader {
     }
     await fs.promises.mkdir(this.tmpDir, { recursive: true })
     if (this.page) {
-      // eslint-disable-next-line no-underscore-dangle
       await (this.page as any)._client().send("Page.setDownloadBehavior", {
         behavior: "allow",
         downloadPath: this.tmpDir
@@ -132,7 +130,6 @@ export default class PnldFileDownloader {
       await cookiesButton.click()
     }
 
-    // eslint-disable-next-line no-restricted-syntax
     for (const fileLink of fileLinks) {
       if (fileLink.link) {
         fileLink.fileName = await this.downloadFile(fileLink.link)

@@ -18,7 +18,6 @@ const backFillThirdLevelPsaCode = (
         matchingValues(oldRecord.bottomLevelCode, record.bottomLevelCode)
     )
     if (match) {
-      // eslint-disable-next-line no-param-reassign
       record.thirdLevelPsaCode = match.thirdLevelPsaCode
     } else {
       matchNotFoundForRecords.push(record)

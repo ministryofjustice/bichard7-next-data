@@ -20,7 +20,7 @@ const forceLookup = forces.reduce((acc: Record<string, string>, f) => {
   return acc
 }, {})
 
-const emptyOrInvalidRow = (row: OrganisationUnit | undefined): Boolean => {
+const emptyOrInvalidRow = (row: OrganisationUnit | undefined): boolean => {
   return row === undefined || row.thirdLevelName === undefined || row.thirdLevelName === ""
 }
 
