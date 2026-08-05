@@ -37,9 +37,6 @@
     "@types/lodash": "^4.17.24",
     "axios": "^1.18.1",
     "date-fns": "^4.4.0",
-    "eslint": "9.39.5",
-    "eslint-plugin-import": "^2.32.0",
-    "eslint-plugin-jest": "^29.16.0",
     "fast-xml-parser": "^5.10.1",
     "google-auth-library": "^8.9.0",
     "googleapis": "^173.0.0",
@@ -67,8 +64,12 @@
   "devDependencies": {
     "@types/node": "^26.1.0",
     "@typescript-eslint/eslint-plugin": "^8.65.0",
+    "eslint": "9.39.5",
     "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jest": "^29.16.0",
     "eslint-plugin-prettier": "^5.5.6",
+
     "@typescript-eslint/parser": "^8.65.0"
   }
 }
