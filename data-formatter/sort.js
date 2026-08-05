@@ -1,5 +1,5 @@
-const fs = require("fs")
-const _ = require("lodash")
+import fs from "fs"
+import _ from "lodash"
 
 const jsonData = fs.readFileSync(0, "utf-8")
 const data = JSON.parse(jsonData)

@@ -15,7 +15,7 @@ export type OrganisationUnitData = {
   J: string
 }
 
-const emptyRow = (row: OrganisationUnit | undefined): Boolean => {
+const emptyRow = (row: OrganisationUnit | undefined): boolean => {
   return (
     row === undefined ||
     (row.topLevelCode === undefined &&

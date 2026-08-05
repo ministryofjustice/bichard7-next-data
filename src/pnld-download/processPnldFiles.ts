@@ -1,4 +1,3 @@
-/* eslint-disable no-await-in-loop, no-restricted-syntax */
 import { exec } from "child_process"
 import * as fs from "fs"
 import * as util from "util"
@@ -54,7 +53,7 @@ const processZip = async (file: PnldFile, output: OffenceCodeMap): Promise<void>
     const xmlData = await fs.promises.readFile(xmlFile)
     try {
       const record = await convertXml(xmlData.toString())
-      // eslint-disable-next-line no-param-reassign
+
       output[record.cjsCode] = record
     } catch (e) {
       console.error("Error processing: ", xmlFile)
