@@ -1,4 +1,3 @@
-/* eslint-disable no-await-in-loop */
 import * as fs from "fs"
 import puppeteer, { ElementHandle, Browser, Page } from "puppeteer"
 import { parse } from "date-fns"
@@ -55,8 +54,8 @@ export default class PnldFileDownloader {
     }
     await fs.promises.mkdir(this.tmpDir, { recursive: true })
     if (this.page) {
-      // eslint-disable-next-line no-underscore-dangle
-      await (this.page as any)._client().send("Page.setDownloadBehavior", {
+      const client = await this.page.target().createCDPSession()
+      await client.send("Page.setDownloadBehavior", {
         behavior: "allow",
         downloadPath: this.tmpDir
       })
@@ -116,7 +115,7 @@ export default class PnldFileDownloader {
     const tds = await this.page.$$(".table-responsive table tbody td")
     const rowCount = tds.length / columnCount
     for (let i = 0; i < rowCount * columnCount; i += columnCount) {
-      const date = await tds[i].evaluate((node) => (node as any).innerText)
+      const date = await tds[i].evaluate((node) => (node as HTMLElement).innerText)
       const link = await tds[i + 1].$("a")
       links.push({ date: parse(date, "dd/MM/yy", new Date()), link })
     }
@@ -132,7 +131,6 @@ export default class PnldFileDownloader {
       await cookiesButton.click()
     }
 
-    // eslint-disable-next-line no-restricted-syntax
     for (const fileLink of fileLinks) {
       if (fileLink.link) {
         fileLink.fileName = await this.downloadFile(fileLink.link)

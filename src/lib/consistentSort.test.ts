@@ -9,7 +9,7 @@ describe("consistentSort", () => {
     ]
     const sorted = consistentSort(input)
     expect(JSON.stringify(sorted)).toEqual(
-      "[{\"a\":\"a\",\"b\":\"b\",\"c\":\"c\"},{\"a\":\"b\",\"b\":\"a\",\"c\":\"c\"},{\"a\":\"c\",\"b\":\"b\",\"c\":\"a\"}]"
+      '[{"a":"a","b":"b","c":"c"},{"a":"b","b":"a","c":"c"},{"a":"c","b":"b","c":"a"}]'
     )
   })
 })

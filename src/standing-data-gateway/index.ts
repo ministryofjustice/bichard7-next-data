@@ -12,7 +12,7 @@ export default async () => {
     let tempArray = []
     tempArray = alphaChar.slice(i, i + chunks)
     const promisedTasks = tempArray.map(getOffence)
-    // eslint-disable-next-line no-await-in-loop
+
     allApiResponses.push(await Promise.all(promisedTasks))
   }
 
