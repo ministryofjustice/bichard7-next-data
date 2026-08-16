@@ -10912,12 +10912,30 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "AW06053B",
+    "description": "AW06053B",
+    "homeOfficeClassification": "097/05",
+    "notifiableToHo": true,
+    "offenceCategory": "CE",
+    "offenceTitle": "Aid and abet the causing of / an attempt to cause an animal fight to take place",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "AW06054",
     "description": "AW06054",
     "homeOfficeClassification": "097/05",
     "notifiableToHo": true,
     "offenceCategory": "CE",
     "offenceTitle": "Keep / train an animal for use in connection with an animal fight",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "AW06054B",
+    "description": "AW06054B",
+    "homeOfficeClassification": "097/05",
+    "notifiableToHo": true,
+    "offenceCategory": "CE",
+    "offenceTitle": "Aid and abet the keeping of / training of an animal for use in connection with an animal fight",
     "recordableOnPnc": true
   },
   {
@@ -62647,6 +62665,22 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "LD91002",
+    "description": "LD91002",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with a notice under section 53(1) of the Land Drainage Act 1991",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "LD91003",
+    "description": "LD91003",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Knowingly / recklessly provide false statement in response to a notice under section 53(1) of the Land Drainage Act 1991",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "LD96001",
     "description": "LD96001",
     "homeOfficeClassification": "195/99",
@@ -78621,6 +78655,124 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "NS23046",
+    "description": "NS23046",
+    "homeOfficeClassification": "062/10",
+    "notifiableToHo": true,
+    "offenceCategory": "CI",
+    "offenceTitle": "Unlawfully obtain or disclose protected information",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23047",
+    "description": "NS23047",
+    "homeOfficeClassification": "062/11",
+    "notifiableToHo": true,
+    "offenceCategory": "CI",
+    "offenceTitle": "Unlawfully obtain or disclose trade secrets",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23048",
+    "description": "NS23048",
+    "homeOfficeClassification": "062/14",
+    "notifiableToHo": true,
+    "offenceCategory": "CI",
+    "offenceTitle": "Sabotage",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23049",
+    "description": "NS23049",
+    "homeOfficeClassification": "062/15",
+    "notifiableToHo": true,
+    "offenceCategory": "CI",
+    "offenceTitle": "Engage in prohibited conduct intending to have an interference effect",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23050",
+    "description": "NS23050",
+    "homeOfficeClassification": "062/15",
+    "notifiableToHo": true,
+    "offenceCategory": "CI",
+    "offenceTitle": "Engage in prohibited conduct recklessly having an interference effect",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23051",
+    "description": "NS23051",
+    "homeOfficeClassification": "062/15",
+    "notifiableToHo": true,
+    "offenceCategory": "CI",
+    "offenceTitle": "Engage with others in prohibited conduct intending an interference effect",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23052",
+    "description": "NS23052",
+    "notifiableToHo": true,
+    "offenceCategory": "CI",
+    "offenceTitle": "Invite support for a designated body for prohibited purpose",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23053",
+    "description": "NS23053",
+    "notifiableToHo": true,
+    "offenceCategory": "CI",
+    "offenceTitle": "Address meeting to support / further activities of designated body for prohibited purpose",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23054",
+    "description": "NS23054",
+    "notifiableToHo": true,
+    "offenceCategory": "CI",
+    "offenceTitle": "Arrange / manage meeting to support / further activities of designated body for prohibited purpose",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23055",
+    "description": "NS23055",
+    "notifiableToHo": true,
+    "offenceCategory": "CI",
+    "offenceTitle": "Arrange / manage meeting to be addressed by person belonging to designated body for prohibited purpose",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23056",
+    "description": "NS23056",
+    "notifiableToHo": true,
+    "offenceCategory": "CI",
+    "offenceTitle": "Engage in conduct intending to materially assist a designated body to carry out UK related activities",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23057",
+    "description": "NS23057",
+    "notifiableToHo": true,
+    "offenceCategory": "CI",
+    "offenceTitle": "Engage in conduct likely to materially assist a designated body to carry out UK related activities",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23058",
+    "description": "NS23058",
+    "notifiableToHo": true,
+    "offenceCategory": "CI",
+    "offenceTitle": "Obtain / accept / retain material benefit from designated body",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23059",
+    "description": "NS23059",
+    "notifiableToHo": true,
+    "offenceCategory": "CI",
+    "offenceTitle": "Agree to accept material benefit from a designated body / providion of such benefit to another",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "NS96002",
     "description": "NS96002",
     "homeOfficeClassification": "138/20",
@@ -83366,6 +83518,94 @@
     "notifiableToHo": true,
     "offenceCategory": "CE",
     "offenceTitle": "Fail to comply with an information notice re packaging waste - Wales",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26002",
+    "description": "PD26002",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to return expired / revoked / suspended pedicab driver's licence or other identification to TfL",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26003",
+    "description": "PD26003",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "London pedicab driver's licence holder fail to maintain policy of insurance against public liability risks",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26004",
+    "description": "PD26004",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "London pedicab driver's licence holder fail to possess and produce public liability risk policy for inspection",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26005",
+    "description": "PD26005",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with condition attached to London pedicab driver’s licence",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26006",
+    "description": "PD26006",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to return London pedicab driver’s licence when disqualified by reason of immigration status",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26007",
+    "description": "PD26007",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Obstruct constable / authorised officer acting in exercise of relevant power - Pedicab Drivers (London) Regulations 2026",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26008",
+    "description": "PD26008",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with requirement of constable / authorised officer- Pedicab Drivers (London) Regulations 2026",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26009",
+    "description": "PD26009",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to provide constable / authorised officer assistance or information required - Pedicab Drivers",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26010",
+    "description": "PD26010",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Make false statement to constable / authorised officer - Pedicab Drivers (London) Regulations 2026",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26011",
+    "description": "PD26011",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to wear TfL identification in specified manner when driving pedicab / plying for hire",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26012",
+    "description": "PD26012",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to return TfL identification when requested to do so",
     "recordableOnPnc": false
   },
   {
@@ -101946,6 +102186,14 @@
     "notifiableToHo": false,
     "offenceCategory": "CM",
     "offenceTitle": "Drive on road other than motorway, fail comply with red / green arrow / lane closure light signals - automatic equipment",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "RT88978",
+    "description": "RT88978",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Cause / permit person under age of 14 to drive electrically assisted pedal cycle - RTA 1988",
     "recordableOnPnc": false
   },
   {
@@ -123642,6 +123890,14 @@
     "notifiableToHo": false,
     "offenceCategory": "CS",
     "offenceTitle": "Transporter transported an animal not fit for the intended journey",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "WA06016",
+    "description": "WA06016",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Transport animals in England in way that causes injury/suffering",
     "recordableOnPnc": true
   },
   {
