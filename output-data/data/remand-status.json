@@ -3,42 +3,49 @@
     "cjsCode": "CB",
     "description": "Conditional Bail",
     "pncCode": "B",
+    "ledsCode": "remanded-on-bail",
     "spiCode": "B"
   },
   {
     "cjsCode": "LA",
     "description": "Care",
     "pncCode": "O",
+    "ledsCode": "remanded-in-care",
     "spiCode": "L"
   },
   {
     "cjsCode": "NA",
     "description": "Not Applicable",
     "pncCode": "A",
+    "ledsCode": "adjourned",
     "spiCode": "A"
   },
   {
     "cjsCode": "PB",
     "description": "Custody",
     "pncCode": "C",
+    "ledsCode": "remanded-in-custody",
     "spiCode": "P"
   },
   {
     "cjsCode": "PR",
     "description": "Custody",
     "pncCode": "C",
+    "ledsCode": "remanded-in-custody",
     "spiCode": "C"
   },
   {
     "cjsCode": "SA",
     "description": "Secure Care",
     "pncCode": "O",
+    "ledsCode": "remanded-in-care",
     "spiCode": "S"
   },
   {
     "cjsCode": "UB",
     "description": "Unconditional Bail",
     "pncCode": "B",
+    "ledsCode": "remanded-on-bail",
     "spiCode": "U"
   }
 ]
