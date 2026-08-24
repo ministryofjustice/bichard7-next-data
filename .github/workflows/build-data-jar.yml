@@ -3,9 +3,11 @@ name: Build data jar
 on:
   workflow_dispatch:
   push:
+    branches:
+      - main
   pull_request:
-    types: [opened, synchronize, reopened]
-
+    branches:
+      - main
 
 jobs:
   test:
