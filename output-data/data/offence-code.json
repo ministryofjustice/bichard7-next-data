@@ -50927,7 +50927,7 @@
     "homeOfficeClassification": "097/05",
     "notifiableToHo": true,
     "offenceCategory": "CE",
-    "offenceTitle": "Aid and abet the causing of / an attempt to cause an animal fight to take place",
+    "offenceTitle": "Aid and abet cause / attempted to cause an animal fight to take place",
     "recordableOnPnc": true
   },
   {
@@ -50945,7 +50945,7 @@
     "homeOfficeClassification": "097/05",
     "notifiableToHo": true,
     "offenceCategory": "CE",
-    "offenceTitle": "Aid and abet the keeping of / training of an animal for use in connection with an animal fight",
+    "offenceTitle": "Aid and abet to keep / train an animal for use in connection with an animal fight",
     "recordableOnPnc": true
   },
   {
@@ -143060,7 +143060,7 @@
     "homeOfficeClassification": "000/00",
     "notifiableToHo": false,
     "offenceCategory": "CS",
-    "offenceTitle": "Fail to comply with a notice under section 53(1) of the Land Drainage Act 1991",
+    "offenceTitle": "Fail to comply with a notice under s.53(1) of the Land Drainage Act 1991",
     "recordableOnPnc": false
   },
   {
@@ -193176,12 +193176,39 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "PV26003",
+    "description": "PV26003",
+    "homeOfficeClassification": "000/00",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to return London pedicab vehicle licence to TfL on expiry / surrender / request",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "PV26004",
     "description": "PV26004",
     "homeOfficeClassification": "000/00",
     "notifiableToHo": false,
     "offenceCategory": "CS",
     "offenceTitle": "Fail to comply with condition attached to London pedicab vehicle licence",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PV26005",
+    "description": "PV26005",
+    "homeOfficeClassification": "000/00",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Alter / deface / obscure / remove identification on a pedicab vehicle relating to London pedicab vehicle licence",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PV26006",
+    "description": "PV26006",
+    "homeOfficeClassification": "000/00",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to notify TfL of stolen / lost / damage to pedicab vehicle identification",
     "recordableOnPnc": false
   },
   {
@@ -195357,10 +195384,10 @@
     "cjsCode": "RA88046B",
     "description": "RA88046B",
     "homeOfficeClassification": "000/00",
-    "notifiableToHo": false,
+    "notifiableToHo": true,
     "offenceCategory": "CI",
-    "offenceTitle": "Aid / Abet the causing of death by dangerous driving",
-    "recordableOnPnc": false
+    "offenceTitle": "*****Aid / abet causing death by dangerous driving",
+    "recordableOnPnc": true
   },
   {
     "cjsCode": "RA88047",
@@ -258998,7 +259025,7 @@
     "homeOfficeClassification": "000/00",
     "notifiableToHo": false,
     "offenceCategory": "CS",
-    "offenceTitle": "Transport animals in England in way that causes injury/suffering",
+    "offenceTitle": "Fail to comply with Article 3 of Council Regulation (EC) No 1/2005",
     "recordableOnPnc": true
   },
   {
