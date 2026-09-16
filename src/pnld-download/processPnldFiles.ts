@@ -21,7 +21,7 @@ const unzipFile = async (file: PnldFile, outDir: string): PromiseResult<void> =>
     await fs.promises.rm(outDir, { recursive: true })
   }
   await fs.promises.mkdir(outDir)
-  await execPromise(`unzip -q ${file.fileName} -d ${outDir}`)
+  await execPromise(`unzip -q "${file.fileName}" -d "${outDir}"`)
 }
 
 const getAllFiles = async (startDir: string): Promise<string[]> => {
