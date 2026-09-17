@@ -6415,14 +6415,6 @@
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "AN16364",
-    "description": "AN16364",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator cause or permit unmanned aircraft to be flown without certification",
-    "recordableOnPnc": false
-  },
-  {
     "cjsCode": "AN16365",
     "description": "AN16365",
     "homeOfficeClassification": "155/28",
@@ -6598,326 +6590,6 @@
     "notifiableToHo": false,
     "offenceCategory": "CS",
     "offenceTitle": "Remote pilot fly unmanned aircraft in flight restriction zone without permission",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16385",
-    "description": "AN16385",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Remote pilot flying unmanned aircraft when requirements or authorisation not met",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16386",
-    "description": "AN16386",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of open category flight contravene requirement as to registration",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16387",
-    "description": "AN16387",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of open category flight contravene requirement as to display of registration number",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16388",
-    "description": "AN16388",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of open category flight contravene requirement as to reporting of safety occurrence",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16389",
-    "description": "AN16389",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of open category flight contravene requirement as to designation of remote pilot",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16390",
-    "description": "AN16390",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of open category flight contravene requirement as to competency of remote pilot",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16391",
-    "description": "AN16391",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of open category flight contravene requirement as to geoawareness updates",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16392",
-    "description": "AN16392",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of Article 12 flight contravene requirement as to registration",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16393",
-    "description": "AN16393",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of Article 12 flight contravene requirement as to display of registration number",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16394",
-    "description": "AN16394",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of Article 12 flight contravene requirement as to reporting of safety occurrence",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16395",
-    "description": "AN16395",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of Article 12 flight contravene requirement as to operational procedures and limitations",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16396",
-    "description": "AN16396",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of Article 12 flight contravene requirement as to designation of remote pilot",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16397",
-    "description": "AN16397",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of Article 12 flight contravene requirement as to competence of remote pilot",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16398",
-    "description": "AN16398",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of Article 12 flight contravene requirement as to the operations manual",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16399",
-    "description": "AN16399",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of Article 12 flight contravene requirement as to authorised limitations and conditions",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16401",
-    "description": "AN16401",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of Article 12 flight contravene requirement as to access to records",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16402",
-    "description": "AN16402",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of Article 12 flight contravene requirement as to use of certified equipment",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16403",
-    "description": "AN16403",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of LUC flight contravene requirement as to registration",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16404",
-    "description": "AN16404",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of LUC flight contravene requirement as to display of registration number",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16405",
-    "description": "AN16405",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of LUC flight contravene requirement as to reporting of safety occurrence",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16406",
-    "description": "AN16406",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of LUC flight contravene requirement as to Part B operational procedures",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16407",
-    "description": "AN16407",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of LUC flight contravene requirement as to Part B designation of remote pilot",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16408",
-    "description": "AN16408",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of LUC flight contravene requirement as to Part B competence of remote pilot",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16409",
-    "description": "AN16409",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of LUC flight contravene requirement as to Part B operations manual",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16410",
-    "description": "AN16410",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of LUC flight contravene requirement as to Part B authorised limitations and conditions",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16411",
-    "description": "AN16411",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of LUC flight contravene requirement as to Part B record keeping",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16412",
-    "description": "AN16412",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of LUC flight contravene requirement as to Part B use of certified equipment",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16413",
-    "description": "AN16413",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of LUC flight contravene requirement as to Part C scope and privileges",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16414",
-    "description": "AN16414",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of LUC flight contravene requirement as to Part C operational control system",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16415",
-    "description": "AN16415",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of LUC flight contravene requirement as to Part C operational risk assessment",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16416",
-    "description": "AN16416",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of LUC flight contravene requirement as to Part C record keeping",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16417",
-    "description": "AN16417",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of LUC flight contravene requirement as to Part C record access",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16418",
-    "description": "AN16418",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of Article 16 flight contravene requirement as to registration",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16419",
-    "description": "AN16419",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of Article 16 flight contravene requirement as to display of registration number",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16420",
-    "description": "AN16420",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator of Article 16 flight contravene requirement as to reporting of safety occurrence",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16421",
-    "description": "AN16421",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Remote pilot fly unmanned aircraft in breach of restrictions",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16422",
-    "description": "AN16422",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Remote pilot of unmanned aircraft fail to carry proof of competency",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16423",
-    "description": "AN16423",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Remote pilot of unmanned aircraft fail to have appropriate competency in intended subcategory of flight",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16424",
-    "description": "AN16424",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Remote pilot of unmanned aircraft fail to comply with maximum operating height",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16425",
-    "description": "AN16425",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Owner cause or permit unmanned unregistered aircraft to be flown",
     "recordableOnPnc": false
   },
   {
@@ -7137,75 +6809,11 @@
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "AN16454",
-    "description": "AN16454",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Remote pilot of unmanned aircraft fail to comply with safety checks",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16455",
-    "description": "AN16455",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Remote pilot of unmanned aircraft fail to comply with MTOM check",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16456",
-    "description": "AN16456",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Remote pilot of unmanned aircraft fail to comply with fitness to fly",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16457",
-    "description": "AN16457",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Remote pilot of unmanned aircraft fail to keep unmanned flight in sight",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16458",
-    "description": "AN16458",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Remote pilot of unmanned aircraft fail to discontinue flight",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16459",
-    "description": "AN16459",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Remote pilot of unmanned aircraft fail to comply re: geographical zones",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16460",
-    "description": "AN16460",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Remote pilot of unmanned aircraft fail to comply re: flights close to emergency zones (open category)",
-    "recordableOnPnc": false
-  },
-  {
     "cjsCode": "AN16461",
     "description": "AN16461",
     "notifiableToHo": false,
     "offenceCategory": "CS",
     "offenceTitle": "Pilot in command of aircraft taxi on apron or manoeuvring area without permission of person in charge of aerodrome",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AN16465",
-    "description": "AN16465",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Remote pilot of unmanned aircraft fail to comply re: flights close to emergency zones (specific category)",
     "recordableOnPnc": false
   },
   {
@@ -7785,230 +7393,6 @@
     "offenceCategory": "CS",
     "offenceTitle": "Give false name and address to person investigating animal regulated procedures offence",
     "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "AO16001",
-    "description": "AO16001",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Remote pilot of Article 12 flight fail to comply with Part B fitness to fly",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AO16002",
-    "description": "AO16002",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Remote pilot of Article 12 flight fail to comply with Part B competency requirements",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AO16003",
-    "description": "AO16003",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Remote pilot of Article 12 flight fail to carry Part B proof of competency",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AO16004",
-    "description": "AO16004",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Remote pilot of Article 12 flight fail to comply with Part B safety checks",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AO16005",
-    "description": "AO16005",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Remote pilot of Article 12 flight contravene requirement as to Part B authorised limitations and conditions",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AO16006",
-    "description": "AO16006",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Remote pilot of Article 12 flight contravene requirement as to Part B risk avoidance",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AO16007",
-    "description": "AO16007",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Remote pilot of Article 12 flight contravene requirement as to Part B geographical zones",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AO16008",
-    "description": "AO16008",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Remote pilot of Article 12 flight contravene requirement as to Part B operator’s procedures",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AO16009",
-    "description": "AO16009",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Remote pilot of LUC flight fail to comply with Part B fitness to fly",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AO16010",
-    "description": "AO16010",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Remote pilot of LUC flight fail to comply with Part B competency requirements",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AO16011",
-    "description": "AO16011",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Remote pilot of LUC flight fail to comply with Part B proof of competency",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AO16012",
-    "description": "AO16012",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Remote pilot of LUC flight fail to comply with Part B safety checks",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AO16013",
-    "description": "AO16013",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Remote pilot of LUC flight contravene requirement as to Part B authorised limitations and conditions",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AO16014",
-    "description": "AO16014",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Remote pilot of LUC flight contravene requirement as to Part B risk avoidance",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AO16015",
-    "description": "AO16015",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Remote pilot of LUC flight contravene requirement as to Part B geographical zones",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AO16016",
-    "description": "AO16016",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Remote pilot of LUC flight contravene requirement as to Part B operator’s procedures",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AO16018",
-    "description": "AO16018",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator cause/permit unmanned aircraft to be flown contrary to open category flight regulations",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AO16019",
-    "description": "AO16019",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator cause / permit unmanned aircraft to be flown on specific category flight without authorisation",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AO16020",
-    "description": "AO16020",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "UAS operator cause/permit unmanned aircraft to be flown on certified category flight without authorisation",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AO16021",
-    "description": "AO16021",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Pilot of drone with take-off mass of less than 500g in subcategory A1 overfly assemblies of people",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AO16022",
-    "description": "AO16022",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Pilot of drone with take-off mass of less than 500g in subcategory A1 fail to reduce time of flight over assemblies",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AO16023",
-    "description": "AO16023",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Pilot of drone with take-off mass of less than 250g in subcategory A1 fail to reduce time of flight over assemblies",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AO16024",
-    "description": "AO16024",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Pilot of drone marked as category C1 overfly assemblies of people",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AO16025",
-    "description": "AO16025",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Pilot of drone marked as category C2 overfly assemblies of people",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AO16027",
-    "description": "AO16027",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Pilot of drone with take-off mass of less than 2kg in subcategory A2 not kept at 50 metre distance from people",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AO16028",
-    "description": "AO16028",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Pilot of drone marked as class C2 fly in residential area or where people endangered",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AO16029",
-    "description": "AO16029",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Pilot of drone marked as class C3 or C4 fly in residential area or where people endangered",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "AO16030",
-    "description": "AO16030",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Pilot of drone with take-off mass of less than 25kg fly in residential area or where people endangered",
-    "recordableOnPnc": false
   },
   {
     "cjsCode": "AP11001",
@@ -10912,12 +10296,30 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "AW06053B",
+    "description": "AW06053B",
+    "homeOfficeClassification": "097/05",
+    "notifiableToHo": true,
+    "offenceCategory": "CE",
+    "offenceTitle": "Aid and abet the causing of / an attempt to cause an animal fight to take place",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "AW06054",
     "description": "AW06054",
     "homeOfficeClassification": "097/05",
     "notifiableToHo": true,
     "offenceCategory": "CE",
     "offenceTitle": "Keep / train an animal for use in connection with an animal fight",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "AW06054B",
+    "description": "AW06054B",
+    "homeOfficeClassification": "097/05",
+    "notifiableToHo": true,
+    "offenceCategory": "CE",
+    "offenceTitle": "Aid and abet the keeping of / training of an animal for use in connection with an animal fight",
     "recordableOnPnc": true
   },
   {
@@ -12661,6 +12063,7 @@
   {
     "cjsCode": "BS25003",
     "description": "BS25003",
+    "homeOfficeClassification": "077/10",
     "notifiableToHo": true,
     "offenceCategory": "CI",
     "offenceTitle": "Supply / offer to supply relevant article for use in immigration crime",
@@ -12669,6 +12072,7 @@
   {
     "cjsCode": "BS25004",
     "description": "BS25004",
+    "homeOfficeClassification": "077/10",
     "notifiableToHo": true,
     "offenceCategory": "CI",
     "offenceTitle": "Concerned in / offer to supply relevant article for use in immigration crime",
@@ -12677,6 +12081,7 @@
   {
     "cjsCode": "BS25005",
     "description": "BS25005",
+    "homeOfficeClassification": "077/11",
     "notifiableToHo": true,
     "offenceCategory": "CI",
     "offenceTitle": "Receive / arrange to receive / remove / dispose etc. article for use in immigration crime",
@@ -12685,6 +12090,7 @@
   {
     "cjsCode": "BS25006",
     "description": "BS25006",
+    "homeOfficeClassification": "077/20",
     "notifiableToHo": true,
     "offenceCategory": "CE",
     "offenceTitle": "Create / cause creation of online material promoting unlawful immigration",
@@ -12693,6 +12099,7 @@
   {
     "cjsCode": "BS25007",
     "description": "BS25007",
+    "homeOfficeClassification": "077/21",
     "notifiableToHo": true,
     "offenceCategory": "CE",
     "offenceTitle": "Publish / cause to be published material on internet service promoting unlawful immigration service",
@@ -12701,6 +12108,7 @@
   {
     "cjsCode": "BS25008",
     "description": "BS25008",
+    "homeOfficeClassification": "077/10",
     "notifiableToHo": true,
     "offenceCategory": "CI",
     "offenceTitle": "Concerned in receipt / arrange to receive / removal / disposal of article for use in immigration crime",
@@ -12709,6 +12117,7 @@
   {
     "cjsCode": "BS25009",
     "description": "BS25009",
+    "homeOfficeClassification": "077/12",
     "notifiableToHo": true,
     "offenceCategory": "CI",
     "offenceTitle": "Collect information for use in immigration crime",
@@ -19416,15 +18825,6 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "CH20005",
-    "description": "CH20005",
-    "homeOfficeClassification": "168/80",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Responsible person for business in relevant area fail to display notice / take other measures regarding face coverings",
-    "recordableOnPnc": false
-  },
-  {
     "cjsCode": "CH20006",
     "description": "CH20006",
     "homeOfficeClassification": "168/80",
@@ -20553,7 +19953,7 @@
     "homeOfficeClassification": "125/68",
     "notifiableToHo": true,
     "offenceCategory": "CS",
-    "offenceTitle": "Harassment of a person in his home,",
+    "offenceTitle": "Harassment of a person in his home",
     "recordableOnPnc": true
   },
   {
@@ -20626,6 +20026,15 @@
     "offenceCategory": "CB",
     "offenceTitle": "Fail to comply with the requirements of a community order",
     "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "CJ03533",
+    "description": "CJ03533",
+    "homeOfficeClassification": "125/68",
+    "notifiableToHo": true,
+    "offenceCategory": "CS",
+    "offenceTitle": "Harassment of a person in his home",
+    "recordableOnPnc": true
   },
   {
     "cjsCode": "CJ08001",
@@ -25069,6 +24478,54 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "CP26001",
+    "description": "CP26001",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Trespass with intent to commit criminal offence",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CP26002",
+    "description": "CP26002",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Arrange / facilitate begging for gain",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CP26021",
+    "description": "CP26021",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Wear / otherwise use item to conceal identity at a protest",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "CP26022",
+    "description": "CP26022",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Possess pyrotechnic article at a protest",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "CP26023",
+    "description": "CP26023",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Climb on specified memorial",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CP26024",
+    "description": "CP26024",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Protest outside of public office-holder's home",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "CP65001",
     "description": "CP65001",
     "homeOfficeClassification": "195/99",
@@ -28433,33 +27890,6 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "CS06234",
-    "description": "CS06234",
-    "homeOfficeClassification": "195/04",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to give notice to the registrar of the change made to its PSC register, and the date on which the change was made",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "CS06235",
-    "description": "CS06235",
-    "homeOfficeClassification": "195/04",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Company / officer fail to keep register of people having significant control of company",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "CS06236",
-    "description": "CS06236",
-    "homeOfficeClassification": "195/04",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Company / officer refused / defaulted to provide copy of the company PSC register when requested",
-    "recordableOnPnc": false
-  },
-  {
     "cjsCode": "CS06237",
     "description": "CS06237",
     "homeOfficeClassification": "052/11",
@@ -28487,39 +27917,12 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "CS06241",
-    "description": "CS06241",
-    "homeOfficeClassification": "195/04",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Officer / director fail to inform person inspecting / copying PSC register date of last alteration / further alteration",
-    "recordableOnPnc": false
-  },
-  {
     "cjsCode": "CS06242",
     "description": "CS06242",
     "homeOfficeClassification": "195/04",
     "notifiableToHo": false,
     "offenceCategory": "CS",
     "offenceTitle": "Company / officer fail to deliver information to the registrar during a period of election",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "CS06243",
-    "description": "CS06243",
-    "homeOfficeClassification": "195/04",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to confirm all required information was delivered to registrar when requested",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "CS06244",
-    "description": "CS06244",
-    "homeOfficeClassification": "195/04",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Company / officer fail to give notice to the registrar of where its PSC register is kept",
     "recordableOnPnc": false
   },
   {
@@ -33411,7 +32814,7 @@
     "description": "DS14001",
     "notifiableToHo": true,
     "offenceCategory": "CE",
-    "offenceTitle": "Occupier of premises for swine fail to notify authority of  change in occupation",
+    "offenceTitle": "Occupier of premises for swine fail to notify authority of change in occupation",
     "recordableOnPnc": true
   },
   {
@@ -45731,6 +45134,23 @@
     "offenceCategory": "CE",
     "offenceTitle": "Possess component parts of ammunition with intent to manufacture",
     "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "FI68459",
+    "description": "FI68459",
+    "homeOfficeClassification": "115/21",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Make a false statement to procure police permit under section 7 of the Firearms Act 1968",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "FI68460",
+    "description": "FI68460",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Possess a relevant accessory to a firearm without a certificate",
+    "recordableOnPnc": false
   },
   {
     "cjsCode": "FL96001",
@@ -58744,6 +58164,7 @@
   {
     "cjsCode": "IM71502",
     "description": "IM71502",
+    "homeOfficeClassification": "078/28",
     "notifiableToHo": true,
     "offenceCategory": "CE",
     "offenceTitle": "Endanger another during sea crossing entering UK in breach of deportation order",
@@ -58752,6 +58173,7 @@
   {
     "cjsCode": "IM71503",
     "description": "IM71503",
+    "homeOfficeClassification": "078/28",
     "notifiableToHo": true,
     "offenceCategory": "CE",
     "offenceTitle": "Endanger other during sea crossing entering UK without leave",
@@ -58760,6 +58182,7 @@
   {
     "cjsCode": "IM71504",
     "description": "IM71504",
+    "homeOfficeClassification": "078/28",
     "notifiableToHo": true,
     "offenceCategory": "CE",
     "offenceTitle": "Endanger other during sea crossing arriving in UK without valid entry clearance",
@@ -62580,6 +62003,22 @@
     "offenceCategory": "CS",
     "offenceTitle": "Give false address to cab driver after refusal / failure to pay fare",
     "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "LD91002",
+    "description": "LD91002",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with a notice under section 53(1) of the Land Drainage Act 1991",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "LD91003",
+    "description": "LD91003",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Knowingly / recklessly provide false statement in response to a notice under section 53(1) of the Land Drainage Act 1991",
+    "recordableOnPnc": false
   },
   {
     "cjsCode": "LD96001",
@@ -67383,6 +66822,7 @@
   {
     "cjsCode": "MA24090",
     "description": "MA24090",
+    "homeOfficeClassification": "195/45",
     "notifiableToHo": false,
     "offenceCategory": "CS",
     "offenceTitle": "Operate small unmanned vehicle at Manchester Airport",
@@ -67391,6 +66831,7 @@
   {
     "cjsCode": "MA24091",
     "description": "MA24091",
+    "homeOfficeClassification": "195/45",
     "notifiableToHo": false,
     "offenceCategory": "CS",
     "offenceTitle": "Conduct market research or interview passengers or staff at Manchester Airport",
@@ -67399,6 +66840,7 @@
   {
     "cjsCode": "MA24092",
     "description": "MA24092",
+    "homeOfficeClassification": "195/45",
     "notifiableToHo": false,
     "offenceCategory": "CS",
     "offenceTitle": "Create graffiti upon wall / structure / floor pavement or surface at Manchester Airport",
@@ -67415,22 +66857,25 @@
   {
     "cjsCode": "MA24094",
     "description": "MA24094",
+    "homeOfficeClassification": "195/45",
     "notifiableToHo": false,
     "offenceCategory": "CS",
-    "offenceTitle": "Drive dangerously on part of Manchester Airport to which road traffic enactments do not apply",
+    "offenceTitle": "Drive dangerously on part of Manchester Airport",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "MA24095",
     "description": "MA24095",
+    "homeOfficeClassification": "195/45",
     "notifiableToHo": false,
     "offenceCategory": "CS",
-    "offenceTitle": "Drive without due care and attention on part of Manchester Airport to which road traffic enactments do not apply",
+    "offenceTitle": "Drive without due care and attention on part of Manchester Airport",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "MA24096",
     "description": "MA24096",
+    "homeOfficeClassification": "195/45",
     "notifiableToHo": false,
     "offenceCategory": "CS",
     "offenceTitle": "Drive whilst drunk or under influence of drugs on part of Manchester Airport",
@@ -67439,6 +66884,7 @@
   {
     "cjsCode": "MA24097",
     "description": "MA24097",
+    "homeOfficeClassification": "195/45",
     "notifiableToHo": false,
     "offenceCategory": "CS",
     "offenceTitle": "Drive whilst operating mobile telephone or other handheld device on part of Manchester Airport",
@@ -67447,14 +66893,16 @@
   {
     "cjsCode": "MA24098",
     "description": "MA24098",
+    "homeOfficeClassification": "195/45",
     "notifiableToHo": false,
     "offenceCategory": "CS",
-    "offenceTitle": "Drive at excess speed on part of Manchester Airport to which road traffic enactments do not apply",
+    "offenceTitle": "Drive at excess speed on part of Manchester Airport",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "MA24099",
     "description": "MA24099",
+    "homeOfficeClassification": "195/45",
     "notifiableToHo": false,
     "offenceCategory": "CS",
     "offenceTitle": "Drive vehicle in such a way as to cause danger or nuisance on part of Manchester Airport",
@@ -67463,14 +66911,16 @@
   {
     "cjsCode": "MA24100",
     "description": "MA24100",
+    "homeOfficeClassification": "195/45",
     "notifiableToHo": false,
     "offenceCategory": "CS",
-    "offenceTitle": "Fail to set vehicle handbrake on part of Manchester Airport to which road traffic enactments do not apply",
+    "offenceTitle": "Fail to set vehicle handbrake / restraining device when on part of Manchester Airport",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "MA24101",
     "description": "MA24101",
+    "homeOfficeClassification": "195/45",
     "notifiableToHo": false,
     "offenceCategory": "CS",
     "offenceTitle": "Use vehicle on part of Manchester Airport in contravention of steering, braking etc requirements",
@@ -67479,6 +66929,7 @@
   {
     "cjsCode": "MA24102",
     "description": "MA24102",
+    "homeOfficeClassification": "195/45",
     "notifiableToHo": false,
     "offenceCategory": "CS",
     "offenceTitle": "Use vehicle on part of Manchester Airport when safety locking devices not in good working order",
@@ -67487,6 +66938,7 @@
   {
     "cjsCode": "MA24103",
     "description": "MA24103",
+    "homeOfficeClassification": "195/45",
     "notifiableToHo": false,
     "offenceCategory": "CS",
     "offenceTitle": "Use vehicle on part of Manchester Airport when fuel or exhaust system were in a condition to cause danger / nuisance etc",
@@ -67495,6 +66947,7 @@
   {
     "cjsCode": "MA24104",
     "description": "MA24104",
+    "homeOfficeClassification": "195/45",
     "notifiableToHo": false,
     "offenceCategory": "CS",
     "offenceTitle": "Use vehicle on part of Manchester Airport with dangerous parts, load or accessories causing danger to person / property",
@@ -67503,14 +66956,16 @@
   {
     "cjsCode": "MA24105",
     "description": "MA24105",
+    "homeOfficeClassification": "195/45",
     "notifiableToHo": false,
     "offenceCategory": "CS",
-    "offenceTitle": "Use vehicle on part of Manchester Airport to which road traffic enactments do not apply with excess passengers",
+    "offenceTitle": "Use vehicle on part of Manchester Airport with excess passengers",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "MA24106",
     "description": "MA24106",
+    "homeOfficeClassification": "195/45",
     "notifiableToHo": false,
     "offenceCategory": "CS",
     "offenceTitle": "Use vehicle on part of Manchester Airport when seatbelts not worn by all passengers",
@@ -67519,6 +66974,7 @@
   {
     "cjsCode": "MA24107",
     "description": "MA24107",
+    "homeOfficeClassification": "195/45",
     "notifiableToHo": false,
     "offenceCategory": "CS",
     "offenceTitle": "Use vehicle when load not secured on part of Manchester Airport to which road traffic enactments do not apply",
@@ -67527,6 +66983,7 @@
   {
     "cjsCode": "MA24108",
     "description": "MA24108",
+    "homeOfficeClassification": "195/45",
     "notifiableToHo": false,
     "offenceCategory": "CS",
     "offenceTitle": "Permit entry onto part of Manchester Airport licensed for surface movement of aircraft",
@@ -67535,6 +66992,7 @@
   {
     "cjsCode": "MA24109",
     "description": "MA24109",
+    "homeOfficeClassification": "195/45",
     "notifiableToHo": false,
     "offenceCategory": "CS",
     "offenceTitle": "Use vehicle on Manchester Airport apron in breach of regulations regarding colour / identification / lights etc",
@@ -67543,6 +67001,7 @@
   {
     "cjsCode": "MA24110",
     "description": "MA24110",
+    "homeOfficeClassification": "195/45",
     "notifiableToHo": false,
     "offenceCategory": "CS",
     "offenceTitle": "Improper use of charging point on part of Manchester Airport to which road traffic enactments do not apply",
@@ -67551,6 +67010,7 @@
   {
     "cjsCode": "MA24111",
     "description": "MA24111",
+    "homeOfficeClassification": "195/45",
     "notifiableToHo": false,
     "offenceCategory": "CS",
     "offenceTitle": "Drive or place vehicle on part of Manchester Airport elsewhere than place provided for passage or accomodation",
@@ -67559,6 +67019,7 @@
   {
     "cjsCode": "MA24112",
     "description": "MA24112",
+    "homeOfficeClassification": "195/45",
     "notifiableToHo": false,
     "offenceCategory": "CS",
     "offenceTitle": "Fail to comply with lighting regulations on vehicle on part of Manchester Airport",
@@ -67567,6 +67028,7 @@
   {
     "cjsCode": "MA24113",
     "description": "MA24113",
+    "homeOfficeClassification": "195/45",
     "notifiableToHo": false,
     "offenceCategory": "CS",
     "offenceTitle": "Leave vehicle unattended with engine running on part of Manchester Airport to which road traffic enactments do not apply",
@@ -78565,6 +78027,115 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "NS23047",
+    "description": "NS23047",
+    "homeOfficeClassification": "062/11",
+    "notifiableToHo": true,
+    "offenceCategory": "CI",
+    "offenceTitle": "Unlawfully obtain or disclose trade secrets",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23048",
+    "description": "NS23048",
+    "homeOfficeClassification": "062/14",
+    "notifiableToHo": true,
+    "offenceCategory": "CI",
+    "offenceTitle": "Sabotage",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23049",
+    "description": "NS23049",
+    "homeOfficeClassification": "062/15",
+    "notifiableToHo": true,
+    "offenceCategory": "CI",
+    "offenceTitle": "Engage in prohibited conduct intending to have an interference effect",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23050",
+    "description": "NS23050",
+    "homeOfficeClassification": "062/15",
+    "notifiableToHo": true,
+    "offenceCategory": "CI",
+    "offenceTitle": "Engage in prohibited conduct recklessly having an interference effect",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23051",
+    "description": "NS23051",
+    "homeOfficeClassification": "062/15",
+    "notifiableToHo": true,
+    "offenceCategory": "CI",
+    "offenceTitle": "Engage with others in prohibited conduct intending an interference effect",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23052",
+    "description": "NS23052",
+    "notifiableToHo": true,
+    "offenceCategory": "CI",
+    "offenceTitle": "Invite support for a designated body for prohibited purpose",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23053",
+    "description": "NS23053",
+    "notifiableToHo": true,
+    "offenceCategory": "CI",
+    "offenceTitle": "Address meeting to support / further activities of designated body for prohibited purpose",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23054",
+    "description": "NS23054",
+    "notifiableToHo": true,
+    "offenceCategory": "CI",
+    "offenceTitle": "Arrange / manage meeting to support / further activities of designated body for prohibited purpose",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23055",
+    "description": "NS23055",
+    "notifiableToHo": true,
+    "offenceCategory": "CI",
+    "offenceTitle": "Arrange / manage meeting to be addressed by person belonging to designated body for prohibited purpose",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23056",
+    "description": "NS23056",
+    "notifiableToHo": true,
+    "offenceCategory": "CI",
+    "offenceTitle": "Engage in conduct intending to materially assist a designated body to carry out UK related activities",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23057",
+    "description": "NS23057",
+    "notifiableToHo": true,
+    "offenceCategory": "CI",
+    "offenceTitle": "Engage in conduct likely to materially assist a designated body to carry out UK related activities",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23058",
+    "description": "NS23058",
+    "notifiableToHo": true,
+    "offenceCategory": "CI",
+    "offenceTitle": "Obtain / accept / retain material benefit from designated body",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23059",
+    "description": "NS23059",
+    "notifiableToHo": true,
+    "offenceCategory": "CI",
+    "offenceTitle": "Agree to accept material benefit from a designated body / providion of such benefit to another",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "NS96002",
     "description": "NS96002",
     "homeOfficeClassification": "138/20",
@@ -83310,6 +82881,94 @@
     "notifiableToHo": true,
     "offenceCategory": "CE",
     "offenceTitle": "Fail to comply with an information notice re packaging waste - Wales",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26002",
+    "description": "PD26002",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to return expired / revoked / suspended pedicab driver's licence or other identification to TfL",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26003",
+    "description": "PD26003",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "London pedicab driver's licence holder fail to maintain policy of insurance against public liability risks",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26004",
+    "description": "PD26004",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "London pedicab driver's licence holder fail to possess and produce public liability risk policy for inspection",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26005",
+    "description": "PD26005",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with condition attached to London pedicab driver’s licence",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26006",
+    "description": "PD26006",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to return London pedicab driver’s licence when disqualified by reason of immigration status",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26007",
+    "description": "PD26007",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Obstruct constable / authorised officer acting in exercise of relevant power - Pedicab Drivers (London) Regulations 2026",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26008",
+    "description": "PD26008",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with requirement of constable / authorised officer- Pedicab Drivers (London) Regulations 2026",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26009",
+    "description": "PD26009",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to provide constable / authorised officer assistance or information required - Pedicab Drivers",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26010",
+    "description": "PD26010",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Make false statement to constable / authorised officer - Pedicab Drivers (London) Regulations 2026",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26011",
+    "description": "PD26011",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to wear TfL identification in specified manner when driving pedicab / plying for hire",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26012",
+    "description": "PD26012",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to return TfL identification when requested to do so",
     "recordableOnPnc": false
   },
   {
@@ -88605,6 +88264,14 @@
     "notifiableToHo": false,
     "offenceCategory": "CS",
     "offenceTitle": "Company officer fail to comply with requirement to provide customer info - Schedule 6 – Terrorism Act 2000",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "PT00082",
+    "description": "PT00082",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Wear/display item of clothing/article on relevant premises supporting proscribed organisation",
     "recordableOnPnc": true
   },
   {
@@ -93984,15 +93651,6 @@
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "RL05005",
-    "description": "RL05005",
-    "homeOfficeClassification": "169/06",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Possess intoxicants on a train service - bye-law",
-    "recordableOnPnc": false
-  },
-  {
     "cjsCode": "RL05006",
     "description": "RL05006",
     "homeOfficeClassification": "169/06",
@@ -94233,42 +93891,6 @@
     "notifiableToHo": false,
     "offenceCategory": "CS",
     "offenceTitle": "Loiter on the railway - bye-law",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "RL05033",
-    "description": "RL05033",
-    "homeOfficeClassification": "169/06",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Fail to comply with traffic sign - railway bye-law",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "RL05034",
-    "description": "RL05034",
-    "homeOfficeClassification": "169/06",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Place / leave obstructing vehicle - railway bye-law",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "RL05035",
-    "description": "RL05035",
-    "homeOfficeClassification": "169/06",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Park vehicle contrary to instructions - railway bye-law",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "RL05036",
-    "description": "RL05036",
-    "homeOfficeClassification": "169/06",
-    "notifiableToHo": false,
-    "offenceCategory": "CS",
-    "offenceTitle": "Park / leave vehicle without paying - railway bye-law",
     "recordableOnPnc": false
   },
   {
@@ -101917,6 +101539,14 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "RT88978",
+    "description": "RT88978",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Cause / permit person under age of 14 to drive electrically assisted pedal cycle - RTA 1988",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "RT89003",
     "description": "RT89003",
     "homeOfficeClassification": "099/99",
@@ -104736,7 +104366,7 @@
   {
     "cjsCode": "SF75048",
     "description": "SF75048",
-    "homeOfficeClassification": "099/99",
+    "homeOfficeClassification": "098/95",
     "notifiableToHo": true,
     "offenceCategory": "CE",
     "offenceTitle": "Fish / take fish without a licence with an instrument other than a rod and line",
@@ -104763,7 +104393,7 @@
   {
     "cjsCode": "SF75052",
     "description": "SF75052",
-    "homeOfficeClassification": "116/06",
+    "homeOfficeClassification": "098/95",
     "notifiableToHo": true,
     "offenceCategory": "CE",
     "offenceTitle": "Possess an unlicensed instrument other than a rod and line with intent to use it for fishing",
@@ -105114,7 +104744,7 @@
   {
     "cjsCode": "SF75122",
     "description": "SF75122",
-    "homeOfficeClassification": "116/06",
+    "homeOfficeClassification": "098/95",
     "notifiableToHo": true,
     "offenceCategory": "CE",
     "offenceTitle": "Fish / take fish by other than licensable means in circumstances where fish / taking may be authorised",
@@ -105123,7 +104753,7 @@
   {
     "cjsCode": "SF75123",
     "description": "SF75123",
-    "homeOfficeClassification": "116/06",
+    "homeOfficeClassification": "098/95",
     "notifiableToHo": true,
     "offenceCategory": "CS",
     "offenceTitle": "Fish / take fish by other than licensable means in circumstances where not authorised to fish / take fish",
@@ -105132,7 +104762,7 @@
   {
     "cjsCode": "SF75124",
     "description": "SF75124",
-    "homeOfficeClassification": "116/06",
+    "homeOfficeClassification": "098/95",
     "notifiableToHo": true,
     "offenceCategory": "CE",
     "offenceTitle": "Possess unlicenced instrument with intent to fish / take fish with a s.27A authority",
@@ -105141,7 +104771,7 @@
   {
     "cjsCode": "SF75125",
     "description": "SF75125",
-    "homeOfficeClassification": "116/06",
+    "homeOfficeClassification": "098/95",
     "notifiableToHo": true,
     "offenceCategory": "CE",
     "offenceTitle": "Possess unlicenced instrument with intent to fish / take fish without a s.27A authority",
@@ -111707,6 +111337,7 @@
   {
     "cjsCode": "SX03253",
     "description": "SX03253",
+    "homeOfficeClassification": "175/09",
     "notifiableToHo": true,
     "offenceCategory": "CS",
     "offenceTitle": "Create purported intimate image of adult",
@@ -111727,6 +111358,14 @@
     "notifiableToHo": true,
     "offenceCategory": "CS",
     "offenceTitle": "Request the inclusion / exclusion of a thing into a purported intimate image of adult",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "SX03270",
+    "description": "SX03270",
+    "notifiableToHo": true,
+    "offenceCategory": "CI",
+    "offenceTitle": "Make / adapt / supply / offer to supply a thing for use as a generator of purported intimate images",
     "recordableOnPnc": true
   },
   {
@@ -123602,6 +123241,14 @@
     "notifiableToHo": false,
     "offenceCategory": "CS",
     "offenceTitle": "Transporter transported an animal not fit for the intended journey",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "WA06016",
+    "description": "WA06016",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Transport animals in England in way that causes injury/suffering",
     "recordableOnPnc": true
   },
   {

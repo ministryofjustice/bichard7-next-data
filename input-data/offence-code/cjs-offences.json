@@ -5792,7 +5792,7 @@
   {
     "cjsCode": "AW06053B",
     "offenceCategory": "CE",
-    "offenceTitle": "Aid and abet cause / attempted to cause an animal fight to take place",
+    "offenceTitle": "Aid and abet the causing of / an attempt to cause an animal fight to take place",
     "recordableOnPnc": true
   },
   {
@@ -5804,7 +5804,7 @@
   {
     "cjsCode": "AW06054B",
     "offenceCategory": "CE",
-    "offenceTitle": "Aid and abet to keep / train an animal for use in connection with an animal fight",
+    "offenceTitle": "Aid and abet the keeping of / training of an animal for use in connection with an animal fight",
     "recordableOnPnc": true
   },
   {
@@ -9966,6 +9966,12 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "CD71041C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspiracy to destroy or damage property with intent to endanger life",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "CD71042",
     "offenceCategory": "CI",
     "offenceTitle": "Criminal damage - recklessly endangering life",
@@ -12732,12 +12738,6 @@
     "recordableOnPnc": false
   },
   {
-    "cjsCode": "CJ01015",
-    "offenceCategory": "CS",
-    "offenceTitle": "Harassment of a person in his home,",
-    "recordableOnPnc": true
-  },
-  {
     "cjsCode": "CJ01016",
     "offenceCategory": "CS",
     "offenceTitle": "Fail to comply with police direction to leave vicinity,",
@@ -12940,6 +12940,12 @@
     "offenceCategory": "CR",
     "offenceTitle": "Compensation / financial penalty etc. payable following a conditional caution",
     "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "CJ03533",
+    "offenceCategory": "CS",
+    "offenceTitle": "Harassment of a person in his home",
+    "recordableOnPnc": true
   },
   {
     "cjsCode": "CJ03801",
@@ -15672,6 +15678,42 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "CP26001",
+    "offenceCategory": "CS",
+    "offenceTitle": "Trespass with intent to commit criminal offence",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CP26002",
+    "offenceCategory": "CS",
+    "offenceTitle": "Arrange / facilitate begging for gain",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CP26021",
+    "offenceCategory": "CS",
+    "offenceTitle": "Wear / otherwise use item to conceal identity at a protest",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "CP26022",
+    "offenceCategory": "CS",
+    "offenceTitle": "Possess pyrotechnic article at a protest",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "CP26023",
+    "offenceCategory": "CS",
+    "offenceTitle": "Climb on specified memorial",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CP26024",
+    "offenceCategory": "CS",
+    "offenceTitle": "Protest outside of public office-holder's home",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "CP65001",
     "offenceCategory": "CS",
     "offenceTitle": "Fail to attend court as a witness when summoned to do so",
@@ -17577,6 +17619,12 @@
     "cjsCode": "CS06163B",
     "offenceCategory": "CE",
     "offenceTitle": "Aided and Abetted the offence of Fraudulent Trading under section 993 of the Companies Act 2006",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "CS06163C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspiracy - Carry on business of company with intent to defraud creditors / for other fraudulent purpose",
     "recordableOnPnc": true
   },
   {
@@ -27486,12 +27534,6 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "FI68052",
-    "offenceCategory": "CS",
-    "offenceTitle": "Make a false statement to procure police permit under section 7 of the Firearms Act 1968 for a firearm / ammunition",
-    "recordableOnPnc": true
-  },
-  {
     "cjsCode": "FI68053",
     "offenceCategory": "CS",
     "offenceTitle": "Make a false statement to procure police permit under section 7 of the Firearms Act 1968 for a shotgun",
@@ -28350,6 +28392,12 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "FI68371C",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conspiracy - Possess for sale etc shotgun - not registered dealer",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "FI68372",
     "offenceCategory": "CE",
     "offenceTitle": "Falsify certificate to acquire / purchase firearm",
@@ -28762,6 +28810,18 @@
     "offenceCategory": "CE",
     "offenceTitle": "Possess component parts of ammunition with intent to manufacture",
     "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "FI68459",
+    "offenceCategory": "CS",
+    "offenceTitle": "Make a false statement to procure police permit under section 7 of the Firearms Act 1968",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "FI68460",
+    "offenceCategory": "CS",
+    "offenceTitle": "Possess a relevant accessory to a firearm without a certificate",
+    "recordableOnPnc": false
   },
   {
     "cjsCode": "FI68501",
@@ -36954,6 +37014,12 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "IC01013",
+    "offenceCategory": "CI",
+    "offenceTitle": "Conduct ancillary to genocide etc. committed outside jurisdiction",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "IC76001",
     "offenceCategory": "CS",
     "offenceTitle": "Use / cause / permit use of transport equipment without certification for international carriage of perishable foods",
@@ -40418,7 +40484,13 @@
   {
     "cjsCode": "LD91002",
     "offenceCategory": "CS",
-    "offenceTitle": "Fail to comply with a notice under s.53(1) of the Land Drainage Act 1991",
+    "offenceTitle": "Fail to comply with a notice under section 53(1) of the Land Drainage Act 1991",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "LD91003",
+    "offenceCategory": "CS",
+    "offenceTitle": "Knowingly / recklessly provide false statement in response to a notice under section 53(1) of the Land Drainage Act 1991",
     "recordableOnPnc": false
   },
   {
@@ -43838,13 +43910,13 @@
   {
     "cjsCode": "MA24094",
     "offenceCategory": "CS",
-    "offenceTitle": "Drive dangerously on part of Manchester Airport to which road traffic enactments do not apply",
+    "offenceTitle": "Drive dangerously on part of Manchester Airport",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "MA24095",
     "offenceCategory": "CS",
-    "offenceTitle": "Drive without due care and attention on part of Manchester Airport to which road traffic enactments do not apply",
+    "offenceTitle": "Drive without due care and attention on part of Manchester Airport",
     "recordableOnPnc": false
   },
   {
@@ -43862,7 +43934,7 @@
   {
     "cjsCode": "MA24098",
     "offenceCategory": "CS",
-    "offenceTitle": "Drive at excess speed on part of Manchester Airport to which road traffic enactments do not apply",
+    "offenceTitle": "Drive at excess speed on part of Manchester Airport",
     "recordableOnPnc": false
   },
   {
@@ -43874,7 +43946,7 @@
   {
     "cjsCode": "MA24100",
     "offenceCategory": "CS",
-    "offenceTitle": "Fail to set vehicle handbrake on part of Manchester Airport to which road traffic enactments do not apply",
+    "offenceTitle": "Fail to set vehicle handbrake / restraining device when on part of Manchester Airport",
     "recordableOnPnc": false
   },
   {
@@ -43904,7 +43976,7 @@
   {
     "cjsCode": "MA24105",
     "offenceCategory": "CS",
-    "offenceTitle": "Use vehicle on part of Manchester Airport to which road traffic enactments do not apply with excess passengers",
+    "offenceTitle": "Use vehicle on part of Manchester Airport with excess passengers",
     "recordableOnPnc": false
   },
   {
@@ -45225,6 +45297,12 @@
     "cjsCode": "MD71105",
     "offenceCategory": "CE",
     "offenceTitle": "Produce a class B drug - other",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "MD71105A",
+    "offenceCategory": "CE",
+    "offenceTitle": "Attempt to Produce a class B drug - other",
     "recordableOnPnc": true
   },
   {
@@ -50904,18 +50982,6 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "NS23001",
-    "offenceCategory": "CI",
-    "offenceTitle": "Unlawfully obtain or disclose protected information",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "NS23002",
-    "offenceCategory": "CI",
-    "offenceTitle": "Unlawfully obtain or disclose trade secrets",
-    "recordableOnPnc": true
-  },
-  {
     "cjsCode": "NS23003",
     "offenceCategory": "CI",
     "offenceTitle": "Engage in conduct intended to assist a foreign intelligence service",
@@ -50970,33 +51036,9 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "NS23011",
-    "offenceCategory": "CI",
-    "offenceTitle": "Sabotage",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "NS23012",
-    "offenceCategory": "CI",
-    "offenceTitle": "Engage in prohibited conduct intending to have an interference effect",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "NS23013",
-    "offenceCategory": "CI",
-    "offenceTitle": "Engage in prohibited conduct recklessly having an interference effect",
-    "recordableOnPnc": true
-  },
-  {
     "cjsCode": "NS23014",
     "offenceCategory": "CI",
     "offenceTitle": "Agree to accept a material benefit from a foreign intelligence service",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "NS23015",
-    "offenceCategory": "CI",
-    "offenceTitle": "Engage with others in prohibited conduct intending an interference effect",
     "recordableOnPnc": true
   },
   {
@@ -51180,15 +51222,99 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "NS23046",
+    "offenceCategory": "CI",
+    "offenceTitle": "Unlawfully obtain or disclose protected information",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23047",
+    "offenceCategory": "CI",
+    "offenceTitle": "Unlawfully obtain or disclose trade secrets",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23048",
+    "offenceCategory": "CI",
+    "offenceTitle": "Sabotage",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23049",
+    "offenceCategory": "CI",
+    "offenceTitle": "Engage in prohibited conduct intending to have an interference effect",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23050",
+    "offenceCategory": "CI",
+    "offenceTitle": "Engage in prohibited conduct recklessly having an interference effect",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23051",
+    "offenceCategory": "CI",
+    "offenceTitle": "Engage with others in prohibited conduct intending an interference effect",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23052",
+    "offenceCategory": "CI",
+    "offenceTitle": "Invite support for a designated body for prohibited purpose",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23053",
+    "offenceCategory": "CI",
+    "offenceTitle": "Address meeting to support / further activities of designated body for prohibited purpose",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23054",
+    "offenceCategory": "CI",
+    "offenceTitle": "Arrange / manage meeting to support / further activities of designated body for prohibited purpose",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23055",
+    "offenceCategory": "CI",
+    "offenceTitle": "Arrange / manage meeting to be addressed by person belonging to designated body for prohibited purpose",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23056",
+    "offenceCategory": "CI",
+    "offenceTitle": "Engage in conduct intending to materially assist a designated body to carry out UK related activities",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23057",
+    "offenceCategory": "CI",
+    "offenceTitle": "Engage in conduct likely to materially assist a designated body to carry out UK related activities",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23058",
+    "offenceCategory": "CI",
+    "offenceTitle": "Obtain / accept / retain material benefit from designated body",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "NS23059",
+    "offenceCategory": "CI",
+    "offenceTitle": "Agree to accept material benefit from a designated body / providion of such benefit to another",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "NS23501",
     "offenceCategory": "CR",
-    "offenceTitle": "Application for a warrant for further detention",
+    "offenceTitle": "National Security - Application for a warrant for further detention",
     "recordableOnPnc": false
   },
   {
     "cjsCode": "NS23502",
     "offenceCategory": "CR",
-    "offenceTitle": "Application for an extension of warrant for further detention",
+    "offenceTitle": "National Security - Application for an extension of warrant for further detention",
     "recordableOnPnc": false
   },
   {
@@ -54552,6 +54678,72 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "PD26002",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to return expired / revoked / suspended pedicab driver's licence or other identification to TfL",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26003",
+    "offenceCategory": "CS",
+    "offenceTitle": "London pedicab driver's licence holder fail to maintain policy of insurance against public liability risks",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26004",
+    "offenceCategory": "CS",
+    "offenceTitle": "London pedicab driver's licence holder fail to possess and produce public liability risk policy for inspection",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26005",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with condition attached to London pedicab driver's licence",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26006",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to return London pedicab driver's licence when disqualified by reason of immigration status",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26007",
+    "offenceCategory": "CS",
+    "offenceTitle": "Obstruct constable / authorised officer acting in exercise of relevant power - Pedicab Drivers (London) Regulations 2026",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26008",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to comply with requirement of constable / authorised officer- Pedicab Drivers (London) Regulations 2026",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26009",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to provide constable / authorised officer assistance or information required - Pedicab Drivers",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26010",
+    "offenceCategory": "CS",
+    "offenceTitle": "Make false statement to constable / authorised officer - Pedicab Drivers (London) Regulations 2026",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26011",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to wear TfL identification in specified manner when driving pedicab / plying for hire",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PD26012",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to return TfL identification when requested to do so",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "PD49001",
     "offenceCategory": "CS",
     "offenceTitle": "Occupier of land fail to notify Local Authority of rats / mice living on / resorting to in substantial numbers",
@@ -56079,12 +56271,6 @@
     "cjsCode": "PL02045",
     "offenceCategory": "CS",
     "offenceTitle": "Make off while detained by CSO / CSV having failed to give / given false / inaccurate name / address",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "PL02047",
-    "offenceCategory": "CS",
-    "offenceTitle": "Make off while required to wait for arrival of constable with CSO / CSV re vagrancy offences",
     "recordableOnPnc": false
   },
   {
@@ -58776,6 +58962,12 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "PT00082",
+    "offenceCategory": "CS",
+    "offenceTitle": "Wear/display item of clothing/article on relevant premises supporting proscribed organisation",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "PT18001",
     "offenceCategory": "CE",
     "offenceTitle": "Organiser of package established in UK fail to provide effective security to cover insolvency",
@@ -59496,9 +59688,27 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "PV26003",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to return London pedicab vehicle licence to TfL on expiry / surrender / request",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "PV26004",
     "offenceCategory": "CS",
     "offenceTitle": "Fail to comply with condition attached to London pedicab vehicle licence",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PV26005",
+    "offenceCategory": "CS",
+    "offenceTitle": "Alter / deface / obscure / remove identification on a pedicab vehicle relating to London pedicab vehicle licence",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "PV26006",
+    "offenceCategory": "CS",
+    "offenceTitle": "Fail to notify TfL of stolen / lost / damage to pedicab vehicle identification",
     "recordableOnPnc": false
   },
   {
@@ -60380,7 +60590,7 @@
   {
     "cjsCode": "RA88046B",
     "offenceCategory": "CI",
-    "offenceTitle": "Aid / Abet the causing of death by dangerous driving",
+    "offenceTitle": "*****Aid / abet causing death by dangerous driving",
     "recordableOnPnc": true
   },
   {
@@ -67620,6 +67830,12 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "RS19018",
+    "offenceCategory": "CE",
+    "offenceTitle": "Supply or deliver by ship, 2709 oil and oil products from Russia to a third country",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "RS84002",
     "offenceCategory": "CS",
     "offenceTitle": "Failing to comply with requirement of certifying officer or PSV examiner relating to use of PSV for international carr",
@@ -70176,6 +70392,12 @@
     "recordableOnPnc": false
   },
   {
+    "cjsCode": "RT88978",
+    "offenceCategory": "CS",
+    "offenceTitle": "Cause / permit person under age of 14 to drive electrically assisted pedal cycle - RTA 1988",
+    "recordableOnPnc": false
+  },
+  {
     "cjsCode": "RT89003",
     "offenceCategory": "CE",
     "offenceTitle": "No operators licence - driver information system",
@@ -72063,6 +72285,12 @@
     "cjsCode": "SE20001",
     "offenceCategory": "CE",
     "offenceTitle": "Breach criminal behaviour order",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "SE20001A",
+    "offenceCategory": "CE",
+    "offenceTitle": "Attempt - Breach criminal behaviour order",
     "recordableOnPnc": true
   },
   {
@@ -77961,6 +78189,12 @@
     "cjsCode": "SX03255",
     "offenceCategory": "CS",
     "offenceTitle": "Request the inclusion / exclusion of a thing into a purported intimate image of adult",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "SX03270",
+    "offenceCategory": "CI",
+    "offenceTitle": "Make / adapt / supply / offer to supply a thing for use as a generator of purported intimate images",
     "recordableOnPnc": true
   },
   {
@@ -85320,18 +85554,6 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "VG24003",
-    "offenceCategory": "CS",
-    "offenceTitle": "Begging and wandering abroad",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "VG24005",
-    "offenceCategory": "CS",
-    "offenceTitle": "Begging in a public place",
-    "recordableOnPnc": true
-  },
-  {
     "cjsCode": "VG24006",
     "offenceCategory": "CS",
     "offenceTitle": "Procuring child to beg",
@@ -85350,45 +85572,9 @@
     "recordableOnPnc": true
   },
   {
-    "cjsCode": "VG24013",
-    "offenceCategory": "CS",
-    "offenceTitle": "Begging in a public place - second or subsequent occasion",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "VG24015",
-    "offenceCategory": "CS",
-    "offenceTitle": "Begging and wandering abroad - second / subsequent occasion",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "VG24017",
-    "offenceCategory": "CS",
-    "offenceTitle": "Lodging in a barn / outhouse / unoccupied building / open air - Vagrancy Act 1824",
-    "recordableOnPnc": false
-  },
-  {
-    "cjsCode": "VG24018",
-    "offenceCategory": "CS",
-    "offenceTitle": "Vagrant - being found in or upon enclosed premises",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "VG24021",
-    "offenceCategory": "CS",
-    "offenceTitle": "Gather / collect alms / charitable donations by false pretence / fraud",
-    "recordableOnPnc": true
-  },
-  {
     "cjsCode": "VG24025",
     "offenceCategory": "CS",
     "offenceTitle": "Wandering abroad and exposing wound or deformity to obtain alms",
-    "recordableOnPnc": true
-  },
-  {
-    "cjsCode": "VG24047",
-    "offenceCategory": "CS",
-    "offenceTitle": "Persistently beg in a public place (second or subsequent offence) - Vagrancy Act 1824",
     "recordableOnPnc": true
   },
   {
@@ -85808,7 +85994,7 @@
   {
     "cjsCode": "WA06016",
     "offenceCategory": "CS",
-    "offenceTitle": "Fail to comply with Article 3 of Council Regulation (EC) No 1/2005",
+    "offenceTitle": "Transport animals in England in way that causes injury/suffering",
     "recordableOnPnc": true
   },
   {
