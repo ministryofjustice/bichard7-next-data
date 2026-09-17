@@ -1,12 +1,13 @@
-import { exec } from "child_process"
 import * as fs from "fs"
-import * as util from "util"
 import { OffenceCode } from "../types/OffenceCode"
 import { PromiseResult } from "../types/Result"
 import convertXml from "./convertXml"
 import { PnldFile } from "./PnldFileDownloader"
+import { execFile } from "node:child_process"
+import { promisify } from "node:util"
+import path from "node:path"
 
-const execPromise = util.promisify(exec)
+const execFilePromise = promisify(execFile)
 
 type OffenceCodeMap = {
   [index: string]: OffenceCode
@@ -17,11 +18,16 @@ const unzipFile = async (file: PnldFile, outDir: string): PromiseResult<void> =>
     throw new Error("Filename is missing")
   }
 
-  if (fs.existsSync(outDir)) {
-    await fs.promises.rm(outDir, { recursive: true })
+  const absoluteFilePath = path.resolve(file.fileName)
+  const absoluteOutDir = path.resolve(outDir)
+
+  if (fs.existsSync(absoluteOutDir)) {
+    await fs.promises.rm(absoluteOutDir, { recursive: true })
   }
-  await fs.promises.mkdir(outDir)
-  await execPromise(`unzip -q "${file.fileName}" -d "${outDir}"`)
+
+  await fs.promises.mkdir(absoluteOutDir, { recursive: true })
+
+  await execFilePromise("unzip", ["-q", absoluteFilePath, "-d", absoluteOutDir])
 }
 
 const getAllFiles = async (startDir: string): Promise<string[]> => {
