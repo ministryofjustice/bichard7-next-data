@@ -17,6 +17,8 @@ jobs:
   bump-package-version:
     name: Bump package version
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     outputs:
       version: ${{ steps.bump.outputs.version }}
     steps:
