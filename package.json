@@ -19,7 +19,7 @@
     "merge-organisation-unit-data": "ts-node src/merge-organisation-unit-data.ts",
     "merge-cjs-result-codes-data": "ts-node src/merge-cjs-result-codes-data",
     "generate-trigger-config": "ts-node src/generate-trigger-properties/generate.ts",
-    "update-deps": "ncu -u --deep --cooldown 3d && npm install"
+    "update-deps": "ncu -u --deep --cooldown 3d && npm i --ignore-scripts && npm i --ignore-scripts --prefix output-data && npm i --ignore-scripts --prefix data-formatter"
   },
   "repository": {
     "type": "git",
