@@ -19,7 +19,7 @@
     "merge-organisation-unit-data": "ts-node src/merge-organisation-unit-data.ts",
     "merge-cjs-result-codes-data": "ts-node src/merge-cjs-result-codes-data",
     "generate-trigger-config": "ts-node src/generate-trigger-properties/generate.ts",
-    "update-deps": "ncu -u --deep --cooldown 3d && npm i --ignore-scripts && npm i --ignore-scripts --prefix output-data && npm i --ignore-scripts --prefix data-formatter"
+    "update-deps": "ncu -u --deep --cooldown 3d && npm i --ignore-scripts"
   },
   "repository": {
     "type": "git",
@@ -71,5 +71,9 @@
     "eslint-plugin-jest": "^29.16.6",
     "eslint-plugin-prettier": "^5.5.6",
     "@typescript-eslint/parser": "^8.70.1"
-  }
+  },
+  "workspaces": [
+    "output-data",
+    "data-formatter"
+  ]
 }
