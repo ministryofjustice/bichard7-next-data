@@ -234,7 +234,7 @@ jobs:
 
       - name: Wait for npm package to be available
         run: |
-          TIMEOUT=600  # Total time to wait in seconds (10 minutes)
+          TIMEOUT=3600  # Total time to wait in seconds (1 hour)
           INTERVAL=15  # Seconds between each check
           ELAPSED=0
           PACKAGE="@moj-bichard7-developers/bichard7-next-data@${VERSION}"
