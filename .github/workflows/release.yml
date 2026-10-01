@@ -229,6 +229,33 @@ jobs:
 
       - name: ⛓️ SLSA Supply Chain Security
         uses: ministryofjustice/devsecops-actions/sca/slsa@7dc13c20e2bf541b8a77fa1320a04983b18846f6 # v1.6.0
+        with:
+          security-patch-package-exclusion: '@moj-bichard7-developers/bichard7-next-data'
+
+      - name: Wait for npm package to be available
+        run: |
+          TIMEOUT=600  # Total time to wait in seconds (10 minutes)
+          INTERVAL=15  # Seconds between each check
+          ELAPSED=0
+          PACKAGE="@moj-bichard7-developers/bichard7-next-data@${VERSION}"
+          
+          echo "Waiting for $PACKAGE to become available on npm registry..."
+          
+          while [ $ELAPSED -lt $TIMEOUT ]; do
+            if npm view "$PACKAGE" version &> /dev/null; then
+              echo "Found package version $PACKAGE"
+              exit 0
+            fi
+          
+            echo "Retrying..."
+            sleep $INTERVAL
+            ELAPSED=$((ELAPSED + INTERVAL))
+          done
+          
+          echo "Timed out waiting for $PACKAGE"
+          exit 1
+        env:
+          VERSION: ${{ needs.bump-package-version.outputs.version }}
 
       - name: Update standing data npm package
         run: npm install @moj-bichard7-developers/bichard7-next-data@${VERSION} --ignore-scripts -w packages/core -w packages/ui -w packages/e2e-test -w packages/api  -w packages/conductor
