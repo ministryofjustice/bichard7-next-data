@@ -191,7 +191,7 @@
         "description": "Community sentence",
         "shortDescription": "Community sentence",
         "pncScreenToUpdate": "Will depend on what action is required on the case",
-        "cjsResultCode": "The case contains one of the following reason codes: 1030, 1032, 1115, 1116, 1336, 1507, 1508, 4575, 4576, 4577"
+        "cjsResultCode": "The case contains one of the following reason codes: 1030, 1032, 1115, 1116, 1134, 1507, 1508, 4575, 4576, 4577"
     },
     {
         "code": "TRPS0002",
