@@ -21,7 +21,7 @@
   "devDependencies": {
     "@emnapi/core": "^1.11.3",
     "@emnapi/runtime": "^1.11.3",
-    "@emnapi/wasi-threads": "^2.1.0",
+    "@emnapi/wasi-threads": "^2.2.0",
     "jest": "^30.5.2",
     "jest-extended": "^7.0.0",
     "ts-jest": "^29.4.14",
