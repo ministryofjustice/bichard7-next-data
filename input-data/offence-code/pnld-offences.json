@@ -111369,6 +111369,66 @@
     "recordableOnPnc": true
   },
   {
+    "cjsCode": "SX03272",
+    "description": "SX03272",
+    "notifiableToHo": true,
+    "offenceCategory": "CE",
+    "offenceTitle": "Sexual activity with an animal",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "SX03273",
+    "description": "SX03273",
+    "notifiableToHo": true,
+    "offenceCategory": "CE",
+    "offenceTitle": "Sexual activity with a corpse - no penetration",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "SX03274",
+    "description": "SX03274",
+    "notifiableToHo": true,
+    "offenceCategory": "CE",
+    "offenceTitle": "Sexual activity with a corpse - penetration",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "SX03282",
+    "description": "SX03282",
+    "homeOfficeClassification": "088/09",
+    "notifiableToHo": true,
+    "offenceCategory": "CE",
+    "offenceTitle": "Exposure - intent to cause alarm, distress or humiliation",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "SX03282A",
+    "description": "SX03282A",
+    "homeOfficeClassification": "088/09",
+    "notifiableToHo": true,
+    "offenceCategory": "CE",
+    "offenceTitle": "Attempt exposure with intent to cause alarm, distress or humiliation",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "SX03283",
+    "description": "SX03283",
+    "homeOfficeClassification": "088/09",
+    "notifiableToHo": true,
+    "offenceCategory": "CE",
+    "offenceTitle": "Exposure - reckless sexual gratification",
+    "recordableOnPnc": true
+  },
+  {
+    "cjsCode": "SX03283A",
+    "description": "SX03283A",
+    "homeOfficeClassification": "088/09",
+    "notifiableToHo": true,
+    "offenceCategory": "CE",
+    "offenceTitle": "Attempt exposure - reckless sexual gratification",
+    "recordableOnPnc": true
+  },
+  {
     "cjsCode": "SX56002",
     "description": "SX56002",
     "homeOfficeClassification": "024/01",
@@ -120659,6 +120719,22 @@
     "notifiableToHo": false,
     "offenceCategory": "CS",
     "offenceTitle": "Use / remove fire fighting / life saving equipment / apparatus without lawful authority",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "UA25001",
+    "description": "UA25001",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Remote pilot fly unmanned aircraft and fail to keep it in visual line of sight (open category)",
+    "recordableOnPnc": false
+  },
+  {
+    "cjsCode": "UA25002",
+    "description": "UA25002",
+    "notifiableToHo": false,
+    "offenceCategory": "CS",
+    "offenceTitle": "Remote pilot of unmanned aircraft fail to comply re: flights close to emergency zones (open category)",
     "recordableOnPnc": false
   },
   {
