@@ -160,3 +160,9 @@ export type Force = {
   code: string
   name: string
 }
+
+export type forceCatchmentArea = {
+  policeForceCode: string
+  policeForceArea: string
+  policeForceName: string
+}
