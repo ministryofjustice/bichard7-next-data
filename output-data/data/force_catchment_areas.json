@@ -1,222 +1,132 @@
-[
-  {
-    "policeForceCode": "01",
-    "policeForceArea": "E23000001",
-    "policeForceName": "Metropolitan Police Service"
-  },
-  {
-    "policeForceCode": "02",
-    "policeForceArea": "E23000001",
-    "policeForceName": "Metropolitan Police Service"
-  },
-  {
-    "policeForceCode": "03",
-    "policeForceArea": "E23000002",
-    "policeForceName": "Cumbria"
-  },
-  {
-    "policeForceCode": "04",
-    "policeForceArea": "E23000003",
-    "policeForceName": "Lancashire"
-  },
-  {
-    "policeForceCode": "05",
-    "policeForceArea": "E23000004",
-    "policeForceName": "Merseyside"
-  },
-  {
-    "policeForceCode": "06",
-    "policeForceArea": "E23000005",
-    "policeForceName": "Greater Manchester"
-  },
-  {
-    "policeForceCode": "07",
-    "policeForceArea": "E23000006",
-    "policeForceName": "Cheshire"
-  },
-  {
-    "policeForceCode": "10",
-    "policeForceArea": "E23000007",
-    "policeForceName": "Northumbria"
-  },
-  {
-    "policeForceCode": "11",
-    "policeForceArea": "E23000008",
-    "policeForceName": "Durham"
-  },
-  {
-    "policeForceCode": "12",
-    "policeForceArea": "E23000009",
-    "policeForceName": "North Yorkshire"
-  },
-  {
-    "policeForceCode": "13",
-    "policeForceArea": "E23000010",
-    "policeForceName": "West Yorkshire"
-  },
-  {
-    "policeForceCode": "14",
-    "policeForceArea": "E23000011",
-    "policeForceName": "South Yorkshire"
-  },
-  {
-    "policeForceCode": "16",
-    "policeForceArea": "E23000012",
-    "policeForceName": "Humberside"
-  },
-  {
-    "policeForceCode": "17",
-    "policeForceArea": "E23000013",
-    "policeForceName": "Cleveland"
-  },
-  {
-    "policeForceCode": "20",
-    "policeForceArea": "E23000014",
-    "policeForceName": "West Midlands"
-  },
-  {
-    "policeForceCode": "21",
-    "policeForceArea": "E23000015",
-    "policeForceName": "Staffordshire"
-  },
-  {
-    "policeForceCode": "22",
-    "policeForceArea": "E23000016",
-    "policeForceName": "West Mercia"
-  },
-  {
-    "policeForceCode": "23",
-    "policeForceArea": "E23000017",
-    "policeForceName": "Warwickshire"
-  },
-  {
-    "policeForceCode": "30",
-    "policeForceArea": "E23000018",
-    "policeForceName": "Derbyshire"
-  },
-  {
-    "policeForceCode": "31",
-    "policeForceArea": "E23000019",
-    "policeForceName": "Nottinghamshire"
-  },
-  {
-    "policeForceCode": "32",
-    "policeForceArea": "E23000020",
-    "policeForceName": "Lincolnshire"
-  },
-  {
-    "policeForceCode": "33",
-    "policeForceArea": "E23000021",
-    "policeForceName": "Leicestershire"
-  },
-  {
-    "policeForceCode": "34",
-    "policeForceArea": "E23000022",
-    "policeForceName": "Northamptonshire"
-  },
-  {
-    "policeForceCode": "35",
-    "policeForceArea": "E23000023",
-    "policeForceName": "Cambridgeshire"
-  },
-  {
-    "policeForceCode": "36",
-    "policeForceArea": "E23000024",
-    "policeForceName": "Norfolk"
-  },
-  {
-    "policeForceCode": "37",
-    "policeForceArea": "E23000025",
-    "policeForceName": "Suffolk"
-  },
-  {
-    "policeForceCode": "40",
-    "policeForceArea": "E23000026",
-    "policeForceName": "Bedfordshire"
-  },
-  {
-    "policeForceCode": "41",
-    "policeForceArea": "E23000027",
-    "policeForceName": "Hertfordshire"
-  },
-  {
-    "policeForceCode": "42",
-    "policeForceArea": "E23000028",
-    "policeForceName": "Essex"
-  },
-  {
-    "policeForceCode": "43",
-    "policeForceArea": "E23000029",
-    "policeForceName": "Thames Valley"
-  },
-  {
-    "policeForceCode": "44",
-    "policeForceArea": "E23000030",
-    "policeForceName": "Hampshire"
-  },
-  {
-    "policeForceCode": "45",
-    "policeForceArea": "E23000031",
-    "policeForceName": "Surrey"
-  },
-  {
-    "policeForceCode": "46",
-    "policeForceArea": "E23000032",
-    "policeForceName": "Kent"
-  },
-  {
-    "policeForceCode": "47",
-    "policeForceArea": "E23000033",
-    "policeForceName": "Sussex"
-  },
-  {
-    "policeForceCode": "48",
-    "policeForceArea": "E23000034",
-    "policeForceName": "City of London"
-  },
-  {
-    "policeForceCode": "50",
-    "policeForceArea": "E23000035",
-    "policeForceName": "Devon & Cornwall"
-  },
-  {
-    "policeForceCode": "52",
-    "policeForceArea": "E23000036",
-    "policeForceName": "Avon & Somerset"
-  },
-  {
-    "policeForceCode": "53",
-    "policeForceArea": "E23000037",
-    "policeForceName": "Gloucestershire"
-  },
-  {
-    "policeForceCode": "54",
-    "policeForceArea": "E23000038",
-    "policeForceName": "Wiltshire"
-  },
-  {
-    "policeForceCode": "55",
-    "policeForceArea": "E23000039",
-    "policeForceName": "Dorset"
-  },
-  {
-    "policeForceCode": "60",
-    "policeForceArea": "W15000001",
-    "policeForceName": "North Wales"
-  },
-  {
-    "policeForceCode": "61",
-    "policeForceArea": "W15000002",
-    "policeForceName": "Gwent"
-  },
-  {
-    "policeForceCode": "62",
-    "policeForceArea": "W15000003",
-    "policeForceName": "South Wales"
-  },
-  {
-    "policeForceCode": "63",
-    "policeForceArea": "W15000004",
-    "policeForceName": "Dyfed Powys"
-  }
-]
+{
+  "E23000001": [
+    "01",
+    "02"
+  ],
+  "E23000002": [
+    "03"
+  ],
+  "E23000003": [
+    "04"
+  ],
+  "E23000004": [
+    "05"
+  ],
+  "E23000005": [
+    "06"
+  ],
+  "E23000006": [
+    "07"
+  ],
+  "E23000007": [
+    "10"
+  ],
+  "E23000008": [
+    "11"
+  ],
+  "E23000009": [
+    "12"
+  ],
+  "E23000010": [
+    "13"
+  ],
+  "E23000011": [
+    "14"
+  ],
+  "E23000012": [
+    "16"
+  ],
+  "E23000013": [
+    "17"
+  ],
+  "E23000014": [
+    "20"
+  ],
+  "E23000015": [
+    "21"
+  ],
+  "E23000016": [
+    "22"
+  ],
+  "E23000017": [
+    "23"
+  ],
+  "E23000018": [
+    "30"
+  ],
+  "E23000019": [
+    "31"
+  ],
+  "E23000020": [
+    "32"
+  ],
+  "E23000021": [
+    "33"
+  ],
+  "E23000022": [
+    "34"
+  ],
+  "E23000023": [
+    "35"
+  ],
+  "E23000024": [
+    "36"
+  ],
+  "E23000025": [
+    "37"
+  ],
+  "E23000026": [
+    "40"
+  ],
+  "E23000027": [
+    "41"
+  ],
+  "E23000028": [
+    "42"
+  ],
+  "E23000029": [
+    "43"
+  ],
+  "E23000030": [
+    "44"
+  ],
+  "E23000031": [
+    "45"
+  ],
+  "E23000032": [
+    "46"
+  ],
+  "E23000033": [
+    "47"
+  ],
+  "E23000034": [
+    "48"
+  ],
+  "E23000035": [
+    "50"
+  ],
+  "E23000036": [
+    "52"
+  ],
+  "E23000037": [
+    "53"
+  ],
+  "E23000038": [
+    "54"
+  ],
+  "E23000039": [
+    "55"
+  ],
+  "W15000001": [
+    "60"
+  ],
+  "W15000002": [
+    "61"
+  ],
+  "W15000003": [
+    "62"
+  ],
+  "W15000004": [
+    "63"
+  ]
+}

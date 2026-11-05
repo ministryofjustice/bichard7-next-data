@@ -161,8 +161,6 @@ export type Force = {
   name: string
 }
 
-export type forceCatchmentArea = {
-  policeForceCode: string
-  policeForceArea: string
-  policeForceName: string
+export type ForceCatchmentArea = {
+  [key: string]: string[]
 }
